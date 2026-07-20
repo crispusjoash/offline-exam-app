@@ -1,0 +1,437 @@
+=== KISWAHILI ===
+Q1: 1. Leni alimwamkua Kibo, hujambo? Ni salamu gani nyingine ambayo Leni angetumia kumwamkua Kibo?
+  - Chewa?
+  - Masalkheri? (CORRECT)
+  - Sabalkheri?
+  - Shikamoo?
+CURRENT EXPLANATION: Kulingana na maelezo ya mwanzo, wamekutana 'jioni'. Salamu mwafaka ya wakati wa jioni katika Kiswahili ni 'Masalkheri'.
+
+Q2: 2. Leni alitumia lugha ya adabu alipokuwa akizungumza na Kibo. Chagua kauli aliyoitumia inayoonyesha adabu.
+  - Umejitwika mtungi kichwani kutafuta maji!
+  - Wanyama na ndege nao watakosa makao.
+  - Matangi yako makubwa yamekauka?
+  - Ni kweli unavyosema mwenzangu. (CORRECT)
+CURRENT EXPLANATION: Kuonyesha kukubaliana na mtu na kumwita 'mwenzangu' (kama katika 'Ni kweli unavyosema mwenzangu') ni dhihirisho la heshima, adabu, na unyenyekevu katika mazungumzo.
+
+Q3: 3. Katika mazungumzo, msikilizaji anaweza kukamilisha kauli ya anayezungumza. Chagua kauli iliyotumiwa kukamilisha nyingine katika mazungumzo haya.
+  - Bila shaka.
+  - Tutajenga ukuta. (CORRECT)
+  - Kweli kabisa.
+  - Samahani kaka.
+CURRENT EXPLANATION: Kibo alianza methali akisema 'Kumbuka tusipoziba ufa...', naye Leni akadakia na kuikamilisha akisema 'Tutajenga ukuta.'
+
+Q4: 4. Leni alimweleza Kibo athari za kutotunza mazingira. Ungekuwa Kibo, ungetaja athari gani nyingine?
+  - Kiwango cha joto kuongezeka. (CORRECT)
+  - Wanafunzi kuacha shule.
+  - Mahusiano baina ya watu yataharibika.
+  - Vyombo vya usafiri wa umma vitapungua.
+CURRENT EXPLANATION: Kutotunza mazingira, kama vile kukata miti, husababisha mabadiliko ya tabianchi ikiwemo kuongezeka kwa kiwango cha joto. Chaguo hili linaambatana na mada ya kimazingira.
+
+Q5: 5. Neno mwandani limetumika katika mazungumzo. Chagua neno lenye maana sawa na mwandani.
+  - Ndugu.
+  - Jirani.
+  - Sahibu. (CORRECT)
+  - Mwenza.
+CURRENT EXPLANATION: Mwandani ni mtu ambaye una uhusiano wa karibu sana naye; rafiki wa kufa kupona. Kisawe (neno lenye maana sawa) cha mwandani ni 'Sahibu'.
+
+Q6: 6. Kulingana na kifungu, maendeleo ya taifa hutegemea:
+  - bidhaa zinazouzwa.
+  - bajeti ya taifa.
+  - huduma za kimsingi.
+  - ushuru unaotozwa. (CORRECT)
+CURRENT EXPLANATION: Kifungu kinasema 'Nchi yetu hutegemea ushuru ambao wananchi hutozwa ili kuendesha shughuli zake.' Hivyo, maendeleo ya taifa hutegemea ushuru unaotozwa.
+
+Q7: 7. Kifungu kimeonyesha kuwa ni haki ya KRA kukusanya ushuru kwa sababu:
+  - bajeti huandaliwa kila mwaka.
+  - imepewa mamlaka kikatiba. (CORRECT)
+  - ni muhimu kuhakikisha matumizi yafaayo ya fedha.
+  - bidhaa nyingi huuzwa ndani na nje ya nchi.
+CURRENT EXPLANATION: Mwandishi anasema waziwazi kuwa KRA ni shirika ambalo 'limepewa mamlaka ya kikatiba kukusanya aina zote za ushuru'.
+
+Q8: 8. Miundomsingi ikiimarika:
+  - viwanda vya uzalishaji bidhaa vitaimarika. (CORRECT)
+  - wakulima watapata mazao mengi.
+  - idadi ya watu itaongezeka.
+  - uharibifu wa mazingira utapungua.
+CURRENT EXPLANATION: Kulingana na muktadha wa kiuchumi (kama unavyotolewa na ushuru), miundomsingi bora (k.m. barabara, umeme) inaimarisha moja kwa moja utendakazi wa viwanda na kuchochea ajira na uzalishaji.
+
+Q9: 9. Chagua maana ya neno kuidhinishwa kama lilivyotumiwa katika kifungu.
+  - kuwasilishwa.
+  - kuchunguzwa.
+  - kukubaliwa. (CORRECT)
+  - kukamilika.
+CURRENT EXPLANATION: Bajeti inaposomwa bungeni na 'kuidhinishwa', ina maana kuwa imepitishwa au 'kukubaliwa' rasmi kutumika.
+
+Q10: 10. Kulingana na kifungu, msimulizi alipewa zawadi kwa sababu:
+  - alifika nyumbani kwa likizo.
+  - alimsaidia mlezi wake. (CORRECT)
+  - alimpa ndama jina Simati.
+  - alitamani kuuza maziwa.
+CURRENT EXPLANATION: Msimulizi anasema, 'nilitumia muda wangu wa mapumziko kumsaidia mlezi wangu... Jambo hilo lilimfurahisha sana mlezi wangu akanizawidi ndama wa kike.' Kwa hivyo, kitendo cha kumsaidia mlezi ndicho kilichomletea zawadi.
+
+Q11: 11. Chagua jibu linaloonyesha kuwa msimulizi anafahamu uwekezaji.
+  - Anatumia likizo yake vizuri.
+  - Anatarajia Simati atapata ndama.
+  - Anafurahisha sana mlezi wake.
+  - Anapanga kuuza maziwa ili apate pesa. (CORRECT)
+CURRENT EXPLANATION: Uwekezaji (investment) ni mpango wa kuzalisha faida za kifedha. Mpango wake wa kuuza maziwa na kuweka pesa akiba ('akiba haiozi') ni thibitisho la fikra za kiuwekezaji.
+
+Q12: 12. Msimulizi alimsaidia mlezi wake kuwatunza mifugo wao. Kuwatunza ni:
+  - kuwalinda. (CORRECT)
+  - kuwatayarisha.
+  - kuwapenda.
+  - kuwafurahisha.
+CURRENT EXPLANATION: Kuwatunza mifugo inamaanisha kuwapa uangalizi kamili ikiwemo chakula na 'kuwalinda' dhidi ya magonjwa au wanyama wakali.
+
+Q13: 13. Jena na Joana watarejea shuleni mtondogoo. Mtondogoo itakuwa siku gani?
+  - Jumamosi.
+  - Jumapili.
+  - Jumatatu. (CORRECT)
+  - Jumanne.
+CURRENT EXPLANATION: Ikiwa kesho ni Ijumaa, basi leo ni Alhamisi. Mtiririko wa siku zifuatazo ni: Kesho (Ijumaa), Keshokutwa (Jumamosi), Mtondo (Jumapili), Mtondogoo (Jumatatu). Kwa hivyo, Mtondogoo ni Jumatatu.
+
+Q14: 14. Chagua vitendo vinavyoonyesha kuwa Jena na Joana wanapenda nchi yao.
+  - Kuhudhuria sherehe, kukariri shairi. (CORRECT)
+  - Kurejea shuleni, kukariri shairi.
+  - Kusimulia matukio, kuhudhuria sherehe.
+  - Kusimulia matukio, kurejea shuleni.
+CURRENT EXPLANATION: Kupenda nchi hudhihirishwa na uzalendo, ambao unaonyeshwa na vitendo vya kushiriki katika sikukuu ya kitaifa (kuhudhuria sherehe za Mashujaa) na kusifu mashujaa (kukariri shairi).
+
+Q15: 15. Maana ya kujiandaa kulingana na kifungu ni:
+  - kujitambulisha.
+  - kujitayarisha. (CORRECT)
+  - kujinufaisha.
+  - kujiburudisha.
+CURRENT EXPLANATION: Kujiandaa inamaanisha kujiweka tayari kwa jambo litakalotendeka; yaani 'kujitayarisha'.
+
+Q16: 16. Kuwa na afya yaani ----16---- bora ni jambo muhimu kwa binadamu.
+  - uhai
+  - nguvu
+  - kimo
+  - siha (CORRECT)
+CURRENT EXPLANATION: Neno 'siha' ni kisawe (neno lenye maana sawa) cha 'afya'. Kwa hivyo, kuwa na afya ni kuwa na siha bora.
+
+Q17: 17. Mlezi wangu husema kuwa lishe bora na mazoezi ya viungo vya mwili ni njia ----17---- ya kutupatia afya njema.
+  - kuzuri
+  - nzuri (CORRECT)
+  - mzuri
+  - vizuri
+CURRENT EXPLANATION: Neno 'njia' lipo katika ngeli ya I-ZI. Kivumishi kikubaliano chake lazima kianze na herufi 'n' iwapo ni kimoja (njia nzuri) au nyingi (njia nzuri).
+
+Q18: 18. Yeye huhakikisha kwamba ----18---- matunda, mboga, mihogo na maharagwe...
+  - tunakula (CORRECT)
+  - tungekula
+  - tukila
+  - tulikula
+CURRENT EXPLANATION: Kifungu kinazungumzia tabia ya kawaida na ya mara kwa mara (present tense), hivyo kitenzi mwafaka ni 'tunakula' ambacho huonyesha kitendo cha wakati uliopo.
+
+Q19: 19. ...matunda, mboga, mihogo na maharagwe ----19---- wingi.
+  - ya
+  - kwa (CORRECT)
+  - ni
+  - vya
+CURRENT EXPLANATION: Nahau inayotumika kuonyesha kiwango kikubwa au kitu kingi katika Kiswahili ni 'kwa wingi'.
+
+Q20: 20. Tukiwa na afya njema, tutaweza kufanya kazi kwa bidii kama ----20----.
+  - kiwavi
+  - mchwa (CORRECT)
+  - tausi
+  - njiwa
+CURRENT EXPLANATION: Hii ni tashbihi (simile) maarufu katika Kiswahili inayosifu uchapakazi. Mchwa hujulikana sana kwa kujenga vichuguu vikubwa na kufanya kazi bila kuchoka, hivyo 'kufanya kazi kwa bidii kama mchwa'.
+
+Q21: 21. Chagua umoja wa: 'Majembe yatatumiwa kupalilia mipapai yao michanga'.
+  - Jembe litatumiwa kupalilia mipapai yake michanga.
+  - Jembe litatumiwa kupalilia mmpapai yake mchanga.
+  - Jembe litatumiwa kupalilia mpapai wake mchanga. (CORRECT)
+  - Jembe litatumiwa kupalilia mpapai wake michanga.
+CURRENT EXPLANATION: Majembe (LI-YA) inakuwa Jembe. Yatatumiwa inakuwa litatumiwa. Mipapai (M-MI) inakuwa mpapai. Yao inakuwa wake. Michanga inakuwa mchanga. Jawabu kamili ni 'Jembe litatumiwa kupalilia mpapai wake mchanga'.
+
+Q22: 22. Chagua jibu sahihi kujaza pengo. Jakaya amekuwa akiwasaidia ----- zamani.
+  - hadi
+  - kisha
+  - tena
+  - tangu (CORRECT)
+CURRENT EXPLANATION: Kuonyesha asili au kianzio cha wakati, tunatumia neno 'tangu' (tangu zamani), likiwa na maana sawa na 'since' kwa lugha ya Kiingereza.
+
+Q23: 23. Ukitaka kwenda chooni utamwomba mwalimu ruhusa kwa kumwambia unataka kwenda -----.
+  - bafuni.
+  - majifichoni.
+  - msalani. (CORRECT)
+  - chumbani.
+CURRENT EXPLANATION: Kwa kutumia lugha ya adabu na staha ukiwa shuleni au mbele ya watu wazima, neno lenye heshima linalotumika badala ya 'chooni' ni 'msalani'.
+
+Q24: 24. Matu ni fundi wa nguo. Rinda la Anna limeshonwa na Matu. Kwa hivyo, Anna ------ rinda na Matu.
+  - wameshonewa
+  - wameshonesha
+  - ameshonewa (CORRECT)
+  - ameshonesha
+CURRENT EXPLANATION: Matu ndiye mtendaji (fundi). Anna ndiye mtendewa anayefanyiwa kazi. Kitenzi 'shona' katika kauli ya kutendewa kinakuwa 'shonewa'. Kwa kuwa Anna ni mmoja, inakuwa 'ameshonewa'.
+
+Q25: 25. Chagua jibu sahihi kujaza nafasi. Mlango ------ darasa ni safi.
+  - za
+  - ya
+  - wa (CORRECT)
+  - la
+CURRENT EXPLANATION: Neno 'Mlango' lipo katika ngeli ya M-MI. Kiunganishi-A cha ngeli hii katika umoja ni 'wa' (k.m. Mlango wa darasa).
+
+Q26: 26. Mjomba wako alikuletea zawadi juzi. Ikiwa leo ni Jumamosi, mjomba wako alikuletea zawadi siku gani?
+  - Jumanne.
+  - Jumatano.
+  - Alhamisi. (CORRECT)
+  - Ijumaa.
+CURRENT EXPLANATION: Tupange siku kinyumenyume kuanzia leo: Leo ni Jumamosi. Jana ilikuwa Ijumaa. Juzi (siku kabla ya jana) ilikuwa Alhamisi.
+
+Q27: 27. Tamu ni kwa chungu ilhali mwepesi ni kwa:
+  - mzito. (CORRECT)
+  - mkubwa.
+  - mnene.
+  - mpana.
+CURRENT EXPLANATION: Hapa tunatafuta vinyume. Kinyume cha neno 'tamu' ni 'chungu'. Hali kadhalika, kinyume cha kitu 'mwepesi' ni kitu 'mzito'.
+
+Q28: 28. Chagua jibu linaloonyesha ukanusho wa sentensi ifuatayo: Munira amesoma kitabu hicho.
+  - Munira hasomi kitabu hicho.
+  - Munira hatasoma kitabu hicho.
+  - Munira hakusoma kitabu hicho.
+  - Munira hajasoma kitabu hicho. (CORRECT)
+CURRENT EXPLANATION: Sentensi ipo katika wakati mtimilifu (njeo ya 'me-'). Unapokanusha kitenzi chenye 'me' (amesoma), unatumia 'ja' (hajasoma).
+
+Q29: 29. Mtu anapomhimiza mwenzake kufanya kazi, tunasema anamtia shime. Je, mtu anapomsaidia mwenzake katika jambo fulani huwa:
+  - anamfanyia hima.
+  - anampiga jeki. (CORRECT)
+  - anachapa kazi.
+  - anatia fora.
+CURRENT EXPLANATION: Nahau 'kumpiga mtu jeki' hutumika kumaanisha kumpa mtu msaada au ushirikiano anapokuwa anafanya jambo fulani zito.
+
+Q30: 30. Katana na Kombo hawapendi kushirikiana na wenzao kufanya shughuli za vikundi darasani. Chagua methali inayoweza kutumiwa kuwashauri kubadilisha tabia hii.
+  - Asiyesikia la mkuu huvunjika guu.
+  - Chelewa chelewa utakuta mwana si wako.
+  - Mchagua jembe si mkulima.
+  - Jifya moja haliinjiiki chungu. (CORRECT)
+CURRENT EXPLANATION: Jifya moja haliwezi kuweka chungu kikakaa sawa jikoni, inabidi yawe matatu. Hii ni methali inayotuhimiza umuhimu wa ushirikiano; mtu hawezi kufanikiwa akiwa peke yake bila kushirikiana na wengine.
+
+=== ENGLISH ===
+Q1: Fill in blank 1:
+  - Who are you?
+  - Who is this?
+  - Whom am I speaking to? (CORRECT)
+  - Whom do you want to speak to?
+CURRENT EXPLANATION: The teacher is asking for the identity of the caller in a polite and formal manner suitable for a school setting. 'Whom am I speaking to?' is the most grammatically correct and polite way to ask this over the phone.
+
+Q2: Fill in blank 2:
+  - May I be late for school today? (CORRECT)
+  - I want to be late for school today.
+  - I will be late for school today.
+  - Must I be late for school today?
+CURRENT EXPLANATION: The pupil is making a polite request to the teacher. 'May I' is the correct modal verb for asking permission politely.
+
+Q3: Fill in blank 3:
+  - That's good, Teacher.
+  - It's okay, Teacher.
+  - It's alright, Teacher.
+  - Thank you, Teacher. (CORRECT)
+CURRENT EXPLANATION: After the teacher grants permission and gives instructions, the most appropriate and polite response from the pupil is to express gratitude.
+
+Q4: For questions 4 to 5, complete each of the blank spaces with the correct alternative from the choices given.
+
+4. If I had a lot of money, I ------- travel all over the world.
+  - should
+  - would (CORRECT)
+  - can
+  - will
+CURRENT EXPLANATION: This is a Type 2 conditional sentence, which talks about a hypothetical or unlikely situation in the present or future. The structure is 'If + past simple, ... would + infinitive'. Therefore, 'would' is the correct choice.
+
+Q5: 5. Odoko goes to school ------- foot every morning.
+  - by
+  - with
+  - on (CORRECT)
+  - in
+CURRENT EXPLANATION: In English, the correct preposition to use when referring to walking as a means of transport is 'on'. We say 'on foot', not 'by foot'.
+
+Q6: 6. Why do we keep pets?
+  - To help us carry heavy things.
+  - To make us happy. (CORRECT)
+  - To provide food.
+  - To protect the environment.
+CURRENT EXPLANATION: When you read the very first paragraph, it clearly says, 'A pet is an animal kept for pleasure. We keep pets because we love their company.'
+Keeping an animal for pleasure and loving its company are things that directly bring us happiness! So, the best answer is that we keep them to make us happy.
+
+Q7: 7. Which one of the following is **true** about donkeys and dogs?
+  - They are man's best friend.
+  - They are better than us.
+  - They can do things that we cannot do. (CORRECT)
+  - They are always comfortable and healthy.
+CURRENT EXPLANATION: Let's think about both animals based on the passage! Dogs are great pets and provide loyal company, while donkeys are strong enough to carry heavy luggage.
+What do they both have in common? They both fall under the category of animals that have 'special abilities which human beings do not have.' Because of these unique abilities, they can do things that we simply cannot do on our own.
+
+Q8: 8. The word **'special'** as used in the passage means the same as
+  - strange.
+  - unusual. (CORRECT)
+  - new.
+  - unknown.
+CURRENT EXPLANATION: When the writer talks about animals having 'special' abilities, they mean abilities that humans don't normally have.
+If something isn't common or normal for everyone to have, we can describe it as 'unusual'. It's a unique and exceptional skill!
+
+Q9: 9. What is likely to happen if we do not treat animals kindly?
+  - They will not live with us.
+  - They may not give us enough food.
+  - We may not get enough benefits from them. (CORRECT)
+  - We may not be happy and comfortable.
+CURRENT EXPLANATION: The passage concludes by reminding us that whether animals are kept for pets, work, or food, they 'deserve kind treatment.'
+The logical implication here is a simple trade-off: since we get so many benefits from them (like company, transport, and food), failing to treat them kindly means we might lose out on all those wonderful benefits!
+
+Q10: 10. Why did Hassan's father write the list of items?
+  - He did not want Hassan to forget any item.
+  - He did not want Hassan to delay in the shop.
+  - He wanted Hassan to get the right balance from the shopkeeper. (CORRECT)
+  - He wanted Hassan to do the totals of the cost of the items.
+CURRENT EXPLANATION: In the passage, the writer specifically mentions that the father wrote the 'prices' on the list, which helped Hassan know the total cost and expect exactly seventy-five shillings in balance.
+While people often use shopping lists to avoid forgetting items, the emphasis here on prices and calculating the expected balance points to ensuring Hassan gets the correct change from the busy shopkeeper!
+
+Q11: 11. The shopkeeper was surprised to see Hassan back because ---------
+  - Hassan returned the money.
+  - the shopkeeper was very busy that day.
+  - Hassan had just left the shop. (CORRECT)
+  - the shopkeeper had given him the balance.
+CURRENT EXPLANATION: The story says, 'The shopkeeper was surprised to see him back so soon.'
+She was surprised before he even handed her the money. Her surprise was purely because he had just left a few moments ago and was already walking back into the shop!
+
+Q12: 12. This story teaches us that ---------
+  - honesty is the best policy. (CORRECT)
+  - hurry hurry has no blessing.
+  - once bitten twice shy.
+  - a friend in need is a friend indeed.
+CURRENT EXPLANATION: Hassan found himself with extra money that wasn't his. Even though he wanted to spend it, he remembered his father's advice and did the right thing by returning it.
+This classic moral lesson teaches us that being honest is always the best choice!
+
+Q13: 13. Which one of the following is **true** according to the story?
+  - Hare stole the groundnuts just like Hyena. (CORRECT)
+  - Hare was a true friend of the farmer.
+  - Hare was not able to cheat Hyena.
+  - Hare buried one of his legs in the ground.
+CURRENT EXPLANATION: In the very first sentence, the story says, 'Many afternoons, Hyena and Hare spent hours in a field eating the farmer's groundnuts.' This means they were both stealing the groundnuts together!
+
+Q14: 14. From the story, Hare is ---------.
+  - friendly
+  - funny
+  - busy
+  - tricky (CORRECT)
+CURRENT EXPLANATION: Hare came up with a cunning lie, telling Hyena that groundnuts are sweeter when your legs are buried, just so Hyena would get stuck and caught by the farmer.
+Someone who uses clever lies to deceive others is definitely tricky!
+
+Q15: 15. What do we learn from this story?
+  - People need to share what they have.
+  - We should keep the right friends. (CORRECT)
+  - Farmers should beat all Hyenas.
+  - We should always do what we are told.
+CURRENT EXPLANATION: Hyena thought Hare was his friend and partner in crime, but Hare completely betrayed him and left him to be beaten by the farmer.
+The story teaches us a valuable lesson: be careful who you trust, and make sure you keep the right friends!
+
+Q16: 16. Asha has a small garden at home. She likes it because it is a gift from ----16---- grandfather.
+  - his
+  - hers
+  - him
+  - her (CORRECT)
+CURRENT EXPLANATION: Asha is a girl. When referring to someone related to a female, we use the possessive pronoun 'her'. So it is 'her grandfather'.
+
+Q17: 17. Asha grows ----17---- vegetables in her garden.
+  - different (CORRECT)
+  - dry
+  - cooked
+  - plenty
+CURRENT EXPLANATION: In a garden, you grow raw, living plants. 'Dry' and 'cooked' don't make sense for growing vegetables. 'Plenty' requires 'of' (plenty of vegetables). 'Different' perfectly describes a variety of vegetables growing in a garden.
+
+Q18: 18. She ----18---- taking care of her vegetables.
+  - begins
+  - accepts
+  - enjoys (CORRECT)
+  - admires
+CURRENT EXPLANATION: Because she likes her garden, doing the work to take care of it is something she likes doing. The word 'enjoys' shows that she finds pleasure in taking care of her vegetables.
+
+Q19: 19. She does not like to sit in the house ----19---- play games on the phone.
+  - also
+  - and (CORRECT)
+  - yet
+  - because
+CURRENT EXPLANATION: The sentence links two things she dislikes doing together: sitting in the house, AND playing games on the phone. The conjunction 'and' joins these two similar activities smoothly.
+
+Q20: 20. She hopes to sell her harvest ----20---- month.
+  - future
+  - new
+  - next (CORRECT)
+  - later
+CURRENT EXPLANATION: When referring to the month that follows the current one, the correct English phrase is 'next month'. We don't say 'future month' or 'later month'.
+
+Q21: 21. The teacher found the learner ------- the classroom.
+  - to
+  - in (CORRECT)
+  - on
+  - over
+CURRENT EXPLANATION: A classroom is an enclosed space. When someone is inside an enclosed space, we use the preposition 'in'.
+
+Q22: 22. Ali left the book ------- the table.
+  - with
+  - on (CORRECT)
+  - in
+  - from
+CURRENT EXPLANATION: A table has a flat surface. When placing an object atop a surface, the correct preposition is 'on'.
+
+Q23: 23. The children are planting trees, -------
+  - aren't they? (CORRECT)
+  - aren't we?
+  - are they?
+  - are we?
+CURRENT EXPLANATION: This is a question tag. The main sentence is positive ('are planting'), so the tag must be negative. 'The children' is plural (they). Therefore, the correct tag is 'aren't they?'
+
+Q24: 24. Rudisha did not find the story book in his bag because ------- had taken it.
+  - anybody
+  - somebody (CORRECT)
+  - everybody
+  - nobody
+CURRENT EXPLANATION: The book is missing because a person took it without Rudisha knowing exactly who it was. The pronoun 'somebody' is used to refer to an unspecified person.
+
+Q25: 25. The teacher told us to take care of ------- during the journey.
+  - themselves
+  - yourself
+  - ourselves (CORRECT)
+  - yourselves
+CURRENT EXPLANATION: The pronoun in the sentence is 'us'. The matching reflexive pronoun for 'us' (we) is 'ourselves'. The teacher told us to take care of ourselves.
+
+Q26: 26. The thieves took away our goats ------- force.
+  - with
+  - by (CORRECT)
+  - at
+  - under
+CURRENT EXPLANATION: In English, the correct phrase used to describe an action done using violence or against someone's will is 'by force'.
+
+Q27: 27. This is the hen ------- egg broke.
+  - who
+  - whom
+  - whose (CORRECT)
+  - which
+CURRENT EXPLANATION: The egg belongs to the hen. To show possession linking a noun to its owner in a relative clause, we use the word 'whose'.
+
+Q28: 28. The class teacher will ------- us a present.
+  - given
+  - gives
+  - gave
+  - give (CORRECT)
+CURRENT EXPLANATION: The word 'will' indicates future tense. After modal verbs like 'will', 'shall', or 'can', we must always use the base form of the verb. So 'give' is correct.
+
+Q29: 29. 'Neither Kalusi nor Sofia came late to class'.
+Means:
+  - Only Kalusi came late to class.
+  - Only Sofia came late to class.
+  - Both Kalusi and Sofia came late to class.
+  - Both Kalusi and Sofia did not come late to class. (CORRECT)
+CURRENT EXPLANATION: The phrase 'Neither... nor' is used to make a negative statement about two things or people. It means 'not one and not the other'. So it means both Kalusi and Sofia did NOT come late.
+
+Q30: 30. According to the story, who plays football only?
+  - Nasir.
+  - Banda. (CORRECT)
+  - Lona.
+  - All of them.
+CURRENT EXPLANATION: Let's look at the facts:
+- Nasir plays football AND volleyball.
+- Lona plays football AND netball.
+- All three play football, but Banda is the ONLY one who doesn't have a second sport mentioned. Therefore, Banda plays football only!
+

@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 320" width="100%" height="100%">
+  <style>
+    .box { fill: white; stroke: #111; stroke-width: 1.5; }
+    .label { font-family: 'Times New Roman', serif; font-size: 24px; text-anchor: middle; fill: #111; }
+    .text { font-family: 'Times New Roman', serif; font-size: 22px; fill: #111; }
+  </style>
+
+  <!-- Box A -->
+  <text x="135" y="35" class="label">A</text>
+  <rect x="50" y="45" width="170" height="100" class="box" />
+  <text x="80" y="72" class="text">Cocaine</text>
+  <text x="80" y="100" class="text">Alcohol</text>
+  <text x="80" y="128" class="text">Miraa</text>
+
+  <!-- Box B -->
+  <text x="365" y="35" class="label">B</text>
+  <rect x="280" y="45" width="170" height="100" class="box" />
+  <text x="310" y="72" class="text">Cocaine</text>
+  <text x="310" y="100" class="text">Soda</text>
+  <text x="310" y="128" class="text">Miraa</text>
+
+  <!-- Box C -->
+  <text x="135" y="185" class="label">C</text>
+  <rect x="50" y="195" width="170" height="100" class="box" />
+  <text x="80" y="222" class="text">Cigarette</text>
+  <text x="80" y="250" class="text">Soda</text>
+  <text x="80" y="278" class="text">Miraa</text>
+
+  <!-- Box D -->
+  <text x="365" y="185" class="label">D</text>
+  <rect x="280" y="195" width="170" height="100" class="box" />
+  <text x="310" y="222" class="text">Cigarette</text>
+  <text x="310" y="250" class="text">Soda</text>
+  <text x="310" y="278" class="text">Cocaine</text>
+
+</svg>

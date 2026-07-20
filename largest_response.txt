@@ -1,0 +1,23 @@
+Here are the specific questions where the official marking scheme answers are highly questionable or logically flawed based on the texts provided:
+
+### 📖 English 2023 Paper
+**1. Question 11:**
+- **The Question:** The shopkeeper was surprised to see Hassan back because _________
+- **Marking Scheme Answer:** A (Hassan returned the money.)
+- **Why it's flawed:** The text explicitly says: *"The shopkeeper was surprised to see him back so soon."* This implies she was surprised because of the timeline (i.e., **C. Hassan had just left the shop**). Furthermore, the text separates her surprise from the money: *"When Hassan handed her the money, she was very grateful..."* She was surprised by his quick return, and grateful for the money.
+
+**2. Question 13:**
+- **The Question:** Which one of the following is true according to the story?
+- **Marking Scheme Answer:** D (Hare buried one of his legs in the ground.)
+- **Why it's flawed:** The story never actually says Hare buried one leg. It just says Hare replied, *"My legs are very short."* Conversely, option **A (Hare stole the groundnuts just like Hyena)** is undeniably true, as the very first sentence states: *"Many afternoons, Hyena and Hare spent hours in a field eating the farmer's groundnuts."* 
+
+**3. Question 30:**
+- **The Question:** According to the story, who plays football only?
+- **Marking Scheme Answer:** A (Nasir.)
+- **Why it's flawed:** The text clearly states: *"Nasir, Banda and Lona are friends. They all play football. Nasir also plays volleyball. Lona also plays netball."* Since Nasir plays football *and* volleyball, he cannot be the one who plays "football only". Banda is the only friend who isn't explicitly linked to a second sport, making **B (Banda)** the only logically correct answer.
+
+### 🧮 Mathematics 2023 Paper
+**1. Question 24 (The Open Cuboid):**
+- **Why it's flawed:** You actually caught this one yourself earlier! The question specifically asked for the surface area of an **open** cuboid. However, none of the multiple-choice options matched the math for an open cuboid. The official marking scheme selected the answer that corresponded to a **closed** cuboid. We actually had to note this discrepancy in the explanation so students wouldn't be confused!
+
+These types of discrepancies happen occasionally in official KNEC marking schemes. Should we leave them as the marking scheme dictates, or would you like me to "correct" the marking scheme for these specific questions in the app?

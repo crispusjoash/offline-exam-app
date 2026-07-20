@@ -1,0 +1,33 @@
+<svg viewBox="0 0 200 150" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="#cbd5e1" stroke-width="0.5">
+    <line x1="30" y1="130" x2="190" y2="130"/>
+    <line x1="30" y1="110" x2="190" y2="110"/>
+    <line x1="30" y1="90" x2="190" y2="90"/>
+    <line x1="30" y1="70" x2="190" y2="70"/>
+    <line x1="30" y1="50" x2="190" y2="50"/>
+    <line x1="30" y1="30" x2="190" y2="30"/>
+  </g>
+  <g font-size="7" font-family="sans-serif" text-anchor="end" fill="#475569">
+    <text x="27" y="132">0</text>
+    <text x="27" y="112">500</text>
+    <text x="27" y="92">1000</text>
+    <text x="27" y="72">1500</text>
+    <text x="27" y="52">2000</text>
+    <text x="27" y="32">2500</text>
+  </g>
+  <text x="-80" y="10" font-size="8" font-family="sans-serif" transform="rotate(-90)" fill="#475569">Money received in shillings</text>
+  
+  <rect x="40" y="80" width="20" height="50" fill="#64748b"/>
+  <rect x="70" y="50" width="20" height="80" fill="#64748b"/>
+  <rect x="100" y="60" width="20" height="70" fill="#64748b"/>
+  <rect x="130" y="40" width="20" height="90" fill="#64748b"/>
+  <rect x="160" y="70" width="20" height="60" fill="#64748b"/>
+  
+  <g font-size="7" font-family="sans-serif" text-anchor="middle" fill="#475569">
+    <text x="50" y="140">Monday</text>
+    <text x="80" y="140">Tuesday</text>
+    <text x="110" y="140">Wednesday</text>
+    <text x="140" y="140">Thursday</text>
+    <text x="170" y="140">Friday</text>
+  </g>
+</svg>
