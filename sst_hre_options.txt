@@ -1,0 +1,44 @@
+Q1: Which one of the following birds is associated with Lord Krishna?
+Options: ['Peacock. (CORRECT)', 'Dove.', 'Swan.', 'Eagle.']
+
+Q2: Grade 4 learners were told by their teacher to research on the deities and their roles. Which one of the deities given below is associated with creation?
+Options: ['Vishnu.', 'Shiv.', 'Brahma. (CORRECT)', 'Ganesh.']
+
+Q3: Jayna went to visit Ayodhya during Diwali. However, she discovered there is a Jain Tirthankar, whose birth is also associated with Ayodhya, the Jain tirthankara is
+Options: ['Mahavir', 'Abhinandannath (CORRECT)', 'Mallinath', 'Neminath.']
+
+Q4: The following statements describe an Enlightened Being:",       "questionList": [         "(i) He is seated on the carriage in the battlefield in Kurukshetra;",         "(ii) He is very devoted to an Avatar of Lord Vishnu;",         "(iii) He has supernatural powers;",         "(iv) He protects the good."       ],       "questionSuffix": "Who among the following Enlightened Beings is described above?
+Options: ['Bishma.', 'Dashrath.', 'Dronacharya.', 'Hanuman. (CORRECT)']
+
+Q5: Animals are considered sacred creation which should not be killed. The Scripture that talks about the preservation of the animals is
+Options: ['Ramayan', 'Shikshapatri (CORRECT)', 'Dhammapada', 'Bhagwad Gita.']
+
+Q6: The head priest in the temple which Manisha visits daily recites the Scripture in Sanskrit. The priest tells Manisha that he recites the Scripture in Sanskrit because
+Options: ['in translating into vernacular, the inner meaning is lost (CORRECT)', 'the rhythm of recitation gives pleasure to listeners', 'will motivates people to learn Sanskrit', 'Sanskrit is easier than the vernacular.']
+
+Q7: The prayer shown below belongs to
+Options: ['Sanatan', 'Jains', 'Sikhs', 'Buddhists. (CORRECT)']
+
+Q8: Dhwaj is a prominent feature in places of worship that is hoisted on top of it to
+Options: ['beautify the place of worship', 'helps devotees identify the faith (CORRECT)', "gives importance to the faith's symbol", 'It gives direction to the devotees.']
+
+Q9: Anil failed to perform well in his PHE assessment task. When he approached the teacher for assistance, he was told to practice the principle of _______ to pass his examination.
+Options: ['Punarjanam', 'Purushartha (CORRECT)', 'Pranidaya', 'Prarthana.']
+
+Q10: A teacher of HRE organized a class presentation on how morning chanting is done in a place of worship. The Sikh principle that guides the chanting is
+Options: ['Kirat Karna', 'Wand shakna', 'Naam Japna (CORRECT)', 'Sewa karna.']
+
+Q11: The image of an elephant at the entrance of Jain derasa symbolises
+Options: ['loyalty', 'taming of wildlife', 'a symbol for removing negative energy', 'a symbol of protection of the temple. (CORRECT)']
+
+Q12: Mohini is invited by her friend Jinita to the Mandir associated with an Avatar of Lord Vishnu for some prayers. Which of the following greetings is Mohini most likely to hear?
+Options: ['Jai Ambe.', 'Jai Shri Krishna. (CORRECT)', 'Jai Jinendra.', 'Jai Bhole Nath.']
+
+Q13: During a PHE lesson, Amrit fell down and hurt his leg. Hanjit stopped playing immediately and took Amrit for first aid. The value that was demonstrated by Hanjit is
+Options: ['respect', 'responsibility (CORRECT)', 'patience', 'tolerance.']
+
+Q14: Which two of the Utsavs, celebrate the victory of good over evil?
+Options: ['Paryushan Parv and Vasant Panchami.', 'Navratri and Janamashtami.', 'Diwali and Holi. (CORRECT)', 'Ramnavmi and Gurupurab.']
+
+Q15: The head teacher encouraged the learners to practice Yoga every morning. The main reason for practicing Yoga is to
+Options: ['participate in sports', 'enhance social cohesion', 'grow spiritually (CORRECT)', 'be physically fit.']

@@ -1,0 +1,10 @@
+export const kpseaSst2022 = {
+  "id": "kpsea-sst-2022",
+  "title": "KPSEA 2022 Social Studies & Creative Arts",
+  "subject": "Social Studies & Creative Arts",
+  "year": "2022",
+  "isParentPaper": true,
+  "durationMinutes": 100,
+  "timeAllowed": 100,
+  "sectionA": []
+};

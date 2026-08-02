@@ -1,0 +1,677 @@
+Question Number: 1
+Question Text: During a lesson, Grade 6 learners discussed functions of different parts of a plant. Which part of a plant is responsible for making plant food?
+Options:
+  - Root. (isCorrect: False)
+  - Stem. (isCorrect: False)
+  - Fruit. (isCorrect: False)
+  - Leaf. (isCorrect: True)
+Current Explanation:
+The leaf is the primary site of photosynthesis, the process by which a plant makes its food.
+
+* Roots absorb water and minerals, the stem transports these materials and supports the plant, and the fruit protects seeds.
+* None of these other parts are the primary site of food production.
+================================================================================
+
+Question Number: 2
+Question Text: The following diagrams were drawn by learners to represent two types of root systems E and F.
+Which one of the following pairs of plants is matched to its correct root system.
+Options:
+  - E: Maize, F: Sugarcane (isCorrect: False)
+  - E: Beans, F: Maize (isCorrect: True)
+  - E: Sisal, F: Beans (isCorrect: False)
+  - E: Sugarcane, F: Sisal (isCorrect: False)
+Current Explanation:
+Diagram E shows a tap root system (one main thick root with smaller lateral roots), while Diagram F shows a fibrous root system (many roots of similar size growing from the stem base).
+
+* Beans are dicotyledons and have tap roots (E).
+* Maize is a monocotyledon and has fibrous roots (F).
+================================================================================
+
+Question Number: 3
+Question Text: During a class activity, learners recorded the following observations about a group of invertebrates:
+Question List: ['(i) three body parts;', '(ii) three pairs of legs;', '(iii) have wings;', '(iv) have antennae.']
+Question Suffix: Which one of the following is a member of the group observed by the learners?
+Options:
+  - Tick. (isCorrect: False)
+  - Millipede. (isCorrect: False)
+  - Cockroach. (isCorrect: True)
+  - Centipede. (isCorrect: False)
+Current Explanation:
+The characteristics listed (three body parts, three pairs of legs, wings, and antennae) describe insects.
+
+* A cockroach is an insect.
+* A tick is an arachnid (two body parts, four pairs of legs), while millipedes and centipedes are myriapods with many body segments and numerous legs.
+================================================================================
+
+Question Number: 4
+Question Text: The following diagram represents some parts of the human heart drawn by learners during a lesson on functions of parts of the heart.
+Which one of the following is a function of the part labelled G?
+Options:
+  - Pumping blood to the lungs. (isCorrect: False)
+  - Pumping blood to other parts of the body. (isCorrect: True)
+  - Receiving blood from the rest of the body. (isCorrect: False)
+  - Receiving deoxygenated blood. (isCorrect: False)
+Current Explanation:
+The part labelled G is the left ventricle, which is characterized by its thick muscular wall.
+
+* Its function is to pump oxygenated blood with high pressure to all other parts of the body.
+* Pumping blood to the lungs is the job of the right ventricle, while receiving blood is the job of the atria (upper chambers).
+================================================================================
+
+Question Number: 5
+Question Text: Grade 6 learners listed the following parts of the human reproductive system. Which part belongs to the female reproductive system?
+Options:
+  - Cervix. (isCorrect: True)
+  - Prostate. (isCorrect: False)
+  - Testis. (isCorrect: False)
+  - Penis. (isCorrect: False)
+Current Explanation:
+The cervix is the lower part of the uterus that opens into the vagina, making it a part of the female reproductive system.
+
+* The prostate, testis, and penis are all parts of the male reproductive system.
+================================================================================
+
+Question Number: 6
+Question Text: During a Science lesson, learners observed activities shown in the following pictures. In which one of the activities is water **not** conserved?
+Options:
+  - A (isCorrect: False)
+  - B (isCorrect: False)
+  - C (isCorrect: False)
+  - D (isCorrect: True)
+Current Explanation:
+Activity D shows a person washing a car using a running hosepipe, which wastes a lot of water.
+
+* In contrast, harvesting rainwater (A), mulching to retain soil moisture (B), and using a cup while brushing teeth (C) are all excellent methods of conserving water.
+================================================================================
+
+Question Number: 7
+Question Text: A person donated a desktop computer to a friend who needed it instead of throwing it away. This is an example of managing solid waste by
+Options:
+  - reusing and recycling (isCorrect: False)
+  - reusing only (isCorrect: True)
+  - reducing only (isCorrect: False)
+  - reducing and recycling. (isCorrect: False)
+Current Explanation:
+Giving an item to someone else to use in its current form is 'reusing'.
+
+* **'Recycling'** would involve breaking down the computer to make a new product, and 'reducing' involves buying less in the first place.
+* Therefore, this action is reusing only.
+================================================================================
+
+Question Number: 8
+Question Text: During a class discussion, learners suggested ways of controlling water pollution. Which one of the following ways would control water pollution?
+Options:
+  - Boiling. (isCorrect: False)
+  - Filtration. (isCorrect: False)
+  - Avoiding open defecation. (isCorrect: True)
+  - Chemical treatment. (isCorrect: False)
+Current Explanation:
+Avoiding open defecation prevents harmful human waste from being washed into rivers and lakes, thereby controlling water pollution at its source.
+
+* Boiling, filtration, and chemical treatment are methods of purifying water *after* it has already been polluted or drawn for use, not ways of controlling the pollution itself.
+================================================================================
+
+Question Number: 9
+Question Text: During a class discussion, learners listed ways of preventing infestation by external parasites. Which one of the following ways prevent infestation by jiggers?
+Options:
+  - Not sharing clothes. (isCorrect: False)
+  - Wearing shoes. (isCorrect: True)
+  - Soaking clothes in hot water. (isCorrect: False)
+  - Ironing clothes. (isCorrect: False)
+Current Explanation:
+Jiggers are external parasites found in dust and soil that burrow into bare feet or toes.
+
+* Wearing shoes protects the feet and prevents jiggers from entering the skin.
+* Not sharing clothes, soaking clothes, and ironing are methods used to prevent lice or bedbugs, not jiggers.
+================================================================================
+
+Question Number: 10
+Question Text: Learners used a ball and ring shown in the following set up to demonstrate a certain property of matter. They observed that the ball could pass through the ring before heating but after heating it could not.
+Which one of the following properties of matter was being demonstrated? Matter
+Options:
+  - exerts pressure and has volume (isCorrect: False)
+  - changes state and has mass (isCorrect: False)
+  - occupies space and has weight (isCorrect: False)
+  - expands and contracts. (isCorrect: True)
+Current Explanation:
+Heating the metal ball caused it to increase in size (expand) so it could no longer fit through the ring.
+
+* When it cools, it will decrease in size (contract) and fit through again.
+* This classic experiment specifically demonstrates that solid matter expands when heated and contracts when cooled.
+================================================================================
+
+Question Number: 11
+Question Text: Which one of the statements describes an application of change of state of matter in everyday life?
+Options:
+  - Working of thermometers. (isCorrect: False)
+  - Warming water. (isCorrect: False)
+  - Hardening of bricks. (isCorrect: False)
+  - Drying of clothes. (isCorrect: True)
+Current Explanation:
+Drying clothes involves evaporation, where liquid water in the wet clothes changes its state into water vapor (gas) and escapes into the air.
+
+* Working of thermometers involves expansion, warming water is a temperature change without a state change, and hardening of bricks is a chemical/structural change.
+================================================================================
+
+Question Number: 12
+Question Text: Which one of the following components of air is 78% by volume?
+Options:
+  - Carbon dioxide. (isCorrect: False)
+  - Oxygen. (isCorrect: False)
+  - Nitrogen. (isCorrect: True)
+  - Inert gases. (isCorrect: False)
+Current Explanation:
+Nitrogen is the most abundant gas in the atmosphere, making up approximately 78% by volume.
+
+* Oxygen makes up about 21%, while carbon dioxide and inert gases (like argon) make up less than 1% combined.
+================================================================================
+
+Question Number: 13
+Question Text: Learners listed the following as ways by which friction can be reduced. Which one was **not** correct?
+Options:
+  - Lubrication. (isCorrect: False)
+  - Sharpening tools. (isCorrect: True)
+  - Smoothening surfaces. (isCorrect: False)
+  - Using rollers. (isCorrect: False)
+Current Explanation:
+Sharpening tools is a way of increasing pressure to cut objects easily, it does not reduce friction between moving parts.
+
+* In contrast, lubrication (oiling), smoothening rough surfaces, and using rollers (or ball bearings) are all effective methods used specifically to reduce friction.
+================================================================================
+
+Question Number: 14
+Question Text: A learner used a ladder as a simple machine to reach and fix a bulb in a house. The ladder is a simple machine because it makes it easier to
+Options:
+  - move loads in circles (isCorrect: False)
+  - move loads horizontally (isCorrect: False)
+  - overcome loads in the opposite direction of force (isCorrect: False)
+  - move loads through heights. (isCorrect: True)
+Current Explanation:
+A ladder acts as an inclined plane, which is a simple machine that makes it easier to move loads (like a person) upwards through heights.
+
+* It does not move loads horizontally, in circles, or in opposite directions (which describes a pulley).
+================================================================================
+
+Question Number: 15
+Question Text: Learners observed a cloud which appeared long, curled, feather-like and light. The cloud observed is most likely to be
+Options:
+  - cirrus (isCorrect: True)
+  - nimbus (isCorrect: False)
+  - stratus (isCorrect: False)
+  - cumulus. (isCorrect: False)
+Current Explanation:
+Cirrus clouds are high-altitude clouds that are characterized by their thin, wispy, curled, and feather-like appearance.
+
+* Nimbus clouds are dark rain clouds, stratus clouds are flat featureless layers, and cumulus clouds are large, puffy, cotton-like clouds.
+================================================================================
+
+Question Number: 16
+Question Text: The following photograph shows a farmer constructing a structure for controlling soil erosion. Study it and answer questions 16 and 17.
+Identify the structure in the picture.
+Options:
+  - Gabion. (isCorrect: False)
+  - Grass strip. (isCorrect: False)
+  - Terrace. (isCorrect: True)
+  - Trash line. (isCorrect: False)
+Current Explanation:
+The farmer is constructing a stepped ridge along the contour of a slope, which is a terrace.
+
+* A gabion is a wire mesh box filled with stones, a grass strip is a planted band of grass, and a trash line is a pile of dry vegetation.
+================================================================================
+
+Question Number: 17
+Question Text: How does the structure control soil erosion?
+Options:
+  - Intercepts rain drops. (isCorrect: False)
+  - Reduces speed of water. (isCorrect: True)
+  - Stores water. (isCorrect: False)
+  - Holds the soil back. (isCorrect: False)
+Current Explanation:
+Terraces work primarily by breaking a long slope into a series of shorter, flatter steps.
+
+* This effectively reduces the speed of surface runoff water, preventing it from washing away the topsoil.
+* While it can also hold soil back, reducing the speed of water is the fundamental mechanism of terracing.
+* Intercepting raindrops is the role of vegetation cover.
+================================================================================
+
+Question Number: 18
+Question Text: The picture below shows farm produce labelled 'ORGANIC' on the market.
+What does the label 'ORGANIC' mean? The farm produce is
+Options:
+  - free from artificial chemicals (isCorrect: True)
+  - free from pests and diseases (isCorrect: False)
+  - fresh (isCorrect: False)
+  - more tasty. (isCorrect: False)
+Current Explanation:
+In agriculture, the term 'organic' refers to produce that has been grown without the use of artificial fertilizers, synthetic pesticides, or other synthetic chemicals.
+
+* It does not necessarily mean it is free from pests (though farmers use natural methods), nor does it automatically mean it is fresher or tastier than conventionally grown produce.
+================================================================================
+
+Question Number: 19
+Question Text: The following photograph shows a method of protecting livestock. Use it to answer questions 19 and 20.
+The method protects the livestock by
+Options:
+  - preventing entry of the wild animals (isCorrect: True)
+  - producing flashing lights at night (isCorrect: False)
+  - scaring wild animals away (isCorrect: False)
+  - trapping the wild animals. (isCorrect: False)
+Current Explanation:
+The photograph shows a physical fence or boma surrounding the livestock.
+
+* This physical barrier works by preventing the entry of predators and wild animals.
+* It does not produce flashing lights, actively scare animals (like a scarecrow), or trap them.
+================================================================================
+
+Question Number: 20
+Question Text: How can you describe the animals in the photograph? They are
+Options:
+  - carnivorous (isCorrect: False)
+  - decomposers (isCorrect: False)
+  - omnivorous (isCorrect: False)
+  - herbivorous. (isCorrect: True)
+Current Explanation:
+The animals in the photograph are goats and sheep.
+
+* Goats and sheep are ruminants that feed exclusively on plant matter (grass and leaves), which makes them herbivores.
+* Carnivores eat meat, omnivores eat both meat and plants, and decomposers break down dead matter.
+================================================================================
+
+Question Number: 21
+Question Text: The following photograph shows a farmer carrying out a practice after germination of maize. Study it and answer questions 21 to 23.
+Identify the practice.
+Options:
+  - Gapping. (isCorrect: True)
+  - Pruning. (isCorrect: False)
+  - Thinning. (isCorrect: False)
+  - Training. (isCorrect: False)
+Current Explanation:
+The practice is gapping, which involves planting new seeds or seedlings in spaces where the original seeds failed to germinate, ensuring a full crop stand.
+================================================================================
+
+Question Number: 22
+Question Text: Which one of the following wild animals most likely interferes with germination of seeds?
+Options:
+  - Mole. (isCorrect: False)
+  - Monkey. (isCorrect: False)
+  - Squirrel. (isCorrect: True)
+  - Weaver bird. (isCorrect: False)
+Current Explanation:
+Squirrels are known to dig up and eat planted seeds like maize before or during germination, directly interfering with the process.
+
+* Moles primarily damage roots, monkeys eat mature fruits or cobs, and weaver birds are notorious pests for mature cereal grains (like wheat or sorghum heads) rather than germinating seeds.
+================================================================================
+
+Question Number: 23
+Question Text: From the photograph, name the other caring practice the farmer carried out on the maize.
+Options:
+  - Harvesting. (isCorrect: False)
+  - Pruning. (isCorrect: False)
+  - Training. (isCorrect: False)
+  - Weed control. (isCorrect: True)
+Current Explanation:
+In the photograph, while the farmer is uprooting excess maize plants (thinning), they are also simultaneously clearing the surrounding soil of unwanted plants.
+
+* This secondary caring practice is weed control.
+* The maize plants are far too young for harvesting or pruning, and maize does not require training.
+================================================================================
+
+Question Number: 24
+Question Text: Which one of the following is an indigenous vegetable crop?
+Options:
+  - Cabbage. (isCorrect: False)
+  - Kales. (isCorrect: False)
+  - Pigweed. (isCorrect: True)
+  - Spinach. (isCorrect: False)
+Current Explanation:
+Pigweed (Amaranthus, commonly known as Terere) is an indigenous African leafy vegetable.
+
+* Cabbage, kales (sukuma wiki), and spinach are all exotic vegetables that were introduced from other parts of the world.
+================================================================================
+
+Question Number: 25
+Question Text: Which one of the following pairs of crops consists of indigenous root crops?
+Options:
+  - Arrowroots and carrots. (isCorrect: False)
+  - Beetroot and cassava. (isCorrect: False)
+  - Carrots and yams. (isCorrect: False)
+  - Cassava and arrowroots. (isCorrect: True)
+Current Explanation:
+Cassava and arrowroots (nduma) are considered traditional or indigenous root and tuber crops heavily cultivated in local farming.
+
+* Carrots and beetroots are exotic root crops that were introduced from temperate regions.
+================================================================================
+
+Question Number: 26
+Question Text: Grade 5 learners at Kabila primary school were asked to give the meaning of common communicable diseases. Which one of the following statements is true about common communicable diseases?
+Options:
+  - They are diseases that are spread easily from one person to another. (isCorrect: True)
+  - They are diseases that cannot be spread from one person to another. (isCorrect: False)
+  - They are diseases that are spread only by communicating to people. (isCorrect: False)
+  - They are diseases that spread only when people move from one place to another. (isCorrect: False)
+Current Explanation:
+Communicable diseases are illnesses caused by infectious agents (like viruses or bacteria) that can be easily transmitted from one infected person (or animal) to another.
+
+* They are not spread by 'communicating' verbally, nor do they only spread when people move places, as they can spread within a household.
+* Non-communicable diseases are the ones that cannot be spread (like diabetes or cancer).
+================================================================================
+
+Question Number: 27
+Question Text: Four Grade 6 learners were asked by their teacher to bring some items needed for a Home Science lesson. Below is what each learner brought:
+Auma: Body lotion, petroleum jelly and skin care cream.
+Chris: Thread, thimble, make-up kit and pins.
+Fatma: Tie, socks, belt and scarf.
+Festus: Cup, spoon, perfume and needle.
+Who among the learners brought accessories used to enhance personal appearance?
+Options:
+  - Auma. (isCorrect: False)
+  - Chris. (isCorrect: False)
+  - Fatma. (isCorrect: True)
+  - Festus. (isCorrect: False)
+Current Explanation:
+In Home Science, accessories are items worn with garments to complete or enhance an outfit.
+
+* Ties, socks, belts, and scarves are all clothing accessories.
+* Auma brought cosmetics/lotions, Chris brought sewing equipment (plus makeup), and Festus brought utensils and perfume.
+================================================================================
+
+Question Number: 28
+Question Text: Razia advised her parents to always include savings in their family budget. Which one of the following statements is true about savings?
+Options:
+  - Savings is the amount of money you are left with after buying all items required. (isCorrect: False)
+  - Savings is the amount of money you are given back after paying for items. (isCorrect: False)
+  - Savings is the amount of money set aside for unexpected expenses. (isCorrect: False)
+  - Savings is the amount of money set aside for future use. (isCorrect: True)
+Current Explanation:
+Savings is a deliberate decision to set aside a portion of income for future use or goals.
+
+* Money set aside specifically for unexpected expenses is usually called an 'emergency fund'.
+* Money left over after buying things is just a balance, and money given back after paying is 'change'.
+================================================================================
+
+Question Number: 29
+Question Text: Masiero accompanied her father to the shop to buy cooking fat. Which one of the following is an important factor they should consider when choosing the cooking fat?
+Options:
+  - Colour of the packaging. (isCorrect: False)
+  - Expiry date on the package. (isCorrect: True)
+  - The type of packaging used. (isCorrect: False)
+  - Weight of the packaging material. (isCorrect: False)
+Current Explanation:
+The expiry date is crucial for health and safety, as it indicates whether the cooking fat is still safe for consumption.
+
+* Consuming expired products can cause food poisoning.
+* The color, type, or weight of the packaging material are secondary factors that do not affect the safety or quality of the food inside.
+================================================================================
+
+Question Number: 30
+Question Text: Grade 5 learners were asked to identify micronutrients found in food. Some of the micronutrients they identified are
+Options:
+  - proteins and lipids (isCorrect: False)
+  - carbohydrates and lipids (isCorrect: False)
+  - carbohydrates and proteins (isCorrect: False)
+  - vitamins and minerals. (isCorrect: True)
+Current Explanation:
+Micronutrients are essential elements required by organisms in varying, but small, quantities throughout life (hence 'micro').
+
+* Vitamins and minerals fall into this category.
+* Proteins, carbohydrates, and lipids (fats) are macronutrients because the body requires them in large amounts.
+================================================================================
+
+Question Number: 31
+Question Text: Lotum has advised his uncle not to use salting method to preserve meat. Which one of the following is a reason Lotum's uncle should avoid using salt to preserve meat?
+Options:
+  - Salt increases risk of constipation. (isCorrect: False)
+  - Salt increases risk of hypertension. (isCorrect: True)
+  - Salt improves weak bones. (isCorrect: False)
+  - Salt decreases the risk of asthma. (isCorrect: False)
+Current Explanation:
+Excessive consumption of salt (sodium) is a major dietary risk factor for developing hypertension (high blood pressure) and heart disease.
+
+* It does not increase the risk of constipation, nor does it improve weak bones or decrease asthma risks.
+================================================================================
+
+Question Number: 32
+Question Text: Salim is suffering from scurvy. Which one of the following eating habits is likely to have made Salim to develop scurvy?
+Options:
+  - Decreased consumption of fruits and vegetables. (isCorrect: True)
+  - Increased consumption of fruits and vegetables. (isCorrect: False)
+  - Decreased consumption of foods rich in carbohydrates. (isCorrect: False)
+  - Increased consumption of foods rich in fibre and water. (isCorrect: False)
+Current Explanation:
+Scurvy is a nutritional deficiency disease caused by a severe lack of Vitamin C (ascorbic acid) in the diet.
+
+* Vitamin C is abundantly found in fresh fruits (especially citrus) and vegetables.
+* Therefore, a decreased consumption of these foods leads to scurvy.
+================================================================================
+
+Question Number: 33
+Question Text: Ann and Ken were talking about one of the steps in laundering a handkerchief. The handkerchief is put in clean cold salty water without soap for some time. The step they were talking about is
+Options:
+  - washing (isCorrect: False)
+  - sorting (isCorrect: False)
+  - soaking (isCorrect: True)
+  - rinsing. (isCorrect: False)
+Current Explanation:
+Soaking involves placing an item in water (often with salt to dissolve mucus in handkerchiefs or blood stains) for a period of time before the actual washing begins.
+
+* This loosens dirt.
+* Washing involves soap and agitation, rinsing removes soap, and sorting is separating clothes before laundering.
+================================================================================
+
+Question Number: 34
+Question Text: Amanda has noticed that her school uniform has a gaping seam. She wants to repair it. Which one of the following stitches can she use to repair the gaping seam?
+Options:
+  - Loop stitches. (isCorrect: False)
+  - Back stitches. (isCorrect: True)
+  - Hemming stitches. (isCorrect: False)
+  - Oversewing stitches. (isCorrect: False)
+Current Explanation:
+A back stitch is a very strong, permanent stitch used to join two pieces of fabric together, making it perfect for repairing a torn or gaping seam.
+
+* Hemming is used to finish raw edges (like the bottom of a skirt), oversewing is for neatening raw edges to prevent fraying, and loop stitches are often decorative or used for buttonholes.
+================================================================================
+
+Question Number: 35
+Question Text: Every time Rihana wears her favourite dress, it clings to the body which makes her uncomfortable. To prevent the dress from clinging to her body, Rihana should
+Options:
+  - bleach the dress after washing (isCorrect: False)
+  - use a disinfectant when rinsing (isCorrect: False)
+  - rinse the dress well with clean water (isCorrect: False)
+  - use a fabric conditioner when rinsing. (isCorrect: True)
+Current Explanation:
+Clothes clinging to the body is usually caused by static electricity built up in synthetic fabrics.
+
+* Fabric conditioners (softeners) coat the fibers with a lubricating layer that reduces friction and static cling.
+* Bleach removes stains, disinfectants kill germs, and clean water removes soap, but none of these stop static cling.
+================================================================================
+
+Question Number: 36
+Question Text: Grade 6 learners developed the following rules for racing games:
+Question List: ['i. Wear suitable shoes while running;', 'ii. Keep to your lane when running;', 'iii. Drink adequate amount of water before the race;', 'iv. Avoid performing any exercise before the race.']
+Question Suffix: Which one of the following set of rules is correct?
+Options:
+  - i, ii, iv. (isCorrect: False)
+  - i, iii, iv. (isCorrect: False)
+  - i, ii, iii. (isCorrect: True)
+  - ii, iii, iv. (isCorrect: False)
+Current Explanation:
+Rules i, ii, and iii are all correct safety and performance guidelines for racing.
+
+* However, rule 'iv' is completely wrong—athletes *must* perform warm-up exercises before a race to prepare their muscles and prevent injuries.
+* Therefore, only the set containing i, ii, and iii is correct.
+================================================================================
+
+Question Number: 37
+Question Text: Rope skipping is a common physical activity. Which one of the following statement is true about the effects of rope skipping exercise?
+Options:
+  - Makes the leg joints weak. (isCorrect: False)
+  - Causes lifestyle disease. (isCorrect: False)
+  - Can cause injury to ankles. (isCorrect: False)
+  - Improves physical fitness. (isCorrect: True)
+Current Explanation:
+Rope skipping is a cardiovascular exercise that strengthens the heart, improves lung capacity, tones muscles, and improves overall physical fitness.
+
+* While poor technique *could* hurt ankles, the general and primary intended effect is improving fitness.
+* It actively prevents lifestyle diseases and strengthens (rather than weakens) leg joints over time.
+================================================================================
+
+Question Number: 38
+Question Text: Grade 6 learners were asked to run to a specific point within the shortest time possible. Which component of fitness were the learners developing?
+Options:
+  - Speed. (isCorrect: True)
+  - Coordination. (isCorrect: False)
+  - Strength. (isCorrect: False)
+  - Balance. (isCorrect: False)
+Current Explanation:
+Running to a specific point in the *shortest time possible* is a direct measure and training method for speed (the ability to move the body or a part of it rapidly over a distance).
+
+* Strength is about exerting force, balance is about maintaining stability, and coordination is about smooth, controlled movements.
+================================================================================
+
+Question Number: 39
+Question Text: Sharing food during a camping activity is common among a group of friends. Why should friends share food during an outdoor activity?
+Options:
+  - Show friends' background with different kinds of food. (isCorrect: False)
+  - Promote unity among friends for better group work. (isCorrect: True)
+  - Encourage friends to rely on others for food. (isCorrect: False)
+  - Saves time for those who do not want to prepare and carry food. (isCorrect: False)
+Current Explanation:
+Sharing food promotes social cohesion, teamwork, and unity among campers.
+
+* Outdoor activities heavily rely on group work and a sense of community, rather than showing off or encouraging dependency.
+================================================================================
+
+Question Number: 40
+Question Text: During an outdoor activity, a group of learners found the following sign marked on the path.
+Question Suffix: What does this sign mean?
+Options:
+  - Turn right. (isCorrect: True)
+  - No way through. (isCorrect: False)
+  - Stop. (isCorrect: False)
+  - Turn left. (isCorrect: False)
+Current Explanation:
+The arrow in the sign points to the right, indicating a path or instruction to turn right.
+================================================================================
+
+Question Number: 41
+Question Text: A gymnastic competitor performed the skill shown in the following picture.
+Question Suffix: What is the name of the gymnastic skill?
+Options:
+  - Side vault. (isCorrect: True)
+  - Wall vault. (isCorrect: False)
+  - Fence vault. (isCorrect: False)
+  - Jump vault. (isCorrect: False)
+Current Explanation:
+The image shows a competitor performing a side vault, characterized by one hand supporting the body while vaulting sideways.
+================================================================================
+
+Question Number: 42
+Question Text: A first aid box contains items that are used when one is injured. Which of the following items is correctly matched with its use during first aid?
+Options:
+  - Scissors - cutting papers and muscles that have been injured. (isCorrect: False)
+  - Bandages - making straps to support the first aid box. (isCorrect: False)
+  - Thermometer - controlling body temperature. (isCorrect: False)
+  - Cotton wool - applying antiseptics and cleaning cuts. (isCorrect: True)
+Current Explanation:
+Cotton wool is correctly matched; it is used to clean wounds and apply antiseptics.
+
+* Scissors are used to cut bandages (not muscles!), bandages are used to secure dressings, and a thermometer measures (but does not control) body temperature.
+================================================================================
+
+Question Number: 43
+Question Text: Learners improvised relay batons using various materials. Which of the following material made the most durable relay baton?
+Options:
+  - Manila paper. (isCorrect: False)
+  - Clay. (isCorrect: False)
+  - Wood. (isCorrect: True)
+  - Grass. (isCorrect: False)
+Current Explanation:
+Wood is the strongest and most resilient material among the options provided, making it the most durable for improvising a relay baton that can survive being dropped and passed.
+================================================================================
+
+Question Number: 44
+Question Text: The following picture shows a gymnast performing a
+Options:
+  - hand stand (isCorrect: True)
+  - head stand (isCorrect: False)
+  - inverted stand (isCorrect: False)
+  - hand and head stand. (isCorrect: False)
+Current Explanation:
+The gymnast is supporting their entire body weight vertically on their hands alone, which is known as a hand stand.
+================================================================================
+
+Question Number: 45
+Question Text: Four learners set up outdoor shelters as follows:
+Question List: ['Jane: Close to the river', 'John: At the top of the hill', 'James: At the bottom of the valley', 'Juliet: At a gentle slope sheltered by trees']
+Question Suffix: Who among the learners chose a suitable site for an outdoor shelter?
+Options:
+  - Jane. (isCorrect: False)
+  - John. (isCorrect: False)
+  - James. (isCorrect: False)
+  - Juliet. (isCorrect: True)
+Current Explanation:
+Juliet chose the best site.
+
+* A gentle slope allows for proper water drainage, and trees provide natural shelter from strong winds and harsh sun.
+* Valleys and riversides are prone to flooding and cold, while the top of a hill exposes the shelter to strong winds.
+================================================================================
+
+Question Number: 46
+Question Text: Two players collided during a PHE lesson. One player started bleeding from the nose. Which one of the following is the correct first aid to control the bleeding?
+Options:
+  - Lying on the back while facing up. (isCorrect: False)
+  - Putting cotton wool in the nostrils to block the blood from flowing. (isCorrect: False)
+  - Sitting while leaning forward and pinching the soft part of the nose. (isCorrect: True)
+  - Sitting down with legs raised to relax and stop bleeding. (isCorrect: False)
+Current Explanation:
+For a nosebleed, the victim should sit up and lean slightly forward (so blood drains out, not down the throat) and pinch the soft part of the nose to apply pressure and help the blood clot.
+================================================================================
+
+Question Number: 47
+Question Text: Learners were asked to improvise a triangular bandage. Which one of the following material was suitable for improvising the bandage?
+Options:
+  - Newspapers. (isCorrect: False)
+  - Banana leaves. (isCorrect: False)
+  - Pieces of clothes. (isCorrect: True)
+  - A piece of carton. (isCorrect: False)
+Current Explanation:
+A triangular bandage is primarily made from fabric.
+
+* Pieces of old clothes can easily be cut into a triangular shape and are soft, flexible, and strong enough to support injured limbs, unlike paper, leaves, or carton.
+================================================================================
+
+Question Number: 48
+Question Text: Learners were asked to improvise a soccer ball to use during the inter-class competition. Which of the following materials did the learners use?
+Options:
+  - Old newspapers, strings, polythene bags. (isCorrect: False)
+  - Cotton wool, papers, strings. (isCorrect: True)
+  - Leaves, plastic bottles, strings. (isCorrect: False)
+  - Cotton wool, wire, old newspapers. (isCorrect: False)
+Current Explanation:
+According to the curriculum, a combination of soft materials like cotton wool, papers, and strings can be used to improvise a safe and functional soccer ball for physical education.
+================================================================================
+
+Question Number: 49
+Question Text: A school handball team members took their positions in the court ready to start the game. How many players did the team comprise?
+Options:
+  - 5 (isCorrect: False)
+  - 6 (isCorrect: False)
+  - 7 (isCorrect: True)
+  - 8 (isCorrect: False)
+Current Explanation:
+A standard handball team consists of 7 players on the court at any one time (6 outfield players and 1 goalkeeper).
+================================================================================
+
+Question Number: 50
+Question Text: When starting a race in athletics, competitors are given commands. Which of the following command is not given?
+Options:
+  - Go. (isCorrect: False)
+  - Set. (isCorrect: False)
+  - Run. (isCorrect: True)
+  - On your marks. (isCorrect: False)
+Current Explanation:
+The standard starting commands for a sprint race are 'On your marks', 'Set', and 'Go' (which is often a starting pistol).
+
+* **'Run'** is not used as a starting command.
+================================================================================
+

@@ -1,0 +1,211 @@
+Questions 1-5:
+{
+  "id": "kq1-2022",
+  "questionNumber": 1,
+  "questionText": "Muli alipoulizwa na babu kuhusu habari za shule, alimjibu",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q1-5",
+  "options": [
+    {
+      "text": "Naam",
+      "isCorrect": false
+    },
+    {
+      "text": "Njema",
+      "isCorrect": true
+    },
+    {
+      "text": "Shikamoo",
+      "isCorrect": false
+    },
+    {
+      "text": "Marahaba",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Njema**.\n\n**Analysis of the Correct Answer:**\nKatika mazungumzo, Babu anapomuuliza Muli: \"Habari za shule?\", Muli anajibu moja kwa moja: \"Njema babu!\".\n\n**Why Other Options Are Incorrect:**\n- **Naam:** Haya ni majibu ya kuitika unapoitwa au kukubaliana na jambo.\n- **Shikamoo:** Ni maamkizi ya heshima yanayotumiwa na mtu mdogo kwa mkubwa.\n- **Marahaba:** Ni jibu la maamkizi ya Shikamoo linalotolewa na mtu mkubwa.\n\n📌 **Kidokezo cha Kujifunza:**\nSwali la \"Habari za...?\" hujibiwa kwa maneno kama vile: Njema, Nzuri, Salama, au Njema sana."
+}
+{
+  "id": "kq2-2022",
+  "questionNumber": 2,
+  "questionText": "Maneno yafuatayo yametumiwa katika mazungumzo. Lipi halionyeshi adabu?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q1-5",
+  "options": [
+    {
+      "text": "Karibu",
+      "isCorrect": false
+    },
+    {
+      "text": "Naam",
+      "isCorrect": false
+    },
+    {
+      "text": "Asante",
+      "isCorrect": false
+    },
+    {
+      "text": "Kweli",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Kweli**.\n\n**Analysis of the Correct Answer:**\nManeno kama \"Karibu\", \"Naam\", na \"Asante\" ni maneno ya adabu na nidhamu ya kijamii. Neno \"Kweli\" linatumika kuthibitisha au kusisitiza ukweli wa jambo wala si neno la maamkizi au nidhamu ya kipekee.\n\n**Why Other Options Are Incorrect:**\n- **Karibu:** Ni neno la adabu la kumkaribisha mtu.\n- **Naam:** Ni neno la nidhamu la kuitika kwa heshima.\n- **Asante:** Ni neno la kuonyesha shukrani na adabu.\n\n📌 **Kidokezo cha Kujifunza:**\nManeno ya adabu ni pamoja na: Shikamoo, Marahaba, Asante, Karibu, Tafadhali, na Naam."
+}
+{
+  "id": "kq3-2022",
+  "questionNumber": 3,
+  "questionText": "Ni jibu lipi linaloonyesha maadili ambayo Babu alimfunza Muli?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q1-5",
+  "options": [
+    {
+      "text": "Kuhudumia, kuheshimu na kusikiliza.",
+      "isCorrect": false
+    },
+    {
+      "text": "Kuamkua, kusikiliza na kujali.",
+      "isCorrect": false
+    },
+    {
+      "text": "Kujali, kusaidia na kuwa mwaminifu.",
+      "isCorrect": true
+    },
+    {
+      "text": "Kuwa na heshima, kushirikiana na kusaidia.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Kujali, kusaidia na kuwa mwaminifu.**\n\n**Analysis of the Correct Answer:**\nKatika mazungumzo, Babu anamweleza Muli waziwazi: \"Unaweza kufanya hivyo kwa kuwajali na kuwasaidia wenzako... Unastahili pia kuwa mwaminifu.\"\n\n**Why Other Options Are Incorrect:**\n- Chagua A, B, na D zimetaja vitendo au njia za kuonyesha heshima badala ya orodha kamili ya maadili aliyoelezwa na Babu.\n\n📌 **Kidokezo cha Kujifunza:**\nUnapojibu maswali ya ufahamu au mazungumzo, rejelea maneno halisi yaliyotumiwa na wazungumzaji."
+}
+{
+  "id": "kq4-2022",
+  "questionNumber": 4,
+  "questionText": "Unafikiri Muli atafanya nini baada ya kumuaga Babu?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q1-5",
+  "options": [
+    {
+      "text": "Atafurahia kuwa kiongozi shuleni.",
+      "isCorrect": false
+    },
+    {
+      "text": "Atazingatia mawaidha ya babu.",
+      "isCorrect": true
+    },
+    {
+      "text": "Atawaeleza wenzake kuhusu alivyokutana na babu.",
+      "isCorrect": false
+    },
+    {
+      "text": "Atawapongeza wenzake kwa kumchagua kuwa kiranja.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Atazingatia mawaidha ya babu.**\n\n**Analysis of the Correct Answer:**\nMuli anasema mwishoni: \"Asante babu! Hakika umenifunza mengi.\" Hii inaonyesha ameyapokea mafunzo na atayatumia (atazingatia mawaidha) ili awe kiongozi bora.\n\n**Why Other Options Are Incorrect:**\n- **Atafurahia kuwa kiongozi...:** Alikuwa tayari kiranja lakini alitaka kujua jinsi ya kuwa kiongozi bora.\n- **Atawaeleza wenzake...:** Shabaha yake kuu ilikuwa kujua jinsi ya kuongoza vyema.\n- **Atawapongeza wenzake...:** Wenzake ndio waliomchagua yeye, na lengo lake lilikuwa kutekeleza wajibu wake.\n\n📌 **Kidokezo cha Kujifunza:**\nMawaidha mazuri kutoka kwa wazee na viongozi hutolewa ili yazingatiwe na kufanyiwa kazi."
+}
+{
+  "id": "kq5-2022",
+  "questionNumber": 5,
+  "questionText": "Neno maadili limetumika katika mazungumzo maana yake ni",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q1-5",
+  "options": [
+    {
+      "text": "Mienendo mizuri inayofaa kuzingatiwa na mtu.",
+      "isCorrect": true
+    },
+    {
+      "text": "Maonyo ambayo hutolewa mtu anapokosea.",
+      "isCorrect": false
+    },
+    {
+      "text": "Matendo ambayo mtu huwafanyia wenzake.",
+      "isCorrect": false
+    },
+    {
+      "text": "Mitindo mipya inayofuatwa na mtu.",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Mienendo mizuri inayofaa kuzingatiwa na mtu.**\n\n**Analysis of the Correct Answer:**\nMaadili ni tabia, mienendo na utu wema ambao jamii inatarajia mtu au kiongozi kuwa nao (kama vile uaminifu, heshima, na ushirikiano).\n\n**Why Other Options Are Incorrect:**\n- **Maonyo...:** Haya ni maadhibu au mawaidha ya kurekebisha makosa.\n- **Matendo...:** Matendo yanaweza kuwa mazuri au mabaya; maadili ni matendo na mienendo mizuri tu.\n- **Mitindo mipya...:** Hiyo ni mitindo au maendeleo wala si nidhamu na utu wema.\n\n📌 **Kidokezo cha Kujifunza:**\nMaadili ni msingi wa uongozi bora na tabia njema katika jamii."
+}
+
+Questions 10-12:
+{
+  "id": "kq10-2022",
+  "questionNumber": 10,
+  "questionText": "Ni kikundi kipi hakikushiriki kandanda?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q10-12",
+  "options": [
+    {
+      "text": "Simba",
+      "isCorrect": false
+    },
+    {
+      "text": "Chui",
+      "isCorrect": true
+    },
+    {
+      "text": "Kifaru",
+      "isCorrect": false
+    },
+    {
+      "text": "Ndovu",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Chui**.\n\n**Analysis of the Correct Answer:**\nUkiangalia jedwali:\n- Simba: Kandanda (Jumatatu)\n- Kifaru: Kandanda (Ijumaa)\n- Ndovu: Kandanda (Jumatano)\n- **Chui:** Netiboli (Jumatatu), Riadha (Jumatano), Uogeleaji (Ijumaa). Kikundi cha Chui hakina Kandanda kabisa.\n\n**Why Other Options Are Incorrect:**\n- Simba, Kifaru na Ndovu vyote vinashiriki mchezo wa kandanda siku tofauti za juma.\n\n📌 **Kidokezo cha Kujifunza:**\nUnaposoma jedwali, kagua kila safu na safuwima ili kupata taarifa sahihi."
+}
+{
+  "id": "kq11-2022",
+  "questionNumber": 11,
+  "questionText": "Ni kikundi kipi hakikushiriki uogeleaji?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q10-12",
+  "options": [
+    {
+      "text": "Ndovu",
+      "isCorrect": false
+    },
+    {
+      "text": "Kifaru",
+      "isCorrect": false
+    },
+    {
+      "text": "Chui",
+      "isCorrect": false
+    },
+    {
+      "text": "Simba",
+      "isCorrect": true
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Simba**.\n\n**Analysis of the Correct Answer:**\nKwenye jedwali:\n- Kifaru: Uogeleaji (Jumatano)\n- Chui: Uogeleaji (Ijumaa)\n- Ndovu: Uogeleaji (Jumatatu)\n- **Simba:** Kandanda, Netiboli, Riadha. Kikundi cha Simba hakina mchezo wa Uogeleaji.\n\n**Why Other Options Are Incorrect:**\n- Ndovu, Kifaru, na Chui vinatekeleza mchezo wa uogeleaji katika siku tofauti.\n\n📌 **Kidokezo cha Kujifunza:**\nSoma maswali yenye neno \"hakikushiriki\" kwa umakini ili usichanganye jibu."
+}
+{
+  "id": "kq12-2022",
+  "questionNumber": 12,
+  "questionText": "Ni kikundi kipi hakikushiriki riadha?",
+  "questionType": "mcq",
+  "contextRef": "ctx-kisw-2022-q10-12",
+  "options": [
+    {
+      "text": "Simba",
+      "isCorrect": false
+    },
+    {
+      "text": "Chui",
+      "isCorrect": false
+    },
+    {
+      "text": "Ndovu",
+      "isCorrect": true
+    },
+    {
+      "text": "Kifaru",
+      "isCorrect": false
+    }
+  ],
+  "explanation": "Jibu sahihi ni **Ndovu**.\n\n**Analysis of the Correct Answer:**\nJedwali linaonyesha michezo ya Ndovu kuwa: Uogeleaji (Jumatatu), Kandanda (Jumatano), na Netiboli (Ijumaa). Kikundi cha Ndovu hakishiriki Riadha.\n\n**Why Other Options Are Incorrect:**\n- Simba inashiriki Riadha Ijumaa.\n- Kifaru inashiriki Riadha Jumatatu.\n- Chui inashiriki Riadha Jumatano.\n\n📌 **Kidokezo cha Kujifunza:**\nKuhakikisha majibu ya jedwali ni jambo rahisi ukilinganisha safu ya kikundi na mchezo unaotajwa."
+}

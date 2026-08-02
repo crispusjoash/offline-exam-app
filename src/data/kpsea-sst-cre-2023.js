@@ -36,7 +36,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Planting trees helps conserve the environment by preventing soil erosion, purifying the air, providing shade, and beautifying the school compound."
+      "explanation": "The correct answer is **conserve the school environment**.\n\n**Analysis of the Correct Answer:**\nIn Christian Religious Education, taking care of the environment is a direct responsibility given to human beings by God in **Genesis 2:15** (stewardship of creation). Planting trees is a practical and vital way to protect soil from erosion, provide shade, keep the air clean, and **conserve the school environment**.\n\n**Why Other Options Are Incorrect:**\n* **avoid living in a dusty compound:** Reducing dust is a minor physical benefit, not the main biblical reason for environmental stewardship.\n* **ensure learners are busy:** Tree planting is a purposeful act of environmental care, not a chore just to keep students occupied.\n* **utilize the water in the school.:** Trees require water to grow, but utilizing excess water is not the primary purpose of tree planting.\n\n📌 **Key Learning Note:**\nPlanting trees fulfills God's biblical command of **creation stewardship** by conserving and caring for the environment."
     },
     {
       "questionNumber": 37,
@@ -60,7 +60,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Christianity teaches that leisure time should be spent on constructive, healthy, and moral activities.\n\n* Physical exercise promotes bodily health, whereas roadside idle sitting, disco parties, and betting (gambling) are not appropriate or constructive."
+      "explanation": "The correct answer is **Doing physical exercises.**.\n\n**Analysis of the Correct Answer:**\nChristianity teaches that leisure time should be spent engaging in wholesome, constructive, and health-building activities. **Doing physical exercises** keeps the body strong, promotes discipline, and respects our bodies as temples of the Holy Spirit (**1 Corinthians 6:19**).\n\n**Why Other Options Are Incorrect:**\n* **Sitting by the roadside.:** Sitting idle along roads wastes time and increases exposure to negative peer pressure and dangerous habits.\n* **Attending disco parties.:** Exposes young learners to noisy, unsafe environments and morally harmful behaviors.\n* **Participating in betting games.:** Gambling and betting promote greed, financial dishonesty, and addiction, which contradict Christian values.\n\n📌 **Key Learning Note:**\nChristian leisure time should be spent constructively in health-building activities such as sports, exercise, and helping others."
     },
     {
       "questionNumber": 38,
@@ -84,7 +84,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Sharing family chores and duties fosters cooperation, mutual support, responsibility, and harmony, which directly promotes unity at home."
+      "explanation": "The correct answer is **sharing duties among themselves**.\n\n**Analysis of the Correct Answer:**\nA Christian family thrives on love, cooperation, and mutual support. **Sharing duties among themselves** ensures that household work is divided fairly, preventing any single member from becoming overworked and promoting unity, peace, and teamwork in the home.\n\n**Why Other Options Are Incorrect:**\n* **reporting those who do not work:** Complaining and tattling creates hostility, resentment, and arguments rather than encouraging peaceful cooperation.\n* **inviting their friends to help them to do the work:** Expecting outside friends to do family household chores avoids personal family responsibility.\n* **giving gifts to those who work hard.:** Using gifts creates bribery or favoritism, whereas family duties should be shared out of mutual love.\n\n📌 **Key Learning Note:**\n**Sharing household chores** promotes family unity, teamwork, and Christian love."
     },
     {
       "questionNumber": 39,
@@ -108,7 +108,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Pharaoh's daughter felt compassion for the crying baby Moses in the basket and chose to rescue and raise him as her own, demonstrating the value of kindness and compassion."
+      "explanation": "The correct answer is **Kindness.**.\n\n**Analysis of the Correct Answer:**\nIn **Exodus 2:1-10**, when Pharaoh had ordered all newborn Hebrew boys to be killed, Pharaoh's daughter found baby Moses crying in a basket along the river. She demonstrated **kindness** and compassion by feeling deep sympathy for the baby and choosing to save his life and raise him.\n\n**Why Other Options Are Incorrect:**\n* **Holiness.:** Refers to moral purity and devotion to God, which is not the specific emotion shown when saving the infant.\n* **Peace.:** Refers to harmony; her specific action was driven by tender compassion and mercy.\n* **Loyalty.:** Means faithfulness to a ruler; in fact, she defied her father Pharaoh's cruel decree to show kindness to the helpless baby.\n\n📌 **Key Learning Note:**\nRescuing baby Moses was a great act of **kindness and mercy** that preserved the future leader of Israel."
     },
     {
       "questionNumber": 40,
@@ -133,7 +133,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Box A contains Hebrews, Jude, and Romans, which are all New Testament epistles.\n\n* Box B contains Hosea (Old Testament).\n* Box C contains Haggai, Esther, and Daniel (all Old Testament).\n* Box D contains Amos (Old Testament)."
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nThe Bible contains 66 books divided into two testaments: the Old Testament (39 books) and the New Testament (27 books). **Box A** is correct because it lists books exclusively from the **New Testament** (such as Matthew, Mark, Luke, John, Acts, Romans, Corinthians, Galatians, and Revelation).\n\n**Why Other Options Are Incorrect:**\n* **B:** Contains a mixture of Old Testament books (like Genesis or Exodus) alongside New Testament books.\n* **C:** Contains Old Testament books of poetry and wisdom (such as Psalms and Proverbs).\n* **D:** Contains Old Testament prophetic books (such as Isaiah, Jeremiah, or Daniel).\n\n📌 **Key Learning Note:**\nThe **New Testament** consists of **27 books**, beginning with the Gospel of Matthew and ending with Revelation."
     },
     {
       "questionNumber": 41,
@@ -157,7 +157,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The commandment 'Do not desire (covet) another man's property' directly teaches Christians to avoid greed and practice contentment with what they own."
+      "explanation": "The correct answer is **Do not desire another man's property.**.\n\n**Analysis of the Correct Answer:**\nThe Tenth Commandment (**Exodus 20:17**) states: **\"You shall not covet your neighbor's house, wife, or anything that belongs to your neighbor.\"** This commandment specifically teaches Christians to **be content with what they have** and avoid secret envy or greed for other people's possessions.\n\n**Why Other Options Are Incorrect:**\n* **Do not worship any other God.:** The First Commandment, which teaches monotheism and single devotion to God.\n* **Do not commit adultery.:** The Seventh Commandment, which protects the sanctity of marriage.\n* **Do not accuse anyone falsely.:** The Ninth Commandment, which forbids lying and bearing false witness.\n\n📌 **Key Learning Note:**\nThe **Tenth Commandment** warns against envy and covetousness, teaching us to be content with our own blessings."
     },
     {
       "questionNumber": 42,
@@ -181,7 +181,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The woman believed in her heart, 'If I only touch his cloak, I will be healed.' Her act was driven by her deep faith in Jesus' power."
+      "explanation": "The correct answer is **She had faith that she would be healed.**.\n\n**Analysis of the Correct Answer:**\nIn **Luke 8:43-48**, the woman who had suffered from a bleeding disorder for 12 years touched the hem of Jesus' cloak because **she had strong faith that she would be healed**. Jesus confirmed this by telling her, **\"Daughter, your faith has healed you; go in peace.\"**\n\n**Why Other Options Are Incorrect:**\n* **She loved the garment of Jesus.:** It was not admiration for clothing, but her faith in Jesus' divine healing power that healed her.\n* **She touched it by mistake.:** Her action was intentional, reaching out specifically to touch the fringe of His cloak.\n* **She was told by the disciple to do so.:** No disciple directed her; she acted independently on her personal faith.\n\n📌 **Key Learning Note:**\nStrong **faith in God's power** brings spiritual and physical healing, as shown by the woman who touched Jesus' cloak."
     },
     {
       "questionNumber": 43,
@@ -205,7 +205,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Jesus told this parable to illustrate that just as the neighbor gave bread due to his friend's bold persistence, God responds to persistent, earnest prayers."
+      "explanation": "The correct answer is **be persistent in prayer**.\n\n**Analysis of the Correct Answer:**\nIn **Luke 11:5-8**, Jesus taught the Parable of the Friend at Midnight, where a man repeatedly knocks on his neighbor's door at night for bread until the neighbor gets up and gives it to him. The main lesson of this parable is that Christians should **be persistent and unceasing in prayer**.\n\n**Why Other Options Are Incorrect:**\n* **provide help to our friends:** While helping friends is good, the main spiritual lesson of this specific parable is persistent prayer.\n* **welcome visitors in our homes:** Hospitality is important, but Jesus used this illustration to teach unceasing prayer.\n* **lock our doors at night.:** Practical home security is part of the story's setting, not its spiritual lesson.\n\n📌 **Key Learning Note:**\nThe Parable of the Friend at Midnight teaches Christians to **pray persistently** without giving up."
     },
     {
       "questionNumber": 44,
@@ -229,7 +229,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "When Jesus healed ten lepers, only one Samaritan returned to thank Him.\n\n* Jesus asked, 'Were not all ten cleansed? Where are the other nine?', emphasizing the importance of thankfulness."
+      "explanation": "The correct answer is **healing the Ten Lepers**.\n\n**Analysis of the Correct Answer:**\nIn **Luke 17:11-19**, Jesus healed ten men suffering from leprosy. However, only one of them (a Samaritan) returned to fall at Jesus' feet and thank Him. Jesus praised him, making this miracle a lesson that **encourages Christians to always be thankful to God** for His blessings and healing.\n\n**Why Other Options Are Incorrect:**\n* **healing the Roman Officer's servant:** Highlights the great faith of the Gentile centurion (Luke 7:1-10).\n* **turning water into wine:** Jesus' first miracle at Cana demonstrating His glory (John 2:1-11).\n* **calming the storm.:** Demonstrates Jesus' divine power over physical nature and elements (Mark 4:35-41).\n\n📌 **Key Learning Note:**\nThe miracle of **healing the ten lepers** teaches Christians to express gratitude and thanksgiving to God for His blessings."
     },
     {
       "questionNumber": 45,
@@ -253,7 +253,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The Rich Man was condemned because he feasted in luxury while ignoring the starving, poor Lazarus at his gate.\n\n* The parable teaches Christians to share their wealth and help those in need."
+      "explanation": "The correct answer is **buying food for poor people**.\n\n**Analysis of the Correct Answer:**\nIn the story of the Rich Man and Lazarus (**Luke 16:19-31**), the rich man was condemned because he lived in luxury while completely ignoring the starving poor beggar Lazarus at his gate. This story teaches Christians to **use their money unselfishly to care for the poor and needy**.\n\n**Why Other Options Are Incorrect:**\n* **organising parties for friends:** Focuses on selfish pleasure rather than helping those in poverty.\n* **buying clothes for themselves:** Reflects self-centered spending without concern for the less fortunate.\n* **travelling to different places.:** Personal leisure travel does not fulfill the duty of caring for the poor.\n\n📌 **Key Learning Note:**\nChristians should use their wealth and resources to **help the poor, hungry, and needy**."
     },
     {
       "questionNumber": 46,
@@ -277,7 +277,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "While breaking the bread and sharing the cup, Jesus told His disciples: 'Do this in remembrance/memory of me,' establishing the Holy Communion."
+      "explanation": "The correct answer is **Do this in memory of me.**.\n\n**Analysis of the Correct Answer:**\nDuring the Last Supper (**Luke 22:19**), Jesus broke bread, gave it to His disciples, and said, **\"This is my body given for you; **do this in memory of me**.\"** This established the sacrament of Holy Communion (Eucharist) for believers.\n\n**Why Other Options Are Incorrect:**\n* **Go and heal the sick.:** Given when commissioning the twelve disciples for missionary work (Matthew 10:8).\n* **Do not take a purse for yourself.:** Instruction for traveling light during evangelism (Luke 10:4).\n* **Bless those who curse you.:** Teaching from the Sermon on the Mount regarding loving enemies (Luke 6:28).\n\n📌 **Key Learning Note:**\nJesus instituted Holy Communion with the command: **\"Do this in memory of me.\"**"
     },
     {
       "questionNumber": 47,
@@ -301,7 +301,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "Ananias and Sapphira sold land and lied about the proceeds, keeping some for themselves.\n\n* Their sudden death served as a warning to the Early Church about the value of honesty and integrity."
+      "explanation": "The correct answer is **Honesty.**.\n\n**Analysis of the Correct Answer:**\nIn **Acts 5:1-11**, Ananias and Sapphira sold land and secretly kept back part of the money while lying to Peter and the Holy Spirit that they were donating the full amount. Their immediate judgment teaches Christians the vital importance of **honesty and integrity**.\n\n**Why Other Options Are Incorrect:**\n* **Tolerance.:** Refers to accepting others; their sin was deceit and lying, not intolerance.\n* **Mercy.:** Refers to forgiveness; the narrative highlights God's judgment against deceit.\n* **Perseverance.:** Refers to enduring hardship; the core lesson is about truthfulness.\n\n📌 **Key Learning Note:**\nThe story of Ananias and Sapphira teaches Christians to practice **absolute honesty and truthfulness**."
     },
     {
       "questionNumber": 48,
@@ -325,7 +325,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "To stay safe from child trafficking and kidnappings, children should never accept lifts from strangers, but should firmly refuse and proceed directly to school."
+      "explanation": "The correct answer is **Refuse and continue walking to school.**.\n\n**Analysis of the Correct Answer:**\nChild personal safety rules dictate that learners should **never accept rides or gifts from strangers**. If a stranger offers a lift, the safest action is to **refuse politely but firmly and continue walking to school** along well-traveled, public routes.\n\n**Why Other Options Are Incorrect:**\n* **Accept the lift and get into the car.:** Extremely dangerous; getting into a stranger's vehicle exposes children to abduction or severe harm.\n* **Refuse and go back home.:** Walking back alone leaves the child unsupervised and causes them to miss school needlessly.\n* **Hide in the bush until the vehicle goes away.:** Hiding in bushes isolates the child and exposes them to environmental hazards like snakes or criminals.\n\n📌 **Key Learning Note:**\nAlways **refuse lifts from strangers** and proceed safely to school along public routes."
     },
     {
       "questionNumber": 49,
@@ -349,7 +349,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Cooperating with school prefects promotes respect for leadership and authority, which maintains order and discipline in the school community."
+      "explanation": "The correct answer is **To promote respect for authority.**.\n\n**Analysis of the Correct Answer:**\nSchool prefects are student leaders appointed to assist in maintaining order and discipline. Cooperating with prefects teaches students **to promote respect for authority** and divine leadership principles (**Romans 13:1**).\n\n**Why Other Options Are Incorrect:**\n* **To avoid being punished.:** True obedience should stem from respect and moral duty, not just fear of punishment.\n* **To obtain good things from the prefect.:** Cooperating to gain personal favors or bribes is corrupt.\n* **To be recognized by the teachers.:** Doing right simply for teacher praise lacks genuine moral integrity.\n\n📌 **Key Learning Note:**\nCooperating with school prefects promotes **respect for authority** and maintains school harmony."
     },
     {
       "questionNumber": 50,
@@ -373,7 +373,7 @@ export const kpseaSstCre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "For students, social media is most constructively used for academic collaborations, exchanging learning resources, and studying together in their respective learning areas."
+      "explanation": "The correct answer is **Exchanging messages in their learning areas.**.\n\n**Analysis of the Correct Answer:**\nSocial media and digital devices should be used responsibly by learners. **Exchanging messages in their learning areas** (such as sharing revision notes, homework help, and academic discussions) is a safe, productive, and beneficial use of technology.\n\n**Why Other Options Are Incorrect:**\n* **Chatting with friends all the time.:** Continuous non-stop chatting leads to digital addiction and wastes study time.\n* **Taking and posting their pictures.:** Posting personal photos publicly poses serious privacy and online safety risks for minors.\n* **Watching all kinds of videos.:** Unrestricted video viewing exposes children to inappropriate or harmful content.\n\n📌 **Key Learning Note:**\nLearners should use social media **productively for educational purposes and learning group revision**."
     }
   ]
 };

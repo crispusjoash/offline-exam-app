@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%" height="100%">
+  <style>
+    .notehead { fill: #333; }
+    .stem { stroke: #333; stroke-width: 4; }
+    .beam { stroke: #333; stroke-width: 10; }
+  </style>
+
+  <!-- Pair 1 -->
+  <g transform="translate(40, 0)">
+    <!-- Noteheads -->
+    <ellipse cx="20" cy="80" rx="10" ry="7" transform="rotate(-20 20 80)" class="notehead"/>
+    <ellipse cx="60" cy="80" rx="10" ry="7" transform="rotate(-20 60 80)" class="notehead"/>
+    <!-- Stems -->
+    <line x1="28" y1="80" x2="28" y2="30" class="stem" />
+    <line x1="68" y1="80" x2="68" y2="30" class="stem" />
+    <!-- Beam -->
+    <line x1="26" y1="30" x2="70" y2="30" class="beam" />
+  </g>
+
+  <!-- Pair 2 -->
+  <g transform="translate(120, 0)">
+    <!-- Noteheads -->
+    <ellipse cx="20" cy="80" rx="10" ry="7" transform="rotate(-20 20 80)" class="notehead"/>
+    <ellipse cx="60" cy="80" rx="10" ry="7" transform="rotate(-20 60 80)" class="notehead"/>
+    <!-- Stems -->
+    <line x1="28" y1="80" x2="28" y2="30" class="stem" />
+    <line x1="68" y1="80" x2="68" y2="30" class="stem" />
+    <!-- Beam -->
+    <line x1="26" y1="30" x2="70" y2="30" class="beam" />
+  </g>
+
+  <!-- Pair 3 -->
+  <g transform="translate(200, 0)">
+    <!-- Noteheads -->
+    <ellipse cx="20" cy="80" rx="10" ry="7" transform="rotate(-20 20 80)" class="notehead"/>
+    <ellipse cx="60" cy="80" rx="10" ry="7" transform="rotate(-20 60 80)" class="notehead"/>
+    <!-- Stems -->
+    <line x1="28" y1="80" x2="28" y2="30" class="stem" />
+    <line x1="68" y1="80" x2="68" y2="30" class="stem" />
+    <!-- Beam -->
+    <line x1="26" y1="30" x2="70" y2="30" class="beam" />
+  </g>
+
+  <!-- Pair 4 -->
+  <g transform="translate(280, 0)">
+    <!-- Noteheads -->
+    <ellipse cx="20" cy="80" rx="10" ry="7" transform="rotate(-20 20 80)" class="notehead"/>
+    <ellipse cx="60" cy="80" rx="10" ry="7" transform="rotate(-20 60 80)" class="notehead"/>
+    <!-- Stems -->
+    <line x1="28" y1="80" x2="28" y2="30" class="stem" />
+    <line x1="68" y1="80" x2="68" y2="30" class="stem" />
+    <!-- Beam -->
+    <line x1="26" y1="30" x2="70" y2="30" class="beam" />
+  </g>
+
+</svg>

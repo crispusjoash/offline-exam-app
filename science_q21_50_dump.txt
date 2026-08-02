@@ -1,0 +1,218 @@
+=== Q21 (id: sci-q21) ===
+QuestionText: The following photograph shows a farmer carrying out a practice after germination of maize. Study it and answer questions 21 to 23.
+Identify the practice.
+Options: [{'text': 'Gapping.', 'isCorrect': True}, {'text': 'Pruning.', 'isCorrect': False}, {'text': 'Thinning.', 'isCorrect': False}, {'text': 'Training.', 'isCorrect': False}]
+Current Explanation: The practice is gapping, which involves planting new seeds or seedlings in spaces where the original seeds failed to germinate, ensuring a full crop stand.
+
+=== Q22 (id: sci-q22) ===
+QuestionText: Which one of the following wild animals most likely interferes with germination of seeds?
+Options: [{'text': 'Mole.', 'isCorrect': False}, {'text': 'Monkey.', 'isCorrect': False}, {'text': 'Squirrel.', 'isCorrect': True}, {'text': 'Weaver bird.', 'isCorrect': False}]
+Current Explanation: Squirrels are known to dig up and eat planted seeds like maize before or during germination, directly interfering with the process.
+
+* Moles primarily damage roots, monkeys eat mature fruits or cobs, and weaver birds are notorious pests for mature cereal grains (like wheat or sorghum heads) rather than germinating seeds.
+
+=== Q23 (id: sci-q23) ===
+QuestionText: From the photograph, name the other caring practice the farmer carried out on the maize.
+Options: [{'text': 'Harvesting.', 'isCorrect': False}, {'text': 'Pruning.', 'isCorrect': False}, {'text': 'Training.', 'isCorrect': False}, {'text': 'Weed control.', 'isCorrect': True}]
+Current Explanation: In the photograph, while the farmer is uprooting excess maize plants (thinning), they are also simultaneously clearing the surrounding soil of unwanted plants.
+
+* This secondary caring practice is weed control.
+* The maize plants are far too young for harvesting or pruning, and maize does not require training.
+
+=== Q24 (id: sci-q24) ===
+QuestionText: Which one of the following is an indigenous vegetable crop?
+Options: [{'text': 'Cabbage.', 'isCorrect': False}, {'text': 'Kales.', 'isCorrect': False}, {'text': 'Pigweed.', 'isCorrect': True}, {'text': 'Spinach.', 'isCorrect': False}]
+Current Explanation: Pigweed (Amaranthus, commonly known as Terere) is an indigenous African leafy vegetable.
+
+* Cabbage, kales (sukuma wiki), and spinach are all exotic vegetables that were introduced from other parts of the world.
+
+=== Q25 (id: sci-q25) ===
+QuestionText: Which one of the following pairs of crops consists of indigenous root crops?
+Options: [{'text': 'Arrowroots and carrots.', 'isCorrect': False}, {'text': 'Beetroot and cassava.', 'isCorrect': False}, {'text': 'Carrots and yams.', 'isCorrect': False}, {'text': 'Cassava and arrowroots.', 'isCorrect': True}]
+Current Explanation: Cassava and arrowroots (nduma) are considered traditional or indigenous root and tuber crops heavily cultivated in local farming.
+
+* Carrots and beetroots are exotic root crops that were introduced from temperate regions.
+
+=== Q26 (id: sci-q26) ===
+QuestionText: Grade 5 learners at Kabila primary school were asked to give the meaning of common communicable diseases. Which one of the following statements is true about common communicable diseases?
+Options: [{'text': 'They are diseases that are spread easily from one person to another.', 'isCorrect': True}, {'text': 'They are diseases that cannot be spread from one person to another.', 'isCorrect': False}, {'text': 'They are diseases that are spread only by communicating to people.', 'isCorrect': False}, {'text': 'They are diseases that spread only when people move from one place to another.', 'isCorrect': False}]
+Current Explanation: Communicable diseases are illnesses caused by infectious agents (like viruses or bacteria) that can be easily transmitted from one infected person (or animal) to another.
+
+* They are not spread by 'communicating' verbally, nor do they only spread when people move places, as they can spread within a household.
+* Non-communicable diseases are the ones that cannot be spread (like diabetes or cancer).
+
+=== Q27 (id: sci-q27) ===
+QuestionText: Four Grade 6 learners were asked by their teacher to bring some items needed for a Home Science lesson. Below is what each learner brought:
+Auma: Body lotion, petroleum jelly and skin care cream.
+Chris: Thread, thimble, make-up kit and pins.
+Fatma: Tie, socks, belt and scarf.
+Festus: Cup, spoon, perfume and needle.
+Who among the learners brought accessories used to enhance personal appearance?
+Options: [{'text': 'Auma.', 'isCorrect': False}, {'text': 'Chris.', 'isCorrect': False}, {'text': 'Fatma.', 'isCorrect': True}, {'text': 'Festus.', 'isCorrect': False}]
+Current Explanation: In Home Science, accessories are items worn with garments to complete or enhance an outfit.
+
+* Ties, socks, belts, and scarves are all clothing accessories.
+* Auma brought cosmetics/lotions, Chris brought sewing equipment (plus makeup), and Festus brought utensils and perfume.
+
+=== Q28 (id: sci-q28) ===
+QuestionText: Razia advised her parents to always include savings in their family budget. Which one of the following statements is true about savings?
+Options: [{'text': 'Savings is the amount of money you are left with after buying all items required.', 'isCorrect': False}, {'text': 'Savings is the amount of money you are given back after paying for items.', 'isCorrect': False}, {'text': 'Savings is the amount of money set aside for unexpected expenses.', 'isCorrect': False}, {'text': 'Savings is the amount of money set aside for future use.', 'isCorrect': True}]
+Current Explanation: Savings is a deliberate decision to set aside a portion of income for future use or goals.
+
+* Money set aside specifically for unexpected expenses is usually called an 'emergency fund'.
+* Money left over after buying things is just a balance, and money given back after paying is 'change'.
+
+=== Q29 (id: sci-q29) ===
+QuestionText: Masiero accompanied her father to the shop to buy cooking fat. Which one of the following is an important factor they should consider when choosing the cooking fat?
+Options: [{'text': 'Colour of the packaging.', 'isCorrect': False}, {'text': 'Expiry date on the package.', 'isCorrect': True}, {'text': 'The type of packaging used.', 'isCorrect': False}, {'text': 'Weight of the packaging material.', 'isCorrect': False}]
+Current Explanation: The expiry date is crucial for health and safety, as it indicates whether the cooking fat is still safe for consumption.
+
+* Consuming expired products can cause food poisoning.
+* The color, type, or weight of the packaging material are secondary factors that do not affect the safety or quality of the food inside.
+
+=== Q30 (id: sci-q30) ===
+QuestionText: Grade 5 learners were asked to identify micronutrients found in food. Some of the micronutrients they identified are
+Options: [{'text': 'proteins and lipids', 'isCorrect': False}, {'text': 'carbohydrates and lipids', 'isCorrect': False}, {'text': 'carbohydrates and proteins', 'isCorrect': False}, {'text': 'vitamins and minerals.', 'isCorrect': True}]
+Current Explanation: Micronutrients are essential elements required by organisms in varying, but small, quantities throughout life (hence 'micro').
+
+* Vitamins and minerals fall into this category.
+* Proteins, carbohydrates, and lipids (fats) are macronutrients because the body requires them in large amounts.
+
+=== Q31 (id: sci-q31) ===
+QuestionText: Lotum has advised his uncle not to use salting method to preserve meat. Which one of the following is a reason Lotum's uncle should avoid using salt to preserve meat?
+Options: [{'text': 'Salt increases risk of constipation.', 'isCorrect': False}, {'text': 'Salt increases risk of hypertension.', 'isCorrect': True}, {'text': 'Salt improves weak bones.', 'isCorrect': False}, {'text': 'Salt decreases the risk of asthma.', 'isCorrect': False}]
+Current Explanation: Excessive consumption of salt (sodium) is a major dietary risk factor for developing hypertension (high blood pressure) and heart disease.
+
+* It does not increase the risk of constipation, nor does it improve weak bones or decrease asthma risks.
+
+=== Q32 (id: sci-q32) ===
+QuestionText: Salim is suffering from scurvy. Which one of the following eating habits is likely to have made Salim to develop scurvy?
+Options: [{'text': 'Decreased consumption of fruits and vegetables.', 'isCorrect': True}, {'text': 'Increased consumption of fruits and vegetables.', 'isCorrect': False}, {'text': 'Decreased consumption of foods rich in carbohydrates.', 'isCorrect': False}, {'text': 'Increased consumption of foods rich in fibre and water.', 'isCorrect': False}]
+Current Explanation: Scurvy is a nutritional deficiency disease caused by a severe lack of Vitamin C (ascorbic acid) in the diet.
+
+* Vitamin C is abundantly found in fresh fruits (especially citrus) and vegetables.
+* Therefore, a decreased consumption of these foods leads to scurvy.
+
+=== Q33 (id: sci-q33) ===
+QuestionText: Ann and Ken were talking about one of the steps in laundering a handkerchief. The handkerchief is put in clean cold salty water without soap for some time. The step they were talking about is
+Options: [{'text': 'washing', 'isCorrect': False}, {'text': 'sorting', 'isCorrect': False}, {'text': 'soaking', 'isCorrect': True}, {'text': 'rinsing.', 'isCorrect': False}]
+Current Explanation: Soaking involves placing an item in water (often with salt to dissolve mucus in handkerchiefs or blood stains) for a period of time before the actual washing begins.
+
+* This loosens dirt.
+* Washing involves soap and agitation, rinsing removes soap, and sorting is separating clothes before laundering.
+
+=== Q34 (id: sci-q34) ===
+QuestionText: Amanda has noticed that her school uniform has a gaping seam. She wants to repair it. Which one of the following stitches can she use to repair the gaping seam?
+Options: [{'text': 'Loop stitches.', 'isCorrect': False}, {'text': 'Back stitches.', 'isCorrect': True}, {'text': 'Hemming stitches.', 'isCorrect': False}, {'text': 'Oversewing stitches.', 'isCorrect': False}]
+Current Explanation: A back stitch is a very strong, permanent stitch used to join two pieces of fabric together, making it perfect for repairing a torn or gaping seam.
+
+* Hemming is used to finish raw edges (like the bottom of a skirt), oversewing is for neatening raw edges to prevent fraying, and loop stitches are often decorative or used for buttonholes.
+
+=== Q35 (id: sci-q35) ===
+QuestionText: Every time Rihana wears her favourite dress, it clings to the body which makes her uncomfortable. To prevent the dress from clinging to her body, Rihana should
+Options: [{'text': 'bleach the dress after washing', 'isCorrect': False}, {'text': 'use a disinfectant when rinsing', 'isCorrect': False}, {'text': 'rinse the dress well with clean water', 'isCorrect': False}, {'text': 'use a fabric conditioner when rinsing.', 'isCorrect': True}]
+Current Explanation: Clothes clinging to the body is usually caused by static electricity built up in synthetic fabrics.
+
+* Fabric conditioners (softeners) coat the fibers with a lubricating layer that reduces friction and static cling.
+* Bleach removes stains, disinfectants kill germs, and clean water removes soap, but none of these stop static cling.
+
+=== Q36 (id: sci-q36) ===
+QuestionText: Grade 6 learners developed the following rules for racing games:
+QuestionList: ['i. Wear suitable shoes while running;', 'ii. Keep to your lane when running;', 'iii. Drink adequate amount of water before the race;', 'iv. Avoid performing any exercise before the race.']
+QuestionSuffix: Which one of the following set of rules is correct?
+Options: [{'text': 'i, ii, iv.', 'isCorrect': False}, {'text': 'i, iii, iv.', 'isCorrect': False}, {'text': 'i, ii, iii.', 'isCorrect': True}, {'text': 'ii, iii, iv.', 'isCorrect': False}]
+Current Explanation: Rules i, ii, and iii are all correct safety and performance guidelines for racing.
+
+* However, rule 'iv' is completely wrong—athletes *must* perform warm-up exercises before a race to prepare their muscles and prevent injuries.
+* Therefore, only the set containing i, ii, and iii is correct.
+
+=== Q37 (id: sci-q37) ===
+QuestionText: Rope skipping is a common physical activity. Which one of the following statement is true about the effects of rope skipping exercise?
+Options: [{'text': 'Makes the leg joints weak.', 'isCorrect': False}, {'text': 'Causes lifestyle disease.', 'isCorrect': False}, {'text': 'Can cause injury to ankles.', 'isCorrect': False}, {'text': 'Improves physical fitness.', 'isCorrect': True}]
+Current Explanation: Rope skipping is a cardiovascular exercise that strengthens the heart, improves lung capacity, tones muscles, and improves overall physical fitness.
+
+* While poor technique *could* hurt ankles, the general and primary intended effect is improving fitness.
+* It actively prevents lifestyle diseases and strengthens (rather than weakens) leg joints over time.
+
+=== Q38 (id: sci-q38) ===
+QuestionText: Grade 6 learners were asked to run to a specific point within the shortest time possible. Which component of fitness were the learners developing?
+Options: [{'text': 'Speed.', 'isCorrect': True}, {'text': 'Coordination.', 'isCorrect': False}, {'text': 'Strength.', 'isCorrect': False}, {'text': 'Balance.', 'isCorrect': False}]
+Current Explanation: Running to a specific point in the *shortest time possible* is a direct measure and training method for speed (the ability to move the body or a part of it rapidly over a distance).
+
+* Strength is about exerting force, balance is about maintaining stability, and coordination is about smooth, controlled movements.
+
+=== Q39 (id: sci-q39) ===
+QuestionText: Sharing food during a camping activity is common among a group of friends. Why should friends share food during an outdoor activity?
+Options: [{'text': "Show friends' background with different kinds of food.", 'isCorrect': False}, {'text': 'Promote unity among friends for better group work.', 'isCorrect': True}, {'text': 'Encourage friends to rely on others for food.', 'isCorrect': False}, {'text': 'Saves time for those who do not want to prepare and carry food.', 'isCorrect': False}]
+Current Explanation: Sharing food promotes social cohesion, teamwork, and unity among campers.
+
+* Outdoor activities heavily rely on group work and a sense of community, rather than showing off or encouraging dependency.
+
+=== Q40 (id: sci-q40) ===
+QuestionText: During an outdoor activity, a group of learners found the following sign marked on the path.
+QuestionSuffix: What does this sign mean?
+Options: [{'text': 'Turn right.', 'isCorrect': True}, {'text': 'No way through.', 'isCorrect': False}, {'text': 'Stop.', 'isCorrect': False}, {'text': 'Turn left.', 'isCorrect': False}]
+Current Explanation: The arrow in the sign points to the right, indicating a path or instruction to turn right.
+
+=== Q41 (id: sci-q41) ===
+QuestionText: A gymnastic competitor performed the skill shown in the following picture.
+QuestionSuffix: What is the name of the gymnastic skill?
+Options: [{'text': 'Side vault.', 'isCorrect': True}, {'text': 'Wall vault.', 'isCorrect': False}, {'text': 'Fence vault.', 'isCorrect': False}, {'text': 'Jump vault.', 'isCorrect': False}]
+Current Explanation: The image shows a competitor performing a side vault, characterized by one hand supporting the body while vaulting sideways.
+
+=== Q42 (id: sci-q42) ===
+QuestionText: A first aid box contains items that are used when one is injured. Which of the following items is correctly matched with its use during first aid?
+Options: [{'text': 'Scissors - cutting papers and muscles that have been injured.', 'isCorrect': False}, {'text': 'Bandages - making straps to support the first aid box.', 'isCorrect': False}, {'text': 'Thermometer - controlling body temperature.', 'isCorrect': False}, {'text': 'Cotton wool - applying antiseptics and cleaning cuts.', 'isCorrect': True}]
+Current Explanation: Cotton wool is correctly matched; it is used to clean wounds and apply antiseptics.
+
+* Scissors are used to cut bandages (not muscles!), bandages are used to secure dressings, and a thermometer measures (but does not control) body temperature.
+
+=== Q43 (id: sci-q43) ===
+QuestionText: Learners improvised relay batons using various materials. Which of the following material made the most durable relay baton?
+Options: [{'text': 'Manila paper.', 'isCorrect': False}, {'text': 'Clay.', 'isCorrect': False}, {'text': 'Wood.', 'isCorrect': True}, {'text': 'Grass.', 'isCorrect': False}]
+Current Explanation: Wood is the strongest and most resilient material among the options provided, making it the most durable for improvising a relay baton that can survive being dropped and passed.
+
+=== Q44 (id: sci-q44) ===
+QuestionText: The following picture shows a gymnast performing a
+Options: [{'text': 'hand stand', 'isCorrect': True}, {'text': 'head stand', 'isCorrect': False}, {'text': 'inverted stand', 'isCorrect': False}, {'text': 'hand and head stand.', 'isCorrect': False}]
+Current Explanation: The gymnast is supporting their entire body weight vertically on their hands alone, which is known as a hand stand.
+
+=== Q45 (id: sci-q45) ===
+QuestionText: Four learners set up outdoor shelters as follows:
+QuestionList: ['Jane: Close to the river', 'John: At the top of the hill', 'James: At the bottom of the valley', 'Juliet: At a gentle slope sheltered by trees']
+QuestionSuffix: Who among the learners chose a suitable site for an outdoor shelter?
+Options: [{'text': 'Jane.', 'isCorrect': False}, {'text': 'John.', 'isCorrect': False}, {'text': 'James.', 'isCorrect': False}, {'text': 'Juliet.', 'isCorrect': True}]
+Current Explanation: Juliet chose the best site.
+
+* A gentle slope allows for proper water drainage, and trees provide natural shelter from strong winds and harsh sun.
+* Valleys and riversides are prone to flooding and cold, while the top of a hill exposes the shelter to strong winds.
+
+=== Q46 (id: sci-q46) ===
+QuestionText: Two players collided during a PHE lesson. One player started bleeding from the nose. Which one of the following is the correct first aid to control the bleeding?
+Options: [{'text': 'Lying on the back while facing up.', 'isCorrect': False}, {'text': 'Putting cotton wool in the nostrils to block the blood from flowing.', 'isCorrect': False}, {'text': 'Sitting while leaning forward and pinching the soft part of the nose.', 'isCorrect': True}, {'text': 'Sitting down with legs raised to relax and stop bleeding.', 'isCorrect': False}]
+Current Explanation: For a nosebleed, the victim should sit up and lean slightly forward (so blood drains out, not down the throat) and pinch the soft part of the nose to apply pressure and help the blood clot.
+
+=== Q47 (id: sci-q47) ===
+QuestionText: Learners were asked to improvise a triangular bandage. Which one of the following material was suitable for improvising the bandage?
+Options: [{'text': 'Newspapers.', 'isCorrect': False}, {'text': 'Banana leaves.', 'isCorrect': False}, {'text': 'Pieces of clothes.', 'isCorrect': True}, {'text': 'A piece of carton.', 'isCorrect': False}]
+Current Explanation: A triangular bandage is primarily made from fabric.
+
+* Pieces of old clothes can easily be cut into a triangular shape and are soft, flexible, and strong enough to support injured limbs, unlike paper, leaves, or carton.
+
+=== Q48 (id: sci-q48) ===
+QuestionText: Learners were asked to improvise a soccer ball to use during the inter-class competition. Which of the following materials did the learners use?
+Options: [{'text': 'Old newspapers, strings, polythene bags.', 'isCorrect': False}, {'text': 'Cotton wool, papers, strings.', 'isCorrect': True}, {'text': 'Leaves, plastic bottles, strings.', 'isCorrect': False}, {'text': 'Cotton wool, wire, old newspapers.', 'isCorrect': False}]
+Current Explanation: According to the curriculum, a combination of soft materials like cotton wool, papers, and strings can be used to improvise a safe and functional soccer ball for physical education.
+
+=== Q49 (id: sci-q49) ===
+QuestionText: A school handball team members took their positions in the court ready to start the game. How many players did the team comprise?
+Options: [{'text': '5', 'isCorrect': False}, {'text': '6', 'isCorrect': False}, {'text': '7', 'isCorrect': True}, {'text': '8', 'isCorrect': False}]
+Current Explanation: A standard handball team consists of 7 players on the court at any one time (6 outfield players and 1 goalkeeper).
+
+=== Q50 (id: sci-q50) ===
+QuestionText: When starting a race in athletics, competitors are given commands. Which of the following command is not given?
+Options: [{'text': 'Go.', 'isCorrect': False}, {'text': 'Set.', 'isCorrect': False}, {'text': 'Run.', 'isCorrect': True}, {'text': 'On your marks.', 'isCorrect': False}]
+Current Explanation: The standard starting commands for a sprint race are 'On your marks', 'Set', and 'Go' (which is often a starting pistol).
+
+* **'Run'** is not used as a starting command.
+

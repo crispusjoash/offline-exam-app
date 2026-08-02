@@ -1,0 +1,89 @@
+Q1: Fill in blank 1:",       "questionType": "mcq",       "contextRef": "ctx-eng-q1-3
+Options: ['Who are you?', 'Who is this?', 'Whom am I speaking to? (CORRECT)', 'Whom do you want to speak to?']
+
+Q2: Fill in blank 2:",       "questionType": "mcq",       "contextRef": "ctx-eng-q1-3
+Options: ['May I be late for school today? (CORRECT)', 'I want to be late for school today.', 'I will be late for school today.', 'Must I be late for school today?']
+
+Q3: Fill in blank 3:",       "questionType": "mcq",       "contextRef": "ctx-eng-q1-3
+Options: ["That's good, Teacher.", "It's okay, Teacher.", "It's alright, Teacher.", 'Thank you, Teacher. (CORRECT)']
+
+Q4: For questions 4 to 5, complete each of the blank spaces with the correct alternative from the choices given.\n\n4. If I had a lot of money, I ------- travel all over the world.",       "questionType": "mcq
+Options: ['should', 'would (CORRECT)', 'can', 'will']
+
+Q5: 5. Odoko goes to school ------- foot every morning.",       "questionType": "mcq
+Options: ['by', 'with', 'on (CORRECT)', 'in']
+
+Q6: 6. Why do we keep pets?",       "questionType": "mcq",       "contextRef": "ctx-eng-q6-9
+Options: ['To help us carry heavy things.', 'To make us happy. (CORRECT)', 'To provide food.', 'To protect the environment.']
+
+Q7: 7. Which one of the following is **true** about donkeys and dogs?",       "questionType": "mcq",       "contextRef": "ctx-eng-q6-9
+Options: ["They are man's best friend.", 'They are better than us.', 'They can do things that we cannot do. (CORRECT)', 'They are always comfortable and healthy.']
+
+Q8: 8. The word **'special'** as used in the passage means the same as",       "questionType": "mcq",       "contextRef": "ctx-eng-q6-9
+Options: ['strange.', 'unusual. (CORRECT)', 'new.', 'unknown.']
+
+Q9: 9. What is likely to happen if we do not treat animals kindly?",       "questionType": "mcq",       "contextRef": "ctx-eng-q6-9
+Options: ['They will not live with us.', 'They may not give us enough food.', 'We may not get enough benefits from them. (CORRECT)', 'We may not be happy and comfortable.']
+
+Q10: 10. Why did Hassan's father write the list of items?",       "questionType": "mcq",       "contextRef": "ctx-eng-q10-12
+Options: ['He did not want Hassan to forget any item.', 'He did not want Hassan to delay in the shop.', 'He wanted Hassan to get the right balance from the shopkeeper. (CORRECT)', 'He wanted Hassan to do the totals of the cost of the items.']
+
+Q11: 11. The shopkeeper was surprised to see Hassan back because ---------",       "questionType": "mcq",       "contextRef": "ctx-eng-q10-12
+Options: ['Hassan returned the money.', 'the shopkeeper was very busy that day.', 'Hassan had just left the shop. (CORRECT)', 'the shopkeeper had given him the balance.']
+
+Q12: 12. This story teaches us that ---------",       "questionType": "mcq",       "contextRef": "ctx-eng-q10-12
+Options: ['honesty is the best policy. (CORRECT)', 'hurry hurry has no blessing.', 'once bitten twice shy.', 'a friend in need is a friend indeed.']
+
+Q13: 13. Which one of the following is **true** according to the story?",       "questionType": "mcq",       "contextRef": "ctx-eng-q13-15
+Options: ['Hare stole the groundnuts just like Hyena. (CORRECT)', 'Hare was a true friend of the farmer.', 'Hare was not able to cheat Hyena.', 'Hare buried one of his legs in the ground.']
+
+Q14: 14. From the story, Hare is ---------.",       "questionType": "mcq",       "contextRef": "ctx-eng-q13-15
+Options: ['friendly', 'funny', 'busy', 'tricky (CORRECT)']
+
+Q15: 15. What do we learn from this story?",       "questionType": "mcq",       "contextRef": "ctx-eng-q13-15
+Options: ['People need to share what they have.', 'We should keep the right friends. (CORRECT)', 'Farmers should beat all Hyenas.', 'We should always do what we are told.']
+
+Q16: 16. Asha has a small garden at home. She likes it because it is a gift from ----16---- grandfather.",       "questionType": "mcq",       "contextRef": "ctx-eng-q16-20
+Options: ['his', 'hers', 'him', 'her (CORRECT)']
+
+Q17: 17. Asha grows ----17---- vegetables in her garden.",       "questionType": "mcq",       "contextRef": "ctx-eng-q16-20
+Options: ['different (CORRECT)', 'dry', 'cooked', 'plenty']
+
+Q18: 18. She ----18---- taking care of her vegetables.",       "questionType": "mcq",       "contextRef": "ctx-eng-q16-20
+Options: ['begins', 'accepts', 'enjoys (CORRECT)', 'admires']
+
+Q19: 19. She does not like to sit in the house ----19---- play games on the phone.",       "questionType": "mcq",       "contextRef": "ctx-eng-q16-20
+Options: ['also', 'and (CORRECT)', 'yet', 'because']
+
+Q20: 20. She hopes to sell her harvest ----20---- month.",       "questionType": "mcq",       "contextRef": "ctx-eng-q16-20
+Options: ['future', 'new', 'next (CORRECT)', 'later']
+
+Q21: 21. The teacher found the learner ------- the classroom.",       "questionType": "mcq
+Options: ['to', 'in (CORRECT)', 'on', 'over']
+
+Q22: 22. Ali left the book ------- the table.",       "questionType": "mcq
+Options: ['with', 'on (CORRECT)', 'in', 'from']
+
+Q23: 23. The children are planting trees, -------",       "questionType": "mcq
+Options: ["aren't they? (CORRECT)", "aren't we?", 'are they?', 'are we?']
+
+Q24: 24. Rudisha did not find the story book in his bag because ------- had taken it.",       "questionType": "mcq
+Options: ['anybody', 'somebody (CORRECT)', 'everybody', 'nobody']
+
+Q25: 25. The teacher told us to take care of ------- during the journey.",       "questionType": "mcq
+Options: ['themselves', 'yourself', 'ourselves (CORRECT)', 'yourselves']
+
+Q26: 26. The thieves took away our goats ------- force.",       "questionType": "mcq
+Options: ['with', 'by (CORRECT)', 'at', 'under']
+
+Q27: 27. This is the hen ------- egg broke.",       "questionType": "mcq
+Options: ['who', 'whom', 'whose (CORRECT)', 'which']
+
+Q28: 28. The class teacher will ------- us a present.",       "questionType": "mcq
+Options: ['given', 'gives', 'gave', 'give (CORRECT)']
+
+Q29: 29. 'Neither Kalusi nor Sofia came late to class'.\nMeans:",       "questionType": "mcq
+Options: ['Only Kalusi came late to class.', 'Only Sofia came late to class.', 'Both Kalusi and Sofia came late to class.', 'Both Kalusi and Sofia did not come late to class. (CORRECT)']
+
+Q30: 30. According to the story, who plays football only?",       "questionType": "mcq",       "contextRef": "ctx-eng-q30
+Options: ['Nasir.', 'Banda. (CORRECT)', 'Lona.', 'All of them.']

@@ -61,7 +61,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The teacher is asking for the identity of the caller in a polite and formal manner suitable for a school setting.\n\n* **'Whom am I speaking to?'** is the most grammatically correct and polite way to ask this over the phone.\n* **'Who are you?'** is considered very rude and confrontational.\n* **'Who is this?'** is slightly better but still informal.\n* **'Whom do you want to speak to?'** is incorrect because the teacher is asking who the caller is, not who they are looking for."
+      "explanation": "The correct answer is **Whom am I speaking to?**\n\n**Analysis of the Correct Answer:**\nIn polite telephone conversations (especially when speaking to an elder, authority figure, or teacher), asking \"Whom am I speaking to?\" is the most formal and respectful way to inquire about the caller's identity. In grammar, \"whom\" is used because it acts as the object of the preposition \"to\" (as in, \"I am speaking to whom?\").\n\n**Why Other Options Are Incorrect:**\n* **Who are you?:** This is too abrupt, rude, and informal for a teacher to say in a polite phone conversation.\n* **Who is this?:** This is very casual and informal. It lacks the professional respect required in a school context.\n* **Whom do you want to speak to?:** This reverses the roles. Barasa (the pupil) is the one calling the teacher, so the teacher needs to ask who is on the line, not whom the caller wants to talk to.\n\n📌 **Key Learning Note:**\nWhen asking for someone's identity on the phone in formal English, use \"Whom am I speaking to?\" or \"May I know who is calling?\"."
     },
     {
       "id": "eq2",
@@ -87,7 +87,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The pupil is making a polite request to the teacher.\n\n* **'May I'** is the correct modal verb for asking permission politely.\n* **'I want to'** is too demanding and informal for a student addressing a teacher.\n* **'I will'** is a statement of future action, not a request for permission.\n* **'Must I'** asks if it is mandatory to be late, which completely changes the meaning of the conversation."
+      "explanation": "The correct answer is **May I be late for school today?**\n\n**Analysis of the Correct Answer:**\nThe modal verb **\"May\"** is used to ask for permission politely from a teacher or an authority figure. Barasa needs permission from his class teacher to arrive late so he can accompany his young sister on her first day of Grade 1.\n\n**Why Other Options Are Incorrect:**\n* **I want to be late for school today.:** This states a personal desire rather than asking for permission politely.\n* **I will be late for school today.:** This is a direct command/statement declaring that he will be late, without asking the teacher's permission first.\n* **Must I be late for school today?:** This asks if being late is a compulsory requirement or obligation, which does not make sense here.\n\n📌 **Key Learning Note:**\nAlways use **\"May I...\"** when asking for permission from teachers, parents, or elders."
     },
     {
       "id": "eq3",
@@ -113,7 +113,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "After the teacher grants permission and gives instructions, the most appropriate and polite response from the pupil is to express gratitude."
+      "explanation": "The correct answer is **Thank you, Teacher.**\n\n**Analysis of the Correct Answer:**\nWhenever someone grants your request or offers help, social dialogue etiquette requires you to express gratitude. Since the teacher agreed to let Barasa come late with his sister, the proper response is to thank the teacher.\n\n**Why Other Options Are Incorrect:**\n* **That's good, Teacher.:** This sounds like you are evaluating or grading the teacher's response rather than showing gratitude.\n* **It's okay, Teacher.:** This is informal and sounds like you are forgiving someone or accepting an apology, not showing appreciation.\n* **It's alright, Teacher.:** This is used to reassure someone or accept an apology, which is inappropriate after receiving permission.\n\n📌 **Key Learning Note:**\nAlways say **\"Thank you\"** whenever a teacher or elder grants a request or helps you out."
     },
     {
       "id": "eq4",
@@ -138,7 +138,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "This is a Type 2 conditional sentence, which talks about a hypothetical or unlikely situation in the present or future.\n\n* The structure is 'If + past simple, ... would + infinitive'.\n* Therefore, 'would' is the correct choice.\n* **'Will'** is used for Type 1 conditionals (real possibilities, e.g., 'If I have money, I will...').\n* **'Should'** and 'can' do not fit the grammatical structure of a hypothetical past-tense condition."
+      "explanation": "The correct answer is **would**.\n\n**Analysis of the Correct Answer:**\nThis question tests the **Second Conditional** in English grammar, which is used for hypothetical or imaginary situations in the present or future. The rule for the Second Conditional is:\n`If + Past Simple (had), ... WOULD + base verb (travel)`.\nSince the sentence imagines something that is not currently true (\"If I had a lot of money...\"), we use **would**.\n\n**Why Other Options Are Incorrect:**\n* **should:** Used for giving advice or expressing duty/obligation, not for conditional imaginary outcomes.\n* **can:** Used for present ability in real situations, whereas past conditional clauses require the past modal \"would\".\n* **will:** Used in the First Conditional for real/likely future possibilities (`If I have money, I will travel...`).\n\n📌 **Key Learning Note:**\nSecond Conditional Rule: `If + Past Simple (had), ... WOULD + verb (travel)`."
     },
     {
       "id": "eq5",
@@ -163,7 +163,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In English, the correct preposition to use when referring to walking as a means of transport is 'on'.\n\n* We say 'on foot', not 'by foot'."
+      "explanation": "The correct answer is **on**.\n\n**Analysis of the Correct Answer:**\nIn English grammar, prepositions of transport have fixed rules. We say **by car**, **by bus**, **by train**, or **by plane** when referring to vehicles. However, when talking about walking, the only correct idiomatic expression is strictly **on foot**.\n\n**Why Other Options Are Incorrect:**\n* **by:** Used for vehicles and mechanical modes of transport (e.g. **by bus**, **by bicycle**), but never for walking on your feet.\n* **with:** Used to show the instrument used to perform an action (e.g. **cut with a knife**), not for walking.\n* **in:** Used for being inside enclosed transport (e.g. **in a car**, **in a taxi**).\n\n📌 **Key Learning Note:**\nAlways say **\"on foot\"** when referring to walking to school or any destination."
     },
     {
       "id": "eq6",
@@ -189,7 +189,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "When you read the very first paragraph, it clearly says, 'A pet is an animal kept for pleasure.\n\n* We keep pets because we love their company.' Keeping an animal for pleasure and loving its company are things that directly bring us happiness!\n* So, the best answer is that we keep them to make us happy."
+      "explanation": "The correct answer is **To make us happy.**\n\n**Analysis of the Correct Answer:**\nParagraph 1 of the passage explicitly defines a pet as an animal kept for pleasure and companionship: **\"We keep pets because we love their company... They are just like our friends, so we keep them happy and comfortable.\"** Keeping pets brings joy and happiness to our lives.\n\n**Why Other Options Are Incorrect:**\n* **To help us carry heavy things.:** The passage states that work animals like donkeys are kept to carry heavy luggage, not pets.\n* **To provide food.:** Paragraph 3 explains that livestock (like cows and chickens) are kept as a source of food (milk and eggs), not pets.\n* **To protect the environment.:** Protecting the environment is not mentioned in the passage as a reason for keeping pets.\n\n📌 **Key Learning Note:**\nPets are kept for pleasure, love, and companionship (\"to make us happy\"), while work animals are kept to assist with heavy labor."
     },
     {
       "id": "eq7",
@@ -215,7 +215,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Let's think about both animals based on the passage!\n\n* Dogs are great pets and provide loyal company, while donkeys are strong enough to carry heavy luggage.\n* What do they both have in common?\n* They both fall under the category of animals that have 'special abilities which human beings do not have.' Because of these unique abilities, they can do things that we simply cannot do on our own."
+      "explanation": "The correct answer is **They can do things that we cannot do.**\n\n**Analysis of the Correct Answer:**\nParagraph 2 explicitly states: **\"This is because they have special abilities which human beings do not have. For example, donkeys have strength to carry heavy luggage.\"** This confirms that animals can perform tasks and have physical capabilities beyond human abilities.\n\n**Why Other Options Are Incorrect:**\n* **They are man's best friend.:** Paragraph 1 specifically states that only the **dog** has been said to be man's best friend, not donkeys.\n* **They are better than us.:** The text does not claim that animals are superior to humans overall.\n* **They are always comfortable and healthy.:** Paragraph 1 states that **we** must make sure to keep them happy and comfortable, not that they are always comfortable on their own.\n\n📌 **Key Learning Note:**\nAnimals assist humans because they possess unique physical abilities (such as strength or heightened senses) that humans lack."
     },
     {
       "id": "eq8",
@@ -241,7 +241,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "When the writer talks about animals having 'special' abilities, they mean abilities that humans don't normally have.\n\n* If something isn't common or normal for everyone to have, we can describe it as 'unusual'.\n* It's a unique and exceptional skill!"
+      "explanation": "The correct answer is **unusual.**\n\n**Analysis of the Correct Answer:**\nIn Paragraph 2, the phrase **\"special abilities\"** refers to extraordinary, uncommon, or exceptional traits that set animals apart from humans. Among the given choices, **unusual** best matches this meaning of being remarkable or out of the ordinary.\n\n**Why Other Options Are Incorrect:**\n* **strange.:** This implies odd or weird in a negative way, which does not fit the positive context of helpful animal abilities.\n* **new.:** Means recently acquired or created, which does not mean exceptional or unique.\n* **unknown.:** Means unfamiliar or obscure, whereas these animal abilities are well known to humans.\n\n📌 **Key Learning Note:**\nContextual vocabulary: In this context, \"special\" means uncommon, extraordinary, or **unusual** abilities."
     },
     {
       "id": "eq9",
@@ -267,7 +267,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The passage concludes by reminding us that whether animals are kept for pets, work, or food, they 'deserve kind treatment.' The logical implication here is a simple trade-off: since we get so many benefits from them (like company, transport, and food), failing to treat them kindly means we might lose out on all those wonderful benefits!"
+      "explanation": "The correct answer is **We may not get enough benefits from them.**\n\n**Analysis of the Correct Answer:**\nParagraph 3 emphasizes that all animals—whether kept as pets, work animals, or food sources—deserve kind treatment. If we mistreat them, pets will not provide joyful companionship, work animals will grow weak or fall ill, and food animals will produce fewer products. Thus, we will lose out on their maximum benefits.\n\n**Why Other Options Are Incorrect:**\n* **They will not live with us.:** Domestic animals may remain in captivity even if mistreated, so leaving is not the direct main consequence.\n* **They may not give us enough food.:** This only applies to livestock (milk/eggs), whereas the question asks about all domestic animals generally.\n* **We may not be happy and comfortable.:** This focuses only on pets, rather than the total practical benefits lost across all types of animals.\n\n📌 **Key Learning Note:**\nTreating animals kindly ensures they stay healthy, productive, and able to provide us with maximum benefits."
     },
     {
       "id": "eq10",
@@ -293,7 +293,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In the passage, the writer specifically mentions that the father wrote the 'prices' on the list, which helped Hassan know the total cost and expect exactly seventy-five shillings in balance.\n\n* While Option A (didn't want him to forget) and Option B (didn't want him to delay) sound like logical real-world reasons to write a list, reading comprehension questions require you to find the reason supported by the text.\n* The text specifically highlights that the father calculated the prices so Hassan would know his exact balance."
+      "explanation": "The correct answer is **He wanted Hassan to get the right balance from the shopkeeper.**\n\n**Analysis of the Correct Answer:**\nIn Paragraph 1, the story states that Hassan's father wrote the prices on a list, calculating the total cost (425 shillings) from a 500-shilling note. This enabled Hassan to calculate and expect the exact balance of 75 shillings, ensuring he received the right change from the shopkeeper.\n\n**Why Other Options Are Incorrect:**\n* **He did not want Hassan to forget any item.:** The prices were written specifically so Hassan could know the exact total cost and expected balance.\n* **He did not want Hassan to delay in the shop.:** Saving time was not stated as the primary reason for writing down the prices.\n* **He wanted Hassan to do the totals of the cost of the items.:** Hassan's father had already calculated the total cost (425 shillings) and balance on the list.\n\n📌 **Key Learning Note:**\nWriting down item prices helps buyers verify total costs and ensure they receive the exact correct change/balance."
     },
     {
       "id": "eq11",
@@ -319,7 +319,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The story says, 'The shopkeeper was surprised to see him back so soon.' She was surprised before he even handed her the money.\n\n* Her surprise was purely because he had just left a few moments ago and was already walking back into the shop!"
+      "explanation": "The correct answer is **Hassan had just left the shop.**\n\n**Analysis of the Correct Answer:**\nIn Paragraph 4, the text states that Hassan stepped outside, sat under a tree right by the shop, counted the money, remembered his father's advice, and walked straight back to return the extra 500 shillings. The shopkeeper was surprised because Hassan had literally just walked out seconds before and returned so quickly.\n\n**Why Other Options Are Incorrect:**\n* **Hassan returned the money.:** Returning the extra cash explains why she felt grateful (\"You are an angel\"), but seeing him return **so quickly** (just after leaving) is what surprised her initially.\n* **the shopkeeper was very busy that day.:** Being busy explains why she made the mistake in giving change, not why she was surprised by his quick return.\n* **the shopkeeper had given him the balance.:** Giving change was part of her normal work, not a cause of surprise.\n\n📌 **Key Learning Note:**\nThe shopkeeper was surprised by Hassan's immediate return right after stepping out of the shop."
     },
     {
       "id": "eq12",
@@ -345,7 +345,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Hassan found himself with extra money that wasn't his.\n\n* Even though he wanted to spend it, he remembered his father's advice and did the right thing by returning it.\n* This classic moral lesson teaches us that being honest is always the best choice!"
+      "explanation": "The correct answer is **honesty is the best policy.**\n\n**Analysis of the Correct Answer:**\nThe main moral of Hassan's story is honesty. Even though Hassan had the chance to keep 500 extra shillings without anyone knowing, he remembered his father's teaching (\"Never take what does not belong to you\") and returned the money. His honest decision earned him praise, respect, and a peaceful conscience.\n\n**Why Other Options Are Incorrect:**\n* **hurry hurry has no blessing.:** This proverb warns against rushing foolishly, which is unrelated to returning extra change.\n* **once bitten twice shy.:** This means being cautious after experiencing a bad situation, which does not apply here.\n* **a friend in need is a friend indeed.:** This refers to true friends helping each other in tough times, which does not fit the transaction with the shopkeeper.\n\n📌 **Key Learning Note:**\nReturning money or items that do not belong to you illustrates the timeless moral: **Honesty is the best policy**."
     },
     {
       "id": "eq13",
@@ -371,7 +371,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In the very first sentence, the story says, 'Many afternoons, Hyena and Hare spent hours in a field eating the farmer's groundnuts.' This means they were both stealing the groundnuts together!"
+      "explanation": "The correct answer is **Hare stole the groundnuts just like Hyena.**\n\n**Analysis of the Correct Answer:**\nParagraph 1 states: **\"Many afternoons, Hyena and Hare spent hours in a field eating the farmer's groundnuts.\"** Both animals were stealing and eating the farmer's crops without permission.\n\n**Why Other Options Are Incorrect:**\n* **Hare was a true friend of the farmer.:** Hare went to the farmer pretending to help catch the thief, but he was actually the thief deceiving the farmer.\n* **Hare was not able to cheat Hyena.:** Hare successfully tricked Hyena into burying his legs in the soil so Hyena couldn't run away.\n* **Hare buried one of his legs in the ground.:** Hare lied that his legs were too short and did not bury any of his legs.\n\n📌 **Key Learning Note:**\nBoth Hare and Hyena were crop thieves, but Hare used trickery to escape while leaving Hyena to get caught."
     },
     {
       "id": "eq14",
@@ -397,7 +397,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "Hare came up with a cunning lie, telling Hyena that groundnuts are sweeter when your legs are buried, just so Hyena would get stuck and caught by the farmer.\n\n* Someone who uses clever lies to deceive others is definitely tricky!"
+      "explanation": "The correct answer is **tricky**.\n\n**Analysis of the Correct Answer:**\nThroughout the story, Hare acts with cunning deceit. He tricks Hyena into burying all four legs in the dirt so Hyena becomes trapped, while Hare stays free to run away when the farmer approaches. This defines Hare as **tricky** (cunning/sly).\n\n**Why Other Options Are Incorrect:**\n* **friendly:** Hare betrayed his companion Hyena to save himself, showing he was not a genuine friend.\n* **funny:** Although the story is humorous, Hare's central character trait is being sly and tricky.\n* **busy:** Hare spent his time stealing crops and plotting tricks rather than doing honest work.\n\n📌 **Key Learning Note:**\nIn traditional African folktales, the Hare is typically portrayed as a cunning and **tricky** character."
     },
     {
       "id": "eq15",
@@ -423,7 +423,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Hyena thought Hare was his friend and partner in crime, but Hare completely betrayed him and left him to be beaten by the farmer.\n\n* The story teaches us a valuable lesson: be careful who you trust, and make sure you keep the right friends!"
+      "explanation": "The correct answer is **We should keep the right friends.**\n\n**Analysis of the Correct Answer:**\nHyena trusted Hare as a companion, but Hare tricked him into burying his legs, abandoned him, and left him to take a beating from the farmer. This story teaches us to be careful about who we associate with, as untrustworthy friends will betray us in times of trouble.\n\n**Why Other Options Are Incorrect:**\n* **People need to share what they have.:** The story is about theft and trickery, not generous sharing.\n* **Farmers should beat all Hyenas.:** The moral lesson of a folktale is about human character and wisdom, not physically beating wild animals.\n* **We should always do what we are told.:** Blindly obeying bad advice (like Hyena obeying Hare's instruction to bury his legs) leads to disaster.\n\n📌 **Key Learning Note:**\nBe wise when choosing companions: keeping untrustworthy or deceitful friends leads to betrayal and trouble."
     },
     {
       "id": "eq16",
@@ -449,7 +449,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "Asha is a girl.\n\n* When referring to someone related to a female, we use the possessive pronoun 'her'.\n* So it is 'her grandfather'."
+      "explanation": "The correct answer is **her**.\n\n**Analysis of the Correct Answer:**\nPossessive adjectives show ownership before a noun. Since Asha is a female person (singular female subject pronoun **she**), the corresponding possessive adjective for her grandfather is **her** (**her grandfather**).\n\n**Why Other Options Are Incorrect:**\n* **his:** Possessive adjective used for a male person (e.g. **his grandfather**).\n* **hers:** Possessive pronoun used without a noun following it (e.g. **the garden is hers**), whereas here it precedes the noun **grandfather**.\n* **him:** Object pronoun (e.g. **I called him**), not a possessive adjective.\n\n📌 **Key Learning Note:**\nUse **her** as a possessive adjective before a noun when referring to a female person (e.g. **her book**, **her garden**, **her grandfather**)."
     },
     {
       "id": "eq17",
@@ -475,7 +475,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In a garden, you grow raw, living plants.\n\n* **'Dry'** and 'cooked' don't make sense for growing vegetables.\n* **Option D** ('plenty') is extremely tempting because a garden can have plenty of vegetables, but it is grammatically incorrect to say 'plenty vegetables'; you must include the preposition 'of' (plenty of vegetables).\n* Therefore, 'different' is the only grammatically and logically correct choice."
+      "explanation": "The correct answer is **different**.\n\n**Analysis of the Correct Answer:**\nIn the context of growing crops in a garden, the adjective **different** is used to describe growing various types or kinds of healthy vegetables (such as spinach, kales, carrots, and onions).\n\n**Why Other Options Are Incorrect:**\n* **dry:** Living, growing vegetables in a garden are fresh and watered, not dry.\n* **cooked:** Vegetables grow raw in the soil; they are only cooked after harvesting.\n* **plenty:** Requires the preposition \"of\" to function correctly as a determiner (**plenty of vegetables**), so it cannot directly modify \"vegetables\" here.\n\n📌 **Key Learning Note:**\n\"Different vegetables\" means various types of healthy crops growing together in a garden."
     },
     {
       "id": "eq18",
@@ -501,7 +501,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Because she likes her garden, doing the work to take care of it is something she likes doing.\n\n* The word 'enjoys' shows that she finds pleasure in taking care of her vegetables."
+      "explanation": "The correct answer is **enjoys**.\n\n**Analysis of the Correct Answer:**\nContextual verbs express feelings towards an activity. The passage states Asha likes her garden and prefers working in it over sitting inside playing phone games. Therefore, she **enjoys** taking care of her vegetables.\n\n**Why Other Options Are Incorrect:**\n* **begins:** Refers only to starting an action, which does not convey her affection or passion for gardening.\n* **accepts:** Means agreeing to receive something, which does not make sense with taking care of vegetables.\n* **admires:** Means looking at something with appreciation, whereas taking care of a garden is active labor (**enjoys taking care**).\n\n📌 **Key Learning Note:**\nPhrasing like \"enjoys taking care of\" shows active pleasure and dedication in looking after something."
     },
     {
       "id": "eq19",
@@ -527,7 +527,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The sentence links two things she dislikes doing together: sitting in the house, AND playing games on the phone.\n\n* The conjunction 'and' joins these two similar activities smoothly."
+      "explanation": "The correct answer is **and**.\n\n**Analysis of the Correct Answer:**\nThe coordinating conjunction **and** is used to connect two related indoor activities that Asha dislikes doing: **sitting in the house** AND **playing games on the phone**. \n\n**Why Other Options Are Incorrect:**\n* **also:** An adverb used for adding information, requiring a different sentence structure.\n* **yet:** A contrasting conjunction meaning \"but\", which is incorrect because both activities are complementary indoor actions.\n* **because:** A causal conjunction used to introduce a reason, not to link two parallel actions.\n\n📌 **Key Learning Note:**\nUse **and** to join two related or parallel activities in a single clause."
     },
     {
       "id": "eq20",
@@ -553,7 +553,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "When referring to the month that follows the current one, the correct English phrase is 'next month'.\n\n* We don't say 'future month' or 'later month'."
+      "explanation": "The correct answer is **next**.\n\n**Analysis of the Correct Answer:**\nWhen expressing expectations about an upcoming time period in English, we use the adjective **next**. Therefore, \"sell her harvest **next month**\" correctly refers to the month immediately following the present one.\n\n**Why Other Options Are Incorrect:**\n* **future:** Needs a prepositional phrase like **in the future** or an adjective like **future plans**, not **future month**.\n* **new:** Refers to something recently created or acquired, not a coming calendar month.\n* **later:** An adverb requiring a phrase like **later this month**, not **later month**.\n\n📌 **Key Learning Note:**\nUse **next month**, **next week**, or **next year** to refer to upcoming calendar time periods."
     },
     {
       "id": "eq21",
@@ -578,7 +578,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "A classroom is an enclosed space.\n\n* When someone is inside an enclosed space, we use the preposition 'in'."
+      "explanation": "The correct answer is **in**.\n\n**Analysis of the Correct Answer:**\nPrepositions of place indicate location. When someone or something is located inside an enclosed 3D space, room, or building, we use the preposition **in** (**in the classroom**).\n\n**Why Other Options Are Incorrect:**\n* **to:** Indicates movement or direction towards a destination (e.g. **walking to the classroom**).\n* **on:** Indicates position resting on a flat surface (e.g. **on the roof**).\n* **over:** Indicates a position directly above something without touching it (e.g. **flew over the classroom**).\n\n📌 **Key Learning Note:**\nUse **in** for enclosed locations like rooms, classrooms, houses, and buildings."
     },
     {
       "id": "eq22",
@@ -603,7 +603,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "A table has a flat surface.\n\n* When placing an object atop a surface, the correct preposition is 'on'."
+      "explanation": "The correct answer is **on**.\n\n**Analysis of the Correct Answer:**\nPrepositions of surface location describe where an object rests. When an item rests upon the top flat surface of a piece of furniture, we use **on** (**on the table**).\n\n**Why Other Options Are Incorrect:**\n* **with:** Indicates companionship or tool used (e.g. **with a pen**).\n* **in:** Means inside an enclosed space (e.g. **in the drawer**).\n* **from:** Indicates origin or starting point (e.g. **from the library**).\n\n📌 **Key Learning Note:**\nUse **on** when an object is resting on top of a flat surface like a table, desk, or floor."
     },
     {
       "id": "eq23",
@@ -628,7 +628,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "This is a question tag.\n\n* The main sentence is positive ('are planting'), so the tag must be negative, eliminating 'are they?' and 'are we?'.\n* The subject is 'The children', which is a third-person plural noun that must be replaced by the pronoun 'they'.\n* The pronoun 'we' would only be used if the sentence was 'We are planting trees'.\n* Therefore, the correct tag is 'aren't they?'"
+      "explanation": "The correct answer is **aren't they?**\n\n**Analysis of the Correct Answer:**\nQuestion tags follow three main grammar rules:\n1. **Positive statement ➔ Negative tag.** The sentence \"The children are planting trees\" is positive.\n2. **Match the auxiliary verb.** The auxiliary verb is **are**, so the negative form is **aren't**.\n3. **Match the pronoun.** The subject \"The children\" is third-person plural, replaced by **they**.\nPutting it together gives the tag **aren't they?**.\n\n**Why Other Options Are Incorrect:**\n* **aren't we?:** Changes the pronoun from third-person plural (**they**) to first-person plural (**we**).\n* **are they?:** Uses a positive tag, which is incorrect for a positive statement.\n* **are we?:** Uses a positive tag and an incorrect pronoun.\n\n📌 **Key Learning Note:**\nQuestion Tag Rule: Positive statement + Positive verb (\"are\") ➔ Negative tag (\"aren't they?\")."
     },
     {
       "id": "eq24",
@@ -653,7 +653,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The book is missing because a person took it without Rudisha knowing exactly who it was.\n\n* The pronoun 'somebody' is used to refer to an unspecified person."
+      "explanation": "The correct answer is **somebody**.\n\n**Analysis of the Correct Answer:**\nIndefinite pronouns refer to unspecified people:\n- **Somebody / Someone**: Used in affirmative (positive) clauses when referring to an unknown person who took an action.\nBecause the clause \"...because somebody had taken it\" is a positive statement explaining why the book was missing, **somebody** is the correct pronoun.\n\n**Why Other Options Are Incorrect:**\n* **anybody:** Used in negative statements (**did not see anybody**) or questions (**did anybody take it?**).\n* **everybody:** Means all people, which makes no sense because multiple people wouldn't take a single book.\n* **nobody:** Means no person; saying \"nobody had taken it\" would contradict why the book was missing from the bag.\n\n📌 **Key Learning Note:**\nUse **somebody** in positive statement clauses when referring to an unknown person."
     },
     {
       "id": "eq25",
@@ -678,7 +678,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The pronoun in the sentence is 'us'.\n\n* The matching reflexive pronoun for 'us' (we) is 'ourselves'.\n* The teacher told us to take care of ourselves."
+      "explanation": "The correct answer is **ourselves**.\n\n**Analysis of the Correct Answer:**\nReflexive pronouns refer back to the subject or object of the clause:\n- Subject/Object **we / us** (1st person plural) ➔ Reflexive pronoun **ourselves**.\nSince the teacher told **us** (first-person plural) to take care of a group including ourselves, the correct reflexive pronoun is **ourselves**.\n\n**Why Other Options Are Incorrect:**\n* **themselves:** Reflexive pronoun for **they/them** (3rd person plural).\n* **yourself:** Singular reflexive pronoun for **you** (2nd person singular).\n* **yourselves:** Plural reflexive pronoun for **you all** (2nd person plural).\n\n📌 **Key Learning Note:**\nReflexive pronoun pairing: **we / us ➔ ourselves**."
     },
     {
       "id": "eq26",
@@ -703,7 +703,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In English, the correct phrase used to describe an action done using violence or against someone's will is 'by force'."
+      "explanation": "The correct answer is **by**.\n\n**Analysis of the Correct Answer:**\nPrepositional phrases indicating manner or method follow fixed idiomatic expressions. The standard English expression meaning using physical compulsion or violence is **by force** (**took away our goats by force**).\n\n**Why Other Options Are Incorrect:**\n* **with:** Used for instruments (e.g. **cut with a knife**), not in the phrase **by force**.\n* **at:** Used for location or time (e.g. **at noon**), not manner.\n* **under:** Used in phrases like **under pressure** or **under arrest**, but not **by force**.\n\n📌 **Key Learning Note:**\nThe correct fixed idiomatic prepositional phrase is **by force**."
     },
     {
       "id": "eq27",
@@ -728,7 +728,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The egg belongs to the hen.\n\n* To show possession linking a noun to its owner in a relative clause, we use the word 'whose'.\n* The other relative pronouns are incorrect here: 'who' and 'whom' are used for people, not animals or things.\n* **'Which'** is used for animals and things, but it cannot show possession (you cannot say 'the hen which egg').\n* Only 'whose' correctly shows that the egg belongs to the hen."
+      "explanation": "The correct answer is **whose**.\n\n**Analysis of the Correct Answer:**\nRelative pronouns link clauses by indicating identity or possession:\n- **whose**: Shows possession for people, animals, or objects (**the hen whose egg broke** = the egg belonging to the hen).\n\n**Why Other Options Are Incorrect:**\n* **who:** Subject pronoun used for human beings (e.g. **the teacher who taught us**).\n* **whom:** Object pronoun used for human beings (e.g. **the man whom I met**).\n* **which:** Used for non-possessive references to animals or things (e.g. **the hen which laid an egg**).\n\n📌 **Key Learning Note:**\nUse **whose** to show possession for people, animals, or things."
     },
     {
       "id": "eq28",
@@ -753,7 +753,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The word 'will' indicates future tense.\n\n* After modal verbs like 'will', 'shall', or 'can', we must always use the base form of the verb.\n* So 'give' is correct."
+      "explanation": "The correct answer is **give**.\n\n**Analysis of the Correct Answer:**\nModal auxiliary verbs (**will, shall, can, may, must, should, would**) must ALWAYS be followed by the **bare infinitive** (the base form of the main verb without 'to').\nTherefore, after the modal **will**, the base verb **give** is required (**will give**).\n\n**Why Other Options Are Incorrect:**\n* **given:** Past participle form (**has given**), which cannot follow a modal verb directly.\n* **gives:** Third-person singular present form (**he gives**), which cannot follow a modal verb.\n* **gave:** Simple past tense form (**he gave**), which cannot follow a modal verb.\n\n📌 **Key Learning Note:**\nGrammar Rule: Modal verbs (will, shall, can, may) + Base Verb (**will give**)."
     },
     {
       "id": "eq29",
@@ -778,7 +778,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The phrase 'Neither... nor' is used to make a negative statement about two things or people.\n\n* It means 'not one and not the other'.\n* So it means both Kalusi and Sofia did NOT come late."
+      "explanation": "The correct answer is **Both Kalusi and Sofia did not come late to class.**\n\n**Analysis of the Correct Answer:**\nCorrelative conjunctions **Neither ... nor** mean \"not the one and not the other\". They negate both persons or items mentioned in the sentence.\nTherefore, \"Neither Kalusi nor Sofia came late\" means that Kalusi did NOT come late, and Sofia did NOT come late either (both were on time).\n\n**Why Other Options Are Incorrect:**\n* **Only Kalusi came late to class.:** Incorrectly claims one student was late.\n* **Only Sofia came late to class.:** Incorrectly claims the other student was late.\n* **Both Kalusi and Sofia came late to class.:** Reverses the meaning into a positive statement of lateness for both students.\n\n📌 **Key Learning Note:**\n\"Neither A nor B\" means **BOTH A and B did NOT** perform or experience the action."
     },
     {
       "id": "eq30",
@@ -804,7 +804,7 @@ export const kpseaEnglish2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Let's look at the facts:\n- Nasir plays football AND volleyball.\n- Lona plays football AND netball.\n- All three play football, but Banda is the ONLY one who doesn't have a second sport mentioned. Therefore, Banda plays football only!"
+      "explanation": "The correct answer is **Banda.**\n\n**Analysis of the Correct Answer:**\nReading logic puzzles requires carefully matching every condition in the text:\n- **Nasir**: plays football AND volleyball.\n- **Banda**: plays football ONLY.\n- **Lona**: plays football AND netball.\nSince Banda plays football and has no other additional sport listed, **Banda** is the only one who plays football **only**.\n\n**Why Other Options Are Incorrect:**\n* **Nasir.:** Plays football AND volleyball.\n* **Lona.:** Plays football AND netball.\n* **All of them.:** All three play football, but Nasir and Lona play other sports too, so they do not play football **only**.\n\n📌 **Key Learning Note:**\nPay close attention to restrictive words like **\"only\"** when answering comprehension puzzles."
     }
   ]
 };

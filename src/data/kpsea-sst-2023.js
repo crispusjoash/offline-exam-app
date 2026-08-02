@@ -4,6 +4,7 @@ export const kpseaSst2023 = {
   "subject": "Social Studies & Creative Arts",
   "year": "2023",
   "isParentPaper": true,
-  "durationMinutes": 80,
-  "sectionA": []
+  "durationMinutes": 100,
+  "sectionA": [],
+  "timeAllowed": 100
 };

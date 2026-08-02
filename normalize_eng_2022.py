@@ -1,0 +1,29 @@
+import re
+
+filepath = 'src/data/kpsea-english-2022.js'
+with open(filepath, 'r', encoding='utf-8') as f:
+    text = f.read()
+
+# Protect JS block comments `/*` and `*/`
+text = text.replace('/*', 'BLOCK_COMMENT_START_MARKER')
+text = text.replace('*/', 'BLOCK_COMMENT_END_MARKER')
+
+# Protect escaped bullet points `\\n* `
+text = text.replace('\\n* ', '\\nBULLET_POINT_MARKER ')
+
+# Protect bullet points (start of line)
+text = re.sub(r'(?m)^(\s*)\*\s', r'\1BULLET_POINT_MARKER ', text)
+
+# Replace any remaining sequence of 1 or more asterisks with exactly two asterisks
+text = re.sub(r'\*+', '**', text)
+
+# Restore everything
+text = text.replace('\\nBULLET_POINT_MARKER ', '\\n* ')
+text = text.replace('BULLET_POINT_MARKER ', '* ')
+text = text.replace('BLOCK_COMMENT_START_MARKER', '/*')
+text = text.replace('BLOCK_COMMENT_END_MARKER', '*/')
+
+with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(text)
+
+print("KPSEA English 2022 asterisks normalized successfully!")

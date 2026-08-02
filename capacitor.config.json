@@ -1,0 +1,6 @@
+{
+  "appId": "com.cbc.offlineexam",
+  "appName": "CBC Portal",
+  "webDir": "dist",
+  "backgroundColor": "#f8fafc"
+}

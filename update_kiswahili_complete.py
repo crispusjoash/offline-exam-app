@@ -1,0 +1,493 @@
+import json
+import re
+
+explanations = {
+    1: """Jibu sahihi ni **Masalkheri?**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika kifungu cha ufahamu, Leni na Kibo wanakutana **mtoni jioni** (kama sentensi ya kwanza inavyoeleza: **"Ni jioni. Leni na Kibo wamekutana mtoni..."**). Salamu ya **Masalkheri** imetokana na neno la Kiarabu (**Masa'a al-khair**) linalomaanisha "jioni njema". Hivyo, hii ndiyo salamu sahihi kabisa inayofaa kutumiwa wakati wa jioni baada ya kuamkuana.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Chewa?:** Hili si neno la salamu katika Kiswahili sanifu; "Chewa" ni aina ya samaki au kielezi. Haliwezi kutumika kama salamu.
+* **Sabalkheri?:** Salamu hii imetokana na neno *Sabah al-khair* linalomaanisha "asubuhi njema". Hutumiwa wakati wa asubuhi pekee, si jioni.
+* **Shikamoo?:** Hii ni salamu ya heshima inayotumiwa na mtu mdogo kumwamkua mtu mzima au aliyemzidi umri. Kwa kuwa Leni na Kibo ni marafiki wa rika moja (rika/hirimu moja), salamu hii haifai hapa.
+
+📌 **Dokezo la Kujifunza:**
+Katika Kiswahili sanifu, maamkuzi yanazingatia **muda wa siku** na **rika/umri wa mtu**:
+- **Asubuhi:** Sabalkheri? -> Akheri / Sabalkheri.
+- **Jioni:** Masalkheri? -> Akheri / Masalkheri.
+- **Mdogo kwa Mkubwa:** Shikamoo? -> Marahaba.""",
+
+    2: """Jibu sahihi ni **Ni kweli unavyosema mwenzangu.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kauli hii inaonyesha adabu na heshima kubwa katika mazungumzo. Leni anamstahi mwenzake kwa kukubaliana na wazo lake bila kumvunjia heshima, kutumia jina la ushirika na urafiki (**"mwenzangu"**), na kusikiliza kwa makini maoni ya Kibo.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Umejitwika mtungi kichwani kutafuta maji!:** Hii ni kauli ya kueleza kitendo au kumpigia mwenzake mzaha usio na adabu wala staha, kwani Kibo alionyesha kukasirishwa nayo.
+* **Wanyama na ndege nao watakosa makao.:** Huku ni kueleza athari za mazingira (uharibifu wa mazingira), si kauli ya kuonyesha lugha ya adabu na staha kwa mwenzako.
+* **Matangi yako makubwa yamekauka?:** Swali hili linaweza kuonekana kama kejeli au dharau kwa vile Kibo yuko katika hali ngumu ya ukosefu wa maji.
+
+📌 **Dokezo la Kujifunza:**
+Lugha ya adabu na staha katika mazungumzo inajumuisha:
+1. Kutumia maneno ya heshima na ya utulivu.
+2. Kutomkejeli au kumfanya mwenzako ahisi vibaya.
+3. Kuitikia au kukubaliana na maoni ya mwenzako kwa heshima (k.m. **"Ni kweli unavyosema mwenzangu"**).""",
+
+    3: """Jibu sahihi ni **Tutajenga ukuta.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika mazungumzo hayo, Kibo anaanza kusema methali inayojulikana: **"Kumbuka tusipoziba ufa..."** kisha Leni anamkatiza na kukamilisha nusu ya pili ya methali hiyo kwa kusema: **"Tutajenga ukuta."** Hili linadhihirisha jinsi wasikilizaji makini wanavyoweza kukamilisha kauli au methali za wenzao katika mazungumzo ya kimaisha.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Bila shaka.:** Hili ni neno linalotumika kukubaliana na kauli (kama vile kusema 'kwa hakika'), lakini si neno linalokamilisha methali ya Kibo.
+* **Kweli kabisa.:** Hii ni kauli ya kusisitiza au kuunga mkono hoja, si sehemu iliyokosekana ya sentensi au methali.
+* **Samahani kaka.:** Haya ni maneno ya kuomba radhi, yaliyotumiwa awali na Leni kuomba msamaha baada ya Kibo kukasirika.
+
+📌 **Dokezo la Kujifunza:**
+Methali maarufu inayorejelewa hapa ni: **"Tusipoziba ufa, tutajenga ukuta."**
+* Maana yake ni: Ukiona tatizo dogo, linapaswa kutatuliwa mapema kabla halijawa kubwa na kugharimu zaidi.""",
+
+    4: """Jibu sahihi ni **Kiwango cha joto kuongezeka.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Ukataji wa miti na uharibifu wa mazingira husababisha mabadiliko ya tabianchi na mazingira (global warming), jambo linalofanya kiwango cha joto kuongezeka duniani na mvua kukatika. Hii ni athari ya moja kwa moja ya ikolojia na mazingira.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Wanafunzi kuacha shule.:** Ingawa umaskini unaweza kusababisha wanafunzi kuacha shule, hii si athari ya moja kwa moja ya kimazingira inayotokana na kukata miti.
+* **Mahusiano baina ya watu yataharibika.:** Mahusiano ya kijamii yanaweza kuathiriwa na mambo mengine ya kisaikolojia na kiutamaduni, si matokeo ya moja kwa moja ya kimazingira.
+* **Vyombo vya usafiri wa umma vitapungua.:** Usafiri wa umma unategemea hali ya uchumi na mafuta, si uharibifu wa mazingira ya kiasili.
+
+📌 **Dokezo la Kujifunza:**
+Athari kuu za uharibifu wa mazingira (kama vile ukataji wa miti ovyo) ni pamoja na:
+- Ongezeko la joto duniani.
+- Mmomonyoko wa udongo na ukame.
+- Kupotea kwa makao ya wanyamapori na ndege.""",
+
+    5: """Jibu sahihi ni **Sahibu.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kibo anamwambia Leni: **"Mwandani wangu, hakika utunzi wa mazingira ni wajibu wetu."** Neno **mwandani** lina maana ya rafiki wa dhati au rafiki wa karibu sana. Katika msamiati wa Kiswahili sanifu, kisawe chake halisi ni **sahibu**.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Ndugu:** Mtu wa familia moja au aliye wa damu moja nawe (k.m. kaka au dada).
+* **Jirani:** Mtu anayeishi karibu au kando ya nyumba yako.
+* **Mwenza:** Mtu unayeshirikiana naye katika kazi au mume/mke, si lazima awe rafiki wa karibu sana.
+
+📌 **Dokezo la Kujifunza:**
+Msamiati wa visawe vya maneno ya urafiki:
+- **Mwandani = Sahibu = Rafiki wa dhati = Muhibu.**""",
+
+    6: """Jibu sahihi ni **ushuru unaotozwa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kifungu kinasema wazi katika aya ya kwanza: **"Nchi yetu hutegemea ushuru ambao wananchi hutozwa ili kuendesha shughuli zake."** Na pia katika aya ya mwisho inasema: **"Ni wajibu wa kila mwananchi kulipa ushuru ili taifa letu liweze kujitegemea... Tutakuwa na miundomsingi bora..."** Hii inaonyesha maendeleo ya taifa yanategemea ushuru unaotozwa.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **bidhaa zinazouzwa:** Uuzaji wa bidhaa ni shughuli tu za kibiashara za binafsi; peke yake hauwezi kuleta maendeleo ya taifa bila kodi/ushuru kukusanywa.
+* **bajeti ya taifa:** Bajeti ni mpango tu wa maoteo ya matumizi, lakini bila fedha za kodi kukusanywa, bajeti hiyo haiwezi kutekelezwa.
+* **huduma za kimsingi:** Huduma bora ni matokeo au mazao ya maendeleo, si chanzo au msingi unaoleta fedha za maendeleo.
+
+📌 **Dokezo la Kujifunza:**
+Ushuru (kodi) ni nguzo kuu ya uchumi wa nchi yoyote. Kodi inayokusanywa hutumika kujenga barabara, hospitali, shule, na kutoa huduma kwa wananchi.""",
+
+    7: """Jibu sahihi ni **imepewa mamlaka kikatiba.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kifungu kinathibitisha katika aya ya pili: **"Shirika hili limepewa mamlaka ya kikatiba kukusanya aina zote za ushuru..."** Hivyo, msingi mkuu unaoipa KRA haki ya kukusanya kodi ni sheria na mamlaka kutoka katika katiba ya nchi.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **bajeti huandaliwa kila mwaka:** Kuandaa bajeti ni utaratibu wa kila mwaka wa serikali, lakini haupi shirika haki ya kisheria ya kukusanya kodi.
+* **ni muhimu kuhakikisha matumizi yafaayo ya fedha:** Hili ni jukumu la uhafidhi na ukaguzi wa fedha, si sababu kuu inayowapa KRA mamlaka ya kikatiba.
+* **bidhaa nyingi huuzwa ndani na nje ya nchi:** Biashara ni chanzo cha kutoza kodi, lakini haitoi mamlaka ya kisheria bila katiba kueleza.
+
+📌 **Dokezo la Kujifunza:**
+Mamlaka yote ya mashirika ya serikali (kama KRA) hutokana na Katiba na Sheria zilizopitishwa na Bunge la Nchi.""",
+
+    8: """Jibu sahihi ni **viwanda vya uzalishaji bidhaa vitaimarika.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Miundomsingi bora (kama barabara nzuri, reli, stima, na mawasiliano) inapowekwa, usafirishaji wa malighafi na bidhaa unakuwa rahisi na wa haraka. Hili husababisha **viwanda vya uzalishaji bidhaa kuimarika** na uchumi kukua kwa kasi.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **wakulima watapata mazao mengi:** Mazao mengi hutegemea hali ya hewa, mbolea na udongo, ingawa barabara husaidia tu mazao kufika sokoni.
+* **idadi ya watu itaongezeka:** Ongezeko la watu linatokana na kiwango cha uzazi na afya, si matokeo ya miundomsingi.
+* **uharibifu wa mazingira utapungua:** Mara nyingi ujenzi wa miundomsingi unahitaji utunzaji wa ziada ili usiharibu mazingira badala ya kupunguza uharibifu kiatomati.
+
+📌 **Dokezo la Kujifunza:**
+Miundomsingi ni msingi wa maendeleo ya kiuchumi; inarahisisha biashara, usafiri, na uendeshaji wa viwanda katika taifa.""",
+
+    9: """Jibu sahihi ni **kukubaliwa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika kifungu, aya ya tatu inasema: **"Makadirio hayo husomwa bungeni na Waziri wa Hazina ya Kitaifa kisha kuidhinishwa."** Katika muktadha huu wa kisheria na kibunge, **kuidhinishwa** ina maana ya kupitishwa, kuthibitishwa au **kukubaliwa** rasmi na wabunge ili ziwe sheria.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **kuwasilishwa:** Kuwasilisha ni kuleta au kusoma mbele ya watu kabla ya maamuzi kufanywa; hili hufanyika kabla ya kuidhinisha.
+* **kuchunguzwa:** Kuchunguza ni kukagua au kutathmini maelezo, jambo linalofanyika kabla ya uamuzi wa mwisho wa kukubali.
+* **kukamilika:** Kukamilika ni kumalizika kwa kitendo, si kibali rasmi cha kisheria.
+
+📌 **Dokezo la Kujifunza:**
+Kuidhinisha = Kupitisha rasmi / Kukubali kwa mamlaka au sheria.""",
+
+    10: """Jibu sahihi ni **alimsaidia mlezi wake.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Sentensi ya kwanza ya ufahamu inasema wazi: **"Likizo iliyopita nilitumia muda wangu wa mapumziko kumsaidia mlezi wangu kuwatunza mifugo wetu. Jambo hilo lilimfurahisha sana mlezi wangu akanizawidi ndama wa kike."** Hivyo, msaada aliotoa katika kutunza mifugo ndio uliomfanya azawadiwe.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **alifika nyumbani kwa likizo:** Kuwasili nyumbani wakati wa likizo ni jambo la kawaida la kila mwanafunzi, si kitendo cha pekee cha kustahili zawadi.
+* **alimpa ndama jina Simati:** Alimpa jina ndama *baada* ya kuwa tayari amezawadiwa ndama huyo na mlezi wake.
+* **alitamani kuuza maziwa:** Mpango wa kuuza maziwa ni mawazo ya siku zijazo (baadaye), si sababu ya kupewa zawadi mwanzoni.
+
+📌 **Dokezo la Kujifunza:**
+Matendo mema ya utii, nidhamu, na usaidizi kwa wazazi au walezi huleta furaha na tuzo katika maisha.""",
+
+    11: """Jibu sahihi ni **Anapanga kuuza maziwa ili apate pesa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Uwekezaji unajumuisha kutumia rasilimali uliyonayo (kama mifugo) kuzalisha mali na kupata akiba au kipato cha siku zijazo. Msimulizi anasema: **"Maziwa... mengine nitayauza... Hela nitakazopata... nitaziweka kama akiba kwani akiba haiozi."** Hili linadhihirisha uelewa wa kimsingi wa uwekezaji na biashara.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Anatumia likizo yake vizuri:** Huku ni kutumia muda vizuri (nidhamu ya wakati), si mpango wa kifedha au uwekezaji.
+* **Anatarajia Simati atapata ndama:** Hili ni matarajio ya kimaumbile ya wanyama, si elimu ya uwekezaji wa fedha.
+* **Anafurahisha sana mlezi wake:** Hii ni tabia njema ya ushirikiano wa kifamilia, si uwekezaji wa kiuchumi.
+
+📌 **Dokezo la Kujifunza:**
+**Uwekezaji** ni kitendo cha kuweka rasilimali au fedha katika biashara au akiba ili zipate kuzalisha faida zaidi baadaye ("Akiba haiozi").""",
+
+    12: """Jibu sahihi ni **kuwalinda.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kutunza mifugo inamaanisha kuwapa huduma zote zinazohitajika kama lishe bora, maji safi, matibabu, na **kuwalinda** dhidi ya hatari yoyote ili wasidhurike au kupotea.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **kuwatayarisha:** Kutayarisha ni kuweka kitu tayari kwa ajili ya matumizi au kazi fulani (k.m. kutayarisha shamba), si matunzo ya mifugo.
+* **kuwapenda:** Upendo ni hisia za ndani ya moyo, lakini kutunza ni vitendo halisi vya kutoa ulinzi na chakula.
+* **kuwafurahisha:** Kufurahisha ni kucheza au kuwachangamsha viumbe, ilhali matunzo ni ya kimsingi zaidi (ulinzi na afya).
+
+📌 **Dokezo la Kujifunza:**
+**Kutunza = Kuweka katika hali ya usalama na ulinzi / Kupeana mahitaji ya kimsingi.**""",
+
+    13: """Jibu sahihi ni **Jumatatu.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Tuchanganue mpangilio wa siku kutoka katika kifungu:
+1. Kifungu kinasema: **"Kesho ni Ijumaa."** Hii inamaanisha kuwa **Leo ni Alhamisi**.
+2. **Kesho** = Ijumaa.
+3. **Kesho kutwa** = Jumamosi (siku 2 kutoka leo).
+4. **Mtondo** = Jumapili (siku 3 kutoka leo).
+5. **Mtondogoo** = **Jumatatu** (siku 4 kutoka leo).
+Hivyo mtondogoo watakaporejea shuleni ni siku ya Jumatatu!
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Jumamosi:** Hii ni siku ya kesho kutwa (siku mbili baadaye).
+* **Jumapili:** Hii ni siku ya mtondo (siku tatu baadaye).
+* **Jumanne:** Hii ni siku ya mtondogoo wa pili (siku tano baadaye).
+
+📌 **Dokezo la Kujifunza:**
+Mpangilio wa siku za baadaye katika Kiswahili:
+- **Leo** (Siku ya sasa)
+- **Kesho** (+siku 1)
+- **Kesho kutwa** (+siku 2)
+- **Mtondo** (+siku 3)
+- **Mtondogoo** (+siku 4)""",
+
+    14: """Jibu sahihi ni **Kuhudhuria sherehe, kukariri shairi.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kuhudhuria sherehe za kitaifa (kama Sikukuu ya Mashujaa) na kukariri shairi linalosifu mashujaa wa nchi ni vitendo vinavyoonyesha uzalendo, kuheshimu historia, na kuipenda nchi.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Kurejea shuleni, kukariri shairi:** Kurejea shuleni ni wajibu wa kawaida wa kimasomo wa kila mwanafunzi, si kitendo cha pekee cha uzalendo.
+* **Kusimulia matukio, kuhudhuria sherehe:** Kusimulia matukio miongoni mwa marafiki ni mazungumzo tu ya kawaida.
+* **Kusimulia matukio, kurejea shuleni:** Hivi ni vitendo vya kawaida vya maisha ya kila siku ya shuleni.
+
+📌 **Dokezo la Kujifunza:**
+**Uzalendo** ni nidhamu na utayari wa kuipenda, kuistahi, na kushiriki katika shughuli na maadhimisho ya kitaifa ya nchi yako.""",
+
+    15: """Jibu sahihi ni **kujitayarisha.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kifungu kinasema: **"Tangu juzi, wamekuwa wakifanya mazoezi ili kujiandaa."** Kufanya mazoezi kabla ya kuonyesha shairi ni kitendo cha **kujitayarisha** ili uweze kufanya vizuri wakati ukifika.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **kujitambulisha:** Kujitambulisha ni kueleza jina lako au asili yako mbele ya watu.
+* **kujinufaisha:** Kupata faida au manufaa binafsi kutokana na jambo.
+* **kujiburudisha:** Kufanya vitendo vya kujiburudisha au kujifurahisha (starehe).
+
+📌 **Dokezo la Kujifunza:**
+Kujiandaa = Kujitayarisha = Kuweka mambo tayari kabla ya kazi au tukio.""",
+
+    16: """Jibu sahihi ni **siha.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Sentensi inasema: **"Kuwa na afya yaani siha bora ni jambo muhimu kwa binadamu."** Neno **siha** ni kisawe cha afya njema ya mwili na akili.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **uhai:** Kuwa hai au kuvuta pumzi; mtu anaweza kuwa hai lakini akiwa mgonjwa mahututi.
+* **nguvu:** Uwezo wa misuli wa kubeba au kufanya kazi; mtu anaweza kuwa na nguvu lakini ana maradhi mengine.
+* **kimo:** Urefu wa kwenda juu wa kiumbe au kitu.
+
+📌 **Dokezo la Kujifunza:**
+Maneno yenye maana sawa (visawe):
+- **Afya njema = Siha bora.**""",
+
+    17: """Jibu sahihi ni **nzuri.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Nomino **njia** ipo katika **Ngeli ya I-ZI** (umoja). Katika kulinganisha viambishi vya Ngeli ya I-ZI, kivumishi chake kinachukua kiambishi cha upatanisho cha 'N-', ambacho kikitangulia shina '-zuri' kinakuwa **nzuri** (**"njia nzuri ya kutupatia afya njema"**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **kuzuri:** Hili ni kivumishi cha Ngeli ya KU- (mahali/kitendo).
+* **mzuri:** Hiki ni kivumishi cha Ngeli ya A-WA (mtu/mnyama) au M-MI (mti/mto).
+* **vizuri:** Hiki ni kielezi au kivumishi cha Ngeli ya KI-VI wingi.
+
+📌 **Dokezo la Kujifunza:**
+Upatanisho wa Ngeli ya I-ZI:
+- Umoja: Njia **nzuri** (I-)
+- Wingi: Njia **nzuri** (ZI-)""",
+
+    18: """Jibu sahihi ni **tunakula.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Muktadha unazungumzia tabia ya kawaida ya kila siku inayofanywa na nafsi ya kwanza wingi (**"sisi"** -> kiambishi **tu-**). Kiambishi cha wakati uliopo unaoendelea/kawaida ni **-na-**. Hivyo neno sahihi ni **tunakula** (**"Yeye huhakikisha kwamba tunakula matunda..."**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **tungekula:** Kiambishi *-nge-* huonyesha masharti yanayoweza kutokea, si jambo la hakika la kila siku.
+* **tukila:** Kiambishi *-ki-* huonyesha masharti au kitendo cha wakati mmoja kinachoendelea.
+* **tulikula:** Kiambishi *-li-* huonyesha wakati uliopita (zamani), ilhali hii ni tabia inayozingatiwa kila siku.
+
+📌 **Dokezo la Kujifunza:**
+Vipengele vya kitenzi cha Kiswahili:
+- **tu-** (Nafsi ya kwanza wingi)
+- **-na-** (Wakati uliopo / Zoazoa)
+- **-kula** (Shina la kitenzi) -> **tunakula**.""",
+
+    19: """Jibu sahihi ni **kwa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kihusishi **kwa** kinatumika kuonyesha jinsi au kipimo kitendo kinavyofanyika (**"kula matunda na mboga kwa wingi"**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **ya:** Kihusishi cha kumiliki katika Ngeli ya I-ZI umoja au YA-YA wingi.
+* **ni:** Kitenzi kishirikishi kinachoonyesha hali ya kuwa au usawa.
+* **vya:** Kihusishi cha kumiliki katika Ngeli ya KI-VI wingi.
+
+📌 **Dokezo la Kujifunza:**
+Kihusishi **kwa** hutumiwa kuonyesha:
+1. Njia/Jinsi ya kufanya kitendo (k.m. kula *kwa* wingi, fanya kazi *kwa* bidii).
+2. Kifaa kinachotumiwa (k.m. andika *kwa* kalamu).""",
+
+    20: """Jibu sahihi ni **mchwa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika lugha ya Kiswahili, tashbihi inayotumiwa kueleza bidii kubwa ya kazi ni **bidii kama mchwa**. Mchwa anajulikana kwa kufanya kazi usiku na mchana bila kuchoka akijenga kichuguu chake.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **kiwavi:** Mdudu anayejulikana kwa kuwasha akigusa ngozi au kula majani.
+* **tausi:** Ndege anayejulikana kwa uzuri wa manyoya na maringo/kujigamba.
+* **njiwa:** Ndege anayejulikana kwa upole, amani na uaminifu.
+
+📌 **Dokezo la Kujifunza:**
+Tashbihi maarufu za wanyama/wadudu:
+- Fanya kazi kwa bidii kama **mchwa**.
+- Mpole kama **njiwa**.
+- Mrembo/Maringo kama **tausi**.""",
+
+    21: """Jibu sahihi ni **Jembe litatumiwa kupalilia mpapai wake mchanga.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Hebu tubadili kila neno kutoka wingi kwenda umoja:
+1. **Majembe** (Ngeli ya LI-YA wingi) -> **Jembe** (umoja).
+2. **yatatumiwa** -> **litatumiwa**.
+3. **kupalilia** (kitenzi jina) -> **kupalilia**.
+4. **mipapai** (Ngeli ya M-MI wingi) -> **mpapai** (umoja).
+5. **yao** (kimilikishi wingi) -> **wake** (umoja wa mpapai).
+6. **michanga** (kivumishi wingi) -> **mchanga** (umoja).
+Hivyo sentensi kamili ya umoja ni: **"Jembe litatumiwa kupalilia mpapai wake mchanga."**
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Jembe litatumiwa kupalilia mipapai yake michanga:** Maneno 'mipapai' na 'michanga' yamebakizwa katika wingi.
+* **Jembe litatumiwa kupalilia mmpapai yake mchanga:** Kuna makosa ya tahajia ('mmpapai') na matumizi mabaya ya kimilikishi ('yake').
+* **Jembe litatumiwa kupalilia mpapai wake michanga:** Kivumishi 'michanga' kimebaki katika wingi badala ya 'mchanga'.
+
+📌 **Dokezo la Kujifunza:**
+Wakati wa kubadilisha sentensi kuwa umoja au wingi, lazima uzingatie Ngeli za nomino zote na upatanisho wa sarufi kwa vitenzi na vivumishi vyote.""",
+
+    22: """Jibu sahihi ni **tangu.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Kihusishi **tangu** kinatumika kuonyesha mwanzo wa kipindi fulani cha wakati kilichoanzia nyuma na kinaendelea (**"Jakaya amekuwa akiwasaidia tangu zamani"**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **hadi:** Huonyesha mwisho au mpaka wa kitendo/muda (k.m. kutoka asubuhi *hadi* jioni).
+* **kisha:** Huonyesha mtiririko wa matukio (baadaye/halafu).
+* **tena:** Huonyesha takriri au kurudiwa kwa kitendo.
+
+📌 **Dokezo la Kujifunza:**
+- **Tangu:** Huonyesha mahali au wakati kitendo kilipoanzia (k.m. *tangu* asubuhi).
+- **Hadi:** Huonyesha kikomo au mpaka wa kitendo (k.m. *hadi* jioni).""",
+
+    23: """Jibu sahihi ni **msalani.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika utamaduni na lugha ya adabu ya Kiswahili (lugha ya taarabia/staha), neno linalofaa na la heshima kutumiwa mbele ya watu au mwalimu badala ya neno 'choo' ni **msalani** au **chemba**.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **bafuni:** Mahali maalumu palipotengwa kwa ajili ya kuogea maji, si kujisaidia haja.
+* **majifichoni:** Mahali pa kujificha tu, si jina la staha la choo.
+* **chumbani:** Chumba cha kulala au kufanyia kazi.
+
+📌 **Dokezo la Kujifunza:**
+**Lugha ya Staha (Taarabia):** Haya ni maneno mbadala yanayotumiwa kuepuka kutaja maneno yanayoweza kuleta aibu au kinyaa mbele ya watu (k.m. *msalani* badala ya *chooni*, *jaala/mjamzito* badala ya *mwenye mimba**).""",
+
+    24: """Jibu sahihi ni **ameshonewa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Sentensi inasema Matu ndiye fundi na ndiye aliyeshona rinda la Anna. Hii ina maana kwamba Anna ndiye aliyefanyiwa au kufaidika na kitendo hicho. Hivyo, kauli inayofaa kueleza kitendo cha Anna ni kauli ya **kutendewa** (**ameshonewa** -> **"Anna ameshonewa rinda na Matu"**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **wameshonewa:** Hiki ni kitenzi cha nafsi ya tatu wingi (watu wengi), lakini Anna ni mtu mmoja (nafsi ya tatu umoja).
+* **wameshonesha:** Hiki pia kiko katika nafsi ya tatu wingi.
+* **ameshonesha:** Kauli ya kutendesha (ameshonesha) inamaanisha ametoa amri au kulipia ishonwe, lakini inaposemwa **"rinda limeshonwa na Matu"**, muundo wa kutendewa wa kulinganisha moja kwa moja ni **"Anna ameshonewa rinda na Matu"**.
+
+📌 **Dokezo la Kujifunza:**
+Kauli za Vitenzi vya Kiswahili:
+- Kutenda: Shona
+- Kutendwa: Shonwa
+- **Kutendewa:** Shonewa (kufanyiwa na mtu mwingine)
+- Kutendesha: Shonesha (kufanya mtu mwingine atende)""",
+
+    25: """Jibu sahihi ni **wa.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Nomino **mlango** iko katika **Ngeli ya M-MI** umoja. Kiunganishi cha ngeli hii katika umoja ni **wa** (**"Mlango wa darasa ni safi"**).
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **za:** Kiunganishi cha Ngeli ya I-ZI wingi (k.m. nguo *za* wanafunzi).
+* **ya:** Kiunganishi cha Ngeli ya I-ZI umoja au YA-YA wingi (k.m. nyumba *ya* mwalimu).
+* **la:** Kiunganishi cha Ngeli ya LI-YA umoja (k.m. duka *la* shule).
+
+📌 **Dokezo la Kujifunza:**
+Viovunganishi vya Ngeli ya M-MI:
+- Umoja (M-): **wa** (Mlango **wa**, Mti **wa**)
+- Wingi (MI-): **ya** (Milango **ya**, Miti **ya**)""",
+
+    26: """Jibu sahihi ni **Alhamisi.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Hebu tuhesabu siku za nyuma kulingana na swali:
+1. Swali linasema **Leo ni Jumamosi**.
+2. Siku moja kabla ya leo ni **Jana** (**Ijumaa**).
+3. Siku mbili kabla ya leo ni **Juzi** (**Alhamisi**).
+Kwa hivyo, ikiwa mjomba alileta zawadi *juzi*, alileta siku ya Alhamisi.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Jumanne:** Hii ni siku nne zilizopita kutoka Jumamosi.
+* **Jumatano:** Hii ni siku tatu zilizopita (mtondo wa nyuma).
+* **Ijumaa:** Hii ni siku ya jana tu (siku moja iliyopita).
+
+📌 **Dokezo la Kujifunza:**
+Mpangilio wa siku za nyuma katika Kiswahili:
+- **Leo** (Siku ya sasa)
+- **Jana** (-siku 1)
+- **Juzi** (-siku 2)
+- **Juuzi / Mtondo wa nyuma** (-siku 3)""",
+
+    27: """Jibu sahihi ni **mzito.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Swali hili linahusu **kinyume cha maneno**. Kinyume cha neno *tamu* ni *chungu*. Vivyo hivyo, kinyume cha kivumishi *mwepesi* ni **mzito**.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **mkubwa:** Kinyume chake ni *mdogo*.
+* **mnene:** Kinyume chake ni *mwembamba*.
+* **mpana:** Kinyume chake ni *mwembamba* au *dogo*.
+
+📌 **Dokezo la Kujifunza:**
+Orodha ya vinyume vya vivumishi:
+- Mwepesi <-> Mzito
+- Tamu <-> Chungu
+- Mnene <-> Mwembamba
+- Mrefu <-> Mfupi""",
+
+    28: """Jibu sahihi ni **Munira hajasoma kitabu hicho.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Katika sentensi **"Munira amesoma kitabu hicho"**, kitenzi kinatumia kiambishi cha wakati uliopo timilifu **-me-** (**amesoma**). Kanuni ya ukanusho wa kiambishi cha wakati timilifu **-me-** inataka kiambishi hicho kubadilika kuwa **-ja-** pamoja na kiambishi kanushi cha nafsi (**ha-**). Hivyo sentensi ya ukanusho inakuwa **Munira hajasoma kitabu hicho**.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Munira hasomi kitabu hicho:** Huku ni ukanusho wa wakati uliopo wa kawaida (**-na-* -> *hasomi**).
+* **Munira hatasoma kitabu hicho:** Huku ni ukanusho wa wakati ujao (**-ta-* -> *hatasoma**).
+* **Munira hakusoma kitabu hicho:** Huku ni ukanusho wa wakati uliopita (**-li-* -> *hakusoma**).
+
+📌 **Dokezo la Kujifunza:**
+Kanuni za Ukanusho wa Nyakati:
+- Wakati uliopo (-na-): **anasoma** -> **hasomi**
+- Wakati uliopita (-li-): **alisoma** -> **hakusoma**
+- Wakati ujao (-ta-): **atasoma** -> **hatasoma**
+- **Wakati timilifu (-me-): amesoma -> hajasoma**""",
+
+    29: """Jibu sahihi ni **anampiga jeki.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Nahau ya Kiswahili **piga jeki** ina maana ya kumsaidia, kumshika mkono, au kuinua hali ya mtu fulani ili aweze kufanikiwa katika jambo au kazi fulani.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **anamfanyia hima:** Kufanya jambo kwa haraka au kuingiza haraka.
+* **anachapa kazi:** Kufanya kazi kwa bidii na juhudi kubwa bila kukoma.
+* **anatia fora:** Kufanya vizuri sana au kushinda wengine wote katika shughuli.
+
+📌 **Dokezo la Kujifunza:**
+Nahau na Maana zake:
+- **Piga jeki:** Kumpa mtu msaada wa kuinua jambo lake.
+- **Tia shime:** Kuhimiza au kutia moyo.
+- **Tia fora:** Kuwa wa kwanza / Kufanya vizuri kuliko wote.""",
+
+    30: """Jibu sahihi ni **Jifya moja haliinjiiki chungu.**
+
+**Mchanganuo wa Jibu Sahihi:**
+Methali **"Jifya moja haliinjiiki chungu"** inafundisha kuwa jiwe moja la jiko haliwezi kushikilia chungu cha kupikia; ili chungu kikae vizuri vinahitajika mafiga matatu. Maana ya ndani ni kwamba mtu mmoja hawezi kukamilisha jambo kubwa peke yake bila ushirikiano na wenzake. Hii ndiyo methali bora zaidi ya kuwashauri Katana na Kombo washirikiane katika vikundi.
+
+**Kwa nini Chaguzi Nyingine si Sahihi?**
+* **Asiyesikia la mkuu huvunjika guu:** Hii inahimiza kutii ushauri wa wazazi au wakubwa ili kuepuka madhara, si ushirikiano wa kikundi.
+* **Chelewa chelewa utakuta mwana si wako:** Hii inahimiza kufanya mambo mapema bila kukawia na kupoteza muda.
+* **Mchagua jembe si mkulima:** Hii inahimiza mtu kutodharau zana au kazi anayopewa kufanya.
+
+📌 **Dokezo la Kujifunza:**
+Methali zinazohimiza **Ushirikiano na Umoja**:
+- *Jifya moja haliinjiiki chungu.*
+- *Umoja ni nguvu, utengano ni udhaifu.*
+- *Kidole kimoja hakivunji chawa.**"""
+}
+
+# Read file
+filepath = 'src/data/kpsea-kiswahili-2023.js'
+with open(filepath, 'r', encoding='utf-8') as f:
+    text = f.read()
+
+# Load JSON
+prefix = 'export const kpseaKiswahili2023 = '
+suffix = ';' if text.strip().endswith(';') else ''
+
+clean_text = text.replace(prefix, '').strip()
+if clean_text.endswith(';'):
+    clean_text = clean_text[:-1]
+
+data = json.loads(clean_text)
+
+# Update explanations
+for q in data['sectionA']:
+    q_num = q['questionNumber']
+    if q_num in explanations:
+        q['explanation'] = explanations[q_num]
+
+# Save updated JS file
+new_json_str = json.dumps(data, indent=2, ensure_ascii=False)
+final_js = f"{prefix}{new_json_str}{suffix}\n"
+
+with open(filepath, 'w', encoding='utf-8') as f:
+    f.write(final_js)
+
+print("Updated kpsea-kiswahili-2023.js successfully!")

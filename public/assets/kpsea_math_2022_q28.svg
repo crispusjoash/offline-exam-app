@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 320" width="100%" height="100%">
+  <!-- Background Grid -->
+  <rect x="70" y="30" width="430" height="220" fill="#ffffff" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- Horizontal Grid Lines -->
+  <line x1="70" y1="85" x2="500" y2="85" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="70" y1="140" x2="500" y2="140" stroke="#e2e8f0" stroke-width="1.5"/>
+  <line x1="70" y1="195" x2="500" y2="195" stroke="#e2e8f0" stroke-width="1.5"/>
+  
+  <!-- Y-Axis Labels -->
+  <text x="55" y="35" text-anchor="end" font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="#0f172a">800</text>
+  <text x="55" y="90" text-anchor="end" font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="#0f172a">600</text>
+  <text x="55" y="145" text-anchor="end" font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="#0f172a">400</text>
+  <text x="55" y="200" text-anchor="end" font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="#0f172a">200</text>
+  <text x="55" y="255" text-anchor="end" font-family="Outfit, sans-serif" font-size="14" font-weight="700" fill="#0f172a">0</text>
+  
+  <!-- Axis Titles -->
+  <text x="25" y="130" text-anchor="middle" font-family="Outfit, sans-serif" font-size="14" font-weight="800" fill="#0f172a" transform="rotate(-90 25 130)">Number of trees</text>
+  <text x="285" y="295" text-anchor="middle" font-family="Outfit, sans-serif" font-size="15" font-weight="800" fill="#0f172a">Years</text>
+  
+  <!-- Bars -->
+  <!-- 2017: 300 trees (height = 300/800 * 220 = 82.5, y = 250 - 82.5 = 167.5) -->
+  <rect x="95" y="167.5" width="75" height="82.5" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- 2018: 200 trees (height = 200/800 * 220 = 55, y = 250 - 55 = 195) -->
+  <rect x="195" y="195" width="75" height="55" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- 2019: 800 trees (height = 800/800 * 220 = 220, y = 30) -->
+  <rect x="295" y="30" width="75" height="220" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- 2020: 700 trees (height = 700/800 * 220 = 192.5, y = 250 - 192.5 = 57.5) -->
+  <rect x="395" y="57.5" width="75" height="192.5" fill="#94a3b8" stroke="#0f172a" stroke-width="2"/>
+  
+  <!-- X-Axis Labels -->
+  <text x="132.5" y="272" text-anchor="middle" font-family="Outfit, sans-serif" font-size="15" font-weight="700" fill="#0f172a">2017</text>
+  <text x="232.5" y="272" text-anchor="middle" font-family="Outfit, sans-serif" font-size="15" font-weight="700" fill="#0f172a">2018</text>
+  <text x="332.5" y="272" text-anchor="middle" font-family="Outfit, sans-serif" font-size="15" font-weight="700" fill="#0f172a">2019</text>
+  <text x="432.5" y="272" text-anchor="middle" font-family="Outfit, sans-serif" font-size="15" font-weight="700" fill="#0f172a">2020</text>
+</svg>

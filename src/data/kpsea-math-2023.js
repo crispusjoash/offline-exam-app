@@ -3,7 +3,7 @@ export const kpseaMath2023 = {
   "title": "KPSEA 2023 Mathematics",
   "subject": "Mathematics",
   "year": "2023",
-  "durationMinutes": 60,
+  "durationMinutes": 80,
   "sharedContexts": {
     "ctx-q12": {
       "title": "Shape on board",
@@ -821,5 +821,6 @@ export const kpseaMath2023 = {
       "explanation": "We are dealing with an unknown total amount of money, which we will call $x$.\n\n* This money was shared equally among 50 women.\n* In math, sharing equally means division ($\\div$), so we can write this as a fraction: $\\dfrac{x}{50}$.\n* The problem tells us that after the division, each woman received exactly sh 8,500.\n* So, we set our fraction equal to that amount.\n* The equation that perfectly represents this information is **$\\dfrac{x}{50} = 8500$**."
     }
   ],
-  "sectionB": []
+  "sectionB": [],
+  "timeAllowed": 80
 };

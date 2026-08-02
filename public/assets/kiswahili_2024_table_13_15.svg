@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="white"/>
+  
+  <style>
+    .cell-bg { fill: white; stroke: #333; stroke-width: 2; }
+    .header { font-family: Arial, sans-serif; font-size: 18px; font-weight: bold; fill: #111; }
+    .text { font-family: Arial, sans-serif; font-size: 18px; fill: #333; }
+  </style>
+
+  <!-- Table Grid -->
+  <!-- Col widths: 120, 120, 120, 120, 120 -->
+  <!-- Row heights: 50, 50, 50, 50 -->
+  <g transform="translate(0, 20)">
+    <!-- Row 1 -->
+    <rect x="0" y="0" width="120" height="50" class="cell-bg" />
+    <text x="60" y="32" class="header" text-anchor="middle">Kadu</text>
+    <rect x="120" y="0" width="120" height="50" class="cell-bg" />
+    <text x="180" y="32" class="text" text-anchor="middle">kwata</text>
+    <rect x="240" y="0" width="120" height="50" class="cell-bg" />
+    <text x="300" y="32" class="text" text-anchor="middle">hoki</text>
+    <rect x="360" y="0" width="120" height="50" class="cell-bg" />
+    <text x="420" y="32" class="text" text-anchor="middle">chesi</text>
+    <rect x="480" y="0" width="120" height="50" class="cell-bg" />
+    <text x="540" y="32" class="text" text-anchor="middle">kandanda</text>
+
+    <!-- Row 2 -->
+    <rect x="0" y="50" width="120" height="50" class="cell-bg" />
+    <text x="60" y="82" class="header" text-anchor="middle">Sai</text>
+    <rect x="120" y="50" width="120" height="50" class="cell-bg" />
+    <text x="180" y="82" class="text" text-anchor="middle">voliboli</text>
+    <rect x="240" y="50" width="120" height="50" class="cell-bg" />
+    <text x="300" y="82" class="text" text-anchor="middle">kwata</text>
+    <rect x="360" y="50" width="120" height="50" class="cell-bg" />
+    <text x="420" y="82" class="text" text-anchor="middle">kandanda</text>
+    <rect x="480" y="50" width="120" height="50" class="cell-bg" />
+    <text x="540" y="82" class="text" text-anchor="middle">kibe</text>
+
+    <!-- Row 3 -->
+    <rect x="0" y="100" width="120" height="50" class="cell-bg" />
+    <text x="60" y="132" class="header" text-anchor="middle">Tola</text>
+    <rect x="120" y="100" width="120" height="50" class="cell-bg" />
+    <text x="180" y="132" class="text" text-anchor="middle">chesi</text>
+    <rect x="240" y="100" width="120" height="50" class="cell-bg" />
+    <text x="300" y="132" class="text" text-anchor="middle">voliboli</text>
+    <rect x="360" y="100" width="120" height="50" class="cell-bg" />
+    <text x="420" y="132" class="text" text-anchor="middle">hoki</text>
+    <rect x="480" y="100" width="120" height="50" class="cell-bg" />
+    <text x="540" y="132" class="text" text-anchor="middle">kwata</text>
+
+    <!-- Row 4 -->
+    <rect x="0" y="150" width="120" height="50" class="cell-bg" />
+    <text x="60" y="182" class="header" text-anchor="middle">Soni</text>
+    <rect x="120" y="150" width="120" height="50" class="cell-bg" />
+    <text x="180" y="182" class="text" text-anchor="middle">kandanda</text>
+    <rect x="240" y="150" width="120" height="50" class="cell-bg" />
+    <text x="300" y="182" class="text" text-anchor="middle">chesi</text>
+    <rect x="360" y="150" width="120" height="50" class="cell-bg" />
+    <text x="420" y="182" class="text" text-anchor="middle">kwata</text>
+    <rect x="480" y="150" width="120" height="50" class="cell-bg" />
+    <text x="540" y="182" class="text" text-anchor="middle">hoki</text>
+  </g>
+</svg>

@@ -36,7 +36,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Lord Krishna is traditionally adorned with a peacock feather in His hair, symbolising beauty, purity, and His deep connection with nature and the peacock bird."
+      "explanation": "The correct answer is **Peacock.**.\n\n**Analysis of the Correct Answer:**\nIn Hindu tradition, various deities are closely associated with specific sacred animals and birds. **Lord Krishna** is famously depicted wearing a **peacock feather (**Mayur Pankh**)** in His crown, symbolizing purity, beauty, divine grace, and joy.\n\n**Why Other Options Are Incorrect:**\n* **Dove.:** Symbolizes peace in Western/Christian traditions, but is not specifically associated with Lord Krishna.\n* **Swan.:** The Swan (**Hamsa**) is associated with Goddess Saraswati and Lord Brahma as a symbol of wisdom and spiritual discernment.\n* **Eagle.:** The Eagle (**Garuda**) is the divine carrier (**Vahana**) of Lord Vishnu, whereas Lord Krishna is specifically adorned with the peacock feather.\n\n📌 **Key Learning Note:**\nLord Krishna is instantly recognized by the vibrant **peacock feather (**Mayur Pankh**)** in His crown."
     },
     {
       "questionNumber": 37,
@@ -60,7 +60,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "In Hinduism, the Trimurti consists of Brahma (the Creator), Vishnu (the Preserver), and Shiva (the Destroyer/Transformer)."
+      "explanation": "The correct answer is **Brahma.**.\n\n**Analysis of the Correct Answer:**\nIn Hindu Sanatan Dharma, the Supreme Cosmic Functions are performed by the **Trimurti** (the Divine Trinity):\n1. **Lord Brahma:** The Creator of the universe.\n2. **Lord Vishnu:** The Preserver and Protector of creation.\n3. **Lord Shiva (Mahesh):** The Transformer and Dissolver of the universe.\n\nTherefore, **Lord Brahma** is the deity associated with creation.\n\n**Why Other Options Are Incorrect:**\n* **Vishnu.:** Responsible for preserving, protecting, and maintaining order in the cosmos.\n* **Shiv.:** Responsible for transformation, dissolution, and destruction of evil/ignorance.\n* **Ganesh.:** The deity of wisdom, intellect, and remover of obstacles (**Vighnaharta**).\n\n📌 **Key Learning Note:**\nThe Trimurti: **Lord Brahma (Creator), Lord Vishnu (Preserver), Lord Shiva (Transformer)**."
     },
     {
       "questionNumber": 38,
@@ -84,7 +84,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Ayodhya is a holy city for both Hindus and Jains.\n\n* In Jainism, five Tirthankaras were born in Ayodhya, including Abhinandannath (the 4th Tirthankara)."
+      "explanation": "The correct answer is **Abhinandannath**.\n\n**Analysis of the Correct Answer:**\nIn Jainism, Ayodhya is a deeply venerated holy city because it is the birthplace of five Tirthankaras. **Abhinandannath Swami** is the 4th Jain Tirthankar whose birth (**Janma Kalyanak**) took place in the sacred city of Ayodhya.\n\n**Why Other Options Are Incorrect:**\n* **Mahavir:** The 24th Tirthankar, born in Kshatriyakund/Vaishali (Bihar).\n* **Mallinath:** The 19th Tirthankar, born in Mithila.\n* **Neminath.:** The 22nd Tirthankar, born in Sauripura/Dwarka.\n\n📌 **Key Learning Note:**\nAyodhya is celebrated in Jainism as the sacred birthplace of five Tirthankaras, including **Abhinandannath Swami**."
     },
     {
       "questionNumber": 39,
@@ -115,7 +115,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "Lord Hanuman is the greatest devotee of Lord Rama (who is an Avatar of Lord Vishnu).\n\n* During the Mahabharata war at Kurukshetra, Hanuman sat on the flag of Arjuna's chariot (Kapi Dhwaja) to protect it and ensure victory for the righteous."
+      "explanation": "The correct answer is **Hanuman.**.\n\n**Analysis of the Correct Answer:**\n**Sri Hanuman** is an enlightened divine being, the epitome of selfless devotion (**Bhakti**), immense spiritual strength, profound wisdom, and complete humility. He is revered as a Chiranjivi (immortal, enlightened soul) renowned for His divine protection of the righteous.\n\n**Why Other Options Are Incorrect:**\n* **Bishma.:** The grand patriarch of the Kuru dynasty in the Mahabharata, bound by his solemn vow to the throne.\n* **Dashrath.:** King of Ayodhya and father of Lord Rama, a noble mortal monarch.\n* **Dronacharya.:** The royal guru of the Pandavas and Kauravas in the Mahabharata.\n\n📌 **Key Learning Note:**\n**Sri Hanuman** represents supreme devotion, courage, wisdom, and spiritual enlightenment."
     },
     {
       "questionNumber": 40,
@@ -139,7 +139,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The Shikshapatri, written by Lord Swaminarayan, explicitly forbids the killing or harming of any living beings, including animals, even for religious sacrifices or food."
+      "explanation": "The correct answer is **Shikshapatri**.\n\n**Analysis of the Correct Answer:**\nThe **Shikshapatri** is a sacred code of conduct written by Lord Swaminarayan. It lays down moral, practical, and spiritual guidelines for daily living, including strict instructions on **Ahimsa (non-violence)** and the sacred duty to preserve and protect all animals from harm or slaughter.\n\n**Why Other Options Are Incorrect:**\n* **Ramayan:** The epic narrative detailing the life, duties, and righteous path of Lord Rama.\n* **Dhammapada:** A collection of core moral teachings of the Buddha.\n* **Bhagwad Gita.:** The sacred discourse delivered by Lord Krishna to Arjuna on duty (**Dharma**) and righteousness.\n\n📌 **Key Learning Note:**\nThe **Shikshapatri** emphasizes strict non-violence (**Ahimsa**) and the sacred duty to protect animals."
     },
     {
       "questionNumber": 41,
@@ -163,7 +163,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Sanskrit is considered a divine and highly structured language (Devabhasha).\n\n* Sacred scriptures are recited in their original Sanskrit because translations into vernacular languages often lose the deep, subtle, and precise inner spiritual meanings of the verses."
+      "explanation": "The correct answer is **in translating into vernacular, the inner meaning is lost**.\n\n**Analysis of the Correct Answer:**\nSanskrit is known as **Devavani** (the divine language). In Hindu scriptures, original Sanskrit mantras contain precise phonetic vibrations (**Dhvani**) and deep spiritual meanings that literal translations into modern vernacular languages often lose.\n\n**Why Other Options Are Incorrect:**\n* **the rhythm of recitation gives pleasure to listeners:** While melodic, the primary spiritual reason is preserving original divine meaning and mantra power.\n* **will motivates people to learn Sanskrit:** A secondary educational byproduct, not the primary reason for chanting in Sanskrit.\n* **Sanskrit is easier than the vernacular.:** Sanskrit grammar is highly sophisticated and intricate, not easier than local spoken languages.\n\n📌 **Key Learning Note:**\nChanting in original **Sanskrit** preserves the deep spiritual essence and precise vibrational meaning of sacred mantras."
     },
     {
       "questionNumber": 42,
@@ -188,7 +188,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The mantra 'Om Mani Padme Hum' shown in the image is the most widely recited mantra in Buddhism, representing the path to purification, wisdom, and compassion."
+      "explanation": "The correct answer is **Buddhists.**.\n\n**Analysis of the Correct Answer:**\nIn **Buddhism**, sacred chants such as **Buddham Saranam Gacchami, Dhammam Saranam Gacchami, Sangham Saranam Gacchami** represent taking **Refuge in the Three Jewels** (the Buddha, the Dhamma/Teachings, and the Sangha/Community).\n\n**Why Other Options Are Incorrect:**\n* **Sanatan:** Sanatan Dharma prayers include Vedic mantras like the Gayatri Mantra or Om Namah Shivaya.\n* **Jains:** Jain prayers prominently feature the Navkar Mantra (**Namo Arihantanam**).\n* **Sikhs:** Sikh prayers center on the Mool Mantar (**Ik Onkar**) and Gurbani.\n\n📌 **Key Learning Note:**\nSeeking refuge in the **Buddha, Dhamma, and Sangha** is the core daily prayer of Buddhists."
     },
     {
       "questionNumber": 43,
@@ -212,7 +212,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Hoisting the Dhwaj (sacred flag) atop temples serves as a beacon, helping devotees easily identify the place of worship and the faith from a distance."
+      "explanation": "The correct answer is **helps devotees identify the faith**.\n\n**Analysis of the Correct Answer:**\nThe **Dhwaj** (sacred flag or banner) is hoisted atop temples and places of worship. It acts as a beacon visible from afar, helping devotees **identify the place of worship and the faith** it represents while signaling divine presence and righteousness (**Dharma**).\n\n**Why Other Options Are Incorrect:**\n* **beautify the place of worship:** Beautification is secondary; its main purpose is identification and sacred symbolism.\n* **gives importance to the faith's symbol:** Symbols are important, but the flag specifically identifies the shrine for visiting devotees.\n* **It gives direction to the devotees.:** While visible from afar, its primary function is marking the presence and identity of the holy temple.\n\n📌 **Key Learning Note:**\nA **Dhwaj (temple flag)** identifies the place of worship and signals divine presence and Dharma."
     },
     {
       "questionNumber": 44,
@@ -236,7 +236,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Purushartha refers to the four goals of life and the concept of righteous self-effort and diligence.\n\n* To pass examinations or succeed in any task, one must apply active effort and hard work (Purushartha)."
+      "explanation": "The correct answer is **Purushartha**.\n\n**Analysis of the Correct Answer:**\nIn Hindu philosophy, **Purushartha** refers to righteous self-effort, hard work, and goal-directed action. Overcoming failure or poor performance in studies or physical assessments requires persistent practice, diligence, and self-effort (**Purushartha**).\n\n**Why Other Options Are Incorrect:**\n* **Punarjanam:** Refers to the cycle of rebirth/reincarnation.\n* **Pranidaya:** Refers to showing mercy and compassion to living beings.\n* **Prarthana.:** Refers to prayer, which complements work but does not replace practical effort (**Purushartha**).\n\n📌 **Key Learning Note:**\n**Purushartha** means dedicated self-effort and hard work needed to achieve success in life goals."
     },
     {
       "questionNumber": 45,
@@ -260,7 +260,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Naam Japna (meditating on and chanting God's Name) is one of the three pillars of Sikhism, guiding the practice of morning chanting."
+      "explanation": "The correct answer is **Naam Japna**.\n\n**Analysis of the Correct Answer:**\nIn Sikhism, the three core pillars established by Guru Nanak Dev Ji are:\n1. **Naam Japna:** Remembrance and chanting of God's Name (**Waheguru**).\n2. **Kirat Karna:** Earning an honest living through truthful hard work.\n3. **Vand Chhako (Wand shakna):** Sharing wealth and food with the community.\n\nTherefore, morning chanting in a Sikh place of worship is guided by **Naam Japna**.\n\n**Why Other Options Are Incorrect:**\n* **Kirat Karna:** Means earning an honest living through truthful means.\n* **Wand shakna:** Means sharing food and wealth with those in need.\n* **Sewa karna.:** Means performing selfless service for the community without expecting reward.\n\n📌 **Key Learning Note:**\n**Naam Japna** is the Sikh pillar of meditating upon and chanting God's Name."
     },
     {
       "questionNumber": 46,
@@ -284,7 +284,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": true
         }
       ],
-      "explanation": "In Jain architecture, carvings or statues of elephants at the entrance of a Derasar (Jain temple) act as guardians, symbolising the protection of the sacred space."
+      "explanation": "The correct answer is **a symbol of protection of the temple.**.\n\n**Analysis of the Correct Answer:**\nIn Jain Derasa (temple) architecture, sculptures of sacred elephants (**Gaja**) placed at doorways serve as symbolic guardians, signifying majesty, nobility, and divine **protection of the sacred temple space**.\n\n**Why Other Options Are Incorrect:**\n* **loyalty:** Loyalty is more commonly associated with domestic animals like dogs.\n* **taming of wildlife:** Temples do not represent taming wild animals, but preserving sacred purity.\n* **a symbol for removing negative energy:** While sacred, entrance elephants specifically function as architectural protectors/guardians.\n\n📌 **Key Learning Note:**\nElephant figures at temple entrances symbolize noble strength and **protection of the sacred space**."
     },
     {
       "questionNumber": 47,
@@ -308,7 +308,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Lord Krishna is a prominent Avatar of Lord Vishnu.\n\n* Devotees at a temple dedicated to Lord Krishna greet each other with 'Jai Shri Krishna'."
+      "explanation": "The correct answer is **Jai Shri Krishna.**.\n\n**Analysis of the Correct Answer:**\nDifferent traditions use distinct traditional greetings. In mandirs dedicated to Lord Krishna or avatars of Lord Vishnu, devotees greet each other with **\"Jai Shri Krishna\"** or **\"Radhe Radhe\"**.\n\n**Why Other Options Are Incorrect:**\n* **Jai Ambe.:** Used among devotees of Goddess Durga/Amba (Shakti).\n* **Jai Jinendra.:** The universal sacred greeting used among Jains.\n* **Jai Bhole Nath.:** Used among devotees of Lord Shiva.\n\n📌 **Key Learning Note:**\n**\"Jai Shri Krishna\"** is the respectful greeting used in temples dedicated to Lord Krishna."
     },
     {
       "questionNumber": 48,
@@ -332,7 +332,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Hanjit demonstrated social and moral responsibility by pausing his play to care for and provide first aid to his injured classmate."
+      "explanation": "The correct answer is **responsibility**.\n\n**Analysis of the Correct Answer:**\nHelping an injured peer immediately by stopping play and taking them for first aid demonstrates practical social **responsibility**, empathy, and moral duty of care toward others.\n\n**Why Other Options Are Incorrect:**\n* **respect:** Showing honor to elders/peers; caring for an injured friend is an active duty of responsibility.\n* **patience:** Bearing delays calmly; responding to an emergency requires prompt responsible action.\n* **tolerance.:** Accepting differences; responding to an injury is a matter of practical care and responsibility.\n\n📌 **Key Learning Note:**\nTaking swift action to assist an injured classmate shows moral **responsibility** and care."
     },
     {
       "questionNumber": 49,
@@ -356,7 +356,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Diwali (victory of light over darkness / Lord Rama's victory over Ravana) and Holi (the burning of Holika and victory of devotee Prahlad) both celebrate the ultimate triumph of good over evil."
+      "explanation": "The correct answer is **Diwali and Holi.**.\n\n**Analysis of the Correct Answer:**\nIn Hindu culture, **Utsavs** (festivals) carry deep spiritual meanings. Both **Diwali** (celebrating Lord Rama's victorious return to Ayodhya after defeating Ravana) and **Holi** (celebrating Prahlada's devotion and the destruction of Holika) commemorate the ultimate **victory of good over evil**.\n\n**Why Other Options Are Incorrect:**\n* **Paryushan Parv and Vasant Panchami.:** Paryushan is a Jain festival of forgiveness/fasting; Vasant Panchami celebrates Goddess Saraswati and spring.\n* **Navratri and Janamashtami.:** Janamashtami celebrates the birth of Lord Krishna.\n* **Ramnavmi and Gurupurab.:** Ramnavmi celebrates Lord Rama's birth; Gurupurab celebrates Sikh Gurus' birth anniversaries.\n\n📌 **Key Learning Note:**\n**Diwali and Holi** are major Hindu festivals celebrating the victory of good over evil."
     },
     {
       "questionNumber": 50,
@@ -380,7 +380,7 @@ export const kpseaSstHre2023 = {
           "isCorrect": false
         }
       ],
-      "explanation": "Although Yoga has physical benefits, its primary traditional objective is spiritual growth, mental clarity, and achieving union with the Divine."
+      "explanation": "The correct answer is **grow spiritually**.\n\n**Analysis of the Correct Answer:**\nWhile Yoga provides great physical flexibility and health benefits, its true ancient purpose in spiritual traditions (derived from the root **Yuj**, meaning to join/unite) is uniting the mind, body, and spirit to **grow spiritually** and achieve inner peace.\n\n**Why Other Options Are Incorrect:**\n* **participate in sports:** Yoga is a spiritual discipline of mind and body, not a competitive sport.\n* **enhance social cohesion:** Community cohesion is a social benefit, but spiritual growth is the core objective.\n* **be physically fit.:** Physical fitness is a positive health benefit, but physical poses (**Asanas**) serve as a preparation for deep meditation and spiritual growth.\n\n📌 **Key Learning Note:**\nThe primary and highest goal of **Yoga** is spiritual growth and inner peace."
     }
   ]
 };

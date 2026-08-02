@@ -1,0 +1,21 @@
+import json
+
+filepath = 'src/data/kpsea-science-2023.js'
+with open(filepath, 'r', encoding='utf-8') as f:
+    text = f.read()
+
+clean_text = text.replace('export const kpseaScience2023 = ', '').strip().rstrip(';')
+data = json.loads(clean_text)
+
+with open('science_q21_50_dump.txt', 'w', encoding='utf-8') as out:
+    for q in data.get('sectionA', [])[20:50]:
+        out.write(f"=== Q{q['questionNumber']} (id: {q['id']}) ===\n")
+        out.write(f"QuestionText: {q.get('questionText')}\n")
+        if 'questionList' in q:
+            out.write(f"QuestionList: {q.get('questionList')}\n")
+        if 'questionSuffix' in q:
+            out.write(f"QuestionSuffix: {q.get('questionSuffix')}\n")
+        out.write(f"Options: {q.get('options')}\n")
+        out.write(f"Current Explanation: {q.get('explanation')}\n\n")
+
+print("Dumped Q21-Q50 successfully to science_q21_50_dump.txt")

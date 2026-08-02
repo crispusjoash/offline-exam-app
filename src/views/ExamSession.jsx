@@ -5,6 +5,7 @@ import { MathRenderer } from '../components/MathRenderer';
 import { ZoomableImage } from '../components/ZoomableImage';
 import { ArrowLeft, ArrowRight, CheckCircle, Circle } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 
 export const ExamSession = () => {
   const { portal, paperId } = useParams();
@@ -13,13 +14,17 @@ export const ExamSession = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
 
-  if (!paper) return <div style={{ color: 'red', padding: '2rem' }}>Paper not found.</div>;
+  const sectionA = paper?.sectionA || [];
 
-  const sectionA = paper.sectionA || [];
-  if (sectionA.length === 0) {
-    navigate(`/exam/${portal}/${paperId}/sectionB`);
-    return null;
-  }
+  React.useEffect(() => {
+    if (paper && sectionA.length === 0) {
+      navigate(`/exam/${portal}/${paperId}/sectionB`, { replace: true });
+    }
+  }, [paper, sectionA.length, portal, paperId, navigate]);
+
+  if (!paper) return <div style={{ color: 'red', padding: '2rem' }}>Paper not found.</div>;
+  if (sectionA.length === 0) return null;
+
 
   const q = sectionA[currentIndex];
   const context = q.contextRef ? paper.sharedContexts[q.contextRef] : null;
@@ -104,11 +109,35 @@ export const ExamSession = () => {
               boxShadow: 'var(--shadow-sm)',
             }}>
               <span style={{ fontSize: '0.62rem', fontWeight: '800', color: accentColor, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.6rem' }}>
-                Reference {context.type === 'text' ? 'Passage' : 'Diagram'}
+                {context.type === 'text' && !context.text ? 'Instructions' : context.type === 'text' ? 'Reference Passage' : 'Reference Diagram'}
               </span>
+
+              {context.title && (
+                <div style={{ width: '100%', textAlign: 'left', marginBottom: context.text || context.imagePath ? '0.8rem' : '0' }}>
+                  <strong style={{ display: 'block', color: accentColor, fontSize: '0.88rem', whiteSpace: 'pre-wrap', letterSpacing: '0.01em' }}>{context.title}</strong>
+                  {(context.text || context.imagePath) && (
+                    <div style={{ color: accentColor, opacity: 0.5, fontSize: '0.7rem', letterSpacing: '3px', margin: '0.4rem 0 0.8rem 0', userSelect: 'none' }}>{'- '.repeat(40)}</div>
+                  )}
+                </div>
+              )}
               
               {context.type === 'image' && (
                 <>
+                  {context.text && (
+                    <div style={{ width: '100%', textAlign: 'left', marginBottom: '1rem' }}>
+                      <ReactMarkdown
+                        remarkPlugins={[remarkGfm]}
+                        components={{
+                          p: ({ children }) => (
+                            <p style={{ margin: '0 0 0.8rem 0', lineHeight: '1.8', color: 'var(--text)', fontSize: '0.92rem' }}>{children}</p>
+                          ),
+                          strong: ({ children }) => (
+                            <strong style={{ color: 'var(--text-emphasis)', fontWeight: '700' }}>{children}</strong>
+                          )
+                        }}
+                      >{context.text}</ReactMarkdown>
+                    </div>
+                  )}
                   <ZoomableImage 
                     src={context.imagePath} 
                     alt={context.title} 
@@ -120,18 +149,39 @@ export const ExamSession = () => {
                 </>
               )}
 
-              {context.type === 'text' && (
+              {context.type === 'text' && context.text && (
                 <div style={{ width: '100%', textAlign: 'left', background: 'var(--bg-muted)', padding: '1.25rem', borderRadius: '0.75rem', borderLeft: `4px solid ${accentColor}` }}>
-                  <strong style={{ display: 'block', marginBottom: '0.5rem', color: accentColor, fontSize: '0.88rem', whiteSpace: 'pre-wrap', letterSpacing: '0.01em' }}>{context.title}</strong>
-                  <div style={{ color: accentColor, opacity: 0.5, fontSize: '0.7rem', letterSpacing: '3px', margin: '0.4rem 0 0.8rem 0', userSelect: 'none' }}>{'- '.repeat(40)}</div>
                   <div style={{ fontSize: '0.95rem', lineHeight: '1.8', color: 'var(--text)' }}>
                     <ReactMarkdown
+                      remarkPlugins={[remarkGfm]}
                       components={{
                         p: ({ children }) => (
                           <p style={{ margin: '0 0 0.75rem 0', lineHeight: '1.8', color: 'var(--text)', fontSize: '0.95rem' }}>{children}</p>
                         ),
                         strong: ({ children }) => (
                           <strong style={{ fontWeight: '700', color: 'var(--text)' }}>{children}</strong>
+                        ),
+                        table: ({ children }) => (
+                          <div style={{ overflowX: 'auto', margin: '1rem 0' }}>
+                            <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.9rem' }}>
+                              {children}
+                            </table>
+                          </div>
+                        ),
+                        th: ({ children }) => (
+                          <th style={{ padding: '0.75rem 1rem', borderBottom: '2px solid var(--border)', backgroundColor: 'var(--bg-muted)', color: 'var(--text-muted)', fontWeight: '600' }}>
+                            {children}
+                          </th>
+                        ),
+                        td: ({ children }) => (
+                          <td style={{ padding: '0.75rem 1rem', borderBottom: '1px solid var(--border-light)' }}>
+                            {children}
+                          </td>
+                        ),
+                        img: ({ src, alt }) => (
+                          <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+                            <ZoomableImage src={src} alt={alt} baseMaxHeight="30vh" />
+                          </div>
                         ),
                       }}
                     >

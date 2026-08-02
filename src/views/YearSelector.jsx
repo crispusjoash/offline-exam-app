@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { ArrowLeft, Calendar, ChevronRight } from 'lucide-react';
+import { Calendar, ChevronRight, BookOpen, Layers, CheckCircle2 } from 'lucide-react';
 import { PAST_PAPERS } from '../data/pastPapers';
 
 export const YearSelector = () => {
@@ -10,89 +10,71 @@ export const YearSelector = () => {
 
   const isKPSEA = portal === 'KPSEA';
   const accentColor = isKPSEA ? '#2563eb' : '#7c3aed';
-  const gradient = isKPSEA ? 'linear-gradient(135deg, #2563eb, #3b82f6)' : 'linear-gradient(135deg, #7c3aed, #db2777)';
+  const badgeBg = isKPSEA ? '#eff6ff' : '#f5f3ff';
+  const gradient = isKPSEA 
+    ? 'linear-gradient(135deg, #2563eb, #3b82f6)' 
+    : 'linear-gradient(135deg, #7c3aed, #db2777)';
 
   // Find all unique years available for this portal
   const papers = PAST_PAPERS[portal] || [];
   const availableYears = [...new Set(papers.map(p => p.year))].sort((a, b) => b - a);
 
   return (
-    <div style={{ minHeight: '100vh', background: 'var(--bg)', color: 'var(--text)' }}>
-      {/* ── Header ── */}
-      <header style={{
-        background: 'rgba(255,255,255,0.8)',
-        backdropFilter: 'blur(12px)',
-        WebkitBackdropFilter: 'blur(12px)',
-        borderBottom: '1px solid var(--border)',
-        padding: '0 1.5rem',
-        height: '64px',
-        display: 'flex', alignItems: 'center', justifyContent: 'space-between',
-        position: 'sticky', top: 0, zIndex: 20,
-      }}>
-        <button
-          onClick={() => navigate('/')}
-          style={{
-            display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
-            background: 'none', border: 'none', color: 'var(--text-muted)',
-            cursor: 'pointer', fontSize: '0.85rem', fontWeight: '600',
-            padding: '0.4rem 0.75rem', borderRadius: '0.5rem',
-          }}
-        >
-          <ArrowLeft size={15} /> Back
-        </button>
+    <div style={{ width: '100%', boxSizing: 'border-box' }}>
+      <div style={{ padding: '1.5rem 1.75rem 3rem', width: '100%', boxSizing: 'border-box', maxWidth: '1100px' }}>
 
-        <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem' }}>
-          <div style={{
-            width: '30px', height: '30px', borderRadius: '0.5rem',
-            background: gradient, display: 'flex', alignItems: 'center', justifyContent: 'center',
-            boxShadow: `0 3px 10px ${accentColor}30`,
-          }}>
-            <Calendar size={15} color="#fff" strokeWidth={2.5} />
-          </div>
-          <div>
-            <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '800', fontSize: '1rem', color: 'var(--text)', lineHeight: 1 }}>{portal}</div>
-            <div style={{ fontSize: '0.7rem', color: 'var(--text-muted)', lineHeight: 1, marginTop: '0.15rem' }}>Select Year</div>
+        {/* ── Compact Portal Banner ── */}
+        <div style={{
+          background: isKPSEA 
+            ? 'linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%)' 
+            : 'linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%)',
+          borderRadius: '1.25rem',
+          padding: '1.75rem 2rem',
+          color: '#ffffff',
+          position: 'relative',
+          overflow: 'hidden',
+          marginBottom: '2rem',
+          boxShadow: `0 16px 36px -10px ${accentColor}40`,
+        }}>
+          <div style={{ position: 'relative', zIndex: 2 }}>
+            <span style={{ 
+              fontSize: '0.72rem', 
+              fontWeight: '800', 
+              letterSpacing: '0.1em', 
+              textTransform: 'uppercase', 
+              background: 'rgba(255, 255, 255, 0.15)',
+              padding: '0.25rem 0.75rem',
+              borderRadius: '9999px',
+              border: '1px solid rgba(255, 255, 255, 0.25)',
+              marginBottom: '0.65rem',
+              display: 'inline-block',
+            }}>
+              {isKPSEA ? 'Grade 6 Primary' : 'Grade 9 Junior Secondary'}
+            </span>
+
+            <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.75rem, 3.5vw, 2.3rem)', fontWeight: '900', color: '#ffffff', marginBottom: '0.35rem' }}>
+              {portal} Examination Years
+            </h1>
+
+            <p style={{ color: 'rgba(255,255,255,0.85)', fontSize: '0.9rem', maxWidth: '500px' }}>
+              Select an academic year below to access the past question papers and complete answer keys.
+            </p>
           </div>
         </div>
 
-        <div style={{ width: '80px' }} /> {/* spacer */}
-      </header>
-
-      {/* ── Hero banner ── */}
-      <div style={{
-        background: gradient,
-        padding: '3rem 1.5rem',
-        textAlign: 'center',
-        position: 'relative',
-        overflow: 'hidden',
-      }}>
-        {/* decorative blobs */}
-        <div style={{ position: 'absolute', top: '-40px', right: '-40px', width: '200px', height: '200px', borderRadius: '50%', background: 'rgba(255,255,255,0.08)' }} />
-        <div style={{ position: 'absolute', bottom: '-60px', left: '-30px', width: '160px', height: '160px', borderRadius: '50%', background: 'rgba(255,255,255,0.06)' }} />
-
-        <p style={{ fontSize: '0.72rem', fontWeight: '700', color: 'rgba(255,255,255,0.7)', textTransform: 'uppercase', letterSpacing: '0.15em', marginBottom: '0.5rem' }}>
-          {isKPSEA ? 'Grade 6' : 'Grade 9'} · CBC Assessment
-        </p>
-        <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.8rem, 5vw, 2.6rem)', fontWeight: '900', color: '#ffffff', marginBottom: '0.5rem', letterSpacing: '-0.02em' }}>
-          {portal} Past Papers
-        </h1>
-        <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: '500' }}>
-          Select an academic year to continue
-        </p>
-      </div>
-
-      {/* ── Cards ── */}
-      <div style={{ maxWidth: '800px', margin: '0 auto', padding: '3rem 1.25rem' }}>
+        {/* ── Available Years Grid ── */}
         {availableYears.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '5rem 0', color: 'var(--text-muted)' }}>
-            <Calendar size={48} style={{ opacity: 0.3, marginBottom: '1rem' }} />
-            <p>No papers available yet for {portal}.</p>
+          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: '#ffffff', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
+            <Calendar size={44} style={{ color: '#94a3b8', marginBottom: '0.75rem' }} />
+            <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: '#0f172a' }}>No papers available yet</h3>
+            <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '0.25rem' }}>Check back soon for updated {portal} exam papers.</p>
           </div>
         ) : (
-          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(240px, 1fr))', gap: '1.25rem' }}>
-            {availableYears.map((year, idx) => {
+          <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.25rem' }}>
+            {availableYears.map((year) => {
               const paperCount = papers.filter(p => p.year === year).length;
-              const hov = hoveredId === year;
+              const isHov = hoveredId === year;
+
               return (
                 <div
                   key={year}
@@ -101,47 +83,68 @@ export const YearSelector = () => {
                   onClick={() => navigate(`/papers/${portal}/${year}`)}
                   style={{
                     background: '#ffffff',
-                    border: '1px solid var(--border)',
-                    borderRadius: '1.25rem',
+                    borderRadius: '1.15rem',
                     padding: '1.5rem',
+                    border: isHov ? `1.5px solid ${accentColor}` : '1.5px solid #e2e8f0',
+                    boxShadow: isHov ? `0 12px 28px -5px ${accentColor}25` : '0 4px 16px -2px rgba(15, 23, 42, 0.05)',
+                    transform: isHov ? 'translateY(-3px)' : 'translateY(0)',
                     cursor: 'pointer',
-                    display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center',
-                    transition: 'all 0.3s cubic-bezier(0.16, 1, 0.3, 1)',
-                    transform: hov ? 'translateY(-4px)' : 'none',
-                    boxShadow: hov ? '0 12px 24px rgba(0,0,0,0.06)' : 'var(--shadow-sm)',
-                    position: 'relative',
-                    overflow: 'hidden'
+                    transition: 'all 0.2s cubic-bezier(0.4, 0, 0.2, 1)',
+                    display: 'flex',
+                    flexDirection: 'column',
+                    justify: 'space-between',
                   }}
                 >
-                  <div style={{
-                    position: 'absolute', top: 0, left: 0, right: 0, height: '4px',
-                    background: gradient, opacity: hov ? 1 : 0, transition: 'opacity 0.3s'
-                  }} />
+                  <div>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1rem' }}>
+                      <div style={{
+                        width: '42px',
+                        height: '42px',
+                        borderRadius: '0.75rem',
+                        background: badgeBg,
+                        color: accentColor,
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                      }}>
+                        <Calendar size={20} strokeWidth={2.2} />
+                      </div>
+                      <span style={{
+                        fontSize: '0.72rem',
+                        fontWeight: '700',
+                        color: '#059669',
+                        background: '#ecfdf5',
+                        border: '1px solid #a7f3d0',
+                        padding: '0.25rem 0.65rem',
+                        borderRadius: '9999px',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.3rem',
+                      }}>
+                        <CheckCircle2 size={11} /> Verified Paper
+                      </span>
+                    </div>
 
-                  <div style={{ 
-                    width: '60px', height: '60px', borderRadius: '1rem',
-                    background: hov ? gradient : 'var(--bg-muted)',
-                    display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    marginBottom: '1rem', transition: 'all 0.3s'
-                  }}>
-                    <Calendar size={28} color={hov ? '#fff' : accentColor} />
-                  </div>
-                  
-                  <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.8rem', fontWeight: '800', color: 'var(--text)', margin: '0 0 0.2rem 0' }}>
-                    {year}
-                  </h3>
-                  
-                  <div style={{ fontSize: '0.8rem', color: 'var(--text-muted)', fontWeight: '600', marginBottom: '1.25rem' }}>
-                    {paperCount} {paperCount === 1 ? 'Paper' : 'Papers'}
+                    <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.75rem', fontWeight: '900', color: '#0f172a', marginBottom: '0.25rem' }}>
+                      {year}
+                    </h3>
+                    <p style={{ fontSize: '0.85rem', color: '#64748b', marginBottom: '1.25rem' }}>
+                      Official {portal} Assessment
+                    </p>
                   </div>
 
                   <div style={{
-                    display: 'flex', alignItems: 'center', gap: '0.3rem',
-                    color: hov ? accentColor : 'var(--text-muted)',
-                    fontSize: '0.85rem', fontWeight: '700',
-                    transition: 'color 0.3s'
+                    display: 'flex',
+                    alignItems: 'center',
+                    justify: 'space-between',
+                    paddingTop: '0.85rem',
+                    borderTop: '1px solid #f1f5f9',
+                    fontSize: '0.85rem',
+                    fontWeight: '700',
+                    color: accentColor,
                   }}>
-                    View Papers <ChevronRight size={16} />
+                    <span>{paperCount} Exam Papers</span>
+                    <ChevronRight size={18} />
                   </div>
                 </div>
               );

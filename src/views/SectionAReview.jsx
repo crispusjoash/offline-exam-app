@@ -5,6 +5,7 @@ import { MathRenderer } from '../components/MathRenderer';
 import { ZoomableImage } from '../components/ZoomableImage';
 import { CheckCircle, XCircle, ArrowRight, AlertCircle, Home, RotateCcw, Trophy, TrendingUp } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
 
@@ -171,7 +172,7 @@ export const SectionAReview = () => {
       </div>
 
       {/* ── Review Section ── */}
-      <div style={{ maxWidth: '780px', margin: '0 auto', padding: '2rem 1.25rem 3rem' }}>
+      <div style={{ maxWidth: '780px', margin: '0 auto', padding: '1.5rem 1rem 3rem', width: '100%', boxSizing: 'border-box' }}>
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1.5rem' }}>
           <TrendingUp size={18} color={accentColor} />
           <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.25rem', fontWeight: '800', color: 'var(--text)' }}>Answer Review</h2>
@@ -201,6 +202,88 @@ export const SectionAReview = () => {
                 <div style={{ height: '3px', background: statusColor, opacity: 0.7 }} />
 
                 <div style={{ padding: '1.25rem 1.4rem' }}>
+                  {/* Reference Context */}
+                  {q.contextRef && paper.sharedContexts[q.contextRef] && (
+                    <div style={{ marginBottom: '1rem', background: 'var(--bg-muted)', border: '1px solid var(--border)', borderRadius: '0.65rem', padding: '0.75rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+                      <span style={{ fontSize: '0.6rem', fontWeight: '800', color: accentColor, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>
+                        {paper.sharedContexts[q.contextRef].type === 'text' && !paper.sharedContexts[q.contextRef].text ? 'Instructions' : paper.sharedContexts[q.contextRef].type === 'text' ? 'Reference Passage' : 'Reference Diagram'}
+                      </span>
+                      
+                      {paper.sharedContexts[q.contextRef].title && (
+                        <div style={{ width: '100%', textAlign: 'left', marginBottom: paper.sharedContexts[q.contextRef].text || paper.sharedContexts[q.contextRef].imagePath ? '0.5rem' : '0' }}>
+                          <strong style={{ display: 'block', color: accentColor, fontSize: '0.8rem', whiteSpace: 'pre-wrap' }}>{paper.sharedContexts[q.contextRef].title}</strong>
+                          {(paper.sharedContexts[q.contextRef].text || paper.sharedContexts[q.contextRef].imagePath) && (
+                            <div style={{ color: accentColor, opacity: 0.4, fontSize: '0.7rem', letterSpacing: '2px', margin: '0.3rem 0 0.6rem 0', userSelect: 'none', overflow: 'hidden', whiteSpace: 'nowrap' }}>{'- '.repeat(20)}</div>
+                          )}
+                        </div>
+                      )}
+
+                      {paper.sharedContexts[q.contextRef].type === 'image' && (
+                        <>
+                          {paper.sharedContexts[q.contextRef].text && (
+                            <div style={{ width: '100%', textAlign: 'left', marginBottom: '0.5rem' }}>
+                              <ReactMarkdown
+                                remarkPlugins={[remarkGfm]}
+                                components={{
+                                  p: ({ children }) => (
+                                    <p style={{ margin: '0 0 0.6rem 0', lineHeight: '1.8', color: 'var(--text)', fontSize: '0.85rem' }}>{children}</p>
+                                  ),
+                                  strong: ({ children }) => (
+                                    <strong style={{ color: 'var(--text-emphasis)', fontWeight: '700' }}>{children}</strong>
+                                  )
+                                }}
+                              >{paper.sharedContexts[q.contextRef].text}</ReactMarkdown>
+                            </div>
+                          )}
+                          <ZoomableImage src={paper.sharedContexts[q.contextRef].imagePath} alt={paper.sharedContexts[q.contextRef].title} baseMaxHeight="18vh" customFilter={paper.sharedContexts[q.contextRef].cssFilter} />
+                          {paper.sharedContexts[q.contextRef].caption && <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.3rem', textAlign: 'center' }}>{paper.sharedContexts[q.contextRef].caption}</p>}
+                        </>
+                      )}
+
+                      {paper.sharedContexts[q.contextRef].type === 'text' && paper.sharedContexts[q.contextRef].text && (
+                        <div style={{ width: '100%', textAlign: 'left', padding: '0.5rem', borderLeft: `3px solid ${accentColor}` }}>
+                          <div style={{ fontSize: '0.85rem', lineHeight: '1.8', color: 'var(--text)' }}>
+                            <ReactMarkdown
+                              remarkPlugins={[remarkGfm]}
+                              components={{
+                                p: ({ children }) => (
+                                  <p style={{ margin: '0 0 0.6rem 0', lineHeight: '1.8', color: 'var(--text)', fontSize: '0.85rem' }}>{children}</p>
+                                ),
+                                strong: ({ children }) => (
+                                  <strong style={{ fontWeight: '700', color: 'var(--text)' }}>{children}</strong>
+                                ),
+                                table: ({ children }) => (
+                                  <div style={{ overflowX: 'auto', margin: '1rem 0' }}>
+                                    <table style={{ width: '100%', borderCollapse: 'collapse', textAlign: 'left', fontSize: '0.8rem' }}>
+                                      {children}
+                                    </table>
+                                  </div>
+                                ),
+                                th: ({ children }) => (
+                                  <th style={{ padding: '0.5rem', borderBottom: '2px solid var(--border)', backgroundColor: 'var(--bg-muted)', color: 'var(--text-muted)', fontWeight: '600' }}>
+                                    {children}
+                                  </th>
+                                ),
+                                td: ({ children }) => (
+                                  <td style={{ padding: '0.5rem', borderBottom: '1px solid var(--border-light)' }}>
+                                    {children}
+                                  </td>
+                                ),
+                                img: ({ src, alt }) => (
+                                  <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+                                    <ZoomableImage src={src} alt={alt} baseMaxHeight="25vh" />
+                                  </div>
+                                ),
+                              }}
+                            >
+                              {paper.sharedContexts[q.contextRef].text}
+                            </ReactMarkdown>
+                          </div>
+                        </div>
+                      )}
+                    </div>
+                  )}
+
                   {/* Question */}
                   <div style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.85rem' }}>
                     <div style={{ flexShrink: 0, marginTop: '3px' }}>
@@ -230,43 +313,8 @@ export const SectionAReview = () => {
                     </div>
                   </div>
 
-                  {/* Reference Context */}
-                  {q.contextRef && paper.sharedContexts[q.contextRef] && (
-                    <div style={{ marginLeft: '1.85rem', marginBottom: '0.85rem', background: 'var(--bg-muted)', border: '1px solid var(--border)', borderRadius: '0.65rem', padding: '0.75rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                      <span style={{ fontSize: '0.6rem', fontWeight: '800', color: accentColor, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>Reference {paper.sharedContexts[q.contextRef].type === 'text' ? 'Passage' : 'Diagram'}</span>
-                      
-                      {paper.sharedContexts[q.contextRef].type === 'image' && (
-                        <>
-                          <ZoomableImage src={paper.sharedContexts[q.contextRef].imagePath} alt={paper.sharedContexts[q.contextRef].title} baseMaxHeight="18vh" customFilter={paper.sharedContexts[q.contextRef].cssFilter} />
-                          {paper.sharedContexts[q.contextRef].caption && <p style={{ fontSize: '0.7rem', color: 'var(--text-muted)', marginTop: '0.3rem', textAlign: 'center' }}>{paper.sharedContexts[q.contextRef].caption}</p>}
-                        </>
-                      )}
-
-                      {paper.sharedContexts[q.contextRef].type === 'text' && (
-                        <div style={{ width: '100%', textAlign: 'left', padding: '0.5rem', borderLeft: `3px solid ${accentColor}` }}>
-                          <strong style={{ display: 'block', marginBottom: '0.35rem', color: accentColor, fontSize: '0.8rem', whiteSpace: 'pre-wrap' }}>{paper.sharedContexts[q.contextRef].title}</strong>
-                          <div style={{ color: accentColor, opacity: 0.5, fontSize: '0.7rem', letterSpacing: '3px', margin: '0.3rem 0 0.6rem 0', userSelect: 'none' }}>{'- '.repeat(40)}</div>
-                          <div style={{ fontSize: '0.85rem', lineHeight: '1.8', color: 'var(--text)' }}>
-                            <ReactMarkdown
-                              components={{
-                                p: ({ children }) => (
-                                  <p style={{ margin: '0 0 0.6rem 0', lineHeight: '1.8', color: 'var(--text)', fontSize: '0.85rem' }}>{children}</p>
-                                ),
-                                strong: ({ children }) => (
-                                  <strong style={{ fontWeight: '700', color: 'var(--text)' }}>{children}</strong>
-                                ),
-                              }}
-                            >
-                              {paper.sharedContexts[q.contextRef].text}
-                            </ReactMarkdown>
-                          </div>
-                        </div>
-                      )}
-                    </div>
-                  )}
-
                   {/* Options */}
-                  <div style={{ paddingLeft: '1.85rem', display: 'flex', flexDirection: 'column', gap: '0.3rem', marginBottom: '0.9rem' }}>
+                  <div style={{ paddingLeft: '0', display: 'flex', flexDirection: 'column', gap: '0.3rem', marginBottom: '0.9rem' }}>
                     {q.options.map((opt, i) => {
                       const isCorrectOpt = i === correctIdx;
                       const isChosen = i === chosen;
@@ -294,7 +342,7 @@ export const SectionAReview = () => {
 
                   {/* Explanation */}
                   {q.explanation && (
-                    <div style={{ paddingLeft: '1.85rem', borderTop: '1px solid var(--border)', paddingTop: '0.85rem' }}>
+                    <div style={{ paddingLeft: '0', borderTop: '1px solid var(--border)', paddingTop: '0.85rem' }}>
                       <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, letterSpacing: '0.08em', textTransform: 'uppercase', marginBottom: '0.6rem' }}>Teacher's Explanation</p>
                       <div className="explanation-markdown" style={{ 
                         color: 'var(--text-secondary)', 
