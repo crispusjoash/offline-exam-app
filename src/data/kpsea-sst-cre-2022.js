@@ -5,12 +5,30 @@ export const kpseaSstCre2022 = {
   "year": "2022",
   "isSubPaper": true,
   "durationMinutes": 0,
-  "sharedContexts": {},
+  "sharedContexts": {
+    "ctx-cre-2022-q37": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-cre-2022-q37.svg",
+      "title": "Question 37 Child Labour Options"
+    },
+    "ctx-cre-2022-q45": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-cre-2022-q45.svg",
+      "title": "Question 45 Gifts of the Holy Spirit Options"
+    }
+  },
   "sectionA": [
     {
       "id": "q36",
       "questionNumber": 36,
-      "questionText": "Your class teacher asked four learners who have the talent of singing to write ways of developing their talent during their free time. They gave the following:\n\nKen - Listening to gospel songs.\nBetty - Talking with friends about singing.\nTom - Drawing pictures of great musicians.\nJoan - Practising in a church choir\n\nWho among those learners gave the **best** way?",
+      "questionText": "Your class teacher asked four learners who have the talent of singing to write ways of developing their talent during their free time. They gave the following:",
+      "questionList": [
+        "Ken - Listening to gospel songs.",
+        "Betty - Talking with friends about singing.",
+        "Tom - Drawing pictures of great musicians.",
+        "Joan - Practising in a church choir."
+      ],
+      "questionSuffix": "Who among those learners gave the **best** way?",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -36,22 +54,23 @@ export const kpseaSstCre2022 = {
       "id": "q37",
       "questionNumber": 37,
       "questionText": "After learning about child labour, your class teacher told learners to summarise two forms of child labour. Choose a **correct** response from the choices given below.",
+      "contextRef": "ctx-cre-2022-q37",
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "Washing utensils at home. Taking care of a younger brother.",
+          "text": "A",
           "isCorrect": false
         },
         {
-          "text": "Looking after sheep at home. Tilling the farm at home.",
+          "text": "B",
           "isCorrect": false
         },
         {
-          "text": "Selling fruits in the market. Harvesting coffee to get money.",
+          "text": "C",
           "isCorrect": true
         },
         {
-          "text": "Cooking for the family. Fetching water at home.",
+          "text": "D",
           "isCorrect": false
         }
       ],
@@ -60,7 +79,14 @@ export const kpseaSstCre2022 = {
     {
       "id": "q38",
       "questionNumber": 38,
-      "questionText": "In a Sunday school class four children told their parents why they honour their parents:\n\nMartha - they give me food.\nTitus - they do not curse me.\nDorcas - they pay my school fees.\nDan - I can live long on earth.\n\nWho among them gave a **correct** answer according to the Biblical teaching?",
+      "questionText": "In a Sunday school class four children told their parents why they honour their parents:",
+      "questionList": [
+        "Martha - they give me food.",
+        "Titus - they do not curse me.",
+        "Dorcas - they pay my school fees.",
+        "Dan - I can live long on earth."
+      ],
+      "questionSuffix": "Who among them gave a **correct** answer according to the Biblical teaching?",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -236,22 +262,23 @@ export const kpseaSstCre2022 = {
       "id": "q45",
       "questionNumber": 45,
       "questionText": "Select the option which contains **only** the gifts of the holy spirit",
+      "contextRef": "ctx-cre-2022-q45",
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "A (Healing, Success)",
+          "text": "A",
           "isCorrect": false
         },
         {
-          "text": "B (Richness, Goodness)",
+          "text": "B",
           "isCorrect": false
         },
         {
-          "text": "C (Wisdom, Knowledge)",
+          "text": "C",
           "isCorrect": true
         },
         {
-          "text": "D (Arrogance, Ignorance)",
+          "text": "D",
           "isCorrect": false
         }
       ],

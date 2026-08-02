@@ -8,7 +8,7 @@ export const kpseaSstHre2022 = {
   "sharedContexts": {
     "ctx-hre-q36": {
       "type": "image",
-      "imagePath": "/assets/hre_panch_mahaboot.png",
+      "imagePath": "/assets/images/kpsea-hre-2022-q36.png",
       "title": "Balloons, bouncy castle and football"
     }
   },
@@ -16,7 +16,7 @@ export const kpseaSstHre2022 = {
     {
       "id": "q36",
       "questionNumber": 36,
-      "questionText": "Which element of *Panch mahaboot* is present in the pictures given below?\n\n[Images showing balloons, a bouncy castle, and a football]",
+      "questionText": "Which element of *Panch mahaboot* is present in the pictures given below?",
       "questionType": "multiple-choice",
       "contextRef": "ctx-hre-q36",
       "options": [
@@ -217,7 +217,14 @@ export const kpseaSstHre2022 = {
     {
       "id": "q44",
       "questionNumber": 44,
-      "questionText": "The following are the precepts of the *Panch Sila* scripture\n\n(i) Not to harm any living being.\n(ii) Not to take things without permission\n(iii) To abstain from misconduct.\n(iv) To abstain from false speech\n\nThe *Panch Sila* **mainly** helps in promoting",
+      "questionText": "The following are the precepts of the *Panch Sila* scripture",
+      "questionList": [
+        "(i) Not to harm any living being.",
+        "(ii) Not to take things without permission",
+        "(iii) To abstain from misconduct.",
+        "(iv) To abstain from false speech"
+      ],
+      "questionSuffix": "The *Panch Sila* **mainly** helps in promoting",
       "questionType": "multiple-choice",
       "options": [
         {

@@ -22,6 +22,35 @@ export const kpseaSstParta2022 = {
       "imagePath": "/assets/images/kpsea-social-2022-q5.png",
       "title": "Question 5 Motif Print Options",
       "cssFilter": "contrast(1.2) grayscale(100%)"
+    },
+    "ctx-sst-2022-q19": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-social-2022-q19.svg",
+      "title": "Question 19 Quavers"
+    },
+    "ctx-sst-2022-q20": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-social-2022-q20.png",
+      "title": "Question 20 Instruments",
+      "cssFilter": "contrast(1.2) grayscale(100%)"
+    },
+    "ctx-sst-2022-q23": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-social-2022-q23.png",
+      "title": "Question 23 Oxbow Lake Options",
+      "cssFilter": "contrast(1.2) grayscale(100%)"
+    },
+    "ctx-sst-2022-q27": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-social-2022-q27.png",
+      "title": "Question 27 Road Signs",
+      "cssFilter": "contrast(1.2) grayscale(100%)"
+    },
+    "ctx-sst-2022-q30": {
+      "type": "image",
+      "imagePath": "/assets/images/kpsea-social-2022-q30.png",
+      "title": "Question 30 Leadership Qualities Table",
+      "cssFilter": "contrast(1.2) grayscale(100%)"
     }
   },
   "sectionA": [
@@ -181,7 +210,14 @@ export const kpseaSstParta2022 = {
     {
       "id": "q7",
       "questionNumber": 7,
-      "questionText": "The statements below describe the steps to be followed when making a table mat from sisal using coil and stitch technique.\n\n(i) pin the rope and sew in place to secure the centre\n\n(ii) continue coiling around as you sew in place\n\n(iii) twist the sisal into a rope\n\n(iv) connect the coils and complete the mat\n\nArrange the statements in the correct order.",
+      "questionText": "The statements below describe the steps to be followed when making a table mat from sisal using coil and stitch technique.",
+      "questionList": [
+        "(i) pin the rope and sew in place to secure the centre",
+        "(ii) continue coiling around as you sew in place",
+        "(iii) twist the sisal into a rope",
+        "(iv) connect the coils and complete the mat"
+      ],
+      "questionSuffix": "Arrange the statements in the correct order.",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -276,7 +312,7 @@ export const kpseaSstParta2022 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Form base, roll out coils, scratch edges and add coils.**\n\n**Analysis of the Correct Answer:**\nThe logical steps for making a coiled clay pot are:\n1. **Form base:** Create the flat bottom of the pot first.\n2. **Roll out coils:** Create the clay \"ropes\" that will build the walls.\n3. **Scratch edges:** Score the base (and subsequent layers) to ensure the coils stick.\n4. **Add coils:** Attach the coils using slip to build the walls upwards.\n*(Note: Option D from the paper reads \"Form base, add coils, scratch edges and roll out coils\", wait, let me check the image. Option D is \"Form base, add coils, scratch edges and roll out coils\"? No, wait. Let me re-read the options from the image. )*\n*Correction: Option B says \"Form base, scratch edges, roll out coils and add coils.\" Option D says \"Form base, add coils, scratch edges and roll out coils.\" Wait, looking closely at the image for Q10:*\n*A. Form base, add coils, roll out coils and scratch edges.*\n*B. Form base, scratch edges, roll out coils and add coils.*\n*C. Add coils, form base, roll out coils and scratch edges.*\n*D. Form base, add coils, scratch edges and roll out coils.*\n*Wait, none of them perfectly match my logic. Let me re-read carefully: \"roll out coils\" must happen before \"add coils\". So B is the only one where \"roll out coils\" is before \"add coils\". Form base -> scratch edges -> roll out coils -> add coils. Yes, B is the correct logical flow.*"
+      "explanation": "The correct answer is **Form base, scratch edges, roll out coils and add coils.**\n\n**Analysis of the Correct Answer:**\nWhen making a coiled clay pot, the correct logical order is:\n1. **Form base:** Create the flat bottom of the pot first as the foundation.\n2. **Scratch edges:** Score the surface of the base so the coils will bond properly.\n3. **Roll out coils:** Roll the clay into long rope-like strands that will form the walls.\n4. **Add coils:** Attach the rolled coils onto the scored base and build the walls upward.\n\nThis is the only sequence where you prepare the surface before adding the coils, ensuring a proper bond.\n\n**Why Other Options Are Incorrect:**\n- **A (Form base, add coils, roll out coils, scratch edges):** Cannot add coils before rolling them out.\n- **C (Add coils, form base, roll out coils, scratch edges):** Cannot add coils before forming the base.\n- **D (Form base, add coils, scratch edges, roll out coils):** Cannot add coils before rolling them out.\n\n📌 **Key Learning Note:**\nIn the coiling technique: **Form base ➔ Scratch edges ➔ Roll out coils ➔ Add coils**. Always score the surface before joining clay parts to ensure they stick together when fired.",
     },
     {
       "id": "q11",
@@ -481,7 +517,8 @@ export const kpseaSstParta2022 = {
     {
       "id": "q19",
       "questionNumber": 19,
-      "questionText": "Study the rhythm below:\n\n[Image showing 4 pairs of quavers (eighth notes) = 8 syllables total]\n\nWhich of the sentences below **cannot** be fitted to the rhythm above?",
+      "questionText": "Study the rhythm below:\n\nWhich of the sentences below **cannot** be fitted to the rhythm above?",
+      "contextRef": "ctx-sst-2022-q19",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -506,7 +543,8 @@ export const kpseaSstParta2022 = {
     {
       "id": "q20",
       "questionNumber": 20,
-      "questionText": "Below are diagrams of two Kenyan indigenous instruments.\n\n(i) [Diagram of a xylophone/marimba with beaters]\n(ii) [Diagram of a one-stringed fiddle (like an orutu) with a bow]\n\nWhich statement is **true** about the instruments above?",
+      "questionText": "Below are diagrams of two Kenyan indigenous instruments.\n\nWhich statement is **true** about the instruments above?",
+      "contextRef": "ctx-sst-2022-q20",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -581,7 +619,8 @@ export const kpseaSstParta2022 = {
     {
       "id": "q23",
       "questionNumber": 23,
-      "questionText": "Grade six learners went for a field trip and saw an ox bow lake. After the trip, the teacher told them to draw the feature they saw. Which of the following diagrams is correct?\n\n[Diagram A: A meandering river with a separate U-shaped lake next to it]\n[Diagram B: A meandering river only]\n[Diagram C: A sharp river bend]\n[Diagram D: A solid irregular shape]",
+      "questionText": "Grade six learners went for a field trip and saw an ox bow lake. After the trip, the teacher told them to draw the feature they saw. Which of the following diagrams is correct?",
+      "contextRef": "ctx-sst-2022-q23",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -606,7 +645,14 @@ export const kpseaSstParta2022 = {
     {
       "id": "q24",
       "questionNumber": 24,
-      "questionText": "The following are characteristics of a type of vegetation:\n\ni. tall trees.\nii. trees close together.\niii. huge roots.\niv. climbing plants.\n\nThis type of vegetation is called",
+      "questionText": "The following are characteristics of a type of vegetation:",
+      "questionList": [
+        "i. tall trees.",
+        "ii. trees close together.",
+        "iii. huge roots.",
+        "iv. climbing plants."
+      ],
+      "questionSuffix": "This type of vegetation is called",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -682,22 +728,23 @@ export const kpseaSstParta2022 = {
       "id": "q27",
       "questionNumber": 27,
       "questionText": "Jane is walking to school and wants to cross the road. Which of the following road signs indicates that she may cross the road?",
+      "contextRef": "ctx-sst-2022-q27",
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "A (No entry sign)",
+          "text": "A",
           "isCorrect": false
         },
         {
-          "text": "B (Stop sign)",
+          "text": "B",
           "isCorrect": false
         },
         {
-          "text": "C (Pedestrian crossing sign)",
+          "text": "C",
           "isCorrect": true
         },
         {
-          "text": "D (Roundabout ahead sign)",
+          "text": "D",
           "isCorrect": false
         }
       ],
@@ -757,22 +804,23 @@ export const kpseaSstParta2022 = {
       "id": "q30",
       "questionNumber": 30,
       "questionText": "Peter was asked by the class teacher to give qualities of a good leader. He made the table below. Choose the option that has the correct qualities.",
+      "contextRef": "ctx-sst-2022-q30",
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "Selfish, Cruel",
+          "text": "A",
           "isCorrect": false
         },
         {
-          "text": "Unjust, Arrogant",
+          "text": "B",
           "isCorrect": false
         },
         {
-          "text": "Dishonest, Cruel",
+          "text": "C",
           "isCorrect": false
         },
         {
-          "text": "Caring, Kind",
+          "text": "D",
           "isCorrect": true
         }
       ],

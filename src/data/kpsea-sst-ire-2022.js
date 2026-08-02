@@ -8,8 +8,9 @@ export const kpseaSstIre2022 = {
   "sharedContexts": {
     "ctx-ire-q44": {
       "type": "image",
-      "imagePath": "/assets/ire_swalah_posture.png",
-      "title": "Posture of Swalah"
+      "imagePath": "/assets/images/kpsea-ire-2022-q44.png",
+      "title": "Posture of Swalah",
+      "cssFilter": "contrast(1.2) grayscale(100%)"
     }
   },
   "sectionA": [
@@ -317,7 +318,14 @@ export const kpseaSstIre2022 = {
     {
       "id": "q48",
       "questionNumber": 48,
-      "questionText": "Mzizima factory workers went on strike demanding for the following rights.\n\n(i) right to entertainment\n(ii) right to be given time to rest\n(iii) right to be paid salaries on time\n(iv) right to be provided with medical care\n\nWhich among them is **not** a genuine right according to Islamic teachings?",
+      "questionText": "Mzizima factory workers went on strike demanding for the following rights.",
+      "questionList": [
+        "(i) right to entertainment",
+        "(ii) right to be given time to rest",
+        "(iii) right to be paid salaries on time",
+        "(iv) right to be provided with medical care"
+      ],
+      "questionSuffix": "Which among them is **not** a genuine right according to Islamic teachings?",
       "questionType": "multiple-choice",
       "options": [
         {
