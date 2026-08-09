@@ -1,0 +1,27 @@
+<svg width="400" height="210" viewBox="0 0 400 210" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .header { font-family: 'Times New Roman', serif; font-size: 24px; font-weight: bold; fill: #4a423f; }
+    .row { font-family: 'Times New Roman', serif; font-size: 24px; fill: #4a423f; }
+    .line { stroke: #4a423f; stroke-width: 2; fill: none; }
+  </style>
+
+  <!-- Headers -->
+  <text x="30" y="40" class="header">Item</text>
+  <line x1="30" y1="46" x2="85" y2="46" class="line" />
+  
+  <text x="270" y="40" text-anchor="middle" class="header">Cost in shillings</text>
+  <line x1="180" y1="46" x2="360" y2="46" class="line" />
+  
+  <!-- Row 1 -->
+  <text x="30" y="95" class="row">Mathematical set</text>
+  <text x="270" y="95" text-anchor="middle" class="row">250</text>
+  
+  <!-- Row 2 -->
+  <text x="30" y="145" class="row">Pen</text>
+  <text x="270" y="145" text-anchor="middle" class="row">45</text>
+  
+  <!-- Row 3 -->
+  <text x="30" y="195" class="row">Pencil</text>
+  <text x="270" y="195" text-anchor="middle" class="row">25</text>
+
+</svg>

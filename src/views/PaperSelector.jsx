@@ -179,9 +179,9 @@ export const PaperSelector = () => {
                     badgeText="Core Section"
                     badgeBg="#eff6ff"
                     badgeColor="#2563eb"
-                    description="Covers geography, history, civics, and creative arts. Questions 1 to 35."
+                    description={`Covers geography, history, civics, and creative arts. Questions 1 to ${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'}.`}
                     duration="100 min"
-                    qsCount="35 Qs"
+                    qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'} Qs`}
                     onClick={() => {
                       setSelectedParent(null);
                       navigate(`/exam/${portal}/kpsea-sst-parta-${selectedParent.year || '2023'}`);
@@ -193,9 +193,9 @@ export const PaperSelector = () => {
                     badgeText="Optional Section"
                     badgeBg="#ecfdf5"
                     badgeColor="#059669"
-                    description="Choose your religious education option (CRE, IRE, or HRE). Questions 36 to 50."
+                    description={`Choose your religious education option (CRE, IRE, or HRE). Questions ${['2024', '2025'].includes(selectedParent?.year) ? '41' : '36'} to 50.`}
                     duration="30 min"
-                    qsCount="15 Qs"
+                    qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '10' : '15'} Qs`}
                     onClick={() => setReligionStep(true)}
                   />
                 </>

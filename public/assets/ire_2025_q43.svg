@@ -1,0 +1,20 @@
+<svg width="450" height="180" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .name { font-family: 'Times New Roman', serif; font-size: 20px; fill: #4a423f; }
+    .action { font-family: 'Times New Roman', serif; font-size: 20px; fill: #4a423f; }
+  </style>
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <text x="20" y="30" class="name">Ali:</text>
+  <text x="90" y="30" class="action">said Bismillah before eating</text>
+
+  <text x="20" y="65" class="name">Musa:</text>
+  <text x="90" y="65" class="action">ate with his right hand</text>
+
+  <text x="20" y="100" class="name">Said:</text>
+  <text x="90" y="100" class="action">ate while the food was very hot</text>
+
+  <text x="20" y="135" class="name">Salim:</text>
+  <text x="90" y="135" class="action">ate what was nearest to him on the</text>
+  <text x="90" y="165" class="action">plate</text>
+</svg>

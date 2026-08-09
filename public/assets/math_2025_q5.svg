@@ -1,0 +1,60 @@
+<svg width="400" height="300" viewBox="0 0 400 300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font-family: 'Times New Roman', serif; font-size: 18px; font-weight: bold; fill: #4a423f; }
+    .line { stroke: #4a423f; stroke-width: 2; fill: none; }
+  </style>
+
+  <!-- Labels -->
+  <text x="200" y="35" text-anchor="middle" class="label">20 cm</text>
+  <text x="200" y="270" text-anchor="middle" class="label">20 cm</text>
+  <text x="45" y="155" text-anchor="middle" class="label">18 cm</text>
+  <text x="355" y="155" text-anchor="middle" class="label">18 cm</text>
+
+  <!-- Rectangle -->
+  <rect x="80" y="50" width="240" height="200" class="line" />
+  
+  <!-- Diagonal -->
+  <line x1="80" y1="50" x2="320" y2="250" class="line" />
+
+  <!-- Flowers Pattern -->
+  <defs>
+    <g id="flower">
+      <circle cx="0" cy="-3" r="2.5" fill="none" stroke="#4a423f" stroke-width="1.5" />
+      <circle cx="0" cy="3" r="2.5" fill="none" stroke="#4a423f" stroke-width="1.5" />
+      <circle cx="-3" cy="0" r="2.5" fill="none" stroke="#4a423f" stroke-width="1.5" />
+      <circle cx="3" cy="0" r="2.5" fill="none" stroke="#4a423f" stroke-width="1.5" />
+    </g>
+  </defs>
+
+  <!-- Flowers in the bottom-left triangle -->
+  <use href="#flower" x="95" y="90" />
+  <use href="#flower" x="120" y="110" />
+  <use href="#flower" x="95" y="135" />
+  
+  <use href="#flower" x="135" y="130" />
+  <use href="#flower" x="155" y="145" />
+  
+  <use href="#flower" x="105" y="170" />
+  <use href="#flower" x="130" y="175" />
+  <use href="#flower" x="160" y="180" />
+  <use href="#flower" x="185" y="170" />
+  
+  <use href="#flower" x="95" y="205" />
+  <use href="#flower" x="125" y="200" />
+  <use href="#flower" x="150" y="210" />
+  <use href="#flower" x="180" y="205" />
+  <use href="#flower" x="205" y="195" />
+  <use href="#flower" x="225" y="205" />
+  
+  <use href="#flower" x="110" y="235" />
+  <use href="#flower" x="140" y="230" />
+  <use href="#flower" x="170" y="235" />
+  <use href="#flower" x="195" y="230" />
+  <use href="#flower" x="220" y="235" />
+  <use href="#flower" x="245" y="225" />
+  <use href="#flower" x="270" y="235" />
+  <use href="#flower" x="290" y="230" />
+
+  <use href="#flower" x="250" y="205" />
+
+</svg>

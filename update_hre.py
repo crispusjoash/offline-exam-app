@@ -1,229 +1,154 @@
 import json
+import re
 
-filepath = 'src/data/kpsea-sst-hre-2023.js'
-with open(filepath, 'r', encoding='utf-8') as f:
-    text = f.read()
+file_path = 'src/data/kpsea-sst-hre-2024.js'
+with open(file_path, 'r', encoding='utf-8') as f:
+    content = f.read()
 
-prefix = 'export const kpseaSstHre2023 = '
-clean_text = text.replace(prefix, '').strip()
-if clean_text.endswith(';'):
-    clean_text = clean_text[:-1]
+match = re.search(r'export const \w+ = (\{.*\});?\s*$', content, re.DOTALL)
+if not match:
+    print("Could not parse file")
+    exit(1)
+    
+data = json.loads(match.group(1))
 
-data = json.loads(clean_text)
+explanations = {
+    41: """The correct answer is **B**.
 
-hre_explanations = {
-    36: """The correct answer is **Peacock.**.
-
-**Detailed Analysis of the Correct Answer:**
-In Hindu tradition, various deities are closely associated with specific sacred animals and birds. **Lord Krishna** is famously depicted wearing a **peacock feather (*Mayur Pankh*)** in His crown, symbolizing purity, beauty, divine grace, and joy.
-
-**Why Other Options Are Incorrect:**
-* **Dove.:** Symbolizes peace in Western/Christian traditions, but is not specifically associated with Lord Krishna.
-* **Swan.:** The Swan (*Hamsa*) is associated with Goddess Saraswati and Lord Brahma as a symbol of wisdom and spiritual discernment.
-* **Eagle.:** The Eagle (*Garuda*) is the divine carrier (*Vahana*) of Lord Vishnu, whereas Lord Krishna is specifically adorned with the peacock feather.
-
-📌 **Key Learning Note:**
-Lord Krishna is instantly recognized by the vibrant **peacock feather (*Mayur Pankh*)** in His crown.""",
-
-    37: """The correct answer is **Brahma.**.
-
-**Detailed Analysis of the Correct Answer:**
-In Hindu Sanatan Dharma, the Supreme Cosmic Functions are performed by the **Trimurti** (the Divine Trinity):
-1. **Lord Brahma:** The Creator of the universe.
-2. **Lord Vishnu:** The Preserver and Protector of creation.
-3. **Lord Shiva (Mahesh):** The Transformer and Dissolver of the universe.
-
-Therefore, **Lord Brahma** is the deity associated with creation.
+**Analysis of the Correct Answer:**
+In Hinduism, Parmatma (the Supreme Soul) created the sun (Surya) as a vital source of life. The most direct and fundamental importance of the sun to human beings is that **plants need the heat and light from the sun** to grow (photosynthesis). Without plants, there would be no food for humans or animals, leading to the end of life on Earth.
 
 **Why Other Options Are Incorrect:**
-* **Vishnu.:** Responsible for preserving, protecting, and maintaining order in the cosmos.
-* **Shiv.:** Responsible for transformation, dissolution, and destruction of evil/ignorance.
-* **Ganesh.:** The deity of wisdom, intellect, and remover of obstacles (*Vighnaharta*).
+* **A:** While the earth's climate depends on the sun, the physical rock of the earth would still exist without it; it's the *life* on earth that depends on it.
+* **C:** Evaporation is a process, but the sustenance of the food chain via plant growth is the primary life-giving function.
+* **D:** Energy availability is a broad term, but the specific biological necessity is food production via plants.
 
 📌 **Key Learning Note:**
-The Trimurti: **Lord Brahma (Creator), Lord Vishnu (Preserver), Lord Shiva (Transformer)**.""",
+In Hindu teachings, nature is deeply respected because every element (like the sun) plays a crucial, interconnected role in sustaining all life forms.""",
 
-    38: """The correct answer is **Abhinandannath**.
+    42: """The correct answer is **B**.
 
-**Detailed Analysis of the Correct Answer:**
-In Jainism, Ayodhya is a deeply venerated holy city because it is the birthplace of five Tirthankaras. **Abhinandannath Swami** is the 4th Jain Tirthankar whose birth (*Janma Kalyanak*) took place in the sacred city of Ayodhya.
+**Analysis of the Correct Answer:**
+In this sacred verse from the Sri Guru Granth Sahib Ji, "Mata Dharat Mahat" translates to "the Great Mother Earth." By referring to the Earth as the "Great Mother," the verse elevates **earth** (Dharat) to the highest, most nurturing status among the elements (Panch Mahabhoot).
 
 **Why Other Options Are Incorrect:**
-* **Mahavir:** The 24th Tirthankar, born in Kshatriyakund/Vaishali (Bihar).
-* **Mallinath:** The 19th Tirthankar, born in Mithila.
-* **Neminath.:** The 22nd Tirthankar, born in Sauripura/Dwarka.
+* **A:** "Pavan" (Air) is referred to as Guru (teacher), which is highly respected but "Mahat" (Great Mother) denotes the highest nurturing status.
+* **C:** Fire (Agni) is not explicitly mentioned in this specific line.
+* **D:** "Pani" (Water) is referred to as Pita (father).
 
 📌 **Key Learning Note:**
-Ayodhya is celebrated in Jainism as the sacred birthplace of five Tirthankaras, including **Abhinandannath Swami**.""",
+Sikhism and Hinduism teach profound environmental stewardship by personifying natural elements as familial and spiritual figures (Guru, Father, Mother).""",
 
-    39: """The correct answer is **Hanuman.**.
+    43: """The correct answer is **B**.
 
-**Detailed Analysis of the Correct Answer:**
-**Sri Hanuman** is an enlightened divine being, the epitome of selfless devotion (*Bhakti*), immense spiritual strength, profound wisdom, and complete humility. He is revered as a Chiranjivi (immortal, enlightened soul) renowned for His divine protection of the righteous.
+**Analysis of the Correct Answer:**
+The Bhagavad Gita, one of the most revered scriptures in Hinduism, is a 700-verse text embedded within the ancient Indian epic, the Mahabharata. It takes the form of a profound philosophical dialogue between the warrior prince **Arjun and his charioteer, Lord Krishna**, on the battlefield of Kurukshetra.
 
 **Why Other Options Are Incorrect:**
-* **Bishma.:** The grand patriarch of the Kuru dynasty in the Mahabharata, bound by his solemn vow to the throne.
-* **Dashrath.:** King of Ayodhya and father of Lord Rama, a noble mortal monarch.
-* **Dronacharya.:** The royal guru of the Pandavas and Kauravas in the Mahabharata.
+* **A:** Sudama was a childhood friend of Lord Krishna; their story is famous for teaching about true friendship and devotion, but is not part of the Gita.
+* **C:** "Krisha" is misspelled, and standard phrasing puts the divine figure first or properly spelled.
+* **D:** Hanuman is a central figure in the Ramayana, not the primary conversationalist in the Bhagavad Gita.
 
 📌 **Key Learning Note:**
-**Sri Hanuman** represents supreme devotion, courage, wisdom, and spiritual enlightenment.""",
+The Bhagavad Gita addresses moral dilemmas, duty (Dharma), and the paths to spiritual liberation (Moksha) through the conversation between Lord Krishna and Arjun.""",
 
-    40: """The correct answer is **Shikshapatri**.
+    44: """The correct answer is **A**.
 
-**Detailed Analysis of the Correct Answer:**
-The **Shikshapatri** is a sacred code of conduct written by Lord Swaminarayan. It lays down moral, practical, and spiritual guidelines for daily living, including strict instructions on **Ahimsa (non-violence)** and the sacred duty to preserve and protect all animals from harm or slaughter.
+**Analysis of the Correct Answer:**
+In the fable, the fox noticed that all the footprints led *into* the lion's cave, but none led *out*. By observing this, the fox deduced the danger without having to enter the cave itself. The moral is that a wise person should observe and **learn from other people's mistakes** (the animals that went in and died) to avoid suffering the same fate.
 
 **Why Other Options Are Incorrect:**
-* **Ramayan:** The epic narrative detailing the life, duties, and righteous path of Lord Rama.
-* **Dhammapada:** A collection of core moral teachings of the Buddha.
-* **Bhagwad Gita.:** The sacred discourse delivered by Lord Krishna to Arjuna on duty (*Dharma*) and righteousness.
+* **B:** The lion pretended to be sick to lure the animals, so "helping the sick" was actually the trap, making this the opposite of the intended moral.
+* **C:** While avoiding the lion (troublemaker) was the result, the *method* of survival was observation and learning.
+* **D:** The fox survived by its own wisdom, not by associating with others (who were all eaten).
 
 📌 **Key Learning Note:**
-The **Shikshapatri** emphasizes strict non-violence (*Ahimsa*) and the sacred duty to protect animals.""",
+Wisdom (Viveka) involves critical thinking, observation, and applying past lessons to present situations to make safe and righteous choices.""",
 
-    41: """The correct answer is **in translating into vernacular, the inner meaning is lost**.
+    45: """The correct answer is **B**.
 
-**Detailed Analysis of the Correct Answer:**
-Sanskrit is known as *Devavani* (the divine language). In Hindu scriptures, original Sanskrit mantras contain precise phonetic vibrations (*Dhvani*) and deep spiritual meanings that literal translations into modern vernacular languages often lose.
+**Analysis of the Correct Answer:**
+Prince Siddhartha (who later became Gautama Buddha) demonstrated **Daya**, which translates to compassion, mercy, or sympathy. By rescuing, nursing, and protecting the swan that his cousin Devadatta had shot, Siddhartha showed deep, active kindness to a suffering living being.
 
 **Why Other Options Are Incorrect:**
-* **the rhythm of recitation gives pleasure to listeners:** While melodic, the primary spiritual reason is preserving original divine meaning and mantra power.
-* **will motivates people to learn Sanskrit:** A secondary educational byproduct, not the primary reason for chanting in Sanskrit.
-* **Sanskrit is easier than the vernacular.:** Sanskrit grammar is highly sophisticated and intricate, not easier than local spoken languages.
+* **A:** Santosh means contentment or satisfaction with what one has.
+* **C:** Dhiraj (Dharraj) means patience or tolerance.
+* **D:** Satya means truthfulness.
 
 📌 **Key Learning Note:**
-Chanting in original **Sanskrit** preserves the deep spiritual essence and precise vibrational meaning of sacred mantras.""",
+The story of Siddhartha and the swan teaches that life belongs to the one who saves it (compassion/Daya), not the one who tries to destroy it.""",
 
-    42: """The correct answer is **Buddhists.**.
+    46: """The correct answer is **A**.
 
-**Detailed Analysis of the Correct Answer:**
-In **Buddhism**, sacred chants such as *Buddham Saranam Gacchami, Dhammam Saranam Gacchami, Sangham Saranam Gacchami* represent taking **Refuge in the Three Jewels** (the Buddha, the Dhamma/Teachings, and the Sangha/Community).
+**Analysis of the Correct Answer:**
+By intervening and correcting the student's bad behavior, the teacher is fulfilling their duty (Dharma) to guide the student towards a righteous and responsible path. This aligns with **Purusharth** (specifically the aspect of Dharma within the four goals of human life), which emphasizes moral duty, righteousness, and proper conduct.
 
 **Why Other Options Are Incorrect:**
-* **Sanatan:** Sanatan Dharma prayers include Vedic mantras like the Gayatri Mantra or Om Namah Shivaya.
-* **Jains:** Jain prayers prominently feature the Navkar Mantra (*Namo Arihantanam*).
-* **Sikhs:** Sikh prayers center on the Mool Mantar (*Ik Onkar*) and Gurbani.
+* **B:** Prathana means prayer.
+* **C:** Pranidaya means compassion for all living beings.
+* **D:** Punarjanam refers to the concept of reincarnation or rebirth.
 
 📌 **Key Learning Note:**
-Seeking refuge in the **Buddha, Dhamma, and Sangha** is the core daily prayer of Buddhists.""",
+Purusharth outlines the four main goals of human life in Hinduism: Dharma (righteousness/duty), Artha (wealth/means of life), Kama (desire/enjoyment), and Moksha (liberation).""",
 
-    43: """The correct answer is **helps devotees identify the faith**.
+    47: """The correct answer is **C**.
 
-**Detailed Analysis of the Correct Answer:**
-The **Dhwaj** (sacred flag or banner) is hoisted atop temples and places of worship. It acts as a beacon visible from afar, helping devotees **identify the place of worship and the faith** it represents while signaling divine presence and righteousness (*Dharma*).
+**Analysis of the Correct Answer:**
+Patriotism is the feeling of love, devotion, and a sense of attachment to one's country. **Singing the national anthem** is an active, vocal expression of national pride and unity. It requires personal participation and demonstrates deep respect for the nation's identity.
 
 **Why Other Options Are Incorrect:**
-* **beautify the place of worship:** Beautification is secondary; its main purpose is identification and sacred symbolism.
-* **gives importance to the faith's symbol:** Symbols are important, but the flag specifically identifies the shrine for visiting devotees.
-* **It gives direction to the devotees.:** While visible from afar, its primary function is marking the presence and identity of the holy temple.
+* **A:** Entertaining people is a performance activity, which is enjoyable but not explicitly a demonstration of national devotion.
+* **B & D:** Watching a parade or listening to speeches are passive activities; one can observe these without necessarily feeling or demonstrating personal patriotism.
 
 📌 **Key Learning Note:**
-A **Dhwaj (temple flag)** identifies the place of worship and signals divine presence and Dharma.""",
+Active participation in national symbols and ceremonies (like the anthem or the flag) is a primary way citizens demonstrate loyalty (Desh Bhakti) to their country.""",
 
-    44: """The correct answer is **Purushartha**.
+    48: """The correct answer is **C**.
 
-**Detailed Analysis of the Correct Answer:**
-In Hindu philosophy, **Purushartha** refers to righteous self-effort, hard work, and goal-directed action. Overcoming failure or poor performance in studies or physical assessments requires persistent practice, diligence, and self-effort (*Purushartha*).
+**Analysis of the Correct Answer:**
+Environmental conservation is a civic duty that benefits the entire community and the nation. When yoga extends beyond personal physical health to encourage communal responsibility (like keeping the environment clean), it actively promotes good **citizenship**.
 
 **Why Other Options Are Incorrect:**
-* **Punarjanam:** Refers to the cycle of rebirth/reincarnation.
-* **Pranidaya:** Refers to showing mercy and compassion to living beings.
-* **Prarthana.:** Refers to prayer, which complements work but does not replace practical effort (*Purushartha*).
+* **A & B:** Fellowship and friendship refer to social bonds and relationships between individuals, but citizenship specifically relates to one's duties and responsibilities to the wider community and country.
+* **D:** Mentorship is the act of guiding someone less experienced, which is unrelated to environmental conservation.
 
 📌 **Key Learning Note:**
-**Purushartha** means dedicated self-effort and hard work needed to achieve success in life goals.""",
+Yoga promotes holistic well-being, which includes living in harmony with nature and fulfilling one's civic duties (good citizenship) to maintain a healthy society.""",
 
-    45: """The correct answer is **Naam Japna**.
+    49: """The correct answer is **B**.
 
-**Detailed Analysis of the Correct Answer:**
-In Sikhism, the three core pillars established by Guru Nanak Dev Ji are:
-1. **Naam Japna:** Remembrance and chanting of God's Name (*Waheguru*).
-2. **Kirat Karna:** Earning an honest living through truthful hard work.
-3. **Vand Chhako (Wand shakna):** Sharing wealth and food with the community.
-
-Therefore, morning chanting in a Sikh place of worship is guided by **Naam Japna**.
+**Analysis of the Correct Answer:**
+**Navratri** (meaning "nine nights") is a major Hindu festival dedicated entirely to the worship of the Goddess Durga and her nine forms (Navadurga). It celebrates the divine feminine power (Shakti) and the victory of good over evil, specifically Goddess Durga's triumph over the buffalo demon Mahishasura.
 
 **Why Other Options Are Incorrect:**
-* **Kirat Karna:** Means earning an honest living through truthful means.
-* **Wand shakna:** Means sharing food and wealth with those in need.
-* **Sewa karna.:** Means performing selfless service for the community without expecting reward.
+* **A:** Diwali is the festival of lights, primarily celebrating Lord Rama's return to Ayodhya and the worship of Goddess Lakshmi.
+* **C:** Holi is the festival of colors, celebrating the arrival of spring and the victory of Prahlada over Holika.
+* **D:** Dussehra is celebrated at the end of Navratri to mark Lord Rama's victory over Ravana.
 
 📌 **Key Learning Note:**
-**Naam Japna** is the Sikh pillar of meditating upon and chanting God's Name.""",
+Navratri involves fasting, prayer, and vibrant folk dances (like Garba and Dandiya) to honor the protective and victorious nature of Goddess Durga.""",
 
-    46: """The correct answer is **a symbol of protection of the temple.**.
+    50: """The correct answer is **C**.
 
-**Detailed Analysis of the Correct Answer:**
-In Jain Derasa (temple) architecture, sculptures of sacred elephants (*Gaja*) placed at doorways serve as symbolic guardians, signifying majesty, nobility, and divine **protection of the sacred temple space**.
+**Analysis of the Correct Answer:**
+**Surya Namaskar** (Sun Salutation) is a comprehensive yoga practice that consists of a specific sequence of **twelve physical postures (asanas)**. Traditionally, it is performed gracefully in a continuous flow, often accompanied by the recitation of specific mantras for each posture to express gratitude to the sun.
 
 **Why Other Options Are Incorrect:**
-* **loyalty:** Loyalty is more commonly associated with domestic animals like dogs.
-* **taming of wildlife:** Temples do not represent taming wild animals, but preserving sacred purity.
-* **a symbol for removing negative energy:** While sacred, entrance elephants specifically function as architectural protectors/guardians.
+* **A:** Vajrasana (Diamond pose) is a single kneeling posture used for meditation and digestion.
+* **B:** Tadasana (Mountain pose) is a single standing posture, forming the basis for other standing poses.
+* **D:** Padmasana (Lotus pose) is a single cross-legged sitting posture used primarily for deep meditation.
 
 📌 **Key Learning Note:**
-Elephant figures at temple entrances symbolize noble strength and **protection of the sacred space**.""",
-
-    47: """The correct answer is **Jai Shri Krishna.**.
-
-**Detailed Analysis of the Correct Answer:**
-Different traditions use distinct traditional greetings. In mandirs dedicated to Lord Krishna or avatars of Lord Vishnu, devotees greet each other with **"Jai Shri Krishna"** or *"Radhe Radhe"*.
-
-**Why Other Options Are Incorrect:**
-* **Jai Ambe.:** Used among devotees of Goddess Durga/Amba (Shakti).
-* **Jai Jinendra.:** The universal sacred greeting used among Jains.
-* **Jai Bhole Nath.:** Used among devotees of Lord Shiva.
-
-📌 **Key Learning Note:**
-**"Jai Shri Krishna"** is the respectful greeting used in temples dedicated to Lord Krishna.""",
-
-    48: """The correct answer is **responsibility**.
-
-**Detailed Analysis of the Correct Answer:**
-Helping an injured peer immediately by stopping play and taking them for first aid demonstrates practical social **responsibility**, empathy, and moral duty of care toward others.
-
-**Why Other Options Are Incorrect:**
-* **respect:** Showing honor to elders/peers; caring for an injured friend is an active duty of responsibility.
-* **patience:** Bearing delays calmly; responding to an emergency requires prompt responsible action.
-* **tolerance.:** Accepting differences; responding to an injury is a matter of practical care and responsibility.
-
-📌 **Key Learning Note:**
-Taking swift action to assist an injured classmate shows moral **responsibility** and care.""",
-
-    49: """The correct answer is **Diwali and Holi.**.
-
-**Detailed Analysis of the Correct Answer:**
-In Hindu culture, *Utsavs* (festivals) carry deep spiritual meanings. Both **Diwali** (celebrating Lord Rama's victorious return to Ayodhya after defeating Ravana) and **Holi** (celebrating Prahlada's devotion and the destruction of Holika) commemorate the ultimate **victory of good over evil**.
-
-**Why Other Options Are Incorrect:**
-* **Paryushan Parv and Vasant Panchami.:** Paryushan is a Jain festival of forgiveness/fasting; Vasant Panchami celebrates Goddess Saraswati and spring.
-* **Navratri and Janamashtami.:** Janamashtami celebrates the birth of Lord Krishna.
-* **Ramnavmi and Gurupurab.:** Ramnavmi celebrates Lord Rama's birth; Gurupurab celebrates Sikh Gurus' birth anniversaries.
-
-📌 **Key Learning Note:**
-**Diwali and Holi** are major Hindu festivals celebrating the victory of good over evil.""",
-
-    50: """The correct answer is **grow spiritually**.
-
-**Detailed Analysis of the Correct Answer:**
-While Yoga provides great physical flexibility and health benefits, its true ancient purpose in spiritual traditions (derived from the root *Yuj*, meaning to join/unite) is uniting the mind, body, and spirit to **grow spiritually** and achieve inner peace.
-
-**Why Other Options Are Incorrect:**
-* **participate in sports:** Yoga is a spiritual discipline of mind and body, not a competitive sport.
-* **enhance social cohesion:** Community cohesion is a social benefit, but spiritual growth is the core objective.
-* **be physically fit.:** Physical fitness is a positive health benefit, but physical poses (*Asanas*) serve as a preparation for deep meditation and spiritual growth.
-
-📌 **Key Learning Note:**
-The primary and highest goal of **Yoga** is spiritual growth and inner peace."""
+Surya Namaskar is a complete body workout in yoga, combining physical postures, controlled breathing (Pranayama), and spiritual focus (mantras)."""
 }
 
-for q in data['sectionA']:
-    qn = q['questionNumber']
-    if qn in hre_explanations:
-        q['explanation'] = hre_explanations[qn]
+for q in data["sectionA"]:
+    num = q["questionNumber"]
+    if num in explanations:
+        q["explanation"] = explanations[num]
 
-with open(filepath, 'w', encoding='utf-8') as f:
-    f.write(prefix + json.dumps(data, indent=2, ensure_ascii=False) + ';\n')
+new_content = "export const kpseaSstHre2024 = " + json.dumps(data, indent=2) + ";\n"
+with open(file_path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
 
-print("All 15 HRE questions updated successfully in kpsea-sst-hre-2023.js!")
+print("Batch 2 completed successfully.")

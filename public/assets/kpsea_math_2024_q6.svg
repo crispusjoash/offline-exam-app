@@ -1,0 +1,17 @@
+<svg width="400" height="250" viewBox="0 0 400 250" xmlns="http://www.w3.org/2000/svg">
+  <g stroke="black" stroke-width="2" fill="none">
+    <rect x="150" y="50" width="200" height="100" />
+    <polygon points="150,50 150,150 102,86" />
+    <polygon points="102,86 110,80 116,88 108,94" />
+    <polyline points="160,50 160,60 150,60" />
+    <polyline points="340,150 340,140 350,140" />
+  </g>
+
+  <text x="250" y="40" font-family="Arial" font-size="16" text-anchor="middle">40 cm</text>
+  <text x="250" y="170" font-family="Arial" font-size="16" text-anchor="middle">40 cm</text>
+  <text x="360" y="105" font-family="Arial" font-size="16">20 cm</text>
+  <text x="160" y="105" font-family="Arial" font-size="16">20 cm</text>
+  
+  <text x="120" y="60" font-family="Arial" font-size="16" text-anchor="middle" transform="rotate(-36.87 120,60)">12 cm</text>
+  <text x="115" y="130" font-family="Arial" font-size="16" text-anchor="middle" transform="rotate(53.13 115,130)">16 cm</text>
+</svg>

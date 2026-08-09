@@ -70,11 +70,11 @@ const renderTextWithFormatting = (text, keyPrefix) => {
 export const MathRenderer = ({ text }) => {
   if (!text) return null;
 
-  if (!text.includes('$') && !text.includes('**') && !text.includes('*') && !text.includes('<u>')) return <span>{text}</span>;
+  if (!text.includes('$') && !text.includes('**') && !text.includes('*') && !text.includes('<u>')) return <span style={{ whiteSpace: 'pre-wrap' }}>{text}</span>;
 
   const parts = text.split('$');
   return (
-    <span>
+    <span style={{ whiteSpace: 'pre-wrap' }}>
       {parts.map((part, index) =>
         index % 2 === 0
           ? (part ? renderTextWithFormatting(part, index) : null)

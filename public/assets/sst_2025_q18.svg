@@ -1,0 +1,24 @@
+<svg width="450" height="320" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .opt { font-family: 'Times New Roman', serif; font-size: 19px; fill: #4a423f; }
+    .label { font-family: 'Times New Roman', serif; font-size: 19px; fill: #4a423f; font-weight: normal; }
+  </style>
+  <rect width="100%" height="100%" fill="transparent" />
+  
+  <text x="20" y="30" class="label">A. Member 1:</text>
+  <text x="140" y="30" class="opt">The body of the performer</text>
+  <text x="140" y="55" class="opt">is supported by the legs</text>
+  <text x="140" y="80" class="opt">only.</text>
+
+  <text x="20" y="125" class="label">B. Member 2:</text>
+  <text x="140" y="125" class="opt">The stomach faces down</text>
+  <text x="140" y="150" class="opt">during the performance.</text>
+
+  <text x="20" y="195" class="label">C. Member 3:</text>
+  <text x="140" y="195" class="opt">The performer lies flat on</text>
+  <text x="140" y="220" class="opt">the ground while facing up.</text>
+
+  <text x="20" y="265" class="label">D. Member 4:</text>
+  <text x="140" y="265" class="opt">The performer is supported</text>
+  <text x="140" y="290" class="opt">by both hands and feet.</text>
+</svg>

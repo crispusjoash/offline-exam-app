@@ -1,0 +1,20 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .label { font-family: sans-serif; font-size: 16px; fill: #555; text-anchor: middle; dominant-baseline: middle; }
+    .bold { font-family: sans-serif; font-size: 18px; fill: #333; font-weight: bold; text-anchor: middle; dominant-baseline: middle; }
+  </style>
+  
+  <circle cx="150" cy="150" r="100" stroke="#333" stroke-width="2" fill="none" />
+  
+  <line x1="150" y1="50" x2="150" y2="250" stroke="#333" stroke-width="2" />
+  <line x1="63.4" y1="100" x2="236.6" y2="200" stroke="#333" stroke-width="2" />
+  <line x1="63.4" y1="200" x2="236.6" y2="100" stroke="#333" stroke-width="2" />
+  
+  <!-- Texts -->
+  <text x="115" y="90" class="label">Red</text>
+  <text x="185" y="90" class="label">Orange</text>
+  <text x="215" y="150" class="label">Yellow</text>
+  <text x="185" y="210" class="label">Green</text>
+  <text x="115" y="210" class="bold">X</text>
+  <text x="85" y="150" class="bold">W</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="100%">
+  <style>
+    .text { font-family: serif; font-size: 24px; fill: #1f2937; font-weight: 500; }
+  </style>
+  <text x="40" y="30" class="text">a - 1</text>
+  <text x="40" y="55" class="text">b - 2</text>
+  <text x="40" y="80" class="text">c - 3</text>
+  <text x="40" y="105" class="text">d - 4</text>
+  
+  <text x="170" y="30" class="text">e - 5</text>
+  <text x="170" y="55" class="text">f - 6</text>
+  <text x="170" y="80" class="text">g - 7</text>
+  <text x="170" y="105" class="text">h - 8</text>
+  
+  <text x="300" y="30" class="text">i - 9</text>
+  <text x="300" y="55" class="text">j - 01</text>
+  <text x="300" y="80" class="text">k - 02</text>
+  <text x="300" y="105" class="text">l - 03</text>
+</svg>

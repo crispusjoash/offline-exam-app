@@ -21,6 +21,11 @@ export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = t
     });
   }, [scale]);
 
+  // Reset scale when src changes
+  useEffect(() => {
+    setScale(1);
+  }, [src]);
+
   return (
     <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
       {/* Controls */}

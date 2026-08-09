@@ -1,0 +1,53 @@
+<svg width="450" height="200" viewBox="0 0 450 200" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .cell-bg { fill: #f8f9fa; }
+    .header-bg { fill: #e9ecef; }
+    .border { stroke: #343a40; stroke-width: 2; fill: none; }
+    .text { font-family: Arial, sans-serif; font-size: 16px; fill: #212529; }
+    .header-text { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; fill: #212529; }
+  </style>
+
+  <!-- Table background -->
+  <rect x="20" y="20" width="410" height="150" class="cell-bg" />
+  
+  <!-- Header background -->
+  <rect x="20" y="20" width="410" height="30" class="header-bg" />
+
+  <!-- Borders -->
+  <rect x="20" y="20" width="410" height="150" class="border" />
+  <!-- Horizontal lines -->
+  <line x1="20" y1="50" x2="430" y2="50" class="border" />
+  <line x1="20" y1="80" x2="430" y2="80" class="border" />
+  <line x1="20" y1="110" x2="430" y2="110" class="border" />
+  <line x1="20" y1="140" x2="430" y2="140" class="border" />
+
+  <!-- Vertical lines -->
+  <line x1="160" y1="20" x2="160" y2="170" class="border" />
+  <line x1="290" y1="20" x2="290" y2="170" class="border" />
+
+  <!-- Text -->
+  <!-- Headers -->
+  <text x="30" y="41" class="header-text">Town</text>
+  <text x="170" y="41" class="header-text">Arrival</text>
+  <text x="300" y="41" class="header-text">Departure</text>
+
+  <!-- Row 1 -->
+  <text x="30" y="71" class="text">Mombasa</text>
+  <text x="225" y="71" class="text" text-anchor="middle">—</text>
+  <text x="300" y="71" class="text">8.30 a.m</text>
+
+  <!-- Row 2 -->
+  <text x="30" y="101" class="text">Voi</text>
+  <text x="170" y="101" class="text">10.30 a.m</text>
+  <text x="300" y="101" class="text">11.00 a.m</text>
+
+  <!-- Row 3 -->
+  <text x="30" y="131" class="text">Mtito Andei</text>
+  <text x="170" y="131" class="text">2.00 p.m</text>
+  <text x="300" y="131" class="text">2.45 p.m</text>
+
+  <!-- Row 4 -->
+  <text x="30" y="161" class="text">Nairobi</text>
+  <text x="170" y="161" class="text">6.30 p.m</text>
+  <text x="360" y="161" class="text" text-anchor="middle">—</text>
+</svg>

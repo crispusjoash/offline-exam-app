@@ -1,0 +1,28 @@
+<svg width="600" height="220" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f9f9f9"/>
+  <text font-family="Times New Roman, serif" font-weight="bold" font-size="24" fill="#333">
+    <tspan x="80" y="40">Type of song</tspan>
+    <tspan x="300" y="40">Function</tspan>
+  </text>
+  <text font-family="Times New Roman, serif" font-size="24" fill="#333">
+    <tspan x="20" y="80">A.</tspan>
+    <tspan x="80" y="80">Funeral songs</tspan>
+    <tspan x="280" y="80">-</tspan>
+    <tspan x="300" y="80">Comfort the bereaved</tspan>
+    
+    <tspan x="20" y="120">B.</tspan>
+    <tspan x="80" y="120">Marriage songs</tspan>
+    <tspan x="280" y="120">-</tspan>
+    <tspan x="300" y="120">Condemn the couple</tspan>
+    
+    <tspan x="20" y="160">C.</tspan>
+    <tspan x="80" y="160">Patriotic songs</tspan>
+    <tspan x="280" y="160">-</tspan>
+    <tspan x="300" y="160">Praise one's country</tspan>
+    
+    <tspan x="20" y="200">D.</tspan>
+    <tspan x="80" y="200">Work songs</tspan>
+    <tspan x="280" y="200">-</tspan>
+    <tspan x="300" y="200">Discourage laziness</tspan>
+  </text>
+</svg>
