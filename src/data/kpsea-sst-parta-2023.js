@@ -8,22 +8,22 @@ export const kpseaSstParta2023 = {
   "sharedContexts": {
     "ctx-sst-q1": {
       "type": "image",
-      "imagePath": "/assets/sst_q1_overlapping.png",
+      "imagePath": "/assets/sst_q1_overlapping.webp",
       "title": "Overlapping drawings for Question 1"
     },
     "ctx-sst-q4": {
       "type": "image",
-      "imagePath": "/assets/sst_q4_weaving.png",
+      "imagePath": "/assets/sst_q4_weaving.webp",
       "title": "Weaving pattern for Question 4"
     },
     "ctx-sst-q5": {
       "type": "image",
-      "imagePath": "/assets/sst_q5_pot.png",
+      "imagePath": "/assets/sst_q5_pot.webp",
       "title": "Pottery coiled pot for Question 5"
     },
     "ctx-sst-q7": {
       "type": "image",
-      "imagePath": "/assets/sst_q7_wristband.png",
+      "imagePath": "/assets/sst_q7_wristband.webp",
       "title": "Leather wristband for Question 7",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
@@ -35,13 +35,13 @@ export const kpseaSstParta2023 = {
     },
     "ctx-sst-q20": {
       "type": "image",
-      "imagePath": "/assets/sst_q20_instruments.png",
+      "imagePath": "/assets/sst_q20_instruments.webp",
       "title": "Indigenous instruments for Question 20",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-sst-q22": {
       "type": "image",
-      "imagePath": "/assets/sst_q22_relief.png",
+      "imagePath": "/assets/sst_q22_relief.webp",
       "title": "Relief diagrams for Question 22",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },

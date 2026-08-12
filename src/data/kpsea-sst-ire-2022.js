@@ -8,7 +8,7 @@ export const kpseaSstIre2022 = {
   "sharedContexts": {
     "ctx-ire-q44": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-ire-2022-q44.png",
+      "imagePath": "/assets/images/kpsea-ire-2022-q44.webp",
       "title": "Posture of Swalah",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     }

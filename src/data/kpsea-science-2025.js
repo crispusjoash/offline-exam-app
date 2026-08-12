@@ -7,105 +7,105 @@ export const kpseaScience2025 = {
   "sharedContexts": {
     "ctx-science-2025-q3": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q3.png",
+      "imagePath": "/assets/science_2025_q3.webp",
       "title": "Human Digestive System",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q7": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q7.png",
+      "imagePath": "/assets/science_2025_q7.webp",
       "title": "Modified Root",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q9": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q9.png",
+      "imagePath": "/assets/science_2025_q9.webp",
       "title": "Compost Pit",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q12": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q12.png",
+      "imagePath": "/assets/science_2025_q12.webp",
       "title": "Air Components",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q13": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q13.png",
+      "imagePath": "/assets/science_2025_q13.webp",
       "title": "Objects in Water",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q15": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q15.png",
+      "imagePath": "/assets/science_2025_q15.webp",
       "title": "Light Travel Set-up",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q16": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q16.png",
+      "imagePath": "/assets/science_2025_q16.webp",
       "title": "Lifting a Load",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q17": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q17.png",
+      "imagePath": "/assets/science_2025_q17.webp",
       "title": "Volleyball",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q20": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q20.png",
+      "imagePath": "/assets/science_2025_q20.webp",
       "title": "Shoe Sole",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q21": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q21.png",
+      "imagePath": "/assets/science_2025_q21.webp",
       "title": "Circulatory System",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q22": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q22.png",
+      "imagePath": "/assets/science_2025_q22.webp",
       "title": "Hammer Lever",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q23": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q23.png",
+      "imagePath": "/assets/science_2025_q23.webp",
       "title": "Heat Transfer",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q24": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q24.png",
+      "imagePath": "/assets/science_2025_q24.webp",
       "title": "Cooking",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q26": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q26.png",
+      "imagePath": "/assets/science_2025_q26.webp",
       "title": "Special Seedbed",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-science-2025-q32": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q32.png",
+      "imagePath": "/assets/science_2025_q32.webp",
       "title": "Innovative Garden",
       "cssFilter": "none",
       "scanEffect": false,
@@ -113,7 +113,7 @@ export const kpseaScience2025 = {
     },
     "ctx-science-2025-q37": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q37.png",
+      "imagePath": "/assets/science_2025_q37.webp",
       "title": "Panga",
       "cssFilter": "none",
       "scanEffect": false,
@@ -121,7 +121,7 @@ export const kpseaScience2025 = {
     },
     "ctx-science-2025-q49": {
       "type": "image",
-      "imagePath": "/assets/science_2025_q49.png",
+      "imagePath": "/assets/science_2025_q49.webp",
       "title": "Stitches",
       "cssFilter": "none",
       "scanEffect": false
@@ -163,7 +163,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **responds to environmental changes**.\n**Analysis of the Correct Answer:**\nA living thing reacts to changes in its surroundings (stimuli). In this case, the lizard sensed the heat from the sun (environmental change) and moved to the shade to cool down. This characteristic is known as response to stimuli or sensitivity.\n**Why Other Options Are Incorrect:**\n* **moves from place to place:** While it did move, the *reason* for moving was the hot weather, making response to environmental changes the more precise answer.\n* **breathes:** Breathing is a characteristic of living things, but it is not related to moving away from heat.\n* **feeds:** Seeking shade is not related to looking for food.\n\ud83d\udccc **Key Learning Note:**\nLiving things possess characteristics such as breathing, feeding, growing, reproducing, and **responding to environmental changes** (sensitivity) to survive."
+      "explanation": "The correct answer is **responds to environmental changes**.\n**Analysis of the Correct Answer:**\nA living thing reacts to changes in its surroundings (stimuli). In this case, the lizard sensed the heat from the sun (environmental change) and moved to the shade to cool down. This characteristic is known as response to stimuli or sensitivity.\n**Why Other Options Are Incorrect:**\n* **moves from place to place:** While it did move, the *reason* for moving was the hot weather, making response to environmental changes the more precise answer.\n* **breathes:** Breathing is a characteristic of living things, but it is not related to moving away from heat.\n* **feeds:** Seeking shade is not related to looking for food.\n📌 **Key Learning Note:**\nLiving things possess characteristics such as breathing, feeding, growing, reproducing, and **responding to environmental changes** (sensitivity) to survive."
     },
     {
       "id": "q2",
@@ -188,7 +188,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **(iii) and (iv)**.\n**Analysis of the Correct Answer:**\nYeast is a common type of microscopic fungi. It is widely used in **baking** (iii) because it ferments sugars to produce carbon dioxide gas, which makes dough rise. It is also used in **brewing** (iv) because it ferments sugars to produce alcohol.\n**Why Other Options Are Incorrect:**\n* **(i) and (ii):** Yeast is not generally eaten directly as food (i) or used to make medicine (ii).\n* **(ii) and (iii):** While used in baking, it's not used to make medicine.\n* **(i) and (iv):** It's used in brewing but not directly as food.\n\ud83d\udccc **Key Learning Note:**\n**Yeast** is a versatile fungus essential in the food industry, primarily known for its role in **baking** bread and **brewing** beverages through fermentation.",
+      "explanation": "The correct answer is **(iii) and (iv)**.\n**Analysis of the Correct Answer:**\nYeast is a common type of microscopic fungi. It is widely used in **baking** (iii) because it ferments sugars to produce carbon dioxide gas, which makes dough rise. It is also used in **brewing** (iv) because it ferments sugars to produce alcohol.\n**Why Other Options Are Incorrect:**\n* **(i) and (ii):** Yeast is not generally eaten directly as food (i) or used to make medicine (ii).\n* **(ii) and (iii):** While used in baking, it's not used to make medicine.\n* **(i) and (iv):** It's used in brewing but not directly as food.\n📌 **Key Learning Note:**\n**Yeast** is a versatile fungus essential in the food industry, primarily known for its role in **baking** bread and **brewing** beverages through fermentation.",
       "questionList": [
         "(i) used as food",
         "(ii) used to make medicine",
@@ -220,7 +220,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Large intestines.**\n**Analysis of the Correct Answer:**\nIn the human digestive system, part **G** represents the large intestines (also known as the colon). After digestion and nutrient absorption occur in the small intestines, the remaining undigested matter passes into the large intestines, where **water and mineral salts are absorbed**.\n**Why Other Options Are Incorrect:**\n* **Rectum:** The rectum is the final section of the large intestine where feces are stored before being expelled, but G points to the main ascending/transverse/descending colon section.\n* **Small intestines:** The small intestines are the longer, coiled tubes in the center where most digestion and nutrient absorption take place.\n* **Stomach:** The stomach is the pouch-like organ higher up in the digestive tract where proteins begin to be digested.\n\ud83d\udccc **Key Learning Note:**\nThe **large intestine**'s primary function is the **absorption of water** from indigestible food matter, forming solid waste.",
+      "explanation": "The correct answer is **Large intestines.**\n**Analysis of the Correct Answer:**\nIn the human digestive system, part **G** represents the large intestines (also known as the colon). After digestion and nutrient absorption occur in the small intestines, the remaining undigested matter passes into the large intestines, where **water and mineral salts are absorbed**.\n**Why Other Options Are Incorrect:**\n* **Rectum:** The rectum is the final section of the large intestine where feces are stored before being expelled, but G points to the main ascending/transverse/descending colon section.\n* **Small intestines:** The small intestines are the longer, coiled tubes in the center where most digestion and nutrient absorption take place.\n* **Stomach:** The stomach is the pouch-like organ higher up in the digestive tract where proteins begin to be digested.\n📌 **Key Learning Note:**\nThe **large intestine**'s primary function is the **absorption of water** from indigestible food matter, forming solid waste.",
       "contextRef": "ctx-science-2025-q3"
     },
     {
@@ -246,7 +246,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **skin and eyes.**\n**Analysis of the Correct Answer:**\nTo feel that the environment is cold, the person uses their **skin**, which contains receptors for temperature (sense of touch/feeling). To locate the nearby fireplace and move towards it, the person uses their **eyes** (sense of sight).\n**Why Other Options Are Incorrect:**\n* **eyes and nose:** The nose (smell) is not the primary organ for feeling cold or locating the fire in this context.\n* **ears and skin:** The ears (hearing) are not primarily used to locate a silent fireplace or feel cold.\n* **nose and ears:** Neither organ is used to feel the cold temperature or see the fire.\n\ud83d\udccc **Key Learning Note:**\nOur five sense organs\u2014**eyes** (sight), **ears** (hearing), **nose** (smell), **tongue** (taste), and **skin** (touch/temperature)\u2014work together to help us interact with our environment."
+      "explanation": "The correct answer is **skin and eyes.**\n**Analysis of the Correct Answer:**\nTo feel that the environment is cold, the person uses their **skin**, which contains receptors for temperature (sense of touch/feeling). To locate the nearby fireplace and move towards it, the person uses their **eyes** (sense of sight).\n**Why Other Options Are Incorrect:**\n* **eyes and nose:** The nose (smell) is not the primary organ for feeling cold or locating the fire in this context.\n* **ears and skin:** The ears (hearing) are not primarily used to locate a silent fireplace or feel cold.\n* **nose and ears:** Neither organ is used to feel the cold temperature or see the fire.\n📌 **Key Learning Note:**\nOur five sense organs—**eyes** (sight), **ears** (hearing), **nose** (smell), **tongue** (taste), and **skin** (touch/temperature)—work together to help us interact with our environment."
     },
     {
       "id": "q5",
@@ -271,7 +271,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Water vapour changing to water.**\n**Analysis of the Correct Answer:**\n**Condensation** is the process where a gas loses heat and changes into a liquid state. In the water cycle, this occurs when warm **water vapour** rises, cools down in the atmosphere, and turns back into liquid **water** droplets to form clouds.\n**Why Other Options Are Incorrect:**\n* **Ice changing to water:** This process is called **melting**.\n* **Water changing to ice:** This process is called **freezing**.\n* **Water changing to water vapour:** This process is called **evaporation**.\n\ud83d\udccc **Key Learning Note:**\nThe water cycle is driven by heat changes: **Evaporation** (liquid to gas) and **Melting** (solid to liquid) require heat gain, while **Condensation** (gas to liquid) and **Freezing** (liquid to solid) require heat loss."
+      "explanation": "The correct answer is **Water vapour changing to water.**\n**Analysis of the Correct Answer:**\n**Condensation** is the process where a gas loses heat and changes into a liquid state. In the water cycle, this occurs when warm **water vapour** rises, cools down in the atmosphere, and turns back into liquid **water** droplets to form clouds.\n**Why Other Options Are Incorrect:**\n* **Ice changing to water:** This process is called **melting**.\n* **Water changing to ice:** This process is called **freezing**.\n* **Water changing to water vapour:** This process is called **evaporation**.\n📌 **Key Learning Note:**\nThe water cycle is driven by heat changes: **Evaporation** (liquid to gas) and **Melting** (solid to liquid) require heat gain, while **Condensation** (gas to liquid) and **Freezing** (liquid to solid) require heat loss."
     },
     {
       "id": "q6",
@@ -296,7 +296,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **farm chemicals**.\n**Analysis of the Correct Answer:**\nWhen rainwater flows from agricultural **farms** into a nearby river (surface runoff), it typically washes away substances used in farming. The main pollutants carried from farms are **farm chemicals**, which include artificial fertilizers, pesticides, and herbicides. These can cause water pollution and harm aquatic life.\n**Why Other Options Are Incorrect:**\n* **animal feed remains:** While organic waste can pollute, it is less common as a major, widespread pollutant from general farm runoff compared to chemicals.\n* **used polythene bags:** These are solid wastes typically associated with domestic or urban pollution, not specifically farm runoff.\n* **sewage waste:** Sewage comes from domestic toilets and municipal waste systems, not typically from general farm runoff.\n\ud83d\udccc **Key Learning Note:**\nExcessive use of **farm chemicals** (fertilizers and pesticides) can lead to severe **water pollution** when rains wash them into nearby water bodies."
+      "explanation": "The correct answer is **farm chemicals**.\n**Analysis of the Correct Answer:**\nWhen rainwater flows from agricultural **farms** into a nearby river (surface runoff), it typically washes away substances used in farming. The main pollutants carried from farms are **farm chemicals**, which include artificial fertilizers, pesticides, and herbicides. These can cause water pollution and harm aquatic life.\n**Why Other Options Are Incorrect:**\n* **animal feed remains:** While organic waste can pollute, it is less common as a major, widespread pollutant from general farm runoff compared to chemicals.\n* **used polythene bags:** These are solid wastes typically associated with domestic or urban pollution, not specifically farm runoff.\n* **sewage waste:** Sewage comes from domestic toilets and municipal waste systems, not typically from general farm runoff.\n📌 **Key Learning Note:**\nExcessive use of **farm chemicals** (fertilizers and pesticides) can lead to severe **water pollution** when rains wash them into nearby water bodies."
     },
     {
       "id": "q7",
@@ -321,7 +321,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Storage.**\n**Analysis of the Correct Answer:**\nThe picture shows a carrot, which is a plant root that has become swollen. Plants that store their excess manufactured food in their roots are said to have **modified roots** (or root tubers) for **storage**.\n**Why Other Options Are Incorrect:**\n* **Breathing:** Breathing roots (pneumatophores) are found in plants growing in waterlogged soils, like mangroves, to take in air, not store food.\n* **Anchorage:** While roots do anchor the plant, a swollen root is specifically modified for storage.\n* **Absorption:** All typical roots absorb water and minerals, but a thick, fleshy root like this is primarily adapted for storing food.\n\ud83d\udccc **Key Learning Note:**\nDifferent plants store food in different parts. Roots modified for **storage** include carrots, cassava, and sweet potatoes.",
+      "explanation": "The correct answer is **Storage.**\n**Analysis of the Correct Answer:**\nThe picture shows a carrot, which is a plant root that has become swollen. Plants that store their excess manufactured food in their roots are said to have **modified roots** (or root tubers) for **storage**.\n**Why Other Options Are Incorrect:**\n* **Breathing:** Breathing roots (pneumatophores) are found in plants growing in waterlogged soils, like mangroves, to take in air, not store food.\n* **Anchorage:** While roots do anchor the plant, a swollen root is specifically modified for storage.\n* **Absorption:** All typical roots absorb water and minerals, but a thick, fleshy root like this is primarily adapted for storing food.\n📌 **Key Learning Note:**\nDifferent plants store food in different parts. Roots modified for **storage** include carrots, cassava, and sweet potatoes.",
       "contextRef": "ctx-science-2025-q7"
     },
     {
@@ -347,7 +347,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Kerosene and cooking oil.**\n**Analysis of the Correct Answer:**\nA homogenous mixture is formed when two miscible liquids are mixed together and form a uniform solution where you cannot see the separate layers. **Kerosene and cooking oil** are both non-polar liquids, meaning they will mix together uniformly (miscible).\n**Why Other Options Are Incorrect:**\n* **Water and kerosene:** These are immiscible; water is polar, and kerosene is non-polar. They form separate layers.\n* **Cooking oil and water:** These are immiscible. The oil will float on top of the water.\n* **Milk and kerosene:** These do not mix to form a uniform homogenous solution.\n\ud83d\udccc **Key Learning Note:**\nLiquids that mix completely to form a uniform (homogenous) solution are called **miscible liquids** (e.g., water and milk, kerosene and oil), while those that form separate layers are **immiscible liquids** (e.g., water and oil)."
+      "explanation": "The correct answer is **Kerosene and cooking oil.**\n**Analysis of the Correct Answer:**\nA homogenous mixture is formed when two miscible liquids are mixed together and form a uniform solution where you cannot see the separate layers. **Kerosene and cooking oil** are both non-polar liquids, meaning they will mix together uniformly (miscible).\n**Why Other Options Are Incorrect:**\n* **Water and kerosene:** These are immiscible; water is polar, and kerosene is non-polar. They form separate layers.\n* **Cooking oil and water:** These are immiscible. The oil will float on top of the water.\n* **Milk and kerosene:** These do not mix to form a uniform homogenous solution.\n📌 **Key Learning Note:**\nLiquids that mix completely to form a uniform (homogenous) solution are called **miscible liquids** (e.g., water and milk, kerosene and oil), while those that form separate layers are **immiscible liquids** (e.g., water and oil)."
     },
     {
       "id": "q9",
@@ -372,7 +372,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **recycling only.**\n**Analysis of the Correct Answer:**\nComposting involves gathering organic waste (like dry leaves, grass, and food scraps) and allowing it to decompose into manure. This process breaks down the waste materials so their nutrients can be returned (recycled) to the soil. This is a form of **recycling** waste back into a useful product.\n**Why Other Options Are Incorrect:**\n* **recycling and reusing:** Reusing means using an item again for its original or new purpose without breaking it down (like using a plastic bottle to store water). Composting is specifically recycling, not reusing.\n* **reducing only:** Reducing means creating less waste in the first place, not converting it into something else.\n* **reusing and reducing:** Composting is neither of these.\n\ud83d\udccc **Key Learning Note:**\nWaste management involves the 3 Rs: **Reduce** (creating less waste), **Reuse** (using items multiple times), and **Recycle** (processing waste into new products, like composting organic waste).",
+      "explanation": "The correct answer is **recycling only.**\n**Analysis of the Correct Answer:**\nComposting involves gathering organic waste (like dry leaves, grass, and food scraps) and allowing it to decompose into manure. This process breaks down the waste materials so their nutrients can be returned (recycled) to the soil. This is a form of **recycling** waste back into a useful product.\n**Why Other Options Are Incorrect:**\n* **recycling and reusing:** Reusing means using an item again for its original or new purpose without breaking it down (like using a plastic bottle to store water). Composting is specifically recycling, not reusing.\n* **reducing only:** Reducing means creating less waste in the first place, not converting it into something else.\n* **reusing and reducing:** Composting is neither of these.\n📌 **Key Learning Note:**\nWaste management involves the 3 Rs: **Reduce** (creating less waste), **Reuse** (using items multiple times), and **Recycle** (processing waste into new products, like composting organic waste).",
       "contextRef": "ctx-science-2025-q9"
     },
     {
@@ -398,7 +398,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **transparent to translucent**.\n**Analysis of the Correct Answer:**\nA clear glass window is **transparent**, meaning it allows light to pass through clearly so you can see objects on the other side. When smeared with petroleum jelly, it becomes **translucent**, meaning it allows some light to pass through but scatters it, making the objects on the other side appear blurry or unclear.\n**Why Other Options Are Incorrect:**\n* **translucent to opaque:** The glass started as transparent (he could see clearly), not translucent. Opaque means no light passes through at all.\n* **transparent to opaque:** Smearing petroleum jelly makes it blurry (translucent), not completely opaque.\n* **opaque to translucent:** The glass was originally transparent, not opaque.\n\ud83d\udccc **Key Learning Note:**\nMaterials can be **transparent** (see through clearly), **translucent** (light passes but objects are blurry), or **opaque** (no light passes through)."
+      "explanation": "The correct answer is **transparent to translucent**.\n**Analysis of the Correct Answer:**\nA clear glass window is **transparent**, meaning it allows light to pass through clearly so you can see objects on the other side. When smeared with petroleum jelly, it becomes **translucent**, meaning it allows some light to pass through but scatters it, making the objects on the other side appear blurry or unclear.\n**Why Other Options Are Incorrect:**\n* **translucent to opaque:** The glass started as transparent (he could see clearly), not translucent. Opaque means no light passes through at all.\n* **transparent to opaque:** Smearing petroleum jelly makes it blurry (translucent), not completely opaque.\n* **opaque to translucent:** The glass was originally transparent, not opaque.\n📌 **Key Learning Note:**\nMaterials can be **transparent** (see through clearly), **translucent** (light passes but objects are blurry), or **opaque** (no light passes through)."
     },
     {
       "id": "q11",
@@ -423,7 +423,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Convection.**\n\n**Analysis of the Correct Answer:**\nHeat transfer in liquids (like boiling water) and gases (like air) occurs through a process called convection. As the fluid is heated, it expands, becomes less dense, and rises, while cooler, denser fluid sinks to replace it, creating convection currents.\n\n**Why Other Options Are Incorrect:**\n* **Conduction:** This is the transfer of heat through solids (like a metal spoon), not liquids.\n* **Evaporation:** This is the process of a liquid turning into a gas, not a method of heat transfer.\n* **Radiation:** This is the transfer of heat through a vacuum or empty space (like heat from the sun), without needing a medium.\n\n\ud83d\udccc **Key Learning Note:**\nHeat travels through solids by conduction, through liquids and gases by convection, and through empty space by radiation."
+      "explanation": "The correct answer is **Traps dust and allows air to pass.**\n\n**Analysis of the Correct Answer:**\nThe trachea (windpipe) is lined with mucus and tiny hair-like structures called **cilia**. These work together to trap dust, bacteria, and other particles from inhaled air before they reach the lungs. The trachea also serves as the main air passage connecting the throat to the bronchi and lungs.\n\n**Why Other Options Are Incorrect:**\n* **Allows the lungs to expand and cleans air:** The lungs expand due to the diaphragm and intercostal muscles, not the trachea.\n* **Allows the lungs to expand and traps dust:** Expanding the lungs is not a function of the trachea.\n* **Cleans and absorbs air:** The trachea does not absorb air; it only passes and filters it.\n\n📌 **Key Learning Note:**\nThe trachea's inner lining of **mucus and cilia** acts as the body's natural air-cleaning filter, trapping foreign particles before they reach the delicate lung tissue."
     },
     {
       "id": "q12",
@@ -448,7 +448,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **solid**\n\n**Analysis of the Correct Answer:**\nIn a string telephone, sound travels as vibrations along the tight string connecting the two cans. A string is a solid material. Sound travels fastest and most efficiently through solids because the particles are tightly packed together.\n\n**Why Other Options Are Incorrect:**\n* **gas:** While sound can travel through gases (like air), in this specific setup, it travels primarily through the solid string.\n* **liquid:** The string is not a liquid.\n* **vacuum:** Sound cannot travel through a vacuum at all because there are no particles to vibrate and transmit the sound waves.\n\n\ud83d\udccc **Key Learning Note:**\nSound requires a material medium (solid, liquid, or gas) to travel. It travels fastest in solids and slowest in gases.",
+      "explanation": "The correct answer is **J.**\n\n**Analysis of the Correct Answer:**\nAir is a mixture of gases with the following approximate compositions:\n* **Nitrogen:** ~78% (largest block)\n* **Oxygen:** ~21% (second largest block)\n* **Argon & other gases:** ~0.96%\n* **Carbon dioxide (CO₂):** ~0.04% (smallest block)\n\nSince carbon dioxide makes up only about **0.04%** of the air, it is represented by the **smallest block, J**.\n\n**Why Other Options Are Incorrect:**\n* **F, G, H:** These represent the much larger components of air such as nitrogen, oxygen, and argon.\n\n📌 **Key Learning Note:**\nAlthough **carbon dioxide** is a tiny fraction of air, it plays a vital role in **photosynthesis** and is the main greenhouse gas contributing to climate change.",
       "contextRef": "ctx-science-2025-q12"
     },
     {
@@ -474,7 +474,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **It is upright.**\n\n**Analysis of the Correct Answer:**\nWhen you look at yourself in a plane mirror, the image formed has several specific characteristics: it is upright (erect), it is virtual (cannot be formed on a screen), it is the same size as the object, and it is laterally inverted (left appears as right). \n\n**Why Other Options Are Incorrect:**\n* **It is real:** A real image can be projected onto a screen. A mirror image is virtual.\n* **It is formed on a screen:** As mentioned above, plane mirrors form virtual images which cannot be caught on a screen.\n* **It is upside down:** Images in a plane mirror are always upright, not inverted vertically.\n\n\ud83d\udccc **Key Learning Note:**\nImages formed by a plane mirror are always **upright**, **virtual**, **same size**, and **laterally inverted**.",
+      "explanation": "The correct answer is **Coin.**\n\n**Analysis of the Correct Answer:**\nAn object sinks in water when it is **denser (heavier per unit volume) than water**. A coin is made of metal (e.g. copper or steel), which is much denser than water, so it **sinks to the bottom** of the trough.\n\n**Why Other Options Are Incorrect:**\n* **Plastic ruler:** Plastic is less dense than water and floats.\n* **Pencil:** A pencil is mostly made of wood, which is less dense than water and floats.\n* **Wooden plank:** Wood is less dense than water and floats on the surface.\n\n📌 **Key Learning Note:**\nThe principle of **floating and sinking** depends on **density**. Objects denser than water (like metals) sink, while objects less dense than water (like wood and most plastics) float.",
       "contextRef": "ctx-science-2025-q13"
     },
     {
@@ -500,7 +500,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Radiation.**\n\n**Analysis of the Correct Answer:**\nThe heat from the sun reaches the earth by traveling through the vacuum of space. The only method of heat transfer that does not require a material medium (solid, liquid, or gas) is radiation. Heat travels as electromagnetic waves.\n\n**Why Other Options Are Incorrect:**\n* **Convection:** Requires a fluid medium (liquid or gas) to transfer heat.\n* **Conduction:** Requires a solid medium for particles to pass vibrations.\n* **Evaporation:** Is a change of state, not a method of heat transfer.\n\n\ud83d\udccc **Key Learning Note:**\nRadiation is the only way heat can travel through an empty space (a vacuum), which is how solar energy reaches Earth.",
+      "explanation": "The correct answer is **B.**\n\n**Analysis of the Correct Answer:**\nSolids and gases have clearly contrasting properties. Row B correctly states a property for both:\n* **Solids** have a **definite shape** — they maintain their own fixed shape regardless of the container.\n* **Gases** have **no definite shape** — they expand to fill any container they are placed in.\n\nThis contrast is one of the most fundamental differences between solids and gases.\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** These rows contain incorrect property descriptions for either the solid or the gas.\n\n📌 **Key Learning Note:**\nThe three states of matter differ in particle arrangement: **Solids** (tightly packed, definite shape & volume), **Liquids** (loosely packed, definite volume only), **Gases** (widely spread, no definite shape or volume).",
       "contextRef": "ctx-science-2025-q14"
     },
     {
@@ -526,7 +526,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Ambulance siren.**\n\n**Analysis of the Correct Answer:**\nAn ambulance siren is designed to produce a very loud sound so that it can be heard from a long distance, warning other drivers to clear the road. \n\n**Why Other Options Are Incorrect:**\n* **Baby crying:** While a baby's cry can be loud, it is not as loud or far-reaching as an electronic siren.\n* **Leaves rustling:** This produces a very soft, quiet sound.\n* **Ringing bell:** A handbell is loud but still significantly quieter than an emergency vehicle's siren.\n\n\ud83d\udccc **Key Learning Note:**\nLoud sounds carry more energy and travel further. Sirens are used as warning signals precisely because of their high volume and pitch.",
+      "explanation": "The correct answer is **Make the pipe straight.**\n\n**Analysis of the Correct Answer:**\nThis set-up demonstrates that **light travels in straight lines** (rectilinear propagation). When the pipe is bent, the light from the flame cannot travel around the bend to reach the eye. To see the flame, the learner must **straighten the pipe** so there is a direct, unobstructed straight-line path from the flame to the eye.\n\n**Why Other Options Are Incorrect:**\n* **Move the pipe closer to the flame:** Proximity does not change the fact that the bent pipe blocks the path of light.\n* **Bend the pipe more:** This would make it even harder to see the flame.\n* **Move the pipe closer to the eye:** The angle of the bend is the problem, not the distance.\n\n📌 **Key Learning Note:**\n**Rectilinear propagation of light** means light always travels in straight lines. It cannot bend around corners unless it is reflected or refracted.",
       "contextRef": "ctx-science-2025-q15"
     },
     {
@@ -552,7 +552,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **The sun.**\n\n**Analysis of the Correct Answer:**\nA source of light is an object that generates its own light. The sun is a natural luminous body that produces its own light through nuclear reactions. \n\n**Why Other Options Are Incorrect:**\n* **A mirror:** A mirror does not produce light; it only reflects light from other sources.\n* **The moon:** The moon is a non-luminous body. It only appears bright because it reflects the light from the sun.\n* **A glass:** Glass is transparent and transmits light, but it does not generate light.\n\n\ud83d\udccc **Key Learning Note:**\nObjects that produce their own light are called **luminous** objects (e.g., the sun, stars, a lit candle). Objects that do not produce light but reflect it are **non-luminous** (e.g., the moon, mirrors).",
+      "explanation": "The correct answer is **B.**\n\n**Analysis of the Correct Answer:**\nSimple machines reduce the effort (force) needed to do work by providing a mechanical advantage. Picture B shows the use of an **inclined plane (ramp) or pulley system**, which allows workers to lift a heavy load with much less effort than lifting it directly upward.\n\n**Why Other Options Are Incorrect:**\n* **A:** Shows lifting the load without a mechanical advantage, requiring the most effort.\n* **C:** Uses a less efficient arrangement than B.\n* **D:** Also requires more effort than the method shown in B.\n\n📌 **Key Learning Note:**\n**Simple machines** (lever, pulley, inclined plane, wheel and axle, screw, wedge) make work easier by increasing the distance over which force is applied, thereby reducing the effort required.",
       "contextRef": "ctx-science-2025-q16"
     },
     {
@@ -578,7 +578,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Turn on and off the light.**\n\n**Analysis of the Correct Answer:**\nIn a simple electric circuit, a switch is used to control the flow of electricity. By closing the switch, the circuit is completed (turning the light on). By opening it, the circuit is broken (turning the light off).\n\n**Why Other Options Are Incorrect:**\n* **Produce electricity:** This is the function of the battery or dry cell.\n* **Produce light:** This is the function of the bulb.\n* **Connect the bulb:** This is the function of the connecting wires.\n\n\ud83d\udccc **Key Learning Note:**\nA switch acts as a bridge in a circuit. When closed, electricity flows. When open, the path is broken and electricity stops.",
+      "explanation": "The correct answer is **Turn on and off the light.**\n\n**Analysis of the Correct Answer:**\nIn a simple electric circuit, a switch is used to control the flow of electricity. By closing the switch, the circuit is completed (turning the light on). By opening it, the circuit is broken (turning the light off).\n\n**Why Other Options Are Incorrect:**\n* **Produce electricity:** This is the function of the battery or dry cell.\n* **Produce light:** This is the function of the bulb.\n* **Connect the bulb:** This is the function of the connecting wires.\n\n📌 **Key Learning Note:**\nA switch acts as a bridge in a circuit. When closed, electricity flows. When open, the path is broken and electricity stops.",
       "contextRef": "ctx-science-2025-q17"
     },
     {
@@ -604,7 +604,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Aluminium wire.**\n\n**Analysis of the Correct Answer:**\nTo make a bulb light, the material completing the circuit must be a good conductor of electricity. Metals are excellent conductors. Aluminium is a metal and will allow electric current to pass through it, completing the circuit.\n\n**Why Other Options Are Incorrect:**\n* **Dry wood:** Wood is an insulator (non-conductor).\n* **Piece of glass:** Glass is an insulator.\n* **Plastic ruler:** Plastic is an insulator.\n\n\ud83d\udccc **Key Learning Note:**\nMaterials that allow electricity to flow through them are called **conductors** (mostly metals). Those that do not are called **insulators** (rubber, wood, glass, plastic).",
+      "explanation": "The correct answer is **Aluminium wire.**\n\n**Analysis of the Correct Answer:**\nTo make a bulb light, the material completing the circuit must be a good conductor of electricity. Metals are excellent conductors. Aluminium is a metal and will allow electric current to pass through it, completing the circuit.\n\n**Why Other Options Are Incorrect:**\n* **Dry wood:** Wood is an insulator (non-conductor).\n* **Piece of glass:** Glass is an insulator.\n* **Plastic ruler:** Plastic is an insulator.\n\n📌 **Key Learning Note:**\nMaterials that allow electricity to flow through them are called **conductors** (mostly metals). Those that do not are called **insulators** (rubber, wood, glass, plastic).",
       "questionList": [
         "(i) a mobile phone",
         "(ii) a siren of an ambulance",
@@ -636,7 +636,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **translucent**\n\n**Analysis of the Correct Answer:**\nA clean glass window is transparent, meaning light passes through it clearly and you can see through it. When smeared with petroleum jelly, it scatters the light. It allows some light to pass through, but you can no longer see through it clearly. Such materials are called translucent.\n\n**Why Other Options Are Incorrect:**\n* **transparent:** This would mean you can still see through it clearly, which is no longer true after applying jelly.\n* **opaque:** This means no light passes through at all (like a brick wall). Light still passes through the jelly.\n* **colourless:** The jelly might be colourless, but this doesn't describe the light-transmitting property.\n\n\ud83d\udccc **Key Learning Note:**\n* **Transparent:** Light passes clearly (clear glass).\n* **Translucent:** Light passes but is scattered (frosted glass, oiled paper).\n* **Opaque:** No light passes (wood, metal).",
+      "explanation": "The correct answer is **translucent**\n\n**Analysis of the Correct Answer:**\nA clean glass window is transparent, meaning light passes through it clearly and you can see through it. When smeared with petroleum jelly, it scatters the light. It allows some light to pass through, but you can no longer see through it clearly. Such materials are called translucent.\n\n**Why Other Options Are Incorrect:**\n* **transparent:** This would mean you can still see through it clearly, which is no longer true after applying jelly.\n* **opaque:** This means no light passes through at all (like a brick wall). Light still passes through the jelly.\n* **colourless:** The jelly might be colourless, but this doesn't describe the light-transmitting property.\n\n📌 **Key Learning Note:**\n* **Transparent:** Light passes clearly (clear glass).\n* **Translucent:** Light passes but is scattered (frosted glass, oiled paper).\n* **Opaque:** No light passes (wood, metal).",
       "questionList": [
         "(i) has four pairs of legs",
         "(ii) body is divided into two parts",
@@ -667,7 +667,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **smooth**\n\n**Analysis of the Correct Answer:**\nShoe soles have treads (patterns) to increase friction between the shoe and the ground, preventing slipping. When a sole is worn out, it becomes smooth. A smooth surface reduces friction, making it very slippery and difficult to walk.\n\n**Why Other Options Are Incorrect:**\n* **heavy / hard:** The weight or hardness of the shoe does not primarily cause it to be slippery; it is the lack of grip (friction).\n* **curved:** Curvature is not the main reason for slipping.\n\n\ud83d\udccc **Key Learning Note:**\nFriction is a force that opposes motion. Rough surfaces (like shoe treads or tyre threads) increase friction, while smooth surfaces reduce friction and cause slipping.",
+      "explanation": "The correct answer is **smooth**\n\n**Analysis of the Correct Answer:**\nShoe soles have treads (patterns) to increase friction between the shoe and the ground, preventing slipping. When a sole is worn out, it becomes smooth. A smooth surface reduces friction, making it very slippery and difficult to walk.\n\n**Why Other Options Are Incorrect:**\n* **heavy / hard:** The weight or hardness of the shoe does not primarily cause it to be slippery; it is the lack of grip (friction).\n* **curved:** Curvature is not the main reason for slipping.\n\n📌 **Key Learning Note:**\nFriction is a force that opposes motion. Rough surfaces (like shoe treads or tyre threads) increase friction, while smooth surfaces reduce friction and cause slipping.",
       "contextRef": "ctx-science-2025-q20"
     },
     {
@@ -693,7 +693,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **K: Vena cava, L: Pulmonary vein, M: Left auricle, N: Aorta**\n\n**Analysis of the Correct Answer:**\nIn the human circulatory system:\n* **K (Vena cava):** The main vein that carries deoxygenated blood from the body back to the right auricle of the heart.\n* **L (Pulmonary vein):** Carries oxygenated blood from the lungs to the left auricle of the heart.\n* **M (Left auricle):** The upper left chamber that receives oxygenated blood.\n* **N (Aorta):** The main artery that pumps oxygenated blood from the left ventricle to the rest of the body.\n\n**Why Other Options Are Incorrect:**\nThe other options mix up the blood vessels. For instance, the Pulmonary artery carries blood away from the heart to the lungs, not from the lungs to the heart. The Vena cava carries blood from the body, not to the body.\n\n\ud83d\udccc **Key Learning Note:**\nArteries carry blood away from the heart (Aorta, Pulmonary artery), while veins carry blood towards the heart (Vena cava, Pulmonary vein).",
+      "explanation": "The correct answer is **K: Vena cava, L: Pulmonary vein, M: Left auricle, N: Aorta**\n\n**Analysis of the Correct Answer:**\nIn the human circulatory system:\n* **K (Vena cava):** The main vein that carries deoxygenated blood from the body back to the right auricle of the heart.\n* **L (Pulmonary vein):** Carries oxygenated blood from the lungs to the left auricle of the heart.\n* **M (Left auricle):** The upper left chamber that receives oxygenated blood.\n* **N (Aorta):** The main artery that pumps oxygenated blood from the left ventricle to the rest of the body.\n\n**Why Other Options Are Incorrect:**\nThe other options mix up the blood vessels. For instance, the Pulmonary artery carries blood away from the heart to the lungs, not from the lungs to the heart. The Vena cava carries blood from the body, not to the body.\n\n📌 **Key Learning Note:**\nArteries carry blood away from the heart (Aorta, Pulmonary artery), while veins carry blood towards the heart (Vena cava, Pulmonary vein).",
       "contextRef": "ctx-science-2025-q21"
     },
     {
@@ -708,7 +708,7 @@ export const kpseaScience2025 = {
         },
         {
           "text": "N",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "P",
@@ -716,10 +716,10 @@ export const kpseaScience2025 = {
         },
         {
           "text": "Q",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **N**\n\n**Analysis of the Correct Answer:**\nA lever is a simple machine consisting of a rigid bar that turns on a fixed point called a pivot or fulcrum. In this diagram of a hammer pulling a nail, point N is where the hammer rests and turns against the wood. Therefore, N is the pivot.\n\n**Why Other Options Are Incorrect:**\n* **M (Effort):** This is where the hand applies force to the hammer.\n* **P (Load):** This is the nail being pulled out, which is the resistance or load.\n* **Q (Wood):** This is just the surface, not a part of the lever system itself.\n\n\ud83d\udccc **Key Learning Note:**\nIn any lever, there are three main parts: the **Pivot/Fulcrum** (turning point), the **Effort** (force applied), and the **Load** (object being moved).",
+      "explanation": "The correct answer is **Q.**\n\n**Analysis of the Correct Answer:**\nA lever is a simple machine consisting of a rigid bar that turns on a fixed point called the **pivot (fulcrum)**. When a carpenter uses a hammer to pull out a nail, the hammer acts as a lever. In this diagram, **Q** is the point where the hammer head rests and turns against the wood surface — this is the **pivot/fulcrum**.\n\n**Why Other Options Are Incorrect:**\n* **M:** This is where the hand grips and applies force — the **effort** point.\n* **N:** This is an intermediate point on the handle, not the turning point.\n* **P:** This is the nail being pulled out — the **load**.\n\n📌 **Key Learning Note:**\nIn any lever, there are three key parts: the **Pivot/Fulcrum** (turning point), the **Effort** (force applied by the user), and the **Load** (object being moved or resistance).",
       "contextRef": "ctx-science-2025-q22"
     },
     {
@@ -745,7 +745,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **wood is a poor conductor of heat.**\n\n**Analysis of the Correct Answer:**\nWood is a non-metal and acts as a thermal insulator. This means it does not allow heat to flow through it easily. Therefore, the heat from the candle flame does not travel along the wooden rod to the learner's hand.\n\n**Why Other Options Are Incorrect:**\n* **candle is a poor conductor:** The candle is the source of heat, its conductivity is irrelevant here.\n* **heat was transferred upwards:** While heat does rise via convection in the air, conduction along the rod is what would burn the hand.\n* **heat from the candle was not enough:** Even a small candle flame is hot enough to burn if conducted through a metal rod.\n\n\ud83d\udccc **Key Learning Note:**\nMaterials that do not conduct heat well are called **insulators**. Handles of cooking utensils are made of insulators like wood or plastic to prevent burns.",
+      "explanation": "The correct answer is **wood is a poor conductor of heat.**\n\n**Analysis of the Correct Answer:**\nWood is a non-metal and acts as a thermal insulator. This means it does not allow heat to flow through it easily. Therefore, the heat from the candle flame does not travel along the wooden rod to the learner's hand.\n\n**Why Other Options Are Incorrect:**\n* **candle is a poor conductor:** The candle is the source of heat, its conductivity is irrelevant here.\n* **heat was transferred upwards:** While heat does rise via convection in the air, conduction along the rod is what would burn the hand.\n* **heat from the candle was not enough:** Even a small candle flame is hot enough to burn if conducted through a metal rod.\n\n📌 **Key Learning Note:**\nMaterials that do not conduct heat well are called **insulators**. Handles of cooking utensils are made of insulators like wood or plastic to prevent burns.",
       "contextRef": "ctx-science-2025-q23"
     },
     {
@@ -771,7 +771,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Wearing gloves.**\n\n**Analysis of the Correct Answer:**\nCooking involves handling hot utensils and being near open flames or heat sources. The most appropriate safety measure to prevent burns from hot pots or pans is to wear protective oven gloves or use a thick cloth.\n\n**Why Other Options Are Incorrect:**\n* **Using one hand:** This is dangerous and can lead to dropping hot food or losing balance.\n* **Using a bigger pan:** While a bigger pan might contain splashes better, it doesn't protect your hands from touching hot handles.\n* **Putting hands in cold water:** This is a first-aid step *after* getting burned, not a preventative safety measure.\n\n\ud83d\udccc **Key Learning Note:**\nAlways use protective gear like oven gloves, mitts, or dry cloths when handling hot kitchenware to prevent contact burns.",
+      "explanation": "The correct answer is **Wearing gloves.**\n\n**Analysis of the Correct Answer:**\nCooking involves handling hot utensils and being near open flames or heat sources. The most appropriate safety measure to prevent burns from hot pots or pans is to wear protective oven gloves or use a thick cloth.\n\n**Why Other Options Are Incorrect:**\n* **Using one hand:** This is dangerous and can lead to dropping hot food or losing balance.\n* **Using a bigger pan:** While a bigger pan might contain splashes better, it doesn't protect your hands from touching hot handles.\n* **Putting hands in cold water:** This is a first-aid step *after* getting burned, not a preventative safety measure.\n\n📌 **Key Learning Note:**\nAlways use protective gear like oven gloves, mitts, or dry cloths when handling hot kitchenware to prevent contact burns.",
       "contextRef": "ctx-science-2025-q24"
     },
     {
@@ -797,7 +797,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **(i) and (iv)**\n\n**Analysis of the Correct Answer:**\nFish are a unique class of vertebrates adapted to aquatic life. Their defining characteristics include having **fins** (i) for swimming and breathing using **gills** (iv) to extract oxygen from water. \n\n**Why Other Options Are Incorrect:**\n* **(ii) body covered with scales:** Reptiles (like snakes and lizards) also have scales, so this is not *only* found in fish.\n* **(iii) body temperature varies:** Amphibians and reptiles are also cold-blooded (poikilothermic), meaning their temperature varies with the surroundings.\n\n\ud83d\udccc **Key Learning Note:**\nWhile several vertebrates are cold-blooded or have scales, only fish possess both **fins** for locomotion and **gills** for breathing as adults.",
+      "explanation": "The correct answer is **(i) and (iv)**\n\n**Analysis of the Correct Answer:**\nFish are a unique class of vertebrates adapted to aquatic life. Their defining characteristics include having **fins** (i) for swimming and breathing using **gills** (iv) to extract oxygen from water. \n\n**Why Other Options Are Incorrect:**\n* **(ii) body covered with scales:** Reptiles (like snakes and lizards) also have scales, so this is not *only* found in fish.\n* **(iii) body temperature varies:** Amphibians and reptiles are also cold-blooded (poikilothermic), meaning their temperature varies with the surroundings.\n\n📌 **Key Learning Note:**\nWhile several vertebrates are cold-blooded or have scales, only fish possess both **fins** for locomotion and **gills** for breathing as adults.",
       "questionList": [
         "(i) have fins",
         "(ii) body covered with scales",
@@ -829,7 +829,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **conserve water**\n\n**Analysis of the Correct Answer:**\nA sunken seedbed is constructed by digging below the normal soil surface level. This creates a basin-like structure. Its main purpose is to collect and retain rainwater or irrigation water, preventing it from running off. This is highly effective in dry areas for conserving moisture.\n\n**Why Other Options Are Incorrect:**\n* **control soil erosion:** Terraces and gabions control erosion; sunken beds are primarily for moisture retention.\n* **protect the crop from pests:** Fencing or netting is used to protect against pests.\n* **control weeds:** Weeding, mulching, or herbicides are used to control weeds.\n\n\ud83d\udccc **Key Learning Note:**\nSunken beds are used in arid and semi-arid regions to harvest and **conserve water**, whereas raised beds are used in wet areas to improve drainage.",
+      "explanation": "The correct answer is **conserve water**\n\n**Analysis of the Correct Answer:**\nA sunken seedbed is constructed by digging below the normal soil surface level. This creates a basin-like structure. Its main purpose is to collect and retain rainwater or irrigation water, preventing it from running off. This is highly effective in dry areas for conserving moisture.\n\n**Why Other Options Are Incorrect:**\n* **control soil erosion:** Terraces and gabions control erosion; sunken beds are primarily for moisture retention.\n* **protect the crop from pests:** Fencing or netting is used to protect against pests.\n* **control weeds:** Weeding, mulching, or herbicides are used to control weeds.\n\n📌 **Key Learning Note:**\nSunken beds are used in arid and semi-arid regions to harvest and **conserve water**, whereas raised beds are used in wet areas to improve drainage.",
       "contextRef": "ctx-science-2025-q26"
     },
     {
@@ -855,7 +855,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Small V-shaped trenches.**\n\n**Analysis of the Correct Answer:**\nRill erosion is a form of water erosion where surface runoff concentrates into small, distinct channels or streamlets. These appear as small V-shaped trenches carved into the soil surface.\n\n**Why Other Options Are Incorrect:**\n* **Deep U-shaped trenches:** This describes gulley erosion, which is a more severe and advanced stage of erosion.\n* **Small holes left by detached soil:** This describes splash erosion, caused by the impact of raindrops.\n* **Stones left after removal of soil:** This describes sheet erosion, where uniform layers of topsoil are washed away.\n\n\ud83d\udccc **Key Learning Note:**\nThe stages of water erosion are: **Splash erosion** (raindrops), **Sheet erosion** (uniform removal), **Rill erosion** (small V-channels), and **Gulley erosion** (deep U-trenches)."
+      "explanation": "The correct answer is **Small V-shaped trenches.**\n\n**Analysis of the Correct Answer:**\nRill erosion is a form of water erosion where surface runoff concentrates into small, distinct channels or streamlets. These appear as small V-shaped trenches carved into the soil surface.\n\n**Why Other Options Are Incorrect:**\n* **Deep U-shaped trenches:** This describes gulley erosion, which is a more severe and advanced stage of erosion.\n* **Small holes left by detached soil:** This describes splash erosion, caused by the impact of raindrops.\n* **Stones left after removal of soil:** This describes sheet erosion, where uniform layers of topsoil are washed away.\n\n📌 **Key Learning Note:**\nThe stages of water erosion are: **Splash erosion** (raindrops), **Sheet erosion** (uniform removal), **Rill erosion** (small V-channels), and **Gulley erosion** (deep U-trenches)."
     },
     {
       "id": "q28",
@@ -880,7 +880,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **moving water**\n\n**Analysis of the Correct Answer:**\nRill erosion occurs when water flows over the soil surface and gathers into small rivulets. The force of this moving water cuts small channels (rills) into the soil.\n\n**Why Other Options Are Incorrect:**\n* **strong wind:** Wind erosion blows away topsoil but does not cut distinct V-shaped trenches.\n* **moving animals:** Animal movement causes soil compaction and can trigger erosion, but it does not directly carve rills.\n* **road construction:** This is a human activity that can lead to erosion, but the direct agent carving the rills is water.\n\n\ud83d\udccc **Key Learning Note:**\nThe primary agents of soil erosion are **water** (causes splash, sheet, rill, and gulley erosion) and **wind**."
+      "explanation": "The correct answer is **moving water**\n\n**Analysis of the Correct Answer:**\nRill erosion occurs when water flows over the soil surface and gathers into small rivulets. The force of this moving water cuts small channels (rills) into the soil.\n\n**Why Other Options Are Incorrect:**\n* **strong wind:** Wind erosion blows away topsoil but does not cut distinct V-shaped trenches.\n* **moving animals:** Animal movement causes soil compaction and can trigger erosion, but it does not directly carve rills.\n* **road construction:** This is a human activity that can lead to erosion, but the direct agent carving the rills is water.\n\n📌 **Key Learning Note:**\nThe primary agents of soil erosion are **water** (causes splash, sheet, rill, and gulley erosion) and **wind**."
     },
     {
       "id": "q29",
@@ -905,7 +905,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **keep off wild animals**\n\n**Analysis of the Correct Answer:**\nBlinking lights, often known as 'lion lights', are an innovative agricultural solution used by farmers and pastoralists. The flashing pattern mimics human movement with flashlights, which scares away nocturnal predators like lions, leopards, and hyenas from attacking livestock.\n\n**Why Other Options Are Incorrect:**\n* **attract cattle to the shed:** Cattle do not need blinking lights to find their shed; they are guided by routine or farmers.\n* **guide the milkman:** A steady, bright light would be used for illumination, not blinking lights.\n* **make the cattle sleep:** Blinking lights would likely keep animals awake or alert rather than inducing sleep.\n\n\ud83d\udccc **Key Learning Note:**\nFarmers use innovations like **blinking lights** and **innovative sound devices** to safely deter wild animals without harming them."
+      "explanation": "The correct answer is **keep off wild animals**\n\n**Analysis of the Correct Answer:**\nBlinking lights, often known as 'lion lights', are an innovative agricultural solution used by farmers and pastoralists. The flashing pattern mimics human movement with flashlights, which scares away nocturnal predators like lions, leopards, and hyenas from attacking livestock.\n\n**Why Other Options Are Incorrect:**\n* **attract cattle to the shed:** Cattle do not need blinking lights to find their shed; they are guided by routine or farmers.\n* **guide the milkman:** A steady, bright light would be used for illumination, not blinking lights.\n* **make the cattle sleep:** Blinking lights would likely keep animals awake or alert rather than inducing sleep.\n\n📌 **Key Learning Note:**\nFarmers use innovations like **blinking lights** and **innovative sound devices** to safely deter wild animals without harming them."
     },
     {
       "id": "q30",
@@ -930,7 +930,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Innovative sound.**\n\n**Analysis of the Correct Answer:**\nTo keep wild animals away from livestock, farmers use deterrents that target the animals' senses. Just as blinking lights target their vision to scare them, innovative sound devices (like alarms, bells, or recorded noises) target their hearing to frighten them away.\n\n**Why Other Options Are Incorrect:**\n* **Hole trap:** This is a physical trap used to catch animals, not a deterrent device.\n* **Insect catcher:** Used for small pests like flies or mosquitoes, not large wild animals.\n* **Rat trap:** Used for rodents, not large predators.\n\n\ud83d\udccc **Key Learning Note:**\nNon-lethal deterrents for wildlife include visual deterrents (scarecrows, blinking lights) and auditory deterrents (innovative sounds, sirens)."
+      "explanation": "The correct answer is **Innovative sound.**\n\n**Analysis of the Correct Answer:**\nTo keep wild animals away from livestock, farmers use deterrents that target the animals' senses. Just as blinking lights target their vision to scare them, innovative sound devices (like alarms, bells, or recorded noises) target their hearing to frighten them away.\n\n**Why Other Options Are Incorrect:**\n* **Hole trap:** This is a physical trap used to catch animals, not a deterrent device.\n* **Insect catcher:** Used for small pests like flies or mosquitoes, not large wild animals.\n* **Rat trap:** Used for rodents, not large predators.\n\n📌 **Key Learning Note:**\nNon-lethal deterrents for wildlife include visual deterrents (scarecrows, blinking lights) and auditory deterrents (innovative sounds, sirens)."
     },
     {
       "id": "q31",
@@ -955,7 +955,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **uprooting the weeds.**\n\n**Analysis of the Correct Answer:**\nA container garden is very small, consisting of plants grown in pots, buckets, or sacks. Because of the limited space, you cannot use large farming tools. The safest and most practical way to control weeds is by pulling them out by hand (uprooting).\n\n**Why Other Options Are Incorrect:**\n* **spraying with chemicals:** Unnecessary and potentially toxic for a small home container garden.\n* **cultivating using a jembe:** A jembe (hoe) is too large and would damage the container and the crops.\n* **mulching with dry grass:** Mulching suppresses weeds but does not remove existing ones.\n\n\ud83d\udccc **Key Learning Note:**\nWeed control methods depend on the scale of farming. In small, confined spaces like container or vertical gardens, manual uprooting is the most effective method."
+      "explanation": "The correct answer is **uprooting the weeds.**\n\n**Analysis of the Correct Answer:**\nA container garden is very small, consisting of plants grown in pots, buckets, or sacks. Because of the limited space, you cannot use large farming tools. The safest and most practical way to control weeds is by pulling them out by hand (uprooting).\n\n**Why Other Options Are Incorrect:**\n* **spraying with chemicals:** Unnecessary and potentially toxic for a small home container garden.\n* **cultivating using a jembe:** A jembe (hoe) is too large and would damage the container and the crops.\n* **mulching with dry grass:** Mulching suppresses weeds but does not remove existing ones.\n\n📌 **Key Learning Note:**\nWeed control methods depend on the scale of farming. In small, confined spaces like container or vertical gardens, manual uprooting is the most effective method."
     },
     {
       "id": "q32",
@@ -980,7 +980,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **Vertical garden.**\n\n**Analysis of the Correct Answer:**\nA vertical garden is an innovative gardening method where plants are grown upwards rather than spreading horizontally across the ground. Using stacked tyres, sacks, or wall-mounted containers are common ways to create a vertical garden.\n\n**Why Other Options Are Incorrect:**\n* **Container garden:** While tyres are containers, stacking them specifically upwards creates a vertical structure.\n* **Horizontal garden:** This would spread out flat on the ground.\n* **Sunken bed:** This is dug downwards into the ground to conserve water.\n\n\ud83d\udccc **Key Learning Note:**\nInnovative gardens (like vertical, multi-storey, and hanging gardens) are designed to grow food efficiently in spaces where traditional farming isn't possible.",
+      "explanation": "The correct answer is **Vertical garden.**\n\n**Analysis of the Correct Answer:**\nA vertical garden is an innovative gardening method where plants are grown upwards rather than spreading horizontally across the ground. Using stacked tyres, sacks, or wall-mounted containers are common ways to create a vertical garden.\n\n**Why Other Options Are Incorrect:**\n* **Container garden:** While tyres are containers, stacking them specifically upwards creates a vertical structure.\n* **Horizontal garden:** This would spread out flat on the ground.\n* **Sunken bed:** This is dug downwards into the ground to conserve water.\n\n📌 **Key Learning Note:**\nInnovative gardens (like vertical, multi-storey, and hanging gardens) are designed to grow food efficiently in spaces where traditional farming isn't possible.",
       "contextRef": "ctx-science-2025-q32"
     },
     {
@@ -1006,7 +1006,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **utilize limited space**\n\n**Analysis of the Correct Answer:**\nThe main advantage of innovative gardening methods (like vertical or multi-storey gardening) is that they allow people to grow a lot of food in very small areas, such as balconies, small urban backyards, or paved surfaces where traditional farming is impossible.\n\n**Why Other Options Are Incorrect:**\n* **prevent the spread of pests:** Pests can still attack plants in innovative gardens.\n* **control crop diseases:** Diseases can still occur; space utilization is the primary goal.\n* **prevent germination of weeds:** Weeds can still grow in the soil used in these gardens.\n\n\ud83d\udccc **Key Learning Note:**\nInnovative gardening is the solution for urban agriculture because it maximizes crop yield while minimizing the land area required.",
+      "explanation": "The correct answer is **utilize limited space**\n\n**Analysis of the Correct Answer:**\nThe main advantage of innovative gardening methods (like vertical or multi-storey gardening) is that they allow people to grow a lot of food in very small areas, such as balconies, small urban backyards, or paved surfaces where traditional farming is impossible.\n\n**Why Other Options Are Incorrect:**\n* **prevent the spread of pests:** Pests can still attack plants in innovative gardens.\n* **control crop diseases:** Diseases can still occur; space utilization is the primary goal.\n* **prevent germination of weeds:** Weeds can still grow in the soil used in these gardens.\n\n📌 **Key Learning Note:**\nInnovative gardening is the solution for urban agriculture because it maximizes crop yield while minimizing the land area required.",
       "contextRef": "ctx-science-2025-q32"
     },
     {
@@ -1032,7 +1032,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Early in the morning.**\n\n**Analysis of the Correct Answer:**\nWatering crops should ideally be done early in the morning or late in the evening. During these times, the sun is not hot, meaning less water will be lost to evaporation, allowing the water to soak deep into the roots.\n\n**Why Other Options Are Incorrect:**\n* **At midday / When the sun is too hot:** Watering when it's hot causes rapid evaporation, wasting water. Water droplets on leaves can also act like magnifying glasses and cause the leaves to burn.\n* **When plants start to dry:** This is waiting too long. Watering should be regular to prevent the plants from drying and wilting.\n\n\ud83d\udccc **Key Learning Note:**\nTo conserve water in agriculture, irrigation and watering should be scheduled during the coolest parts of the day.",
+      "explanation": "The correct answer is **Early in the morning.**\n\n**Analysis of the Correct Answer:**\nWatering crops should ideally be done early in the morning or late in the evening. During these times, the sun is not hot, meaning less water will be lost to evaporation, allowing the water to soak deep into the roots.\n\n**Why Other Options Are Incorrect:**\n* **At midday / When the sun is too hot:** Watering when it's hot causes rapid evaporation, wasting water. Water droplets on leaves can also act like magnifying glasses and cause the leaves to burn.\n* **When plants start to dry:** This is waiting too long. Watering should be regular to prevent the plants from drying and wilting.\n\n📌 **Key Learning Note:**\nTo conserve water in agriculture, irrigation and watering should be scheduled during the coolest parts of the day.",
       "contextRef": "ctx-science-2025-q32"
     },
     {
@@ -1058,7 +1058,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **Rabbit.**\n\n**Analysis of the Correct Answer:**\nRabbits are versatile domestic animals that can be reared for multiple purposes simultaneously: their meat is eaten, their fur/skins are used for clothing or crafts, and their droppings provide excellent manure for farming. \n\n**Why Other Options Are Incorrect:**\n* **Cat:** Mainly kept as a pet or to scare away/catch rats.\n* **Dog:** Mainly kept as a pet or for security (alerting on presence of strangers).\n* **Chicken:** Kept for meat and eggs, but not typically for fur/skins.\n\n\ud83d\udccc **Key Learning Note:**\nDifferent livestock serve different agricultural purposes. Rabbits are highly productive small stock kept for meat, pelt (skin/fur), and manure.",
+      "explanation": "The correct answer is **Rabbit.**\n\n**Analysis of the Correct Answer:**\nRabbits are versatile domestic animals that can be reared for multiple purposes simultaneously: their meat is eaten, their fur/skins are used for clothing or crafts, and their droppings provide excellent manure for farming. \n\n**Why Other Options Are Incorrect:**\n* **Cat:** Mainly kept as a pet or to scare away/catch rats.\n* **Dog:** Mainly kept as a pet or for security (alerting on presence of strangers).\n* **Chicken:** Kept for meat and eggs, but not typically for fur/skins.\n\n📌 **Key Learning Note:**\nDifferent livestock serve different agricultural purposes. Rabbits are highly productive small stock kept for meat, pelt (skin/fur), and manure.",
       "questionList": [
         "(i) alert on presence of strangers",
         "(ii) provide fur and skins",
@@ -1091,7 +1091,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Seeds.**\n\n**Analysis of the Correct Answer:**\nKales (commonly known as sukuma wiki) and cabbages are vegetables that are propagated using seeds. The seeds are first planted in a nursery bed. Once they grow into strong seedlings, they are transplanted into the main seedbed.\n\n**Why Other Options Are Incorrect:**\n* **Vines:** Used for crops like sweet potatoes.\n* **Splits:** Used for crops like pyrethrum or napier grass.\n* **Stem cuttings:** Used for crops like cassava or sugarcane.\n\n\ud83d\udccc **Key Learning Note:**\nSmall, delicate seeds (like kale, cabbage, and tomato) require the special care of a nursery bed before transplanting."
+      "explanation": "The correct answer is **Seeds.**\n\n**Analysis of the Correct Answer:**\nKales (commonly known as sukuma wiki) and cabbages are vegetables that are propagated using seeds. The seeds are first planted in a nursery bed. Once they grow into strong seedlings, they are transplanted into the main seedbed.\n\n**Why Other Options Are Incorrect:**\n* **Vines:** Used for crops like sweet potatoes.\n* **Splits:** Used for crops like pyrethrum or napier grass.\n* **Stem cuttings:** Used for crops like cassava or sugarcane.\n\n📌 **Key Learning Note:**\nSmall, delicate seeds (like kale, cabbage, and tomato) require the special care of a nursery bed before transplanting."
     },
     {
       "id": "q37",
@@ -1116,7 +1116,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Pruning roots of seedlings.**\n\n**Analysis of the Correct Answer:**\nA panga is a versatile cutting tool. In a tree nursery, when seedlings have grown too large or their roots have grown into the ground beneath the nursery container, a sharp panga is used to carefully prune (cut) the roots before transplanting.\n\n**Why Other Options Are Incorrect:**\n* **Applying fertilizer:** This is done by hand or using small scopes.\n* **Lifting seedlings:** A garden trowel or spade is used to lift seedlings.\n* **Carrying manure:** A wheelbarrow or bucket is used for carrying.\n\n\ud83d\udccc **Key Learning Note:**\nRoot pruning in a tree nursery encourages a compact root system, ensuring the seedling survives better when moved to the main field.",
+      "explanation": "The correct answer is **Pruning roots of seedlings.**\n\n**Analysis of the Correct Answer:**\nA panga is a versatile cutting tool. In a tree nursery, when seedlings have grown too large or their roots have grown into the ground beneath the nursery container, a sharp panga is used to carefully prune (cut) the roots before transplanting.\n\n**Why Other Options Are Incorrect:**\n* **Applying fertilizer:** This is done by hand or using small scopes.\n* **Lifting seedlings:** A garden trowel or spade is used to lift seedlings.\n* **Carrying manure:** A wheelbarrow or bucket is used for carrying.\n\n📌 **Key Learning Note:**\nRoot pruning in a tree nursery encourages a compact root system, ensuring the seedling survives better when moved to the main field.",
       "contextRef": "ctx-science-2025-q37"
     },
     {
@@ -1142,7 +1142,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **sharpened**\n\n**Analysis of the Correct Answer:**\nA panga is a cutting tool. For any cutting tool (panga, slasher, axe, knife) to function well and make clean cuts without excessive effort, its cutting edge must be kept sharp using a file or sharpening stone.\n\n**Why Other Options Are Incorrect:**\n* **cleaned:** Cleaning prevents rust and hygiene issues, but sharpening directly dictates how well it cuts.\n* **oiled:** Oiling prevents rust during storage, not its immediate cutting function.\n* **painted:** Painting the handle preserves the wood, but doesn't help the tool cut.\n\n\ud83d\udccc **Key Learning Note:**\nFarm tool maintenance involves sharpening cutting edges, oiling metallic parts to prevent rust, and repairing broken handles for safety.",
+      "explanation": "The correct answer is **sharpened**\n\n**Analysis of the Correct Answer:**\nA panga is a cutting tool. For any cutting tool (panga, slasher, axe, knife) to function well and make clean cuts without excessive effort, its cutting edge must be kept sharp using a file or sharpening stone.\n\n**Why Other Options Are Incorrect:**\n* **cleaned:** Cleaning prevents rust and hygiene issues, but sharpening directly dictates how well it cuts.\n* **oiled:** Oiling prevents rust during storage, not its immediate cutting function.\n* **painted:** Painting the handle preserves the wood, but doesn't help the tool cut.\n\n📌 **Key Learning Note:**\nFarm tool maintenance involves sharpening cutting edges, oiling metallic parts to prevent rust, and repairing broken handles for safety.",
       "contextRef": "ctx-science-2025-q37"
     },
     {
@@ -1168,7 +1168,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Proteins.**\n\n**Analysis of the Correct Answer:**\nProteins are known as body-building foods. They are essential for the growth, repair, and building of body tissues, particularly muscles. If Jay wants strong muscles for sports, he needs a diet rich in proteins (e.g., beans, meat, eggs, milk).\n\n**Why Other Options Are Incorrect:**\n* **Carbohydrates:** These are energy-giving foods. They provide the fuel for playing, but they don't build muscle tissue.\n* **Vitamins:** These are protective foods that boost immunity and keep the body healthy.\n* **Fats:** These provide stored energy and insulation.\n\n\ud83d\udccc **Key Learning Note:**\nFood groups are categorized by function: **Proteins** (Body-building), **Carbohydrates & Fats** (Energy-giving), and **Vitamins & Minerals** (Protective)."
+      "explanation": "The correct answer is **Proteins.**\n\n**Analysis of the Correct Answer:**\nProteins are known as body-building foods. They are essential for the growth, repair, and building of body tissues, particularly muscles. If Jay wants strong muscles for sports, he needs a diet rich in proteins (e.g., beans, meat, eggs, milk).\n\n**Why Other Options Are Incorrect:**\n* **Carbohydrates:** These are energy-giving foods. They provide the fuel for playing, but they don't build muscle tissue.\n* **Vitamins:** These are protective foods that boost immunity and keep the body healthy.\n* **Fats:** These provide stored energy and insulation.\n\n📌 **Key Learning Note:**\nFood groups are categorized by function: **Proteins** (Body-building), **Carbohydrates & Fats** (Energy-giving), and **Vitamins & Minerals** (Protective)."
     },
     {
       "id": "q40",
@@ -1193,7 +1193,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **Sufuria.**\n\n**Analysis of the Correct Answer:**\nWhen baking without a modern oven, a sufuria (a locally used metal cooking pot) can be used as an improvised baking tin. It is made of metal (usually aluminium), which is a good conductor of heat and can withstand the high temperatures required for baking.\n\n**Why Other Options Are Incorrect:**\n* **Melamine bowl:** Melamine is a type of hard plastic that will scorch, crack, or melt when exposed to baking heat.\n* **Hot sand:** Sand is used *around* the tin to distribute heat in a charcoal oven, but it cannot be the tin itself.\n* **Plastic bowl:** Plastic will quickly melt and catch fire under baking temperatures.\n\n\ud83d\udccc **Key Learning Note:**\nImprovising equipment in Home Science requires understanding material properties. Metals withstand heat well, while plastics and most ceramics do not."
+      "explanation": "The correct answer is **Sufuria.**\n\n**Analysis of the Correct Answer:**\nWhen baking without a modern oven, a sufuria (a locally used metal cooking pot) can be used as an improvised baking tin. It is made of metal (usually aluminium), which is a good conductor of heat and can withstand the high temperatures required for baking.\n\n**Why Other Options Are Incorrect:**\n* **Melamine bowl:** Melamine is a type of hard plastic that will scorch, crack, or melt when exposed to baking heat.\n* **Hot sand:** Sand is used *around* the tin to distribute heat in a charcoal oven, but it cannot be the tin itself.\n* **Plastic bowl:** Plastic will quickly melt and catch fire under baking temperatures.\n\n📌 **Key Learning Note:**\nImprovising equipment in Home Science requires understanding material properties. Metals withstand heat well, while plastics and most ceramics do not."
     },
     {
       "id": "q41",
@@ -1218,7 +1218,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **in water under low heat**\n\n**Analysis of the Correct Answer:**\nStewing is a slow method of cooking. It involves cooking food in a small amount of liquid (usually water or broth) in a covered pan over low, simmering heat for an extended period. This method makes tough cuts of meat tender and creates a rich sauce.\n\n**Why Other Options Are Incorrect:**\n* **using steam:** This is called steaming.\n* **using dry heat:** This describes baking or roasting.\n* **in water under high heat:** Cooking rapidly in plenty of boiling water is called boiling.\n\n\ud83d\udccc **Key Learning Note:**\n**Stewing** is cooking slowly in a little liquid on low heat. **Boiling** is cooking rapidly in lots of liquid on high heat."
+      "explanation": "The correct answer is **in water under low heat**\n\n**Analysis of the Correct Answer:**\nStewing is a slow method of cooking. It involves cooking food in a small amount of liquid (usually water or broth) in a covered pan over low, simmering heat for an extended period. This method makes tough cuts of meat tender and creates a rich sauce.\n\n**Why Other Options Are Incorrect:**\n* **using steam:** This is called steaming.\n* **using dry heat:** This describes baking or roasting.\n* **in water under high heat:** Cooking rapidly in plenty of boiling water is called boiling.\n\n📌 **Key Learning Note:**\n**Stewing** is cooking slowly in a little liquid on low heat. **Boiling** is cooking rapidly in lots of liquid on high heat."
     },
     {
       "id": "q42",
@@ -1243,7 +1243,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **(iii), (ii), (i), (iv)**\n\n**Analysis of the Correct Answer:**\nTo shallow fry an egg correctly, a logical sequence must be followed:\n1. **(iii) beat the egg in a bowl** (Preparation)\n2. **(ii) heat a little oil in a frying pan** (Pre-heating the cooking medium)\n3. **(i) pour the beaten egg into the pan** (Starting the cooking process)\n4. **(iv) fry the egg and turn** (Finishing the cooking process)\n\n**Why Other Options Are Incorrect:**\nThe other sequences are illogical. You cannot pour the egg into the pan before heating the oil, and you cannot beat the egg after pouring it.\n\n\ud83d\udccc **Key Learning Note:**\nShallow frying involves cooking food in a small amount of hot oil. The oil must always be heated before adding the food to prevent the food from absorbing too much oil.",
+      "explanation": "The correct answer is **(iii), (ii), (i), (iv)**\n\n**Analysis of the Correct Answer:**\nTo shallow fry an egg correctly, a logical sequence must be followed:\n1. **(iii) beat the egg in a bowl** (Preparation)\n2. **(ii) heat a little oil in a frying pan** (Pre-heating the cooking medium)\n3. **(i) pour the beaten egg into the pan** (Starting the cooking process)\n4. **(iv) fry the egg and turn** (Finishing the cooking process)\n\n**Why Other Options Are Incorrect:**\nThe other sequences are illogical. You cannot pour the egg into the pan before heating the oil, and you cannot beat the egg after pouring it.\n\n📌 **Key Learning Note:**\nShallow frying involves cooking food in a small amount of hot oil. The oil must always be heated before adding the food to prevent the food from absorbing too much oil.",
       "contextRef": "ctx-science-2025-q42-43"
     },
     {
@@ -1269,7 +1269,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Putting the egg into the hot pan.**\n\n**Analysis of the Correct Answer:**\nPutting the egg into the hot pan is simply a step in the cooking procedure, not a safety measure. Safety measures are specific actions taken to prevent injury or accidents.\n\n**Why Other Options Are Incorrect:**\n* **Do not splash water into the pan:** A safety measure. Water in hot oil causes violent splattering and severe burns.\n* **Keep flammable materials away:** A safety measure. Prevents accidental kitchen fires.\n* **Do not add oil to a wet pan:** A safety measure. Same reason as splashing water; it prevents dangerous oil splatters.\n\n\ud83d\udccc **Key Learning Note:**\nKitchen safety revolves around preventing burns, cuts, and fires. Never mix hot oil and water.",
+      "explanation": "The correct answer is **Putting the egg into the hot pan.**\n\n**Analysis of the Correct Answer:**\nPutting the egg into the hot pan is simply a step in the cooking procedure, not a safety measure. Safety measures are specific actions taken to prevent injury or accidents.\n\n**Why Other Options Are Incorrect:**\n* **Do not splash water into the pan:** A safety measure. Water in hot oil causes violent splattering and severe burns.\n* **Keep flammable materials away:** A safety measure. Prevents accidental kitchen fires.\n* **Do not add oil to a wet pan:** A safety measure. Same reason as splashing water; it prevents dangerous oil splatters.\n\n📌 **Key Learning Note:**\nKitchen safety revolves around preventing burns, cuts, and fires. Never mix hot oil and water.",
       "contextRef": "ctx-science-2025-q42-43"
     },
     {
@@ -1295,7 +1295,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **The suit should be well fitting.**\n\n**Analysis of the Correct Answer:**\nWhen purchasing clothing, the primary functional requirement is that it fits the wearer properly. A suit that is too large or too small will be uncomfortable and look improper, regardless of its colour or design.\n\n**Why Other Options Are Incorrect:**\n* **The colour should match his other suits:** While personal preference, it is not the main practical factor. People often want variety in their wardrobe.\n* **The colour should match his friend's suit:** Katana is buying the suit for himself, so his friend's suit is irrelevant.\n* **The suit should have bright colours:** Colour choice is subjective and depends on the occasion.\n\n\ud83d\udccc **Key Learning Note:**\nImportant factors to consider when buying clothes include: **Fit/Size**, **Quality of fabric**, **Occasion**, and **Cost/Budget**."
+      "explanation": "The correct answer is **The suit should be well fitting.**\n\n**Analysis of the Correct Answer:**\nWhen purchasing clothing, the primary functional requirement is that it fits the wearer properly. A suit that is too large or too small will be uncomfortable and look improper, regardless of its colour or design.\n\n**Why Other Options Are Incorrect:**\n* **The colour should match his other suits:** While personal preference, it is not the main practical factor. People often want variety in their wardrobe.\n* **The colour should match his friend's suit:** Katana is buying the suit for himself, so his friend's suit is irrelevant.\n* **The suit should have bright colours:** Colour choice is subjective and depends on the occasion.\n\n📌 **Key Learning Note:**\nImportant factors to consider when buying clothes include: **Fit/Size**, **Quality of fabric**, **Occasion**, and **Cost/Budget**."
     },
     {
       "id": "q45",
@@ -1320,7 +1320,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Bathing every day.**\n\n**Analysis of the Correct Answer:**\nMenstrual hygiene requires keeping the body exceptionally clean to prevent bad odours, discomfort, and infections. Bathing daily (and changing sanitary towels regularly) is the most direct and effective hygiene practice during menstruation.\n\n**Why Other Options Are Incorrect:**\n* **Eating a balanced diet:** Important for overall health and managing menstrual symptoms, but it is not a direct *hygiene* practice.\n* **Applying body sprays:** Masks odours but does not promote actual cleanliness or hygiene.\n* **Drinking plenty of water:** Good for health, but not a hygiene practice.\n\n\ud83d\udccc **Key Learning Note:**\nMenstrual hygiene management includes: bathing daily, changing sanitary towels every 4-6 hours, and disposing of used towels correctly."
+      "explanation": "The correct answer is **Bathing every day.**\n\n**Analysis of the Correct Answer:**\nMenstrual hygiene requires keeping the body exceptionally clean to prevent bad odours, discomfort, and infections. Bathing daily (and changing sanitary towels regularly) is the most direct and effective hygiene practice during menstruation.\n\n**Why Other Options Are Incorrect:**\n* **Eating a balanced diet:** Important for overall health and managing menstrual symptoms, but it is not a direct *hygiene* practice.\n* **Applying body sprays:** Masks odours but does not promote actual cleanliness or hygiene.\n* **Drinking plenty of water:** Good for health, but not a hygiene practice.\n\n📌 **Key Learning Note:**\nMenstrual hygiene management includes: bathing daily, changing sanitary towels every 4-6 hours, and disposing of used towels correctly."
     },
     {
       "id": "q46",
@@ -1345,7 +1345,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **where all information is provided.**\n\n**Analysis of the Correct Answer:**\nA wise consumer makes informed decisions. Before buying a packaged household item, it is crucial to read all provided information, including the manufacturer's instructions, ingredients, expiry date, and safety warnings, to ensure the product is safe and suitable for use.\n\n**Why Other Options Are Incorrect:**\n* **with attractive advertisements:** Advertisements are designed to persuade, not necessarily to tell the objective truth.\n* **that is rare and imported:** Being rare or imported does not guarantee quality or suitability.\n* **advertised by popular people:** Celebrity endorsements do not guarantee the product is safe or effective for you.\n\n\ud83d\udccc **Key Learning Note:**\nConsumer education teaches us to read labels for **manufacturing dates, expiry dates, weight, and ingredients** before purchasing goods."
+      "explanation": "The correct answer is **where all information is provided.**\n\n**Analysis of the Correct Answer:**\nA wise consumer makes informed decisions. Before buying a packaged household item, it is crucial to read all provided information, including the manufacturer's instructions, ingredients, expiry date, and safety warnings, to ensure the product is safe and suitable for use.\n\n**Why Other Options Are Incorrect:**\n* **with attractive advertisements:** Advertisements are designed to persuade, not necessarily to tell the objective truth.\n* **that is rare and imported:** Being rare or imported does not guarantee quality or suitability.\n* **advertised by popular people:** Celebrity endorsements do not guarantee the product is safe or effective for you.\n\n📌 **Key Learning Note:**\nConsumer education teaches us to read labels for **manufacturing dates, expiry dates, weight, and ingredients** before purchasing goods."
     },
     {
       "id": "q47",
@@ -1370,7 +1370,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Glass surface.**\n\n**Analysis of the Correct Answer:**\nThe defining step in this procedure is **(v) shining the surface using an old newspaper.** Using crumpled newspaper is a traditional and highly effective method for polishing glass surfaces (like windows or mirrors) because it removes dirt without leaving lint or streaks behind.\n\n**Why Other Options Are Incorrect:**\n* **Wooden surface:** Wood is polished using wax or furniture polish, not water and newspaper.\n* **Cemented surface:** Cement is scrubbed with hard brushes and water, not shined with newspaper.\n* **Earthen surface:** Earthen floors are swept and smeared with mud/cow dung, not washed with soapy water and shined.\n\n\ud83d\udccc **Key Learning Note:**\nDifferent surfaces require different cleaning materials. Glass is shined with newspaper, wood is polished with wax, and tiles are mopped.",
+      "explanation": "The correct answer is **Glass surface.**\n\n**Analysis of the Correct Answer:**\nThe defining step in this procedure is **(v) shining the surface using an old newspaper.** Using crumpled newspaper is a traditional and highly effective method for polishing glass surfaces (like windows or mirrors) because it removes dirt without leaving lint or streaks behind.\n\n**Why Other Options Are Incorrect:**\n* **Wooden surface:** Wood is polished using wax or furniture polish, not water and newspaper.\n* **Cemented surface:** Cement is scrubbed with hard brushes and water, not shined with newspaper.\n* **Earthen surface:** Earthen floors are swept and smeared with mud/cow dung, not washed with soapy water and shined.\n\n📌 **Key Learning Note:**\nDifferent surfaces require different cleaning materials. Glass is shined with newspaper, wood is polished with wax, and tiles are mopped.",
       "questionList": [
         "(i) removing loose dust from the surface using a soft dry cloth",
         "(ii) cleaning the surface using a soft cloth wrung out of warm soapy water",
@@ -1403,7 +1403,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **Blood stain.**\n\n**Analysis of the Correct Answer:**\nBlood is an organic stain that contains proteins. If a protein stain is exposed to hot water, the heat will 'cook' or coagulate the protein, causing it to set permanently into the fabric fibers. Therefore, blood stains must always be soaked and washed in cold water first.\n\n**Why Other Options Are Incorrect:**\n* **Chewing gum stain:** Removed by freezing it with ice cubes and scraping it off.\n* **Rust stain:** Removed using acidic agents like lemon juice and salt.\n* **Grass stain:** Removed using warm soapy water or alcohol.\n\n\ud83d\udccc **Key Learning Note:**\nProtein-based stains (like blood, egg, and milk) must be washed in **cold water** to prevent them from setting into the fabric."
+      "explanation": "The correct answer is **Blood stain.**\n\n**Analysis of the Correct Answer:**\nBlood is an organic stain that contains proteins. If a protein stain is exposed to hot water, the heat will 'cook' or coagulate the protein, causing it to set permanently into the fabric fibers. Therefore, blood stains must always be soaked and washed in cold water first.\n\n**Why Other Options Are Incorrect:**\n* **Chewing gum stain:** Removed by freezing it with ice cubes and scraping it off.\n* **Rust stain:** Removed using acidic agents like lemon juice and salt.\n* **Grass stain:** Removed using warm soapy water or alcohol.\n\n📌 **Key Learning Note:**\nProtein-based stains (like blood, egg, and milk) must be washed in **cold water** to prevent them from setting into the fabric."
     },
     {
       "id": "q49",
@@ -1428,7 +1428,7 @@ export const kpseaScience2025 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **Loop stitch.**\n\n**Analysis of the Correct Answer:**\nThe loop stitch (often called a blanket stitch) is made by passing the thread over the edge of the fabric and catching it in a loop with the needle. It is used to neaten raw edges, prevent fraying, or as a decorative edge finish.\n\n**Why Other Options Are Incorrect:**\n* **Back stitch:** Used for strong, permanent seams. It looks like a continuous line of stitches.\n* **Hemming stitch:** Used to hold down a folded hem invisibly on the right side.\n* **Chain stitch:** A decorative stitch that looks like a series of linked chains on the surface of the fabric.\n\n\ud83d\udccc **Key Learning Note:**\nEdge-neatening stitches include the **loop stitch** and **overcasting stitch**. They bind the raw edges of the fabric to stop threads from pulling out.",
+      "explanation": "The correct answer is **Loop stitch.**\n\n**Analysis of the Correct Answer:**\nThe loop stitch (often called a blanket stitch) is made by passing the thread over the edge of the fabric and catching it in a loop with the needle. It is used to neaten raw edges, prevent fraying, or as a decorative edge finish.\n\n**Why Other Options Are Incorrect:**\n* **Back stitch:** Used for strong, permanent seams. It looks like a continuous line of stitches.\n* **Hemming stitch:** Used to hold down a folded hem invisibly on the right side.\n* **Chain stitch:** A decorative stitch that looks like a series of linked chains on the surface of the fabric.\n\n📌 **Key Learning Note:**\nEdge-neatening stitches include the **loop stitch** and **overcasting stitch**. They bind the raw edges of the fabric to stop threads from pulling out.",
       "contextRef": "ctx-science-2025-q49"
     },
     {
@@ -1454,7 +1454,7 @@ export const kpseaScience2025 = {
           "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **colour of the thread.**\n\n**Analysis of the Correct Answer:**\nWhen repairing a torn garment or loose stitches, the goal is to make the repair as unnoticeable (neat) as possible. Therefore, the most critical factor to consider is choosing a thread colour that matches the original fabric perfectly.\n\n**Why Other Options Are Incorrect:**\n* **size of his shirt / size of the pocket:** These are fixed measurements of the garment and don't dictate how you perform the stitching repair.\n* **type of the needle:** While you need an appropriate needle for the fabric thickness, the colour of the thread determines how neat and invisible the repair looks on the outside.\n\n\ud83d\udccc **Key Learning Note:**\nFor neat garment repairs (like darning, patching, or re-stitching), always match the **colour, strength, and type** of the mending thread to the garment's fabric."
+      "explanation": "The correct answer is **colour of the thread.**\n\n**Analysis of the Correct Answer:**\nWhen repairing a torn garment or loose stitches, the goal is to make the repair as unnoticeable (neat) as possible. Therefore, the most critical factor to consider is choosing a thread colour that matches the original fabric perfectly.\n\n**Why Other Options Are Incorrect:**\n* **size of his shirt / size of the pocket:** These are fixed measurements of the garment and don't dictate how you perform the stitching repair.\n* **type of the needle:** While you need an appropriate needle for the fabric thickness, the colour of the thread determines how neat and invisible the repair looks on the outside.\n\n📌 **Key Learning Note:**\nFor neat garment repairs (like darning, patching, or re-stitching), always match the **colour, strength, and type** of the mending thread to the garment's fabric."
     }
   ]
 };

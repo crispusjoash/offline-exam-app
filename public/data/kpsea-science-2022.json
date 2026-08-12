@@ -1,0 +1,1374 @@
+{
+  "id": "kpsea-science-2022",
+  "title": "KPSEA 2022 Integrated Science",
+  "subject": "Integrated Science",
+  "year": "2022",
+  "durationMinutes": 100,
+  "sharedContexts": {
+    "ctx-science-2022-q2": {
+      "title": "Fungi and their Uses",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q2.webp",
+      "caption": "Table matching fungi with their uses",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q7": {
+      "title": "Parts of a Kettle",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q7.webp",
+      "caption": "The picture below shows a kettle with parts labelled L, M, N and P.",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q9": {
+      "title": "Composition of Air",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q9.webp",
+      "caption": "Pie chart showing the composition of air.",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q10": {
+      "title": "Beam Balance",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q10.png",
+      "caption": "A beam balance that was constructed by learners.",
+      "cssFilter": "none"
+    },
+    "ctx-science-2022-q21": {
+      "title": "Farm Produce",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q21.webp",
+      "caption": "The picture below shows a farm produce after harvesting.",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q22-23": {
+      "title": "Maize Seedbed",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q22_23.webp",
+      "caption": "A farmer planted maize as shown in the picture below to conserve soil water.",
+      "scanEffect": false,
+      "cssFilter": "none"
+    },
+    "ctx-science-2022-q24-25": {
+      "title": "Garden Tool",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q24_25.webp",
+      "caption": "In the preparation of a nursery bed, Grade five learners used the garden tool shown below.",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q29": {
+      "title": "Food Posters",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q29.svg",
+      "caption": "Posters on foods that make us healthy.",
+      "scanEffect": false,
+      "cssFilter": "none"
+    },
+    "ctx-science-2022-q34": {
+      "title": "Laundry Care Symbol",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q34.svg",
+      "caption": "A symbol found on a care label attached on a shirt.",
+      "scanEffect": false,
+      "cssFilter": "none"
+    },
+    "ctx-science-2022-q48": {
+      "title": "Volleyball Skills",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q48.webp",
+      "caption": "Various skills used when playing volleyball game.",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    }
+  },
+  "sectionA": [
+    {
+      "id": "kpsea-science-2022-q1",
+      "questionNumber": 1,
+      "questionText": "Learners went for a nature walk to study the importance of plants. They listed the following as the importance of plants.\nThey",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "(i) and (iii)",
+          "isCorrect": false
+        },
+        {
+          "text": "(i) and (v)",
+          "isCorrect": true
+        },
+        {
+          "text": "(ii) and (iv)",
+          "isCorrect": false
+        },
+        {
+          "text": "(iii) and (v)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **(i) and (v)**.\n\n**Analysis of the Correct Answer:**\nFlowering plants are uniquely characterized by the production of flowers. Flowers often produce sweet nectar (v) to attract insects and birds for pollination. After successful pollination and fertilization, flowers develop into fruits (i) which contain seeds. \n\n**Why Other Options Are Incorrect:**\n* **(i) and (iii):** While they produce fruits (i), all plants (flowering and non-flowering) produce leaves (iii). Leaves are not a unique characteristic of flowering plants only.\n* **(ii) and (iv):** Cones (ii) are produced by non-flowering plants like pines and cypress. Spores (iv) are produced by non-flowering plants like ferns and mosses.\n* **(iii) and (v):** All plants have leaves (iii), making it an incorrect identifier for distinguishing flowering plants.\n\n📌 **Key Learning Note:**\nThe main distinguishing features of a flowering plant are the production of **flowers**, **fruits**, and **seeds**.",
+      "questionList": [
+        "(i) produce fruits",
+        "(ii) attract rain",
+        "(iii) beautify environment",
+        "(iv) protect soil",
+        "(v) produce nectar"
+      ],
+      "questionSuffix": "Which **two** are true for flowering plants?"
+    },
+    {
+      "id": "kpsea-science-2022-q2",
+      "questionNumber": 2,
+      "questionText": "Grade 5 learners in a certain primary school grouped fungi with their use. Which of the following fungi was correctly matched to its use?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "A",
+          "isCorrect": false
+        },
+        {
+          "text": "B",
+          "isCorrect": false
+        },
+        {
+          "text": "C",
+          "isCorrect": false
+        },
+        {
+          "text": "D",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nDiagram D represents Penicillium, a type of microscopic fungus. Penicillium is highly valuable in medicine because it is used to extract and produce the antibiotic medicine penicillin, which cures various bacterial infections.\n\n**Why Other Options Are Incorrect:**\n* **A:** This represents a toadstool (a type of wild mushroom). Many toadstools are highly poisonous and can be fatal if consumed.\n* **B:** This represents yeast, a single-celled fungus used primarily in baking (to make bread rise) and brewing, not for medicine.\n* **C:** This represents an edible mushroom, which is consumed as nutritious food by human beings, not used to extract medicine.\n\n📌 **Key Learning Note:**\nDifferent fungi have different uses: **Yeast** (baking), **Edible Mushrooms** (food), and **Penicillium** (making antibiotic medicines).",
+      "contextRef": "ctx-science-2022-q2"
+    },
+    {
+      "id": "kpsea-science-2022-q3",
+      "questionNumber": 3,
+      "questionText": "A learner observed that when food remains fell on the floor, the food was quickly covered by small ants which ate all of it.\n\nThis behaviour by the ants demonstrated that living things",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "respond to changes in their environment",
+          "isCorrect": true
+        },
+        {
+          "text": "love eating food",
+          "isCorrect": false
+        },
+        {
+          "text": "hunt for food in their environment",
+          "isCorrect": false
+        },
+        {
+          "text": "hide after feeding.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **respond to changes in their environment**.\n\n**Analysis of the Correct Answer:**\nWhen the piece of food fell, the ants detected its presence (a change in their surroundings) using their senses and moved towards it. This behavior demonstrates that living things react or respond to stimuli (changes) in their environment to survive, find food, or escape danger.\n\n**Why Other Options Are Incorrect:**\n* **love eating food:** While living things feed, the specific action of detecting something new that dropped and reacting to it highlights responsiveness.\n* **hunt for food in their environment:** Hunting is a feeding behavior of predators, but the broader scientific characteristic demonstrated by reacting to a dropped item is responsiveness.\n* **hide after feeding.:** The observation was about ants moving *towards* the food, not hiding away.\n\n📌 **Key Learning Note:**\nOne of the key characteristics of all living things is their ability to **respond to stimuli** (changes in their environment), such as moving towards food or away from heat."
+    },
+    {
+      "id": "kpsea-science-2022-q4",
+      "questionNumber": 4,
+      "questionText": "In a certain family the water used for washing clothes is then used to clean the house. Water taps are also turned off when not in use. Which one of the following is true about the family? It conserves water by",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "recycling and re-using",
+          "isCorrect": false
+        },
+        {
+          "text": "reducing only",
+          "isCorrect": false
+        },
+        {
+          "text": "re-using and reducing",
+          "isCorrect": true
+        },
+        {
+          "text": "recycling only.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **re-using and reducing**.\n\n**Analysis of the Correct Answer:**\nUsing water that was already meant for washing clothes to clean the house is an example of **re-using** (using something again for another purpose). Turning off the taps when they are not in use minimizes water wastage, which is an example of **reducing** water consumption. Therefore, they are practising re-using and reducing.\n\n**Why Other Options Are Incorrect:**\n* **recycling and re-using:** Recycling involves processing waste (like dirty water) through a treatment plant to make it completely clean again, which they are not doing.\n* **reducing only:** This ignores the action of washing the house with laundry water, which is re-using.\n* **recycling only.:** Neither action involves the industrial or chemical purification process of recycling.\n\n📌 **Key Learning Note:**\n- **Reducing:** Using less (e.g., turning off taps).\n- **Re-using:** Using the same item again (e.g., using bath water to mop floors)."
+    },
+    {
+      "id": "kpsea-science-2022-q5",
+      "questionNumber": 5,
+      "questionText": "While sweeping the classroom, Jane started sneezing and found it difficult to continue sweeping. What could Jane do to prevent sneezing and continue sweeping?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Put on an overcoat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sprinkle water on the floor.",
+          "isCorrect": true
+        },
+        {
+          "text": "Wear gloves.",
+          "isCorrect": false
+        },
+        {
+          "text": "Change the broom she is using.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Sprinkle water on the floor**.\n\n**Analysis of the Correct Answer:**\nSweeping an earthen (mud) floor raises a lot of fine dust into the air, which can irritate the respiratory system and cause sneezing or coughing. By sprinkling water on the floor before sweeping, the water binds the dust particles together, making them heavy so they settle on the ground instead of floating in the air.\n\n**Why Other Options Are Incorrect:**\n* **Put on an overcoat.:** An overcoat protects clothing from getting dirty but does not stop dust from being inhaled into the nose and lungs.\n* **Wear gloves.:** Gloves protect the hands from dirt and blisters but do not prevent airborne dust from causing sneezing.\n* **Change the broom she is using.:** Any dry broom will sweep up and scatter dust on a dry earthen floor; changing the broom will not solve the dust problem.\n\n📌 **Key Learning Note:**\nTo maintain a healthy respiratory environment, always **sprinkle water** on earthen or dusty floors before sweeping to prevent dust from becoming airborne."
+    },
+    {
+      "id": "kpsea-science-2022-q6",
+      "questionNumber": 6,
+      "questionText": "During a lesson on fungi, the teacher warned learners not to pick mushrooms on their own for cooking. The reason why learners should follow their teacher's advice is that",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "mushrooms have no nutrients",
+          "isCorrect": false
+        },
+        {
+          "text": "some mushrooms have worms",
+          "isCorrect": false
+        },
+        {
+          "text": "mushrooms are difficult to cook",
+          "isCorrect": false
+        },
+        {
+          "text": "some mushrooms are poisonous.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **some mushrooms are poisonous.**\n\n**Analysis of the Correct Answer:**\nWhile some mushrooms are edible and nutritious, many species of wild mushrooms (often called toadstools) are highly toxic and poisonous. Eating unidentified wild mushrooms can lead to severe food poisoning, organ failure, or even death. Therefore, it is extremely dangerous to pick and eat mushrooms growing in the forest without expert knowledge.\n\n**Why Other Options Are Incorrect:**\n* **mushrooms have no nutrients:** This is false. Edible mushrooms are highly nutritious and contain vitamins, minerals, and proteins.\n* **some mushrooms have worms:** While pests may attack wild fungi, the primary life-threatening danger of eating wild mushrooms is their inherent toxicity, not worms.\n* **mushrooms are difficult to cook:** Edible mushrooms are very easy and quick to cook; cooking difficulty is not a reason to avoid them.\n\n📌 **Key Learning Note:**\nNever pick and eat wild mushrooms from the forest because many varieties are **highly poisonous** and dangerous to human health."
+    },
+    {
+      "id": "kpsea-science-2022-q7",
+      "questionNumber": 7,
+      "questionText": "Which two parts are likely to be made of poor conductors of heat?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q7",
+      "options": [
+        {
+          "text": "L and P",
+          "isCorrect": false
+        },
+        {
+          "text": "L and N",
+          "isCorrect": false
+        },
+        {
+          "text": "M and N",
+          "isCorrect": false
+        },
+        {
+          "text": "M and P",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **M and P**.\n\n**Analysis of the Correct Answer:**\nPart **M** represents the handle of the pan, and Part **P** represents the knob on the lid. Because the pan is used for cooking over fire, the parts that a person touches must be made of **poor conductors of heat (insulators)**, such as plastic or wood, to prevent the user from getting burned.\n\n**Why Other Options Are Incorrect:**\n* **L and P:** Part L is the main body of the cooking pan, which must be made of a *good conductor* of heat (like aluminum or steel) to cook the food.\n* **L and N:** Part N is the lid covering the food, often made of metal (a good conductor) to trap heat inside.\n* **M and N:** Part N is not typically made of an insulator, as it covers the hot pan directly.\n\n📌 **Key Learning Note:**\nCooking utensils are made of **good conductors of heat** (like metals) to cook food, while their handles are made of **poor conductors of heat** (like wood or plastic) to prevent burns."
+    },
+    {
+      "id": "kpsea-science-2022-q8",
+      "questionNumber": 8,
+      "questionText": "To control the COVID-19 pandemic, one of the measures taken is to clean hands. A learner noted that after using a sanitiser, hands dry up faster than when washed with water. This is because the sanitiser",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "freezes quickly",
+          "isCorrect": false
+        },
+        {
+          "text": "is absorbed by the skin",
+          "isCorrect": false
+        },
+        {
+          "text": "condenses easily",
+          "isCorrect": false
+        },
+        {
+          "text": "evaporates easily.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **evaporates easily.**\n\n**Analysis of the Correct Answer:**\nHand sanitisers are primarily composed of alcohol (typically 60-70% ethanol or isopropanol). Alcohol is a highly volatile liquid, meaning it has a low boiling point and **evaporates easily** and rapidly into a gas when exposed to the warmth of the skin and air at room temperature. This is why hands feel dry quickly after rubbing sanitiser.\n\n**Why Other Options Are Incorrect:**\n* **freezes quickly:** Freezing means turning into a solid. Alcohol actually has a much lower freezing point than water and does not freeze on hands.\n* **is absorbed by the skin:** While a microscopic amount may be absorbed, the vast majority of the liquid physically disappears because it turns into a gas (evaporates), not because the skin drinks it up.\n* **condenses easily:** Condensation is the process of a gas turning back into a liquid. Sanitiser goes from liquid to gas, not the reverse.\n\n📌 **Key Learning Note:**\nLiquids like alcohol, surgical spirit, and petrol are highly volatile; they **evaporate very quickly** when exposed to air."
+    },
+    {
+      "id": "kpsea-science-2022-q9",
+      "questionNumber": 9,
+      "questionText": "Which one of the following letters represents a gas that supports burning?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q9",
+      "options": [
+        {
+          "text": "M",
+          "isCorrect": false
+        },
+        {
+          "text": "K",
+          "isCorrect": false
+        },
+        {
+          "text": "L",
+          "isCorrect": false
+        },
+        {
+          "text": "J",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **J**.\n\n**Analysis of the Correct Answer:**\nThe gas that supports burning (combustion) is **Oxygen**. According to the pie chart provided, part **J** represents Oxygen (21%), which supports burning.\n\n**Why Other Options Are Incorrect:**\n* **M:** This represents Nitrogen (78%), which is the most abundant gas but is unreactive and does not support burning.\n* **K:** This represents inert/rare gases (0.97%).\n* **L:** This represents Carbon dioxide (0.03%), which is used to extinguish fire.\n\n📌 **Key Learning Note:**\n- **Oxygen (21%):** Supports burning and breathing.\n- **Nitrogen (78%):** Most abundant gas in the air.\n- **Carbon Dioxide (0.03%):** Used to put out fires."
+    },
+    {
+      "id": "kpsea-science-2022-q10",
+      "questionNumber": 10,
+      "questionText": "The diagram below represents a beam balance that was constructed by learners to be used for comparing masses of objects.\n\nThe beam balance could not compare masses of objects because",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q10",
+      "options": [
+        {
+          "text": "the arm was fixed",
+          "isCorrect": true
+        },
+        {
+          "text": "a wooden arm was used",
+          "isCorrect": false
+        },
+        {
+          "text": "wires were used instead of thread",
+          "isCorrect": false
+        },
+        {
+          "text": "similar tins were used.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **the arm was fixed**.\n\n**Analysis of the Correct Answer:**\nA beam balance works on the principle of a seesaw; the central beam (arm) must be able to swing freely up and down around a central pivot point to compare the masses on either side. In the diagram, the wooden arm has been **nailed tightly** with two nails at the center, meaning it is fixed and cannot pivot or swing. This structural flaw caused the instrument to fail.\n\n**Why Other Options Are Incorrect:**\n* **a wooden arm was used:** Wood is a perfectly suitable material for making a simple beam balance arm; the material is not the issue.\n* **wires were used instead of thread:** Wires are strong and can suspend the tins effectively. As long as they hold the tins, they won't prevent the balance from working.\n* **similar tins were used.:** Using identical tins is actually the correct procedure for ensuring the balance is fair and equal on both sides.\n\n📌 **Key Learning Note:**\nFor a locally made beam balance to function properly, the central pivot must be **free-swinging (not fixed)** so the beam can tip towards the heavier mass."
+    },
+    {
+      "id": "kpsea-science-2022-q11",
+      "questionNumber": 11,
+      "questionText": "During a class discussion, learners listed the following as some effects of gravity.",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "(ii) and (iii)",
+          "isCorrect": false
+        },
+        {
+          "text": "(i) and (iv)",
+          "isCorrect": false
+        },
+        {
+          "text": "(i) and (iii)",
+          "isCorrect": true
+        },
+        {
+          "text": "(ii) and (iv)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **(i) and (iii)**.\n\n**Analysis of the Correct Answer:**\nGravity is the force of attraction that pulls all objects downwards towards the centre of the Earth. It causes water to flow downhill in rivers (i) and makes ripe fruits fall downwards from trees (iii) to the ground.\n\n**Why Other Options Are Incorrect:**\n* **(ii) and (iii):** While (iii) involves gravity, (ii) swimming in a pool primarily involves buoyancy (upthrust pushing up) and muscular force to overcome water resistance, not gravity.\n* **(i) and (iv):** While (i) involves gravity, (iv) writing on a chalkboard relies on the force of friction between the chalk and the rough board to leave a mark.\n* **(ii) and (iv):** Neither swimming nor writing on a chalkboard are direct demonstrations of the downward pull of gravity.\n\n📌 **Key Learning Note:**\nThe **Force of Gravity** always pulls objects downwards towards the centre of the Earth.",
+      "questionList": [
+        "(i) Flowing of water in rivers.",
+        "(ii) Writing on chalkboard.",
+        "(iii) Fruits falling from a tree.",
+        "(iv) Swimming in a pool."
+      ],
+      "questionSuffix": "Which **two** are correct effects of gravity?"
+    },
+    {
+      "id": "kpsea-science-2022-q12",
+      "questionNumber": 12,
+      "questionText": "Learners dropped dry leaves on a fire and observed that some leaves moved upwards instead of dropping into the fire. Which one of the following statements best explains the observation?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Leaves are light.",
+          "isCorrect": false
+        },
+        {
+          "text": "Leaves expand.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wind carried leaves upwards.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hot air carried leaves upwards.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Hot air carried leaves upwards**.\n\n**Analysis of the Correct Answer:**\nWhen air is heated by a fire, its particles gain energy, expand, and become lighter (less dense) than the surrounding cold air. This creates a convection current where the hot air rises. As the hot air moves forcefully upwards, it carries light objects like dry leaves and ash into the sky along with it.\n\n**Why Other Options Are Incorrect:**\n* **Leaves are light.:** While dry leaves are indeed light, they would simply fall to the ground due to gravity if there was no upward force carrying them.\n* **Leaves expand.:** Leaves do not expand significantly when heated in a fire; they burn and shrivel up. The expansion happens to the air, not the leaves.\n* **Wind carried leaves upwards.:** Wind generally blows horizontally across the land. The specific upward movement directly above a fire is caused by localized rising hot air, not general wind.\n\n📌 **Key Learning Note:**\n**Hot air is lighter than cold air.** When heated, air expands and rises, creating upward convection currents."
+    },
+    {
+      "id": "kpsea-science-2022-q13",
+      "questionNumber": 13,
+      "questionText": "Learners were preparing to go out for a nature walk in a nearby forest. Which one of the following pair of protective equipment would be most suitable for their safety when handling plants in the forest?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Gloves and goggles.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gloves and overcoats.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tongs and overcoats.",
+          "isCorrect": false
+        },
+        {
+          "text": "Goggles and tongs.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Gloves and overcoats**.\n\n**Analysis of the Correct Answer:**\nWhen handling plants in a forest or farm, protective clothing is essential. **Gloves** protect the hands from being pricked by thorns, stung by nettles, or exposed to toxic plant sap. **Overcoats (or overalls)** cover the torso and arms, protecting the body and personal clothing from scratches, insect bites, and sticky saps.\n\n**Why Other Options Are Incorrect:**\n* **Gloves and goggles.:** While gloves are correct, goggles protect the eyes (useful for spraying chemicals or cutting wood), but an overcoat provides the necessary full-body protection from scratches when handling plants.\n* **Tongs and overcoats.:** Tongs are tools for picking up dangerous objects (like hot coals or snakes) but are not practical or necessary for general plant handling.\n* **Goggles and tongs.:** Neither of these provides the basic skin protection needed against thorns and scratches when handling plants.\n\n📌 **Key Learning Note:**\nAlways wear **protective clothing** (like gloves, overcoats, and gumboots) when working in a forest or farm to prevent physical injuries and allergic reactions."
+    },
+    {
+      "id": "kpsea-science-2022-q14",
+      "questionNumber": 14,
+      "questionText": "A learner went to hospital complaining of severe diarrhoea, vomiting and thirst. Which one of the following diseases was the learner likely to be suffering from?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Bilharzia.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cholera.",
+          "isCorrect": true
+        },
+        {
+          "text": "Typhoid.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dysentry.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Cholera**.\n\n**Analysis of the Correct Answer:**\nCholera is an acute, highly contagious waterborne bacterial disease. Its classic, identifying symptoms include sudden onset of **severe watery diarrhoea** (often described as \"rice-water stools\") and **severe vomiting**. These lead to rapid fluid loss, resulting in extreme dehydration and intense thirst.\n\n**Why Other Options Are Incorrect:**\n* **Bilharzia.:** Bilharzia (Schistosomiasis) is caused by parasitic worms found in freshwater snails. Symptoms include blood in urine/stool and abdominal pain, not sudden severe watery diarrhoea.\n* **Typhoid.:** Typhoid is a waterborne disease characterized by a prolonged high fever, headache, stomach pain, and sometimes a rash. While diarrhoea can occur, severe vomiting and rapid dehydration are hallmarks of cholera.\n* **Dysentry.:** Dysentery is an intestinal infection that causes severe diarrhoea specifically containing **blood and mucus**, accompanied by painful stomach cramps, unlike the watery diarrhoea of cholera.\n\n📌 **Key Learning Note:**\n- **Cholera:** Severe watery diarrhoea and vomiting leading to rapid dehydration.\n- **Dysentery:** Diarrhoea with blood and mucus."
+    },
+    {
+      "id": "kpsea-science-2022-q15",
+      "questionNumber": 15,
+      "questionText": "Learners observed a cloud that was low in the sky, dark-grey in colour and thick. The appearance of the cloud indicates that there was going to be a",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "windy weather",
+          "isCorrect": false
+        },
+        {
+          "text": "foggy weather",
+          "isCorrect": false
+        },
+        {
+          "text": "rainy weather",
+          "isCorrect": true
+        },
+        {
+          "text": "sunny weather.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **rainy weather**.\n\n**Analysis of the Correct Answer:**\nNimbus clouds (such as nimbostratus or cumulonimbus) are typically low-level, very thick, and dark-grey or black in color. They are heavy with water droplets and block out sunlight. The appearance of dark nimbus clouds is a direct indication that heavy precipitation or **rainy weather** is imminent.\n\n**Why Other Options Are Incorrect:**\n* **windy weather:** Windy weather is often associated with the rapid movement of various cloud types, but dark nimbus clouds specifically signal rain, not just wind.\n* **foggy weather:** Fog is essentially a stratus cloud that forms at ground level, reducing visibility, not dark nimbus clouds high in the sky.\n* **sunny weather.:** Sunny and fair weather is indicated by high, wispy cirrus clouds or small, fluffy white cumulus clouds, not dark nimbus clouds.\n\n📌 **Key Learning Note:**\n**Nimbus clouds** are dark, heavy, and low-lying; they are the primary clouds that bring **rain**."
+    },
+    {
+      "id": "kpsea-science-2022-q16",
+      "questionNumber": 16,
+      "questionText": "Which of the following crop is a climbing fruit?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Orange.",
+          "isCorrect": false
+        },
+        {
+          "text": "Passion.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mango.",
+          "isCorrect": false
+        },
+        {
+          "text": "Apple.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Passion**.\n\n**Analysis of the Correct Answer:**\nPassion fruit is a climbing plant (a vine) that produces long, weak, non-woody stems. Because it cannot stand upright on its own, it relies on specialized structures called **tendrils** to coil around fences, trellises, or other trees for physical support as it grows toward the sunlight.\n\n**Why Other Options Are Incorrect:**\n* **Orange.:** An orange tree has a strong, thick, woody trunk that supports itself; it does not climb or use tendrils.\n* **Mango.:** A mango tree is a large, sturdy woody plant with a thick trunk that stands upright on its own.\n* **Apple.:** An apple tree also develops a strong, woody trunk and branches to support its own weight without climbing.\n\n📌 **Key Learning Note:**\nClimbing plants (like passion fruit, grapes, and pumpkins) have weak stems and use structures like **tendrils** or twining stems to cling to supports."
+    },
+    {
+      "id": "kpsea-science-2022-q17",
+      "questionNumber": 17,
+      "questionText": "How can the learners protect young climbing fruit plants from damage by animals?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Staking the plants.",
+          "isCorrect": true
+        },
+        {
+          "text": "Constructing a shade.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trapping the animals.",
+          "isCorrect": false
+        },
+        {
+          "text": "Applying a mulch.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Staking the plants.**\n\n**Analysis of the Correct Answer:**\nStaking supports young climbing fruit plants and keeps them upright and off the ground, protecting them from being trampled, knocked over, or damaged by animals moving through the area. \n\n**Why Other Options Are Incorrect:**\n* **Constructing a shade.:** Deals with sunlight/temperature, not animals.\n* **Trapping the animals.:** Trapping animals is not a standard protective practice taught at this level for climbing plants.\n* **Applying a mulch.:** Mulching helps retain soil moisture rather than protect against animal damage."
+    },
+    {
+      "id": "kpsea-science-2022-q18",
+      "questionNumber": 18,
+      "questionText": "Which of the following practices will provide support to a climbing fruit plant?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Hardening.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pruning.",
+          "isCorrect": false
+        },
+        {
+          "text": "Training.",
+          "isCorrect": true
+        },
+        {
+          "text": "Mulching.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Training**.\n\n**Analysis of the Correct Answer:**\n**Training** is an agricultural practice used on climbing plants or vines (such as tomatoes, passion fruits, or climbing beans). It involves tying, directing, or guiding the growing plant onto a support structure (like a stake or trellis) to keep it upright, clean, and exposed to adequate sunlight.\n\n**Why Other Options Are Incorrect:**\n* **Hardening.:** Hardening off is the process of gradually exposing nursery seedlings to harsh outdoor conditions (sun and wind) before transplanting them to the main field.\n* **Pruning.:** Pruning is the removal of extra, dead, or diseased branches and leaves from a plant to encourage better fruit yields.\n* **Mulching.:** Mulching involves placing a layer of dry organic material on the soil surface to retain moisture and prevent weed growth.\n\n📌 **Key Learning Note:**\n- **Training:** Directing climbing plants to grow on a support structure.\n- **Staking:** Providing a stick/pole for the plant to climb on."
+    },
+    {
+      "id": "kpsea-science-2022-q19",
+      "questionNumber": 19,
+      "questionText": "Which of the following crops is eaten as a fresh fruit?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Pumpkin.",
+          "isCorrect": false
+        },
+        {
+          "text": "Water melon.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cucumber.",
+          "isCorrect": false
+        },
+        {
+          "text": "Calabash.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Water melon**.\n\n**Analysis of the Correct Answer:**\nA **watermelon** is a sweet, fleshy crop that is typically harvested, sliced, and eaten raw as a refreshing dessert or snack. Therefore, it is classified as a fresh fruit crop.\n\n**Why Other Options Are Incorrect:**\n* **Pumpkin.:** While botanically a fruit, pumpkins are treated culinarily as vegetables; they are hard and must be cooked (boiled or roasted) before eating.\n* **Cucumber.:** Cucumbers are eaten raw, but they are generally considered culinary vegetables and are used in salads rather than consumed as a sweet dessert fruit.\n* **Calabash.:** Calabashes (bottle gourds) are often cooked as vegetables when young, or dried and hollowed out when mature to be used as containers; they are not eaten as sweet fresh fruits.\n\n📌 **Key Learning Note:**\nFruits like **watermelons**, **mangoes**, and **oranges** are sweet and eaten raw, whereas gourds like pumpkins are usually cooked as vegetables."
+    },
+    {
+      "id": "kpsea-science-2022-q20",
+      "questionNumber": 20,
+      "questionText": "What is the main nutritional benefit of eating mangoes?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Vitamins.",
+          "isCorrect": true
+        },
+        {
+          "text": "Proteins.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fibre.",
+          "isCorrect": false
+        },
+        {
+          "text": "Carbohydrates.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Vitamins**.\n\n**Analysis of the Correct Answer:**\nFruits like mangoes, oranges, and pineapples are primarily known for being incredibly rich natural sources of **vitamins** (especially Vitamin C and Vitamin A). Vitamins are protective nutrients required in small amounts by the body to boost the immune system and protect against diseases like scurvy and night blindness.\n\n**Why Other Options Are Incorrect:**\n* **Proteins.:** Proteins are body-building foods essential for growth and tissue repair, mostly found in meat, beans, milk, and eggs, not fruits.\n* **Fibre.:** While fruits do contain dietary fiber (roughage) which aids digestion, their primary nutritional classification and value lies in their high vitamin content.\n* **Carbohydrates.:** Carbohydrates are energy-giving foods found primarily in cereals, tubers (potatoes, cassava), and bread, not primarily in fleshy fruits.\n\n📌 **Key Learning Note:**\n- **Vitamins:** Protective foods (Fruits and Vegetables).\n- **Proteins:** Body-building foods (Meat, Beans, Milk).\n- **Carbohydrates:** Energy-giving foods (Maize, Bread, Potatoes)."
+    },
+    {
+      "id": "kpsea-science-2022-q21",
+      "questionNumber": 21,
+      "questionText": "Why is the part labelled **G** left attached on the produce during harvesting?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q21",
+      "options": [
+        {
+          "text": "For hanging during storage.",
+          "isCorrect": false
+        },
+        {
+          "text": "For holding during slicing.",
+          "isCorrect": false
+        },
+        {
+          "text": "To prevent spoilage.",
+          "isCorrect": true
+        },
+        {
+          "text": "To hold when carrying.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **To prevent spoilage.**\n\n**Analysis of the Correct Answer:**\nWhen harvesting large cucurbits like pumpkins, squashes, and watermelons, farmers are advised to leave a small piece of the stalk (the pedicel, labelled G) attached to the fruit. Cutting too close or removing the stalk completely creates an open wound on the fruit's surface, which allows bacteria and rotting fungi to enter easily, leading to rapid spoilage during storage.\n\n**Why Other Options Are Incorrect:**\n* **For hanging during storage.:** Large heavy fruits like pumpkins and watermelons are stored on the floor, shelves, or in crates; hanging them by their weak stalks would cause them to break and fall.\n* **For holding during slicing.:** When slicing these large fruits, people hold the firm body of the fruit, not the small stalk.\n* **To hold when carrying.:** Carrying heavy fruits by their stalk is risky because the stalk can easily detach, causing the fruit to drop and burst.\n\n📌 **Key Learning Note:**\nAlways harvest fruits with a short piece of their **stalk** attached to prevent entry of rotting organisms and increase their shelf life."
+    },
+    {
+      "id": "kpsea-science-2022-q22",
+      "questionNumber": 22,
+      "questionText": "The type of seedbed shown in the picture to grow maize is a",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q22-23",
+      "options": [
+        {
+          "text": "container",
+          "isCorrect": false
+        },
+        {
+          "text": "shallow pit",
+          "isCorrect": false
+        },
+        {
+          "text": "sunken bed",
+          "isCorrect": true
+        },
+        {
+          "text": "moisture bed.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **sunken bed**.\n\n**Analysis of the Correct Answer:**\nThe picture illustrates crops planted in a depression or trench that is dug lower than the surrounding ground level. This agricultural structure is known as a **sunken bed**. It is specifically designed to trap and conserve water, making it ideal for farming in dry or semi-arid areas.\n\n**Why Other Options Are Incorrect:**\n* **container:** Container farming involves growing plants in movable pots, sacks, or buckets above ground, not in a depression dug into the earth.\n* **shallow pit:** While it is a pit, in agricultural terms, a wide cultivated depression used for planting multiple crops to conserve water is technically termed a sunken bed.\n* **moisture bed.:** Though it conserves moisture, the correct standard agricultural terminology for this specific physical structure is a sunken bed.\n\n📌 **Key Learning Note:**\n- **Sunken Bed:** Dug below ground level to collect and conserve water (used in dry areas).\n- **Raised Bed:** Built above ground level to improve drainage (used in wet/swampy areas)."
+    },
+    {
+      "id": "kpsea-science-2022-q23",
+      "questionNumber": 23,
+      "questionText": "How does the seedbed in the picture help to conserve water?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q22-23",
+      "options": [
+        {
+          "text": "Reduces evaporation.",
+          "isCorrect": false
+        },
+        {
+          "text": "Collects surface run-off.",
+          "isCorrect": true
+        },
+        {
+          "text": "Prevents effects of strong wind.",
+          "isCorrect": false
+        },
+        {
+          "text": "Protects soil from strong sun.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Collects surface run-off.**\n\n**Analysis of the Correct Answer:**\nSunken beds are designed as depressions in the soil. Because they are lower than the surrounding land, they act as basins that **trap and collect surface water run-off** during rains. This collected water seeps directly into the root zone of the crops, ensuring they have adequate moisture even in dry conditions.\n\n**Why Other Options Are Incorrect:**\n* **Reduces evaporation.:** While the sunken nature might offer slight wind protection, evaporation is primarily reduced by applying **mulch**, not just by the structure of the bed itself.\n* **Prevents effects of strong wind.:** Strong winds are prevented by planting **windbreaks** (tall trees/hedges) around the farm, not by digging sunken beds.\n* **Protects soil from strong sun.:** Protecting soil from direct strong sun is the function of **mulching** or constructing a **shade**, not digging a sunken bed.\n\n📌 **Key Learning Note:**\nThe main advantage of a **sunken bed** is its ability to harvest and collect **surface water run-off**, making it excellent for crop survival in arid regions."
+    },
+    {
+      "id": "kpsea-science-2022-q24",
+      "questionNumber": 24,
+      "questionText": "The learners used the garden tool",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q24-25",
+      "options": [
+        {
+          "text": "to lift seedlings from the nursery bed",
+          "isCorrect": false
+        },
+        {
+          "text": "for weeding the nursery bed",
+          "isCorrect": false
+        },
+        {
+          "text": "to measure the spacing for the crop",
+          "isCorrect": false
+        },
+        {
+          "text": "to level the nursery bed.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **to level the nursery bed.**\n\n**Analysis of the Correct Answer:**\nThe garden tool shown in the diagram is a **rake**. In the preparation of a nursery bed (or any seedbed), after digging and breaking large soil clods with a *jembe* or fork, a rake is used to gather stones/trash and to **level the surface of the soil** to create a fine, smooth tilth suitable for planting tiny seeds.\n\n**Why Other Options Are Incorrect:**\n* **to lift seedlings from the nursery bed:** Lifting delicate seedlings without damaging their roots requires a **garden trowel**, not a rake.\n* **for weeding the nursery bed:** Removing small weeds from a nursery bed is usually done by hand-pulling or using a small pointed stick, as a large rake would uproot the crop seedlings.\n* **to measure the spacing for the crop:** Measuring spacing between crop rows or planting holes is done using a **measuring string/tape** and a tape measure, not a rake.\n\n📌 **Key Learning Note:**\nA **rake** is used for gathering trash/stones and **leveling the soil surface** during seedbed preparation."
+    },
+    {
+      "id": "kpsea-science-2022-q25",
+      "questionNumber": 25,
+      "questionText": "Which of the following caring practices should be carried out on the tool after use?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q24-25",
+      "options": [
+        {
+          "text": "Oiling.",
+          "isCorrect": false
+        },
+        {
+          "text": "Painting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cleaning.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sharpening.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Cleaning.**\n\n**Analysis of the Correct Answer:**\nAfter using any garden tool (like a *jembe*, fork, or rake) in the farm, the most immediate and basic care practice is **cleaning** it. This involves washing or scraping off wet mud, soil, and plant sap. If dirt is left on metallic tools, it retains moisture which leads to rusting and degradation of the tool.\n\n**Why Other Options Are Incorrect:**\n* **Oiling.:** Oiling is an important maintenance practice to prevent rust, but it must be done *after* the tool has been thoroughly cleaned and dried.\n* **Painting.:** Painting handles or metal parts prevents rotting and rusting, but it is an occasional long-term maintenance practice, not an immediate post-use step.\n* **Sharpening.:** Cutting tools (like *pangas* and axes) require sharpening when blunt, but tools like rakes do not need sharpening; however, all tools need cleaning.\n\n📌 **Key Learning Note:**\nThe first step in maintaining farm tools after use is always **cleaning** them to remove dirt and moisture, which prevents rusting."
+    },
+    {
+      "id": "kpsea-science-2022-q26",
+      "questionNumber": 26,
+      "questionText": "Mrs. Chacha always stuffs her leather shoes with old newspapers before storing. Which of the following is the reason for stuffing old newspapers? To",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "prevent her shoes from becoming small",
+          "isCorrect": false
+        },
+        {
+          "text": "prevent her shoes from getting dirty",
+          "isCorrect": false
+        },
+        {
+          "text": "make her shoes dry completely",
+          "isCorrect": false
+        },
+        {
+          "text": "prevent her shoes from losing shape.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **prevent her shoes from losing shape.**\n\n**Analysis of the Correct Answer:**\nLeather is a pliable material that can easily crease, fold, or collapse when empty, especially when stored for long periods (like during school holidays). Stuffing leather shoes tightly with old newspapers or shoe trees provides internal structural support, helping the leather maintain its original molded form and **preventing the shoes from losing their shape**.\n\n**Why Other Options Are Incorrect:**\n* **prevent her shoes from becoming small:** Leather can shrink if dried improperly (e.g. by a hot fire), but newspapers alone do not physically stretch or stop natural shrinkage if conditions are bad.\n* **prevent her shoes from getting dirty:** Newspapers are stuffed *inside* the shoe; they do nothing to protect the outside leather surface from dust or dirt in the storage box.\n* **make her shoes dry completely:** While dry newspapers can absorb some interior dampness (like sweat), their primary mechanical function when packed tightly is maintaining the shoe's shape.\n\n📌 **Key Learning Note:**\nTo properly store leather shoes, stuff them with **newspapers** to help them retain their structural **shape** and prevent permanent creases."
+    },
+    {
+      "id": "kpsea-science-2022-q27",
+      "questionNumber": 27,
+      "questionText": "Kwamboka is feeling unwell. She is showing the following symptoms: Fever, pain in the joints, headache and vomiting. Which of the following diseases is she suffering from?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Malaria.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cough.",
+          "isCorrect": false
+        },
+        {
+          "text": "Measles.",
+          "isCorrect": false
+        },
+        {
+          "text": "Chicken pox.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Malaria.**\n\n**Analysis of the Correct Answer:**\n**Malaria** is a disease caused by Plasmodium parasites transmitted through the bite of an infected female Anopheles mosquito. The classic, defining symptoms of malaria include high and alternating **fever, severe headaches, joint pains (body aches), shivering/chills, and vomiting**.\n\n**Why Other Options Are Incorrect:**\n* **Cough.:** A common cough or flu is primarily characterized by a runny nose, sore throat, and coughing, not typically severe joint pains or shivering fever.\n* **Measles.:** Measles is a viral disease characterized by a high fever, runny nose, red eyes, and a distinct red skin rash that spreads over the body.\n* **Chicken pox.:** Chickenpox is identified by an itchy skin rash that forms fluid-filled blisters (vesicles) all over the body, along with a mild fever.\n\n📌 **Key Learning Note:**\n- **Malaria Symptoms:** High fever, severe headache, joint pains, and vomiting.\n- **Measles Symptoms:** Red skin rash, fever, runny nose, and red eyes."
+    },
+    {
+      "id": "kpsea-science-2022-q28",
+      "questionNumber": 28,
+      "questionText": "Kangu and Yala are helping to make a family budget. Which of the following is the reason why they are making a family budget? To",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "make their family happy",
+          "isCorrect": false
+        },
+        {
+          "text": "buy expensive items",
+          "isCorrect": false
+        },
+        {
+          "text": "make good use of money",
+          "isCorrect": true
+        },
+        {
+          "text": "buy all the items in fashion.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **make good use of money**.\n\n**Analysis of the Correct Answer:**\nA **family budget** is a written financial plan that outlines the expected family income and how it will be spent on various needs (food, rent, school fees) and savings over a specific period. By prioritizing essential needs over wants, a budget ensures that the family lives within its means, thereby helping them to **make good use of their money** and avoid unnecessary debts.\n\n**Why Other Options Are Incorrect:**\n* **make their family happy:** While financial stability brings peace of mind, buying things outside the budget just to make people happy leads to financial ruin.\n* **buy expensive items:** A budget often restricts buying expensive luxury items unless money has been specifically saved for them over time.\n* **buy all the items in fashion.:** Fashionable items are \"wants,\" not basic \"needs.\" A good budget prioritizes basic needs first.\n\n📌 **Key Learning Note:**\nThe primary purpose of budgeting is to allocate limited income effectively to satisfy basic needs and **make good use of money** without overspending."
+    },
+    {
+      "id": "kpsea-science-2022-q29",
+      "questionNumber": 29,
+      "questionText": "Grade 4 learners were asked by their Home Science teacher to make posters on the foods that make us healthy. Read what they wrote on the posters.",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q29",
+      "options": [
+        {
+          "text": "Poster 1",
+          "isCorrect": false
+        },
+        {
+          "text": "Poster 2",
+          "isCorrect": true
+        },
+        {
+          "text": "Poster 3",
+          "isCorrect": false
+        },
+        {
+          "text": "Posters 1 and 3.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Poster 2**.\n\n**Analysis of the Correct Answer:**\nFoods that provide the body with energy are classified as **Carbohydrates**. Poster 2 lists **Cassava, Rice, Bread, and Ugali**, all of which are classic examples of carbohydrate-rich, energy-giving foods.\n\n**Why Other Options Are Incorrect:**\n* **Poster 1:** This poster lists Beans, Meat, Eggs, and Fish. These are all **Proteins** (body-building foods) used for growth and repair of tissues, not primarily for energy.\n* **Poster 3:** This poster lists Oranges, Spinach, Pineapples, and Cabbages. These are fruits and vegetables rich in **Vitamins and Minerals** (protective foods) which boost immunity.\n* **Posters 1 and 3.:** Neither of these posters contains energy-giving foods.\n\n📌 **Key Learning Note:**\n- **Energy-giving foods (Carbohydrates/Fats):** Ugali, Rice, Bread, Cassava, Potatoes.\n- **Body-building foods (Proteins):** Meat, Beans, Eggs, Milk.\n- **Protective foods (Vitamins/Minerals):** Fruits and Vegetables.",
+      "questionList": [
+        "**Poster 1:** Beans, Meat, Eggs, Fish",
+        "**Poster 2:** Cassava, Rice, Bread, Ugali",
+        "**Poster 3:** Oranges, Spinach, Pineapples, Cabbages"
+      ],
+      "questionSuffix": "Which of the posters contain foods that provide our body with energy?"
+    },
+    {
+      "id": "kpsea-science-2022-q30",
+      "questionNumber": 30,
+      "questionText": "Joan wants to help her mother preserve cereals by drying in the sun. Which of the following shows the correct steps?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Wash, dry completely and put in the sun.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dry completely, pack in airtight bags",
+          "isCorrect": false
+        },
+        {
+          "text": "Dry completely, pack in bags and store.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dry completely, pack in airtight bags, store in a dry place.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Dry completely, pack in airtight bags, store in a dry place.**\n\n**Analysis of the Correct Answer:**\nProper preservation of harvested cereals (like maize or beans) requires a complete sequence of steps to prevent rotting and pest attacks. First, they must be **dried completely** in the hot sun to remove moisture. Second, they must be **packed in airtight bags** (like hermetic bags) to suffocate any weevils or insects. Finally, they must be **stored in a dry, well-ventilated place** (like a granary) elevated off the ground to prevent dampness.\n\n**Why Other Options Are Incorrect:**\n* **Wash, dry completely and put in the sun.:** Cereals are never washed with water before storage, as adding moisture encourages rapid fungal/mold growth and rotting.\n* **Dry completely, pack in airtight bags:** This sequence is incomplete because it ignores the final critical step of placing the bags in a suitable dry storage area (granary).\n* **Dry completely, pack in bags and store.:** Packing in regular porous bags (instead of airtight bags) allows oxygen and pests (weevils) to easily enter and destroy the stored grain.\n\n📌 **Key Learning Note:**\nTo store grains safely: **Dry completely** (removes moisture) ➔ **Pack in airtight bags** (kills pests) ➔ **Store in a dry place** (prevents rotting)."
+    },
+    {
+      "id": "kpsea-science-2022-q31",
+      "questionNumber": 31,
+      "questionText": "Grade 6 learners used their digital devices to get information on cleaning a charcoal *jiko* that was used for cooking. The following is the information:",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "(ii), (i), (iv), (iii)",
+          "isCorrect": true
+        },
+        {
+          "text": "(i), (ii), (iv), (iii)",
+          "isCorrect": false
+        },
+        {
+          "text": "(i), (iii), (ii), (iv)",
+          "isCorrect": false
+        },
+        {
+          "text": "(ii), (i), (iii), (iv)",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **(ii), (i), (iv), (iii)**.\n\n**Analysis of the Correct Answer:**\nSafety is the first priority when cleaning a charcoal *jiko*. The correct and safe sequence is:\n1. **(ii) Allow it to cool:** Never handle a hot *jiko* to avoid severe burns.\n2. **(i) Empty the ashes:** Remove the cold, burnt ash from the ash tray.\n3. **(iv) Wipe the metal parts:** Clean the exterior metallic body using a damp cloth.\n4. **(iii) Leave it to dry:** Allow any moisture to dry off completely to prevent the metal from rusting.\n\n**Why Other Options Are Incorrect:**\n* **(i), (ii), (iv), (iii):** Emptying ashes (i) before allowing the *jiko* to cool (ii) is extremely dangerous as hot ashes can cause severe burns or start a fire.\n* **(i), (iii), (ii), (iv):** Again, emptying ashes (i) from a hot *jiko* is dangerous.\n* **(ii), (i), (iii), (iv):** Leaving it to dry (iii) before wiping the metal parts (iv) makes no logical sense.\n\n📌 **Key Learning Note:**\nAlways allow cooking equipment (like a *jiko* or stove) to **cool completely** before attempting to clean or handle them to prevent burn injuries.",
+      "questionList": [
+        "(i) Empty the *jiko*.",
+        "(ii) Let the *jiko* cool.",
+        "(iii) Leave it in an airy place to dry.",
+        "(iv) Wipe the metal parts with a cloth wrung out of warm soapy water."
+      ],
+      "questionSuffix": "Which of the following shows the correct order the learners can follow when cleaning the *jiko*?"
+    },
+    {
+      "id": "kpsea-science-2022-q32",
+      "questionNumber": 32,
+      "questionText": "Wanjala was told by her parents to be cleaning utensils immediately after use. Why do you think this is important?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "To make the utensil last long.",
+          "isCorrect": false
+        },
+        {
+          "text": "To prevent them from staining.",
+          "isCorrect": true
+        },
+        {
+          "text": "To prevent them from cracking.",
+          "isCorrect": false
+        },
+        {
+          "text": "To make them shine after washing.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **To prevent them from staining.**\n\n**Analysis of the Correct Answer:**\nKitchen utensils (like plates, cups, and sufurias) should be cleaned immediately after use while food remnants are still fresh. If dirty utensils are left unwashed for a long time, food particles (especially oils, tea, and colored spices) dry up, harden, and create permanent, stubborn **stains** that are very difficult to remove later.\n\n**Why Other Options Are Incorrect:**\n* **To make the utensil last long.:** While proper cleaning maintains hygiene, immediate washing is specifically to prevent staining; durability is more related to the material (e.g. plastic vs steel).\n* **To prevent them from cracking.:** Cracking happens due to physical dropping or extreme sudden temperature changes (like pouring cold water on hot glass), not due to delayed washing.\n* **To make them shine after washing.:** Shining is achieved by thorough scrubbing and polishing, not necessarily by washing immediately.\n\n📌 **Key Learning Note:**\nWash utensils **immediately after use** to prevent food from hardening and causing permanent **stains**."
+    },
+    {
+      "id": "kpsea-science-2022-q33",
+      "questionNumber": 33,
+      "questionText": "Loima and Ole-Kina are talking about the importance of mending clothes before washing. Loima tells Ole-Kina that we mend clothes before washing to",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "prevent the clothes from getting creased",
+          "isCorrect": false
+        },
+        {
+          "text": "make the clothes look new after washing",
+          "isCorrect": false
+        },
+        {
+          "text": "prevent further damage to the clothes",
+          "isCorrect": true
+        },
+        {
+          "text": "retain the original colour of the clothes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **prevent further damage to the clothes**.\n\n**Analysis of the Correct Answer:**\nMending (repairing tears, gaping seams, or replacing missing buttons) should always be done **before** washing. The physical action of washing (rubbing, wringing, and agitation in water) puts severe stress on fabric. If a garment with a small tear is washed, the tear will stretch and enlarge, causing **further damage to the clothes**.\n\n**Why Other Options Are Incorrect:**\n* **prevent the clothes from getting creased:** Creasing is caused by wringing or folding clothes poorly, and is fixed by ironing, not by mending.\n* **make the clothes look new after washing:** Washing and ironing make clothes look neat, but mending itself just repairs damage.\n* **retain the original colour of the clothes.:** Color retention is achieved by using mild soap, washing in cold water, and drying in the shade, not by mending.\n\n📌 **Key Learning Note:**\nAlways **mend** torn clothes *before* washing them because the washing process will enlarge small tears and cause further damage."
+    },
+    {
+      "id": "kpsea-science-2022-q34",
+      "questionNumber": 34,
+      "questionText": "What is the meaning of the symbol?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q34",
+      "options": [
+        {
+          "text": "Wash by hand.",
+          "isCorrect": false
+        },
+        {
+          "text": "Do not bleach.",
+          "isCorrect": true
+        },
+        {
+          "text": "Do not dry clean.",
+          "isCorrect": false
+        },
+        {
+          "text": "Dry on a clothes line.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Do not bleach.**\n\n**Analysis of the Correct Answer:**\nOn international laundry care labels, a simple triangle represents the use of bleach. When a symbol has a large cross (X) drawn through it, it indicates a warning or prohibition. Therefore, a triangle with an 'X' crossing it means **\"Do not bleach\"**.\n\n**Why Other Options Are Incorrect:**\n* **Wash by hand.:** The symbol for \"hand wash only\" is a tub of water with a hand submerged in it.\n* **Do not dry clean.:** The symbol for dry cleaning is a circle. A circle with a cross through it means \"Do not dry clean.\"\n* **Dry on a clothes line.:** The symbol for line drying is a square with a curved line at the top (like an envelope).\n\n📌 **Key Learning Note:**\n- **Triangle:** Bleach allowed.\n- **Triangle with X:** Do NOT bleach.\n- **Tub of water:** Wash symbol."
+    },
+    {
+      "id": "kpsea-science-2022-q35",
+      "questionNumber": 35,
+      "questionText": "Kola wants to make a neck scarf to give his grandfather as a gift. Which one of the following is not a method he can use to make the neck scarf?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Sewing.",
+          "isCorrect": true
+        },
+        {
+          "text": "Knitting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Weaving.",
+          "isCorrect": false
+        },
+        {
+          "text": "Crotcheting.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Sewing.**\n\n**Analysis of the Correct Answer:**\nKnitting, weaving, and crocheting are all primary methods of **creating fabric** or complete garments directly from threads or yarn. **Sewing**, on the other hand, is not a method of creating raw fabric; it is the process of using a needle and thread to **join pre-existing pieces of fabric together**. Therefore, it is the odd one out.\n\n**Why Other Options Are Incorrect:**\n* **Knitting.:** Knitting uses two long needles to interlock loops of yarn into a continuous fabric (often used for sweaters and scarves).\n* **Weaving.:** Weaving uses a loom to interlace two sets of threads (warp and weft) at right angles to create woven fabric.\n* **Crotcheting.:** Crocheting uses a single hooked needle to pull loops of yarn through other loops to create fabric.\n\n📌 **Key Learning Note:**\n**Knitting, weaving, and crocheting** create fabric from yarn. **Sewing** joins already-made fabrics together."
+    },
+    {
+      "id": "kpsea-science-2022-q36",
+      "questionNumber": 36,
+      "questionText": "Learners were asked to outline the process of performing long jump. Which of the following is the correct process?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Flight, take-off, approach, landing.",
+          "isCorrect": false
+        },
+        {
+          "text": "Approach, take-off, flight, landing.",
+          "isCorrect": true
+        },
+        {
+          "text": "Take-off, landing, approach, flight.",
+          "isCorrect": false
+        },
+        {
+          "text": "Landing, approach, take-off, flight.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Approach, take-off, flight, landing.**\n\n**Analysis of the Correct Answer:**\nThe long jump is a track and field event divided into four distinct phases that must happen in sequence:\n1. **Approach:** The athlete runs along the runway to build maximum speed.\n2. **Take-off:** The athlete forcefully jumps upwards and forwards from the wooden take-off board.\n3. **Flight:** The athlete moves through the air.\n4. **Landing:** The athlete touches down safely in the sandpit.\n\n**Why Other Options Are Incorrect:**\n* **Flight, take-off, approach, landing.:** Flight cannot happen before take-off.\n* **Take-off, landing, approach, flight.:** You cannot take off before making your approach run.\n* **Landing, approach, take-off, flight.:** Landing is the final phase, not the first.\n\n📌 **Key Learning Note:**\nThe correct sequence for jumps (Long Jump / High Jump): **Approach ➔ Take-off ➔ Flight ➔ Landing**."
+    },
+    {
+      "id": "kpsea-science-2022-q37",
+      "questionNumber": 37,
+      "questionText": "Which of the following statements is true about safety when throwing javelin in the field?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Only the thrower and the one to collect the thrown javelin should be in the throwing area.",
+          "isCorrect": false
+        },
+        {
+          "text": "The javelin may be thrown back to the throwing area after landing.",
+          "isCorrect": false
+        },
+        {
+          "text": "The thrown javelin should be caught while in the air to avoid breaking.",
+          "isCorrect": false
+        },
+        {
+          "text": "The thrower is the only player who is supposed to be in the throwing area.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **The thrower is the only player who is supposed to be in the throwing area.**\n\n**Analysis of the Correct Answer:**\nA javelin is a sharp, heavy spear that acts as a dangerous projectile. To prevent fatal accidents during practice or competition, strict safety rules apply. The most critical rule is that the throwing area and the landing sector must be completely clear of all people. **Only the thrower** is permitted in the throwing area when a throw is about to happen.\n\n**Why Other Options Are Incorrect:**\n* **Only the thrower and the one to collect...:** No one should be in the landing area waiting to collect it while it is being thrown; they must wait until the javelin lands and stops completely.\n* **The javelin may be thrown back to the throwing area...:** A javelin must **never** be thrown back to the starting point. It must be carried back by hand vertically.\n* **The thrown javelin should be caught while in the air...:** This is incredibly dangerous and fatal; a flying javelin must never be caught.\n\n📌 **Key Learning Note:**\nJavelins are dangerous weapons. **Never** throw a javelin if someone is in the landing area, and **never** throw it back to the starting line."
+    },
+    {
+      "id": "kpsea-science-2022-q38",
+      "questionNumber": 38,
+      "questionText": "A soccer goalkeeper strained a thigh muscle during a football match. A first aider applied a bandage on the injured part. Why was the bandage applied?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "To stop bleeding.",
+          "isCorrect": false
+        },
+        {
+          "text": "To reduce swelling.",
+          "isCorrect": true
+        },
+        {
+          "text": "To immobilise the leg.",
+          "isCorrect": false
+        },
+        {
+          "text": "To use the first aid materials.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **To reduce swelling.**\n\n**Analysis of the Correct Answer:**\nA strain is a stretched or torn muscle/tendon, while a sprain is a stretched or torn ligament. Both injuries cause immediate internal inflammation and swelling. In first aid, applying a firm bandage (compression) around the injured joint limits the accumulation of blood and inflammatory fluids in the tissues, which helps to **reduce swelling** and support the joint.\n\n**Why Other Options Are Incorrect:**\n* **To stop bleeding.:** Strains and sprains are internal tissue injuries; they do not involve open cuts or external bleeding.\n* **To immobilise the leg.:** While a bandage provides some support, complete immobilization of a fractured leg requires rigid **splints**, not just a bandage.\n* **To use the first aid materials.:** First aid materials are used to treat specific injuries, not just for the sake of using them up.\n\n📌 **Key Learning Note:**\nThe first aid treatment for Sprains and Strains follows the **RICE** method: **R**est, **I**ce, **C**ompression (bandage to reduce swelling), and **E**levation."
+    },
+    {
+      "id": "kpsea-science-2022-q39",
+      "questionNumber": 39,
+      "questionText": "Four athletes consumed different types of drinks before the race. Who among the four consumed the most appropriate drink for hydration?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Peter drunk water.",
+          "isCorrect": true
+        },
+        {
+          "text": "James drunk porridge.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sophia drunk milk.",
+          "isCorrect": false
+        },
+        {
+          "text": "Daisy drunk coffee.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Peter drunk water.**\n\n**Analysis of the Correct Answer:**\nAthletes need to hydrate properly before engaging in vigorous physical activities like a race to prevent muscle cramps and heat exhaustion. **Water** is the best, most easily absorbed liquid for rapid hydration. Therefore, Peter made the right choice by drinking water.\n\n**Why Other Options Are Incorrect:**\n* **James drunk porridge.:** Porridge is heavy, thick, and slow to digest. Drinking it right before a race causes stomach cramps and discomfort.\n* **Sophia drunk milk.:** Milk contains fats and proteins that are slow to digest and can cause nausea or an upset stomach during vigorous running.\n* **Daisy drunk coffee.:** Coffee contains caffeine, which is a diuretic (it makes you urinate more), leading to faster dehydration during the race.\n\n📌 **Key Learning Note:**\nAlways drink adequate amounts of plain **water** before and during exercise to stay hydrated. Avoid heavy meals, milk, or coffee right before a race."
+    },
+    {
+      "id": "kpsea-science-2022-q40",
+      "questionNumber": 40,
+      "questionText": "Which of the following activities would you and your friends engage in to enhance physical fitness?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Sleeping for long hours so as to rest.",
+          "isCorrect": false
+        },
+        {
+          "text": "Swimming regulary with friends.",
+          "isCorrect": true
+        },
+        {
+          "text": "Eating balanced diet at all times.",
+          "isCorrect": false
+        },
+        {
+          "text": "Watching soccer games to learn the skills.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Swimming regulary with friends.**\n\n**Analysis of the Correct Answer:**\nPhysical fitness is defined as the ability of the body systems to work efficiently, which is achieved and maintained through regular, active physical exercise. **Swimming regularly** is an excellent full-body aerobic exercise that builds cardiovascular endurance, muscular strength, and overall physical fitness.\n\n**Why Other Options Are Incorrect:**\n* **Sleeping for long hours so as to rest.:** While 8 hours of sleep is necessary for recovery, excessive sleeping leads to physical inactivity and obesity, not fitness.\n* **Eating balanced diet at all times.:** A balanced diet provides necessary nutrients for health, but diet alone without physical exercise does not build cardiovascular or muscular fitness.\n* **Watching soccer games to learn the skills.:** Watching others play sports is a passive, sedentary activity. Fitness requires *doing* the exercise yourself.\n\n📌 **Key Learning Note:**\n**Physical fitness** is achieved through active, regular physical exercises (like running, swimming, skipping rope) combined with a balanced diet."
+    },
+    {
+      "id": "kpsea-science-2022-q41",
+      "questionNumber": 41,
+      "questionText": "You have been asked to select players for your school's volleyball team. How many players will you identify to be in the court at the start of a volleyball game?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "6",
+          "isCorrect": true
+        },
+        {
+          "text": "12",
+          "isCorrect": false
+        },
+        {
+          "text": "11",
+          "isCorrect": false
+        },
+        {
+          "text": "7",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **6**.\n\n**Analysis of the Correct Answer:**\nIn a standard competitive game of volleyball, each team is allowed to have exactly **6 players** on the court at any one time. The players rotate positions on the court in a clockwise direction after winning the serve.\n\n**Why Other Options Are Incorrect:**\n* **12:** 12 represents the total number of players in a full squad (6 starting players + 6 substitutes on the bench), but only 6 are on the court at once.\n* **11:** 11 is the number of players on a field in soccer (football) or field hockey, not volleyball.\n* **7:** 7 is the number of players on a court in a standard game of netball or handball.\n\n📌 **Key Learning Note:**\n- **Volleyball:** 6 players per team.\n- **Netball:** 7 players per team.\n- **Football/Soccer:** 11 players per team."
+    },
+    {
+      "id": "kpsea-science-2022-q42",
+      "questionNumber": 42,
+      "questionText": "Grade six learners were planning for movement sequences in gymnastics. Which of the categories provided is an **appropriate** two-action sequence?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Side vault to Backward roll.",
+          "isCorrect": false
+        },
+        {
+          "text": "Backward roll to fence vault.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cartwheel to Headstand.",
+          "isCorrect": false
+        },
+        {
+          "text": "Astride Vault to Forward roll.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Astride Vault to Forward roll.**\n\n**Analysis of the Correct Answer:**\nIn gymnastics, a two-action sequence involves performing one skill immediately followed by another in a smooth, continuous motion. An **astride vault** involves jumping over a piece of apparatus (like a buck or box) with the legs spread wide apart. As the gymnast lands on the mat, their forward momentum naturally and safely allows them to tuck their head and perform a **forward roll** as the second action.\n\n**Why Other Options Are Incorrect:**\n* **Side vault to Backward roll.:** A side vault does not naturally provide the correct backward momentum or body position needed to smoothly transition into a backward roll upon landing.\n* **Backward roll to fence vault.:** A backward roll ends on the floor, making it impossible to immediately transition into a fence vault (which requires a running start and an apparatus).\n* **Cartwheel to Headstand.:** While possible for advanced gymnasts, a cartwheel ends in a standing lunge, making a sudden transition into a static headstand awkward and not a standard smooth continuous sequence for beginners.\n\n📌 **Key Learning Note:**\nA good gymnastic sequence connects movements smoothly using the body's natural momentum, such as transitioning from an **Astride Vault** directly into a **Forward Roll**."
+    },
+    {
+      "id": "kpsea-science-2022-q43",
+      "questionNumber": 43,
+      "questionText": "Your group is preparing to demonstrate flexibility testing to other class members. Which of the following equipment should your group use?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Sit and reach box.",
+          "isCorrect": true
+        },
+        {
+          "text": "Tape measure.",
+          "isCorrect": false
+        },
+        {
+          "text": "Weighing scale.",
+          "isCorrect": false
+        },
+        {
+          "text": "Measuring string.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Sit and reach box.**\n\n**Analysis of the Correct Answer:**\nThe **\"sit and reach\" box** is a standardized piece of physical fitness equipment specifically designed to measure the flexibility of the lower back and the hamstring muscles (back of the thighs). The individual sits with their legs flat against the box and reaches forward as far as possible along a measuring scale.\n\n**Why Other Options Are Incorrect:**\n* **Tape measure.:** While a tape measure is used to measure height or long jump distance, it is not a specialized box used to measure sitting flexibility.\n* **Weighing scale.:** A weighing scale is used to measure a person's body mass (weight), which is a measure of body composition, not flexibility.\n* **Measuring string.:** A string can measure distances (like the perimeter of a field), but it is not a standardized test equipment for measuring body flexibility.\n\n📌 **Key Learning Note:**\nThe **Sit and Reach test** is the most common way to measure the **flexibility** of the lower back and hamstrings."
+    },
+    {
+      "id": "kpsea-science-2022-q44",
+      "questionNumber": 44,
+      "questionText": "An athlete from your school finished first in a marathon race. Which was the most important physical fitness component the athlete used?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Power.",
+          "isCorrect": false
+        },
+        {
+          "text": "Speed.",
+          "isCorrect": false
+        },
+        {
+          "text": "Endurance.",
+          "isCorrect": true
+        },
+        {
+          "text": "Coordination.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Endurance.**\n\n**Analysis of the Correct Answer:**\nA marathon is a long-distance running event (usually 42.195 km). To successfully complete a marathon, an athlete requires excellent cardiovascular and muscular **endurance (stamina)**. Endurance is the ability of the heart, lungs, and muscles to sustain prolonged physical activity over a long period without getting overly tired.\n\n**Why Other Options Are Incorrect:**\n* **Power.:** Power is the ability to exert maximum force quickly (e.g., in weightlifting or shot put). Marathon running requires sustained effort, not short bursts of maximum power.\n* **Speed.:** While speed is crucial for 100m sprints, a marathon runner paces themselves; endurance is far more important than raw sprinting speed for long distances.\n* **Coordination.:** Coordination is the ability to use different parts of the body together smoothly (important in gymnastics or dribbling), but endurance is the primary limiting factor in a marathon.\n\n📌 **Key Learning Note:**\n- **Endurance:** Needed for long-distance running (Marathons).\n- **Speed:** Needed for short-distance sprints (100m dash).\n- **Power:** Needed for throwing events (Shot put, Javelin)."
+    },
+    {
+      "id": "kpsea-science-2022-q45",
+      "questionNumber": 45,
+      "questionText": "A group of learners preserved food appropriately when going out for an excursion. Why was the food preserved?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "To add taste before eating.",
+          "isCorrect": false
+        },
+        {
+          "text": "To keep warm and dry.",
+          "isCorrect": false
+        },
+        {
+          "text": "To stay long before spoiling.",
+          "isCorrect": true
+        },
+        {
+          "text": "For ease of carrying.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **To stay long before spoiling.**\n\n**Analysis of the Correct Answer:**\nFood preservation involves treating and handling food (such as drying, salting, canning, or smoking) to stop or severely slow down the growth of microorganisms (like bacteria and fungi) that cause rotting. The primary purpose of doing this is to extend the shelf life of the food so it can **stay a long time before spoiling** and be consumed during dry seasons.\n\n**Why Other Options Are Incorrect:**\n* **To add taste before eating.:** While some methods like smoking or salting do add flavor, the primary scientific goal of preservation is to stop rotting, not just to season the food.\n* **To keep warm and dry.:** Drying removes moisture, but preservation methods like freezing make food extremely cold, not warm. The goal is longevity, not temperature control.\n* **For ease of carrying.:** Drying makes food lighter and easier to transport, but this is a secondary benefit. The main goal is always to prevent spoilage.\n\n📌 **Key Learning Note:**\nThe main purpose of **food preservation** is to prevent the growth of bacteria and fungi, allowing food to be stored for a long time without spoiling."
+    },
+    {
+      "id": "kpsea-science-2022-q46",
+      "questionNumber": 46,
+      "questionText": "Four learners gave the meaning of ABC in first aid. Which of the responses given was the correct meaning?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Awake Breathing and Circulation.",
+          "isCorrect": false
+        },
+        {
+          "text": "Assess Breathing and Circulation.",
+          "isCorrect": false
+        },
+        {
+          "text": "Airways Breathing and Circulation.",
+          "isCorrect": true
+        },
+        {
+          "text": "Airways Bleeding and Circulation.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Airways Breathing and Circulation.**\n\n**Analysis of the Correct Answer:**\nIn first aid, the primary survey is a quick way to assess a casualty for life-threatening conditions. It follows the acronym **ABC**:\n- **A (Airways):** Check if the throat/windpipe is clear of obstructions so air can pass.\n- **B (Breathing):** Look, listen, and feel to check if the casualty is actually breathing in and out.\n- **C (Circulation):** Check for a pulse or severe bleeding to ensure blood is circulating in the body.\n\n**Why Other Options Are Incorrect:**\n* **Awake Breathing and Circulation.:** 'A' does not stand for Awake; a casualty can be unconscious but still have a clear airway.\n* **Assess Breathing and Circulation.:** While you do assess them, 'A' stands specifically for Airways.\n* **Airways Bleeding and Circulation.:** 'B' stands for Breathing. Bleeding is handled under 'C' (Circulation).\n\n📌 **Key Learning Note:**\nThe most critical First Aid check for an unconscious casualty is the **ABC** rule: **Airway**, **Breathing**, and **Circulation**."
+    },
+    {
+      "id": "kpsea-science-2022-q47",
+      "questionNumber": 47,
+      "questionText": "A learner was stung by a bee during an outdoor activity in the school farm. What did the teacher advice the learner to do?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Immediately go home and sleep.",
+          "isCorrect": false
+        },
+        {
+          "text": "Place hot water in the stung area.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pull the sting out immediately.",
+          "isCorrect": true
+        },
+        {
+          "text": "Kill the bees and continue.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Pull the sting out immediately.**\n\n**Analysis of the Correct Answer:**\nWhen a honeybee stings, it dies and leaves its barbed stinger attached to a venom sac embedded in the victim's skin. The sac continues to pump venom into the body for several minutes. The most critical and immediate first aid step is to **pull or scrape the sting out immediately** to stop more venom from entering the body, which reduces pain and swelling.\n\n**Why Other Options Are Incorrect:**\n* **Immediately go home and sleep.:** Sleeping does not stop the venom from being pumped in. The sting must be removed first.\n* **Place hot water in the stung area.:** Hot water will increase blood circulation in the area, causing the venom to spread faster and increasing the pain and swelling. A cold compress (ice) should be used instead.\n* **Kill the bees and continue.:** The bee that stung is already dying. Attacking other bees might provoke a swarm attack, making the situation much worse.\n\n📌 **Key Learning Note:**\nIn the event of a bee sting, immediately **scrape or pull out the stinger** to stop the venom, then apply a cold compress to reduce swelling."
+    },
+    {
+      "id": "kpsea-science-2022-q48",
+      "questionNumber": 48,
+      "questionText": "Which one shows an over arm serve technique?",
+      "questionType": "mcq",
+      "contextRef": "ctx-science-2022-q48",
+      "options": [
+        {
+          "text": "A",
+          "isCorrect": false
+        },
+        {
+          "text": "B",
+          "isCorrect": false
+        },
+        {
+          "text": "C",
+          "isCorrect": false
+        },
+        {
+          "text": "D",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nImage **D** illustrates a player executing an **overarm serve** in volleyball. In this technique, the player tosses the ball high into the air and strikes it powerfully with an open hand using an overarm swinging motion (above the shoulder) to send it over the net. \n\n**Why Other Options Are Incorrect:**\n* **A:** Image A shows a player diving or rolling on the floor to save a low ball, not serving.\n* **B:** Image B shows a player executing a **dig** or underarm pass, used to receive a serve or spike.\n* **C:** Image C shows a player performing a **volley** (or set) using the fingertips above the head to pass the ball to a spiker.\n\n📌 **Key Learning Note:**\n- **Overarm Serve:** Hitting the ball forcefully over the net from above the shoulder.\n- **Volley:** Passing the ball using fingertips above the head.\n- **Dig:** Receiving a low ball using the forearms."
+    },
+    {
+      "id": "kpsea-science-2022-q49",
+      "questionNumber": 49,
+      "questionText": "When playing a game, players aim at scoring. Which of the following games is correctly matched with the method of scoring?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Tag rugby – Shot",
+          "isCorrect": false
+        },
+        {
+          "text": "Volleyball – Try",
+          "isCorrect": false
+        },
+        {
+          "text": "Soccer – Goal",
+          "isCorrect": true
+        },
+        {
+          "text": "Handball – Gun",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Soccer  Goal**.\n\n**Analysis of the Correct Answer:**\nDifferent sports have different terminology for scoring. In **Soccer (Football)**, when the ball successfully crosses the goal line between the goalposts, it is correctly referred to as scoring a **\"Goal\"**.\n\n**Why Other Options Are Incorrect:**\n* **Tag rugby  Shot:** In Tag Rugby (and standard rugby), scoring by placing the ball down in the opponent's goal area is called a **\"Try\"**, not a shot.\n* **Volleyball  Try:** In Volleyball, scoring is referred to as winning a **\"Point\"**, and games are won by winning \"Sets,\" not tries.\n* **Handball  Gun:** In Handball, scoring is called a **\"Goal\"**. \"Gun\" is not a scoring term in any of these sports; it is an unrelated word.\n\n📌 **Key Learning Note:**\n- **Soccer & Handball:** Score is a **Goal**.\n- **Rugby:** Score is a **Try**.\n- **Volleyball & Tennis:** Score is a **Point**."
+    },
+    {
+      "id": "kpsea-science-2022-q50",
+      "questionNumber": 50,
+      "questionText": "During a netball competition, one player used a shoulder pass to pass the ball to a team mate. Why did this player choose to use the shoulder pass?",
+      "questionType": "mcq",
+      "options": [
+        {
+          "text": "Team mate was close.",
+          "isCorrect": false
+        },
+        {
+          "text": "Team mate was running.",
+          "isCorrect": false
+        },
+        {
+          "text": "Team mate was marked.",
+          "isCorrect": false
+        },
+        {
+          "text": "Team mate was far.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Team mate was far.**\n\n**Analysis of the Correct Answer:**\nThe **shoulder pass** in netball is a powerful, one-handed pass executed from shoulder height. It is specifically used to throw the ball very quickly over **long distances** down the court to a teammate who is **far** away. \n\n**Why Other Options Are Incorrect:**\n* **Team mate was close.:** If a teammate is close, a short, quick **chest pass** or a gentle **bounce pass** is much safer and more accurate than a powerful shoulder pass.\n* **Team mate was running.:** A teammate can be running close by or far away. The defining reason for choosing a shoulder pass over a chest pass is the distance, not just the movement.\n* **Team mate was marked.:** If a teammate is heavily marked by a defender, a high **lob pass** over the defender's head is often used, rather than a direct, flat shoulder pass which might be intercepted.\n\n📌 **Key Learning Note:**\n- **Shoulder Pass:** Used for passing the ball over **long distances**.\n- **Chest Pass:** Used for quick, accurate passes over **short distances**."
+    }
+  ]
+}

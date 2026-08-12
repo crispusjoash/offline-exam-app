@@ -8,19 +8,19 @@ export const kjseaSst2025 = {
   "sharedContexts": {
     "ctx-sst-q13": {
       "type": "image",
-      "imagePath": "/assets/kjsea_sst_2025_q13.png",
+      "imagePath": "/assets/kjsea_sst_2025_q13.webp",
       "title": "Vegetation zones diagram for Question 13",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-sst-q30": {
       "type": "image",
-      "imagePath": "/assets/kjsea_sst_2025_q30.png",
+      "imagePath": "/assets/kjsea_sst_2025_q30.webp",
       "title": "Map of Kapas Area for Question 30",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-sst-q33": {
       "type": "image",
-      "imagePath": "/assets/kjsea_sst_2025_q33.png",
+      "imagePath": "/assets/kjsea_sst_2025_q33.webp",
       "title": "Map of Africa for Question 33",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     }

@@ -28,21 +28,21 @@ export const kpseaMath2025 = {
     },
     "ctx-math-2025-q22": {
       "type": "image",
-      "imagePath": "/assets/math_2025_q22.png",
+      "imagePath": "/assets/math_2025_q22.webp",
       "title": "Triangle Angle",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-math-2025-q24": {
       "type": "image",
-      "imagePath": "/assets/math_2025_q24.png",
+      "imagePath": "/assets/math_2025_q24.webp",
       "title": "Rabbit Hutch",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-math-2025-q25": {
       "type": "image",
-      "imagePath": "/assets/math_2025_q25.jpg",
+      "imagePath": "/assets/math_2025_q25.webp",
       "title": "Favourite Games Bar Graph",
       "cssFilter": "none",
       "scanEffect": false
@@ -56,7 +56,7 @@ export const kpseaMath2025 = {
     },
     "ctx-math-2025-q23": {
       "type": "image",
-      "imagePath": "/assets/math_2025_q23.png",
+      "imagePath": "/assets/math_2025_q23.webp",
       "title": "Cuboid Garbage Box",
       "cssFilter": "none",
       "scanEffect": false

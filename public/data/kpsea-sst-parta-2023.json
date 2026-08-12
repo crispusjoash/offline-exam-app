@@ -1,0 +1,927 @@
+{
+  "id": "kpsea-sst-parta-2023",
+  "title": "KPSEA 2023 Social Studies & Creative Arts (Part A)",
+  "subject": "Social Studies & Creative Arts (Part A)",
+  "year": "2023",
+  "isSubPaper": true,
+  "durationMinutes": 100,
+  "sharedContexts": {
+    "ctx-sst-q1": {
+      "type": "image",
+      "imagePath": "/assets/sst_q1_overlapping.webp",
+      "title": "Overlapping drawings for Question 1"
+    },
+    "ctx-sst-q4": {
+      "type": "image",
+      "imagePath": "/assets/sst_q4_weaving.webp",
+      "title": "Weaving pattern for Question 4"
+    },
+    "ctx-sst-q5": {
+      "type": "image",
+      "imagePath": "/assets/sst_q5_pot.webp",
+      "title": "Pottery coiled pot for Question 5"
+    },
+    "ctx-sst-q7": {
+      "type": "image",
+      "imagePath": "/assets/sst_q7_wristband.webp",
+      "title": "Leather wristband for Question 7",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-sst-q16": {
+      "type": "image",
+      "imagePath": "/assets/sst_q16_rhythm.svg",
+      "title": "Rhythm patterns for Question 16",
+      "scanEffect": false
+    },
+    "ctx-sst-q20": {
+      "type": "image",
+      "imagePath": "/assets/sst_q20_instruments.webp",
+      "title": "Indigenous instruments for Question 20",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-sst-q22": {
+      "type": "image",
+      "imagePath": "/assets/sst_q22_relief.webp",
+      "title": "Relief diagrams for Question 22",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-sst-q23": {
+      "type": "image",
+      "imagePath": "/assets/sst_q23_town.svg",
+      "title": "Town structure for Question 23",
+      "scanEffect": false
+    }
+  },
+  "sectionA": [
+    {
+      "questionNumber": 1,
+      "id": "sst-q1",
+      "contextRef": "ctx-sst-q1",
+      "questionText": "Study the drawings and choose one that shows correct overlapping.",
+      "options": [
+        {
+          "text": "A",
+          "isCorrect": true
+        },
+        {
+          "text": "B",
+          "isCorrect": false
+        },
+        {
+          "text": "C",
+          "isCorrect": false
+        },
+        {
+          "text": "D",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nIn visual arts and drawing, **overlapping** is a technique used to create the illusion of 3D depth and spatial distance on a flat 2D surface. Diagram **A** illustrates correct overlapping where an object in the foreground partially covers or conceals part of an object situated behind it, clearly establishing which object is closer to the viewer.\n\n**Why Other Options Are Incorrect:**\n* **B:** Shows objects floating separately in space without any overlapping relationship to show depth.\n* **C:** Shows objects drawn side-by-side touching at the edges rather than overlapping.\n* **D:** Displays isolated objects without any overlapping elements.\n\n📌 **Key Learning Note:**\nOverlapping occurs when an object in front partially hides an object behind it, creating visual depth and perspective."
+    },
+    {
+      "questionNumber": 2,
+      "id": "sst-q2",
+      "questionText": "Which of the following would best describe a still life composition?",
+      "options": [
+        {
+          "text": "People sitting still.",
+          "isCorrect": false
+        },
+        {
+          "text": "Still trees on a calm day.",
+          "isCorrect": false
+        },
+        {
+          "text": "Buildings and street lights.",
+          "isCorrect": false
+        },
+        {
+          "text": "Calabash, gourd, pot.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Calabash, gourd, pot.**.\n\n**Analysis of the Correct Answer:**\nA **still life composition** is an artistic arrangement of non-moving, inanimate (non-living) man-made or natural objects placed together on a surface for drawing or painting. A group consisting of a **calabash, gourd, and clay pot** is a classic example of a traditional still life arrangement.\n\n**Why Other Options Are Incorrect:**\n* **People sitting still.:** Refers to human figure drawing or pose modeling, not still life art.\n* **Still trees on a calm day.:** Represents landscape drawing of outdoor natural living environments.\n* **Buildings and street lights.:** Represents architectural or townscape drawing, not a tabletop still life arrangement.\n\n📌 **Key Learning Note:**\nStill life art consists of arranged non-living (inanimate) objects such as pots, gourds, fruits, vases, or books."
+    },
+    {
+      "questionNumber": 3,
+      "id": "sst-q3",
+      "questionText": "Why is it necessary to wash a fountain pen when you change to a different colour of ink?",
+      "options": [
+        {
+          "text": "To make the pen clean.",
+          "isCorrect": false
+        },
+        {
+          "text": "To make the ink clear.",
+          "isCorrect": false
+        },
+        {
+          "text": "To avoid blocking the pen.",
+          "isCorrect": false
+        },
+        {
+          "text": "To avoid mixing ink colours.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **To avoid mixing ink colours.**.\n\n**Analysis of the Correct Answer:**\nWhen switching to a new ink color in a fountain pen or calligraphic pen, it is essential to flush the nib and reservoir with clean water **to avoid mixing ink colours**. If residual old ink remains inside, it will mix with the new ink, contaminating its color purity and producing muddy, unexpected shades.\n\n**Why Other Options Are Incorrect:**\n* **To make the pen clean.:** While cleaning removes dust, preventing color contamination is the primary functional reason when changing ink colors.\n* **To make the ink clear.:** Ink is intended to be vibrant and opaque, not transparent or clear.\n* **To avoid blocking the pen.:** Removing dried ink prevents clogging, but flushing specifically when changing inks prevents color bleeding.\n\n📌 **Key Learning Note:**\nFlushing a fountain pen with clean water when changing ink cartridges prevents color contamination."
+    },
+    {
+      "questionNumber": 4,
+      "id": "sst-q4",
+      "contextRef": "ctx-sst-q4",
+      "questionText": "A learner is to weave the item shown in the picture.",
+      "questionSuffix": "Identify the technique to be used.",
+      "options": [
+        {
+          "text": "Twine",
+          "isCorrect": true
+        },
+        {
+          "text": "Plaiting",
+          "isCorrect": false
+        },
+        {
+          "text": "Plain weave",
+          "isCorrect": false
+        },
+        {
+          "text": "Coil and stitch.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Twine**.\n\n**Analysis of the Correct Answer:**\nThe weaving technique illustrated is **twining** (twine weave). Twining is a basketry and weaving method where a pair of flexible horizontal weft strands are twisted around each vertical warp strand as weaving progresses, creating a strong, tight, and durable woven structure.\n\n**Why Other Options Are Incorrect:**\n* **Plaiting:** Involves braiding three or more flexible strands over each other without fixed warp threads.\n* **Plain weave:** Involves passing a single weft thread alternately over and under single warp threads in a simple checkerboard pattern.\n* **Coil and stitch:** A basketry method where a central core bundle is coiled spirally and stitched together using thread or raffia.\n\n📌 **Key Learning Note:**\n**Twining** is a weaving technique where two weft strands twist around warp threads to construct durable baskets and mats."
+    },
+    {
+      "questionNumber": 5,
+      "id": "sst-q5",
+      "contextRef": "ctx-sst-q5",
+      "questionText": "The picture below is a pot made using the coil technique.",
+      "questionSuffix": "Which of the following is the best way of joining the coils?",
+      "options": [
+        {
+          "text": "Using slip.",
+          "isCorrect": true
+        },
+        {
+          "text": "Using pallets.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using glue.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pressing well.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Using slip.**.\n\n**Analysis of the Correct Answer:**\nIn pottery and clay work using the coiling technique, individual clay coils must be joined securely to form a solid vessel. The best way to join coils is by scoring (scratching) the joining edges and applying **slip** (a liquid cream-like mixture of clay and water). Slip acts as a natural **clay glue**, fusing the coils together seamlessly when pressed and smoothed.\n\n**Why Other Options Are Incorrect:**\n* **Using pallets:** Pallets are flat wooden boards used for holding or mixing materials, not bonding clay.\n* **Using glue:** Synthetic chemical glues fail on wet clay and burn away during kiln firing; only clay slip creates a permanent bond.\n* **Pressing well:** Simply pressing dry or firm coils without slip leaves weak seams that crack open as the pot dries.\n\n📌 **Key Learning Note:**\n**Clay slip** (clay mixed with water) is used as a natural adhesive to join clay coils, handles, and slabs in pottery."
+    },
+    {
+      "questionNumber": 6,
+      "id": "sst-q6",
+      "questionText": "The following statements highlight ways in which plastic bottles can be reused. Which one does not?",
+      "options": [
+        {
+          "text": "Making toys.",
+          "isCorrect": false
+        },
+        {
+          "text": "Decorating places.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using them to water flowers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Keeping them in the river bank.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Keeping them in the river bank.**.\n\n**Analysis of the Correct Answer:**\n**Keeping plastic bottles on a river bank** is an act of environmental littering and pollution. When rain falls or river levels rise, these discarded plastic bottles are washed into the water, causing severe aquatic pollution and endangering marine life. It is **not** a method of reusing plastic.\n\n**Why Other Options Are Incorrect:**\n* **Making toys:** An excellent creative upcycling method of reusing plastic bottles into play items.\n* **Decorating places:** Reusing cut or painted bottles as hanging flower pots or decorative ornaments.\n* **Using them to water flowers:** A functional reuse of plastic bottles for drip irrigation or plant watering.\n\n📌 **Key Learning Note:**\nReusing plastic containers prevents environmental pollution and keeps plastic waste out of water bodies and ecosystems."
+    },
+    {
+      "questionNumber": 7,
+      "id": "sst-q7",
+      "contextRef": "ctx-sst-q7",
+      "questionText": "The picture shows a wristband made from leather.",
+      "questionSuffix": "Identify the technique used to decorate it.",
+      "options": [
+        {
+          "text": "Thonging.",
+          "isCorrect": false
+        },
+        {
+          "text": "Beading.",
+          "isCorrect": true
+        },
+        {
+          "text": "Stitching.",
+          "isCorrect": false
+        },
+        {
+          "text": "Gluing.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Beading.**.\n\n**Analysis of the Correct Answer:**\nThe leather wristband shown is decorated using **beading**. Beading is a traditional craft technique where colorful beads are sewn, woven, or attached onto leather surfaces to create decorative patterns and cultural motifs.\n\n**Why Other Options Are Incorrect:**\n* **Thonging:** Lacing leather edges together using thin leather strips or thongs.\n* **Stitching:** Sewing leather pieces together structurally using thread.\n* **Gluing:** Applying adhesive to stick leather layers together without decorative beadwork.\n\n📌 **Key Learning Note:**\n**Beading** is the art of attaching decorative beads to fabric or leather to enhance aesthetic appeal."
+    },
+    {
+      "questionNumber": 8,
+      "id": "sst-q8",
+      "questionText": "The following statements describe how puppets are given character during performance. Which one does not?",
+      "options": [
+        {
+          "text": "Create a voice.",
+          "isCorrect": false
+        },
+        {
+          "text": "Make movements.",
+          "isCorrect": false
+        },
+        {
+          "text": "Increase size of the theatre.",
+          "isCorrect": true
+        },
+        {
+          "text": "Use different clothes and jewellery.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Increase size of the theatre.**.\n\n**Analysis of the Correct Answer:**\n**Increasing the size of the theatre** alters the venue architecture, but does **not** contribute to giving personality or character to a puppet during a performance. Characterization depends on the puppeteer's performance and the puppet's design.\n\n**Why Other Options Are Incorrect:**\n* **Create a voice:** Modulating voice pitch, tone, and speech rhythm gives a distinct personality and emotion to the puppet.\n* **Make movements:** Manipulating puppet limbs, head gestures, and body language brings the character to life physically.\n* **Use different clothes and jewellery:** Costuming defines the age, social status, and role of the puppet character.\n\n📌 **Key Learning Note:**\nPuppet characterization is achieved through **voice modulation, expressive movement manipulation, and costume design**."
+    },
+    {
+      "questionNumber": 9,
+      "id": "sst-q9",
+      "questionText": "A Grade 6 learner has come across an interesting artwork. Which would be the correct way of using the artwork?",
+      "options": [
+        {
+          "text": "Copy and trace the artwork.",
+          "isCorrect": false
+        },
+        {
+          "text": "Edit the artwork and use it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Seek permission from the artist.",
+          "isCorrect": true
+        },
+        {
+          "text": "Take a photograph when no one is watching.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Seek permission from the artist.**.\n\n**Analysis of the Correct Answer:**\nRespecting intellectual property and copyright laws requires that anyone wishing to use, display, or reproduce another person's artwork must first **seek permission from the artist** (the copyright holder). Obtaining consent honors the creator's legal and moral rights.\n\n**Why Other Options Are Incorrect:**\n* **Copy and trace the artwork:** Copying or tracing another person's work without permission constitutes plagiarism and copyright infringement.\n* **Edit the artwork and use it:** Altering someone else's original creation without authorization still violates intellectual property rights.\n* **Take a photograph when no one is watching:** Secretly photographing artwork for unauthorized reproduction or commercial use is unethical and illegal.\n\n📌 **Key Learning Note:**\nAlways **seek permission from original artists** before reproducing or using their creative work to respect copyright laws."
+    },
+    {
+      "questionNumber": 10,
+      "id": "sst-q10",
+      "questionText": "Learners at Barara primary school plan to exhibit and sell their artwork during the Open Day. Which strategy will not be effective for marketing their artwork?",
+      "options": [
+        {
+          "text": "Join the school's art club.",
+          "isCorrect": true
+        },
+        {
+          "text": "Post pictures of artwork on sale on social media.",
+          "isCorrect": false
+        },
+        {
+          "text": "Announce and invite the community for the exhibition.",
+          "isCorrect": false
+        },
+        {
+          "text": "Create posters to advertise sale of the artwork.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Join the school's art club.**.\n\n**Analysis of the Correct Answer:**\nJoining the school's art club is an internal extracurricular student activity for learning art, **not** a direct marketing or promotional strategy for selling artwork to customers during an exhibition.\n\n**Why Other Options Are Incorrect:**\n* **Post pictures of artwork on sale on social media:** An effective digital marketing strategy reaching a broad online target audience.\n* **Announce and invite the community for the exhibition:** A direct public relations strategy raising community awareness and attendance.\n* **Create posters to advertise sale of the artwork:** A proven visual advertising technique attracting visitors to the sale.\n\n📌 **Key Learning Note:**\nEffective marketing strategies include **advertising posters, social media promotion, and public invitations** to attract buyers."
+    },
+    {
+      "questionNumber": 11,
+      "id": "sst-q11",
+      "questionText": "Which of the following is not a component of a folk dance?",
+      "options": [
+        {
+          "text": "Costumes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Body movement.",
+          "isCorrect": false
+        },
+        {
+          "text": "Songs.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cheering.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Cheering.**.\n\n**Analysis of the Correct Answer:**\n**Cheering** is an external reaction or supportive response from the audience watching a performance. It is **not** a structural component of the folk dance performance itself.\n\n**Why Other Options Are Incorrect:**\n* **Costumes:** Essential cultural attire reflecting the origin, theme, and context of the folk dance.\n* **Body movement:** The core physical dance steps, body gestures, and rhythm executed by dancers.\n* **Songs:** The musical vocal accompaniment and lyrics that guide the tempo and story of the dance.\n\n📌 **Key Learning Note:**\nCore components of a folk dance include **music/songs, dance movements, costumes, musical instruments, and props**."
+    },
+    {
+      "questionNumber": 12,
+      "id": "sst-q12",
+      "questionText": "The following statements describe how folk songs are performed. Which one is not correct?",
+      "options": [
+        {
+          "text": "Performed observing safety.",
+          "isCorrect": false
+        },
+        {
+          "text": "Performed observing good manners.",
+          "isCorrect": false
+        },
+        {
+          "text": "Performed with coordinated body movements.",
+          "isCorrect": false
+        },
+        {
+          "text": "Performed using sharp props.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Performed using sharp props.**.\n\n**Analysis of the Correct Answer:**\nFolk songs and cultural dances should **never be performed using sharp props** (such as real spears, sharp knives, or panga blades) because sharp objects pose extreme physical injury risks to performers and audience members. Safe, blunt improvised props should always be substituted.\n\n**Why Other Options Are Incorrect:**\n* **Performed observing safety:** A fundamental rule for executing any stage dance or performance safely.\n* **Performed observing good manners:** Essential for cultural respect, decorum, and positive community reception.\n* **Performed with coordinated body movements:** A core requirement for rhythmic and harmonious group performance.\n\n📌 **Key Learning Note:**\nStage safety requires substituting real sharp objects with **safe, blunt, improvised props** during cultural performances."
+    },
+    {
+      "questionNumber": 13,
+      "id": "sst-q13",
+      "questionText": "Which of the following statements does not describe the correct way of singing?",
+      "options": [
+        {
+          "text": "Singing the tune accurately.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pronouncing the words clearly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Singing while talking.",
+          "isCorrect": true
+        },
+        {
+          "text": "Using facial expressions.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Singing while talking.**.\n\n**Analysis of the Correct Answer:**\n**Singing while talking** disrupts vocal tone, breath control, pitch accuracy, and musical rhythm. Talking during singing prevents proper vocal execution and is **not** a correct singing technique.\n\n**Why Other Options Are Incorrect:**\n* **Singing the tune accurately:** Essential for producing correct musical pitch and harmonious melody.\n* **Pronouncing the words clearly:** Diction ensures the audience understands the lyrics and message of the song.\n* **Using facial expressions:** Conveys the mood, emotion, and story of the song effectively.\n\n📌 **Key Learning Note:**\nProper singing requires **clear diction (pronunciation), accurate pitch/tune, proper breath control, and expressive facial communication**."
+    },
+    {
+      "questionNumber": 14,
+      "id": "sst-q14",
+      "questionText": "Grade 6 learners collected the following tools and materials:",
+      "questionList": [
+        "Hollow tube, knife, tin, nails, wooden bars, feathers, paint and ruler."
+      ],
+      "questionSuffix": "Which of the materials and tools can be used to make a flute?",
+      "options": [
+        {
+          "text": "Hollow tube, nails, feathers and knife.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hollow tube, knife, nails and ruler.",
+          "isCorrect": true
+        },
+        {
+          "text": "Hollow tube, wooden bars, paint and nails.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hollow tube, ruler, nails and feathers.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Hollow tube, knife, nails and ruler.**.\n\n**Analysis of the Correct Answer:**\nTo construct a simple wind instrument (aerophone) like a flute or recorder, learners need:\n1. A **hollow tube** (bamboo or PVC pipe) for the instrument body.\n2. A **ruler** to measure precise hole spacings.\n3. A **knife** or hot **nails** to bore the mouth piece and finger tone holes cleanly.\n\n**Why Other Options Are Incorrect:**\n* **Hollow tube, nails, feathers and knife:** Feathers are decorative items and serve no structural purpose in wind instrument craft.\n* **Hollow tube, wooden bars, paint and nails:** Wooden bars are used for marimbas/xylophones, not for boring tone holes in a flute.\n* **Hollow tube, ruler, nails and feathers:** Lacks a cutting tool (knife) needed to shape and smooth the mouthpiece and tone holes.\n\n📌 **Key Learning Note:**\nCrafting wind instruments (aerophones) requires **measuring tools (ruler) and cutting/boring tools (knife/nails)** to make accurate tone holes."
+    },
+    {
+      "questionNumber": 15,
+      "id": "sst-q15",
+      "questionText": "Atieno has finished playing her fiddle during a prize-giving ceremony. Which of the following statements best describes what she should do with the fiddle?",
+      "options": [
+        {
+          "text": "Wash it with water.",
+          "isCorrect": false
+        },
+        {
+          "text": "Keep it outside under the sun.",
+          "isCorrect": false
+        },
+        {
+          "text": "Hang it on the wall.",
+          "isCorrect": true
+        },
+        {
+          "text": "Put it on the floor.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Hang it on the wall.**.\n\n**Analysis of the Correct Answer:**\nAfter performing with a traditional string instrument (like a **Wandindi** or fiddle), the player should **hang it on the wall** (or store it in a dry protective case). Hanging keeps the wooden body and skin resonator off the ground, protecting it from moisture, dust, pests, and accidental damage.\n\n**Why Other Options Are Incorrect:**\n* **Wash it with water:** Washing wooden instruments with water warps the wood, damages skin resonators, and ruins strings.\n* **Keep it outside under the sun:** Direct heat and sunlight dry out, crack, and warp wooden instrument bodies.\n* **Put it on the floor:** Leaving instruments on the floor exposes them to dirt, moisture, and risk of being stepped on.\n\n📌 **Key Learning Note:**\nStore musical instruments safely by **hanging them in dry indoor areas or storing them in padded cases**."
+    },
+    {
+      "questionNumber": 16,
+      "id": "sst-q16",
+      "contextRef": "ctx-sst-q16",
+      "questionText": "Which of the following rhythmic patterns best fits the text given below:",
+      "questionList": [
+        "Njoo twende uwanjani"
+      ],
+      "options": [
+        {
+          "text": "A",
+          "isCorrect": false
+        },
+        {
+          "text": "B",
+          "isCorrect": false
+        },
+        {
+          "text": "C",
+          "isCorrect": false
+        },
+        {
+          "text": "D",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nRhythmic pattern **D** correctly matches the syllable counts, speech accents, and note values of the Kiswahili text stanza **\"Njoo twende uwanjani\"** (5 syllables: Njoo - twen - de - u - wan - ja - ni).\n\n**Why Other Options Are Incorrect:**\n* **A:** Features incorrect measure beat divisions that clash with the poetic meter of the sentence.\n* **B:** Features mismatched note durations that distort the natural speech rhythm of the words.\n* **C:** Contains incorrect rest placements that disrupt metric phrasing.\n\n📌 **Key Learning Note:**\nMatching text to music requires aligning natural speech stresses and syllable counts with musical rhythms."
+    },
+    {
+      "questionNumber": 17,
+      "id": "sst-q17",
+      "questionText": "Which of the following words best describes how a lullaby should be sang?",
+      "options": [
+        {
+          "text": "Loudly and softly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Softly and sadly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Slowly and softly.",
+          "isCorrect": true
+        },
+        {
+          "text": "Fast and softly.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Slowly and softly.**.\n\n**Analysis of the Correct Answer:**\nA **lullaby** is a quiet, soothing song sung to calm infants and induce sleep. It should always be sung **slowly and softly** to create a peaceful, relaxing environment for a child.\n\n**Why Other Options Are Incorrect:**\n* **Loudly and softly:** Loud vocal surges startle and wake sleeping infants.\n* **Softly and sadly:** Lullabies are comforting and warm, not sad or mournful.\n* **Fast and softly:** Fast tempos excite and stimulate babies rather than lulling them to sleep.\n\n📌 **Key Learning Note:**\n**Lullabies** feature **slow tempos, soft dynamics, and gentle melodies** designed to soothe babies to sleep."
+    },
+    {
+      "questionNumber": 18,
+      "id": "sst-q18",
+      "questionText": "The following are some practices observed when handling a musical instrument:",
+      "questionList": [
+        "(i) Return the instrument in its case after use.",
+        "(ii) Put the parts together correctly before use.",
+        "(iii) Wipe moisture from the instrument after use.",
+        "(iv) Wash the mouth piece with warm soapy water.",
+        "(v) Clean the instrument with warm soapy water.",
+        "(vi) Wipe the instrument using a damp cloth."
+      ],
+      "questionSuffix": "Which of the practices are hygiene measures observed after playing the descant recorder?",
+      "options": [
+        {
+          "text": "(vi), (iv), (ii) and (i).",
+          "isCorrect": false
+        },
+        {
+          "text": "(iii), (iv), (v) and (i).",
+          "isCorrect": true
+        },
+        {
+          "text": "(ii), (iii), (vi) and (i).",
+          "isCorrect": false
+        },
+        {
+          "text": "(v), (vi), (iv) and (ii).",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **(iii), (iv), (v) and (i).**.\n\n**Analysis of the Correct Answer:**\nHygiene and maintenance measures after playing a descant recorder follow a logical order:\n1. **(iii) Wipe moisture from the instrument after use:** Removes saliva from inside the tube.\n2. **(iv) Wash the mouthpiece with warm soapy water:** Disinfects the head joint where mouth contact occurred.\n3. **(v) Clean the instrument with warm soapy water / damp cloth:** Removes fingerprints and grime.\n4. **(i) Return the instrument in its case after use:** Protects it from dust and damage.\n\nThus, set **(iii), (iv), (v) and (i)** is correct.\n\n**Why Other Options Are Incorrect:**\n* **(vi), (iv), (ii) and (i):** Places assembly step (ii) after performance care, which is out of order.\n* **(ii), (iii), (vi) and (i):** Includes setup step (ii) instead of post-playing hygiene disinfection.\n* **(v), (vi), (iv) and (ii):** Ends with assembly (ii) rather than safe case storage (i).\n\n📌 **Key Learning Note:**\nDescan recorder care: **Wipe internal moisture ➔ Wash mouthpiece with warm soapy water ➔ Store safely in case**."
+    },
+    {
+      "questionNumber": 19,
+      "id": "sst-q19",
+      "questionText": "Juma's string instrument is not producing the desired sound. What should he do to the instrument?",
+      "options": [
+        {
+          "text": "He should clean the instrument.",
+          "isCorrect": false
+        },
+        {
+          "text": "He should warm the instrument.",
+          "isCorrect": false
+        },
+        {
+          "text": "He should get another instrument.",
+          "isCorrect": false
+        },
+        {
+          "text": "He should tune the instrument.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **He should tune the instrument.**.\n\n**Analysis of the Correct Answer:**\nIf a string instrument (like a guitar, fiddle, or litungu) produces incorrect or off-pitch sound, the player **should tune the instrument**. Tuning involves adjusting the tension of the strings using tuning pegs or bridges until each string produces its correct musical pitch.\n\n**Why Other Options Are Incorrect:**\n* **He should clean the instrument:** Cleaning removes dust but does not change string tension or musical pitch.\n* **He should warm the instrument:** Warming over heat is used to tighten membrane drumheads, not stringed instruments.\n* **He should get another instrument:** Unnecessary and wasteful when simple peg tuning resolves the issue.\n\n📌 **Key Learning Note:**\nString instruments are tuned by **adjusting string tension** using tuning pegs or tuning bridges."
+    },
+    {
+      "questionNumber": 20,
+      "id": "sst-q20",
+      "contextRef": "ctx-sst-q20",
+      "questionText": "The following are diagrams of two Kenyan indigenous musical instruments.",
+      "questionSuffix": "Which statement is true about musical instruments (i) and (ii)?",
+      "options": [
+        {
+          "text": "Instrument (i) is played by bowing while instrument (ii) is played by hitting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Instrument (i) is tuned by adjusting knobs while instrument (ii) is tuned by warming.",
+          "isCorrect": true
+        },
+        {
+          "text": "Instrument (i) is a percussion instrument while instrument (ii) is a string instrument.",
+          "isCorrect": false
+        },
+        {
+          "text": "Instrument (i) cannot play a melody while instrument (ii) can play a melody.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Instrument (i) is tuned by adjusting knobs while instrument (ii) is tuned by warming.**.\n\n**Analysis of the Correct Answer:**\nInstrument (i) is a traditional **string instrument** (chordophone like a **Nyatiti** or **Litungu**), which is tuned by **adjusting tuning knobs/pegs** to change string tension. Instrument (ii) is a traditional **membrane drum** (membranophone), which is tuned by **warming the leather drumhead over mild heat** to tighten the skin membrane.\n\n**Why Other Options Are Incorrect:**\n* **Instrument (i) is played by bowing while instrument (ii) is played by hitting:** String instruments like litungu are plucked with fingers, not bowed like violins.\n* **Instrument (i) is a percussion instrument while instrument (ii) is a string instrument:** Reverses instrument classifications (i is chordophone, ii is membranophone).\n* **Instrument (i) cannot play a melody while instrument (ii) can play a melody:** String instruments play melodic tunes, while drums provide rhythmic beats.\n\n📌 **Key Learning Note:**\n- **String Instruments:** Tuned by adjusting tuning pegs/knobs.\n- **Membrane Drums:** Tuned by warming over heat or tightening laces."
+    },
+    {
+      "questionNumber": 21,
+      "id": "sst-q21",
+      "questionText": "Which one of the following group of elements are elements of weather?",
+      "options": [
+        {
+          "text": "Temperature, snow, rain.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wind, temperature, air pressure.",
+          "isCorrect": true
+        },
+        {
+          "text": "Sunshine, fog, temperature.",
+          "isCorrect": false
+        },
+        {
+          "text": "Temperature, snow, air pressure.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Wind, temperature, air pressure.**.\n\n**Analysis of the Correct Answer:**\nThe primary **elements of weather** measured at weather stations include **wind, temperature, air pressure (atmospheric pressure)**, humidity, rainfall, and sunshine.\n\n**Why Other Options Are Incorrect:**\n* **Temperature, snow, rain:** Snow and rain are specific forms of precipitation, not separate fundamental weather elements.\n* **Sunshine, fog, temperature:** Fog is a ground-level condensation condition, not a primary weather element.\n* **Temperature, snow, air pressure:** Includes snow (a precipitation type) rather than core elements like wind or humidity.\n\n📌 **Key Learning Note:**\nMain **Elements of Weather**: Temperature, Wind, Air Pressure, Humidity, Rainfall, and Sunshine."
+    },
+    {
+      "questionNumber": 22,
+      "id": "sst-q22",
+      "contextRef": "ctx-sst-q22",
+      "questionText": "During a class field trip, Grade 6 learners observed some relief features on their way. Which one of the following diagrams represents a relief feature observed?",
+      "options": [
+        {
+          "text": "A",
+          "isCorrect": false
+        },
+        {
+          "text": "B",
+          "isCorrect": false
+        },
+        {
+          "text": "C",
+          "isCorrect": true
+        },
+        {
+          "text": "D",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nIn physical geography, **relief features** refer to the physical landforms and variations in elevation on the Earth's surface. Diagram **C** illustrates a major physical relief feature such as a valley or mountain landscape.\n\n**Why Other Options Are Incorrect:**\n* **A:** Represents an artificial man-made structure rather than a natural landform.\n* **B:** Represents drainage/water bodies rather than land relief elevation.\n* **D:** Shows vegetation cover rather than physical landform relief.\n\n📌 **Key Learning Note:**\n**Relief Features** include physical landforms such as mountains, hills, plateaus, valleys, and plains."
+    },
+    {
+      "questionNumber": 23,
+      "id": "sst-q23",
+      "contextRef": "ctx-sst-q23",
+      "questionText": "The following is a structure representing some parts of a town.",
+      "questionSuffix": "Which direction is the Health Centre from the Railway Station?",
+      "options": [
+        {
+          "text": "North.",
+          "isCorrect": true
+        },
+        {
+          "text": "South.",
+          "isCorrect": false
+        },
+        {
+          "text": "East.",
+          "isCorrect": false
+        },
+        {
+          "text": "West.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **North.**.\n\n**Analysis of the Correct Answer:**\nIn standard map reading and cartography, the **top direction of a map** represents **North**. Therefore, locating an object towards the top of a map relative to a starting point gives the direction as **North**.\n\n**Why Other Options Are Incorrect:**\n* **South:** Located towards the bottom of standard maps.\n* **East:** Located towards the right side of standard maps.\n* **West:** Located towards the left side of standard maps.\n\n📌 **Key Learning Note:**\nUnless otherwise indicated, the top of a map always points to **North**."
+    },
+    {
+      "questionNumber": 24,
+      "id": "sst-q24",
+      "questionText": "The tropical rainforest vegetation is found in areas that receive high rainfall. In which region is the vegetation found in Eastern Africa?",
+      "options": [
+        {
+          "text": "Northern region of Sudan.",
+          "isCorrect": false
+        },
+        {
+          "text": "Western region of Kenya.",
+          "isCorrect": true
+        },
+        {
+          "text": "Northern region of Uganda.",
+          "isCorrect": false
+        },
+        {
+          "text": "Southern region of Tanzania.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Western region of Kenya.**.\n\n**Analysis of the Correct Answer:**\nIn Eastern Africa, **tropical rainforest vegetation** thrives in areas experiencing high, well-distributed rainfall throughout the year. The primary example in Kenya is the **Western region of Kenya** (specifically Kakamega Forest), which is the easternmost remnant of the equatorial Guinea-Congolian tropical rainforest.\n\n**Why Other Options Are Incorrect:**\n* **Northern region of Sudan:** Arid and semi-arid desert environment receiving extremely low rainfall.\n* **Northern region of Uganda:** Dominated by dry savanna grassland and acacia woodlands.\n* **Southern region of Tanzania:** Covered mainly by Miombo savanna woodlands.\n\n📌 **Key Learning Note:**\n**Kakamega Forest in Western Kenya** is the main tropical rainforest region in Kenya."
+    },
+    {
+      "questionNumber": 25,
+      "id": "sst-q25",
+      "questionText": "A Grade 6 teacher has invited a resource person to discuss about the semi desert climate in Eastern Africa. Which of the characteristics is true about the climate?",
+      "options": [
+        {
+          "text": "It receives high rainfall.",
+          "isCorrect": false
+        },
+        {
+          "text": "It experiences high humidity.",
+          "isCorrect": false
+        },
+        {
+          "text": "It experiences high temperatures.",
+          "isCorrect": true
+        },
+        {
+          "text": "It receives rain in the afternoon.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **It experiences high temperatures.**.\n\n**Analysis of the Correct Answer:**\n**Semi-desert (semi-arid) climate zones** are characterized by **high daytime temperatures**, clear skies, low relative humidity, high evaporation rates, and low, unreliable rainfall (below 500mm annually).\n\n**Why Other Options Are Incorrect:**\n* **It receives high rainfall:** False; semi-deserts receive very low and erratic annual rainfall.\n* **It experiences high humidity:** False; semi-deserts have dry air with very low humidity.\n* **It receives rain in the afternoon:** Afternoon convectional rainfall is typical of hot, humid equatorial regions, not dry semi-deserts.\n\n📌 **Key Learning Note:**\nCharacteristics of **Semi-Desert Climate**: High daytime temperatures, low rainfall, dry air, and high evaporation."
+    },
+    {
+      "questionNumber": 26,
+      "id": "sst-q26",
+      "questionText": "The Social Studies teacher has asked the Grade 6 learners to use the map of Kenya to locate the national parks. Which one of the following national parks did they find in Mandera County?",
+      "options": [
+        {
+          "text": "Sibiloi.",
+          "isCorrect": false
+        },
+        {
+          "text": "Amboseli.",
+          "isCorrect": false
+        },
+        {
+          "text": "Kora.",
+          "isCorrect": false
+        },
+        {
+          "text": "Malka Mari.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Malka Mari.**.\n\n**Analysis of the Correct Answer:**\n**Malka Mari National Park** is located in **Mandera County** in extreme northeastern Kenya along the border with Ethiopia, along the Daua River.\n\n**Why Other Options Are Incorrect:**\n* **Sibiloi:** Located along the northeastern shores of Lake Turkana in Marsabit County.\n* **Amboseli:** Located in Kajiado County at the foot of Mt. Kilimanjaro.\n* **Kora:** Located in Tana River and Kitui counties along the Tana River basin.\n\n📌 **Key Learning Note:**\n**Malka Mari National Park** is situated in Mandera County in northeastern Kenya."
+    },
+    {
+      "questionNumber": 27,
+      "id": "sst-q27",
+      "questionText": "Grade 5 learners were asked to use digital devices to search for communities that belong to the Nilotes of Kenya. Which combination of communities could they have found?",
+      "options": [
+        {
+          "text": "Abagusii and Somali.",
+          "isCorrect": false
+        },
+        {
+          "text": "Luo and Akamba.",
+          "isCorrect": false
+        },
+        {
+          "text": "Maasai and Turkana.",
+          "isCorrect": true
+        },
+        {
+          "text": "Nubians and Pokomo.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Maasai and Turkana.**.\n\n**Analysis of the Correct Answer:**\nThe **Maasai and Turkana** are both **Plains Nilotic** ethnic groups in Kenya who migrated from the Nile valley region into the rift valley and northern plains of Kenya.\n\n**Why Other Options Are Incorrect:**\n* **Abagusii and Somali:** Abagusii are Bantus, while Somalis are Cushites.\n* **Luo and Akamba:** Luos are River-Lake Nilotes, while Akamba are Bantus.\n* **Nubians and Pokomo:** Pokomo are Bantus, while Nubians settled from Sudan.\n\n📌 **Key Learning Note:**\nNilotic Groups in Kenya:\n- **Plains Nilotes:** Maasai, Turkana, Samburu, Njemps.\n- **River-Lake Nilotes:** Luo.\n- **Highland Nilotes:** Kalenjin (Kipsigis, Nandi, Tugen, etc.)."
+    },
+    {
+      "questionNumber": 28,
+      "id": "sst-q28",
+      "questionText": "Kota observed her grandmother making a pot then made her own pot. The method of learning used by Kota is",
+      "options": [
+        {
+          "text": "Narration",
+          "isCorrect": false
+        },
+        {
+          "text": "Apprenticeship",
+          "isCorrect": true
+        },
+        {
+          "text": "Discussion",
+          "isCorrect": false
+        },
+        {
+          "text": "Riddles.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Apprenticeship**.\n\n**Analysis of the Correct Answer:**\n**Apprenticeship** is a traditional system of learning where a learner acquires practical skills and craft knowledge by **observing, imitating, and practicing under the guidance of an experienced master** (such as a grandmother teaching pottery).\n\n**Why Other Options Are Incorrect:**\n* **Narration:** Storytelling or verbal presentation of historical tales without practical hands-on craft practice.\n* **Discussion:** Verbal exchange of ideas without physical skill execution.\n* **Riddles:** Word puzzles used to test wits and memory, not practical craft skills.\n\n📌 **Key Learning Note:**\n**Apprenticeship** is learning practical skills through observation and hands-on guidance from an expert."
+    },
+    {
+      "questionNumber": 29,
+      "id": "sst-q29",
+      "questionText": "Gala primary school is planning to hold elections of the Children's Government. The Grade 4 learners have been asked to discuss functions of the Children's Government in school. Which one of the functions is not correct?",
+      "options": [
+        {
+          "text": "It speaks on behalf of the learners to the school administration.",
+          "isCorrect": false
+        },
+        {
+          "text": "It ensures that the learning environment is friendly.",
+          "isCorrect": false
+        },
+        {
+          "text": "It assists teachers to ensure learners follow the school rules.",
+          "isCorrect": false
+        },
+        {
+          "text": "It ensures teachers report for duty early.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **It ensures teachers report for duty early.**.\n\n**Analysis of the Correct Answer:**\nSupervising teacher attendance and ensuring teachers report for duty early is an administrative duty of the **Headteacher and Teachers Service Commission (TSC)**, **NOT** a function of the student **Children's Government**.\n\n**Why Other Options Are Incorrect:**\n* **It speaks on behalf of the learners to the school administration:** A primary representation role of the Children's Government.\n* **It ensures that the learning environment is friendly:** Promotes peer discipline, cleanliness, and child-friendly activities.\n* **It assists teachers to ensure learners follow the school rules:** Helps maintain order and peer compliance with school regulations.\n\n📌 **Key Learning Note:**\nThe **Children's Government** represents student interests and peer discipline, but does not manage teacher employment duties."
+    },
+    {
+      "questionNumber": 30,
+      "id": "sst-q30",
+      "questionText": "John had acquired Kenyan citizenship by registration but has received a letter cancelling it. What could have caused the citizenship to be cancelled?",
+      "options": [
+        {
+          "text": "Voting during the general election.",
+          "isCorrect": false
+        },
+        {
+          "text": "Attending a local harambee meeting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Joining a political party.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using false documents.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Using false documents.**.\n\n**Analysis of the Correct Answer:**\nAccording to the Constitution of Kenya, citizenship acquired by registration can be legally revoked or cancelled if it was obtained through **fraud, false representation, or forged documents**.\n\n**Why Other Options Are Incorrect:**\n* **Voting during the general election:** A fundamental constitutional right granted to all adult Kenyan citizens.\n* **Attending a local harambee meeting:** A lawful community participation activity.\n* **Joining a political party:** A guaranteed constitutional right of freedom of association.\n\n📌 **Key Learning Note:**\nCitizenship by registration can be revoked if obtained **fraudulently using false documents**."
+    },
+    {
+      "questionNumber": 31,
+      "id": "sst-q31",
+      "questionText": "Grade 5 learners plan to go for an educational tour to a nearby national park. Which means of transport are they likely to use while in the park?",
+      "options": [
+        {
+          "text": "Bus.",
+          "isCorrect": true
+        },
+        {
+          "text": "Train.",
+          "isCorrect": false
+        },
+        {
+          "text": "Lorry.",
+          "isCorrect": false
+        },
+        {
+          "text": "Motorcycles.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Bus.**.\n\n**Analysis of the Correct Answer:**\nDuring educational tours inside national parks, visitors travel in an enclosed **tour bus** (or game-viewing van) to safely observe wildlife while adhering to park conservation regulations.\n\n**Why Other Options Are Incorrect:**\n* **Train:** Railway tracks pass through fixed corridors and do not transport tourists around internal game-viewing tracks.\n* **Lorry:** Open cargo lorries are unsafe and unsuitable for tourist game drives.\n* **Motorcycles:** Bicycles and motorcycles are strictly prohibited inside national parks due to extreme predator attack risks.\n\n📌 **Key Learning Note:**\nEnclosed **tour buses and vans** provide safe transportation for viewing wildlife in national parks."
+    },
+    {
+      "questionNumber": 32,
+      "id": "sst-q32",
+      "questionText": "Your teacher has asked you to walk around the school compound to collect samples of natural resources. Which of the samples below are you likely to collect?",
+      "options": [
+        {
+          "text": "Bottles.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tools.",
+          "isCorrect": false
+        },
+        {
+          "text": "Posters.",
+          "isCorrect": false
+        },
+        {
+          "text": "Soils.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Soils.**.\n\n**Analysis of the Correct Answer:**\n**Soils** are naturally occurring materials formed by the weathering of rocks and organic decomposition. Soil is a vital **natural resource** found directly in the Earth's environment.\n\n**Why Other Options Are Incorrect:**\n* **Bottles:** Man-made manufactured synthetic objects made of glass or plastic.\n* **Tools:** Man-made fabricated implements (hoes, hammers) made from processed metals/wood.\n* **Posters:** Man-made printed paper items.\n\n📌 **Key Learning Note:**\n**Natural Resources** occur naturally in the environment (e.g. soil, water, air, minerals, plants, rocks)."
+    },
+    {
+      "questionNumber": 33,
+      "id": "sst-q33",
+      "questionText": "Grade 5 learners of Mamboleo primary school visited a nearby demonstration farm. The farm manager told them that subsistence farming is different from small scale farming in that;",
+      "options": [
+        {
+          "text": "small scale farmers keep large herds of animals while subsistence farmers grow food crops",
+          "isCorrect": false
+        },
+        {
+          "text": "subsistence farming is done on small farms while small scale farming is done on large farms.",
+          "isCorrect": false
+        },
+        {
+          "text": "small scale farmers grow cash crops and food crops while subsistence farmers grow food crops",
+          "isCorrect": true
+        },
+        {
+          "text": "subsistence farmers use simple tools while small scale farmers use machinery.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **small scale farmers grow cash crops and food crops while subsistence farmers grow food crops**.\n\n**Analysis of the Correct Answer:**\nThe fundamental difference is that **subsistence farming** focuses exclusively on growing food crops to feed the farmer's immediate family, whereas **small-scale farming** produces both food crops and **cash crops** for sale in local markets to generate income.\n\n**Why Other Options Are Incorrect:**\n* **small scale farmers keep large herds of animals while subsistence farmers grow food crops:** Keeping large herds on vast land describes commercial ranching or pastoralism.\n* **subsistence farming is done on small farms while small scale farming is done on large farms.:** Both operate on relatively small land parcels; market intent is the main difference.\n* **subsistence farmers use simple tools while small scale farmers use machinery.:** Both often use hand tools, but commercial sale sets small-scale farming apart.\n\n📌 **Key Learning Note:**\n- **Subsistence Farming:** Growing food primarily for **family consumption**.\n- **Small-Scale Farming:** Growing food and cash crops for **market sale**."
+    },
+    {
+      "questionNumber": 34,
+      "id": "sst-q34",
+      "questionText": "Mzee Hekima was invited to talk to Grade 4 learners on African Traditional leaders. Which qualities of a good leader is he likely to have discussed? The leader should be a",
+      "options": [
+        {
+          "text": "good dancer",
+          "isCorrect": false
+        },
+        {
+          "text": "prophet",
+          "isCorrect": false
+        },
+        {
+          "text": "storyteller",
+          "isCorrect": false
+        },
+        {
+          "text": "courageous person.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **courageous person.**.\n\n**Analysis of the Correct Answer:**\nIn African traditional society, a great leader was expected to be a **courageous person** who demonstrated bravery in defending the community, making difficult decisions, and maintaining justice and peace.\n\n**Why Other Options Are Incorrect:**\n* **good dancer:** Entertainment skills like dancing do not define political or community leadership qualities.\n* **prophet:** While religious seers existed, traditional leaders were evaluated on courage, wisdom, and justice.\n* **storyteller:** Oral performance skill does not replace core leadership attributes like courage and wisdom.\n\n📌 **Key Learning Note:**\nTraditional African leaders were valued for **courage, wisdom, integrity, and defense of the community**."
+    },
+    {
+      "questionNumber": 35,
+      "id": "sst-q35",
+      "questionText": "Grade 5 learners were asked to identify the symbols of national unity. Which one of the following is not a symbol of national unity?",
+      "options": [
+        {
+          "text": "Language.",
+          "isCorrect": true
+        },
+        {
+          "text": "Flag.",
+          "isCorrect": false
+        },
+        {
+          "text": "National Anthem.",
+          "isCorrect": false
+        },
+        {
+          "text": "Public seal.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Language.**.\n\n**Analysis of the Correct Answer:**\nWhile language (such as Kiswahili) is a national unifying medium, it is **not** one of the official constitutional **symbols of national unity**. The official national symbols explicitly defined in the Constitution of Kenya are:\n1. The National Flag\n2. The National Anthem\n3. The Coat of Arms\n4. The Public Seal\n\n**Why Other Options Are Incorrect:**\n* **Flag:** The National Flag is an official symbol of national unity prescribed in the Constitution.\n* **National Anthem:** An official constitutional symbol of national identity and unity.\n* **Public seal:** The official seal of the Republic of Kenya, mandated by the Constitution as a national symbol.\n\n📌 **Key Learning Note:**\nKenya's 4 Official Symbols of National Unity:\n1. **National Flag**\n2. **National Anthem**\n3. **Coat of Arms**\n4. **Public Seal**"
+    }
+  ],
+  "timeAllowed": 100
+}

@@ -21,7 +21,7 @@ export const YearSelector = () => {
 
   return (
     <div style={{ width: '100%', boxSizing: 'border-box' }}>
-      <div style={{ padding: '1.5rem 1.75rem 3rem', width: '100%', boxSizing: 'border-box', maxWidth: '1100px' }}>
+      <div className="portal-container">
 
         {/* ── Compact Portal Banner ── */}
         <div style={{

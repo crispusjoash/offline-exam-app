@@ -7,25 +7,25 @@ export const kpseaMath2024 = {
   "sharedContexts": {
     "ctx-math-2024-q30": {
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2024_q30.png",
+      "imagePath": "/assets/kpsea_math_2024_q30.webp",
       "title": "Modes of Transport",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-math-2024-q29": {
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2024_q29.png",
+      "imagePath": "/assets/kpsea_math_2024_q29.webp",
       "title": "Children Vaccinated",
       "cssFilter": "none"
     },
     "ctx-math-2024-q28": {
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2024_q28.png",
+      "imagePath": "/assets/kpsea_math_2024_q28.webp",
       "title": "Wooden Door",
       "cssFilter": "none"
     },
     "ctx-math-2024-q20": {
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2024_q20.png",
+      "imagePath": "/assets/kpsea_math_2024_q20.webp",
       "title": "Clock Face",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },

@@ -32,14 +32,14 @@ export const kpseaMath2022 = {
     "ctx-math-2022-q25": {
       "title": "Triangles PQS and SQR",
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2022_q25.png",
+      "imagePath": "/assets/kpsea_math_2022_q25.webp",
       "caption": "Two triangles PQS and SQR drawn accurately.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-math-2022-q28": {
       "title": "Bar Graph of Trees Planted",
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2022_q28.jpg",
+      "imagePath": "/assets/kpsea_math_2022_q28.webp",
       "caption": "Number of trees planted by learners of a school in four years.",
       "scanEffect": false,
       "cssFilter": "none"
@@ -47,7 +47,7 @@ export const kpseaMath2022 = {
     "ctx-math-2022-q30": {
       "title": "Cube Stack Options",
       "type": "image",
-      "imagePath": "/assets/kpsea_math_2022_q30.png",
+      "imagePath": "/assets/kpsea_math_2022_q30.webp",
       "caption": "Stack options A, B, C, and D made using 18 cubes.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     }
@@ -363,7 +363,7 @@ export const kpseaMath2022 = {
       "options": [
         {
           "text": "790",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "79",
@@ -371,14 +371,14 @@ export const kpseaMath2022 = {
         },
         {
           "text": "7.9",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "0.79",
-          "isCorrect": true
+          "isCorrect": false
         }
       ],
-      "explanation": "📌 **Awarding Marks:** On paper, the line segment AB measures approximately **7.9 cm = 79 mm** (Option B). However, because digital screens vary in size and scaling makes manual ruler measurement imprecise on displays, **all choices (A, B, C, D) are awarded full marks**."
+      "explanation": "The line segment AB measures approximately **7.9 cm** on a standard exam paper.\nTo find the length in millimetres, we multiply by 10 (since 1 cm = 10 mm):\n7.9 × 10 = **79 mm** (Option B)."
     },
     {
       "id": "kpsea-math-2022-q14",

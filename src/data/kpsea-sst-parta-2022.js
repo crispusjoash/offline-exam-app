@@ -13,13 +13,13 @@ export const kpseaSstParta2022 = {
     },
     "ctx-sst-2022-q4": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q4.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q4.webp",
       "title": "Question 4 Colour Mixing Table",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     },
     "ctx-sst-2022-q5": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q5.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q5.webp",
       "title": "Question 5 Motif Print Options",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     },
@@ -30,25 +30,25 @@ export const kpseaSstParta2022 = {
     },
     "ctx-sst-2022-q20": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q20.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q20.webp",
       "title": "Question 20 Instruments",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     },
     "ctx-sst-2022-q23": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q23.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q23.webp",
       "title": "Question 23 Oxbow Lake Options",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     },
     "ctx-sst-2022-q27": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q27.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q27.webp",
       "title": "Question 27 Road Signs",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     },
     "ctx-sst-2022-q30": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-social-2022-q30.png",
+      "imagePath": "/assets/images/kpsea-social-2022-q30.webp",
       "title": "Question 30 Leadership Qualities Table",
       "cssFilter": "contrast(1.2) grayscale(100%)"
     }
@@ -165,7 +165,7 @@ export const kpseaSstParta2022 = {
       "options": [
         {
           "text": "A",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "B",
@@ -173,14 +173,14 @@ export const kpseaSstParta2022 = {
         },
         {
           "text": "C",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "text": "D",
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **A (Mirror image of the block).**\n\n**Analysis of the Correct Answer:**\nIn block printing, the motif cut into the block will appear in reverse (as a mirror image) when it is pressed onto paper or fabric. If the stem curves to the right on the block, it will curve to the left on the print.\n\n**Why Other Options Are Incorrect:**\n- **B:** Shows the exact same orientation as the block, which is impossible in direct printing.\n- **C, D:** Show incorrect orientations (upside down or randomly rotated)."
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nThe key detail is the cut corner on the block. In the original block, the corner is cut off at the top-right. When you press a stamp/block onto paper, the printed image is a mirror image of the block — so the cut corner should appear at the top-left in the print.\n\n**Why Other Options Are Incorrect:**\n- **A** – cut corner at bottom-right (wrong position)\n- **B** – completely different leaf orientation (vertical, not a match)\n- **D** – cut corner still at top-right (not mirrored — matches the original block, not the print)"
     },
     {
       "id": "q6",
@@ -625,7 +625,7 @@ export const kpseaSstParta2022 = {
       "options": [
         {
           "text": "A",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "B",
@@ -633,14 +633,14 @@ export const kpseaSstParta2022 = {
         },
         {
           "text": "C",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "text": "D",
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **A.**\n\n**Analysis of the Correct Answer:**\nAn oxbow lake is a U-shaped body of water that forms when a wide meander from the main stem of a river is cut off, creating a free-standing body of water. Diagram A shows exactly this: the main river channel flowing straight, leaving a detached, curved (U-shaped) lake beside it.\n\n**Why Other Options Are Incorrect:**\n- **B, C:** Show meanders that are still connected to the river, not fully formed oxbow lakes.\n- **D:** Represents a generic lake or landmass, not specifically an oxbow."
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nAn oxbow lake is a curved, crescent- or horseshoe-shaped body of water that forms when a meander (bend) in a river gets cut off from the main channel over time. Option C best shows this distinctive curved \"C\"-shaped band of water, matching the real shape of an oxbow lake, unlike the zigzag, wavy, or solid blob shapes in the other options."
     },
     {
       "id": "q24",

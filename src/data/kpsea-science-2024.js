@@ -13,13 +13,13 @@ export const kpseaScience2024 = {
     },
     "ctx-science-2024-q1": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q1.png",
+      "imagePath": "/assets/kpsea_science_2024_q1.webp",
       "title": "Characteristics of Plants",
       "cssFilter": "none"
     },
     "ctx-science-2024-q5": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q5.png",
+      "imagePath": "/assets/kpsea_science_2024_q5.webp",
       "title": "Invertebrate Animal",
       "cssFilter": "none"
     },
@@ -31,7 +31,7 @@ export const kpseaScience2024 = {
     },
     "ctx-science-2024-q14": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q14.png",
+      "imagePath": "/assets/kpsea_science_2024_q14.webp",
       "title": "Spreadsheet Window",
       "cssFilter": "none"
     },
@@ -49,13 +49,13 @@ export const kpseaScience2024 = {
     },
     "ctx-science-2024-q18": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q18.png",
+      "imagePath": "/assets/kpsea_science_2024_q18.webp",
       "title": "Ice Cubes Before and After",
       "cssFilter": "none"
     },
     "ctx-science-2024-q22": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q22.png",
+      "imagePath": "/assets/kpsea_science_2024_q22.webp",
       "title": "Cooking Fat and Water",
       "cssFilter": "none"
     },
@@ -67,27 +67,27 @@ export const kpseaScience2024 = {
     },
     "ctx-science-2024-q26": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q26.png",
+      "imagePath": "/assets/kpsea_science_2024_q26.webp",
       "title": "Garden Bed",
       "cssFilter": "none"
     },
     "ctx-science-2024-q27-28": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q27_28.png",
+      "imagePath": "/assets/kpsea_science_2024_q27_28.webp",
       "title": "Gulley Erosion",
       "text": "The following picture shows land destroyed by soil erosion. Use it to answer questions 27 and 28.",
       "cssFilter": "none"
     },
     "ctx-science-2024-q32-33": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q32_33.png",
+      "imagePath": "/assets/kpsea_science_2024_q32_33.webp",
       "title": "Cabbage Plants",
       "text": "The following pictures show cabbage at different stages of growth. Use them to answer questions 32 and 33.",
       "cssFilter": "none"
     },
     "ctx-science-2024-q35-36": {
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2024_q35_36.png",
+      "imagePath": "/assets/kpsea_science_2024_q35_36.webp",
       "title": "Hanging Pots",
       "text": "The following picture shows an innovative garden used by learners to grow indigenous vegetables. Use the picture to answer questions 35 and 36.",
       "cssFilter": "none"
@@ -383,7 +383,7 @@ export const kpseaScience2024 = {
       "options": [
         {
           "text": "recycling and re-using.",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "recycling only.",
@@ -395,10 +395,10 @@ export const kpseaScience2024 = {
         },
         {
           "text": "re-using only.",
-          "isCorrect": false
+          "isCorrect": true
         }
       ],
-      "explanation": "The correct answer is **recycling and re-using.**\n\n**Analysis of the Correct Answer:**\nManaging solid waste by collecting old waste paper and converting it into a new, functional item (a football) involves two main practices. First, **recycling** involves taking waste materials and processing them into something new. Second, **re-using** means putting that newly created item to use again instead of throwing it away.\n\n**Why Other Options Are Incorrect:**\n* **recycling only:** While the paper is recycled into a football, it is also being put into active use (re-used) for play.\n* **reducing and re-using:** The learners didn't reduce the amount of paper originally produced or bought; they collected what was already waste. \n* **re-using only:** Re-using only means using the waste exactly as it is (like a plastic bottle for water). Here, they physically changed the paper into a football, which is a form of recycling.\n\n\ud83d\udccc **Key Learning Note:**\nTurning waste materials into new useful objects is a practical application of **recycling** and **re-using** in solid waste management."
+      "explanation": "The correct answer is **D. Re-using only.**\n\n**Analysis of the Correct Answer:**\nRecycling involves processing waste material to make new material (like breaking down paper into pulp to manufacture new paper). Here, the learners simply took the waste paper and used it directly, in its existing form, to make footballs — this is re-using, since the paper wasn't processed or transformed into a new material, just given a new use."
     },
     {
       "id": "q12",
@@ -728,7 +728,7 @@ export const kpseaScience2024 = {
       "options": [
         {
           "text": "waning gibbous",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "text": "waxing crescent",
@@ -736,14 +736,14 @@ export const kpseaScience2024 = {
         },
         {
           "text": "waning crescent",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "waxing gibbous.",
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **waning crescent**.\n\n**Analysis of the Correct Answer:**\nThe picture shows a moon with only a small, curved sliver of light visible on the **left side**. In the lunar cycle, when the lit portion is decreasing (shrinking) towards a new moon, it is said to be \"waning.\" A small sliver of light is called a \"crescent.\" Since the light is on the left, it is the final phase before the new moon, known as the **waning crescent**.\n\n**Why Other Options Are Incorrect:**\n* **waning gibbous:** A gibbous moon is mostly illuminated (more than half).\n* **waxing crescent:** A waxing crescent is also a sliver, but the light is growing and appears on the *right side* (in the Northern hemisphere/equator view generally taught).\n* **waxing gibbous:** A waxing gibbous is mostly illuminated and growing.\n\n\ud83d\udccc **Key Learning Note:**\n**Waxing** means the lit part is growing (usually lit on the right). **Waning** means the lit part is shrinking (usually lit on the left). A **crescent** is a small sliver, and a **gibbous** is mostly lit."
+      "explanation": "The correct answer is **A. Waning gibbous**\n\n**Analysis of the Correct Answer:**\nThe moon shown is more than half illuminated (gibbous), with the light portion on the left side and a dark crescent shape on the right. This pattern — mostly lit with the illuminated side on the left and the shadow crescent on the right — is characteristic of a waning gibbous moon, which occurs as the moon's illumination is decreasing after the full moon."
     },
     {
       "id": "q25",

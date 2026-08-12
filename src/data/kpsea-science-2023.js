@@ -12,46 +12,46 @@ export const kpseaScience2023 = {
   "sharedContexts": {
     "ctx-sci-q2": {
       "type": "image",
-      "imagePath": "/assets/q2_roots.png",
+      "imagePath": "/assets/q2_roots.webp",
       "title": "Diagram for Question 2"
     },
     "ctx-sci-q4": {
       "type": "image",
-      "imagePath": "/assets/q4_heart.png",
+      "imagePath": "/assets/q4_heart.webp",
       "title": "Diagram for Question 4"
     },
     "ctx-sci-q6": {
       "type": "image",
-      "imagePath": "/assets/q6_activities.png",
+      "imagePath": "/assets/q6_activities.webp",
       "title": "Diagram for Question 6",
       "scanEffect": false
     },
     "ctx-sci-q10": {
       "type": "image",
-      "imagePath": "/assets/q10_ball_ring.png",
+      "imagePath": "/assets/q10_ball_ring.webp",
       "title": "Diagram for Question 10"
     },
     "ctx-sci-q16": {
       "type": "image",
-      "imagePath": "/assets/q16_farmer.png",
+      "imagePath": "/assets/q16_farmer.webp",
       "title": "Diagram for Question 16",
       "scanEffect": false
     },
     "ctx-sci-q18": {
       "type": "image",
-      "imagePath": "/assets/q18_organic.png",
+      "imagePath": "/assets/q18_organic.webp",
       "title": "Diagram for Question 18",
       "scanEffect": false
     },
     "ctx-sci-q19": {
       "type": "image",
-      "imagePath": "/assets/q19_livestock.png",
+      "imagePath": "/assets/q19_livestock.webp",
       "title": "Diagram for Question 19",
       "scanEffect": false
     },
     "ctx-sci-q21": {
       "type": "image",
-      "imagePath": "/assets/q21_farmer.png",
+      "imagePath": "/assets/q21_farmer.webp",
       "title": "Diagram for Question 21",
       "scanEffect": false
     },
@@ -63,12 +63,12 @@ export const kpseaScience2023 = {
     },
     "ctx-sci-q41": {
       "type": "image",
-      "imagePath": "/assets/q41_gymnast.png",
+      "imagePath": "/assets/q41_gymnast.webp",
       "title": "Diagram for Question 41"
     },
     "ctx-sci-q44": {
       "type": "image",
-      "imagePath": "/assets/q44_handstand.png",
+      "imagePath": "/assets/q44_handstand.webp",
       "title": "Diagram for Question 44"
     }
   },

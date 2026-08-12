@@ -1,0 +1,7 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources>
+    <string name="app_name">keygenApp</string>
+    <string name="title_activity_main">keygenApp</string>
+    <string name="package_name">com.cbc.keygen</string>
+    <string name="custom_url_scheme">com.cbc.keygen</string>
+</resources>

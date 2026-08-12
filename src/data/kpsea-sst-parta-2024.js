@@ -9,7 +9,7 @@ export const kpseaSstParta2024 = {
     "ctx-sst-2024-q31-32": {
       "type": "image",
       "text": "Study the following map of Eastern Africa and use it to answer questions 31 and 32.",
-      "imagePath": "/assets/images/sst-2024-q31-32.png",
+      "imagePath": "/assets/images/sst-2024-q31-32.webp",
       "title": "Question 31-32 Image",
       "cssFilter": "none",
       "scanEffect": false
@@ -17,7 +17,7 @@ export const kpseaSstParta2024 = {
     "ctx-sst-2024-q1": {
       "type": "image",
       "text": "A Grade 6 learner mounted and framed the following picture in readiness for an exhibition.",
-      "imagePath": "/assets/images/sst-2024-q1.png",
+      "imagePath": "/assets/images/sst-2024-q1.webp",
       "title": "Question 1 Image",
       "cssFilter": "none",
       "scanEffect": false
@@ -25,14 +25,14 @@ export const kpseaSstParta2024 = {
     "ctx-sst-2024-q3": {
       "type": "image",
       "text": "The following image shows a passing skill in netball.",
-      "imagePath": "/assets/images/sst-2024-q3.png",
+      "imagePath": "/assets/images/sst-2024-q3.webp",
       "title": "Question 3 Image",
       "cssFilter": "none",
       "scanEffect": false
     },
     "ctx-sst-2024-q10": {
       "type": "image",
-      "imagePath": "/assets/images/sst-2024-q10.png",
+      "imagePath": "/assets/images/sst-2024-q10.webp",
       "title": "Question 10 Image",
       "cssFilter": "none",
       "scanEffect": false
@@ -47,7 +47,7 @@ export const kpseaSstParta2024 = {
     "ctx-sst-2024-q30": {
       "type": "image",
       "text": "The following picture shows a learner playing the ball in a game of volleyball.",
-      "imagePath": "/assets/images/sst-2024-q30.png",
+      "imagePath": "/assets/images/sst-2024-q30.webp",
       "title": "Question 30 Image",
       "cssFilter": "none",
       "scanEffect": false
@@ -851,11 +851,11 @@ export const kpseaSstParta2024 = {
       "options": [
         {
           "text": "Nilotes.",
-          "isCorrect": true
+          "isCorrect": false
         },
         {
           "text": "Bantus.",
-          "isCorrect": false
+          "isCorrect": true
         },
         {
           "text": "Semites.",
@@ -866,7 +866,7 @@ export const kpseaSstParta2024 = {
           "isCorrect": false
         }
       ],
-      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nRoute G typically depicts a migration path originating from the Nile Valley / Bahr el Ghazal region in modern-day South Sudan, moving southwards into Uganda and western Kenya. This is the historical migration route of the **Nilotes** (specifically the River-Lake and Plain Nilotes).\n\n**Why Other Options Are Incorrect:**\n* **B:** Bantus migrated from the Congo Basin in Central and West Africa, entering East Africa from the west and south.\n* **C:** Semites migrated primarily into the Horn of Africa (Ethiopia) from the Arabian Peninsula across the Red Sea.\n* **D:** Cushites migrated from the Horn of Africa southward into Kenya and Tanzania.\n\n\ud83d\udccc **Key Learning Note:**\nThe three major indigenous language groups in East Africa have distinct origins: Bantus (Congo Basin), Nilotes (Nile Valley), and Cushites (Horn of Africa)."
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nThe route marked G shows arrow radiating outward in different directions from a central point — this fanning-out dispersal pattern is characteristic of the Bantu migration, which spread out from a central African region (around the Congo area) into various parts of Eastern, Central, and Southern Africa."
     },
     {
       "id": "q33",

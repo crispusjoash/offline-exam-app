@@ -1,14 +1,20 @@
-import React, { useState, useRef } from 'react';
+import React, { useState, useRef, useEffect } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { PAST_PAPERS } from '../data/pastPapers';
+import { loadPaper } from '../data/pastPapers';
+import { saveSession, loadSession } from '../services/db';
+import { KeepAwake } from '@capacitor-community/keep-awake';
+import { Haptics, ImpactStyle } from '@capacitor/haptics';
 import { MathRenderer } from '../components/MathRenderer';
 import { ZoomableImage } from '../components/ZoomableImage';
-import { Pencil, Eraser, Trash2, CheckCircle2, AlertTriangle, XCircle, ChevronRight, Eye, ArrowLeft, BookOpen } from 'lucide-react';
+import { Pencil, Eraser, Trash2, CheckCircle2, AlertTriangle, XCircle, ChevronRight, Eye, ArrowLeft, BookOpen, Loader2 } from 'lucide-react';
 
 export const SectionBRunner = () => {
   const { portal, paperId } = useParams();
   const navigate = useNavigate();
-  const paper = PAST_PAPERS[portal]?.find(p => p.id === paperId);
+
+  const [paper, setPaper] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   const [currentIndex, setCurrentIndex] = useState(0);
   const [answers, setAnswers] = useState({});
@@ -19,15 +25,58 @@ export const SectionBRunner = () => {
   const [isDrawing, setIsDrawing] = useState(false);
   const canvasRef = useRef(null);
 
+  const [showResumePrompt, setShowResumePrompt] = useState(false);
+  const [pendingSession, setPendingSession] = useState(null);
+
+  useEffect(() => {
+    loadPaper(paperId)
+      .then(async p => {
+        setPaper(p);
+        const savedSession = await loadSession('sectionb_sessions', paperId);
+        if (savedSession && (Object.keys(savedSession.savedAnswers || {}).length > 0 || savedSession.savedIndex > 0 || Object.keys(savedSession.savedGrades || {}).length > 0)) {
+          setPendingSession(savedSession);
+          setShowResumePrompt(true);
+        }
+        setLoading(false);
+      })
+      .catch(e => {
+        console.error(e);
+        setError("Failed to load paper data.");
+        setLoading(false);
+      });
+
+    const keepAwake = async () => {
+      try {
+        await KeepAwake.keepAwake();
+      } catch (e) {}
+    };
+    keepAwake();
+    return () => {
+      KeepAwake.allowSleep().catch(() => {});
+    };
+  }, [paperId]);
+
+  useEffect(() => {
+    if (!loading && paper) {
+      saveSession('sectionb_sessions', paperId, {
+        savedAnswers: answers,
+        savedIndex: currentIndex,
+        savedGrades: grades,
+        savedRevealed: revealed
+      });
+    }
+  }, [answers, currentIndex, grades, revealed, paperId, loading, paper]);
+
   const sectionB = paper?.sectionB || [];
 
-  React.useEffect(() => {
+  useEffect(() => {
     if (paper && sectionB.length === 0) {
       navigate(`/exam/${portal}/${paperId}/results`, { replace: true });
     }
   }, [paper, sectionB.length, portal, paperId, navigate]);
 
-  if (!paper) return null;
+  if (loading) return <div style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}><Loader2 size={32} style={{ animation: 'spin 1s linear infinite', color: '#db2777' }} /></div>;
+  if (error || !paper) return <div style={{ color: 'red', padding: '2rem' }}>{error || 'Paper not found.'}</div>;
   if (sectionB.length === 0) return null;
 
 
@@ -96,6 +145,69 @@ export const SectionBRunner = () => {
     return { bg: '#fffbeb', border: '#fde68a', text: '#d97706', icon: <AlertTriangle size={15} />, label };
   };
 
+  if (showResumePrompt) {
+    return (
+      <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg)', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
+        <div style={{
+          background: '#fff', padding: '2.5rem', borderRadius: '1.5rem',
+          boxShadow: '0 20px 40px rgba(0,0,0,0.08)', border: '1px solid var(--border)',
+          maxWidth: '440px', width: '100%', textAlign: 'center'
+        }}>
+          <div style={{
+            width: '64px', height: '64px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%)',
+            display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', margin: '0 auto 1.5rem'
+          }}>
+            <BookOpen size={32} />
+          </div>
+          <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.5rem', fontWeight: '800', color: 'var(--text)', marginBottom: '0.75rem', lineHeight: 1.2 }}>
+            Resume Section B?
+          </h2>
+          <p style={{ color: 'var(--text-muted)', fontSize: '0.95rem', lineHeight: 1.5, marginBottom: '2rem' }}>
+            We found an unfinished attempt for <strong>{paper?.subject}</strong>. Would you like to pick up where you left off, or start completely fresh?
+          </p>
+          <div style={{ display: 'flex', gap: '1rem', flexDirection: 'column' }}>
+            <button
+              onClick={() => {
+                if (pendingSession) {
+                  if (pendingSession.savedAnswers) setAnswers(pendingSession.savedAnswers);
+                  if (pendingSession.savedIndex !== undefined) setCurrentIndex(pendingSession.savedIndex);
+                  if (pendingSession.savedGrades) setGrades(pendingSession.savedGrades);
+                  if (pendingSession.savedRevealed !== undefined) setRevealed(pendingSession.savedRevealed);
+                }
+                setShowResumePrompt(false);
+              }}
+              style={{
+                width: '100%', padding: '0.9rem', borderRadius: '0.75rem',
+                background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%)',
+                color: '#fff', border: 'none', fontWeight: '700', fontSize: '1rem', cursor: 'pointer',
+                boxShadow: '0 8px 16px rgba(59, 130, 246, 0.25)', transition: 'transform 0.2s'
+              }}
+            >
+              Resume Attempt
+            </button>
+            <button
+              onClick={() => {
+                setAnswers({});
+                setCurrentIndex(0);
+                setGrades({});
+                setRevealed(false);
+                saveSession('sectionb_sessions', paperId, { savedAnswers: {}, savedIndex: 0, savedGrades: {}, savedRevealed: false });
+                setShowResumePrompt(false);
+              }}
+              style={{
+                width: '100%', padding: '0.9rem', borderRadius: '0.75rem',
+                background: 'var(--bg)', color: 'var(--text)', border: '2px solid var(--border)',
+                fontWeight: '700', fontSize: '1rem', cursor: 'pointer', transition: 'background 0.2s'
+              }}
+            >
+              Start Fresh
+            </button>
+          </div>
+        </div>
+      </div>
+    );
+  }
+
   return (
     <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg)', overflow: 'hidden' }}>
 
@@ -147,7 +259,7 @@ export const SectionBRunner = () => {
           </div>
         )}
 
-        <div style={{ maxWidth: '740px', margin: '0 auto', padding: '1.75rem 1.25rem' }}>
+        <div className="exam-fluid-container">
 
           {/* Parent Question Context (if exists) */}
           {q.parentQuestionText && (
@@ -271,7 +383,10 @@ export const SectionBRunner = () => {
                           return (
                             <button
                               key={score}
-                              onClick={() => setGrades(prev => ({ ...prev, [item.id]: score }))}
+                              onClick={() => {
+                                try { Haptics.impact({ style: ImpactStyle.Light }); } catch(e) {}
+                                setGrades(prev => ({ ...prev, [item.id]: score }));
+                              }}
                               style={{
                                 flex: '1 1 auto', minWidth: '80px', padding: '0.6rem 0.5rem',
                                 background: selected ? c.bg : 'var(--bg-muted)',

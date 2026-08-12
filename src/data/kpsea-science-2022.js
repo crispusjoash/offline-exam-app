@@ -8,35 +8,42 @@ export const kpseaScience2022 = {
     "ctx-science-2022-q2": {
       "title": "Fungi and their Uses",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q2.png",
+      "imagePath": "/assets/kpsea_science_2022_q2.webp",
       "caption": "Table matching fungi with their uses",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-science-2022-q7": {
       "title": "Parts of a Kettle",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q7.png",
+      "imagePath": "/assets/kpsea_science_2022_q7.webp",
       "caption": "The picture below shows a kettle with parts labelled L, M, N and P.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-science-2022-q9": {
       "title": "Composition of Air",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q9.png",
+      "imagePath": "/assets/kpsea_science_2022_q9.webp",
       "caption": "Pie chart showing the composition of air.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-science-2022-q10": {
+      "title": "Beam Balance",
+      "type": "image",
+      "imagePath": "/assets/kpsea_science_2022_q10.png",
+      "caption": "A beam balance that was constructed by learners.",
+      "cssFilter": "none"
     },
     "ctx-science-2022-q21": {
       "title": "Farm Produce",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q21.png",
+      "imagePath": "/assets/kpsea_science_2022_q21.webp",
       "caption": "The picture below shows a farm produce after harvesting.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
     "ctx-science-2022-q22-23": {
       "title": "Maize Seedbed",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q22_23.jpg",
+      "imagePath": "/assets/kpsea_science_2022_q22_23.webp",
       "caption": "A farmer planted maize as shown in the picture below to conserve soil water.",
       "scanEffect": false,
       "cssFilter": "none"
@@ -44,7 +51,7 @@ export const kpseaScience2022 = {
     "ctx-science-2022-q24-25": {
       "title": "Garden Tool",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q24_25.png",
+      "imagePath": "/assets/kpsea_science_2022_q24_25.webp",
       "caption": "In the preparation of a nursery bed, Grade five learners used the garden tool shown below.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     },
@@ -67,7 +74,7 @@ export const kpseaScience2022 = {
     "ctx-science-2022-q48": {
       "title": "Volleyball Skills",
       "type": "image",
-      "imagePath": "/assets/kpsea_science_2022_q48.png",
+      "imagePath": "/assets/kpsea_science_2022_q48.webp",
       "caption": "Various skills used when playing volleyball game.",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     }
@@ -296,7 +303,7 @@ export const kpseaScience2022 = {
                       },
                       {
                             "text": "K",
-                            "isCorrect": true
+                            "isCorrect": false
                       },
                       {
                             "text": "L",
@@ -304,10 +311,10 @@ export const kpseaScience2022 = {
                       },
                       {
                             "text": "J",
-                            "isCorrect": false
+                            "isCorrect": true
                       }
                 ],
-                "explanation": "The correct answer is **K**.\n\n**Analysis of the Correct Answer:**\nThe gas that supports burning (combustion) is **Oxygen**. In the composition of air, Oxygen makes up approximately **21%** of the atmosphere by volume. In a standard pie chart representing air composition, the largest slice (78%) is Nitrogen, and the second-largest slice (21%) is Oxygen, which corresponds to part **K**.\n\n**Why Other Options Are Incorrect:**\n* **M:** This tiny slice represents Carbon dioxide (0.03%), which is used by plants for photosynthesis and actually extinguishes fire.\n* **L:** This small slice represents rare/inert gases (0.97%) like argon, which do not support burning.\n* **J:** This is the largest slice representing Nitrogen (78%), which is an unreactive gas that does not support burning.\n\n📌 **Key Learning Note:**\n- **Oxygen (21%):** Supports burning and breathing.\n- **Nitrogen (78%):** Most abundant gas in the air.\n- **Carbon Dioxide (0.03%):** Used to put out fires."
+                "explanation": "The correct answer is **J**.\n\n**Analysis of the Correct Answer:**\nThe gas that supports burning (combustion) is **Oxygen**. According to the pie chart provided, part **J** represents Oxygen (21%), which supports burning.\n\n**Why Other Options Are Incorrect:**\n* **M:** This represents Nitrogen (78%), which is the most abundant gas but is unreactive and does not support burning.\n* **K:** This represents inert/rare gases (0.97%).\n* **L:** This represents Carbon dioxide (0.03%), which is used to extinguish fire.\n\n📌 **Key Learning Note:**\n- **Oxygen (21%):** Supports burning and breathing.\n- **Nitrogen (78%):** Most abundant gas in the air.\n- **Carbon Dioxide (0.03%):** Used to put out fires."
           },
           {
                 "id": "kpsea-science-2022-q10",
@@ -500,7 +507,7 @@ export const kpseaScience2022 = {
                 "options": [
                       {
                             "text": "Staking the plants.",
-                            "isCorrect": false
+                            "isCorrect": true
                       },
                       {
                             "text": "Constructing a shade.",
@@ -508,14 +515,14 @@ export const kpseaScience2022 = {
                       },
                       {
                             "text": "Trapping the animals.",
-                            "isCorrect": true
+                            "isCorrect": false
                       },
                       {
                             "text": "Applying a mulch.",
                             "isCorrect": false
                       }
                 ],
-                "explanation": "The correct answer is **Trapping the animals**.\n\n**Analysis of the Correct Answer:**\nTo protect crops from destruction by wild animals and pests (like rodents, squirrels, or monkeys), physical barriers and control methods are used. **Trapping** is a direct method used by farmers to capture and remove problematic wild animals that invade the farm and eat or destroy the crops.\n\n**Why Other Options Are Incorrect:**\n* **Staking the plants.:** Staking is providing a wooden pole for weak-stemmed plants (like tomatoes) to climb; it does not stop wild animals from eating them.\n* **Constructing a shade.:** A shade is built over a nursery bed to protect young delicate seedlings from the scorching sun and heavy rain drops, not from wild animals.\n* **Applying a mulch.:** Mulching involves covering the soil with dry grass or leaves to conserve moisture and suppress weeds; it has no effect on large wild animals.\n\n📌 **Key Learning Note:**\nFarmers protect crops from wild animals by **trapping**, using **scarecrows**, building **fences/bomas**, and making loud noises."
+                "explanation": "The correct answer is **Staking the plants.**\n\n**Analysis of the Correct Answer:**\nStaking supports young climbing fruit plants and keeps them upright and off the ground, protecting them from being trampled, knocked over, or damaged by animals moving through the area. \n\n**Why Other Options Are Incorrect:**\n* **Constructing a shade.:** Deals with sunlight/temperature, not animals.\n* **Trapping the animals.:** Trapping animals is not a standard protective practice taught at this level for climbing plants.\n* **Applying a mulch.:** Mulching helps retain soil moisture rather than protect against animal damage."
           },
           {
                 "id": "kpsea-science-2022-q18",

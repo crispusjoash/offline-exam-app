@@ -61,7 +61,7 @@ export const PaperSelector = () => {
       `}</style>
 
       {/* ── Main Content Container ── */}
-      <div style={{ padding: '1.5rem 1.75rem 3rem', maxWidth: '1100px', width: '100%', boxSizing: 'border-box' }}>
+      <div className="portal-container">
 
         {/* ── Compact Banner Header ── */}
         <div style={{

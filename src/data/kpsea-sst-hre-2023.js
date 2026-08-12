@@ -8,7 +8,7 @@ export const kpseaSstHre2023 = {
   "sharedContexts": {
     "ctx-sst-hre-q42": {
       "type": "image",
-      "imagePath": "/assets/sst_hre_q42_prayer.png",
+      "imagePath": "/assets/sst_hre_q42_prayer.webp",
       "title": "Tibetan script prayer for Question 42",
       "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
     }

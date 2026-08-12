@@ -8,7 +8,7 @@ export const kpseaSstHre2022 = {
   "sharedContexts": {
     "ctx-hre-q36": {
       "type": "image",
-      "imagePath": "/assets/images/kpsea-hre-2022-q36.png",
+      "imagePath": "/assets/images/kpsea-hre-2022-q36.webp",
       "title": "Balloons, bouncy castle and football"
     }
   },

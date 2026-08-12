@@ -2,7 +2,13 @@ import React from 'react';
 import katex from 'katex';
 import 'katex/dist/katex.min.css';
 
-const SafeMath = ({ math }) => {
+const katexCache = new Map();
+
+const SafeMath = React.memo(({ math }) => {
+  if (katexCache.has(math)) {
+    return <span dangerouslySetInnerHTML={{ __html: katexCache.get(math) }} />;
+  }
+
   let html = '';
   try {
     html = katex.renderToString(math, {
@@ -10,11 +16,12 @@ const SafeMath = ({ math }) => {
       strict: false,
       output: 'html',
     });
+    katexCache.set(math, html);
   } catch {
     return <span style={{ color: '#f87171', fontSize: '0.85em' }}>[{math}]</span>;
   }
   return <span dangerouslySetInnerHTML={{ __html: html }} />;
-};
+});
 
 // Render a plain text segment, processing **bold**, *italic*, and <u>underline</u> within it
 const renderTextWithFormatting = (text, keyPrefix) => {
@@ -67,7 +74,7 @@ const renderTextWithFormatting = (text, keyPrefix) => {
   );
 };
 
-export const MathRenderer = ({ text }) => {
+export const MathRenderer = React.memo(({ text }) => {
   if (!text) return null;
 
   if (!text.includes('$') && !text.includes('**') && !text.includes('*') && !text.includes('<u>')) return <span style={{ whiteSpace: 'pre-wrap' }}>{text}</span>;
@@ -82,4 +89,4 @@ export const MathRenderer = ({ text }) => {
       )}
     </span>
   );
-};
+});

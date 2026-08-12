@@ -1,0 +1,750 @@
+{
+  "id": "kjsea-sst-2025",
+  "title": "KJSEA 2025 Social Studies",
+  "subject": "Social Studies",
+  "year": "2025",
+  "isSubPaper": false,
+  "durationMinutes": 90,
+  "sharedContexts": {
+    "ctx-sst-q13": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_sst_2025_q13.webp",
+      "title": "Vegetation zones diagram for Question 13",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-sst-q30": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_sst_2025_q30.webp",
+      "title": "Map of Kapas Area for Question 30",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    },
+    "ctx-sst-q33": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_sst_2025_q33.webp",
+      "title": "Map of Africa for Question 33",
+      "cssFilter": "grayscale(100%) contrast(150%) brightness(105%)"
+    }
+  },
+  "sectionA": [
+    {
+      "id": "kjsea-sst-2025-q1",
+      "questionNumber": 1,
+      "questionText": "A resource person gave a talk to Grade 9 learners on careers associated with the learning of Social Studies. One of the careers that the resource person highlighted was",
+      "options": [
+        {
+          "text": "sports instructor",
+          "isCorrect": false
+        },
+        {
+          "text": "surgeon",
+          "isCorrect": false
+        },
+        {
+          "text": "law",
+          "isCorrect": true
+        },
+        {
+          "text": "music producer.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **law**.\n\n**Analysis of the Correct Answer:**\nSocial Studies involves the study of human society, civics, history, governance, and human rights. This subject directly lays the foundation for a career in **law**, where lawyers, advocates, and judges deal with laws and the justice system.\n\n**Why Other Options Are Incorrect:**\n* **sports instructor:** This career is associated with Physical Education and Sports Science.\n* **surgeon:** This is a medical career associated with STEM (Science, Technology, Engineering, and Mathematics).\n* **music producer:** This career is associated with Creative Arts.\n\n📌 **Key Learning Note:**\nSocial Studies prepares learners for careers like teaching, law, urban planning, administration, and social work."
+    },
+    {
+      "id": "kjsea-sst-2025-q2",
+      "questionNumber": 2,
+      "questionText": "Paul, a Grade 9 learner, was asked \"what would you like to be when you grow up?\" Paul answered, \"a musician.\" The senior school pathway that is likely to assist Paul to achieve his dream is",
+      "options": [
+        {
+          "text": "STEM",
+          "isCorrect": false
+        },
+        {
+          "text": "Social Sciences",
+          "isCorrect": false
+        },
+        {
+          "text": "Arts and Sports Science",
+          "isCorrect": true
+        },
+        {
+          "text": "Languages.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Arts and Sports Science**.\n\n**Analysis of the Correct Answer:**\nUnder the CBC (Competency Based Curriculum) senior school pathways, a learner pursuing a career as a musician would choose the **Arts and Sports Science** pathway. This pathway is designed to nurture creative talents, physical education, performing arts (like music and drama), and visual arts.\n\n**Why Other Options Are Incorrect:**\n* **STEM:** Focuses on Science, Technology, Engineering, and Mathematics.\n* **Social Sciences:** Focuses on humanities, languages, and social studies.\n* **Languages:** Focuses purely on linguistics, literature, and communication.\n\n📌 **Key Learning Note:**\nSenior school in CBC offers three main pathways: STEM, Social Sciences, and Arts and Sports Science."
+    },
+    {
+      "id": "kjsea-sst-2025-q3",
+      "questionNumber": 3,
+      "questionText": "The following factors prove that Africa is the cradle of humankind except",
+      "options": [
+        {
+          "text": "existence of pre-historic sites",
+          "isCorrect": false
+        },
+        {
+          "text": "existence of plateaus",
+          "isCorrect": true
+        },
+        {
+          "text": "oldest fossils",
+          "isCorrect": false
+        },
+        {
+          "text": "favourable climate.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **existence of plateaus**.\n\n**Analysis of the Correct Answer:**\nThe theory that Africa is the cradle (origin) of humankind is supported by strong archaeological and geographical evidence. However, the **existence of plateaus** (which are simply raised, flat physical features) is a purely geographical aspect and does not act as archaeological proof of early human origins. \n\n**Why Other Options Are Incorrect:**\n* **existence of pre-historic sites:** Sites like Olduvai Gorge provide proof of early human settlements.\n* **oldest fossils:** The discovery of the oldest hominid fossils in Africa strongly supports the theory.\n* **favourable climate:** A historically warm and favourable climate provided a conducive environment for early human survival and evolution.\n\n📌 **Key Learning Note:**\nArchaeological evidence (fossils and tools) found in East Africa makes it the most widely accepted \"Cradle of Humankind.\" "
+    },
+    {
+      "id": "kjsea-sst-2025-q4",
+      "questionNumber": 4,
+      "questionText": "During a lesson, learners were provided with a map showing farming activities, settlements and physical features.\nWhat type of map were they given?",
+      "options": [
+        {
+          "text": "Thematic map.",
+          "isCorrect": false
+        },
+        {
+          "text": "Political map.",
+          "isCorrect": false
+        },
+        {
+          "text": "Topographical map.",
+          "isCorrect": true
+        },
+        {
+          "text": "Climatic map.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Topographical map.**.\n\n**Analysis of the Correct Answer:**\nA **topographical map** is a highly detailed map that shows both natural physical features (like mountains, rivers, valleys using contours) and human-made features (such as settlements, roads, and farming activities).\n\n**Why Other Options Are Incorrect:**\n* **Thematic map:** Focuses on a single specific theme or topic (e.g., only rainfall or only population density).\n* **Political map:** Shows governmental boundaries of countries, counties, or states.\n* **Climatic map:** Shows weather patterns and climate zones over a period.\n\n📌 **Key Learning Note:**\nTopographical maps are essential for land use planning and navigation because they provide a complete picture of the terrain and human activities on it."
+    },
+    {
+      "id": "kjsea-sst-2025-q5",
+      "questionNumber": 5,
+      "questionText": "Hashim, a Grade 9 learner searched for the contribution of Kenyan culture to the international community and made a presentation in class. Which of the following areas did Hashim include in his presentation?",
+      "options": [
+        {
+          "text": "Traditional mode of dressing.",
+          "isCorrect": true
+        },
+        {
+          "text": "Agricultural experts.",
+          "isCorrect": false
+        },
+        {
+          "text": "Global financial system.",
+          "isCorrect": false
+        },
+        {
+          "text": "Exchange programmes.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Traditional mode of dressing.**.\n\n**Analysis of the Correct Answer:**\nKenyan culture has significantly contributed to the international community through its unique cultural heritage. The **traditional mode of dressing**, such as the iconic Maasai shuka and intricate beadwork, is recognized globally and represents Kenya's rich cultural identity in international fashion and art.\n\n**Why Other Options Are Incorrect:**\n* **Agricultural experts, Global financial system, Exchange programmes:** While Kenya participates in these areas, they are considered economic, educational, or professional contributions rather than purely \"cultural\" contributions.\n\n📌 **Key Learning Note:**\nCulture includes dressing, food, language, music, and traditions. Sharing these with the world promotes international understanding and tourism."
+    },
+    {
+      "id": "kjsea-sst-2025-q6",
+      "questionNumber": 6,
+      "questionText": "John's cattle trespassed on Peter's farm and destroyed crops leading to a conflict between the two neighbours. The best way to restore a good relationship between the two neighbours is through",
+      "options": [
+        {
+          "text": "arbitration",
+          "isCorrect": true
+        },
+        {
+          "text": "forgiveness",
+          "isCorrect": false
+        },
+        {
+          "text": "compensation",
+          "isCorrect": false
+        },
+        {
+          "text": "litigation.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **arbitration**.\n\n**Analysis of the Correct Answer:**\nWhen neighbors have a dispute, the best way to restore a *good relationship* is through peaceful conflict resolution. **Arbitration** (and mediation) involves a neutral third party helping the neighbors reach an amicable and fair solution without destroying their social bond.\n\n**Why Other Options Are Incorrect:**\n* **forgiveness:** While noble, forgiveness alone without addressing the destroyed crops may not solve the underlying grievance fairly.\n* **compensation:** While compensation is usually part of the final agreement, arbitration is the *process* through which they agree on it peacefully.\n* **litigation:** Going to court (litigation) is adversarial, expensive, and often creates permanent enmity between neighbors.\n\n📌 **Key Learning Note:**\nPeaceful conflict resolution methods (negotiation, mediation, arbitration) are always preferred over litigation to maintain community harmony."
+    },
+    {
+      "id": "kjsea-sst-2025-q7",
+      "questionNumber": 7,
+      "questionText": "Grade 7 learners were having a discussion on factors that facilitated the development of agriculture in the ancient Egypt. One of the main factors they discussed was the",
+      "options": [
+        {
+          "text": "availability of water",
+          "isCorrect": true
+        },
+        {
+          "text": "availability of skilled farmers",
+          "isCorrect": false
+        },
+        {
+          "text": "invention of shadoof",
+          "isCorrect": false
+        },
+        {
+          "text": "existence of trade.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **availability of water**.\n\n**Analysis of the Correct Answer:**\nThe **availability of water** from the River Nile was the most critical factor that facilitated the development of agriculture in ancient Egypt. The Nile provided a constant supply of water for irrigation in an otherwise harsh desert environment.\n\n**Why Other Options Are Incorrect:**\n* **availability of skilled farmers:** While important, farmers could not grow crops without water.\n* **invention of shadoof:** The shadoof was an irrigation tool invented *because* the water was available, it was a secondary factor.\n* **existence of trade:** Trade developed as a result of surplus agricultural production, not the cause of it.\n\n📌 **Key Learning Note:**\nAncient Egypt is often called the \"Gift of the Nile\" because its entire agricultural civilization depended on the river's water and fertile silt."
+    },
+    {
+      "id": "kjsea-sst-2025-q8",
+      "questionNumber": 8,
+      "questionText": "Self-esteem is the belief individuals have about themselves. Which of the following does not promote self-esteem?",
+      "options": [
+        {
+          "text": "Accomplishing personal goals.",
+          "isCorrect": false
+        },
+        {
+          "text": "Positive self image.",
+          "isCorrect": false
+        },
+        {
+          "text": "Keeping to oneself.",
+          "isCorrect": true
+        },
+        {
+          "text": "Academic achievements.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Keeping to oneself.**.\n\n**Analysis of the Correct Answer:**\nSelf-esteem is how much you value, respect, and feel confident about yourself. **Keeping to oneself** (isolation) often denies a person the social interaction, feedback, and positive reinforcement needed to build a healthy self-esteem.\n\n**Why Other Options Are Incorrect:**\n* **Accomplishing personal goals, Positive self image, Academic achievements:** These all provide a sense of capability and success, which directly boost and promote high self-esteem.\n\n📌 **Key Learning Note:**\nHealthy self-esteem is built through positive social interactions, achieving goals, and self-acceptance. Extreme isolation can lead to low self-esteem."
+    },
+    {
+      "id": "kjsea-sst-2025-q9",
+      "questionNumber": 9,
+      "questionText": "Kelu Junior School learners carried out a Community Service Learning project on cleaning of the environment. The learners benefitted from the project by",
+      "options": [
+        {
+          "text": "devoting their time to community service",
+          "isCorrect": false
+        },
+        {
+          "text": "making the community know what they can do",
+          "isCorrect": false
+        },
+        {
+          "text": "encouraging themselves to work hard",
+          "isCorrect": false
+        },
+        {
+          "text": "understanding the problems facing the community.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **understanding the problems facing the community.**.\n\n**Analysis of the Correct Answer:**\nCommunity Service Learning (CSL) is a core component of the CBC curriculum designed to help learners apply classroom knowledge to real-life situations. By participating, learners benefit by gaining a deeper **understanding of the actual problems facing their community**, which fosters empathy, civic responsibility, and problem-solving skills.\n\n**Why Other Options Are Incorrect:**\n* **devoting their time:** This is what they *do*, not necessarily the educational *benefit* they gain.\n* **making the community know what they can do:** CSL is not about showing off, but about learning and serving.\n* **encouraging themselves to work hard:** This is a general benefit, but understanding the community is the specific primary goal of CSL.\n\n📌 **Key Learning Note:**\nCSL bridges the gap between theoretical classroom learning and practical community problem-solving."
+    },
+    {
+      "id": "kjsea-sst-2025-q10",
+      "questionNumber": 10,
+      "questionText": "A group of Grade 8 learners visited a pre-historical site in Kenya to learn about the culture of a certain community. The learners are likely to have learnt the following about the community, except the",
+      "options": [
+        {
+          "text": "shelter they used",
+          "isCorrect": false
+        },
+        {
+          "text": "population growth rate",
+          "isCorrect": true
+        },
+        {
+          "text": "clothes they wore",
+          "isCorrect": false
+        },
+        {
+          "text": "tools they used.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **population growth rate**.\n\n**Analysis of the Correct Answer:**\nPre-historic sites provide physical archaeological evidence of how early humans lived. However, specific demographic statistics like the **population growth rate** cannot be determined from archaeological digs because there were no written census records or mathematical data from that era.\n\n**Why Other Options Are Incorrect:**\n* **shelter they used:** Archaeologists can find remnants of caves or early huts.\n* **clothes they wore:** Evidence of animal skins or bone needles can indicate their clothing.\n* **tools they used:** Stone tools and weapons are the most common artifacts found at these sites.\n\n📌 **Key Learning Note:**\nArchaeology relies on physical artifacts (material culture) to reconstruct history. Abstract statistics require written records, which pre-historic societies did not have."
+    },
+    {
+      "id": "kjsea-sst-2025-q11",
+      "questionNumber": 11,
+      "questionText": "Shem was working in a dairy co-operative society in a rural area in Kenya. He got a job in Nairobi where he moved to and settled permanently with his family. This type of migration is referred to as",
+      "options": [
+        {
+          "text": "urban to urban migration",
+          "isCorrect": false
+        },
+        {
+          "text": "urban to rural migration",
+          "isCorrect": false
+        },
+        {
+          "text": "rural to urban migration",
+          "isCorrect": true
+        },
+        {
+          "text": "rural to rural migration.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **rural to urban migration**.\n\n**Analysis of the Correct Answer:**\nMigration is the movement of people from one place to another. Shem moved from a dairy co-operative in a **rural area** to settle permanently in Nairobi, which is a major city (**urban area**). This is a classic example of **rural to urban migration**.\n\n**Why Other Options Are Incorrect:**\n* **urban to urban migration:** Moving from one city to another (e.g., Mombasa to Nairobi).\n* **urban to rural migration:** Moving from a city to a village.\n* **rural to rural migration:** Moving from one village to another village (e.g., looking for better farming land).\n\n📌 **Key Learning Note:**\nRural to urban migration is often driven by \"pull factors\" like the search for better employment, education, and healthcare facilities in cities."
+    },
+    {
+      "id": "kjsea-sst-2025-q12",
+      "questionNumber": 12,
+      "questionText": "Mr. Busara taught his Grade 8 learners the uses of scales on maps. One of the things they learnt was that scales are used to",
+      "options": [
+        {
+          "text": "measure distances",
+          "isCorrect": true
+        },
+        {
+          "text": "give directions",
+          "isCorrect": false
+        },
+        {
+          "text": "determine physical features",
+          "isCorrect": false
+        },
+        {
+          "text": "locate places.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **measure distances**.\n\n**Analysis of the Correct Answer:**\nOn a map, a scale represents the ratio between the distance on the map and the actual distance on the ground. Therefore, the primary use of a scale is to help map readers **measure actual distances** between two places.\n\n**Why Other Options Are Incorrect:**\n* **give directions:** This is done using a compass rose (North, South, East, West).\n* **determine physical features:** This is done using the map's key or legend, which explains the symbols used.\n* **locate places:** This is done using latitudes and longitudes, or grid references.\n\n📌 **Key Learning Note:**\nA map scale can be represented in three ways: as a statement (e.g., 1cm represents 1km), as a representative fraction (e.g., 1:100,000), or as a linear/graphic scale."
+    },
+    {
+      "id": "kjsea-sst-2025-q13",
+      "questionNumber": 13,
+      "questionText": "The following diagram shows different vegetation zones a mountaineer came across while climbing a mountain.\n\nThe type of vegetation zone likely to be found in the region marked D is",
+      "options": [
+        {
+          "text": "heath and moorland",
+          "isCorrect": false
+        },
+        {
+          "text": "bamboo",
+          "isCorrect": false
+        },
+        {
+          "text": "savannah",
+          "isCorrect": false
+        },
+        {
+          "text": "rainforest.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **rainforest.**.\n\n**Analysis of the Correct Answer:**\nThe diagram illustrates mountain vegetation zones, which change as altitude increases. \n* **E (Base):** Savannah grassland\n* **D (Lower slopes):** Rainforest (Dense equatorial forest due to heavy relief rainfall)\n* **C (Middle slopes):** Bamboo forest\n* **B (Upper slopes):** Heath and Moorland\n* **A (Peak):** Bare rock, snow, and ice\n\nTherefore, region **D** represents the **rainforest**.\n\n**Why Other Options Are Incorrect:**\n* **heath and moorland:** This is found much higher up (Zone B).\n* **bamboo:** This is found just above the rainforest (Zone C).\n* **savannah:** This is found at the lowest altitude at the base (Zone E).\n\n📌 **Key Learning Note:**\nMountain vegetation is primarily determined by altitude (temperature drops as you go higher) and rainfall.",
+      "contextRef": "ctx-sst-q13"
+    },
+    {
+      "id": "kjsea-sst-2025-q14",
+      "questionNumber": 14,
+      "questionText": "Learners from Elimu School carried out a field study to investigate human activities that influence weather and climate in their locality. Which of the following activities that they observed influences weather and climate?",
+      "options": [
+        {
+          "text": "Cultivation of crops.",
+          "isCorrect": false
+        },
+        {
+          "text": "Road construction.",
+          "isCorrect": false
+        },
+        {
+          "text": "Trade.",
+          "isCorrect": false
+        },
+        {
+          "text": "Deforestation.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **Deforestation.**.\n\n**Analysis of the Correct Answer:**\n**Deforestation** (the cutting down of trees) directly and negatively influences weather and climate. Trees release moisture into the atmosphere through transpiration; removing them leads to lower rainfall, drier conditions, and contributes to global warming by increasing carbon dioxide levels in the air.\n\n**Why Other Options Are Incorrect:**\n* **Cultivation of crops, Road construction, Trade:** While these are human activities, they do not have as massive or direct an impact on altering local weather patterns and global climate as large-scale deforestation does.\n\n📌 **Key Learning Note:**\nAfforestation (planting trees) and re-afforestation help stabilize the climate, attract rainfall, and prevent soil erosion."
+    },
+    {
+      "id": "kjsea-sst-2025-q15",
+      "questionNumber": 15,
+      "questionText": "Grade 9 learners were given an article on violation of children's rights in Kenya to read. The following are some of the child abuses that are likely to be highlighted in the article except",
+      "options": [
+        {
+          "text": "disciplining",
+          "isCorrect": true
+        },
+        {
+          "text": "sexual abuse",
+          "isCorrect": false
+        },
+        {
+          "text": "child trafficking",
+          "isCorrect": false
+        },
+        {
+          "text": "child labour.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **disciplining**.\n\n**Analysis of the Correct Answer:**\nAppropriate and reasonable **disciplining** by parents or teachers to correct a child's behavior is a normal part of upbringing and is *not* considered an abuse or violation of rights. \n\n**Why Other Options Are Incorrect:**\n* **sexual abuse, child trafficking, child labour:** These are all severe, illegal violations of a child's fundamental human rights that cause deep physical and psychological harm. \n\n📌 **Key Learning Note:**\nWhile disciplining is allowed, it must not cross the line into physical abuse (like severe caning) or emotional abuse. The Children's Act protects children from harmful practices."
+    },
+    {
+      "id": "kjsea-sst-2025-q16",
+      "questionNumber": 16,
+      "questionText": "In a discussion group, you were asked to list the contributions of the Aswan High dam to the economy of Egypt. Which of the following is not among the contributions listed by your group?",
+      "options": [
+        {
+          "text": "Prevention of drought.",
+          "isCorrect": true
+        },
+        {
+          "text": "Generation of electricity.",
+          "isCorrect": false
+        },
+        {
+          "text": "Controlling of floods.",
+          "isCorrect": false
+        },
+        {
+          "text": "Provision of water for irrigation.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Prevention of drought.**.\n\n**Analysis of the Correct Answer:**\nWhile the Aswan High Dam stores water that helps mitigate the *effects* of a dry season, humans cannot actually **prevent a meteorological drought** (which is a natural phenomenon caused by a lack of rainfall in the atmosphere). The dam simply manages the water reserves.\n\n**Why Other Options Are Incorrect:**\n* **Generation of electricity:** The dam generates massive amounts of Hydroelectric Power (HEP) for Egypt.\n* **Controlling of floods:** It controls the annual destructive flooding of the River Nile.\n* **Provision of water for irrigation:** It provides a steady year-round supply of water for agriculture.\n\n📌 **Key Learning Note:**\nMulti-purpose river projects (like the Aswan High Dam or Seven Forks in Kenya) are built primarily for HEP generation, flood control, and irrigation."
+    },
+    {
+      "id": "kjsea-sst-2025-q17",
+      "questionNumber": 17,
+      "questionText": "Learners had a debate on the developments that took place during the Middle Stone Age period. Which of the following is the greatest development they highlighted during the debate?",
+      "options": [
+        {
+          "text": "Development of agriculture.",
+          "isCorrect": false
+        },
+        {
+          "text": "Development of rock shelters.",
+          "isCorrect": false
+        },
+        {
+          "text": "Invention of fire.",
+          "isCorrect": true
+        },
+        {
+          "text": "Development of composite tools.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Invention of fire.**.\n\n**Analysis of the Correct Answer:**\nThe **invention of fire** (or discovering how to make and control it) is considered the greatest milestone of the Middle Stone Age. Fire fundamentally changed human evolution: it provided warmth, protection against wild animals, a way to cook food (which improved brain development), and light at night.\n\n**Why Other Options Are Incorrect:**\n* **Development of agriculture:** This occurred much later, during the New Stone Age (Neolithic period).\n* **Development of rock shelters:** Early humans used natural rock shelters long before the Middle Stone Age.\n* **Development of composite tools:** While tool-making improved, fire was the most revolutionary \"greatest\" development.\n\n📌 **Key Learning Note:**\nThe control of fire allowed early humans to migrate into colder climates out of Africa."
+    },
+    {
+      "id": "kjsea-sst-2025-q18",
+      "questionNumber": 18,
+      "questionText": "Tom, a Junior School learner, conducted a search on sources of population data in Kenya. The following are sources of population data that he found except",
+      "options": [
+        {
+          "text": "census",
+          "isCorrect": false
+        },
+        {
+          "text": "school enrolment",
+          "isCorrect": true
+        },
+        {
+          "text": "registration of births and deaths",
+          "isCorrect": false
+        },
+        {
+          "text": "statistical abstracts.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **school enrolment**.\n\n**Analysis of the Correct Answer:**\nPrimary sources of national demographic population data include the national census, vital registration systems, and statistical abstracts. **School enrolment** only provides specific data on the number of students attending school, not the comprehensive demographics of the entire national population.\n\n**Why Other Options Are Incorrect:**\n* **census:** The official, periodic counting of a country's entire population (done every 10 years in Kenya).\n* **registration of births and deaths:** Also known as vital registration, it provides continuous population data.\n* **statistical abstracts:** Publications by the government containing compiled demographic and economic data.\n\n📌 **Key Learning Note:**\nPopulation data is crucial for the government to plan for resources like schools, hospitals, housing, and infrastructure."
+    },
+    {
+      "id": "kjsea-sst-2025-q19",
+      "questionNumber": 19,
+      "questionText": "One of the theories about the origin of solar system that the early scientists came up with is",
+      "options": [
+        {
+          "text": "Nebula Cloud Theory",
+          "isCorrect": true
+        },
+        {
+          "text": "Continental Drift Theory",
+          "isCorrect": false
+        },
+        {
+          "text": "The Big Bang Theory",
+          "isCorrect": false
+        },
+        {
+          "text": "Plate Tectonic Theory.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **Nebula Cloud Theory**.\n\n**Analysis of the Correct Answer:**\nThe **Nebula Cloud Theory** (or Nebular Hypothesis) is a scientific theory explaining the origin of the Solar System. It suggests that the sun and planets formed from a giant, rotating cloud of gas and dust (a nebula) that collapsed under its own gravity.\n\n**Why Other Options Are Incorrect:**\n* **Continental Drift Theory:** Explains how the Earth's continents were once one supercontinent (Pangaea) and drifted apart.\n* **The Big Bang Theory:** Explains the origin of the *entire universe*, not just our solar system.\n* **Plate Tectonic Theory:** Explains the movement of the Earth's solid outer crust (lithosphere).\n\n📌 **Key Learning Note:**\nThe Nebula Cloud Theory focuses specifically on the formation of the sun and the planets orbiting it."
+    },
+    {
+      "id": "kjsea-sst-2025-q20",
+      "questionNumber": 20,
+      "questionText": "Hekima Junior School learners displayed posters showing citizens participating in the constitution making process in Kenya. Which of the following posters is likely not to contain the correct information on the constitution making process in Kenya? A poster with citizens",
+      "options": [
+        {
+          "text": "voting in a referendum",
+          "isCorrect": false
+        },
+        {
+          "text": "giving their opinions",
+          "isCorrect": false
+        },
+        {
+          "text": "participating in a community project",
+          "isCorrect": true
+        },
+        {
+          "text": "engaging in civic education.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **participating in a community project**.\n\n**Analysis of the Correct Answer:**\nThe constitution-making process is a formal, legal, and political process. While **participating in a community project** (like planting trees or cleaning) is a good civic duty and shows active citizenship, it is *not* legally part of the process of making or reviewing a national constitution.\n\n**Why Other Options Are Incorrect:**\n* **voting in a referendum:** Citizens vote 'Yes' or 'No' to accept or reject the draft constitution.\n* **giving their opinions:** Citizens present memoranda and views to the constitutional review commission.\n* **engaging in civic education:** Citizens learn about the contents of the draft constitution before voting.\n\n📌 **Key Learning Note:**\nPublic participation is a core requirement in Kenya's constitution-making process, ensuring the final document reflects the will of the people."
+    }
+  ],
+  "sectionB": [
+    {
+      "id": "kjsea-sst-2025-b-21",
+      "questionNumber": 21,
+      "questionText": "In groups, Grade 8 learners discussed barriers to conflict resolution in a family and shared their findings in class. Outline five barriers they included in their findings. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable barriers to conflict resolution in a family:\n\n1. **Poor or Ineffective Communication:** Inability of family members to listen actively, using harsh or abusive language, or shutting down discussions completely, which prevents mutual understanding.\n\n2. **Bias and Favoritism:** Family leaders or elders taking sides with particular individuals, creating deep mistrust, feelings of unfairness, and resentment among family members.\n\n3. **Uncontrolled Anger and Emotional Hostility:** High tempers, aggressive outbursts, or physical threats during discussions, which creates fear and stops constructive dialogue.\n\n4. **Pride, Ego, and Unwillingness to Compromise:** Rigid attitudes, refusal to admit wrongdoings, or unwillingness to forgive, making it impossible to reach an amicable agreement.\n\n5. **Financial Constraints and Economic Stress:** Severe poverty or constant arguments over limited financial resources, which heightens stress and triggers recurring disputes.\n\n6. **Substance Abuse and Alcoholism:** Impaired judgment, erratic behavior, and violence caused by drug or alcohol addiction within the household.\n\n7. **External Interference from Extended Family:** Unsolicited advice, gossip, or meddling by in-laws and relatives, which escalates minor private misunderstandings into major conflicts.\n\n8. **Rigid Cultural or Traditional Beliefs:** Harmful traditional practices or patriarchal biases (e.g. ignoring women's or children's voices) that prevent fair and equitable resolution.\n\n9. **Lack of Privacy and Confidentiality:** Exposing private family matters to neighbors or social media, which causes embarrassment and destroys trust between family members.\n\n10. **Unresolved Past Grievances:** Holding long-term grudges and constantly bringing up historical mistakes during new disagreements, shifting focus away from solving the immediate problem.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid barrier to conflict resolution outlined (Max 5 marks).\n* **Flexibility:** Accept any logically correct phrasing or alternative valid family conflict barrier.",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-22",
+      "questionNumber": 22,
+      "questionText": "Grade 8 learners displayed flash cards containing ways of building healthy relationships in a school community. Highlight three ways which were captured on the flash cards. (3 marks)",
+      "maxScore": 3,
+      "modelAnswer": "Here is an exhaustive list of acceptable ways of building healthy relationships in a school community:\n\n1. **Showing Mutual Respect and Empathy:** Treating teachers, support staff, and fellow learners with dignity, kindness, and understanding regardless of their background or academic abilities.\n\n2. **Effective and Open Communication:** Expressing thoughts and feelings clearly, practicing active listening, and giving constructive, non-judgmental feedback.\n\n3. **Promoting Teamwork and Collaboration:** Working cooperatively in group assignments, school projects, sports teams, and co-curricular clubs to build trust and camaraderie.\n\n4. **Practicing Forgiveness and Amicable Conflict Resolution:** Settling misunderstandings peacefully through dialogue or mediation without resorting to physical fights, insults, or bullying.\n\n5. **Demonstrating Honesty and Integrity:** Being truthful, reliable, and authentic in daily interactions with peers and school authorities to foster strong mutual trust.\n\n6. **Supporting Peers in Need and Promoting Inclusivity:** Assisting classmates who face academic or personal challenges, and ensuring learners with special needs are included in all activities.\n\n7. **Adhering to School Rules and Regulations:** Observing school discipline, punctuality, and guidelines to maintain order, safety, and a conducive learning environment for everyone.\n\n8. **Appreciating and Celebrating Cultural Diversity:** Respecting and celebrating different ethnic, religious, and socioeconomic backgrounds represented within the school community.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid way highlighted (Max 3 marks).\n* **Flexibility:** Accept any valid school relationship-building practice.",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-23",
+      "questionNumber": 23,
+      "questionText": "Pauline, a Grade 9 learner, is interested in a career in languages while the parents are in favour of Performing Arts. State three factors that she should consider before making the final decision. (3 marks)",
+      "maxScore": 3,
+      "modelAnswer": "Here is an exhaustive list of acceptable factors to consider when choosing a career path:\n\n1. **Personal Interests, Passion, and Aspirations:** Evaluating what she genuinely enjoys doing and feels enthusiastic about pursuing as a lifelong career.\n\n2. **Personal Talents, Abilities, and Academic Strengths:** Assessing her natural performance skills, creative flair, and academic performance in languages versus performing arts.\n\n3. **Future Career Opportunities and Market Demand:** Researching job availability, self-employment potential, and long-term career growth in both fields within the evolving job market.\n\n4. **Higher Education and Specialized Training Requirements:** Identifying accredited colleges, universities, or academies offering quality training programs in languages or performing arts.\n\n5. **Guidance and Counseling Recommendations:** Seeking professional advice from school career counselors, mentors, and industry experts to gain objective insights.\n\n6. **Financial Implications and Training Costs:** Considering the tuition fees, specialized equipment, costumes, or instruments required for training in each discipline.\n\n7. **Parental Guidance and Family Dialogue:** Engaging in open, respectful discussions with parents to align expectations while advocating for her personal passion.\n\n8. **Work-Life Balance and Professional Lifestyle:** Understanding the working environments, irregular hours, travel demands, and stability associated with each career path.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid decision factor stated (Max 3 marks).\n* **Flexibility:** Accept any reasonable personal, academic, or market factor.",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-24",
+      "questionNumber": 24,
+      "questionText": "An article by a resource person in the daily newspaper contained information on child theft in Kenya and ways of preventing it. Outline three ways of preventing child theft that must have been highlighted in the article. (3 marks)",
+      "maxScore": 3,
+      "modelAnswer": "Here is an exhaustive list of acceptable ways of preventing child theft:\n\n1. **Child Safety Sensitization (Stranger Danger):** Educating children never to talk to strangers, accept gifts, sweets, or rides from unfamiliar people, or walk alone in secluded areas.\n\n2. **Enhancing Adult Supervision:** Ensuring young children are constantly accompanied by parent-approved, trusted adults when in public places, parks, or traveling to and from school.\n\n3. **Community Vigilance and Nyumba Kumi Security:** Actively monitoring neighborhoods and reporting suspicious individuals or unregistered vehicles lurking near schools and estates.\n\n4. **Tightening School Security Measures:** Installing perimeter fences, manned security gates, visitor identification logs, and CCTV cameras in school premises.\n\n5. **Strict Vetting of Domestic Staff and Caregivers:** Verifying national IDs, certificates of good conduct, and background references before hiring house-helps or child minders.\n\n6. **Prompt Reporting to Law Enforcement:** Immediately reporting missing children to the police and child protection agencies to initiate immediate search operations.\n\n7. **Use of Child Identification Tags and Tracking Devices:** Equipping children with emergency contact information cards or wearing GPS-enabled smart devices.\n\n8. **Public Awareness Campaigns:** Utilizing broadcast media, social media, and community forums to educate the public on child trafficking networks and tactics.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid preventative measure outlined (Max 3 marks).\n* **Flexibility:** Accept any valid security or child protection measure.",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-25",
+      "questionNumber": 25,
+      "parentQuestionText": "Grade 9 learners from a Junior School made an educational visit to the Kenya National Assembly to learn about its operations.",
+      "subQuestions": [
+        {
+          "id": "kjsea-sst-2025-b-25-a-i",
+          "subNumber": "(a) (i)",
+          "questionText": "Name two groups of members of the National Assembly who are elected during general elections that they learnt about. (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "Acceptable groups of elected MPs include:\n\n1. **Constituency Members of Parliament (MPs):** 290 members elected directly by voters to represent single-member geographical constituencies.\n\n2. **County Woman Representatives:** 47 female members elected by voters across each of the 47 counties to promote gender representation.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each correct group named (Max 2 marks).\n* **Note:** Nominated MPs are nominated, not directly elected.",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-25-a-ii",
+          "subNumber": "(a) (ii)",
+          "questionText": "Identify two offices in the National Assembly whose holders are elected during the first sitting that they learnt about. (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "Acceptable offices elected during the first sitting include:\n\n1. **The Speaker of the National Assembly:** The presiding officer elected by members during their first sitting to control parliamentary proceedings.\n\n2. **The Deputy Speaker of the National Assembly:** An elected member chosen during the first sitting to preside over sittings in the absence of the Speaker.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each correct National Assembly office holder identified (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-25-b",
+          "subNumber": "(b)",
+          "questionText": "Explain three roles of members of the National Assembly that they learnt about during the visit. (6 marks)",
+          "maxScore": 6,
+          "modelAnswer": "Here is an exhaustive list of acceptable roles of Members of the National Assembly:\n\n1. **Legislative Role (Lawmaking):** Debating, drafting, amending, and enacting national laws that govern the republic.\n\n2. **Representation Role:** Acting as the voice of their constituents by presenting local grievances, needs, and views on the floor of the House.\n\n3. **Oversight Role:** Scrutinizing executive government expenditure, public agencies, and state officers to ensure transparency, accountability, and good governance.\n\n4. **National Revenue Allocation & CDF Management:** Participating in approving the national budget, division of revenue bills, and managing the Constituency Development Fund (CDF).\n\n5. **Vetting and Approval of State Appointees:** Screening and approving presidential nominees for Cabinet Secretaries, Ambassadors, Judges, and Constitutional Commissioners.\n\n6. **Deliberating on State of Emergency & Declarations of War:** Reviewing and approving executive declarations regarding national security, emergencies, or war.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained role (1 mark for identification + 1 mark for explanation) (Max 6 marks).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "kjsea-sst-2025-b-26",
+      "questionNumber": 26,
+      "parentQuestionText": "Grade 7 learners engaged a resource person on Africans in Diaspora to discuss the reasons for migration, opportunities and challenges facing them.",
+      "subQuestions": [
+        {
+          "id": "kjsea-sst-2025-b-26-a",
+          "subNumber": "(a)",
+          "questionText": "Outline four social reasons for the migration of Africans to the Diaspora in today's society that were highlighted. (4 marks)",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable social reasons for migration to the Diaspora:\n\n1. **Search for Higher Quality Education:** Enrolling in prestigious foreign universities, research institutions, and specialized technical colleges abroad.\n\n2. **Family Reunification:** Moving to join spouses, parents, or family members who are already established residents in foreign countries.\n\n3. **Escaping Civil Conflicts, Wars, and Persecution:** Seeking asylum and refugee status in safer nations due to political instability, war, or human rights abuses.\n\n4. **Accessing Advanced Healthcare Services:** Seeking specialized medical treatment, surgeries, or care not readily available in their home countries.\n\n5. **Desire for Improved Quality of Life:** Moving to experience higher living standards, better public infrastructure, and improved social amenities.\n\n6. **Cultural and Sports Exchange Programs:** Traveling abroad to participate in international sports leagues, artistic residencies, or cultural exchange initiatives.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid social reason outlined (Max 4 marks).\n* **Note:** Focus must be on social reasons (not purely economic job search).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-26-b",
+          "subNumber": "(b)",
+          "questionText": "Explain two economic contributions of the Africans in the Diaspora to their home countries. (4 marks)",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable economic contributions of the Diaspora:\n\n1. **Financial Remittances:** Sending money directly to family members back home, which supports household livelihoods, pays school fees, covers healthcare, and boosts national foreign exchange reserves.\n\n2. **Direct Foreign Investment and Entrepreneurship:** Investing capital in real estate, agribusiness, technology hubs, and local private enterprises, which creates employment opportunities back home.\n\n3. **Knowledge, Skill, and Technology Transfer:** Returning home with advanced technical skills, professional expertise, and modern business management practices to uplift local industries.\n\n4. **Promoting Tourism and Trade:** Marketing their home country's tourist destinations, cultural products, and export goods to international markets.\n\n5. **Philanthropy and Community Development Projects:** Funding the construction of local schools, health clinics, water boreholes, and community infrastructure back home.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained economic contribution (1 mark for identification + 1 mark for explanation) (Max 4 marks).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "kjsea-sst-2025-b-27",
+      "questionNumber": 27,
+      "questionText": "Sarah and her friend came across an article on how items were used in the ancient times as a media of exchange and the invention of money which is a more convenient medium of exchange. State five ways through which the invention of money promoted trade in Africa. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable ways the invention of money promoted trade:\n\n1. **Eliminated the Problem of Double Coincidence of Wants:** Removed the major drawback of barter trade where a trader had to find someone who had what they wanted and wanted what they had.\n\n2. **Provided a Standard Measure of Value:** Allowed traders to assign consistent, precise prices to goods and services, making comparison and fair trading simple.\n\n3. **Functioned as a Reliable Store of Value:** Currency could be saved and stored long-term without perishing or losing value, unlike agricultural produce or livestock.\n\n4. **Enabled High Portability and Easy Transport:** Lightweight, compact paper money and coins replaced heavy barter goods, making long-distance trade convenient.\n\n5. **Allowed Divisibility into Smaller Denominations:** Enabled transactions of all sizes, allowing buyers to purchase small everyday items without needing large trade items.\n\n6. **Standardized Credit and Deferred Payments:** Allowed merchants to buy goods on credit and settle debts later using a universally accepted medium.\n\n7. **Encouraged Commercial Specialization:** Enabled individuals and communities to specialize in producing specific goods they were best at, relying on money to buy other necessities.\n\n8. **Facilitated Cross-Border and International Trade:** Standardized currencies enabled seamless commercial exchanges between different African kingdoms and foreign traders.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid way stated (Max 5 marks).",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-28",
+      "questionNumber": 28,
+      "questionText": "A Kenyan ambassador was invited by a teacher of Social Studies to enlighten the learners on globalization of Kenya's cultural elements. Give five elements of cultural globalization that the ambassador highlighted. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable elements of cultural globalization:\n\n1. **Music, Dance, and Performing Arts:** Global popularity and streaming of Kenyan Gengetone, Kapuka, Afro-pop, and traditional folk dance performances internationally.\n\n2. **Traditional Attire and Fashion:** International adoption and showcase of the Maasai Shuka, traditional beadwork, and Leso in global high-fashion runways and design.\n\n3. **Cuisine and Local Foods:** Worldwide appreciation and commercialization of Kenyan specialty coffee, premium tea, Ugali, and Nyama Choma in global dining establishments.\n\n4. **Language (Kiswahili):** Growth of Kiswahili into an official working language of the African Union (AU), taught in major global universities, and broadcast on international networks like BBC and VOA.\n\n5. **Sports and Long-Distance Athletics:** Global dominance of Kenyan marathoners and track athletes, making Kenya's running culture famous worldwide.\n\n6. **Visual Arts and Wood Carvings:** Worldwide export and exhibition of Akamba wood carvings, Kisii soapstone sculptures, and woven Kiondo baskets.\n\n7. **Filmmaking, Wildlife Documentaries, and Literature:** Global dissemination of Kenyan wildlife conservation stories, films, and literary works by renowned authors.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid cultural element given (Max 5 marks).",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-29",
+      "questionNumber": 29,
+      "questionText": "During a group activity, learners researched on the national values provided in the Constitution of Kenya and how they promote good governance. Highlight five national values that they are likely to have found during their research. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable National Values (Article 10 of Constitution of Kenya):\n\n1. **Patriotism:** Demonstrating genuine love, loyalty, devotion, and defense for one's country.\n\n2. **National Unity:** Uniting all Kenyans into one cohesive nation regardless of ethnic, religious, or regional backgrounds.\n\n3. **Sharing and Devolution of Power:** Distributing governance responsibilities and resources from the national government to the 47 county governments.\n\n4. **The Rule of Law:** Ensuring that all individuals, institutions, and government bodies are equal before the law and bound by legal statutes.\n\n5. **Democracy and Participation of the People:** Involving citizens actively in decision-making, policy formulation, and governance processes.\n\n6. **Human Dignity:** Recognizing, respecting, and protecting the inherent self-worth and basic human rights of every person.\n\n7. **Equity, Social Justice, and Inclusiveness:** Ensuring fair treatment, equal opportunities, and non-discrimination for all members of society.\n\n8. **Protection of the Marginalized:** Safeguarding vulnerable groups, minorities, women, youth, and persons with disabilities.\n\n9. **Integrity, Transparency, and Accountability:** Upholding high ethical standards, honesty, openness, and responsibility in public service administration.\n\n10. **Sustainable Development:** Managing and utilizing national resources prudently to meet present needs without compromising future generations.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each correct national value highlighted (Max 5 marks).",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-30",
+      "questionNumber": 30,
+      "contextRef": "ctx-sst-q30",
+      "parentQuestionText": "Study the map of Kapas area provided and answer questions (a), (b), (c), (d) and (e).",
+      "subQuestions": [
+        {
+          "id": "kjsea-sst-2025-b-30-a",
+          "subNumber": "(a)",
+          "questionText": "Identify two types of vegetation found in Kapas area? (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "Acceptable vegetation types identified from the Kapas Area map key:\n\n1. **Forest Vegetation:** Located in the North-Eastern quadrant around Kon Hill, characterized by tall trees.\n\n2. **Scrub Vegetation:** Located across the western and central areas, characterized by stunted bushes and thorny vegetation.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each correct vegetation type identified from map key (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-30-b",
+          "subNumber": "(b)",
+          "questionText": "Learners from Kora School walked along the dry-weather road up to the church. What distance did they cover? (Give your answer in kilometres) (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "* **Distance:** **7.5 km** (Acceptable range between **7.0 km and 8.0 km**).\n\n* **Calculation:** Measuring along the dry-weather road from Kora School eastwards across the river bridge to the Church yields approximately 7.5 cm on the map. Using the scale (1 cm represents 1 km), 7.5 cm × 1 km/cm = 7.5 km.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for correct distance within tolerance 7.0 km – 8.0 km (1 mark for measurement/working + 1 mark for correct value with km unit) (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-30-c",
+          "subNumber": "(c)",
+          "questionText": "Members of the Social Studies club carried out a field study on economic activities in Kapas area. Give four economic activities that they identified. (4 marks)",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable economic activities evidenced by the map:\n\n1. **Crop Farming / Cash Crop Farming (Coffee Growing):** Evidenced by the \"CO\" (Coffee) symbols on the eastern side.\n\n2. **Livestock Rearing / Pastoralism:** Evidenced by the \"Cattle Dip\" facility near Kora Village.\n\n3. **Trading and Commerce:** Evidenced by the presence of \"Market (Mkt)\", \"Shops\", and \"Kapas Town\".\n\n4. **Quarrying / Mining:** Evidenced by the \"Quarry\" symbol on the western side.\n\n5. **Transport Services:** Evidenced by the network of All-weather roads, Dry-weather roads, and Railway line.\n\n6. **Communication Services:** Evidenced by the \"Post Office (PO)\" in Kapas Town.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid economic activity identified with map evidence (Max 4 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-30-d",
+          "subNumber": "(d)",
+          "questionText": "The main form of transport used in Kapas area is (1 mark)",
+          "maxScore": 1,
+          "modelAnswer": "**Road Transport:** Evidenced by the extensive network of All-weather and Dry-weather roads connecting settlements across the area.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for Road Transport (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-30-e",
+          "subNumber": "(e)",
+          "questionText": "Scola, a Grade 8 learner at Kapas School was asked by the teacher to give the direction of Kon Hill from the school. State the direction that she gave. (1 mark)",
+          "maxScore": 1,
+          "modelAnswer": "**North East (NE):** Kon Hill is situated in the North-Eastern direction when measured from Kapas School.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for North East / NE (Max 1 mark).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "kjsea-sst-2025-b-31",
+      "questionNumber": 31,
+      "questionText": "A meteorologist gave a talk on the effects of climate change on human activities to Grade 8 learners. State eight effects of climate change that the meteorologist talked about. (8 marks)",
+      "maxScore": 8,
+      "modelAnswer": "Here is an exhaustive list of acceptable effects of climate change:\n\n1. **Frequent and Prolonged Droughts:** Causing acute water scarcity, drying of rivers, and loss of livestock in pastoralist communities.\n\n2. **Unpredictable Weather and Rainfall Patterns:** Disrupting traditional farming calendars, planting schedules, and harvesting seasons.\n\n3. **Severe Flooding and Extreme Weather Events:** Destroying transport infrastructure, bridges, schools, residential homes, and washing away crops.\n\n4. **Agricultural Failure and Widespread Food Insecurity:** Causing significant decline in crop yields and leading to famine and malnutrition.\n\n5. **Outbreak of Climate-Sensitive Diseases:** Surge in vector-borne diseases like malaria and water-borne illnesses like cholera due to flooding and rising temperatures.\n\n6. **Displacement of Human Populations (Climate Refugees):** Forcing communities living in low-lying coastal areas or desertified lands to abandon their homes.\n\n7. **Loss of Biodiversity and Wildlife Destruction:** Habitat destruction reducing wildlife populations, which severely hampers ecotourism.\n\n8. **Rising Sea Levels and Coastal Inundation:** Submerging coastal agricultural land, port infrastructure, beaches, and coastal settlements.\n\n9. **Increased Resource Conflicts:** Triggering inter-community clashes between farmers and pastoralists competing over shrinking water sources and pasture.\n\n10. **Hydro-Electric Power (HEP) Rationing:** Dropping water levels in major dams leading to electricity shortages, factory downtime, and economic decline.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid effect of climate change stated (Max 8 marks).",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-32",
+      "questionNumber": 32,
+      "questionText": "Learners from a Junior School researched on the causes and effects of environmental degradation in the local community and wrote a report. Outline five causes of environmental degradation that they included in their report. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable causes of environmental degradation:\n\n1. **Deforestation and Illegal Logging:** Uncontrolled felling of trees for timber, charcoal, and firewood without carrying out afforestation.\n\n2. **Improper Waste Disposal and Industrial Pollution:** Indiscriminate dumping of non-biodegradable plastic waste, untreated sewage, and industrial chemicals into land and rivers.\n\n3. **Poor Agricultural Practices:** Overgrazing by livestock, cultivating on steep hillsides without terracing, and excessive use of synthetic fertilizers and pesticides.\n\n4. **Uncontrolled Mining and Quarrying:** Excavating topsoil and rocks without backfilling, leaving dangerous open pits and degraded landscapes.\n\n5. **Rapid Urbanization and Population Encroachment:** Clearing natural forests, wetlands, and water catchment towers to build housing estates and roads.\n\n6. **Air Pollution from Vehicles and Factories:** Emitting greenhouse gases and toxic fumes that cause atmospheric degradation and acid rain.\n\n7. **Wetland Reclamation:** Draining swamps, marshes, and riparian zones for crop farming or commercial construction.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid cause outlined (Max 5 marks).",
+      "questionType": "structured"
+    },
+    {
+      "id": "kjsea-sst-2025-b-33",
+      "questionNumber": 33,
+      "contextRef": "ctx-sst-q33",
+      "parentQuestionText": "Learners in Grade 9 used the following map of Africa to study climatic regions, population distribution and economic activities in Africa. Use the map to answer questions (a), (b) and (c).",
+      "subQuestions": [
+        {
+          "id": "kjsea-sst-2025-b-33-a",
+          "subNumber": "(a)",
+          "questionText": "The type of climate experienced in the region marked X is (1 mark)",
+          "maxScore": 1,
+          "modelAnswer": "**Desert Climate / Arid Climate:** Region X covers the vast Sahara Desert region in North Africa, characterized by extreme heat and low rainfall.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for Desert / Arid climate (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-33-b",
+          "subNumber": "(b)",
+          "questionText": "Explain the main factor that has influenced high population density in the region marked Y. (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable factors for high population density in region Y (West Africa/Gulf of Guinea):\n\n1. **Fertile Volcanic and Alluvial Soils:** Supporting intensive crop production and food supply along the West African coastal belt.\n\n2. **Reliable High Annual Rainfall and Warm Climate:** Creating favorable natural conditions for human habitation and farming.\n\n3. **Rich Mineral Wealth (e.g. Petroleum/Oil & Gold):** Attracting major industrial investments, mining operations, and job opportunities.\n\n4. **Growth of Major Commercial Ports and Urban Centers:** Facilitating historic trade, commerce, and high urban settlement.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for clear explanation (1 mark for identifying fertile soil/rainfall/minerals/urban trade + 1 mark for linking to population settlement) (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "kjsea-sst-2025-b-33-c",
+          "subNumber": "(c)",
+          "questionText": "State two economic uses of the multi-purpose project marked Z. (2 marks)",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable economic uses of multi-purpose project Z (Aswan High Dam):\n\n1. **Generation of Hydro-Electric Power (HEP):** Supplying abundant electricity for domestic lighting and industrial manufacturing.\n\n2. **Provision of Water for Agricultural Irrigation:** Enabling year-round crop farming along the Nile valley regardless of rainfall.\n\n3. **Control of Seasonal Flooding:** Regulating the annual flooding of the River Nile to protect agricultural land and human settlements.\n\n4. **Promotion of Inland Water Transport and Ecotourism:** Facilitating navigation and fishing activities on Lake Nasser.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid economic use stated (Max 2 marks).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "kjsea-sst-2025-b-34",
+      "questionNumber": 34,
+      "questionText": "In groups, learners discussed factors for the scramble and partition of Africa by the European powers and presented their findings in class. Outline five factors that were contained in their findings. (5 marks)",
+      "maxScore": 5,
+      "modelAnswer": "Here is an exhaustive list of acceptable factors for the scramble and partition of Africa:\n\n1. **Industrial Revolution in Europe (Economic Factor):** Urgent demand for cheap raw materials (rubber, cotton, minerals, palm oil) and markets for European manufactured goods.\n\n2. **Strategic Interests (Geopolitical Factor):** Desires to secure vital maritime trade routes such as the Suez Canal and major navigable rivers (Nile, Congo, Niger).\n\n3. **National Prestige and Imperial Rivalry (Political Factor):** European powers (Britain, France, Germany) competing to acquire vast overseas territories to demonstrate global power.\n\n4. **Humanitarian and Civilizing Mission (Social Factor):** Intentions to eradicate the East African slave trade, introduce Western education, medicine, and spread Christianity.\n\n5. **Discovery of Mineral Wealth:** Discovery of gold and diamonds in South Africa and rich copper deposits in Katanga.\n\n6. **Investment of Surplus Capital:** European financiers seeking high returns by investing excess profits in African infrastructure, railways, and mines.\n\n7. **Population Pressure in Europe:** Seeking overseas territories to settle surplus European populations resulting from rapid demographic growth.\n\n8. **The Berlin Conference (1884-1885):** Providing a legal framework for peaceful territorial division among European powers without going to war.",
+      "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid factor outlined (Max 5 marks).",
+      "questionType": "structured"
+    }
+  ]
+}

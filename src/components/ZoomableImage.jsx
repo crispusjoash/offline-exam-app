@@ -89,6 +89,7 @@ export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = t
           <img
             src={src}
             alt={alt}
+            loading="lazy"
             style={{
               display: 'block',
               flexShrink: 0,

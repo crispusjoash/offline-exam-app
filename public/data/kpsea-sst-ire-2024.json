@@ -1,0 +1,271 @@
+{
+  "id": "kpsea-sst-ire-2024",
+  "title": "KPSEA 2024 Social Studies & Creative Arts (IRE)",
+  "subject": "IRE",
+  "year": "2024",
+  "isSubPaper": true,
+  "durationMinutes": 0,
+  "sharedContexts": {
+    "ctx-ire-2024-q46": {
+      "type": "image",
+      "imagePath": "/assets/ire-2024-q46.svg",
+      "title": "Zakat items groups",
+      "cssFilter": "none",
+      "scanEffect": false
+    }
+  },
+  "sectionA": [
+    {
+      "id": "q41",
+      "questionNumber": 41,
+      "questionText": "While performing swalatul Dhuhr, Ali recited the verse: 'Kalla saufa taalamun'. The verse is found in surah",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Al-Qariah",
+          "isCorrect": false
+        },
+        {
+          "text": "Al-Humazah",
+          "isCorrect": false
+        },
+        {
+          "text": "At-Takathur",
+          "isCorrect": true
+        },
+        {
+          "text": "Al-Kawthar.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nThe verse \"Kalla saufa ta'lamun\" translates to \"No! You are going to know.\" This is the third (and fourth) verse of **Surah At-Takathur** (Chapter 102), which warns humanity against the dangerous distraction of competing for worldly wealth and status.\n\n**Why Other Options Are Incorrect:**\n* **A:** Surah Al-Qariah focuses on the striking calamity (the Day of Judgment).\n* **B:** Surah Al-Humazah condemns the slanderer and the hoarder of wealth.\n* **D:** Surah Al-Kawthar speaks about the abundant goodness given to the Prophet and instructs him to pray and sacrifice.\n\n📌 **Key Learning Note:**\nSurah At-Takathur reminds believers that worldly competition distracts them until they visit the graves, where they will finally \"know\" the truth."
+    },
+    {
+      "id": "q42",
+      "questionNumber": 42,
+      "questionText": "At break time, Mariam called her friends to show off her new watch that her mother had bought her. The surah that discourages this behaviour is",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "An-Naas",
+          "isCorrect": false
+        },
+        {
+          "text": "An-Nasr",
+          "isCorrect": false
+        },
+        {
+          "text": "Al-Falaq",
+          "isCorrect": false
+        },
+        {
+          "text": "Al-Maun.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\n**Surah Al-Maun** strongly condemns people who perform religious duties (like prayer) only to be seen by others (showing off or *Riya*) and who refuse small kindnesses or assistance to others. Mariam's behavior of showing off her new watch falls under this discouraged characteristic.\n\n**Why Other Options Are Incorrect:**\n* **A:** Surah An-Naas is a prayer seeking protection from the whispers of Satan.\n* **B:** Surah An-Nasr talks about the victory of Islam and the forgiveness of Allah.\n* **C:** Surah Al-Falaq seeks refuge from external evils (like magic, envy, and darkness).\n\n📌 **Key Learning Note:**\nIn Islam, *Riya* (showing off) ruins the sincerity of good deeds. Surah Al-Maun warns that prayers done just to impress others are empty."
+    },
+    {
+      "id": "q43",
+      "questionNumber": 43,
+      "questionText": "Choose the phrase that completes the following Hadith: 'Allah does not look at your appearance or wealth, but rather he looks at your _____'",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "heart and actions",
+          "isCorrect": true
+        },
+        {
+          "text": "heart and intentions",
+          "isCorrect": false
+        },
+        {
+          "text": "strength and actions",
+          "isCorrect": false
+        },
+        {
+          "text": "strength and intentions.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nThe famous Hadith narrated by Abu Huraira (in Sahih Muslim) states: \"Verily, Allah does not look at your appearance or wealth, but rather He looks at your **hearts and actions**.\" This emphasizes that true value in Islam is determined by inner sincerity and righteous deeds, not superficial wealth or beauty.\n\n**Why Other Options Are Incorrect:**\n* **B:** While intentions (Niyyah) are crucial, the exact wording of this specific Hadith pairs \"hearts\" with \"actions\" (A'maal).\n* **C & D:** Physical strength is entirely irrelevant to this Hadith's context about divine judgment.\n\n📌 **Key Learning Note:**\nAllah judges a person based on their Taqwa (piety in the heart) and the good deeds (actions) they perform, disregarding physical status."
+    },
+    {
+      "id": "q44",
+      "questionNumber": 44,
+      "questionText": "Halima's father is travelling and wants to make a dua asking for protection during his journey. The attribute of Allah that he will use in his dua is",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Al-Ghaffar",
+          "isCorrect": false
+        },
+        {
+          "text": "Al-Waahid",
+          "isCorrect": false
+        },
+        {
+          "text": "Al-Haafidh",
+          "isCorrect": true
+        },
+        {
+          "text": "Al-Hakam.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nThe name **Al-Haafidh** translates to \"The Protector\" or \"The Preserver.\" When a Muslim seeks safety, security, and protection from harm (especially during a journey), invoking this specific attribute of Allah is the most appropriate action.\n\n**Why Other Options Are Incorrect:**\n* **A:** Al-Ghaffar means \"The All-Forgiving,\" used when seeking forgiveness for sins.\n* **B:** Al-Waahid means \"The One,\" used to declare Allah's absolute unity and indivisibility.\n* **D:** Al-Hakam means \"The Judge,\" used when seeking justice or fairness.\n\n📌 **Key Learning Note:**\nAllah has 99 names (Asma-ul-Husna), and Muslims are encouraged to call upon the specific name that best matches their need or prayer."
+    },
+    {
+      "id": "q45",
+      "questionNumber": 45,
+      "questionText": "Athman, a Grade 4 learner had started performing Dhuhr prayer. He realized that his wudhu was nullified. Which one of the following acts could have nullified his wudhu?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Swallowing saliva.",
+          "isCorrect": false
+        },
+        {
+          "text": "Passing wind.",
+          "isCorrect": true
+        },
+        {
+          "text": "Eating.",
+          "isCorrect": false
+        },
+        {
+          "text": "Laughing.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nWudhu (ablution) is the ritual purification required before prayer. It is immediately nullified (broken) by any discharge from the front or back passages, which includes **passing wind**. \n\n**Why Other Options Are Incorrect:**\n* **A & C:** Swallowing saliva or eating food does not break wudhu (though rinsing the mouth after eating is recommended).\n* **D:** Laughing loudly invalidates the *prayer* if it happens during Swalat, but it does not break the *wudhu* itself.\n\n📌 **Key Learning Note:**\nActs that nullify Wudhu include passing wind, urination, defecation, deep sleep, and loss of consciousness."
+    },
+    {
+      "id": "q46",
+      "questionNumber": 46,
+      "questionText": "During IRE group discussions, Grade 6 learners presented items liable for Zakat payment as follows:",
+      "contextRef": "ctx-ire-2024-q46",
+      "questionSuffix": "The group that presented the correct item is",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Group 1",
+          "isCorrect": false
+        },
+        {
+          "text": "Group 2",
+          "isCorrect": false
+        },
+        {
+          "text": "Group 3",
+          "isCorrect": true
+        },
+        {
+          "text": "Group 4.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nZakat is an obligatory alms tax calculated on accumulated wealth that has reached a specific threshold (Nisab). It is payable on productive or hoarded assets, such as agricultural produce, livestock, cash, and **precious metals/goods for trade** (like gold).\n\n**Why Other Options Are Incorrect:**\n* **A, B & D:** Zakat is *not* payable on personal belongings used for everyday living. This includes a residential house, personal books, clothing, and household furniture. These items are meant for personal use, not for generating wealth.\n\n📌 **Key Learning Note:**\nZakat purifies wealth. It is only levied on surplus wealth and assets that have the potential to grow, never on the basic necessities of life."
+    },
+    {
+      "id": "q47",
+      "questionNumber": 47,
+      "questionText": "Adan found his friends betting on football matches. The best action that he should take is to",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "warn them that he will report to the teacher",
+          "isCorrect": false
+        },
+        {
+          "text": "advise them on the harmful effects of betting",
+          "isCorrect": true
+        },
+        {
+          "text": "pray for them to stop the behaviour",
+          "isCorrect": false
+        },
+        {
+          "text": "ignore them and mind his own business.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nBetting (gambling or *Maysir*) is strictly forbidden in Islam. When a Muslim sees another doing something wrong, the first and best course of action is to politely and wisely **advise them on the harmful effects**, encouraging them to stop through reasoning and brotherhood (enjoining good and forbidding evil).\n\n**Why Other Options Are Incorrect:**\n* **A:** Immediately threatening to report them creates hostility and breaks trust, making them less likely to listen and change.\n* **C:** Praying for them is good, but Islam requires *action* (advising) alongside prayer when witnessing a wrong.\n* **D:** Ignoring them is a failure of a Muslim's duty to guide their brothers away from sin.\n\n📌 **Key Learning Note:**\nThe Islamic concept of \"Amr bil Ma'ruf wa Nahy 'anil Munkar\" means actively enjoining what is right and forbidding what is wrong through gentle advice."
+    },
+    {
+      "id": "q48",
+      "questionNumber": 48,
+      "questionText": "Which among the following acts performed by Grade 6 learners will guard against Israf?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Switching off the lights when there is no one in the classroom.",
+          "isCorrect": true
+        },
+        {
+          "text": "Performing wudhu using plenty of water.",
+          "isCorrect": false
+        },
+        {
+          "text": "Serving a lot of food at lunch time.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using new exercise books while the old ones are not filled up.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\n**Israf** means wastefulness, extravagance, or exceeding limits in the use of resources. By **switching off the lights** in an empty classroom, a learner is actively preventing the wastage of electricity, which perfectly demonstrates guarding against Israf.\n\n**Why Other Options Are Incorrect:**\n* **B:** Using excessive water for Wudhu is a direct example *of* Israf; the Prophet advised using minimal water.\n* **C:** Serving too much food often leads to leftovers being thrown away, which is Israf.\n* **D:** Abandoning partially used books for new ones wastes paper and money, which is also Israf.\n\n📌 **Key Learning Note:**\nIslam teaches moderation in all things. Wasting resources—whether water, electricity, food, or money—is strongly condemned."
+    },
+    {
+      "id": "q49",
+      "questionNumber": 49,
+      "questionText": "Children should respect other family members because",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "it is an act of ibadah",
+          "isCorrect": true
+        },
+        {
+          "text": "it is a form of sadaqah",
+          "isCorrect": false
+        },
+        {
+          "text": "it prepares them for adulthood",
+          "isCorrect": false
+        },
+        {
+          "text": "it shows responsibility.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nIn Islam, everyday good deeds performed with the right intention are considered **Ibadah** (acts of worship). Respecting parents, elders, and family members is highly commanded by Allah in the Quran. Therefore, fulfilling this command is a direct act of worshipping and obeying Allah.\n\n**Why Other Options Are Incorrect:**\n* **B:** Sadaqah refers specifically to voluntary charity (giving wealth, a smile, or helping hands), whereas respect is a mandatory duty (Fard) towards parents.\n* **C & D:** While respect does prepare one for adulthood and shows responsibility, the fundamental *religious* reason (in an IRE context) is that it is a divine command and a form of worship.\n\n📌 **Key Learning Note:**\nIbadah is not limited to prayer and fasting; any righteous action (like respecting family) done to please Allah is counted as worship."
+    },
+    {
+      "id": "q50",
+      "questionNumber": 50,
+      "questionText": "The virtue that Muslims learn from the Prophet's journey to Taif is",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "generosity",
+          "isCorrect": false
+        },
+        {
+          "text": "honesty",
+          "isCorrect": false
+        },
+        {
+          "text": "justice",
+          "isCorrect": false
+        },
+        {
+          "text": "forgiveness.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nWhen Prophet Muhammad (PBUH) traveled to the city of Taif to preach Islam, he was rejected, mocked, and violently pelted with stones until he bled. When the Angel of Mountains offered to crush the city between two mountains in retaliation, the Prophet refused and instead prayed for their guidance. This demonstrated unparalleled **forgiveness** and mercy.\n\n**Why Other Options Are Incorrect:**\n* **A:** Generosity involves giving wealth, which was not the theme of the Taif incident.\n* **B:** Honesty (truthfulness) was his constant trait, but Taif is specifically famous for his reaction to extreme abuse.\n* **C:** Justice involves fair punishment, but the Prophet chose mercy and forgiveness over justice in this instance.\n\n📌 **Key Learning Note:**\nThe incident at Taif is the greatest historical example of the Prophet's mercy and his willingness to forgive even his harshest enemies."
+    }
+  ]
+}

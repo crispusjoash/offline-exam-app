@@ -250,9 +250,9 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
 /* ─── Portal Responsive Styles ─── */
 .portal-container {
   padding: 1.5rem 1.75rem 3rem;
-  width: 100%;
+  width: clamp(min(100%, 600px), 88vw, 1300px);
+  margin: 0 auto;
   box-sizing: border-box;
-  max-width: 1200px;
 }
 
 .portal-hero {
@@ -294,3 +294,86 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
   .katex { font-size: 0.92em !important; }
   .katex-display { margin: 0.5em 0; }
 }
+
+/* ─── Exam & Review Adaptive Layout System ─────────────────────────────────
+   Replaces hard maxWidth caps with a fluid, screen-aware system.
+   - Fluid margins: always 4% breathing room on each side (mobile & desktop)
+   - Exam split: context left + question right on large screens
+   - Review grid: 1 card → 2 cards → 3 cards as screen grows
+   ──────────────────────────────────────────────────────────────────────── */
+
+/* ── Fluid container used by all exam/review pages ── */
+.exam-fluid-container {
+  width: clamp(min(100%, 600px), 88vw, 1300px);
+  margin: 0 auto;
+  padding: 1.75rem 0 2.5rem;
+  box-sizing: border-box;
+}
+
+@media (max-width: 640px) {
+  /* Slightly more width on small phones */
+  .exam-fluid-container {
+    width: 94%;
+    padding: 1.25rem 0 2rem;
+  }
+}
+
+/* ── Exam split: single column by default (mobile/tablet) ── */
+.exam-split-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+}
+
+/* On large screens: context left panel + question right panel */
+@media (min-width: 1100px) {
+  .exam-split-grid {
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 2rem;
+  }
+}
+
+/* Left panel (context/passage/diagram) - scrollable independently on desktop */
+.exam-left-panel {
+  position: relative;
+}
+
+@media (min-width: 1100px) {
+  .exam-left-panel {
+    position: sticky;
+    top: 1rem;
+    max-height: calc(100vh - 120px);
+    overflow-y: auto;
+  }
+}
+
+/* Right panel (question + options) */
+.exam-right-panel {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+/* ── Review page card grid ── */
+.review-cards-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}
+
+/* 2-column on large screens (≥1200px) */
+@media (min-width: 1200px) {
+  .review-cards-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.25rem;
+  }
+}
+
+/* 3-column on ultra-wide screens (≥1800px) */
+@media (min-width: 1800px) {
+  .review-cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

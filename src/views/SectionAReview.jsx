@@ -1,9 +1,10 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import { useParams, useNavigate, useLocation } from 'react-router-dom';
-import { PAST_PAPERS } from '../data/pastPapers';
+import { loadPaper } from '../data/pastPapers';
 import { MathRenderer } from '../components/MathRenderer';
 import { ZoomableImage } from '../components/ZoomableImage';
-import { CheckCircle, XCircle, ArrowRight, AlertCircle, Home, RotateCcw, Trophy, TrendingUp } from 'lucide-react';
+import { CheckCircle, XCircle, ArrowRight, AlertCircle, Home, RotateCcw, Trophy, TrendingUp, Loader2 } from 'lucide-react';
+import { useWindowVirtualizer } from '@tanstack/react-virtual';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import remarkMath from 'remark-math';
@@ -47,23 +48,43 @@ const ExplanationRenderer = ({ text }) => {
       }
     }
   });
-  flushList(lines.length);
-
-  return <div style={{ color: 'var(--text-secondary)' }}>{elements}</div>;
+  flushList('end');
+  return <>{elements}</>;
 };
 
 export const SectionAReview = () => {
   const { portal, paperId } = useParams();
   const navigate = useNavigate();
   const location = useLocation();
+
+  const [paper, setPaper] = useState(null);
+  const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
+
+  useEffect(() => {
+    loadPaper(paperId)
+      .then(p => {
+        setPaper(p);
+        setLoading(false);
+      })
+      .catch(e => {
+        console.error(e);
+        setError("Failed to load paper data.");
+        setLoading(false);
+      });
+  }, [paperId]);
+
+  const [activeTab, setActiveTab] = React.useState('all'); // all, incorrect, skipped
+
+  const sectionA = paper?.sectionA || [];
+
+  if (loading) return <div style={{ display: 'flex', height: '100vh', justifyContent: 'center', alignItems: 'center' }}><Loader2 size={32} style={{ animation: 'spin 1s linear infinite', color: '#2563eb' }} /></div>;
+  if (error || !paper) return <div style={{ color: 'red', padding: '2rem' }}>{error || 'Paper not found.'}</div>;
+
   const answers = location.state?.answers || {};
-
-  const paper = PAST_PAPERS[portal]?.find(p => p.id === paperId);
-  if (!paper) return null;
-
   const isKPSEA = portal === 'KPSEA';
-  const sectionA = paper.sectionA || [];
   const hasSectionB = paper.sectionB?.length > 0;
+
   const accentColor = isKPSEA ? '#2563eb' : '#7c3aed';
   const gradient = isKPSEA ? 'linear-gradient(135deg, #2563eb, #7c3aed)' : 'linear-gradient(135deg, #7c3aed, #db2777)';
 
@@ -172,15 +193,15 @@ export const SectionAReview = () => {
       </div>
 
       {/* ── Review Section ── */}
-      <div style={{ maxWidth: '780px', margin: '0 auto', padding: '1.5rem 1rem 3rem', width: '100%', boxSizing: 'border-box' }}>
+      <div className="exam-fluid-container">
         <div style={{ display: 'flex', alignItems: 'center', gap: '0.6rem', marginBottom: '1.5rem' }}>
           <TrendingUp size={18} color={accentColor} />
           <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.25rem', fontWeight: '800', color: 'var(--text)' }}>Answer Review</h2>
           <span style={{ marginLeft: 'auto', fontSize: '0.75rem', color: 'var(--text-muted)', fontWeight: '600' }}>{sectionA.length} questions</span>
         </div>
 
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          {sectionA.map(q => {
+        <div style={{ display: 'flex', flexDirection: 'column', gap: '1.25rem' }}>
+          {sectionA.map((q, index) => {
             const chosen = answers[q.id];
             const isCorrect = chosen !== undefined && q.options[chosen]?.isCorrect;
             const correctIdx = q.options.findIndex(o => o.isCorrect);
@@ -191,13 +212,14 @@ export const SectionAReview = () => {
             const statusBorder = isCorrect ? '#bbf7d0' : unanswered ? '#fde68a' : '#fecaca';
 
             return (
-              <div key={q.id} style={{
-                background: '#ffffff',
-                border: `1.5px solid ${statusBorder}`,
-                borderRadius: '1.1rem',
-                overflow: 'hidden',
-                boxShadow: 'var(--shadow-sm)',
-              }}>
+              <div key={q.id} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
+                <div style={{
+                  background: '#ffffff',
+                  border: `1.5px solid ${statusBorder}`,
+                  borderRadius: '1.1rem',
+                  overflow: 'hidden',
+                  boxShadow: 'var(--shadow-sm)',
+                }}>
                 {/* Status stripe */}
                 <div style={{ height: '3px', background: statusColor, opacity: 0.7 }} />
 
@@ -359,8 +381,9 @@ export const SectionAReview = () => {
                   )}
                 </div>
               </div>
-            );
-          })}
+            </div>
+          );
+        })}
         </div>
 
         {/* ── Close Review Button ── */}

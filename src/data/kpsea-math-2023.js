@@ -20,19 +20,19 @@ export const kpseaMath2023 = {
     "ctx-q19": {
       "title": "Clock Face",
       "type": "image",
-      "imagePath": "/assets/q19_clock.png",
+      "imagePath": "/assets/q19_clock.webp",
       "caption": "Wambua began his performance in the afternoon at the time shown on the clock face."
     },
     "ctx-q20": {
       "title": "Travel Timetable",
       "type": "image",
-      "imagePath": "/assets/q20_table.png",
+      "imagePath": "/assets/q20_table.webp",
       "caption": "The table shows a travel timetable for a train from Manga station to Pate through Nanga."
     },
     "ctx-q23": {
       "title": "Triangle LMN",
       "type": "image",
-      "imagePath": "/assets/q23_triangle.png",
+      "imagePath": "/assets/q23_triangle.webp",
       "caption": "Omondi drew accurately the triangle shown on a piece of paper."
     },
     "ctx-q24": {
@@ -50,13 +50,13 @@ export const kpseaMath2023 = {
     "ctx-q26": {
       "title": "Bar Graph",
       "type": "image",
-      "imagePath": "/assets/q26_graph.png",
+      "imagePath": "/assets/q26_graph.webp",
       "caption": "The bar graph shows the amount of money received from Monday to Friday after selling the tomatoes."
     },
     "ctx-q28": {
       "title": "Tally Table",
       "type": "image",
-      "imagePath": "/assets/q28_table.png",
+      "imagePath": "/assets/q28_table.webp",
       "caption": "The table shows the number of patients who were treated for various diseases in a dispensary. Some information is missing in the table."
     }
   },
