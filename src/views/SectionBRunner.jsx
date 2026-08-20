@@ -39,9 +39,9 @@ export const SectionBRunner = () => {
         }
         setLoading(false);
       })
-      .catch(e => {
-        console.error(e);
-        setError("Failed to load paper data.");
+      .catch(err => {
+        console.error("Error loading paper:", err);
+        setError("Failed to load paper data. Reason: " + err.message);
         setLoading(false);
       });
 
@@ -149,13 +149,13 @@ export const SectionBRunner = () => {
     return (
       <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg)', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
         <div style={{
-          background: '#fff', padding: '2.5rem', borderRadius: '1.5rem',
+          background: 'var(--bg-card)', padding: '2.5rem', borderRadius: '1.5rem',
           boxShadow: '0 20px 40px rgba(0,0,0,0.08)', border: '1px solid var(--border)',
           maxWidth: '440px', width: '100%', textAlign: 'center'
         }}>
           <div style={{
             width: '64px', height: '64px', borderRadius: '50%', background: 'linear-gradient(135deg, #3B82F6 0%, #8B5CF6 100%)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', margin: '0 auto 1.5rem'
+            display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--bg-card)', margin: '0 auto 1.5rem'
           }}>
             <BookOpen size={32} />
           </div>
@@ -178,8 +178,8 @@ export const SectionBRunner = () => {
               }}
               style={{
                 width: '100%', padding: '0.9rem', borderRadius: '0.75rem',
-                background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%)',
-                color: '#fff', border: 'none', fontWeight: '700', fontSize: '1rem', cursor: 'pointer',
+                background: gradient,
+                color: 'var(--bg-card)', border: 'none', fontWeight: '700', fontSize: '1rem', cursor: 'pointer',
                 boxShadow: '0 8px 16px rgba(59, 130, 246, 0.25)', transition: 'transform 0.2s'
               }}
             >
@@ -214,7 +214,7 @@ export const SectionBRunner = () => {
       {/* ── Header ── */}
       <header style={{
         flexShrink: 0,
-        background: 'rgba(255,255,255,0.92)',
+        background: 'var(--bg-card)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         borderBottom: '1px solid var(--border)',
@@ -238,7 +238,7 @@ export const SectionBRunner = () => {
           fontFamily: 'Outfit, sans-serif', fontWeight: '800',
           background: gradient,
           padding: '0.3rem 0.85rem', borderRadius: '9999px',
-          color: '#fff', fontSize: '0.82rem',
+          color: 'var(--bg-card)', fontSize: '0.82rem',
           boxShadow: `0 4px 12px ${accentColor}35`,
         }}>
           {currentIndex + 1} / {sectionB.length}
@@ -253,21 +253,26 @@ export const SectionBRunner = () => {
       <main style={{ flex: 1, overflowY: 'auto', paddingBottom: revealed ? '120px' : '4rem' }}>
         {/* Scrollable context image - not sticky */}
         {context && (
-          <div style={{ background: 'rgba(255,255,255,0.95)', borderBottom: '1px solid var(--border)', padding: '0.75rem 1.25rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
+          <div style={{ background: 'var(--bg-card)', borderBottom: '1px solid var(--border)', padding: '0.75rem 1.25rem', display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
             <span style={{ fontSize: '0.62rem', fontWeight: '800', color: accentColor, letterSpacing: '0.12em', textTransform: 'uppercase', marginBottom: '0.4rem' }}>Reference</span>
-            {context.type === 'image' && <ZoomableImage src={context.imagePath} alt={context.title} baseMaxHeight="22vh" />}
+            {context.type === 'image' && <ZoomableImage src={context.imagePath} alt={context.title} baseMaxHeight={context.maxHeight || "22vh"} />}
           </div>
         )}
 
         <div className="exam-fluid-container">
 
           {/* Parent Question Context (if exists) */}
-          {q.parentQuestionText && (
-             <div style={{ background: '#ffffff', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1.5rem', boxShadow: 'var(--shadow-sm)' }}>
+          {(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) && (
+             <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1.5rem', boxShadow: 'var(--shadow-sm)' }}>
                <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>
                <p style={{ fontSize: '1.05rem', fontWeight: '600', lineHeight: 1.8, color: 'var(--text)' }}>
-                 <MathRenderer text={q.parentQuestionText} />
+                 <MathRenderer text={q.parentQuestionText || q.questionText} />
                </p>
+               {q.imagePath && (
+                 <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
+                   <ZoomableImage src={q.imagePath} alt={`Question ${q.questionNumber} context`} baseMaxHeight="25vh" customFilter={q.cssFilter} />
+                 </div>
+               )}
              </div>
           )}
 
@@ -282,39 +287,53 @@ export const SectionBRunner = () => {
               <div key={item.id} style={{ marginBottom: '2.5rem' }}>
                 
                 {/* Question Text */}
-                {(!q.parentQuestionText || isSub) && (
-                  <div style={{ background: '#ffffff', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1rem', boxShadow: 'var(--shadow-sm)' }}>
-                    {!q.parentQuestionText && <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>}
+                {(!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) || isSub) && (
+                  <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1rem', boxShadow: 'var(--shadow-sm)' }}>
+                    {!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) && <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>}
                     <p style={{ fontSize: '1.05rem', fontWeight: '600', lineHeight: 1.8, color: 'var(--text)' }}>
                       {isSub && <span style={{fontWeight: '800', marginRight: '0.5rem', color: accentColor}}>{item.subNumber}</span>}
                       <MathRenderer text={item.questionText} />
+                      <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-muted)', marginLeft: '0.5rem', whiteSpace: 'nowrap' }}>
+                        ({maxScore} mark{maxScore !== 1 ? 's' : ''})
+                      </span>
                     </p>
+                    {item.imagePath && (
+                      <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
+                        <ZoomableImage src={item.imagePath} alt={`Sub-question image`} baseMaxHeight="22vh" customFilter={item.cssFilter} />
+                      </div>
+                    )}
                   </div>
                 )}
 
                 {/* Answer Area */}
-                <div style={{ background: '#ffffff', border: '1.5px solid var(--border)', borderRadius: '1rem', padding: '1.25rem', marginBottom: '1rem', boxShadow: 'var(--shadow-sm)' }}>
+                <div style={{ background: 'var(--bg-card)', border: '1.5px solid var(--border)', borderRadius: '1rem', padding: '1.25rem', marginBottom: '1rem', boxShadow: 'var(--shadow-sm)' }}>
                   <p style={{ fontSize: '0.7rem', fontWeight: '700', color: 'var(--text-muted)', textTransform: 'uppercase', letterSpacing: '0.08em', marginBottom: '0.75rem' }}>Your Answer</p>
                   {qType === 'structured' && (
-                    <textarea
-                      style={{
-                        width: '100%', minHeight: '120px',
-                        background: 'var(--bg-muted)', border: '1.5px solid var(--border)',
-                        borderRadius: '0.65rem', padding: '0.8rem',
-                        color: 'var(--text)', fontSize: '0.97rem', resize: 'vertical',
-                        fontFamily: 'Inter, sans-serif', lineHeight: 1.7,
-                        outline: 'none',
-                      }}
-                      placeholder="Type your answer here..."
-                      value={answers[item.id] || ''}
-                      onChange={e => setAnswers(prev => ({ ...prev, [item.id]: e.target.value }))}
-                      disabled={revealed}
-                    />
+                    <div style={{ display: 'flex', flexDirection: 'column', gap: '0.5rem' }}>
+                      <textarea
+                        style={{
+                          width: '100%', minHeight: '120px',
+                          background: 'var(--bg-muted)', border: '1.5px solid var(--border)',
+                          borderRadius: '0.65rem', padding: '0.8rem',
+                          color: 'var(--text)', fontSize: '0.97rem', resize: 'vertical',
+                          fontFamily: 'Inter, sans-serif', lineHeight: 1.7,
+                          outline: 'none',
+                        }}
+                        placeholder="Type your answer here..."
+                        value={answers[item.id] || ''}
+                        onChange={e => setAnswers(prev => ({ ...prev, [item.id]: e.target.value }))}
+                        disabled={revealed}
+                      />
+                      <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
+                        <span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>Recommended:</span> 
+                        Write or draw your answer on a physical piece of paper for better practice.
+                      </p>
+                    </div>
                   )}
                   {qType === 'drawing' && (
                     <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem', padding: '1.25rem', border: '2px dashed var(--border-bright)', borderRadius: '0.75rem', background: 'var(--bg-muted)' }}>
                       {answers[item.id] ? (
-                        <div style={{ background: '#f8fafc', borderRadius: '0.5rem', padding: '0.5rem', border: '1px solid var(--border)', width: '100%' }}>
+                        <div style={{ background: 'var(--bg-muted)', borderRadius: '0.5rem', padding: '0.5rem', border: '1px solid var(--border)', width: '100%' }}>
                           <ZoomableImage src={answers[item.id]} alt="Your drawing" baseMaxHeight="200px" />
                         </div>
                       ) : (
@@ -325,6 +344,10 @@ export const SectionBRunner = () => {
                           <Pencil size={15} /> Open Sketchpad
                         </button>
                       )}
+                      <p style={{ fontSize: '0.82rem', color: 'var(--text-muted)', display: 'flex', alignItems: 'center', gap: '0.4rem', marginTop: '0.2rem' }}>
+                        <span style={{ color: 'var(--accent)', fontWeight: 'bold' }}>Recommended:</span> 
+                        Draw your answer on a physical piece of paper for better practice.
+                      </p>
                     </div>
                   )}
                 </div>
@@ -333,12 +356,12 @@ export const SectionBRunner = () => {
                 {revealed && (
                   <div style={{ display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
                     {/* Model Answer */}
-                    <div style={{ background: '#ffffff', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', boxShadow: 'var(--shadow-sm)' }}>
+                    <div style={{ background: 'var(--bg-card)', border: '1.5px solid #bbf7d0', borderRadius: '1rem', padding: '1.25rem', boxShadow: 'var(--shadow-sm)' }}>
                       <p style={{ color: '#059669', fontWeight: '800', marginBottom: '0.75rem', display: 'flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                         <CheckCircle2 size={16} /> Model Answer
                       </p>
                       {qType === 'drawing' ? (
-                        <div style={{ background: '#f8fafc', borderRadius: '0.5rem', padding: '0.5rem', border: '1px solid var(--border)', width: '100%' }}>
+                        <div style={{ background: 'var(--bg-muted)', borderRadius: '0.5rem', padding: '0.5rem', border: '1px solid var(--border)', width: '100%' }}>
                           <ZoomableImage src={item.modelAnswer || ''} alt="Model diagram" baseMaxHeight="200px" />
                         </div>
                       ) : (
@@ -352,12 +375,17 @@ export const SectionBRunner = () => {
                               </div>
                             );
                           })}
+                          {item.modelImage && (
+                            <div style={{ marginTop: '0.8rem', background: 'var(--bg-muted)', borderRadius: '0.5rem', padding: '0.5rem', border: '1px solid var(--border)' }}>
+                              <ZoomableImage src={item.modelImage} alt="Model diagram" baseMaxHeight="40vh" />
+                            </div>
+                          )}
                         </div>
                       )}
                     </div>
 
                     {/* Rubric */}
-                    <div style={{ background: '#ffffff', border: `1.5px solid ${accentColor}25`, borderRadius: '1rem', padding: '1.25rem', boxShadow: 'var(--shadow-sm)' }}>
+                    <div style={{ background: 'var(--bg-card)', border: `1.5px solid ${accentColor}25`, borderRadius: '1rem', padding: '1.25rem', boxShadow: 'var(--shadow-sm)' }}>
                       <p style={{ color: accentColor, fontWeight: '800', marginBottom: '0.5rem', fontSize: '0.85rem', textTransform: 'uppercase', letterSpacing: '0.06em' }}>
                         <BookOpen size={14} style={{ display: 'inline', marginRight: '0.3rem', verticalAlign: 'middle' }} />
                         Marking Rubric
@@ -414,7 +442,7 @@ export const SectionBRunner = () => {
           {!revealed && (
             <button
               onClick={() => setRevealed(true)}
-              style={{ width: '100%', padding: '1rem', background: gradient, border: 'none', borderRadius: '0.85rem', color: '#fff', fontSize: '0.97rem', fontWeight: '700', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', boxShadow: `0 8px 24px ${accentColor}35` }}
+              style={{ width: '100%', padding: '1rem', background: gradient, border: 'none', borderRadius: '0.85rem', color: 'var(--bg-card)', fontSize: '0.97rem', fontWeight: '700', cursor: 'pointer', display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem', boxShadow: `0 8px 24px ${accentColor}35` }}
             >
               <Eye size={18} /> Reveal Model Answer
             </button>
@@ -427,7 +455,7 @@ export const SectionBRunner = () => {
       {revealed && (
         <div style={{
           position: 'fixed', bottom: 0, left: 0, right: 0,
-          background: 'rgba(255,255,255,0.95)',
+          background: 'var(--bg-card)',
           backdropFilter: 'blur(12px)',
           WebkitBackdropFilter: 'blur(12px)',
           borderTop: '1px solid var(--border)',
@@ -462,7 +490,7 @@ export const SectionBRunner = () => {
 
       {/* ── Drawing modal ── */}
       {activeDrawingId && (
-        <div style={{ position: 'fixed', inset: 0, zIndex: 50, background: '#ffffff', display: 'flex', flexDirection: 'column' }}>
+        <div style={{ position: 'fixed', inset: 0, zIndex: 50, background: 'var(--bg-card)', display: 'flex', flexDirection: 'column' }}>
           <div style={{ height: '56px', background: 'var(--bg-muted)', borderBottom: '1px solid var(--border)', display: 'flex', alignItems: 'center', justifyContent: 'space-between', padding: '0 1rem', flexShrink: 0 }}>
             <div style={{ display: 'flex', gap: '0.4rem' }}>
               {[['pencil', <Pencil size={17} key="p" />, 'Draw'], ['eraser', <Eraser size={17} key="e" />, 'Erase']].map(([t, icon, label]) => (
@@ -473,7 +501,7 @@ export const SectionBRunner = () => {
             <span style={{ color: 'var(--text-muted)', fontSize: '0.82rem', fontWeight: '600' }}>Draw your answer</span>
             <div style={{display:'flex', gap:'0.5rem'}}>
                <button onClick={() => setActiveDrawingId(null)} style={{ padding: '0.4rem 1rem', background: 'var(--border)', border: 'none', borderRadius: '0.45rem', color: 'var(--text)', fontWeight: '700', cursor: 'pointer', fontSize: '0.82rem' }}>Cancel</button>
-               <button onClick={saveDrawing} style={{ padding: '0.4rem 1rem', background: gradient, border: 'none', borderRadius: '0.45rem', color: '#fff', fontWeight: '700', cursor: 'pointer', fontSize: '0.82rem' }}>Save</button>
+               <button onClick={saveDrawing} style={{ padding: '0.4rem 1rem', background: gradient, border: 'none', borderRadius: '0.45rem', color: 'var(--bg-card)', fontWeight: '700', cursor: 'pointer', fontSize: '0.82rem' }}>Save</button>
             </div>
           </div>
           <div style={{ flex: 1, position: 'relative', touchAction: 'none' }}>
@@ -481,7 +509,7 @@ export const SectionBRunner = () => {
               ref={canvasRef}
               width={window.innerWidth}
               height={window.innerHeight - 56}
-              style={{ position: 'absolute', inset: 0, cursor: 'crosshair', background: '#ffffff', width: '100%', height: '100%' }}
+              style={{ position: 'absolute', inset: 0, cursor: 'crosshair', background: 'var(--bg-card)', width: '100%', height: '100%' }}
               onMouseDown={startDraw} onMouseMove={doDraw} onMouseUp={stopDraw} onMouseLeave={stopDraw}
               onTouchStart={startDraw} onTouchMove={doDraw} onTouchEnd={stopDraw}
             />

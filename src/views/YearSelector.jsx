@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+﻿import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Calendar, ChevronRight, BookOpen, Layers, CheckCircle2 } from 'lucide-react';
 import { PAST_PAPERS } from '../data/pastPapers';
@@ -30,7 +30,7 @@ export const YearSelector = () => {
             : 'linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%)',
           borderRadius: '1.25rem',
           padding: '1.75rem 2rem',
-          color: '#ffffff',
+          color: 'var(--bg-card)',
           position: 'relative',
           overflow: 'hidden',
           marginBottom: '2rem',
@@ -52,7 +52,7 @@ export const YearSelector = () => {
               {isKPSEA ? 'Grade 6 Primary' : 'Grade 9 Junior Secondary'}
             </span>
 
-            <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.75rem, 3.5vw, 2.3rem)', fontWeight: '900', color: '#ffffff', marginBottom: '0.35rem' }}>
+            <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.75rem, 3.5vw, 2.3rem)', fontWeight: '900', color: 'var(--bg-card)', marginBottom: '0.35rem' }}>
               {portal} Examination Years
             </h1>
 
@@ -64,10 +64,10 @@ export const YearSelector = () => {
 
         {/* ── Available Years Grid ── */}
         {availableYears.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: '#ffffff', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
-            <Calendar size={44} style={{ color: '#94a3b8', marginBottom: '0.75rem' }} />
-            <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: '#0f172a' }}>No papers available yet</h3>
-            <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '0.25rem' }}>Check back soon for updated {portal} exam papers.</p>
+          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
+            <Calendar size={44} style={{ color: 'var(--text-faint)', marginBottom: '0.75rem' }} />
+            <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: 'var(--text)' }}>No papers available yet</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Check back soon for updated {portal} exam papers.</p>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.25rem' }}>
@@ -82,7 +82,7 @@ export const YearSelector = () => {
                   onMouseLeave={() => setHoveredId(null)}
                   onClick={() => navigate(`/papers/${portal}/${year}`)}
                   style={{
-                    background: '#ffffff',
+                    background: 'var(--bg-card)',
                     borderRadius: '1.15rem',
                     padding: '1.5rem',
                     border: isHov ? `1.5px solid ${accentColor}` : '1.5px solid #e2e8f0',
@@ -125,10 +125,10 @@ export const YearSelector = () => {
                       </span>
                     </div>
 
-                    <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.75rem', fontWeight: '900', color: '#0f172a', marginBottom: '0.25rem' }}>
+                    <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.75rem', fontWeight: '900', color: 'var(--text)', marginBottom: '0.25rem' }}>
                       {year}
                     </h3>
-                    <p style={{ fontSize: '0.85rem', color: '#64748b', marginBottom: '1.25rem' }}>
+                    <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginBottom: '1.25rem' }}>
                       Official {portal} Assessment
                     </p>
                   </div>

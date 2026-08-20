@@ -1,0 +1,1128 @@
+{
+  "id": "kjsea-agric-nutrition-2025",
+  "title": "Agriculture and Nutrition",
+  "subject": "Agriculture and Nutrition",
+  "year": "2025",
+  "timeAllowed": 120,
+  "totalMarks": 70,
+  "sectionA": [
+    {
+      "id": "q1",
+      "questionNumber": 1,
+      "questionText": "Which kind of soil tilth does the planting material require?",
+      "options": [
+        {
+          "text": "Fine and medium tilth.",
+          "isCorrect": false
+        },
+        {
+          "text": "Medium tilth.",
+          "isCorrect": false
+        },
+        {
+          "text": "Coarse and fine tilth.",
+          "isCorrect": false
+        },
+        {
+          "text": "Coarse tilth.",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswer": "Coarse tilth.",
+      "explanation": "The correct answer is **Coarse tilth.**\n\n**Analysis of the Correct Answer:**\nBananas generally require deep planting holes with coarse tilth to allow proper root penetration and water drainage.\n\n**Why Other Options Are Incorrect:**\n* **Fine and medium tilth:** Too fine for banana suckers, leading to poor aeration and waterlogging.\n* **Medium tilth:** Does not provide the necessary loose soil structure for large banana roots.\n* **Coarse and fine tilth:** Mixing them defeats the purpose of maintaining a consistently coarse structure required for heavy rainfall absorption.\n\n📌 **Key Learning Note:**\nLarge planting materials like banana suckers require coarse tilth for optimal root establishment.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q1_2"
+    },
+    {
+      "id": "q2",
+      "questionNumber": 2,
+      "questionText": "Why is it not suitable to establish the planting material on a framed suspended garden? Mature crop will",
+      "options": [
+        {
+          "text": "be affected by diseases",
+          "isCorrect": false
+        },
+        {
+          "text": "be affected by pests",
+          "isCorrect": false
+        },
+        {
+          "text": "be heavier",
+          "isCorrect": true
+        },
+        {
+          "text": "dry up.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "be heavier",
+      "explanation": "The correct answer is **be heavier**.\n\n**Analysis of the Correct Answer:**\nIt is not suitable to establish the planting material (like heavy-bearing crops or large vines) on a framed suspended garden because as the crop matures, it will become heavier, potentially causing the suspended structure to collapse.\n\n**Why Other Options Are Incorrect:**\n* **be affected by diseases:** Suspended gardens actually improve air circulation, reducing some diseases.\n* **be affected by pests:** Pests can affect crops regardless of whether they are suspended or not.\n* **dry up:** While they may require more frequent watering, drying up is not the primary structural concern.\n\n📌 **Key Learning Note:**\nWhen designing vertical or suspended gardens, the structural integrity must account for the full mature weight of the crop.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q1_2"
+    },
+    {
+      "id": "q3",
+      "questionNumber": 3,
+      "questionText": "Junior School learners carried out a tomato growing project. Which management practices did they carry out soon after transplanting?",
+      "options": [
+        {
+          "text": "Gapping, watering, harvesting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Watering, pruning, mulching.",
+          "isCorrect": false
+        },
+        {
+          "text": "Pruning, watering, harvesting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Watering, mulching, gapping.",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswer": "Watering, mulching, gapping.",
+      "explanation": "The correct answer is **Watering, mulching, gapping.**\n\n**Analysis of the Correct Answer:**\nSoon after transplanting seedlings (like tomatoes), they require immediate watering to settle the roots, mulching to conserve moisture, and gapping (replacing dead seedlings) a few days later to maintain the desired plant population.\n\n**Why Other Options Are Incorrect:**\n* **Gapping, watering, harvesting:** Harvesting is done at the end of the crop cycle, not soon after transplanting.\n* **Watering, pruning, mulching:** Pruning is done later when the plant has grown excessive foliage or suckers.\n* **Pruning, watering, harvesting:** Both pruning and harvesting are late-stage management practices.\n\n📌 **Key Learning Note:**\nThe crucial steps immediately following transplanting are to reduce transplant shock (watering, mulching) and ensure full establishment (gapping).",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q4",
+      "questionNumber": 4,
+      "questionText": "What factor did she mainly consider when sorting and grading the eggs?",
+      "options": [
+        {
+          "text": "Dirt",
+          "isCorrect": false
+        },
+        {
+          "text": "Colour",
+          "isCorrect": true
+        },
+        {
+          "text": "Size",
+          "isCorrect": false
+        },
+        {
+          "text": "Cracks",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Colour",
+      "explanation": "The correct answer is **Colour**.\n\n**Analysis of the Correct Answer:**\nWhen sorting and grading eggs for the market, colour is a key factor to ensure uniformity, which appeals to consumers (e.g., separating brown eggs from white eggs).\n\n**Why Other Options Are Incorrect:**\n* **Dirt:** Dirty eggs are cleaned or rejected, but it's not a primary 'grading' characteristic like size or colour.\n* **Size:** While size is a grading factor, the specific context implies sorting by the visible shell colour.\n* **Cracks:** Cracked eggs are discarded or sold as lower-grade 'cracks', not graded into standard classes.\n\n📌 **Key Learning Note:**\nEgg grading involves sorting by both internal quality and external characteristics like size, shape, and shell colour.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q4_5"
+    },
+    {
+      "id": "q5",
+      "questionNumber": 5,
+      "questionText": "Which hygiene rearing practice can be carried out to ensure production of clean eggs?",
+      "options": [
+        {
+          "text": "Feeding the hens.",
+          "isCorrect": false
+        },
+        {
+          "text": "Watering the hens.",
+          "isCorrect": false
+        },
+        {
+          "text": "Replacing the nesting materials.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cleaning watering containers.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Replacing the nesting materials.",
+      "explanation": "The correct answer is **Replacing the nesting materials.**\n\n**Analysis of the Correct Answer:**\nTo ensure the production of clean eggs, the nesting boxes must be kept clean. Replacing dirty nesting materials prevents the eggs from getting soiled with droppings or mud.\n\n**Why Other Options Are Incorrect:**\n* **Feeding the hens:** A nutritional practice, not directly related to keeping the eggshell clean.\n* **Watering the hens:** Essential for survival and production, but does not affect the cleanliness of the laid egg.\n* **Cleaning watering containers:** Good for bird health, but doesn't prevent eggs in the nest from getting dirty.\n\n📌 **Key Learning Note:**\nProviding clean, dry nesting material is the most direct way to reduce the incidence of dirty eggs.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q4_5"
+    },
+    {
+      "id": "q6",
+      "questionNumber": 6,
+      "questionText": "A Grade 9 Agriculture teacher demonstrated the process of conserving grass pasture for livestock feeding.\n\nWhich of the following activities did the teacher carry out?",
+      "options": [
+        {
+          "text": "Cutting the grass into small pieces and putting in airtight containers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cutting the grass and drying it for two days before compressing it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cutting the grass and storing it.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cutting the grass and compressing immediately.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Cutting the grass into small pieces and putting in airtight containers.",
+      "explanation": "The correct answer is **Cutting the grass into small pieces and putting in airtight containers.**\n\n**Analysis of the Correct Answer:**\nThe teacher is demonstrating the process of making **silage**, which involves cutting green forage into small pieces and compressing it into an airtight container (silo) to undergo anaerobic fermentation.\n\n**Why Other Options Are Incorrect:**\n* **Cutting the grass and drying it for two days before compressing it:** This describes the process of making hay, not silage (which requires anaerobic conditions in a container).\n* **Cutting the grass and storing it:** Without processing (drying or ensiling), fresh grass will simply rot.\n* **Cutting the grass and compressing immediately:** Without an airtight container, fermentation cannot occur properly.\n\n📌 **Key Learning Note:**\nSilage is made by fermenting fresh, chopped forage in an airtight environment to preserve its nutritional value.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q7",
+      "questionNumber": 7,
+      "questionText": "Grade 9 learners visited a farmer practising integrated farming using the following enterprises: fish rearing, poultry rearing and vegetable farming.\n\nWhich of the following statements is true about the farming described?",
+      "options": [
+        {
+          "text": "Poultry manure was sold to other farmers.",
+          "isCorrect": false
+        },
+        {
+          "text": "Fish was fed on commercial feeds.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wastewater from the fish pond was used for irrigation.",
+          "isCorrect": true
+        },
+        {
+          "text": "Artificial fertilizers were applied on the vegetables.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Wastewater from the fish pond was used for irrigation.",
+      "explanation": "The correct answer is **Wastewater from the fish pond was used for irrigation.**\n\n**Analysis of the Correct Answer:**\nIn an integrated farming system, waste from one enterprise is used as an input for another. Wastewater from a fish pond is rich in nutrients (fish waste) and is excellent for irrigating and fertilizing vegetables.\n\n**Why Other Options Are Incorrect:**\n* **Poultry manure was sold to other farmers:** In a truly integrated system, the manure would be used on the farm (e.g., to feed the fish or fertilize the crops), not sold.\n* **Fish was fed on commercial feeds:** Integration usually relies on farm-generated feed (like poultry droppings) rather than commercial feeds.\n* **Artificial fertilizers were applied on the vegetables:** The goal of integration is to use natural by-products (like fish water or manure) instead of artificial fertilizers.\n\n📌 **Key Learning Note:**\nIntegrated farming maximizes resource efficiency by cycling nutrients between different farm enterprises.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q8",
+      "questionNumber": 8,
+      "questionText": "A farmer established pasture and fenced the area so that cattle would only be allowed to graze during the drought season.\nName the method of forage conservation used.",
+      "options": [
+        {
+          "text": "Stacked forage.",
+          "isCorrect": false
+        },
+        {
+          "text": "Standing forage.",
+          "isCorrect": true
+        },
+        {
+          "text": "Silage forage.",
+          "isCorrect": false
+        },
+        {
+          "text": "Baled forage.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Standing forage.",
+      "explanation": "The correct answer is **Standing forage.**\n\n**Analysis of the Correct Answer:**\nFencing an area of pasture and leaving it ungrazed until the dry season is a method of conservation known as standing forage or deferred grazing.\n\n**Why Other Options Are Incorrect:**\n* **Stacked forage:** Refers to harvested and dried forage (hay) stacked for storage.\n* **Silage forage:** Refers to fermented green forage stored in airtight conditions.\n* **Baled forage:** Refers to hay that has been compressed and tied into bales.\n\n📌 **Key Learning Note:**\nStanding forage allows animals to graze directly on mature, preserved pasture during periods of scarcity without the labor of harvesting.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q9",
+      "questionNumber": 9,
+      "questionText": "Grade 9 learners were guided by their Agriculture teacher to discuss how a home-made sun drier works. Which of the following statements is correct? The drier",
+      "options": [
+        {
+          "text": "exposes crop produce to fire",
+          "isCorrect": false
+        },
+        {
+          "text": "dehydrates the crop produce",
+          "isCorrect": true
+        },
+        {
+          "text": "has an electric heater",
+          "isCorrect": false
+        },
+        {
+          "text": "works best in humid environment.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "dehydrates the crop produce",
+      "explanation": "The correct answer is **dehydrates the crop produce**.\n\n**Analysis of the Correct Answer:**\nA home-made sun drier works by trapping solar heat to warm the air inside, which then absorbs moisture from the crop produce, effectively dehydrating (drying) it for preservation.\n\n**Why Other Options Are Incorrect:**\n* **exposes crop produce to fire:** Sun driers use solar energy, not fire or smoke.\n* **has an electric heater:** They rely passively on the sun, requiring no electricity.\n* **works best in humid environment:** Sun driers work best in dry, sunny environments; high humidity slows down the dehydration process.\n\n📌 **Key Learning Note:**\nSolar drying is a cost-effective preservation method that removes moisture from food, preventing the growth of spoilage microorganisms.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q10",
+      "questionNumber": 10,
+      "questionText": "Grafting is a production technique which improves crop production. Which of the following statements is true for successful grafting?",
+      "options": [
+        {
+          "text": "Grafting seedlings should be exposed to strong sunshine.",
+          "isCorrect": false
+        },
+        {
+          "text": "Plants being grafted should be closely related.",
+          "isCorrect": true
+        },
+        {
+          "text": "Shoots growing on rootstocks should not be removed.",
+          "isCorrect": false
+        },
+        {
+          "text": "Graft union should allow water to penetrate.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Plants being grafted should be closely related.",
+      "explanation": "The correct answer is **Plants being grafted should be closely related.**\n\n**Analysis of the Correct Answer:**\nFor a graft to be successful, the scion (top part) and the rootstock (bottom part) must be botanically related (e.g., same genus or species) so that their vascular tissues (cambium) can fuse together and heal.\n\n**Why Other Options Are Incorrect:**\n* **Grafting seedlings should be exposed to strong sunshine:** Newly grafted plants should be kept shaded to prevent them from drying out before the vascular connection forms.\n* **Shoots growing on rootstocks should not be removed:** Rootstock shoots (suckers) must be removed, otherwise they will compete with the scion for nutrients.\n* **Graft union should allow water to penetrate:** The union must be sealed tightly (usually with grafting tape) to prevent water entry and infection.\n\n📌 **Key Learning Note:**\nCompatibility between the scion and rootstock is the most fundamental requirement for successful grafting.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q11",
+      "questionNumber": 11,
+      "questionText": "Grade 9 learners listed the following ways of controlling weeds in a farm.\n(i) uprooting weeds\n(ii) use of herbicides\n(iii) use of chemical pesticides\n(iv) use of organic mulch.\n\nWhich of the following pairs of weed control measures is suitable for organic gardening?",
+      "options": [
+        {
+          "text": "(ii) and (iii)",
+          "isCorrect": false
+        },
+        {
+          "text": "(ii) and (iv)",
+          "isCorrect": false
+        },
+        {
+          "text": "(i) and (iv)",
+          "isCorrect": true
+        },
+        {
+          "text": "(i) and (iii)",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "(i) and (iv)",
+      "explanation": "The correct answer is **(i) and (iv)**.\n\n**Analysis of the Correct Answer:**\nOrganic gardening avoids the use of synthetic chemicals. Uprooting weeds manually (i) and using organic mulch (iv) to smother weeds are both acceptable practices in organic systems.\n\n**Why Other Options Are Incorrect:**\n* **(ii) use of herbicides:** Herbicides are synthetic chemicals specifically banned in pure organic farming.\n* **(iii) use of chemical pesticides:** Also prohibited in organic farming, which relies on natural pest control.\n* Options containing (ii) or (iii) cannot be correct for organic gardening.\n\n📌 **Key Learning Note:**\nOrganic gardening relies strictly on natural, mechanical, and cultural methods (like mulching and hand-weeding) to manage pests and weeds.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q12",
+      "questionNumber": 12,
+      "questionText": "A learner wants to process fresh fish for preservation. Which of the following steps should the learner take first?",
+      "options": [
+        {
+          "text": "Wash the fish thoroughly in clean water.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cut the abdominal region and remove gut.",
+          "isCorrect": false
+        },
+        {
+          "text": "Use a knife to remove scales from the fish.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cut the fish into pieces on a cutting board.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Wash the fish thoroughly in clean water.",
+      "explanation": "The correct answer is **Wash the fish thoroughly in clean water.**\n\n**Analysis of the Correct Answer:**\nThe first critical step in processing fresh fish is to wash it thoroughly in clean water to remove surface slime, dirt, and bacteria before making any cuts.\n\n**Why Other Options Are Incorrect:**\n* **Cut the abdominal region and remove gut:** This is done after washing to avoid introducing external bacteria into the flesh.\n* **Use a knife to remove scales from the fish:** Scaling is typically done after initial washing.\n* **Cut the fish into pieces on a cutting board:** Filleting or cutting comes much later in the processing sequence.\n\n📌 **Key Learning Note:**\nProper hygiene is crucial when handling fresh meat. Always wash the outer surface before making incisions to prevent contamination.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q13",
+      "questionNumber": 13,
+      "questionText": "After milking, a farmer plans to keep the milk fresh for a week. Which method would be the most effective for preserving the milk?",
+      "options": [
+        {
+          "text": "Boiling the milk and then cooling it in a refrigerator.",
+          "isCorrect": true
+        },
+        {
+          "text": "Adding sugar to the milk and storing it at room temperature.",
+          "isCorrect": false
+        },
+        {
+          "text": "Boiling the milk and storing it at room temperature.",
+          "isCorrect": false
+        },
+        {
+          "text": "Keeping the milk in an open container to ferment.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Boiling the milk and then cooling it in a refrigerator.",
+      "explanation": "The correct answer is **Boiling the milk and then cooling it in a refrigerator.**\n\n**Analysis of the Correct Answer:**\nBoiling kills most spoilage bacteria (pasteurization), and immediately cooling it slows down the growth of any remaining microbes, extending its shelf life significantly.\n\n**Why Other Options Are Incorrect:**\n* **Adding sugar to the milk and storing it at room temperature:** Sugar does not preserve milk at room temperature; it would spoil quickly.\n* **Boiling the milk and storing it at room temperature:** Even boiled milk will eventually spoil if left out at room temperature because airborne bacteria can settle on it.\n* **Keeping the milk in an open container to ferment:** Fermentation changes the nature of the milk (to sour milk/mala) instead of keeping it \"fresh\".\n\n📌 **Key Learning Note:**\nHeat treatment (boiling) combined with cold storage (refrigeration) is the most effective way to preserve fresh milk.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q14",
+      "questionNumber": 14,
+      "questionText": "Grade 7 learners want to plant indigenous trees in their school compound. Which of the following is not a reason for planting indigenous trees? They",
+      "options": [
+        {
+          "text": "provide habitat for local wildlife.",
+          "isCorrect": false
+        },
+        {
+          "text": "require less water compared to exotic species.",
+          "isCorrect": false
+        },
+        {
+          "text": "grow faster than exotic tree species.",
+          "isCorrect": true
+        },
+        {
+          "text": "help in maintaining population of varied tree species.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "grow faster than exotic tree species.",
+      "explanation": "The correct answer is **grow faster than exotic tree species.**\n\n**Analysis of the Correct Answer:**\nThis is NOT a reason for planting indigenous trees because indigenous trees generally grow much *slower* than exotic species (like Eucalyptus or Grevillea).\n\n**Why Other Options Are Incorrect:**\n* **provide habitat for local wildlife:** This is a true reason for planting indigenous trees.\n* **require less water compared to exotic species:** This is a true reason, as they are adapted to the local climate.\n* **help in maintaining population of varied tree species:** True, it promotes biodiversity.\n\n📌 **Key Learning Note:**\nWhile exotic trees are favoured for fast growth (e.g., for timber), indigenous trees are favoured for ecological stability, drought resistance, and wildlife conservation.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q15",
+      "questionNumber": 15,
+      "questionText": "A farmer notices that his tomato plants in the kitchen garden are not growing well due to poor spacing. Which of the following spacings is the farmer likely to have used?",
+      "options": [
+        {
+          "text": "10 cm apart.",
+          "isCorrect": true
+        },
+        {
+          "text": "30 cm apart.",
+          "isCorrect": false
+        },
+        {
+          "text": "50 cm apart.",
+          "isCorrect": false
+        },
+        {
+          "text": "70 cm apart.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "10 cm apart.",
+      "explanation": "The correct answer is **10 cm apart.**\n\n**Analysis of the Correct Answer:**\nA spacing of 10 cm apart is much too close for tomato plants. They require adequate space (usually 60 cm by 60 cm) to grow without competing intensely for light, water, and nutrients.\n\n**Why Other Options Are Incorrect:**\n* **30 cm, 50 cm, 70 cm apart:** These are closer to standard or acceptable agricultural spacings for various crops, but 10 cm is drastically inadequate for a large plant like a tomato.\n* Very close spacing leads to stunted growth, poor yields, and rapid spread of diseases due to poor air circulation.\n\n📌 **Key Learning Note:**\nProper spacing is essential to reduce plant competition and ensure maximum yield per plant.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q16",
+      "questionNumber": 16,
+      "questionText": "A farmer has noted that heavy rains always cause soil erosion in her land. Which of the following practices can she use to control the soil erosion?",
+      "options": [
+        {
+          "text": "Planting cover crops.",
+          "isCorrect": true
+        },
+        {
+          "text": "Increasing the use of chemical fertiliser.",
+          "isCorrect": false
+        },
+        {
+          "text": "Planting crops during the dry season.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using the excess water for irrigation.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Planting cover crops.",
+      "explanation": "The correct answer is **Planting cover crops.**\n\n**Analysis of the Correct Answer:**\nCover crops (like sweet potatoes, pumpkins, or desmodium) grow over the soil surface, forming a canopy that protects the soil from the direct impact of heavy raindrops, thereby reducing soil erosion.\n\n**Why Other Options Are Incorrect:**\n* **Increasing the use of chemical fertiliser:** Fertilizers improve soil fertility but do not physically protect soil from erosion.\n* **Planting crops during the dry season:** Soil erosion happens during rains, so farming timing alone doesn't stop it if the soil is bare.\n* **Using the excess water for irrigation:** Harvesting water is good, but doesn't solve the erosion occurring in the field.\n\n📌 **Key Learning Note:**\nCover cropping is a biological soil conservation method that reduces runoff and protects the topsoil.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q17",
+      "questionNumber": 17,
+      "questionText": "During a community meeting, an agricultural officer described different methods of water harvesting for growing crops. Which of the following is the best method that the officer should recommend for a dry area?",
+      "options": [
+        {
+          "text": "Constructing shallow water pans.",
+          "isCorrect": false
+        },
+        {
+          "text": "Creating underground reservoirs.",
+          "isCorrect": true
+        },
+        {
+          "text": "Installing rain water gutters on roofs.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using organic manure to conserve soil moisture.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Creating underground reservoirs.",
+      "explanation": "The correct answer is **Creating underground reservoirs.**\n\n**Analysis of the Correct Answer:**\nIn dry areas, the rate of evaporation is extremely high. Creating underground reservoirs (like tanks or cisterns) prevents the harvested water from evaporating in the intense sun.\n\n**Why Other Options Are Incorrect:**\n* **Constructing shallow water pans:** Shallow pans lose water very quickly to evaporation.\n* **Installing rain water gutters on roofs:** While necessary for collection, gutters themselves don't store water.\n* **Using organic manure to conserve soil moisture:** This is a moisture conservation method, not a water *harvesting* method.\n\n📌 **Key Learning Note:**\nTo maximize water availability in arid regions, storage facilities must minimize surface area exposure to the sun to reduce evaporation losses.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q18",
+      "questionNumber": 18,
+      "questionText": "A learner wants to start a backyard garden to grow vegetables for their family. They have limited space but want to maximise their yield. Which of the following practices should they carry out?",
+      "options": [
+        {
+          "text": "Planting vegetables in rows with equal spacing.",
+          "isCorrect": false
+        },
+        {
+          "text": "Using vertical gardening techniques.",
+          "isCorrect": true
+        },
+        {
+          "text": "Growing one type of vegetables at a time.",
+          "isCorrect": false
+        },
+        {
+          "text": "Watering vegetables regularly.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Using vertical gardening techniques.",
+      "explanation": "The correct answer is **Using vertical gardening techniques.**\n\n**Analysis of the Correct Answer:**\nVertical gardening (like growing crops on trellises, hanging baskets, or stacked containers) utilizes vertical space, allowing the farmer to maximize yield per square meter when land space is limited.\n\n**Why Other Options Are Incorrect:**\n* **Planting vegetables in rows with equal spacing:** A standard practice that doesn't inherently maximize limited space.\n* **Growing one type of vegetables at a time:** Reduces diversity and doesn't maximize total spatial yield.\n* **Watering vegetables regularly:** Essential for growth, but not a space-saving technique.\n\n📌 **Key Learning Note:**\nVertical gardening is an innovative urban farming technique designed specifically to overcome land shortages.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q19",
+      "questionNumber": 19,
+      "questionText": "Amina preserved food that remained after supper for later use. Which of the following practices should she avoid when re-using the leftover food?",
+      "options": [
+        {
+          "text": "Reheating the food many times.",
+          "isCorrect": true
+        },
+        {
+          "text": "Adding spices to enhance flavour.",
+          "isCorrect": false
+        },
+        {
+          "text": "Making new dishes.",
+          "isCorrect": false
+        },
+        {
+          "text": "Adding liquids.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Reheating the food many times.",
+      "explanation": "The correct answer is **Reheating the food many times.**\n\n**Analysis of the Correct Answer:**\nReheating leftover food multiple times destroys its nutritional value (especially vitamins) and increases the risk of food poisoning as bacteria can multiply during the cooling and warming phases.\n\n**Why Other Options Are Incorrect:**\n* **Adding spices to enhance flavour:** A perfectly safe and common practice when reusing leftovers.\n* **Making new dishes:** A great way to prevent food wastage (e.g., turning leftover rice into fried rice).\n* **Adding liquids:** Normal practice when reheating food that has dried out in the fridge.\n\n📌 **Key Learning Note:**\nLeftovers should only be reheated once. Portion out what you need to eat, rather than reheating the entire pot repeatedly.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q20",
+      "questionNumber": 20,
+      "questionText": "A Grade 8 learner has come to seek advice from you on how to cook spinach. Which of the following is one of the practices you would tell the learner to observe?",
+      "options": [
+        {
+          "text": "Soak the spinach to remove dirt.",
+          "isCorrect": false
+        },
+        {
+          "text": "Wash the spinach after cutting.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cook immediately after cutting.",
+          "isCorrect": true
+        },
+        {
+          "text": "Cut the spinach into very small pieces.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Cook immediately after cutting.",
+      "explanation": "The correct answer is **Cook immediately after cutting.**\n\n**Analysis of the Correct Answer:**\nVegetables like spinach contain water-soluble vitamins (like Vitamin C). Cooking them immediately after cutting prevents these volatile vitamins from being lost through oxidation when exposed to the air.\n\n**Why Other Options Are Incorrect:**\n* **Soak the spinach to remove dirt:** Soaking cut vegetables leaches out water-soluble vitamins.\n* **Wash the spinach after cutting:** This is a poor practice because washing *after* cutting washes away the vitamins.\n* **Cut the spinach into very small pieces:** This exposes a larger surface area to air and water, leading to greater nutrient loss.\n\n📌 **Key Learning Note:**\nAlways wash vegetables *before* cutting, and cut them just before cooking to maximize nutrient retention.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q20_21"
+    },
+    {
+      "id": "q21",
+      "questionNumber": 21,
+      "questionText": "You would advise the learner to steam the spinach because steaming",
+      "options": [
+        {
+          "text": "is an easy method",
+          "isCorrect": false
+        },
+        {
+          "text": "retains nutrients",
+          "isCorrect": true
+        },
+        {
+          "text": "enhances colour",
+          "isCorrect": false
+        },
+        {
+          "text": "is a quick method.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "retains nutrients",
+      "explanation": "The correct answer is **retains nutrients**.\n\n**Analysis of the Correct Answer:**\nSteaming is one of the healthiest cooking methods because the food does not come into direct contact with boiling water. This prevents water-soluble nutrients from leaching out, thereby retaining maximum nutritional value.\n\n**Why Other Options Are Incorrect:**\n* **is an easy method:** While relatively easy, ease is not the primary nutritional reason an Agriculture/Home Science teacher would advise it.\n* **enhances colour:** Steaming does keep vegetables bright, but nutrient retention is the most critical factor.\n* **is a quick method:** Stir-frying might be quicker, but steaming is specifically chosen for health benefits.\n\n📌 **Key Learning Note:**\nSteaming preserves water-soluble vitamins (like Vitamin C and B-complex) much better than boiling.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q20_21"
+    },
+    {
+      "id": "q22",
+      "questionNumber": 22,
+      "questionText": "Amina roasted beef for lunch. She noticed that the beef was undercooked in the inside. Which of the following best describes the meaning of roasting food? Cooking food",
+      "options": [
+        {
+          "text": "in hot air",
+          "isCorrect": true
+        },
+        {
+          "text": "in hot oil",
+          "isCorrect": false
+        },
+        {
+          "text": "in boiling liquid",
+          "isCorrect": false
+        },
+        {
+          "text": "using steam.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "in hot air",
+      "explanation": "The correct answer is **in hot air**.\n\n**Analysis of the Correct Answer:**\nRoasting is a dry-heat cooking method where food is cooked by exposing it to hot, dry air, typically inside an oven or over an open flame.\n\n**Why Other Options Are Incorrect:**\n* **in hot oil:** This describes frying (deep frying or shallow frying).\n* **in boiling liquid:** This describes boiling or stewing.\n* **using steam:** This describes steaming.\n\n📌 **Key Learning Note:**\nDry-heat cooking methods (like roasting and baking) rely on hot air circulation, whereas moist-heat methods rely on water or steam.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q22_23"
+    },
+    {
+      "id": "q23",
+      "questionNumber": 23,
+      "questionText": "Which of the following is a reason that may have caused the beef to be undercooked in the inside?",
+      "options": [
+        {
+          "text": "Applying oil on the beef.",
+          "isCorrect": false
+        },
+        {
+          "text": "Too low cooking temperatures.",
+          "isCorrect": false
+        },
+        {
+          "text": "Cooking thin pieces of meat.",
+          "isCorrect": false
+        },
+        {
+          "text": "Too high cooking temperatures.",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswer": "Too high cooking temperatures.",
+      "explanation": "The correct answer is **Too high cooking temperatures.**\n\n**Analysis of the Correct Answer:**\nIf the cooking temperature is too high, the outside of the meat will cook (and even burn) very quickly, forming a crust before the heat has enough time to penetrate and cook the inside.\n\n**Why Other Options Are Incorrect:**\n* **Applying oil on the beef:** Basting with oil actually helps in even browning and prevents drying, it doesn't cause undercooking.\n* **Too low cooking temperatures:** This would result in slow cooking, but it would cook evenly eventually without the extreme difference between the outside and inside.\n* **Cooking thin pieces of meat:** Thin pieces cook through very quickly, they wouldn't be undercooked inside.\n\n📌 **Key Learning Note:**\nThick cuts of meat should be roasted at moderate temperatures to ensure the heat reaches the center before the exterior burns.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q22_23"
+    },
+    {
+      "id": "q24",
+      "questionNumber": 24,
+      "questionText": "Grade 8 learners were discussing preservation of food. Which of the following methods they discussed can be used to preserve both milk and meat?",
+      "options": [
+        {
+          "text": "Boiling",
+          "isCorrect": false
+        },
+        {
+          "text": "Salting",
+          "isCorrect": false
+        },
+        {
+          "text": "Smoking",
+          "isCorrect": false
+        },
+        {
+          "text": "Fermenting",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswer": "Fermenting",
+      "explanation": "The correct answer is **Fermenting**.\n\n**Analysis of the Correct Answer:**\nFermentation is a preservation method that relies on beneficial microorganisms to produce acid (like lactic acid), which preserves the food. It is commonly used for milk (mala/yoghurt) and meat (salami/sausages).\n\n**Why Other Options Are Incorrect:**\n* **Boiling:** Milk is boiled to preserve it temporarily, but meat is not \"preserved\" by boiling for long-term storage.\n* **Salting:** Commonly used for meat, but not for liquid milk.\n* **Smoking:** Commonly used for meat, but completely unsuitable for milk.\n\n📌 **Key Learning Note:**\nFermentation preserves food by lowering its pH, creating an acidic environment where harmful spoilage bacteria cannot survive.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q25",
+      "questionNumber": 25,
+      "questionText": "Sarah wants to disinfect the kitchen towels she is washing. The main reason she wants to disinfect the towels is to",
+      "options": [
+        {
+          "text": "improve their colour",
+          "isCorrect": false
+        },
+        {
+          "text": "make them shine",
+          "isCorrect": false
+        },
+        {
+          "text": "remove germs",
+          "isCorrect": true
+        },
+        {
+          "text": "make them soft.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "remove germs",
+      "explanation": "The correct answer is **remove germs**.\n\n**Analysis of the Correct Answer:**\nThe primary definition of disinfection is the destruction of harmful microorganisms (germs, bacteria, viruses) to prevent the spread of diseases and infections.\n\n**Why Other Options Are Incorrect:**\n* **improve their colour:** This is done by bleaching, not disinfecting (though some bleaches are also disinfectants).\n* **make them shine:** Kitchen towels don't \"shine\"; cleaning agents might brighten them, but not disinfectants.\n* **make them soft:** Fabric softeners are used for this purpose, not disinfectants.\n\n📌 **Key Learning Note:**\nKitchen towels frequently come into contact with food surfaces; disinfecting them is a crucial hygiene practice to prevent cross-contamination.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q25_26"
+    },
+    {
+      "id": "q26",
+      "questionNumber": 26,
+      "questionText": "Why would you discourage her from using chemicals to disinfect the towels? They",
+      "options": [
+        {
+          "text": "are very expensive",
+          "isCorrect": false
+        },
+        {
+          "text": "contain harmful substances",
+          "isCorrect": true
+        },
+        {
+          "text": "are difficult to rinse out",
+          "isCorrect": false
+        },
+        {
+          "text": "soften the towels.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "contain harmful substances",
+      "explanation": "The correct answer is **contain harmful substances**.\n\n**Analysis of the Correct Answer:**\nChemical disinfectants can contain strong, toxic substances that are harmful if they come into contact with food or if their fumes are inhaled. Kitchen towels wipe food surfaces, so chemical residues are dangerous.\n\n**Why Other Options Are Incorrect:**\n* **are very expensive:** While they cost money, the primary reason to avoid them in food areas is safety, not cost.\n* **are difficult to rinse out:** While some are, the real danger is the toxicity of whatever remains.\n* **soften the towels:** Chemicals might actually degrade or weaken the towel fabric, not just soften it.\n\n📌 **Key Learning Note:**\nIn kitchens, natural or food-safe disinfection methods (like boiling the towels in water) are preferred over harsh chemicals.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q25_26"
+    },
+    {
+      "id": "q27",
+      "questionNumber": 27,
+      "questionText": "Aisha is searching for information on activities carried out during special cleaning of a kitchen. Which of the following is an activity he may have found?",
+      "options": [
+        {
+          "text": "Cleaning utensils.",
+          "isCorrect": false
+        },
+        {
+          "text": "Sweeping the floor.",
+          "isCorrect": false
+        },
+        {
+          "text": "Emptying the dust bin.",
+          "isCorrect": false
+        },
+        {
+          "text": "Removing cobwebs.",
+          "isCorrect": true
+        }
+      ],
+      "correctAnswer": "Removing cobwebs.",
+      "explanation": "The correct answer is **Removing cobwebs.**\n\n**Analysis of the Correct Answer:**\nSpecial cleaning (or deep cleaning) involves tasks that are not done daily but rather weekly or monthly. Removing cobwebs from high corners and ceilings falls into this category.\n\n**Why Other Options Are Incorrect:**\n* **Cleaning utensils:** This is a daily, routine cleaning task.\n* **Sweeping the floor:** This is a daily, routine cleaning task.\n* **Emptying the dust bin:** This is a daily, routine cleaning task.\n\n📌 **Key Learning Note:**\nCleaning schedules are divided into daily (routine), weekly, and special (deep) cleaning based on how quickly dirt accumulates.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q28",
+      "questionNumber": 28,
+      "questionText": "Animal fat is one of the ingredients used in the process of making soap. It is normally added to",
+      "options": [
+        {
+          "text": "improve the colour",
+          "isCorrect": false
+        },
+        {
+          "text": "harden the soap",
+          "isCorrect": true
+        },
+        {
+          "text": "improve the smell",
+          "isCorrect": false
+        },
+        {
+          "text": "soften the soap.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "harden the soap",
+      "explanation": "The correct answer is **harden the soap**.\n\n**Analysis of the Correct Answer:**\nIn soap making (saponification), animal fats (like tallow) are known to produce very hard, long-lasting bars of soap with a rich lather.\n\n**Why Other Options Are Incorrect:**\n* **improve the colour:** Animal fats usually make the soap plain white or cream, they don't \"improve\" colour like dyes do.\n* **improve the smell:** Animal fats can sometimes smell unpleasant before processing; essential oils are added to improve smell.\n* **soften the soap:** Liquid oils (like olive or sunflower oil) are used to make softer soaps, not animal fats.\n\n📌 **Key Learning Note:**\nThe choice of fats and oils in saponification directly determines the hardness, lather, and cleansing properties of the final soap.",
+      "questionType": "multiple-choice"
+    },
+    {
+      "id": "q29",
+      "questionNumber": 29,
+      "questionText": "Identify the stitch.",
+      "options": [
+        {
+          "text": "Rib stitch",
+          "isCorrect": true
+        },
+        {
+          "text": "Back stitch",
+          "isCorrect": false
+        },
+        {
+          "text": "Knit stitch",
+          "isCorrect": false
+        },
+        {
+          "text": "Purl stitch",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Rib stitch",
+      "explanation": "The correct answer is **Rib stitch**.\n\n**Analysis of the Correct Answer:**\nThe image (from the context) shows a knitted fabric with prominent vertical columns (wales) that look like a series of \"V\"s alternating with recessed columns. This structure is characteristic of a rib stitch.\n\n**Why Other Options Are Incorrect:**\n* **Back stitch:** This is a sewing stitch, not a knitting stitch.\n* **Knit stitch:** A plain knit stitch (stockinette) has \"V\"s on one side and bumps on the other, but ribbing combines both to create elasticity.\n* **Purl stitch:** A purl stitch looks like a series of horizontal bumps.\n\n📌 **Key Learning Note:**\nThe rib stitch is highly elastic and is commonly used for cuffs, collars, and waistbands in knitted garments.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q29_30"
+    },
+    {
+      "id": "q30",
+      "questionNumber": 30,
+      "questionText": "Which of the following is a characteristic considered when making the stitch shown in the diagram?",
+      "options": [
+        {
+          "text": "Horizontal wavy lines.",
+          "isCorrect": false
+        },
+        {
+          "text": "Intertwined yarns forming loops.",
+          "isCorrect": true
+        },
+        {
+          "text": "Spaced stitches that are easy to cut.",
+          "isCorrect": false
+        },
+        {
+          "text": "Tiny stitches picking up a thread of fabric.",
+          "isCorrect": false
+        }
+      ],
+      "correctAnswer": "Intertwined yarns forming loops.",
+      "explanation": "The correct answer is **Intertwined yarns forming loops.**\n\n**Analysis of the Correct Answer:**\nThe diagram illustrates knitting. Knitting is defined as the process of creating fabric by intertwining yarns or threads into a series of connected loops.\n\n**Why Other Options Are Incorrect:**\n* **Horizontal wavy lines:** This describes a pattern, not the structural characteristic of the stitch.\n* **Spaced stitches that are easy to cut:** Knitted loops are not spaced out to be cut; cutting them causes the fabric to unravel (ladder).\n* **Tiny stitches picking up a thread of fabric:** This describes hemming or blind stitching in sewing, not knitting.\n\n📌 **Key Learning Note:**\nWoven fabrics are made by interlacing threads at right angles, while knitted fabrics are made by interlocking loops of a single continuous yarn.",
+      "questionType": "multiple-choice",
+      "contextRef": "kjsea_agric_2025_q29_30"
+    }
+  ],
+  "sectionB": [
+    {
+      "id": "q31",
+      "questionNumber": 31,
+      "questionText": "Learners in Junior School carried out activities to conserve the environment. They wrote the following message and posted it near their school to create awareness on soil pollution control:",
+      "maxScore": 5,
+      "subQuestions": [
+        {
+          "id": "q31a",
+          "subNumber": "(a)",
+          "questionText": "Apart from dumping plastic waste, give one other farming practice that can cause soil pollution.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable farming practices that cause soil pollution:\n\n1. **Excessive or Improper Use of Agrochemicals:** Over-application of chemical fertilizers, synthetic pesticides, herbicides, and fungicides which introduce toxic chemicals into the soil.\n2. **Poor Disposal of Empty Agrochemical Containers:** Throwing away used pesticide bottles or fertilizer bags directly on the farm without proper disposal.\n3. **Over-application of Raw Manure:** Dumping excessive amounts of untreated animal waste, which can introduce heavy metals or pathogens into the soil.\n4. **Irrigation with Polluted Water:** Using contaminated river water or industrial effluent to irrigate crops, introducing toxins into the soil.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct farming practice stated (Max 1 mark).\n* **Flexibility:** Accept any valid practice that introduces pollutants to the soil.",
+          "questionType": "structured"
+        },
+        {
+          "id": "q31b",
+          "subNumber": "(b)",
+          "questionText": "Give one organic gardening practice the learners can use to prevent soil pollution.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable organic gardening practices to prevent soil pollution:\n\n1. **Using Organic Manures:** Applying compost manure, farmyard manure, or green manure instead of synthetic chemical fertilizers.\n2. **Practicing Crop Rotation:** Alternating different types of crops on the same piece of land to naturally break pest and disease cycles, reducing the need for chemical pesticides.\n3. **Biological Pest Control:** Using natural predators (like ladybirds) or organic plant extracts (like neem or pyrethrum) to control pests instead of chemical sprays.\n4. **Mulching:** Covering the soil surface with dry grass or plant residues to conserve moisture and naturally suppress weeds, reducing the need for chemical herbicides.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct organic gardening practice given (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q31ci",
+          "subNumber": "(c) (i)",
+          "questionText": "Name one water retention structure that learners can construct in the school to harvest surface water runoffs.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable water retention structures for harvesting surface runoff:\n\n1. **Water Retention Ditches:** Trenches dug along the contour to trap and hold runoff water.\n2. **Shallow Water Pans:** Small excavated depressions in the ground designed to collect and store surface runoff.\n3. **Earth Dams:** A barrier constructed across a natural drainage path using compacted soil to hold back runoff.\n4. **Zai Pits / Micro-catchments:** Small planting pits that capture and retain localized surface runoff around crops.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct water retention structure named (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q31cii",
+          "subNumber": "(c) (ii)",
+          "questionText": "Describe how the learners can construct the water retention structure named in (c)(i).",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive description of how to construct a water retention ditch:\n\n1. **Site Selection and Marking:** Identify the slope and clearly mark out the contour lines where the ditch will be dug.\n2. **Digging the Trench:** Excavate a trench along the marked contour, ensuring it is wide and deep enough to capture the expected volume of runoff.\n3. **Forming the Embankment:** Throw the excavated topsoil to the lower side of the trench to form a raised ridge or embankment (bund).\n4. **Compacting and Planting:** Firmly compact the embankment and optionally plant cover crops or grass on it to stabilize the soil and prevent it from being washed back into the ditch.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a clear, logical step-by-step description of the construction process (1 mark for digging/excavating, 1 mark for throwing soil to the lower side to form an embankment) (Max 2 marks).",
+          "questionType": "structured"
+        }
+      ],
+      "imagePath": "/assets/kjsea_agric_2025_q31.svg",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q32",
+      "questionNumber": 32,
+      "questionText": "Learners constructed the structures shown in the following picture for establishing tree seedlings.",
+      "maxScore": 6,
+      "subQuestions": [
+        {
+          "id": "q32a",
+          "subNumber": "(a)",
+          "questionText": "What is the appropriate soil tilth for planting the tree seeds?",
+          "maxScore": 1,
+          "modelAnswer": "**Fine Tilth:** The soil should be broken down into very small, fine particles without large clods.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating 'Fine tilth' or describing soil with very fine particles (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q32b",
+          "subNumber": "(b)",
+          "questionText": "What should the learners consider when deciding on the correct soil tilth?",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of factors learners should consider when deciding on soil tilth:\n\n1. **The Size of the Seeds:** Small seeds (like most tree seeds or vegetables) require a fine tilth to ensure good seed-to-soil contact, while larger seeds can establish in a medium or coarse tilth.\n2. **The Type of Crop/Plant:** Different crops have different root systems and germination requirements.\n3. **The Moisture Content of the Soil:** Dry soils may pulverize too much, while wet soils may form hard clods.\n4. **The Implement Used:** The type of tool or machinery available determines how fine the soil can be worked.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct factor considered, mainly focusing on 'size of the seeds' (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q32c",
+          "subNumber": "(c)",
+          "questionText": "Explain one way in which trees conserve soil.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable explanations on how trees conserve soil:\n\n1. **Roots Binding Soil Particles:** The extensive root systems of trees firmly hold soil particles together, preventing them from being easily washed away by running water or blown by wind.\n2. **Canopy Intercepting Raindrops:** The leaves and branches of the tree canopy break the force of falling raindrops, reducing their impact on the ground and preventing splash erosion.\n3. **Leaf Fall Providing Mulch:** Shed leaves cover the ground surface, reducing the speed of surface runoff and preventing soil erosion.\n4. **Windbreak Effect:** Rows of trees act as windbreaks, significantly reducing the speed and erosive power of strong winds on the soil surface.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any clearly explained way trees conserve soil (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q32d",
+          "subNumber": "(d)",
+          "questionText": "A teacher used the following picture to illustrate grafting of fruit tree seedling.\n\n(i) Identify the part labelled A.\n(ii) Explain how the part labelled B is handled during grafting to ensure successful union.",
+          "maxScore": 3,
+          "modelAnswer": "**(i) Identification of Part A:**\n* **Scion:** The selected shoot/twig with buds from a desired tree variety that will form the upper foliage and bear fruit.\n\n**(ii) Handling of Part B (The Graft Union / Grafting Tape):**\nPart B is the graft union where the scion is joined onto the rootstock. To ensure a successful union, it is handled in the following ways:\n\n1. **Tight and Firm Wrapping/Binding:**\n   * The grafting tape (or polythene strip) must be wrapped **tightly and firmly** around the graft union.\n   * This holds the scion and rootstock securely together to ensure intimate contact and alignment of their **vascular tissues (cambium layers)** so they can grow, fuse, and unite.\n\n2. **Sealing and Moisture/Infection Protection:**\n   * The union is sealed tightly with grafting tape or covered with **grafting wax** (or a suitable sealant).\n   * This prevents moisture loss and drying out, keeping the cut surfaces hydrated until tissues fuse.\n   * It also creates a protective barrier that excludes rain, air, and disease-causing organisms/fungi that could cause the union to rot or fail.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:**\n  * **(i)** Award 1 mark for correctly identifying Part A as the **Scion** (1 mark).\n  * **(ii)** Award 2 marks for a well-explained procedure on handling Part B (Max 2 marks):\n    * **1 mark** for stating it is wrapped/bound tightly and firmly with grafting tape/polythene to hold parts securely and align cambium/vascular tissues.\n    * **1 mark** for explaining the protective sealing: applying grafting wax, preventing drying out/moisture loss, or excluding water, air, and rot-causing pathogens.\n* **Total Max Score:** 3 marks.",
+          "questionType": "structured",
+          "imagePath": "/assets/kjsea_agric_2025_q32d.png",
+          "cssFilter": "none"
+        }
+      ],
+      "imagePath": "/assets/kjsea_agric_2025_q32.png",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q33",
+      "questionNumber": 33,
+      "questionText": "Grade 7 learners were provided with planting materials shown in the following picture (maize seeds).\n\n(a) Give two caring practices carried out on the crop established from the planting materials.\n(b) Give two advantages of using a homemade sun drier to dry vegetables.",
+      "maxScore": 4,
+      "subQuestions": [
+        {
+          "id": "q33a",
+          "subNumber": "(a)",
+          "questionText": "Give two caring practices carried out on the crop established from the planting materials.",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable caring practices for an established maize crop:\n\n1. **Weeding:** Regularly removing unwanted plants that compete with the maize for nutrients, light, and water.\n2. **Top-dressing:** Applying nitrogen-rich chemical fertilizers (like CAN) during the growing stage to boost vegetative growth.\n3. **Pest Control:** Applying pesticides or using natural methods to manage pests like the maize stalk borer or fall armyworm.\n4. **Disease Control:** Spraying fungicides or uprooting infected plants to prevent the spread of crop diseases.\n5. **Thinning:** Removing excess seedlings to maintain the recommended plant population and spacing.\n6. **Gapping:** Replanting seeds in spaces where the initial seeds failed to germinate.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid caring practice given (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q33b",
+          "subNumber": "(b)",
+          "questionText": "Give two advantages of using a homemade sun drier to dry vegetables.",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable advantages of using a homemade sun drier to dry vegetables:\n\n1. **Cheap and Affordable:** It can be constructed using locally available, low-cost, or recycled materials (like timber, polythene sheets, and mesh).\n2. **Uses Free Renewable Energy:** It relies completely on free solar energy from the sun, requiring no electricity or fuel.\n3. **Improves Hygiene and Cleanliness:** It protects the drying vegetables from dust, insects, and animal contamination compared to open sun drying.\n4. **Faster Drying Rate:** It concentrates heat and improves air circulation, leading to a faster drying process than direct open drying.\n5. **Preserves Nutritional Value:** It provides controlled indirect heating, which helps retain the color and vitamins in the vegetables.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage given (Max 2 marks).",
+          "questionType": "structured"
+        }
+      ],
+      "imagePath": "/assets/kjsea_agric_2025_q33.png",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q34",
+      "questionNumber": 34,
+      "questionText": "Learners were given a task to discuss and write value addition techniques of various crop produce.",
+      "maxScore": 3,
+      "subQuestions": [
+        {
+          "id": "q34a",
+          "subNumber": "(a)",
+          "questionText": "What did the learners write for simsim crop produce?",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable value addition techniques for simsim:\n\n1. **Roasting:** Heating the seeds to enhance their flavor and aroma before consumption.\n2. **Oil Extraction:** Pressing the simsim seeds to extract highly nutritious cooking and cosmetic oil.\n3. **Grinding / Milling:** Crushing the seeds into a fine paste (such as tahini) used in various culinary dishes.\n4. **Packaging and Branding:** Cleaning, sorting, and packing the seeds in attractive, labeled containers for better marketability.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct value addition technique for simsim stated (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q34b",
+          "subNumber": "(b)",
+          "questionText": "Name one caring practice carried out on potatoes but not common in coriander (dhania).",
+          "maxScore": 1,
+          "modelAnswer": "**Earthing Up:** The process of heaping soil around the base of the plant.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly naming 'Earthing up' (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q34c",
+          "subNumber": "(c)",
+          "questionText": "Give a reason why the caring practice described in (b) is important.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable reasons why earthing up is important for potatoes:\n\n1. **Promotes Tuber Expansion:** It provides loose, aerated soil which gives the developing potato tubers more room to grow and expand.\n2. **Prevents Greening of Tubers:** It covers the growing tubers with soil, preventing direct exposure to sunlight which causes them to turn green and produce toxic solanine.\n3. **Improves Drainage:** It creates ridges that prevent waterlogging around the root zone, which could cause the tubers to rot.\n4. **Provides Support:** It anchors the plant firmly in the ground, preventing the potato stems from falling over (lodging).",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining the importance of earthing up (Max 1 mark).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "q35",
+      "questionNumber": 35,
+      "questionText": "Learners conserved forage in their school as shown in the following picture (a hay bale).",
+      "maxScore": 3,
+      "subQuestions": [
+        {
+          "id": "q35a",
+          "subNumber": "(a)",
+          "questionText": "Identify the method of forage conservation.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable identifications for the forage conservation method:\n\n1. **Hay Making / Baled Forage / Hay Baling:** Dehydrating and compressing cured forage grass or legumes into compact rectangular or round bales for dry livestock feed storage.\n2. **Baled Hay:** Preserving forage by sun-curing to a safe moisture level (below 15–20%) and compressing it into bales.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly stating 'Hay making', 'Hay', or 'Baled forage' (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q35b",
+          "subNumber": "(b)",
+          "questionText": "What is the best stage of harvesting the forage?",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable descriptions for the best harvesting stage of forage:\n\n1. **Early Blooming Stage / Heading Stage (50% flowering):** When forage grasses or legumes begin to flower, balancing maximum nutrient content (high crude protein) with optimal dry matter yield and low crude fiber.\n2. **Just Before Full Flowering / Bloom:** When the forage is highly digestible, palatable, and tender before lignification (hardening of stems) occurs.\n3. **Vegetative / Boot Stage (Pre-flowering):** When leaf-to-stem ratio and vitamin/protein concentrations are at their peak.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning 'Early blooming stage', 'Just before flowering', 'Heading stage', or '50% bloom' (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q35c",
+          "subNumber": "(c)",
+          "questionText": "During a field day, an agricultural extension officer advised farmers to practise integrated farming. Give a reason for the advice.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable reasons for practicing integrated farming:\n\n1. **Nutrient Cycling and Resource Optimization:** Waste products from one enterprise serve as valuable inputs for another (e.g., livestock manure enriches crop soil, while crop residues and fodder feed the farm animals).\n2. **Diversification of Income Streams:** Providing multiple sources of revenue throughout the year, reducing financial vulnerability if one enterprise experiences market price drops or disease outbreaks.\n3. **Reduction of Production Costs:** Minimizing expenditure on commercial synthetic fertilizers and commercial animal feeds by recycling on-farm by-products.\n4. **Maximizing Land Productivity:** Ensuring intensive and complementary use of limited land area through synergistic crop, livestock, and agroforestry enterprises.\n5. **Environmental Sustainability and Soil Health:** Promoting natural soil fertility renewal, organic matter buildup, and biological pest balance, reducing environmental degradation.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining resource recycling, risk reduction, cost efficiency, or sustainable land productivity (Max 1 mark).",
+          "questionType": "structured"
+        }
+      ],
+      "imagePath": "/assets/kjsea_agric_2025_q35.png",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q36",
+      "questionNumber": 36,
+      "questionText": "The following picture shows a storage structure for maize produce (a granary).",
+      "maxScore": 3,
+      "subQuestions": [
+        {
+          "id": "q36a",
+          "subNumber": "(a)",
+          "questionText": "Give one way of preparing the structure before storing new maize produce.",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive list of acceptable ways to prepare the granary/store before storing new produce:\n\n1. **Thorough Cleaning and Sweeping:** Sweeping out all remnants of old grains, cob debris, dust, and spiderwebs to eliminate hidden insect pests and molds.\n2. **Repairing Structural Defects:** Mending broken timber slats, thatch/iron roofing, wire mesh, or wall cracks to prevent rainwater leakage and pest entry.\n3. **Dusting or Spraying with Approved Pesticides:** Applying recommended grain storage insecticide dusts or ashes to eliminate residual weevils and grain borers.\n4. **Sun Drying and Aerating the Store:** Opening the structure to allow fresh air and sunlight to dry out any dampness before loading fresh crop harvest.\n5. **Clearing Vegetation Around the Granary:** Trimming tall grass and bushes within a 3-meter perimeter to deny climbing paths to rodents and crawling insects.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid preparation practice (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q36b",
+          "subNumber": "(b)",
+          "questionText": "What is the function of the part labelled F (rat guards on stilts)?",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive explanation of the function of rat guards (Part F):\n\n1. **Preventing Rodent Entry:** Creating a physical barrier/deflector (metal cone or collar) that stops rats, mice, and other climbing vermin from climbing up the wooden stilts/posts into the store.\n2. **Protecting Stored Grains from Damage and Contamination:** Preventing rodents from feeding on stored maize and contaminating grains with droppings, urine, and pathogens.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating preventing rats/rodents from climbing into the store (Max 1 mark).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q36c",
+          "subNumber": "(c)",
+          "questionText": "Why is the part labelled E made of wire mesh?",
+          "maxScore": 1,
+          "modelAnswer": "Here is an exhaustive explanation for using wire mesh (Part E):\n\n1. **Promoting Free Air Circulation (Ventilation):** Allowing continuous airflow through the stored cobs/grains to lower moisture content and prevent mold, rotting, and overheating.\n2. **Preventing Pest and Bird Access:** Keeping out birds, bats, and larger pests while maintaining optimal ventilation.\n3. **Allowing Light Penetration:** Discouraging light-sensitive insects and providing natural visibility inside the structure.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning ventilation/air circulation or preventing pests while allowing air flow (Max 1 mark).",
+          "questionType": "structured"
+        }
+      ],
+      "imagePath": "/assets/kjsea_agric_2025_q36.png",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q37",
+      "questionNumber": 37,
+      "questionText": "Asiko has been left to take care of the family over the weekend.",
+      "maxScore": 12,
+      "subQuestions": [
+        {
+          "id": "q37a",
+          "subNumber": "(a)",
+          "questionText": "Explain two factors he should consider when preparing lunch for the family.",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable factors to consider when preparing lunch for the family:\n\n1. **Nutritional Requirements and Balanced Diet:** Ensuring the meal contains all essential food nutrients (carbohydrates, proteins, vitamins, minerals, water, and dietary fiber) in the right proportions for healthy growth.\n2. **Family Size and Portion Quantities:** Estimating the exact number of family members to cook adequate quantities, preventing food shortages or unnecessary food wastage.\n3. **Special Dietary Needs / Health Conditions:** Accounting for individual family members who may have allergies, diabetes, hypertension, intolerances (e.g., lactose or gluten), or illnesses.\n4. **Age and Physical Activity Levels:** Providing energy-dense meals for active growing children and teenagers while offering easily digestible, nutrient-rich meals for elderly members or toddlers.\n5. **Availability of Ingredients and Seasonality:** Selecting fresh food items that are readily available in the pantry, garden, or local market to save costs and ensure freshness.\n6. **Available Cooking Equipment, Fuel, and Time:** Choosing cooking methods that align with the type of fuel (gas, charcoal, firewood), utensils, and preparation time available.\n7. **Family Preferences and Cultural/Religious Rules:** Respecting dietary taboos, religious eating guidelines (e.g., halal, vegetarian), and personal taste preferences.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained factor (1 mark for identifying the factor + 1 mark for clear explanation of why it is considered) (Max 4 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q37b",
+          "subNumber": "(b)",
+          "questionText": "Outline two reasons why he should sieve the flour for making pancakes for breakfast.",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable reasons for sieving flour when making pancakes:\n\n1. **Aerating the Flour (Incorporating Air):** Introducing air into the flour particles to make the pancake batter light, fluffy, and soft after cooking.\n2. **Removing Foreign Particles and Impurities:** Trapping weevils, husks, dirt, or packaging lint in the sieve mesh, ensuring hygienic food preparation.\n3. **Breaking Up Lumps:** Dispersing compact clumps of flour so the dry ingredients blend smoothly and evenly with wet ingredients without forming batter lumps.\n4. **Ensuring Even Mixing:** Facilitating uniform distribution of baking powder, spices, salt, or sugar throughout the flour mixture.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid reason outlined (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q37c",
+          "subNumber": "(c)",
+          "questionText": "State two points Asiko should bear in mind when storing food that remains after lunch.",
+          "maxScore": 2,
+          "modelAnswer": "Here is an exhaustive list of acceptable guidelines for storing leftover lunch food:\n\n1. **Cooling Before Refrigeration:** Allowing hot food to cool down to room temperature before placing it in the refrigerator to avoid raising the fridge temperature and causing condensation.\n2. **Using Clean, Covered / Airtight Containers:** Storing food in clean plastic, glass, or stainless steel containers with tight lids to prevent microbial contamination, insect access, and flavor absorption.\n3. **Refrigerating / Storing in a Cool, Dry, Well-Ventilated Place:** Keeping perishable leftovers below 4°C in a refrigerator or in a clean, ventilated food cupboard/larder to retard bacterial growth.\n4. **Labeling and Dating:** Marking storage containers with the date to ensure older food is consumed first within safe time limits (First-In, First-Out).\n5. **Separating Raw and Cooked Foods:** Storing cooked leftovers away from raw meats to prevent cross-contamination.\n6. **Portioning for Safe Reheating:** Storing food in manageable portions so that it is reheated thoroughly only once before consumption.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid point stated (Max 2 marks).",
+          "questionType": "structured"
+        },
+        {
+          "id": "q37d",
+          "subNumber": "(d)",
+          "questionText": "Explain two reasons why it is important for him to empty the kitchen dustbin when cleaning the kitchen.",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable reasons for emptying the kitchen dustbin:\n\n1. **Preventing Foul Odours and Maintaining Freshness:** Decaying organic food scraps decompose rapidly at room temperature, releasing unpleasant smells that make the kitchen uncomfortable and unhygienic.\n2. **Deterring Pests and Disease Vectors:** Unemptied garbage attracts houseflies, cockroaches, ants, and rodents, which breed rapidly and contaminate food surfaces with pathogens.\n3. **Preventing Bacterial Proliferation and Cross-Contamination:** Stagnant moist waste becomes a breeding ground for harmful bacteria (such as Salmonella and E. coli), increasing the risk of foodborne illnesses.\n4. **Maintaining Cleanliness and Kitchen Aesthetics:** An overflowing bin spills trash onto the floor, making kitchen sanitation difficult and creating an unappealing, hazardous cooking environment.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained reason (1 mark for identifying the issue + 1 mark for explaining the sanitary/health consequence) (Max 4 marks).",
+          "questionType": "structured"
+        }
+      ]
+    },
+    {
+      "id": "q38",
+      "questionNumber": 38,
+      "questionText": "Grade 9 learners made presentations on the advantages of using knitted articles for babies' clothes. Outline four points they could have included in the presentation.",
+      "maxScore": 4,
+      "subQuestions": [
+        {
+          "id": "q38_main",
+          "subNumber": "",
+          "questionText": "Outline four points they could have included in the presentation.",
+          "maxScore": 4,
+          "modelAnswer": "Here is an exhaustive list of acceptable advantages of knitted articles for babies' clothes:\n\n1. **Excellent Elasticity and Stretchability:** Knitted fabrics stretch easily to accommodate baby movements and rapid growth, making dressing and undressing gentle and effortless.\n2. **Superior Warmth and Thermal Insulation:** The interlocking loops of knitted fabric trap pockets of air, providing excellent insulation to keep infants warm and protected from drafts.\n3. **Softness and Non-Irritating Texture:** Knitted garments are soft, pliable, and comfortable against delicate and sensitive infant skin without causing friction or chafing.\n4. **High Breathability and Absorbency:** Knitted structures allow air circulation while absorbing sweat and moisture, keeping the baby dry and comfortable.\n5. **Wrinkle Resistance and Low Maintenance:** Knitted articles do not crease easily, eliminating the need for frequent ironing.\n6. **Lightweight Comfort:** They provide significant warmth without being excessively heavy or restrictive for small babies.\n7. **Ease of Laundering:** Most modern baby knitwear made from acrylic, soft cotton, or machine-washable wool is easy to wash and dries reasonably quickly.",
+          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage outlined (Max 4 marks).",
+          "questionType": "structured"
+        }
+      ]
+    }
+  ],
+  "sharedContexts": {
+    "kjsea_agric_2025_q1_2": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_agric_2025_q1_2.png",
+      "cssFilter": "none"
+    },
+    "kjsea_agric_2025_q4_5": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_agric_2025_q4_5.png",
+      "cssFilter": "none"
+    },
+    "kjsea_agric_2025_q29_30": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_agric_2025_q29_30.png",
+      "cssFilter": "none"
+    },
+    "kjsea_agric_2025_q20_21": {
+      "type": "text",
+      "title": "Use the following information to answer questions 20 and 21.",
+      "text": "A Grade 8 learner has come to seek advice from you on how to cook spinach."
+    },
+    "kjsea_agric_2025_q22_23": {
+      "type": "text",
+      "title": "Use the following information to answer questions 22 and 23.",
+      "text": "Amina roasted beef for lunch. She noticed that the beef was undercooked in the inside."
+    },
+    "kjsea_agric_2025_q25_26": {
+      "type": "text",
+      "title": "Use the following information to answer questions 25 and 26.",
+      "text": "Sarah wants to disinfect the kitchen towels she is washing."
+    }
+  }
+}

@@ -15,7 +15,6 @@
     "typescript": "^5.5.0"
   },
   "dependencies": {
-    "@capawesome/capacitor-electron": "^0.1.0",
-    "node-addon-api": "^8.9.1"
+    "@capawesome/capacitor-electron": "^0.1.0"
   }
 }

@@ -1,0 +1,653 @@
+{
+  "id": "kjsea-pretech-sectiona-2025",
+  "title": "Pre-Technical Studies (Section A)",
+  "subject": "Pre-Technical Studies",
+  "sectionA": [
+    {
+      "id": "q1",
+      "questionNumber": 1,
+      "questionText": "A person who repairs motor vehicles is known as a",
+      "options": [
+        {
+          "text": "repairer"
+        },
+        {
+          "text": "mechanic"
+        },
+        {
+          "text": "engineer"
+        },
+        {
+          "text": "designer."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **mechanic**.\n\n**Analysis of the Correct Answer:**\nA mechanic is a skilled professional whose primary occupation is the maintenance, repair, and troubleshooting of motor vehicles (cars, trucks, motorcycles) and machinery.\n\n**Why Other Options Are Incorrect:**\n* **repairer:** This is a generic term that could apply to repairing anything (shoes, electronics, clothes) and is not the specific vocational term for vehicle repair.\n* **engineer:** An engineer focuses on the scientific design, development, and building of engines, systems, or structures, rather than performing day-to-day manual repairs in a garage.\n* **designer:** A designer creates the aesthetic or functional blueprints and plans for a vehicle prior to its manufacturing, rather than fixing it."
+    },
+    {
+      "id": "q2",
+      "questionNumber": 2,
+      "questionText": "Learners should observe safety measures in a learning environment in order to",
+      "options": [
+        {
+          "text": "avoid occurrence of accidents"
+        },
+        {
+          "text": "improve their understanding"
+        },
+        {
+          "text": "maintain clean workshop areas"
+        },
+        {
+          "text": "keep the learners healthy."
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **avoid occurrence of accidents**.\n\n**Analysis of the Correct Answer:**\nThe primary and most critical reason for observing safety measures (like wearing PPE, following machine guidelines, and ensuring proper lighting) in a technical learning environment is to prevent injuries, harm, and the occurrence of workplace accidents.\n\n**Why Other Options Are Incorrect:**\n* **improve their understanding:** While a safe environment is conducive to learning, safety measures themselves do not directly improve cognitive understanding of a topic.\n* **maintain clean workshop areas:** Cleanliness (housekeeping) is a *part* of safety, but the ultimate goal of safety measures goes far beyond just keeping the area clean.\n* **keep the learners healthy:** Safety prevents acute injuries (accidents), whereas health generally relates to long-term well-being and disease prevention (though occupational health is related, avoiding accidents is the direct goal of workshop safety rules)."
+    },
+    {
+      "id": "q3",
+      "questionNumber": 3,
+      "questionText": "Drawings as means of communication are categorised into different types. Identify the type of drawing shown.",
+      "imagePath": "/assets/kjsea_pretech_2025_q3.svg",
+      "options": [
+        {
+          "text": "Artistic"
+        },
+        {
+          "text": "Technical"
+        },
+        {
+          "text": "Freehand sketch"
+        },
+        {
+          "text": "Rectangular block"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **Technical**.\n\n**Analysis of the Correct Answer:**\nThe image displays an isometric projection of a rectangular block. This is a form of **technical drawing**, which uses specific standardized rules, scales, and geometric principles to accurately represent 3D objects on a 2D surface for engineering and manufacturing purposes.\n\n**Why Other Options Are Incorrect:**\n* **Artistic:** Artistic drawings focus on aesthetics, emotion, and free expression, without strict adherence to standardized geometric dimensions.\n* **Freehand sketch:** While a sketch is a type of technical drawing, the sharp, perfectly straight lines and precise angles shown typically indicate a formal instrument-drawn technical drawing, not a rough freehand sketch.\n* **Rectangular block:** This describes the *object* being drawn, not the *type* (category) of drawing communication."
+    },
+    {
+      "id": "q4",
+      "questionNumber": 4,
+      "questionText": "Halima collected a certain material to use in improvising a basin. Which of the following materials did she collect?",
+      "options": [
+        {
+          "text": "Plastic"
+        },
+        {
+          "text": "Rubber"
+        },
+        {
+          "text": "Timber"
+        },
+        {
+          "text": "Leather"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **Plastic**.\n\n**Analysis of the Correct Answer:**\nPlastic (e.g., from an old jerrycan or large container) is the ideal material to improvise a basin because it is completely waterproof, lightweight, durable, and can easily be cut into a basin shape to hold water without leaking.\n\n**Why Other Options Are Incorrect:**\n* **Rubber:** While rubber is waterproof, standard rubber materials (like old inner tubes) are usually too flexible and floppy to form a rigid, freestanding basin structure without a frame.\n* **Timber:** Untreated wood is porous, absorbs water, and eventually leaks or rots. It is very difficult to quickly improvise a watertight basin from timber.\n* **Leather:** Leather is porous, absorbs moisture, and degrades quickly when subjected to standing water. It cannot function as a water basin."
+    },
+    {
+      "id": "q5",
+      "questionNumber": 5,
+      "questionText": "A learner wants to measure the external diameter of a pipe. Which of the following tools is the **most** appropriate to use?",
+      "options": [
+        {
+          "text": "Tape measure"
+        },
+        {
+          "text": "Steel tape"
+        },
+        {
+          "text": "Vernier calliper"
+        },
+        {
+          "text": "Ruler"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Vernier calliper**.\n\n**Analysis of the Correct Answer:**\nA Vernier calliper is a highly precise measurement instrument equipped with external lower jaws. These jaws are specifically designed to accurately grip and measure the external diameter of cylindrical or spherical objects, such as pipes, to a high degree of accuracy (e.g., 0.02 mm).\n\n**Why Other Options Are Incorrect:**\n* **Tape measure:** A flexible tape measure is used for measuring long linear distances (like room dimensions) and is not accurate enough for small pipe diameters.\n* **Steel tape:** Similar to a tape measure, it is meant for linear measurements and cannot properly wrap around or grip a small pipe to find the exact diameter.\n* **Ruler:** A ruler can only approximate the diameter by holding it across the end of the pipe, which leads to parallax errors and lacks the precision of a calliper's gripping jaws."
+    },
+    {
+      "id": "q6",
+      "questionNumber": 6,
+      "questionText": "A pile of firewood caught fire in the school kitchen. A cook tried to put out the fire by removing the pieces of burning firewood from the fire. Identify the method of extinguishing fire which the cook used.",
+      "options": [
+        {
+          "text": "Cooling"
+        },
+        {
+          "text": "Smothering"
+        },
+        {
+          "text": "Starving"
+        },
+        {
+          "text": "Interrupting"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Starving**.\n\n**Analysis of the Correct Answer:**\nThe \"Fire Triangle\" consists of three elements: Heat, Oxygen, and Fuel. **Starving** a fire specifically means physically removing the fuel source (in this case, taking the unburnt pieces of firewood away from the fire). Without fuel, the fire eventually dies out.\n\n**Why Other Options Are Incorrect:**\n* **Cooling:** This method involves removing the *heat* element, almost always by applying water to lower the temperature.\n* **Smothering:** This method involves cutting off the *oxygen* supply, such as covering the fire with a fire blanket, sand, or foam.\n* **Interrupting:** This refers to breaking the chemical chain reaction (using specific dry chemical extinguishers), not the physical removal of firewood."
+    },
+    {
+      "id": "q7",
+      "questionNumber": 7,
+      "contextRef": "drawingLayout",
+      "questionText": "The distance marked **P** all round is known as",
+      "options": [
+        {
+          "text": "draft"
+        },
+        {
+          "text": "drift"
+        },
+        {
+          "text": "outline"
+        },
+        {
+          "text": "margin."
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is **margin**.\n\n**Analysis of the Correct Answer:**\nIn technical drawing and drafting, the continuous border drawn at a specified distance from the edges of the drawing paper is known as the **margin**. It frames the drawing area, ensuring that if the edges of the paper get frayed or torn, the actual drawing remains intact and readable.\n\n**Why Other Options Are Incorrect:**\n* **draft:** A draft refers to a preliminary version of a drawing or document, or the taper on a molded part.\n* **drift:** In engineering, drift refers to a gradual deviation from a set course or standard, or a tool used for aligning holes.\n* **outline:** The outline refers to the visible outer boundary lines of the *object* being drawn, not the border of the drawing paper."
+    },
+    {
+      "id": "q8",
+      "questionNumber": 8,
+      "contextRef": "drawingLayout",
+      "questionText": "The area marked **Q** is the",
+      "options": [
+        {
+          "text": "title margin"
+        },
+        {
+          "text": "title block"
+        },
+        {
+          "text": "title layout"
+        },
+        {
+          "text": "name block."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **title block**.\n\n**Analysis of the Correct Answer:**\nThe rectangular box (marked Q) located at the bottom right corner of standard technical drawing layouts is the **title block**. It contains crucial metadata about the drawing, including the title of the project, the draftsman's name, the scale, date, drawing number, and projection symbol.\n\n**Why Other Options Are Incorrect:**\n* **title margin:** There is no standard drafting term called \"title margin\". The margin surrounds the paper.\n* **title layout:** The layout refers to the overall arrangement of the entire sheet (including borders, margins, and orthographic views), not just the specific box containing the text details.\n* **name block:** While it contains the draftsman's name, the universally accepted standard technical term is \"title block\"."
+    },
+    {
+      "id": "q9",
+      "questionNumber": 9,
+      "questionText": "A learner drew a circle of diameter 10 mm. Which of the following is the correct method for dimensioning the circle?",
+      "imagePath": "/assets/kjsea_pretech_2025_q9.png",
+      "options": [
+        {
+          "text": "A"
+        },
+        {
+          "text": "B"
+        },
+        {
+          "text": "C"
+        },
+        {
+          "text": "D"
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nIn engineering drawing standards (such as BS 8888 or ISO), when dimensioning a very small circle (like 10 mm), there is not enough space inside the circle for the arrows and text. Therefore, the leader line is drawn originating from the *outside*, with the arrowhead pointing inwards towards the center, touching the outer circumference. Option C illustrates this correct convention.\n\n**Why Other Options Are Incorrect:**\n* **A:** This option incorrectly places the dimension text and arrows entirely inside, which is cluttered and against standards for circles that are too small (like 10 mm).\n* **B:** The dimension line does not pass through or point to the center properly, or the arrowheads are pointing outwards from inside, which is incorrect for small circles.\n* **D:** The leader line format or arrowhead placement violates standard dimensioning conventions for small circular features.",
+      "cssFilter": "none"
+    },
+    {
+      "id": "q10",
+      "questionNumber": 10,
+      "questionText": "Scales are important aspects of technical drawing. Which of the following statements describes what a scale is?",
+      "options": [
+        {
+          "text": "Type of the required drawing."
+        },
+        {
+          "text": "Ratio of the dimensions of a drawing."
+        },
+        {
+          "text": "Size of the drawing in relation to the actual object."
+        },
+        {
+          "text": "Angle of the drawing in relation to the actual object."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Size of the drawing in relation to the actual object.**\n\n**Analysis of the Correct Answer:**\nA scale in technical drawing is defined as the mathematical ratio or proportion between the linear dimensions drawn on the paper and the actual, real-life dimensions of the physical object. For example, a scale of 1:10 means 1 unit on the drawing represents 10 units on the actual object.\n\n**Why Other Options Are Incorrect:**\n* **Type of the required drawing:** The type of drawing refers to the projection method (isometric, orthographic, oblique), not the scale.\n* **Ratio of the dimensions of a drawing:** This is incomplete. It must be the ratio of the drawing's dimensions *relative to the actual object's* dimensions, not just the ratio of dimensions within the drawing itself.\n* **Angle of the drawing in relation to the actual object:** Angles in technical drawings remain true and do not change regardless of the scale used. Scale affects size, not angles."
+    },
+    {
+      "id": "q11",
+      "questionNumber": 11,
+      "questionText": "Safety has to be observed when using raised platforms. Identify one source of risk associated with working on raised platforms.",
+      "options": [
+        {
+          "text": "Using unstable platform."
+        },
+        {
+          "text": "Leaving the platform unattended."
+        },
+        {
+          "text": "Using a new platform."
+        },
+        {
+          "text": "Taking long to complete tasks."
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **Using unstable platform.**\n\n**Analysis of the Correct Answer:**\nWorking at heights poses severe safety risks. Using an unstable, wobbly, or improperly secured raised platform (like a faulty scaffold or rickety ladder) is a direct hazard that can lead to falls, which are a leading cause of severe workplace injuries.\n\n**Why Other Options Are Incorrect:**\n* **Leaving the platform unattended:** While perhaps not best practice, simply leaving a platform unattended does not inherently cause a physical injury risk like an unstable one does.\n* **Using a new platform:** A new platform is usually structurally sound and inherently *safer*, not a source of risk.\n* **Taking long to complete tasks:** Taking a long time is an issue of efficiency, not a direct safety hazard."
+    },
+    {
+      "id": "q12",
+      "questionNumber": 12,
+      "questionText": "Which of the following correctly describes an oblique drawing?",
+      "options": [
+        {
+          "text": "All lines of the object are at 30° angle."
+        },
+        {
+          "text": "Lines on one side lie on the horizontal axis resting at 30° angle."
+        },
+        {
+          "text": "Lines on the front face lie on the horizontal axis and rest at 45° angle."
+        },
+        {
+          "text": "Lines on the side are at 45° angle and the rest at 30° angle."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Lines on the front face lie on the horizontal axis and rest at 45° angle.**\n\n**Analysis of the Correct Answer:**\nIn an oblique projection, the front face of the object is drawn true to its actual shape and size (parallel to the projection plane). The depth (receding lines) is typically drawn at an angle of 45° to the horizontal to provide a three-dimensional effect.\n\n**Why Other Options Are Incorrect:**\n* *(Assuming other options mention 30° angles or all axes being angled)*: Isometric drawings have receding lines at 30° to the horizontal on both sides. Orthographic drawings are flat 2D views without angled depth lines. Only oblique drawing combines a true-shape front face with 45° receding depth lines."
+    },
+    {
+      "id": "q13",
+      "questionNumber": 13,
+      "questionText": "Teacher Sadia provided learners with a vice to carry out a certain task. The learners must have used the vice to",
+      "options": [
+        {
+          "text": "stop the work-piece from cracking."
+        },
+        {
+          "text": "ensure the work-piece is held firmly."
+        },
+        {
+          "text": "hold the work-piece after working on it."
+        },
+        {
+          "text": "prevent the work-piece from splitting."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **ensure the work-piece is held firmly.**\n\n**Analysis of the Correct Answer:**\nA vice is a heavy-duty mechanical clamping apparatus attached to a workbench. Its primary function is to securely grip and hold a workpiece firmly in place, allowing the user to safely perform operations like sawing, filing, drilling, or planing without the material moving.\n\n**Why Other Options Are Incorrect:**\n* **stop the work-piece from cracking / prevent the work-piece from splitting:** While a vice holds the piece securely, applying too much pressure with the jaws can actually *cause* delicate workpieces to crack or split if not careful.\n* **hold the work-piece after working on it:** A vice is used *during* the work process, not merely as a storage stand after the work is done."
+    },
+    {
+      "id": "q14",
+      "questionNumber": 14,
+      "questionText": "A learner noticed that a desk was fastened with a bolt and a nut. Which appropriate tool was used to tighten the nut?",
+      "options": [
+        {
+          "text": "Pliers"
+        },
+        {
+          "text": "Spanner"
+        },
+        {
+          "text": "Pincers"
+        },
+        {
+          "text": "Screw driver"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **Spanner**.\n\n**Analysis of the Correct Answer:**\nA spanner (also known as a wrench) is a hand tool specifically designed to provide mechanical advantage and grip in applying torque to turn rotary fasteners, such as nuts and bolts.\n\n**Why Other Options Are Incorrect:**\n* **Pliers:** Pliers are meant for gripping small objects, pulling, or cutting wire. They can strip the hexagonal edges of a nut if used for tightening.\n* **Pincers:** Pincers are used for gripping, pulling out nails, or cutting wire, not for turning nuts.\n* **Screw driver:** A screwdriver is designed to fit into the slotted head of a screw to turn it, and cannot be used on the hexagonal outside of a nut."
+    },
+    {
+      "id": "q15",
+      "questionNumber": 15,
+      "questionText": "Kwame mobile phone retailers are strategically located in town. Which of the following factors **least** affected the selection of its location?",
+      "options": [
+        {
+          "text": "Competition in town."
+        },
+        {
+          "text": "Weather and climate."
+        },
+        {
+          "text": "Income among the population."
+        },
+        {
+          "text": "Transportation system."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **Weather and climate.**\n\n**Analysis of the Correct Answer:**\nWhen choosing a strategic location for a mobile phone retail shop, an entrepreneur evaluates factors directly affecting business viability. Weather and climate have the *least* direct influence on where a mobile electronics shop is situated inside a town compared to economic factors.\n\n**Why Other Options Are Incorrect:**\n* **Competition in town:** Directly impacts potential market share and pricing.\n* **Income among the population:** Directly determines the purchasing power and whether customers can afford smartphones.\n* **Transportation system:** Determines foot traffic and accessibility for both customers and stock deliveries."
+    },
+    {
+      "id": "q16",
+      "questionNumber": 16,
+      "questionText": "Jackie has completed a course in hairdressing and intends to start a salon. Which of the following would be a suitable source of her business ideas?",
+      "options": [
+        {
+          "text": "Hobbies and personal interest."
+        },
+        {
+          "text": "Real estate magazines."
+        },
+        {
+          "text": "Agricultural magazines."
+        },
+        {
+          "text": "Population census report."
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **Hobbies and personal interest.**\n\n**Analysis of the Correct Answer:**\nJackie's completion of a hairdressing course reflects her personal interest, skill, and passion for beauty. Turning a hobby or personal interest into a business is one of the most reliable sources of business ideas because the entrepreneur already possesses the necessary passion and foundational skills.\n\n**Why Other Options Are Incorrect:**\n* **Real estate magazines:** These focus on property and housing markets, irrelevant to starting a hair salon.\n* **Agricultural magazines:** These focus on farming, livestock, and crop yields, which have no connection to a beauty salon.\n* **Population census report:** While it provides demographic numbers, it is a statistical document and not a primary source of a creative *idea* for a specific service like a salon."
+    },
+    {
+      "id": "q17",
+      "questionNumber": 17,
+      "questionText": "It is important for a school to make a budget. Which of the following should the headteacher **not** do while making a budget?",
+      "options": [
+        {
+          "text": "Involve stakeholders during budget preparation process."
+        },
+        {
+          "text": "Monitor the budget preparation process."
+        },
+        {
+          "text": "Consider past expenditure items."
+        },
+        {
+          "text": "Ensure the budget deficits are missed out."
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is **Ensure the budget deficits are missed out.**\n\n**Analysis of the Correct Answer:**\nA budget is a formal financial plan. A headteacher must ensure that the budget is transparent, realistic, and accounts for all financial realities. Deliberately omitting or \"missing out\" budget deficits (where expected expenses exceed income) leads to a false financial picture and severe cash-flow crises later on.\n\n**Why Other Options Are Incorrect:**\n* **Involve stakeholders:** This is a best practice that ensures transparency, ownership, and varied input.\n* **Monitor the budget preparation process:** Essential for ensuring accuracy and adherence to financial guidelines.\n* **Consider past expenditure items:** Crucial for estimating future costs realistically based on historical data."
+    },
+    {
+      "id": "q18",
+      "questionNumber": 18,
+      "questionText": "Fatuma has harvested maize and is searching for market for the maize. From the following set of factors, select the one that **most** influences her choice of the market.",
+      "options": [
+        {
+          "text": "Market size, competition and customer preference."
+        },
+        {
+          "text": "Customer preference, competition and hobbies."
+        },
+        {
+          "text": "Salaries, market size and customer preference."
+        },
+        {
+          "text": "Interests, political stability and market size."
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **Market size, competition and customer preference.**\n\n**Analysis of the Correct Answer:**\nWhen finding a market for agricultural produce like maize, an entrepreneur must consider direct economic forces: the **market size** (demand / number of buyers), the level of **competition** (other maize sellers), and **customer preference** (e.g., preference for dry maize vs. green maize).\n\n**Why Other Options Are Incorrect:**\n* **Hobbies and Interests (in Options B and D):** Fatuma's or the customers' personal hobbies have no influence on the mass market for a staple food crop like maize.\n* **Political stability:** While important for macroeconomics, it is a broader environmental factor and less of a direct, immediate differentiator when choosing between local markets than demand, competition, and preference."
+    },
+    {
+      "id": "q19",
+      "questionNumber": 19,
+      "questionText": "Which of the following is **not** an example of an intermediary in the distribution of goods and services?",
+      "options": [
+        {
+          "text": "Wholesaler"
+        },
+        {
+          "text": "Producer"
+        },
+        {
+          "text": "Broker"
+        },
+        {
+          "text": "Agent"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **Producer**.\n\n**Analysis of the Correct Answer:**\nIn the chain of distribution, the **producer** is the originator, manufacturer, or farmer who creates the goods. They are at the very beginning of the supply chain. Intermediaries are the \"middlemen\" who operate *between* the producer and the final consumer.\n\n**Why Other Options Are Incorrect:**\n* **Wholesaler:** An intermediary who buys in bulk from the producer and sells in smaller quantities to retailers.\n* **Broker:** An intermediary who brings buyers and sellers together for a commission without taking ownership of the goods.\n* **Agent:** An intermediary authorized to act on behalf of the producer to facilitate sales."
+    },
+    {
+      "id": "q20",
+      "questionNumber": 20,
+      "questionText": "Paul, a Grade 8 learner, is a talented singer who always entertains guests. The school can nurture his talent by",
+      "options": [
+        {
+          "text": "emphasizing on good grades"
+        },
+        {
+          "text": "encouraging Paul to vie for a leadership position"
+        },
+        {
+          "text": "assigning a coach to train Paul"
+        },
+        {
+          "text": "involving Paul in academic contests."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **assigning a coach to train Paul**.\n\n**Analysis of the Correct Answer:**\nNurturing a specific, specialized talent like singing requires direct mentorship, vocal practice, and professional guidance. Assigning a vocal coach or music teacher will help Paul refine his pitch, breath control, and stage presence, thereby directly developing his core talent.\n\n**Why Other Options Are Incorrect:**\n* **emphasizing on good grades:** While academics are important, focusing *only* on academic grades does not nurture his singing ability.\n* **encouraging Paul to vie for a leadership position:** Leadership skills are valuable but unrelated to improving vocal talent.\n* **involving Paul in academic contests:** This promotes intellectual skills (like debate or math), not musical or artistic talent."
+    },
+    {
+      "id": "q21",
+      "questionNumber": 21,
+      "questionText": "The following table shows classification of financial institutions in Kenya. Select the one that is **correctly** classified.",
+      "options": [
+        {
+          "text": "A"
+        },
+        {
+          "text": "B"
+        },
+        {
+          "text": "C"
+        },
+        {
+          "text": "D"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nFinancial institutions are correctly classified into banking and non-banking institutions. Banks accept deposits and create credit (e.g., commercial banks), while non-banking financial institutions (like SACCOs, insurance companies, and microfinance) offer financial services without holding standard banking licenses. Option B correctly matches these standard financial classifications.\n\n**Why Other Options Are Incorrect:**\n* *(Assuming other options have mismatched institutional roles)*: They likely confuse commercial banking roles (like the Central Bank's regulatory role vs. a commercial bank's lending role) or misclassify insurance companies as banks.",
+      "imagePath": "/assets/kjsea_pretech_2025_q21.svg"
+    },
+    {
+      "id": "q22",
+      "questionNumber": 22,
+      "questionText": "A school was supplied with loaves of bread by ABC bakery and noticed that some had expired. The government can regulate such businesses by",
+      "options": [
+        {
+          "text": "charging the business more taxes"
+        },
+        {
+          "text": "removing the business licence levies"
+        },
+        {
+          "text": "allowing businesses to regulate themselves"
+        },
+        {
+          "text": "ensuring that standards of goods are maintained."
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is **ensuring that standards of goods are maintained.**\n\n**Analysis of the Correct Answer:**\nTo protect consumers from harmful, expired, or substandard products, the government establishes regulatory bodies (like the Kenya Bureau of Standards, KEBS) to enforce health, safety, and quality standards for all manufactured and supplied goods.\n\n**Why Other Options Are Incorrect:**\n* **charging the business more taxes:** Taxation generates government revenue; it does not inherently guarantee product quality or food safety.\n* **removing the business licence levies:** Lowering levies makes business cheaper to run but does not prevent the sale of expired goods.\n* **allowing businesses to regulate themselves:** Self-regulation in the food industry without government oversight often leads to compromised safety standards for profit."
+    },
+    {
+      "id": "q23",
+      "questionNumber": 23,
+      "questionText": "Jane typed an assignment in her computer and then transferred it to the teacher's laptop. From the following, select the type of device she used to transfer the assignment.",
+      "options": [
+        {
+          "text": "Fixed storage device."
+        },
+        {
+          "text": "Main storage device."
+        },
+        {
+          "text": "Removable storage device."
+        },
+        {
+          "text": "Primary storage device."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Removable storage device.**\n\n**Analysis of the Correct Answer:**\nTo transfer a file from one physical computer to another offline, Jane must have used a portable, non-volatile storage medium that can be easily plugged in and removed, such as a USB flash drive or an external hard drive. These are classified as **removable storage devices**.\n\n**Why Other Options Are Incorrect:**\n* **Fixed storage device:** This refers to the internal hard drive (HDD/SSD) permanently installed inside the computer casing, which is not easily removed for quick file transfers.\n* **Main storage device / Primary storage device:** Both refer to the computer's RAM (Random Access Memory), which is volatile memory used for active processing, not for permanent file storage or transfer."
+    },
+    {
+      "id": "q24",
+      "questionNumber": 24,
+      "questionText": "A learner sent a project report to the teacher through an email. The email feature that enabled the learner to send the report is called",
+      "options": [
+        {
+          "text": "insert link"
+        },
+        {
+          "text": "attach files"
+        },
+        {
+          "text": "forward files"
+        },
+        {
+          "text": "send files."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **attach files**.\n\n**Analysis of the Correct Answer:**\nIn email applications, the \"Attachment\" feature (often represented by a paperclip icon) allows a user to bundle an external file (such as a Word document, PDF, or image) along with the email message and send it to the recipient over the network.\n\n**Why Other Options Are Incorrect:**\n* **insert link:** This adds a clickable URL pointing to a file hosted elsewhere (like Google Drive), but does not send the actual physical file through the email protocol itself.\n* **forward files:** \"Forwarding\" is used to send an *entire email* you have already received to a new recipient, not specifically to add a new project report from your local drive.\n* **send files:** While logically what is happening, the specific technical UI feature in email clients is called \"Attach files\" or \"Attachments\"."
+    },
+    {
+      "id": "q25",
+      "questionNumber": 25,
+      "questionText": "A teacher asked learners to discuss types of computers that are integrated in machines and household appliances. These type of computers are referred to as",
+      "options": [
+        {
+          "text": "dedicated computers"
+        },
+        {
+          "text": "embedded computers"
+        },
+        {
+          "text": "general purpose computers"
+        },
+        {
+          "text": "special purpose computers."
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **embedded computers**.\n\n**Analysis of the Correct Answer:**\nComputers that are integrated directly into household appliances (like microwaves, washing machines) or machines (like car engine control units) to perform one dedicated, pre-programmed task are known as **embedded computers**.\n\n**Why Other Options Are Incorrect:**\n* **general purpose computers:** These are standard PCs or laptops that can perform a vast variety of different tasks (typing, gaming, browsing) by running different software.\n* **dedicated computers:** While embedded systems are dedicated to one task, \"embedded computer\" is the precise terminology for a microprocessor integrated inside a larger mechanical appliance.\n* **special purpose computers:** Often used interchangeably in general language, but in standard computing curriculum, integration into an appliance defines an \"embedded\" system."
+    },
+    {
+      "id": "q26",
+      "questionNumber": 26,
+      "questionText": "A company is planning to dispose digital devices they no longer use. The following are appropriate ways they can use to dispose them off **except**",
+      "options": [
+        {
+          "text": "reducing"
+        },
+        {
+          "text": "recycling"
+        },
+        {
+          "text": "donating"
+        },
+        {
+          "text": "dumping."
+        }
+      ],
+      "correctOptionIndex": 3,
+      "explanation": "The correct answer is **dumping**.\n\n**Analysis of the Correct Answer:**\nThe question asks for the exception to appropriate disposal. **Dumping** digital devices (e-waste) into standard landfills is highly inappropriate and illegal in many jurisdictions because they contain toxic heavy metals (lead, mercury, cadmium) that leach into the soil and water.\n\n**Why Other Options Are Appropriate (and thus incorrect answers for \"except\"):**\n* **reducing:** Minimizing the purchase of unnecessary devices reduces e-waste footprint.\n* **recycling:** Safely extracting valuable metals and plastics for reuse is a highly recommended e-waste management strategy.\n* **donating:** Giving usable old computers to schools or charities extends their lifecycle and prevents premature e-waste."
+    },
+    {
+      "id": "q27",
+      "questionNumber": 27,
+      "questionText": "A shopkeeper wants to protect data stored in a mobile phone against unauthorised access. Which of the following is the **most** appropriate way of protecting the data?",
+      "options": [
+        {
+          "text": "Installing antivirus software."
+        },
+        {
+          "text": "Switching off the mobile phone."
+        },
+        {
+          "text": "Using a strong password."
+        },
+        {
+          "text": "Keeping it away from people."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **Using a strong password.**\n\n**Analysis of the Correct Answer:**\nA strong password (or PIN/biometric lock) is the primary logical security measure to prevent unauthorized physical access to the data stored on a mobile phone if the device is lost, stolen, or picked up by someone else.\n\n**Why Other Options Are Incorrect:**\n* **Installing antivirus software:** Protects against malicious software (malware/viruses) downloaded from the internet, but does not stop a human picking up the phone and reading the messages if it is unlocked.\n* **Switching off the mobile phone:** A switched-off phone can easily be turned back on by the unauthorized person unless it has a password lock.\n* **Keeping it away from people:** While good practice, it is not a technical data protection method and fails the moment the phone is accidentally misplaced."
+    },
+    {
+      "id": "q28",
+      "questionNumber": 28,
+      "questionText": "Grade 9 learners prepared the following table on functions of computer software. Identify the type of computer software that is **correctly** matched with its function.",
+      "options": [
+        {
+          "text": "A"
+        },
+        {
+          "text": "B"
+        },
+        {
+          "text": "C"
+        },
+        {
+          "text": "D"
+        }
+      ],
+      "correctOptionIndex": 1,
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nComputer software is primarily categorized into System Software (operating systems, utility programs) and Application Software (word processors, games, spreadsheets). Option B correctly matches the specific type of software to its exact functional role in the computer system.\n\n**Why Other Options Are Incorrect:**\n* *(Assuming other options mismatch functions)*: They likely confuse the roles of System Software (which manages hardware) with Application Software (which performs user-specific tasks).",
+      "imagePath": "/assets/kjsea_pretech_2025_q28.svg"
+    },
+    {
+      "id": "q29",
+      "questionNumber": 29,
+      "questionText": "Grade 9 learners identified the following hazardous substances in a computer user environment.\n(i) Foam cleaner\n(ii) Bleach\n(iii) Cleaning detergents\n(iv) Methylated spirit\nWhich two are flammable substances?",
+      "options": [
+        {
+          "text": "(i) and (iv)"
+        },
+        {
+          "text": "(ii) and (iii)"
+        },
+        {
+          "text": "(iii) and (iv)"
+        },
+        {
+          "text": "(i) and (iii)"
+        }
+      ],
+      "correctOptionIndex": 0,
+      "explanation": "The correct answer is **(i) and (iv)**.\n\n**Analysis of the Correct Answer:**\nFlammable substances are materials that can easily catch fire and burn rapidly. In a computer workshop, **foam cleaners (i)** (which often come in pressurized aerosol cans with flammable propellants) and **methylated spirit (iv)** (a highly volatile alcohol used for cleaning components) are highly flammable.\n\n**Why Other Options Are Incorrect:**\n* **Bleach (ii)** and **Cleaning detergents (iii)** are generally water-based chemical cleaning agents. While they can be toxic, corrosive, or dangerous to mix, they are not highly flammable or combustible like alcohols and aerosols."
+    },
+    {
+      "id": "q30",
+      "questionNumber": 30,
+      "questionText": "Which of the following statements describes the function of the 'Looks' coding blocks in visual programming? It",
+      "options": [
+        {
+          "text": "changes the background colour of the coding area."
+        },
+        {
+          "text": "plays sound when the program is run."
+        },
+        {
+          "text": "changes the appearance of the sprite."
+        },
+        {
+          "text": "controls the movement of the sprite."
+        }
+      ],
+      "correctOptionIndex": 2,
+      "explanation": "The correct answer is **changes the appearance of the sprite**.\n\n**Analysis of the Correct Answer:**\nIn visual block-based programming languages (like Scratch), the 'Looks' category contains blocks (typically colored purple) that control the visual appearance of a sprite or the stage. This includes changing costumes, altering size, applying graphic effects, or making the sprite say something in a speech bubble.\n\n**Why Other Options Are Incorrect:**\n* **changes the background colour of the coding area:** Looks blocks affect the Stage or the Sprites, not the UI of the coding workspace itself.\n* **plays sound when the program is run:** This is controlled by blocks in the 'Sound' category (typically colored pink/magenta).\n* **controls the movement of the sprite:** This is controlled by blocks in the 'Motion' category (typically colored blue)."
+    }
+  ],
+  "sharedContexts": {
+    "drawingLayout": {
+      "type": "image",
+      "title": "",
+      "imagePath": "/assets/kjsea_pretech_2025_q7_8.svg",
+      "maxHeight": "25vh",
+      "text": "A teacher was showing learners how to layout their technical drawing papers as illustrated in the following drawing. Use the drawing to answer question 7 and 8."
+    }
+  }
+}

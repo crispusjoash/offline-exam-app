@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 550" width="100%" height="100%">
+  <style>
+    text { font-family: 'Times New Roman', Times, serif; font-size: 18px; fill: #000; }
+    .line-main { stroke: #000; stroke-width: 2.5; fill: none; }
+    .line-north { stroke: #888; stroke-width: 1.5; stroke-dasharray: 6,4; fill: none; }
+    .line-ans { stroke: #2563eb; stroke-width: 2; stroke-dasharray: 4,4; fill: none; }
+    .arc { stroke: #000; stroke-width: 1.5; fill: none; }
+    .arc-ans { stroke: #2563eb; stroke-width: 1.5; fill: none; }
+    .point { fill: #000; }
+    .label { font-size: 20px; font-weight: bold; }
+    .measure { font-size: 16px; font-style: italic; fill: #555; }
+    .measure-ans { font-size: 16px; font-weight: bold; fill: #2563eb; }
+  </style>
+<line x1="150" y1="100" x2="150" y2="20" class="line-north" />
+<text x="145" y="10" class="measure">N</text>
+<line x1="323.2" y1="200" x2="323.2" y2="120" class="line-north" />
+<text x="318.2" y="110" class="measure">N</text>
+<line x1="150" y1="100" x2="323.2" y2="200" class="line-main" />
+<line x1="323.2" y1="200" x2="183.2" y2="442.5" class="line-main" />
+<line x1="150" y1="100" x2="183.2" y2="442.5" class="line-ans" />
+<path d="M 150 60 A 40 40 0 0 1 184.6 120" class="arc" />
+<text x="170" y="80" class="measure">120°</text>
+<path d="M 323.2 160 A 40 40 0 1 1 303.2 234.6" class="arc" />
+<text x="343.2" y="230" class="measure">210°</text>
+<path d="M 150 45 A 55 55 0 0 1 155.3 154.7" class="arc-ans" />
+<text x="200" y="150" class="measure-ans">174.5°</text>
+<circle cx="150" cy="100" r="4" class="point" />
+<text x="125" y="110" class="label">A</text>
+<circle cx="323.2" cy="200" r="4" class="point" />
+<text x="338.2" y="205" class="label">B</text>
+<circle cx="183.2" cy="442.5" r="4" class="point" />
+<text x="163.2" y="467.5" class="label">C</text>
+<text x="250" y="140" class="measure" transform="rotate(30, 250, 140)">5 cm (50 m)</text>
+<text x="270" y="330" class="measure" transform="rotate(120, 270, 330)">7 cm (70 m)</text>
+<text x="130" y="280" class="measure-ans" transform="rotate(84.5, 130, 280)">8.6 cm (86 m)</text>
+</svg>

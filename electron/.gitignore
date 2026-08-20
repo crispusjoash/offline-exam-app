@@ -6,3 +6,4 @@ generated
 vendor
 dist_packager/
 dist_packager2/
+build_output/

@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 300">
+  <style>
+    .line { stroke: #000; stroke-width: 2; }
+    .txt { font-family: serif; font-size: 20px; fill: #000; }
+    .bold { font-weight: bold; }
+  </style>
+
+  <rect x="0" y="0" width="450" height="300" fill="none" class="line" />
+  
+  <line x1="0" y1="60" x2="450" y2="60" class="line" />
+  <line x1="0" y1="120" x2="450" y2="120" class="line" />
+  <line x1="0" y1="180" x2="450" y2="180" class="line" />
+  <line x1="0" y1="240" x2="450" y2="240" class="line" />
+  
+  <line x1="40" y1="0" x2="40" y2="300" class="line" />
+  <line x1="250" y1="0" x2="250" y2="300" class="line" />
+  
+  <text x="45" y="35" class="txt bold">Institution</text>
+  <text x="255" y="25" class="txt bold">Type of financial</text>
+  <text x="255" y="48" class="txt bold">institution</text>
+  
+  <text x="12" y="95" class="txt">A</text>
+  <text x="45" y="85" class="txt">Kenya Commercial</text>
+  <text x="45" y="110" class="txt">Bank</text>
+  <text x="255" y="95" class="txt">Non-banking</text>
+  
+  <text x="12" y="155" class="txt">B</text>
+  <text x="45" y="145" class="txt">Agricultural Finance</text>
+  <text x="45" y="170" class="txt">Corporation</text>
+  <text x="255" y="155" class="txt">Non-banking</text>
+  
+  <text x="12" y="215" class="txt">C</text>
+  <text x="45" y="205" class="txt">Kenya Planters</text>
+  <text x="45" y="230" class="txt">Cooperative Union</text>
+  <text x="255" y="215" class="txt">Banking</text>
+  
+  <text x="12" y="275" class="txt">D</text>
+  <text x="45" y="265" class="txt">Kenya Re-Insurance</text>
+  <text x="45" y="290" class="txt">Cooperation</text>
+  <text x="255" y="275" class="txt">Banking</text>
+</svg>

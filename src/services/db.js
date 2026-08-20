@@ -76,9 +76,9 @@ export const initDB = async () => {
   const platform = Capacitor.getPlatform();
   console.log('[db.js] Platform:', platform);
 
-  if (platform === 'web') {
-    console.log('[db.js] Web platform — using localStorage');
-    // Nothing to initialise; localStorage is always ready
+  // On web AND electron: use localStorage (SQLite plugin not wired on Electron)
+  if (platform === 'web' || platform === 'electron') {
+    console.log('[db.js] Using localStorage for platform:', platform);
     return 'localStorage';
   }
 
@@ -87,7 +87,7 @@ export const initDB = async () => {
 
 export const saveSession = async (table, paperId, data) => {
   const platform = Capacitor.getPlatform();
-  if (platform === 'web' || !db) {
+  if (platform === 'web' || platform === 'electron' || !db) {
     webSave(table, paperId, data);
     return;
   }
@@ -105,7 +105,7 @@ export const saveSession = async (table, paperId, data) => {
 
 export const loadSession = async (table, paperId) => {
   const platform = Capacitor.getPlatform();
-  if (platform === 'web' || !db) {
+  if (platform === 'web' || platform === 'electron' || !db) {
     return webLoad(table, paperId);
   }
   try {

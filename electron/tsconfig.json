@@ -8,5 +8,5 @@
     "esModuleInterop": true,
     "skipLibCheck": true
   },
-  "include": ["main.ts", "capacitor.electron.config.ts"]
+  "include": ["main.ts", "capacitor.electron.config.ts", "preload.ts"]
 }

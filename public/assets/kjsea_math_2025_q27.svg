@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 350" width="100%" height="100%">
+  <style>
+    text { font-family: 'Times New Roman', Times, serif; font-size: 20px; fill: #000; }
+    .header { font-size: 22px; font-weight: bold; }
+    .cell-text { text-anchor: middle; dominant-baseline: central; }
+    .left-text { text-anchor: start; dominant-baseline: central; }
+    line, rect { stroke: #000; stroke-width: 1.5; fill: none; }
+  </style>
+
+  <!-- Week 1 -->
+  <text x="40" y="40" class="header">Week 1</text>
+  
+  <g transform="translate(40, 60)">
+    <!-- Table 1 Border -->
+    <rect x="0" y="0" width="450" height="90" />
+    <!-- Horizontal lines -->
+    <line x1="0" y1="30" x2="450" y2="30" />
+    <line x1="0" y1="60" x2="450" y2="60" />
+    <!-- Vertical lines -->
+    <line x1="90" y1="0" x2="90" y2="90" />
+    <line x1="210" y1="0" x2="210" y2="90" />
+    <line x1="330" y1="0" x2="330" y2="90" />
+    
+    <!-- Row 1 (Header) -->
+    <text x="10" y="15" class="left-text">Family</text>
+    <text x="150" y="15" class="cell-text">Oranges</text>
+    <text x="270" y="15" class="cell-text">Mangoes</text>
+    <text x="390" y="15" class="cell-text">Bananas</text>
+    
+    <!-- Row 2 (A) -->
+    <text x="10" y="45" class="left-text">A</text>
+    <text x="150" y="45" class="cell-text">7</text>
+    <text x="270" y="45" class="cell-text">15</text>
+    <text x="390" y="45" class="cell-text">5</text>
+
+    <!-- Row 3 (B) -->
+    <text x="10" y="75" class="left-text">B</text>
+    <text x="150" y="75" class="cell-text">9</text>
+    <text x="270" y="75" class="cell-text">20</text>
+    <text x="390" y="75" class="cell-text">3</text>
+  </g>
+
+  <!-- Week 2 -->
+  <text x="40" y="200" class="header">Week 2</text>
+  
+  <g transform="translate(40, 220)">
+    <!-- Table 2 Border -->
+    <rect x="0" y="0" width="450" height="90" />
+    <!-- Horizontal lines -->
+    <line x1="0" y1="30" x2="450" y2="30" />
+    <line x1="0" y1="60" x2="450" y2="60" />
+    <!-- Vertical lines -->
+    <line x1="90" y1="0" x2="90" y2="90" />
+    <line x1="210" y1="0" x2="210" y2="90" />
+    <line x1="330" y1="0" x2="330" y2="90" />
+    
+    <!-- Row 1 (Header) -->
+    <text x="10" y="15" class="left-text">Family</text>
+    <text x="150" y="15" class="cell-text">Oranges</text>
+    <text x="270" y="15" class="cell-text">Mangoes</text>
+    <text x="390" y="15" class="cell-text">Bananas</text>
+    
+    <!-- Row 2 (A) -->
+    <text x="10" y="45" class="left-text">A</text>
+    <text x="150" y="45" class="cell-text">6</text>
+    <text x="270" y="45" class="cell-text">10</text>
+    <text x="390" y="45" class="cell-text">4</text>
+
+    <!-- Row 3 (B) -->
+    <text x="10" y="75" class="left-text">B</text>
+    <text x="150" y="75" class="cell-text">14</text>
+    <text x="270" y="75" class="cell-text">15</text>
+    <text x="390" y="75" class="cell-text">8</text>
+  </g>
+</svg>

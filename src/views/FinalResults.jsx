@@ -1,4 +1,4 @@
-import React from 'react';
+﻿import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Home, RotateCcw, Trophy, Star, ArrowRight } from 'lucide-react';
 
@@ -23,7 +23,7 @@ export const FinalResults = () => {
 
         {/* Trophy card */}
         <div style={{
-          background: '#ffffff',
+          background: 'var(--bg-card)',
           borderRadius: '2rem',
           overflow: 'hidden',
           boxShadow: 'var(--shadow-xl)',
@@ -52,7 +52,7 @@ export const FinalResults = () => {
                 <Trophy size={36} color="#fff" strokeWidth={1.5} />
               </div>
 
-              <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '2rem', fontWeight: '900', color: '#ffffff', marginBottom: '0.4rem', letterSpacing: '-0.02em' }}>
+              <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '2rem', fontWeight: '900', color: 'var(--bg-card)', marginBottom: '0.4rem', letterSpacing: '-0.02em' }}>
                 Exam Complete!
               </h1>
               <p style={{ color: 'rgba(255,255,255,0.8)', fontSize: '0.9rem', fontWeight: '500' }}>
@@ -103,7 +103,7 @@ export const FinalResults = () => {
                 style={{
                   width: '100%', padding: '0.9rem',
                   background: gradient, border: 'none',
-                  borderRadius: '0.85rem', color: '#fff',
+                  borderRadius: '0.85rem', color: 'var(--bg-card)',
                   fontWeight: '800', cursor: 'pointer',
                   display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '0.5rem',
                   fontSize: '0.92rem',

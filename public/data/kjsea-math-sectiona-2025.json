@@ -1,0 +1,534 @@
+{
+  "id": "kjsea-math-sectiona-2025",
+  "title": "KJSEA 2025 Mathematics (Section A)",
+  "subject": "Mathematics",
+  "sectionA": [
+    {
+      "id": "q1",
+      "questionNumber": 1,
+      "questionText": "A packet contains number cards. Sally picked cards with numbers 2, 4, 5 and 9 from the packet. Which of the following sets has prime numbers only?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "2 and 4",
+          "isCorrect": false
+        },
+        {
+          "text": "2 and 5",
+          "isCorrect": true
+        },
+        {
+          "text": "4 and 9",
+          "isCorrect": false
+        },
+        {
+          "text": "5 and 9",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To identify the composite numbers, we must evaluate the factors of each number in the set.\n* A prime number is a number greater than 1 that has only two factors: 1 and itself.\n* In the given set (2, 4, 5, 9), **2** and **5** have only two factors, making them prime numbers.\n* However, **4** is divisible by 2, and **9** is divisible by 3, meaning they have more than two factors.\n* Therefore, the composite numbers are **4 and 9**."
+    },
+    {
+      "id": "q2",
+      "questionNumber": 2,
+      "questionText": "There are 120 boys, 180 girls and 24 teachers in a school. The school formed groups with equal numbers of boys, girls and teachers. What is the largest number of groups formed?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "12",
+          "isCorrect": true
+        },
+        {
+          "text": "60",
+          "isCorrect": false
+        },
+        {
+          "text": "324",
+          "isCorrect": false
+        },
+        {
+          "text": "360",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the largest number of groups where each group has an equal number of participants, we need to calculate the Greatest Common Divisor (GCD).\n* We must find the GCD of the three numbers: 120, 180, and 24.\n* The factors of 24 that are also common to 120 and 180 are evaluated.\n* The largest number that divides 120, 180, and 24 without leaving a remainder is **12**.\n* Therefore, the largest number of groups formed is **12**."
+    },
+    {
+      "id": "q3",
+      "questionNumber": 3,
+      "questionText": "The temperature of a deep freezer was −8°C. The deep freezer was adjusted and the temperature was increased by 15°C. What was the temperature of the deep freezer after it was adjusted?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "−23°C",
+          "isCorrect": false
+        },
+        {
+          "text": "−7°C",
+          "isCorrect": false
+        },
+        {
+          "text": "7°C",
+          "isCorrect": true
+        },
+        {
+          "text": "23°C",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To determine the new temperature, we need to add the increase to the initial temperature.\n* The initial temperature in the freezer was **-8°C**.\n* A temperature increase means we are adding to the initial value.\n* We calculate: $-8 + 15 = 7$.\n* Therefore, the new temperature is **7°C**."
+    },
+    {
+      "id": "q4",
+      "questionNumber": 4,
+      "questionText": "Kamau intended to plant 70 seedlings. He allocated $\\frac{1}{5}$ of an hour to plant each seedling. During the planting, he took $\\frac{1}{4}$ of an hour to plant each seedling. Which of the following calculations will give the extra time Kamau used to plant all the seedlings?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "$(\\frac{1}{5} + \\frac{1}{4}) \\times 70$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(\\frac{1}{4} \\div \\frac{1}{5}) \\times 70$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(\\frac{1}{5} - \\frac{1}{4}) \\times 70$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(\\frac{1}{4} - \\frac{1}{5}) \\times 70$",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "To calculate the extra time Kamau used to plant all the seedlings, we must find the time difference for one seedling first.\n* The allocated time per seedling was **$\\frac{1}{5}$ of an hour**, but he took **$\\frac{1}{4}$ of an hour**.\n* The extra time taken to plant ONE seedling is the difference between these times: $(\\frac{1}{4} - \\frac{1}{5})$ hours.\n* Since Kamau planted 70 seedlings, we multiply the extra time per seedling by the total number of seedlings.\n* Therefore, the correct calculation is **$(\\frac{1}{4} - \\frac{1}{5}) \\times 70$**."
+    },
+    {
+      "id": "q5",
+      "questionNumber": 5,
+      "questionText": "A Grade 9 teacher had flash cards containing questions on indices. Kirui picked a flash card containing the question $2^x \\times 2^3 = 32$. What is the value of x in the equation?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "16",
+          "isCorrect": false
+        },
+        {
+          "text": "8",
+          "isCorrect": false
+        },
+        {
+          "text": "2",
+          "isCorrect": true
+        },
+        {
+          "text": "$1 \\frac{2}{3}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the value of x, we must use the laws of indices and solve the equation.\n* The law of indices for multiplication with the same base states that we add the powers: $2^x \\times 2^3 = 2^{x+3}$.\n* We know that 32 can be expressed as a power of 2: **$32 = 2^5$**.\n* By substituting this into the equation, we get: $2^{x+3} = 2^5$.\n* Since the bases are the same, we equate the powers: $x + 3 = 5$.\n* Solving for x, we get $x = 5 - 3 = 2$.\n* Therefore, the value of x is **2**."
+    },
+    {
+      "id": "q6",
+      "questionNumber": 6,
+      "questionText": "The total number of animals in Kiyapi's farm is 26. There are x donkeys in the farm. The number of goats in the farm is twice the number of donkeys. The remaining animals are sheep. Which of the following represents the number of sheep in the farm?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "26 − 3x",
+          "isCorrect": true
+        },
+        {
+          "text": "26 − 2x",
+          "isCorrect": false
+        },
+        {
+          "text": "26 − x",
+          "isCorrect": false
+        },
+        {
+          "text": "26 + 3x",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To form an algebraic expression for the number of sheep, we must define the variables based on the given information.\n* Let the number of donkeys be **$x$**.\n* The farmer has twice as many goats as donkeys, so the number of goats is **$2x$**.\n* The total number of donkeys and goats combined is: $x + 2x = 3x$.\n* Since the total number of animals is **26**, the number of sheep is the total minus the donkeys and goats.\n* Therefore, the expression for the number of sheep is **$26 - 3x$**."
+    },
+    {
+      "id": "q7",
+      "questionNumber": 7,
+      "questionText": "A school is planning to transport x number of learners for drama festivals. For cost efficiency, the school has to transport at least 30 learners but less than 50 learners. Which of the following inequalities represents the above information?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "30 < x < 50",
+          "isCorrect": false
+        },
+        {
+          "text": "30 < x ≤ 50",
+          "isCorrect": false
+        },
+        {
+          "text": "30 ≤ x ≤ 50",
+          "isCorrect": false
+        },
+        {
+          "text": "30 ≤ x < 50",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "To write the combined inequality, we need to translate the phrases into mathematical symbols.\n* 'At least 30' means the number must be greater than or equal to 30, written as **$x \\ge 30$** (or $30 \\le x$).\n* 'Less than 50' means the number is strictly less than 50, written as **$x < 50$**.\n* Combining these two conditions into a single inequality gives the range of the number.\n* Therefore, the combined inequality is **$30 \\le x < 50$**."
+    },
+    {
+      "id": "q8",
+      "questionNumber": 8,
+      "questionText": "Learners presented the results of two teams in a football league using the matrix:\n$\\begin{pmatrix} 3 & 2 & 1 & 0 & 7 \\\\ 4 & 1 & 2 & 1 & 5 \\end{pmatrix}$\nWhat is the order of the matrix?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "10 × 1",
+          "isCorrect": false
+        },
+        {
+          "text": "1 × 10",
+          "isCorrect": false
+        },
+        {
+          "text": "5 × 2",
+          "isCorrect": false
+        },
+        {
+          "text": "2 × 5",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "To determine the order of the given matrix, we must count its rows and columns.\n* The order of a matrix is always stated in the format **'rows $\\times$ columns'**.\n* Looking at the matrix, we count **2** horizontal rows.\n* Then, we count **5** vertical columns.\n* Therefore, the order of the matrix is **$2 \\times 5$**."
+    },
+    {
+      "id": "q9",
+      "questionNumber": 9,
+      "questionText": "The width of a door is 0.91 m. The door is opened through an angle of 72°. What is the length which the tip of the door sweeps through?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "5.72 m",
+          "isCorrect": false
+        },
+        {
+          "text": "1.14 m",
+          "isCorrect": true
+        },
+        {
+          "text": "0.57 m",
+          "isCorrect": false
+        },
+        {
+          "text": "0.52 m",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the length of the metal strip required for the top tip of the door, we calculate the arc length of the sector.\n* The radius ($r$) of the arc is the width of the door, which is **$0.91$ m**.\n* The angle ($\\theta$) subtended at the centre is **$72^{\\circ}$**.\n* The formula for the arc length is $\\frac{\\theta}{360} \\times 2\\pi r$.\n* Substituting the values (using $\\pi = \\frac{22}{7}$): $\\frac{72}{360} \\times 2 \\times \\frac{22}{7} \\times 0.91$.\n* This simplifies to $\\frac{1}{5} \\times 2 \\times 22 \\times 0.13 = 1.144$ m.\n* Therefore, the length required is closest to **1.14 m**."
+    },
+    {
+      "id": "q10",
+      "questionNumber": 10,
+      "questionText": "A water bucket is cylindrical in shape. The diameter of the bucket is 40 cm. The bucket is filled with water up to a height of 42 cm. What is the surface area of the bucket in contact with water?\n(Use calculator value for π)",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "1256.64",
+          "isCorrect": false
+        },
+        {
+          "text": "5277.87",
+          "isCorrect": false
+        },
+        {
+          "text": "6534.51",
+          "isCorrect": true
+        },
+        {
+          "text": "7791.15",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the total surface area of the tank in contact with the water, we calculate the curved surface area and the base area.\n* The tank is half-full, so the water touches the circular base and the curved sides up to a height of **$42$ cm**.\n* The radius ($r$) is half of the diameter: $\\frac{40}{2} = 20$ cm.\n* Area of the circular base = $\\pi r^2 = \\pi \\times 20^2 = 400\\pi$.\n* Curved surface area touching water = $2\\pi rh = 2 \\times \\pi \\times 20 \\times 42 = 1680\\pi$.\n* Total area = $400\\pi + 1680\\pi = 2080\\pi$.\n* Using a calculator ($2080 \\times 3.14159...$), we get approximately **$6534.51$**."
+    },
+    {
+      "id": "q11",
+      "questionNumber": 11,
+      "questionText": "A packet of milk is in the shape of a cuboid. The length of the packet is 8.5 cm, the width is 5 cm and the height is 12 cm. What is the capacity of the packet in litres?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "0.51 litres",
+          "isCorrect": true
+        },
+        {
+          "text": "5.1 litres",
+          "isCorrect": false
+        },
+        {
+          "text": "510 litres",
+          "isCorrect": false
+        },
+        {
+          "text": "510000 litres",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To calculate the capacity of the container in litres, we first find its volume in cubic centimetres.\n* The formula for the volume of a cuboid is **length $\\times$ width $\\times$ height**.\n* Substituting the measurements: $8.5 \\text{ cm} \\times 5 \\text{ cm} \\times 12 \\text{ cm} = 510 \\text{ cm}^3$.\n* Next, we convert cubic centimetres to litres using the conversion rate: **1000 cm³ = 1 litre**.\n* Dividing the volume by 1000 gives: $510 \\div 1000 = 0.51$.\n* Therefore, the capacity of the container is **0.51 litres**."
+    },
+    {
+      "id": "q12",
+      "questionNumber": 12,
+      "questionText": "The temperature of a liquid was recorded as 215 K. Which of the following calculations gives the correct temperature in degrees celsius?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "215 × 273",
+          "isCorrect": false
+        },
+        {
+          "text": "215 ÷ 273",
+          "isCorrect": false
+        },
+        {
+          "text": "215 + 273",
+          "isCorrect": false
+        },
+        {
+          "text": "215 − 273",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "To convert the temperature from Kelvin to degrees Celsius, we use the standard conversion formula.\n* The formula to convert Kelvin to Celsius is: **°C = K - 273**.\n* The given temperature is **215 Kelvin**.\n* Substituting this into the formula gives the calculation: **$215 - 273$**.\n* Therefore, the correct calculation to use is **$215 - 273$**."
+    },
+    {
+      "id": "q13",
+      "questionNumber": 13,
+      "questionText": "The following table shows the mobile money transaction charges for a mobile service provider.\n\nLoima had Ksh 4 000 in his mobile money account. He sent Ksh 1 500 to his sister and then withdrew Ksh 800. How much money did Loima remain with in his mobile account?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "1 642",
+          "isCorrect": true
+        },
+        {
+          "text": "1 670",
+          "isCorrect": false
+        },
+        {
+          "text": "1 672",
+          "isCorrect": false
+        },
+        {
+          "text": "1 700",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the remaining balance, we must subtract the amounts transacted and their respective charges from the initial balance.\n* Loima's initial balance was **Ksh 4,000**.\n* He sent Ksh 1,500. Looking at the table, this falls in the 1,001 - 2,500 range, which carries a sending charge of **Ksh 30**.\n* He withdrew Ksh 800. This falls in the 501 - 1,000 range, carrying a withdrawal charge of **Ksh 28**.\n* Total deductions = $1500 \\text{ (sent)} + 30 \\text{ (charge)} + 800 \\text{ (withdrawn)} + 28 \\text{ (charge)} = 2358$.\n* Remaining balance = $4000 - 2358 = 1642$.\n* Therefore, Loima remained with **Ksh 1,642**.",
+      "contextRef": "kjsea_math_2025_q13"
+    },
+    {
+      "id": "q14",
+      "questionNumber": 14,
+      "questionText": "Salome estimated the height of a window to be 1.5 m. She measured it and found that the actual height was 1.2 m. Which of the following calculations gives the percentage error in her estimation?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "$(\\frac{0.3}{1.5}) \\times 100\\%$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(\\frac{0.3}{1.2}) \\times 100\\%$",
+          "isCorrect": true
+        },
+        {
+          "text": "$(\\frac{1.2}{1.5}) \\times 100\\%$",
+          "isCorrect": false
+        },
+        {
+          "text": "$(\\frac{1.5}{1.2}) \\times 100\\%$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To determine the percentage error of the measurement, we use the percentage error formula.\n* The formula is **(Absolute Error / Actual Value) $\\times$ 100%**.\n* The absolute error is the difference between the recorded value and the actual value: $|1.5 - 1.2| = 0.3$ m.\n* The actual value of the pipe is **$1.2$ m**.\n* Substituting these values into the formula gives **$(\\frac{0.3}{1.2}) \\times 100\\%$**.\n* Therefore, the correct calculation for the percentage error is **$(\\frac{0.3}{1.2}) \\times 100\\%$**."
+    },
+    {
+      "id": "q15",
+      "questionNumber": 15,
+      "questionText": "The following are properties of a quadrilateral.\n(i) Opposite sides are equal and parallel\n(ii) Diagonal bisect at 90°\n(iii) Opposite angles are equal\n\nWhat is the name of the quadrilateral?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "Trapezium",
+          "isCorrect": false
+        },
+        {
+          "text": "Parallelogram",
+          "isCorrect": false
+        },
+        {
+          "text": "Rectangle",
+          "isCorrect": false
+        },
+        {
+          "text": "Rhombus",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "To identify the quadrilateral, we must analyze the given properties.\n* Property (i) states that opposite sides are equal and parallel, which applies to parallelograms, rectangles, squares, and rhombuses.\n* Property (ii) states that the diagonals bisect at **90°**. This specifically narrows it down to a square or a rhombus.\n* Property (iii) states that opposite angles are equal, which confirms it is a **Rhombus**.\n* Based on these specific defining properties, the shape is a **Rhombus**."
+    },
+    {
+      "id": "q16",
+      "questionNumber": 16,
+      "questionText": "The scale on an architectural drawing was 1:100. A wall constructed using the drawing was 3 m long. What was the length of the wall on the drawing ?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "0.3 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "3 cm",
+          "isCorrect": true
+        },
+        {
+          "text": "30 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "300 cm",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the length on the scale drawing, we must apply the given scale ratio.\n* The scale is **1:100**, which means 1 cm on the drawing represents 100 cm in reality.\n* The actual length of the wall is 3 metres. We first convert this to centimetres: $3 \\times 100 = 300$ cm.\n* To find the drawing length, we divide the actual length in cm by the scale factor: $300 \\div 100 = 3$ cm.\n* Therefore, the length of the wall on the drawing is **3 cm**."
+    },
+    {
+      "id": "q17",
+      "questionNumber": 17,
+      "questionText": "Owino drew a straight line $L_1$. The equation of line $L_1$ is $2y = x + 3$. A line $L_2$ is perpendicular to $L_1$. What is the gradient of $L_2$?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "$-\\frac{1}{2}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\frac{1}{2}$",
+          "isCorrect": false
+        },
+        {
+          "text": "−2",
+          "isCorrect": true
+        },
+        {
+          "text": "2",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the gradient of line L₂, we must first determine the gradient of line L₁.\n* Line L₁ is given by $2y = x + 3$. Rewriting this in the form $y = mx + c$, we divide by 2 to get $y = \\frac{1}{2}x + \\frac{3}{2}$.\n* The gradient of L₁ ($m_1$) is **$\\frac{1}{2}$**.\n* For two perpendicular lines, the product of their gradients is always -1 ($m_1 \\times m_2 = -1$).\n* To find $m_2$, we calculate the negative reciprocal of $\\frac{1}{2}$, which is $-\\frac{1}{\\frac{1}{2}} = -2$.\n* Therefore, the gradient of line L₂ is **-2**."
+    },
+    {
+      "id": "q18",
+      "questionNumber": 18,
+      "questionText": "A photograph was enlarged to twice its original size. The original photograph had a length of 16 cm. What was the new length of the photograph?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "32 cm",
+          "isCorrect": true
+        },
+        {
+          "text": "18 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "14 cm",
+          "isCorrect": false
+        },
+        {
+          "text": "8 cm",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the new length of the photograph, we apply the linear scale factor to the original length.\n* The original length of the photograph is **16 cm**.\n* A linear scale factor of 2 means every length in the image is multiplied by 2.\n* We calculate the new length: $16 \\text{ cm} \\times 2 = 32 \\text{ cm}$.\n* Therefore, the new length of the photograph is **32 cm**."
+    },
+    {
+      "id": "q19",
+      "questionNumber": 19,
+      "questionText": "The following figure shows an object in the shape of a triangle ABC. Use a protractor to determine the size of angle ABC.",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "60°",
+          "isCorrect": false
+        },
+        {
+          "text": "85°",
+          "isCorrect": false
+        },
+        {
+          "text": "95°",
+          "isCorrect": true
+        },
+        {
+          "text": "105°",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To determine the size of angle ABC, one would typically use a protractor to measure the physical printed paper.\n* By placing the center of the protractor on vertex B and aligning the baseline with line segment AB.\n* Reading the scale where line segment BC crosses the protractor reveals the angle.\n* The angle is slightly obtuse, extending just past a right angle.\n* Therefore, the correct measurement for angle ABC is **95°**.",
+      "contextRef": "kjsea_math_2025_q19"
+    },
+    {
+      "id": "q20",
+      "questionNumber": 20,
+      "questionText": "The letters of the word ELEMENTAITA were written on cards. Each letter was on its own card. The cards were placed in a bucket. Asha picked a card from the bucket at random. What is the probability that Asha picked a card with letter E?",
+      "questionType": "multiple-choice",
+      "options": [
+        {
+          "text": "$\\frac{1}{11}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\frac{2}{11}$",
+          "isCorrect": false
+        },
+        {
+          "text": "$\\frac{3}{11}$",
+          "isCorrect": true
+        },
+        {
+          "text": "$\\frac{8}{11}$",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "To find the probability of picking the letter 'E', we must determine the total outcomes and favorable outcomes.\n* The word **ELEMENTAITA** contains a total of **11** letters (total possible outcomes).\n* We count how many times the letter 'E' appears in the word, which is **3** times (favorable outcomes).\n* Probability is calculated as the number of favorable outcomes divided by the total possible outcomes.\n* Therefore, the probability of picking the letter 'E' is **$\\frac{3}{11}$**."
+    }
+  ],
+  "sharedContexts": {
+    "kjsea_math_2025_q13": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_math_2025_q13.svg"
+    },
+    "kjsea_math_2025_q19": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_math_2025_q19.webp",
+      "cssFilter": "grayscale(100%) contrast(1.3) brightness(1.1)"
+    },
+    "kjsea_math_2025_q27": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_math_2025_q27.svg"
+    },
+    "kjsea_math_2025_q35": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_math_2025_q35.svg",
+      "maxHeight": "40vh"
+    },
+    "kjsea_math_2025_q38": {
+      "type": "image",
+      "imagePath": "/assets/kjsea_math_2025_q38.svg",
+      "maxHeight": "35vh"
+    }
+  }
+}

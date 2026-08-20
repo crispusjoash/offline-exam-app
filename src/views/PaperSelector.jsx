@@ -70,7 +70,7 @@ export const PaperSelector = () => {
             : 'linear-gradient(135deg, #4c1d95 0%, #7c3aed 100%)',
           borderRadius: '1.25rem',
           padding: '1.75rem 2rem',
-          color: '#ffffff',
+          color: 'var(--bg-card)',
           position: 'relative',
           overflow: 'hidden',
           marginBottom: '2rem',
@@ -92,7 +92,7 @@ export const PaperSelector = () => {
               {year} National Exam Papers
             </span>
 
-            <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.75rem, 3.5vw, 2.3rem)', fontWeight: '900', color: '#ffffff', marginBottom: '0.35rem' }}>
+            <h1 style={{ fontFamily: 'Outfit, sans-serif', fontSize: 'clamp(1.75rem, 3.5vw, 2.3rem)', fontWeight: '900', color: 'var(--bg-card)', marginBottom: '0.35rem' }}>
               Select Examination Subject
             </h1>
 
@@ -104,10 +104,10 @@ export const PaperSelector = () => {
 
         {/* ── Subject Cards Grid ── */}
         {papers.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: '#ffffff', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
-            <BookOpen size={44} style={{ color: '#94a3b8', marginBottom: '0.75rem' }} />
-            <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: '#0f172a' }}>No papers found</h3>
-            <p style={{ fontSize: '0.85rem', color: '#64748b', marginTop: '0.25rem' }}>No past papers are listed for {portal} {year}.</p>
+          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
+            <BookOpen size={44} style={{ color: 'var(--text-faint)', marginBottom: '0.75rem' }} />
+            <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: 'var(--text)' }}>No papers found</h3>
+            <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>No past papers are listed for {portal} {year}.</p>
           </div>
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(290px, 1fr))', gap: '1.25rem' }}>
@@ -135,7 +135,7 @@ export const PaperSelector = () => {
           zIndex: 100, padding: '1rem',
         }}>
           <div style={{
-            background: '#ffffff',
+            background: 'var(--bg-card)',
             width: '100%', maxWidth: '520px',
             borderRadius: '1.5rem',
             boxShadow: '0 25px 50px -12px rgba(15, 23, 42, 0.25)',
@@ -145,16 +145,20 @@ export const PaperSelector = () => {
             {/* Modal Header */}
             <div style={{
               padding: '1.25rem 1.5rem',
-              background: '#f8fafc',
+              background: 'var(--bg-muted)',
               borderBottom: '1px solid #e2e8f0',
               display: 'flex', alignItems: 'center', justifyContent: 'space-between',
             }}>
               <div>
-                <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.2rem', fontWeight: '800', margin: 0, color: '#0f172a' }}>
-                  {religionStep ? 'Select Religion Option' : 'Select Paper Section'}
+                <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.2rem', fontWeight: '800', margin: 0, color: 'var(--text)' }}>
+                  {isKPSEA 
+                    ? (religionStep ? 'Select Religion Option' : 'Select Paper Section') 
+                    : 'Select Paper Section'}
                 </h2>
-                <p style={{ fontSize: '0.78rem', color: '#64748b', margin: '0.15rem 0 0 0', fontWeight: '500' }}>
-                  {religionStep ? 'Choose your specific religious education paper' : 'This exam has core & optional religious sections.'}
+                <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', margin: '0.15rem 0 0 0', fontWeight: '500' }}>
+                  {isKPSEA 
+                    ? (religionStep ? 'Choose your specific religious education paper' : 'This exam has core & optional religious sections.') 
+                    : 'Choose which section of the paper you want to attempt.'}
                 </p>
               </div>
               <button
@@ -163,7 +167,7 @@ export const PaperSelector = () => {
                   background: '#e2e8f0', border: 'none',
                   width: '32px', height: '32px', borderRadius: '50%',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
-                  cursor: 'pointer', color: '#475569',
+                  cursor: 'pointer', color: 'var(--text-secondary)',
                 }}
               >
                 <X size={16} />
@@ -172,71 +176,102 @@ export const PaperSelector = () => {
 
             {/* Modal Content Options */}
             <div style={{ padding: '1.25rem', display: 'flex', flexDirection: 'column', gap: '0.85rem' }}>
-              {!religionStep ? (
-                <>
-                  <SelectorOption
-                    title="Part A: Social Studies & Creative Arts"
-                    badgeText="Core Section"
-                    badgeBg="#eff6ff"
-                    badgeColor="#2563eb"
-                    description={`Covers geography, history, civics, and creative arts. Questions 1 to ${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'}.`}
-                    duration="100 min"
-                    qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'} Qs`}
-                    onClick={() => {
-                      setSelectedParent(null);
-                      navigate(`/exam/${portal}/kpsea-sst-parta-${selectedParent.year || '2023'}`);
-                    }}
-                  />
+              {isKPSEA ? (
+                !religionStep ? (
+                  <>
+                    <SelectorOption
+                      title="Part A: Social Studies & Creative Arts"
+                      badgeText="Core Section"
+                      badgeBg="#eff6ff"
+                      badgeColor="#2563eb"
+                      description={`Covers geography, history, civics, and creative arts. Questions 1 to ${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'}.`}
+                      duration="100 min"
+                      qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '40' : '35'} Qs`}
+                      onClick={() => {
+                        setSelectedParent(null);
+                        navigate(`/exam/${portal}/kpsea-sst-parta-${selectedParent.year || '2023'}`);
+                      }}
+                    />
 
-                  <SelectorOption
-                    title="Part B: Religious Education"
-                    badgeText="Optional Section"
-                    badgeBg="#ecfdf5"
-                    badgeColor="#059669"
-                    description={`Choose your religious education option (CRE, IRE, or HRE). Questions ${['2024', '2025'].includes(selectedParent?.year) ? '41' : '36'} to 50.`}
-                    duration="30 min"
-                    qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '10' : '15'} Qs`}
-                    onClick={() => setReligionStep(true)}
-                  />
-                </>
+                    <SelectorOption
+                      title="Part B: Religious Education"
+                      badgeText="Optional Section"
+                      badgeBg="#ecfdf5"
+                      badgeColor="#059669"
+                      description={`Choose your religious education option (CRE, IRE, or HRE). Questions ${['2024', '2025'].includes(selectedParent?.year) ? '41' : '36'} to 50.`}
+                      duration="30 min"
+                      qsCount={`${['2024', '2025'].includes(selectedParent?.year) ? '10' : '15'} Qs`}
+                      onClick={() => setReligionStep(true)}
+                    />
+                  </>
+                ) : (
+                  <>
+                    <button
+                      onClick={() => setReligionStep(false)}
+                      style={{
+                        display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
+                        background: 'none', border: 'none', color: '#2563eb',
+                        cursor: 'pointer', fontSize: '0.85rem', fontWeight: '700',
+                        alignSelf: 'flex-start', padding: '0.2rem 0',
+                      }}
+                    >
+                      <ArrowLeft size={14} /> Back to paper sections
+                    </button>
+
+                    <SubSelectorOption
+                      title="Christian Religious Education (CRE)"
+                      subtitle="Part B · Questions 36 to 50"
+                      onClick={() => {
+                        setSelectedParent(null);
+                        navigate(`/exam/${portal}/kpsea-sst-cre-${selectedParent.year || '2023'}`);
+                      }}
+                    />
+
+                    <SubSelectorOption
+                      title="Islamic Religious Education (IRE)"
+                      subtitle="Part B · Questions 36 to 50"
+                      onClick={() => {
+                        setSelectedParent(null);
+                        navigate(`/exam/${portal}/kpsea-sst-ire-${selectedParent.year || '2023'}`);
+                      }}
+                    />
+
+                    <SubSelectorOption
+                      title="Hindu Religious Education (HRE)"
+                      subtitle="Part B · Questions 36 to 50"
+                      onClick={() => {
+                        setSelectedParent(null);
+                        navigate(`/exam/${portal}/kpsea-sst-hre-${selectedParent.year || '2023'}`);
+                      }}
+                    />
+                  </>
+                )
               ) : (
                 <>
-                  <button
-                    onClick={() => setReligionStep(false)}
-                    style={{
-                      display: 'inline-flex', alignItems: 'center', gap: '0.4rem',
-                      background: 'none', border: 'none', color: '#2563eb',
-                      cursor: 'pointer', fontSize: '0.85rem', fontWeight: '700',
-                      alignSelf: 'flex-start', padding: '0.2rem 0',
-                    }}
-                  >
-                    <ArrowLeft size={14} /> Back to paper sections
-                  </button>
-
-                  <SubSelectorOption
-                    title="Christian Religious Education (CRE)"
-                    subtitle="Part B · Questions 36 to 50"
+                  <SelectorOption
+                    title="Section A: Multiple Choice"
+                    badgeText="Part 1"
+                    badgeBg="#eff6ff"
+                    badgeColor="#2563eb"
+                    description="Multiple choice questions. Test your foundational knowledge."
+                    duration="60 min"
                     onClick={() => {
                       setSelectedParent(null);
-                      navigate(`/exam/${portal}/kpsea-sst-cre-${selectedParent.year || '2023'}`);
+                      const baseId = selectedParent.id.replace('-2025', '');
+                      navigate(`/exam/${portal}/${baseId}-sectiona-2025`);
                     }}
                   />
-
-                  <SubSelectorOption
-                    title="Islamic Religious Education (IRE)"
-                    subtitle="Part B · Questions 36 to 50"
+                  <SelectorOption
+                    title="Section B: Structured & Drawing"
+                    badgeText="Part 2"
+                    badgeBg="#ecfdf5"
+                    badgeColor="#059669"
+                    description="Written answers, calculations, and technical drawings."
+                    duration="60 min"
                     onClick={() => {
                       setSelectedParent(null);
-                      navigate(`/exam/${portal}/kpsea-sst-ire-${selectedParent.year || '2023'}`);
-                    }}
-                  />
-
-                  <SubSelectorOption
-                    title="Hindu Religious Education (HRE)"
-                    subtitle="Part B · Questions 36 to 50"
-                    onClick={() => {
-                      setSelectedParent(null);
-                      navigate(`/exam/${portal}/kpsea-sst-hre-${selectedParent.year || '2023'}`);
+                      const baseId = selectedParent.id.replace('-2025', '');
+                      navigate(`/exam/${portal}/${baseId}-sectionb-2025`);
                     }}
                   />
                 </>
@@ -259,7 +294,7 @@ const SelectorOption = ({ title, badgeText, badgeBg, badgeColor, description, du
       onClick={onClick}
       style={{
         border: `1.5px solid ${hov ? '#2563eb' : '#e2e8f0'}`,
-        background: hov ? '#eff6ff50' : '#ffffff',
+        background: hov ? '#eff6ff50' : 'var(--bg-card)',
         borderRadius: '1rem', padding: '1.15rem',
         cursor: 'pointer', transition: 'all 0.2s ease',
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
@@ -270,12 +305,12 @@ const SelectorOption = ({ title, badgeText, badgeBg, badgeColor, description, du
           {badgeText && (
             <span style={{ background: badgeBg, color: badgeColor, fontSize: '0.68rem', fontWeight: '800', padding: '0.15rem 0.45rem', borderRadius: '0.35rem', textTransform: 'uppercase' }}>{badgeText}</span>
           )}
-          <h4 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1rem', fontWeight: '800', margin: 0, color: '#0f172a' }}>{title}</h4>
+          <h4 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1rem', fontWeight: '800', margin: 0, color: 'var(--text)' }}>{title}</h4>
         </div>
-        <p style={{ fontSize: '0.78rem', color: '#64748b', margin: 0, lineHeight: 1.4, fontWeight: '500' }}>
+        <p style={{ fontSize: '0.78rem', color: 'var(--text-muted)', margin: 0, lineHeight: 1.4, fontWeight: '500' }}>
           {description}
         </p>
-        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.65rem', fontSize: '0.72rem', color: '#64748b', fontWeight: '600' }}>
+        <div style={{ display: 'flex', gap: '0.75rem', marginTop: '0.65rem', fontSize: '0.72rem', color: 'var(--text-muted)', fontWeight: '600' }}>
           {duration && <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Clock size={12} /> {duration}</span>}
           {qsCount && <span style={{ display: 'flex', alignItems: 'center', gap: '0.25rem' }}><Hash size={12} /> {qsCount}</span>}
         </div>
@@ -294,15 +329,15 @@ const SubSelectorOption = ({ title, subtitle, onClick }) => {
       onClick={onClick}
       style={{
         border: `1.5px solid ${hov ? '#2563eb' : '#e2e8f0'}`,
-        background: hov ? '#eff6ff50' : '#ffffff',
+        background: hov ? '#eff6ff50' : 'var(--bg-card)',
         borderRadius: '0.75rem', padding: '0.85rem 1.15rem',
         cursor: 'pointer', transition: 'all 0.2s ease',
         display: 'flex', justifyContent: 'space-between', alignItems: 'center',
       }}
     >
       <div>
-        <h5 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '0.95rem', fontWeight: '800', margin: 0, color: '#0f172a' }}>{title}</h5>
-        <p style={{ fontSize: '0.75rem', color: '#64748b', margin: '0.15rem 0 0 0', fontWeight: '500' }}>{subtitle}</p>
+        <h5 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '0.95rem', fontWeight: '800', margin: 0, color: 'var(--text)' }}>{title}</h5>
+        <p style={{ fontSize: '0.75rem', color: 'var(--text-muted)', margin: '0.15rem 0 0 0', fontWeight: '500' }}>{subtitle}</p>
       </div>
       <ChevronRight size={16} color={hov ? '#2563eb' : '#94a3b8'} />
     </div>
@@ -314,8 +349,22 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
   const [hov, setHov] = React.useState(false);
   const isKPSEA = portal === 'KPSEA';
 
-  // Calculate length based on sectionA content if not a parent paper
-  const questionCount = paper.isParentPaper ? 50 : (paper.sectionA?.length || 0);
+  // Calculate length based on subject and portal
+  let questionCount = 50;
+  if (paper.questionCount) {
+    questionCount = paper.questionCount;
+  } else if (paper.isParentPaper) {
+    questionCount = 50;
+  } else {
+    const s = (paper.subject || '').toLowerCase();
+    if (portal === 'KPSEA') {
+      if (s.includes('math') || s.includes('english') || s.includes('kiswahili')) questionCount = 30;
+      else if (s.includes('science')) questionCount = 50;
+    } else {
+      if (s.includes('math') || s.includes('social') || s.includes('creative')) questionCount = 20;
+      else if (s.includes('english') || s.includes('kiswahili')) questionCount = 50;
+    }
+  }
 
   // Pick appropriate icon based on subject
   const getSubjectIcon = (subName) => {
@@ -332,7 +381,7 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
       onMouseEnter={() => setHov(true)}
       onMouseLeave={() => setHov(false)}
       style={{
-        background: '#ffffff',
+        background: 'var(--bg-card)',
         border: `1.5px solid ${hov ? accentColor : '#e2e8f0'}`,
         borderRadius: '1.25rem',
         overflow: 'hidden',
@@ -376,15 +425,15 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
           </span>
         </div>
 
-        <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.25rem', fontWeight: '800', color: '#0f172a', lineHeight: 1.25, marginBottom: '0.75rem' }}>
+        <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.25rem', fontWeight: '800', color: 'var(--text)', lineHeight: 1.25, marginBottom: '0.75rem' }}>
           {paper.subject}
         </h3>
 
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.25rem', marginTop: 'auto' }}>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: '#475569', fontWeight: '600' }}>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
             <Clock size={12} /> {paper.durationMinutes} min
           </span>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: '#f8fafc', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: '#475569', fontWeight: '600' }}>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
             <Hash size={12} /> {questionCount} {isKPSEA ? 'Questions' : 'MCQs'}
           </span>
         </div>
@@ -394,7 +443,7 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
           style={{
             width: '100%', 
             padding: '0.75rem',
-            background: hov ? gradient : '#f8fafc',
+            background: hov ? gradient : 'var(--bg-muted)',
             border: `1.5px solid ${hov ? 'transparent' : '#cbd5e1'}`,
             borderRadius: '0.75rem',
             color: hov ? '#ffffff' : '#0f172a',

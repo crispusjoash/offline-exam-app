@@ -28,14 +28,18 @@ export const ExamSession = () => {
         setPaper(p);
         const savedSession = await loadSession('exam_sessions', paperId);
         if (savedSession && (Object.keys(savedSession.savedAnswers || {}).length > 0 || savedSession.savedIndex > 0)) {
-          setPendingSession(savedSession);
-          setShowResumePrompt(true);
+          if (savedSession.savedIndex !== undefined && savedSession.savedIndex >= (p.sectionA?.length || 0) - 1) {
+            // Do nothing, it naturally starts fresh.
+          } else {
+            setPendingSession(savedSession);
+            setShowResumePrompt(true);
+          }
         }
         setLoading(false);
       })
       .catch(e => {
         console.error(e);
-        setError("Failed to load paper data.");
+        setError("Failed to load paper data. Reason: " + e.message);
         setLoading(false);
       });
       
@@ -90,13 +94,13 @@ export const ExamSession = () => {
     return (
       <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg)', alignItems: 'center', justifyContent: 'center', padding: '2rem' }}>
         <div style={{
-          background: '#fff', padding: '2.5rem', borderRadius: '1.5rem',
+          background: 'var(--bg-card)', padding: '2.5rem', borderRadius: '1.5rem',
           boxShadow: '0 20px 40px rgba(0,0,0,0.08)', border: '1px solid var(--border)',
           maxWidth: '440px', width: '100%', textAlign: 'center'
         }}>
           <div style={{
             width: '64px', height: '64px', borderRadius: '50%', background: 'linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%)',
-            display: 'flex', alignItems: 'center', justifyContent: 'center', color: '#fff', margin: '0 auto 1.5rem'
+            display: 'flex', alignItems: 'center', justifyContent: 'center', color: 'var(--bg-card)', margin: '0 auto 1.5rem'
           }}>
             <BookOpen size={32} />
           </div>
@@ -111,14 +115,18 @@ export const ExamSession = () => {
               onClick={() => {
                 if (pendingSession) {
                   if (pendingSession.savedAnswers) setAnswers(pendingSession.savedAnswers);
-                  if (pendingSession.savedIndex !== undefined) setCurrentIndex(pendingSession.savedIndex);
+                  if (pendingSession.savedIndex !== undefined) {
+                    let idx = pendingSession.savedIndex;
+                    if (idx >= sectionA.length - 1) idx = 0;
+                    setCurrentIndex(idx);
+                  }
                 }
                 setShowResumePrompt(false);
               }}
               style={{
                 width: '100%', padding: '0.9rem', borderRadius: '0.75rem',
-                background: 'linear-gradient(135deg, var(--accent) 0%, var(--accent-light) 100%)',
-                color: '#fff', border: 'none', fontWeight: '700', fontSize: '1rem', cursor: 'pointer',
+                background: gradient,
+                color: 'var(--bg-card)', border: 'none', fontWeight: '700', fontSize: '1rem', cursor: 'pointer',
                 boxShadow: '0 8px 16px rgba(59, 130, 246, 0.25)', transition: 'transform 0.2s'
               }}
             >
@@ -146,12 +154,12 @@ export const ExamSession = () => {
   }
 
   return (
-    <div style={{ height: '100vh', display: 'flex', flexDirection: 'column', background: 'var(--bg)', overflow: 'hidden' }}>
+    <div style={{ flex: 1, width: '100%', display: 'flex', flexDirection: 'column', background: 'var(--bg)', overflow: 'hidden' }}>
 
       {/* ── Header ── */}
       <header style={{
         flexShrink: 0,
-        background: 'rgba(255,255,255,0.92)',
+        background: 'var(--bg-card)',
         backdropFilter: 'blur(12px)',
         WebkitBackdropFilter: 'blur(12px)',
         borderBottom: '1px solid var(--border)',
@@ -176,7 +184,7 @@ export const ExamSession = () => {
           fontFamily: 'Outfit, sans-serif', fontWeight: '800',
           background: gradient,
           padding: '0.3rem 0.85rem', borderRadius: '9999px',
-          color: '#fff', fontSize: '0.82rem',
+          color: 'var(--bg-card)', fontSize: '0.82rem',
           flexShrink: 0,
           boxShadow: `0 4px 12px ${accentColor}35`,
         }}>
@@ -206,7 +214,7 @@ export const ExamSession = () => {
             {context && (
               <div className="exam-left-panel">
                 <div style={{
-                  background: '#ffffff',
+                  background: 'var(--bg-card)',
                   border: '1px solid var(--border)',
                   borderRadius: '1.25rem',
                   padding: '1.25rem',
@@ -303,13 +311,13 @@ export const ExamSession = () => {
             <div className={context ? 'exam-right-panel' : ''}>
 
               {/* Question number badge + text */}
-              <div style={{ background: '#ffffff', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1rem', border: '1px solid var(--border)', boxShadow: 'var(--shadow-sm)' }}>
+              <div style={{ background: 'var(--bg-card)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1rem', border: '1px solid var(--border)', boxShadow: 'var(--shadow-sm)' }}>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.65rem', marginBottom: '0.9rem' }}>
                   <span style={{
                     width: '30px', height: '30px', borderRadius: '50%',
                     background: gradient,
                     display: 'flex', alignItems: 'center', justifyContent: 'center',
-                    fontSize: '0.78rem', fontWeight: '800', color: '#fff', flexShrink: 0,
+                    fontSize: '0.78rem', fontWeight: '800', color: 'var(--bg-card)', flexShrink: 0,
                     boxShadow: `0 3px 10px ${accentColor}35`,
                   }}>{q.questionNumber}</span>
                   <span style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</span>
@@ -327,6 +335,11 @@ export const ExamSession = () => {
                   )}
                   {q.questionSuffix && (
                     <span><MathRenderer text={q.questionSuffix} /></span>
+                  )}
+                  {q.imagePath && (
+                    <div style={{ marginTop: '1rem', marginBottom: '1rem' }}>
+                      <ZoomableImage src={q.imagePath} alt={`Question ${q.questionNumber} image`} baseMaxHeight="25vh" customFilter={q.cssFilter} />
+                    </div>
                   )}
                 </div>
               </div>
@@ -346,7 +359,7 @@ export const ExamSession = () => {
                         display: 'flex', alignItems: 'center', gap: '0.85rem',
                         width: '100%', textAlign: 'left', padding: '0.9rem 1.1rem',
                         borderRadius: '0.85rem', cursor: 'pointer',
-                        background: selected ? `${accentColor}09` : '#ffffff',
+                        background: selected ? `${accentColor}09` : 'var(--bg-card)',
                         border: `2px solid ${selected ? accentColor : 'var(--border)'}`,
                         color: 'var(--text)',
                         boxShadow: selected ? `0 4px 14px ${accentColor}20` : 'var(--shadow-sm)',
@@ -385,7 +398,7 @@ export const ExamSession = () => {
               style={{
                 display: 'flex', alignItems: 'center', gap: '0.4rem',
                 padding: '0.6rem 1.1rem',
-                background: '#ffffff', border: '1.5px solid var(--border)',
+                background: 'var(--bg-card)', border: '1.5px solid var(--border)',
                 borderRadius: '0.6rem', color: 'var(--text-muted)',
                 cursor: currentIndex === 0 ? 'not-allowed' : 'pointer',
                 opacity: currentIndex === 0 ? 0.4 : 1,
@@ -412,7 +425,7 @@ export const ExamSession = () => {
                 display: 'flex', alignItems: 'center', gap: '0.4rem',
                 padding: '0.6rem 1.25rem',
                 background: gradient,
-                border: 'none', borderRadius: '0.6rem', color: '#fff',
+                border: 'none', borderRadius: '0.6rem', color: 'var(--bg-card)',
                 fontWeight: '700', cursor: 'pointer', fontSize: '0.85rem',
                 boxShadow: `0 4px 14px ${accentColor}35`,
               }}

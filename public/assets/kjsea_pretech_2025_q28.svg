@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300">
+  <style>
+    .line { stroke: #000; stroke-width: 2; }
+    .txt { font-family: serif; font-size: 20px; fill: #000; }
+    .bold { font-weight: bold; }
+  </style>
+
+  <rect x="0" y="0" width="500" height="300" fill="none" class="line" />
+  
+  <line x1="0" y1="50" x2="500" y2="50" class="line" />
+  <line x1="0" y1="110" x2="500" y2="110" class="line" />
+  <line x1="0" y1="170" x2="500" y2="170" class="line" />
+  <line x1="0" y1="220" x2="500" y2="220" class="line" />
+  
+  <line x1="40" y1="0" x2="40" y2="300" class="line" />
+  <line x1="200" y1="0" x2="200" y2="300" class="line" />
+  
+  <text x="45" y="32" class="txt bold">Type of software</text>
+  <text x="205" y="32" class="txt bold">Function</text>
+  
+  <text x="12" y="87" class="txt">A</text>
+  <text x="45" y="87" class="txt">Word processor</text>
+  <text x="205" y="75" class="txt">Analysing assessment</text>
+  <text x="205" y="100" class="txt">scores</text>
+  
+  <text x="12" y="147" class="txt">B</text>
+  <text x="45" y="147" class="txt">Presentation</text>
+  <text x="205" y="135" class="txt">Preparing slides for use</text>
+  <text x="205" y="160" class="txt">in class</text>
+  
+  <text x="12" y="202" class="txt">C</text>
+  <text x="45" y="202" class="txt">Spreadsheet</text>
+  <text x="205" y="202" class="txt">Typing school reports</text>
+  
+  <text x="12" y="267" class="txt">D</text>
+  <text x="45" y="250" class="txt">System</text>
+  <text x="205" y="242" class="txt">Sending email</text>
+  <text x="205" y="267" class="txt">messages to teachers</text>
+  <text x="205" y="292" class="txt">and parents</text>
+</svg>

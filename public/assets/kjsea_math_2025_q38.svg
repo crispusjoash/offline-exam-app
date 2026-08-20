@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 300" width="100%" height="100%">
+  <style>
+    text { font-family: 'Times New Roman', Times, serif; font-size: 22px; fill: #333; }
+    .line-solid { stroke: #000; stroke-width: 2.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
+    .line-dashed { stroke: #000; stroke-width: 2; fill: none; stroke-dasharray: 8,6; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+
+  <!-- Hidden lines (dashed) -->
+  <line x1="50" y1="200" x2="130" y2="140" class="line-dashed" />
+  <line x1="130" y1="140" x2="380" y2="140" class="line-dashed" />
+  <line x1="130" y1="140" x2="130" y2="40" class="line-dashed" />
+
+  <!-- Visible faces (solid) -->
+  <!-- Top face -->
+  <polygon points="50,100 130,40 380,40 300,100" class="line-solid" fill="rgba(200,200,200,0.1)" />
+  <!-- Front face -->
+  <polygon points="50,100 300,100 300,200 50,200" class="line-solid" fill="rgba(200,200,200,0.2)" />
+  <!-- Right face -->
+  <polygon points="300,100 380,40 380,140 300,200" class="line-solid" fill="rgba(200,200,200,0.3)" />
+
+  <!-- Labels -->
+  <text x="150" y="230">5 cm</text>
+  <text x="350" y="195">3 cm</text>
+  <text x="395" y="100">2 cm</text>
+</svg>

@@ -413,6 +413,18 @@ export const PAST_PAPERS_META = {
   ],
   "KJSEA": [
     {
+      "id": "kjsea-agric-nutrition-2025",
+      "title": "KJSEA 2025 Agriculture & Nutrition",
+      "subject": "Agriculture and Nutrition",
+      "year": "2025",
+      "isSubPaper": false,
+      "isParentPaper": true,
+      "durationMinutes": 120,
+      "timeAllowed": 120,
+      "exportName": "kjseaAgricNutrition2025",
+      "fileName": "kjsea-agric-nutrition-2025.json"
+    },
+    {
       "id": "kjsea-english-2025",
       "title": "English Language",
       "subject": "English Language",
@@ -442,11 +454,23 @@ export const PAST_PAPERS_META = {
       "subject": "Mathematics",
       "year": "2025",
       "isSubPaper": false,
-      "isParentPaper": false,
+      "isParentPaper": true,
       "durationMinutes": 120,
       "timeAllowed": 120,
       "exportName": "kjseaMath2025",
       "fileName": "kjsea-math-2025.js"
+    },
+    {
+      "id": "kjsea-pretech-2025",
+      "title": "KJSEA 2025 Pre-Technical Studies",
+      "subject": "Pre-Technical Studies",
+      "year": "2025",
+      "isSubPaper": false,
+      "isParentPaper": true,
+      "durationMinutes": 90,
+      "timeAllowed": 90,
+      "exportName": "kjseaPretech2025",
+      "fileName": "kjsea-pretech-2025.json"
     },
     {
       "id": "kjsea-sst-2025",
@@ -454,15 +478,116 @@ export const PAST_PAPERS_META = {
       "subject": "Social Studies",
       "year": "2025",
       "isSubPaper": false,
-      "isParentPaper": false,
+      "isParentPaper": true,
       "durationMinutes": 90,
       "exportName": "kjseaSst2025",
       "fileName": "kjsea-sst-2025.js"
+    }
+,
+    {
+      "id": "kjsea-agric-nutrition-sectiona-2025",
+      "title": "KJSEA 2025 Agriculture & Nutrition (Section A)",
+      "subject": "Agriculture & Nutrition (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaAgricNutritionSectionA2025",
+      "fileName": "kjsea-agric-nutrition-sectiona-2025.js"
+    },
+    {
+      "id": "kjsea-agric-nutrition-sectionb-2025",
+      "title": "KJSEA 2025 Agriculture & Nutrition (Section B)",
+      "subject": "Agriculture & Nutrition (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaAgricNutritionSectionB2025",
+      "fileName": "kjsea-agric-nutrition-sectionb-2025.js"
+    },
+    {
+      "id": "kjsea-math-sectiona-2025",
+      "title": "KJSEA 2025 Mathematics (Section A)",
+      "subject": "Mathematics (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaMathSectionA2025",
+      "fileName": "kjsea-math-sectiona-2025.js"
+    },
+    {
+      "id": "kjsea-math-sectionb-2025",
+      "title": "KJSEA 2025 Mathematics (Section B)",
+      "subject": "Mathematics (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaMathSectionB2025",
+      "fileName": "kjsea-math-sectionb-2025.js"
+    },
+    {
+      "id": "kjsea-pretech-sectiona-2025",
+      "title": "KJSEA 2025 Pre-Technical Studies (Section A)",
+      "subject": "Pre-Technical Studies (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaPretechSectionA2025",
+      "fileName": "kjsea-pretech-sectiona-2025.js"
+    },
+    {
+      "id": "kjsea-pretech-sectionb-2025",
+      "title": "KJSEA 2025 Pre-Technical Studies (Section B)",
+      "subject": "Pre-Technical Studies (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaPretechSectionB2025",
+      "fileName": "kjsea-pretech-sectionb-2025.js"
+    },
+    {
+      "id": "kjsea-sst-sectiona-2025",
+      "title": "KJSEA 2025 Social Studies (Section A)",
+      "subject": "Social Studies (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaSstSectionA2025",
+      "fileName": "kjsea-sst-sectiona-2025.js"
+    },
+    {
+      "id": "kjsea-sst-sectionb-2025",
+      "title": "KJSEA 2025 Social Studies (Section B)",
+      "subject": "Social Studies (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaSstSectionB2025",
+      "fileName": "kjsea-sst-sectionb-2025.js"
     }
   ]
 };
 
 export const PAPER_FILE_MAP = {
+  "kjsea-agric-nutrition-2025": {
+    "fileName": "kjsea-agric-nutrition-2025.json",
+    "exportName": "kjseaAgricNutrition2025"
+  },
   "kjsea-english-2025": {
     "fileName": "kjsea-english-2025.js",
     "exportName": "kjseaEnglish2025"
@@ -474,6 +599,10 @@ export const PAPER_FILE_MAP = {
   "kjsea-math-2025": {
     "fileName": "kjsea-math-2025.js",
     "exportName": "kjseaMath2025"
+  },
+  "kjsea-pretech-2025": {
+    "fileName": "kjsea-pretech-2025.json",
+    "exportName": "kjseaPretech2025"
   },
   "kjsea-sst-2025": {
     "fileName": "kjsea-sst-2025.js",
@@ -622,5 +751,38 @@ export const PAPER_FILE_MAP = {
   "kpsea-sst-parta-2025": {
     "fileName": "kpsea-sst-parta-2025.js",
     "exportName": "kpseaSstParta2025"
+  }
+,
+  "kjsea-agric-nutrition-sectiona-2025": {
+    "fileName": "kjsea-agric-nutrition-sectiona-2025.js",
+    "exportName": "kjseaAgricNutritionSectionA2025"
+  },
+  "kjsea-agric-nutrition-sectionb-2025": {
+    "fileName": "kjsea-agric-nutrition-sectionb-2025.js",
+    "exportName": "kjseaAgricNutritionSectionB2025"
+  },
+  "kjsea-math-sectiona-2025": {
+    "fileName": "kjsea-math-sectiona-2025.js",
+    "exportName": "kjseaMathSectionA2025"
+  },
+  "kjsea-math-sectionb-2025": {
+    "fileName": "kjsea-math-sectionb-2025.js",
+    "exportName": "kjseaMathSectionB2025"
+  },
+  "kjsea-pretech-sectiona-2025": {
+    "fileName": "kjsea-pretech-sectiona-2025.js",
+    "exportName": "kjseaPretechSectionA2025"
+  },
+  "kjsea-pretech-sectionb-2025": {
+    "fileName": "kjsea-pretech-sectionb-2025.js",
+    "exportName": "kjseaPretechSectionB2025"
+  },
+  "kjsea-sst-sectiona-2025": {
+    "fileName": "kjsea-sst-sectiona-2025.js",
+    "exportName": "kjseaSstSectionA2025"
+  },
+  "kjsea-sst-sectionb-2025": {
+    "fileName": "kjsea-sst-sectionb-2025.js",
+    "exportName": "kjseaSstSectionB2025"
   }
 };

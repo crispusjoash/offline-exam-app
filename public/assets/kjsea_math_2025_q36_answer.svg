@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 450" width="100%" height="100%">
+  <style>
+    text { font-family: 'Times New Roman', Times, serif; font-size: 18px; fill: #000; }
+    .line-main { stroke: #000; stroke-width: 2.5; fill: none; }
+    .line-sight { stroke: #dc2626; stroke-width: 2; stroke-dasharray: 6,4; fill: none; }
+    .line-horiz { stroke: #2563eb; stroke-width: 2; stroke-dasharray: 6,4; fill: none; }
+    .arc { stroke: #2563eb; stroke-width: 1.5; fill: none; }
+    .arc-elev { stroke: #dc2626; stroke-width: 1.5; fill: none; }
+    .building { fill: #f1f5f9; stroke: #94a3b8; stroke-width: 2; }
+    .label { font-size: 20px; font-weight: bold; }
+    .measure { font-size: 16px; font-style: italic; fill: #555; }
+    .z-line { stroke: #10b981; stroke-width: 3; fill: none; opacity: 0.5; stroke-linecap: round; stroke-linejoin: round; }
+  </style>
+<rect x="50" y="100" width="100" height="250" class="building" />
+<text x="70" y="230" transform="rotate(-90, 70, 230)" class="measure">Building</text>
+<line x1="30" y1="350" x2="550" y2="350" class="line-main" />
+<line x1="150" y1="350" x2="150" y2="100" class="line-main" />
+<line x1="150" y1="100" x2="432" y2="350" class="line-sight" />
+<line x1="150" y1="100" x2="482" y2="100" class="line-horiz" />
+<polyline points="462,100 150,100 432,350 120,350" class="z-line" />
+<text x="350" y="240" fill="#10b981" font-size="14" font-weight="bold" transform="rotate(41.5, 350, 240)">Alternate Angles (Z-shape)</text>
+<path d="M 230 100 A 80 80 0 0 1 210 153" class="arc" />
+<text x="240" y="135" class="label" fill="#2563eb">35°</text>
+<text x="290" y="90" class="measure" fill="#2563eb">Angle of depression</text>
+<path d="M 352 350 A 80 80 0 0 1 372 297" class="arc-elev" />
+<text x="322" y="335" class="label" fill="#dc2626">35°</text>
+<text x="292" y="375" class="measure" fill="#dc2626">Angle of elevation</text>
+<circle cx="150" cy="100" r="4" fill="#000" />
+<text x="130" y="90" class="label">D</text>
+<circle cx="432" cy="350" r="4" fill="#000" />
+<text x="442" y="340" class="label">B (Ball)</text>
+<text x="291" y="370" class="measure">47 m</text>
+<text x="120" y="225" class="label">h</text>
+<text x="291" y="215" transform="rotate(41.5, 291, 215)" class="measure">Line of sight</text>
+<polyline points="150,335 165,335 165,350" fill="none" stroke="#000" stroke-width="1.5" />
+</svg>

@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 350 250">
+  <g stroke="#000" stroke-width="2" stroke-linejoin="round">
+    <!-- Stock Top Face -->
+    <polygon points="50,50 70,30 110,30 90,50" fill="#a1a1aa" />
+    
+    <!-- Stock Right Face (Above Blade) -->
+    <polygon points="90,50 110,30 110,50 90,70" fill="#71717a" />
+    
+    <!-- Blade Top Face -->
+    <polygon points="90,70 110,50 270,50 250,70" fill="#e2e8f0" />
+    
+    <!-- Blade Right Face -->
+    <polygon points="250,70 270,50 270,70 250,90" fill="#94a3b8" />
+    
+    <!-- Blade Bottom Face -->
+    <polygon points="90,90 110,70 270,70 250,90" fill="#cbd5e1" />
+    
+    <!-- Stock Right Face (Below Blade) -->
+    <polygon points="90,90 110,70 110,190 90,210" fill="#71717a" />
+    
+    <!-- Stock Bottom Face -->
+    <polygon points="50,210 70,190 110,190 90,210" fill="#52525b" />
+    
+    <!-- Front Face Stock -->
+    <rect x="50" y="50" width="40" height="160" fill="#d4d4d8" />
+    
+    <!-- Front Face Blade -->
+    <rect x="90" y="70" width="160" height="20" fill="#f8fafc" />
+    
+    <!-- Additional decorative lines for stock (e.g. rivets) -->
+    <circle cx="70" cy="80" r="3" fill="#000" />
+    <circle cx="70" cy="140" r="3" fill="#000" />
+    <circle cx="70" cy="180" r="3" fill="#000" />
+  </g>
+</svg>

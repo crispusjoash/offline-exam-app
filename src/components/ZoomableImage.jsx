@@ -1,11 +1,13 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { ZoomIn, ZoomOut } from 'lucide-react';
+import { useTheme } from '../App';
 
 const MAX_ZOOM = 8;
 
 export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = true, customFilter }) => {
   const [scale, setScale] = useState(1);
   const containerRef = useRef(null);
+  const { dark } = useTheme();
 
   const zoomIn = () => setScale(s => Math.min(parseFloat((s + 0.125).toFixed(3)), MAX_ZOOM));
   const zoomOut = () => setScale(s => Math.max(parseFloat((s - 0.125).toFixed(3)), 1));
@@ -26,33 +28,74 @@ export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = t
     setScale(1);
   }, [src]);
 
+  // Determine the image filter:
+  // - If customFilter is explicitly set (e.g. "none"), always use it
+  // - If scanEffect is on: in light mode → grayscale+contrast for B&W scan look
+  //                        in dark mode → invert+brightness for visibility without blinding white
+  // - Otherwise: no filter
+  let imageFilter = 'none';
+  if (customFilter !== undefined && customFilter !== null) {
+    imageFilter = customFilter;
+  } else if (scanEffect) {
+    if (dark) {
+      // In dark mode: slightly brighten and boost contrast rather than invert everything
+      imageFilter = 'brightness(0.92) contrast(1.15)';
+    } else {
+      imageFilter = 'grayscale(100%) contrast(160%) brightness(115%)';
+    }
+  }
+
+  // mixBlendMode: only use 'multiply' in light mode for scan effect (dark bg kills multiply)
+  const blendMode = scanEffect && !dark ? 'multiply' : 'normal';
+
   return (
     <div style={{ width: '100%', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
       {/* Controls */}
       <div style={{
         alignSelf: 'center',
         display: 'flex', gap: '0.2rem',
-        background: 'rgba(255,255,255,0.9)',
+        background: dark ? 'rgba(30,41,59,0.95)' : 'rgba(255,255,255,0.92)',
         padding: '0.2rem', borderRadius: '0.5rem',
-        border: '1px solid var(--border-bright)',
-        boxShadow: 'var(--shadow-sm)'
+        border: `1px solid var(--border-bright)`,
+        boxShadow: dark ? '0 2px 12px rgba(0,0,0,0.5)' : 'var(--shadow-sm)',
       }}>
         <button
           onClick={zoomOut}
           disabled={scale <= 1}
-          style={{ border: 'none', background: 'none', cursor: scale <= 1 ? 'default' : 'pointer', padding: '0.3rem 0.5rem', color: scale <= 1 ? 'var(--text-faint)' : 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem', fontSize: '0.72rem', fontWeight: '700' }}
+          style={{
+            border: 'none', background: 'none',
+            cursor: scale <= 1 ? 'default' : 'pointer',
+            padding: '0.3rem 0.5rem',
+            color: scale <= 1 ? 'var(--text-faint)' : 'var(--text)',
+            display: 'flex', alignItems: 'center', gap: '0.25rem',
+            fontSize: '0.72rem', fontWeight: '700',
+            borderRadius: '0.35rem',
+          }}
         >
           <ZoomOut size={16} />
         </button>
         <div style={{ width: '1px', background: 'var(--border-bright)', margin: '0.2rem 0' }} />
-        <span style={{ display: 'flex', alignItems: 'center', padding: '0 0.4rem', fontSize: '0.72rem', fontWeight: '700', color: 'var(--text-muted)', minWidth: '2.5rem', justifyContent: 'center' }}>
+        <span style={{
+          display: 'flex', alignItems: 'center',
+          padding: '0 0.4rem', fontSize: '0.72rem', fontWeight: '700',
+          color: 'var(--text-secondary)',
+          minWidth: '2.5rem', justifyContent: 'center',
+        }}>
           {Math.round(scale * 100)}%
         </span>
         <div style={{ width: '1px', background: 'var(--border-bright)', margin: '0.2rem 0' }} />
         <button
           onClick={zoomIn}
           disabled={scale >= MAX_ZOOM}
-          style={{ border: 'none', background: 'none', cursor: scale >= MAX_ZOOM ? 'default' : 'pointer', padding: '0.3rem 0.5rem', color: scale >= MAX_ZOOM ? 'var(--text-faint)' : 'var(--text-secondary)', display: 'flex', alignItems: 'center', gap: '0.25rem', fontSize: '0.72rem', fontWeight: '700' }}
+          style={{
+            border: 'none', background: 'none',
+            cursor: scale >= MAX_ZOOM ? 'default' : 'pointer',
+            padding: '0.3rem 0.5rem',
+            color: scale >= MAX_ZOOM ? 'var(--text-faint)' : 'var(--text)',
+            display: 'flex', alignItems: 'center', gap: '0.25rem',
+            fontSize: '0.72rem', fontWeight: '700',
+            borderRadius: '0.35rem',
+          }}
         >
           <ZoomIn size={16} />
         </button>
@@ -68,9 +111,9 @@ export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = t
           borderRadius: '0.5rem',
           transition: 'max-height 0.3s ease',
           boxSizing: 'border-box',
-          /* CRITICAL: use block layout (not flex) so the inner wrapper
-             can expand freely and scrollLeft/scrollTop work correctly
-             to reach ALL sides of the image */
+          // Subtle border in dark mode to frame the image
+          border: dark ? '1px solid var(--border)' : 'none',
+          background: dark ? 'var(--bg-muted)' : 'transparent',
         }}
       >
         {/* Inner wrapper — min-width ensures the container is wide enough
@@ -100,8 +143,8 @@ export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = t
               objectFit: 'contain',
               transition: 'height 0.2s ease, max-height 0.2s ease',
               borderRadius: '0.5rem',
-              filter: customFilter ? customFilter : (scanEffect ? 'grayscale(100%) contrast(160%) brightness(115%)' : 'none'),
-              mixBlendMode: scanEffect ? 'multiply' : 'normal',
+              filter: imageFilter,
+              mixBlendMode: blendMode,
             }}
           />
         </div>

@@ -67,9 +67,9 @@ export const SectionAReview = () => {
         setPaper(p);
         setLoading(false);
       })
-      .catch(e => {
-        console.error(e);
-        setError("Failed to load paper data.");
+      .catch(err => {
+        console.error("Error loading paper:", err);
+        setError("Failed to load paper data. Reason: " + err.message);
         setLoading(false);
       });
   }, [paperId]);
@@ -135,11 +135,11 @@ export const SectionAReview = () => {
             backdropFilter: 'blur(4px)',
           }}>
             <div>
-              <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '900', fontSize: '2.5rem', color: '#ffffff', lineHeight: 1 }}>{percent}<span style={{ fontSize: '1.2rem' }}>%</span></div>
+              <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '900', fontSize: '2.5rem', color: 'var(--bg-card)', lineHeight: 1 }}>{percent}<span style={{ fontSize: '1.2rem' }}>%</span></div>
             </div>
           </div>
 
-          <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '800', fontSize: '1.4rem', color: '#ffffff', marginBottom: '0.5rem' }}>{scoreLabel}</div>
+          <div style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '800', fontSize: '1.4rem', color: 'var(--bg-card)', marginBottom: '0.5rem' }}>{scoreLabel}</div>
 
           {/* Stats row */}
           <div style={{ display: 'flex', justifyContent: 'center', gap: '1.5rem', flexWrap: 'wrap', marginBottom: '1.75rem' }}>
@@ -163,7 +163,7 @@ export const SectionAReview = () => {
                 onClick={() => navigate(`/exam/${portal}/${paperId}/sectionB`)}
                 style={{
                   padding: '0.8rem 2rem',
-                  background: '#ffffff', border: 'none',
+                  background: 'var(--bg-card)', border: 'none',
                   borderRadius: '0.75rem', color: accentColor,
                   fontWeight: '800', fontSize: '0.95rem', cursor: 'pointer',
                   display: 'inline-flex', alignItems: 'center', gap: '0.5rem',
@@ -176,13 +176,13 @@ export const SectionAReview = () => {
               <>
                 <button
                   onClick={() => navigate(`/exam/${portal}/${paperId}`)}
-                  style={{ padding: '0.8rem 1.5rem', background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', borderRadius: '0.75rem', color: '#fff', fontWeight: '700', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', backdropFilter: 'blur(4px)' }}
+                  style={{ padding: '0.8rem 1.5rem', background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', borderRadius: '0.75rem', color: 'var(--bg-card)', fontWeight: '700', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', backdropFilter: 'blur(4px)' }}
                 >
                   <RotateCcw size={15} /> Retake
                 </button>
                 <button
                   onClick={() => navigate(`/papers/${portal}`)}
-                  style={{ padding: '0.8rem 1.5rem', background: '#ffffff', border: 'none', borderRadius: '0.75rem', color: accentColor, fontWeight: '700', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', boxShadow: '0 6px 20px rgba(0,0,0,0.15)' }}
+                  style={{ padding: '0.8rem 1.5rem', background: 'var(--bg-card)', border: 'none', borderRadius: '0.75rem', color: accentColor, fontWeight: '700', cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: '0.5rem', fontSize: '0.9rem', boxShadow: '0 6px 20px rgba(0,0,0,0.15)' }}
                 >
                   <Home size={15} /> All Papers
                 </button>
@@ -214,7 +214,7 @@ export const SectionAReview = () => {
             return (
               <div key={q.id} style={{ display: 'flex', flexDirection: 'column', height: '100%' }}>
                 <div style={{
-                  background: '#ffffff',
+                  background: 'var(--bg-card)',
                   border: `1.5px solid ${statusBorder}`,
                   borderRadius: '1.1rem',
                   overflow: 'hidden',
@@ -332,6 +332,11 @@ export const SectionAReview = () => {
                           <MathRenderer text={q.questionSuffix} />
                         </div>
                       )}
+                      {q.imagePath && (
+                        <div style={{ marginTop: '0.8rem', marginBottom: '0.5rem' }}>
+                          <ZoomableImage src={q.imagePath} alt={`Question ${q.questionNumber} image`} baseMaxHeight="20vh" customFilter={q.cssFilter} />
+                        </div>
+                      )}
                     </div>
                   </div>
 
@@ -392,7 +397,7 @@ export const SectionAReview = () => {
             onClick={() => navigate(`/exam/${portal}/${paperId}/results`)}
             style={{
               padding: '1rem 2rem',
-              background: '#ffffff',
+              background: 'var(--bg-card)',
               border: '2px solid var(--border)',
               borderRadius: '1rem',
               color: 'var(--text)',

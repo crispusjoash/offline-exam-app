@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 620">
+  <defs>
+    <!-- Arrowhead pointing IN to the circle (for outside arrows) -->
+    <marker id="arrow-in" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+    <!-- Arrowhead pointing OUT of the circle (for inside arrows) -->
+    <marker id="arrow-out" markerWidth="10" markerHeight="10" refX="9" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#000" />
+    </marker>
+  </defs>
+
+  <style>
+    .circ { fill: none; stroke: #000; stroke-width: 2.5; }
+    .dim { stroke: #000; stroke-width: 1.5; }
+    .txt { font-family: sans-serif; font-size: 16px; fill: #000; }
+    .label { font-family: serif; font-size: 28px; font-weight: bold; fill: #000; }
+  </style>
+
+  <!-- Option A -->
+  <text x="30" y="90" class="label">A</text>
+  <circle cx="120" cy="80" r="45" class="circ" />
+  <line x1="81" y1="102.5" x2="190" y2="39.5" class="dim" />
+  <text x="145" y="55" class="txt" transform="rotate(-30, 145, 55)">DIA 10</text>
+
+  <!-- Option B -->
+  <text x="30" y="240" class="label">B</text>
+  <circle cx="120" cy="230" r="45" class="circ" />
+  <line x1="50" y1="300" x2="88.2" y2="261.8" class="dim" marker-end="url(#arrow-in)" />
+  <line x1="180" y1="170" x2="151.8" y2="198.2" class="dim" marker-end="url(#arrow-in)" />
+  <line x1="88.2" y1="261.8" x2="151.8" y2="198.2" class="dim" />
+  <polyline points="180,170 210,170" class="dim" fill="none" />
+  <text x="182" y="165" class="txt">Ø10</text>
+
+  <!-- Option C -->
+  <text x="30" y="390" class="label">C</text>
+  <circle cx="120" cy="380" r="45" class="circ" />
+  <line x1="50" y1="450" x2="88.2" y2="411.8" class="dim" marker-end="url(#arrow-in)" />
+  <line x1="180" y1="320" x2="151.8" y2="348.2" class="dim" marker-end="url(#arrow-in)" />
+  <line x1="88.2" y1="411.8" x2="151.8" y2="348.2" class="dim" />
+  <text x="160" y="335" class="txt" transform="rotate(-45, 160, 335)">Ø10</text>
+
+  <!-- Option D -->
+  <text x="30" y="540" class="label">D</text>
+  <circle cx="120" cy="530" r="45" class="circ" />
+  <line x1="120" y1="530" x2="88.2" y2="561.8" class="dim" marker-end="url(#arrow-out)" />
+  <line x1="120" y1="530" x2="151.8" y2="498.2" class="dim" marker-end="url(#arrow-out)" />
+  <polyline points="120,530 160,570 210,570" class="dim" fill="none" />
+  <text x="175" y="565" class="txt">Ø10</text>
+</svg>

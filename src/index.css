@@ -85,6 +85,74 @@ img, video, svg, canvas { max-width: 100%; }
   --shadow-xl: 0 20px 48px -8px rgba(15, 23, 42, 0.18);
   --shadow-blue: 0 8px 24px rgba(37, 99, 235, 0.25);
   --shadow-purple: 0 8px 24px rgba(124, 58, 237, 0.25);
+
+  /* Sidebar */
+  --sidebar-bg: #ffffff;
+  --sidebar-border: #e2e8f0;
+  --sidebar-divider: #f1f5f9;
+  --nav-hover: #f1f5f9;
+  --nav-text: #334155;
+  --nav-muted: #94a3b8;
+}
+
+/* ── Dark Mode Variables ─────────────────────────────────────────────────── */
+html.dark {
+  /* Layered backgrounds — each step is distinctly lighter for clear hierarchy */
+  --bg: #0c1525;            /* deepest base — rich dark navy */
+  --bg-dark: #060e1a;       /* even deeper for backdrops/overlays */
+  --bg-card: #162032;       /* cards sit clearly above the base */
+  --bg-card-hover: #1e2e45; /* hover state — a noticeable but subtle lift */
+  --bg-muted: #1a2a3e;      /* muted/secondary surfaces — between base and card */
+
+  --text: #eef2f8;          /* softer than pure white — easier on eyes */
+  --text-secondary: #c8d6e8;
+  --text-muted: #8ba3be;
+  --text-faint: #5a7a96;
+
+  --border: #243348;
+  --border-bright: #2e4260;
+
+  /* Badge colours — slightly more saturated so they read against dark cards */
+  --blue-light: #162d52;
+  --purple-light: #231748;
+  --pink-light: #321224;
+  --green-light: #0d2819;
+  --amber-light: #261800;
+  --red-light: #280d0d;
+  --teal-light: #07202c;
+
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.4);
+  --shadow-md: 0 4px 20px -2px rgba(0, 0, 0, 0.5), 0 2px 6px -1px rgba(0, 0, 0, 0.3);
+  --shadow-lg: 0 12px 36px -4px rgba(0, 0, 0, 0.6), 0 4px 12px -2px rgba(0, 0, 0, 0.35);
+  --shadow-xl: 0 20px 48px -8px rgba(0, 0, 0, 0.7);
+
+  --sidebar-bg: #162032;
+  --sidebar-border: #243348;
+  --sidebar-divider: #1a2a3e;
+  --nav-hover: #1e2e45;
+  --nav-text: #c8d6e8;
+  --nav-muted: #5a7a96;
+}
+
+html.dark body {
+  background-image:
+    radial-gradient(at 0% 0%, rgba(37, 99, 235, 0.20) 0px, transparent 55%),
+    radial-gradient(at 100% 100%, rgba(124, 58, 237, 0.18) 0px, transparent 55%),
+    radial-gradient(at 50% 100%, rgba(14, 165, 233, 0.07) 0px, transparent 40%);
+}
+
+/* Smooth theme transition on all elements — exclude transform so animations aren't slowed */
+*, *::before, *::after {
+  transition: background-color 0.25s ease, border-color 0.25s ease, color 0.15s ease, box-shadow 0.25s ease;
+}
+
+/* Dark mode: explanation markdown bullet counters */
+html.dark .explanation-markdown ol li::before {
+  background: #1a3560;
+  color: #7eb8f7;
+}
+html.dark .explanation-markdown strong {
+  color: #eef2f8;
 }
 
 h1, h2, h3, h4, h5, h6 { font-family: 'Outfit', sans-serif; }
@@ -144,8 +212,8 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
   height: 100vh;
   position: sticky;
   top: 0;
-  background: #ffffff;
-  border-right: 1px solid #e2e8f0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
   overflow-y: auto;
   overflow-x: hidden;
   flex-shrink: 0;
@@ -161,8 +229,8 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
   left: 0;
   width: var(--sidebar-width);
   height: 100%;
-  background: #ffffff;
-  border-right: 1px solid #e2e8f0;
+  background: var(--sidebar-bg);
+  border-right: 1px solid var(--sidebar-border);
   box-shadow: 4px 0 24px rgba(15, 23, 42, 0.12);
   z-index: 200;
   overflow-y: auto;
@@ -205,10 +273,10 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
   position: sticky;
   top: 0;
   z-index: 30;
-  background: rgba(255, 255, 255, 0.95);
+  background: var(--sidebar-bg);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border-bottom: 1px solid #e2e8f0;
+  border-bottom: 1px solid var(--sidebar-border);
   padding: 0.6rem 1rem;
   align-items: center;
   justify-content: space-between;
@@ -222,6 +290,15 @@ button, a, [role="button"] { transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1); 
   width: 100%;
   overflow-x: hidden;
 }
+
+/* Desktop back button bar — shown on desktop, hidden on mobile */
+.desktop-back-bar {
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1.25rem 0;
+  background: transparent;
+}
+
 
 /* ─── Mobile Breakpoint ─── */
 @media (max-width: 900px) {

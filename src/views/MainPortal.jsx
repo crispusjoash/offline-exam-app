@@ -52,7 +52,7 @@ export const MainPortal = () => {
             </span>
           </h1>
 
-          <p style={{ fontSize: '0.9rem', color: '#94a3b8', lineHeight: 1.55, marginBottom: '1.1rem', maxWidth: '520px' }}>
+          <p style={{ fontSize: '0.9rem', color: 'var(--text-faint)', lineHeight: 1.55, marginBottom: '1.1rem', maxWidth: '520px' }}>
             Practice official past papers with instant auto-grading and step-by-step teacher explanations.
           </p>
 
@@ -76,10 +76,10 @@ export const MainPortal = () => {
       <div className="portal-content-grid">
         {/* ── Section Label ── */}
       <div style={{ marginBottom: '1rem' }}>
-        <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.2rem', fontWeight: '800', color: '#0f172a' }}>
+        <h2 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.2rem', fontWeight: '800', color: 'var(--text)' }}>
           Select Assessment Level
         </h2>
-        <p style={{ fontSize: '0.8rem', color: '#64748b', marginTop: '0.15rem' }}>
+        <p style={{ fontSize: '0.8rem', color: 'var(--text-muted)', marginTop: '0.15rem' }}>
           Choose your grade level to access past examination papers
         </p>
       </div>
@@ -154,7 +154,7 @@ export const MainPortal = () => {
           { icon: <ShieldCheck size={17} color="#059669" />, bg: '#ecfdf5', title: '100% Offline Practice', desc: 'No internet needed to write or review exams.' },
         ].map((feat, idx) => (
           <div key={idx} style={{
-            background: '#ffffff',
+            background: 'var(--bg-card)',
             border: '1px solid #e2e8f0',
             borderRadius: '0.9rem',
             padding: '1rem',
@@ -170,10 +170,10 @@ export const MainPortal = () => {
               {feat.icon}
             </div>
             <div style={{ minWidth: 0 }}>
-              <h4 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '0.88rem', color: '#0f172a', marginBottom: '0.15rem' }}>
+              <h4 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '0.88rem', color: 'var(--text)', marginBottom: '0.15rem' }}>
                 {feat.title}
               </h4>
-              <p style={{ fontSize: '0.76rem', color: '#64748b', lineHeight: 1.45 }}>
+              <p style={{ fontSize: '0.76rem', color: 'var(--text-muted)', lineHeight: 1.45 }}>
                 {feat.desc}
               </p>
             </div>
@@ -196,7 +196,7 @@ const PortalCard = ({ onClick, accentColor, gradient, shadowColor, hoverBorder, 
       onTouchStart={() => setHov(true)}
       onTouchEnd={() => setHov(false)}
       style={{
-        background: '#ffffff',
+        background: 'var(--bg-card)',
         borderRadius: '1.15rem',
         padding: '1.35rem',
         border: `1.5px solid ${hov ? hoverBorder : '#e2e8f0'}`,
@@ -232,19 +232,19 @@ const PortalCard = ({ onClick, accentColor, gradient, shadowColor, hoverBorder, 
         </span>
       </div>
 
-      <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.45rem', fontWeight: '800', color: '#0f172a', marginBottom: '0.2rem' }}>
+      <h3 style={{ fontFamily: 'Outfit, sans-serif', fontSize: '1.45rem', fontWeight: '800', color: 'var(--text)', marginBottom: '0.2rem' }}>
         {title}
       </h3>
       <p style={{ fontSize: '0.78rem', fontWeight: '600', color: subtitleColor, marginBottom: '0.6rem' }}>
         {subtitle}
       </p>
-      <p style={{ fontSize: '0.83rem', color: '#64748b', lineHeight: 1.5, marginBottom: '1rem', flex: 1 }}>
+      <p style={{ fontSize: '0.83rem', color: 'var(--text-muted)', lineHeight: 1.5, marginBottom: '1rem', flex: 1 }}>
         {desc}
       </p>
 
       <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
         {stats.map((s, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.74rem', color: '#475569', background: '#f8fafc', padding: '0.22rem 0.55rem', borderRadius: '0.45rem', border: '1px solid #e2e8f0' }}>
+          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.74rem', color: 'var(--text-secondary)', background: 'var(--bg-muted)', padding: '0.22rem 0.55rem', borderRadius: '0.45rem', border: '1px solid #e2e8f0' }}>
             {s.icon} {s.label}
           </div>
         ))}
@@ -259,7 +259,7 @@ const PortalCard = ({ onClick, accentColor, gradient, shadowColor, hoverBorder, 
         <div style={{
           width: '28px', height: '28px', borderRadius: '50%',
           background: actionColor, display: 'flex', alignItems: 'center', justifyContent: 'center',
-          color: '#ffffff', flexShrink: 0,
+          color: 'var(--bg-card)', flexShrink: 0,
         }}>
           <ArrowRight size={14} />
         </div>
