@@ -1,0 +1,489 @@
+{
+  "id": "kjsea-cre-sectiona-2025",
+  "title": "KJSEA 2025 Christian Religious Education (Section A)",
+  "subject": "Christian Religious Education (Section A)",
+  "sectionA": [
+    {
+      "id": "q1",
+      "questionNumber": 1,
+      "questionText": "There are many benefits of learning Christian Religious Education in school today. Which of the following is one of the benefits?",
+      "options": [
+        {
+          "text": "It helps learners to know their church leaders.",
+          "isCorrect": false
+        },
+        {
+          "text": "It makes parents buy CRE textbooks for learners.",
+          "isCorrect": false
+        },
+        {
+          "text": "It helps learners to grow spiritually.",
+          "isCorrect": true
+        },
+        {
+          "text": "It makes the parents of the learners happy.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\n**It helps learners to grow spiritually** because learning CRE equips learners with moral values, spiritual guidance, and a deeper understanding of God, which fosters spiritual growth.\n\n**Why Other Options Are Incorrect:**\n* **A, B, D:** Knowing church leaders, making parents buy textbooks, or making parents happy are not the core educational or spiritual objectives of learning CRE.\n\n📌 **Key Learning Note:**\nThe main goal of Christian Religious Education is to nurture learners morally and spiritually so they can live a Christ-like life."
+    },
+    {
+      "id": "q2",
+      "questionNumber": 2,
+      "questionText": "You read the Bible on the two accounts of creation in Genesis 1 and 2 and noted that they have similarities. One of the similarities is that",
+      "options": [
+        {
+          "text": "God gave human beings duties to perform",
+          "isCorrect": true
+        },
+        {
+          "text": "God chased human beings out of the Garden of Eden",
+          "isCorrect": false
+        },
+        {
+          "text": "human beings gave names to all the animals",
+          "isCorrect": false
+        },
+        {
+          "text": "human beings made clothes for themselves.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nIn both Genesis 1 and 2, **God gave human beings duties to perform**. In Genesis 1:28, they are told to rule over the earth, and in Genesis 2:15, man is put in the garden to work it and take care of it.\n\n**Why Other Options Are Incorrect:**\n* **B, C, D:** Chasing humans out of Eden and making clothes happened after the fall (Genesis 3). Giving names to animals is only detailed in the second account of creation (Genesis 2).\n\n📌 **Key Learning Note:**\nWork is ordained by God from the beginning; it is a shared theme in both creation accounts that humans are caretakers of God's creation."
+    },
+    {
+      "id": "q3",
+      "questionNumber": 3,
+      "questionText": "One way in which God showed his love for Adam and Eve after they ate the fruit from the tree in the middle of the garden was by",
+      "options": [
+        {
+          "text": "cursing the snake in the garden",
+          "isCorrect": false
+        },
+        {
+          "text": "putting a Cherubim to protect the garden",
+          "isCorrect": false
+        },
+        {
+          "text": "giving man power to rule over the woman",
+          "isCorrect": false
+        },
+        {
+          "text": "looking for them in the garden.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\n**Looking for them in the garden** showed God's love. Despite their disobedience, God went looking for Adam and Eve (Genesis 3:8-9), demonstrating His continuous love, care, and desire for fellowship with humanity even in their sin.\n\n**Why Other Options Are Incorrect:**\n* **A, B, C:** Cursing the snake, placing the Cherubim, and the power dynamic between man and woman were consequences or punishments of the fall, not direct demonstrations of God's love.\n\n📌 **Key Learning Note:**\nGod's love for humanity is unconditional; He seeks out sinners to restore His relationship with them."
+    },
+    {
+      "id": "q4",
+      "questionNumber": 4,
+      "questionText": "A resource person gave a talk to Grade 7 learners on ways of maintaining a healthy environment in the school. Which of the following is the best way to demonstrate what was learnt from the talk?",
+      "options": [
+        {
+          "text": "Reporting those who throw waste paper carelessly.",
+          "isCorrect": false
+        },
+        {
+          "text": "Collecting litter in the compound every day.",
+          "isCorrect": true
+        },
+        {
+          "text": "Reminding the classmates to take their cleaning duties seriously.",
+          "isCorrect": false
+        },
+        {
+          "text": "Avoiding stepping on the grass in the school compound.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\n**Collecting litter in the compound every day** is a practical and active way to maintain a healthy environment. It directly applies the knowledge learnt by taking responsibility for one's surroundings.\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** Reporting others, reminding classmates, or avoiding grass are passive actions or rely on others. Active participation like collecting litter is the best demonstration of environmental care.\n\n📌 **Key Learning Note:**\nChristian stewardship involves taking practical and personal action to care for God's creation and our immediate environment."
+    },
+    {
+      "id": "q5",
+      "questionNumber": 5,
+      "questionText": "The Bible has been translated into many languages from its original language. What was the original language of the Old testament?",
+      "options": [
+        {
+          "text": "Hebrew",
+          "isCorrect": true
+        },
+        {
+          "text": "Latin",
+          "isCorrect": false
+        },
+        {
+          "text": "English",
+          "isCorrect": false
+        },
+        {
+          "text": "Greek",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nThe original language of the Old Testament was predominantly **Hebrew** (with a few short passages in Aramaic), as it was the language of the Israelites to whom the scriptures were given.\n\n**Why Other Options Are Incorrect:**\n* **B, C:** Latin and English are later translations (e.g., the Vulgate and King James versions).\n* **D:** Greek was the original language of the New Testament, not the Old Testament.\n\n📌 **Key Learning Note:**\nThe Bible was originally written in Hebrew (Old Testament) and Greek (New Testament) before being translated into many languages to spread the Gospel."
+    },
+    {
+      "id": "q6",
+      "questionNumber": 6,
+      "questionText": "The following are ways in which Christians can make good use of the Bible except to",
+      "options": [
+        {
+          "text": "accumulate riches",
+          "isCorrect": true
+        },
+        {
+          "text": "live a Christian life",
+          "isCorrect": false
+        },
+        {
+          "text": "guide new converts",
+          "isCorrect": false
+        },
+        {
+          "text": "form new churches.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nThe Bible is not intended to be used as a means to **accumulate riches** or material wealth. Using it for personal financial gain goes against its spiritual purpose.\n\n**Why Other Options Are Incorrect:**\n* **B, C, D:** The Bible is perfectly intended for guiding Christians to live a holy life, discipling new converts, and establishing and guiding churches.\n\n📌 **Key Learning Note:**\nThe Word of God is given for teaching, rebuking, correcting, and training in righteousness, not for selfish material gain."
+    },
+    {
+      "id": "q7",
+      "questionNumber": 7,
+      "questionText": "A lesson that Christians learn from the leadership of Deborah as a Judge in Israel is that they should",
+      "options": [
+        {
+          "text": "fight their enemies",
+          "isCorrect": false
+        },
+        {
+          "text": "be courageous in their undertakings",
+          "isCorrect": true
+        },
+        {
+          "text": "make themselves famous",
+          "isCorrect": false
+        },
+        {
+          "text": "reward the people who work hard.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nDeborah demonstrated immense faith in God, which teaches Christians to **be courageous in their undertakings**. She commanded Barak to fight the Canaanites and bravely accompanied him to the battlefield.\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** While fighting occurred, the spiritual lesson is courage, not violence. Seeking fame or giving earthly rewards were not the core motives of Deborah's God-ordained leadership.\n\n📌 **Key Learning Note:**\nTrue leadership requires faith and courage, trusting that God will grant victory in difficult situations."
+    },
+    {
+      "id": "q8",
+      "questionNumber": 8,
+      "questionText": "King Solomon was a great leader in Israel. However, God was displeased with him towards the end of his rule. The main reason for this was because he",
+      "options": [
+        {
+          "text": "built his own palace for 13 years",
+          "isCorrect": false
+        },
+        {
+          "text": "allowed the worship of foreign gods in Israel",
+          "isCorrect": true
+        },
+        {
+          "text": "sold part of Israel's land to settle his debts",
+          "isCorrect": false
+        },
+        {
+          "text": "introduced forced labour in Israel.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nGod was displeased with Solomon primarily because he **allowed the worship of foreign gods in Israel**. His many foreign wives turned his heart away from God, leading to idolatry.\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** While Solomon's heavy taxation, forced labor, and extravagance caused political unrest, his greatest spiritual failure and the main reason for God's anger was his idolatry.\n\n📌 **Key Learning Note:**\nIdolatry (worshipping other gods) is a grave sin that separates leaders and their people from the one true God."
+    },
+    {
+      "id": "q9",
+      "questionNumber": 9,
+      "questionText": "Jesus used the parable of the lost sheep to teach his audience. The main lesson that Christians learn from this parable is to",
+      "options": [
+        {
+          "text": "take good care of their God-given property",
+          "isCorrect": false
+        },
+        {
+          "text": "seek the people lost in sin",
+          "isCorrect": true
+        },
+        {
+          "text": "employ good servants to care for their sheep",
+          "isCorrect": false
+        },
+        {
+          "text": "avoid keeping many sheep.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\nThe main spiritual lesson of the parable is to **seek the people lost in sin**. Just as the shepherd leaves the 99 to find the 1 lost sheep, Christians are called to actively reach out to sinners and bring them back to God.\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** These options interpret the parable literally as an agricultural lesson about sheep farming and property management, completely missing the spiritual meaning.\n\n📌 **Key Learning Note:**\nGod rejoices greatly when even one sinner repents, and Christians should share in this mission of seeking the lost."
+    },
+    {
+      "id": "q10",
+      "questionNumber": 10,
+      "questionText": "During his earthly ministry, Jesus performed many miracles. Which of the following miracles teaches Christians to be thankful?",
+      "options": [
+        {
+          "text": "Healing of the ten lepers.",
+          "isCorrect": true
+        },
+        {
+          "text": "Feeding of the five thousand.",
+          "isCorrect": false
+        },
+        {
+          "text": "Raising of Lazarus to life.",
+          "isCorrect": false
+        },
+        {
+          "text": "Calming of the storm.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nThe **healing of the ten lepers** teaches thankfulness. Jesus healed ten men of leprosy, but only one (a Samaritan) returned to praise God and thank Jesus, highlighting the rarity and importance of gratitude.\n\n**Why Other Options Are Incorrect:**\n* **B, C, D:** Feeding the 5000 teaches God's provision; raising Lazarus teaches Jesus' power over death; calming the storm teaches faith and Jesus' power over nature.\n\n📌 **Key Learning Note:**\nChristians must always remember to return and give thanks to God for His blessings and deliverance."
+    },
+    {
+      "id": "q11",
+      "questionNumber": 11,
+      "questionText": "After Jesus entered Jerusalem, he went to the temple and cleansed it because",
+      "options": [
+        {
+          "text": "he was requested by the religious leaders to do so",
+          "isCorrect": false
+        },
+        {
+          "text": "people had stopped cleaning the temple",
+          "isCorrect": false
+        },
+        {
+          "text": "it was being misused by the people",
+          "isCorrect": true
+        },
+        {
+          "text": "he was requested by his followers to do so.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nJesus cleansed the temple because **it was being misused by the people**. Merchants and money changers had turned God's 'house of prayer' into a 'den of thieves' by conducting dishonest business there.\n\n**Why Other Options Are Incorrect:**\n* **A, D:** Jesus acted out of His own righteous anger and zeal for His Father's house, not because anyone requested Him to do so.\n* **B:** The cleansing was about spiritual purity and removing corruption, not physical dirt.\n\n📌 **Key Learning Note:**\nPlaces of worship are holy and should be respected and used solely for connecting with God, not for exploitation."
+    },
+    {
+      "id": "q12",
+      "questionNumber": 12,
+      "questionText": "\"This is my body which is given for you\" (Luke 22:19). When did Jesus speak these words to his disciples?",
+      "options": [
+        {
+          "text": "When he was praying on Mount Olives.",
+          "isCorrect": false
+        },
+        {
+          "text": "During his crucifixion.",
+          "isCorrect": false
+        },
+        {
+          "text": "When he was in the house of Zaccheaus.",
+          "isCorrect": false
+        },
+        {
+          "text": "During the Last Supper.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nJesus spoke these words **during the Last Supper**. He broke bread and gave it to His disciples, establishing the Holy Communion to symbolize His body which would be sacrificed for humanity.\n\n**Why Other Options Are Incorrect:**\n* **A, B, C:** Jesus did not institute the Lord's Supper on Mount Olives, on the cross, or at Zacchaeus's house.\n\n📌 **Key Learning Note:**\nThe Holy Communion is a vital Christian sacrament instituted by Jesus to help believers remember His sacrificial death."
+    },
+    {
+      "id": "q13",
+      "questionNumber": 13,
+      "questionText": "According to the teachings of Jesus on prayer, Christians learn that they should",
+      "options": [
+        {
+          "text": "pray on mountains",
+          "isCorrect": false
+        },
+        {
+          "text": "make long prayers daily",
+          "isCorrect": false
+        },
+        {
+          "text": "have faith when praying",
+          "isCorrect": true
+        },
+        {
+          "text": "pray in a loud voice.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nJesus emphasized that Christians should **have faith when praying**. He taught that whatever you ask for in prayer, believe that you have received it, and it will be yours.\n\n**Why Other Options Are Incorrect:**\n* **A, B, D:** Jesus warned against praying loudly or making long, showy prayers just to be seen by others. While He prayed on mountains, it is not a requirement for prayer.\n\n📌 **Key Learning Note:**\nSincerity, humility, and unwavering faith are the most important elements of effective prayer."
+    },
+    {
+      "id": "q14",
+      "questionNumber": 14,
+      "questionText": "Who among the following apostles of the Early Church healed a lame man at the Beautiful Gate of the temple?",
+      "options": [
+        {
+          "text": "James",
+          "isCorrect": false
+        },
+        {
+          "text": "Peter",
+          "isCorrect": true
+        },
+        {
+          "text": "Andrew",
+          "isCorrect": false
+        },
+        {
+          "text": "Philip",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\n**Peter**, accompanied by John, healed the lame man at the Beautiful Gate of the temple. Peter told him, 'Silver or gold I do not have, but what I do have I give you. In the name of Jesus Christ... walk' (Acts 3:6).\n\n**Why Other Options Are Incorrect:**\n* **A, C, D:** While James, Andrew, and Philip were apostles, the specific miracle at the Beautiful Gate was performed through Peter.\n\n📌 **Key Learning Note:**\nThe early apostles performed miracles by the authority and power of the name of Jesus Christ, not their own power."
+    },
+    {
+      "id": "q15",
+      "questionNumber": 15,
+      "questionText": "You are asked to use examples to show the differences between the gifts and fruits of the Holy Spirit. Select the option that only contains the gifts of the Holy Spirit.",
+      "options": [
+        {
+          "text": "Peace, Self-control",
+          "isCorrect": false
+        },
+        {
+          "text": "Knowledge, Wisdom",
+          "isCorrect": true
+        },
+        {
+          "text": "Patience, Prophecy",
+          "isCorrect": false
+        },
+        {
+          "text": "Healing, Goodness",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **B**.\n\n**Analysis of the Correct Answer:**\n**Knowledge and Wisdom** are both spiritual gifts given by the Holy Spirit to empower believers for service (1 Corinthians 12).\n\n**Why Other Options Are Incorrect:**\n* **A:** Peace and self-control are fruits of the Holy Spirit (Galatians 5:22).\n* **C:** Patience is a fruit, while prophecy is a gift.\n* **D:** Healing is a gift, but goodness is a fruit.\n\n📌 **Key Learning Note:**\nGifts of the Holy Spirit are abilities given for ministry (like healing, wisdom), while fruits of the Holy Spirit are Christ-like character traits (like love, joy, peace)."
+    },
+    {
+      "id": "q16",
+      "questionNumber": 16,
+      "questionText": "Grade 9 learners discussed the consequences of early marriage. One of the consequences likely to have been discussed is that it",
+      "options": [
+        {
+          "text": "reduces wealth for the man's family",
+          "isCorrect": false
+        },
+        {
+          "text": "prevents cases of single parenthood",
+          "isCorrect": false
+        },
+        {
+          "text": "expands family relationships",
+          "isCorrect": false
+        },
+        {
+          "text": "increases chances of school drop outs.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nOne of the major negative consequences of early marriage is that it **increases chances of school drop outs**, denying the young person their right to education and limiting their future opportunities.\n\n**Why Other Options Are Incorrect:**\n* **A, C:** Early marriage is often wrongly driven by the desire for wealth (dowry) and family expansion, but these are cultural drivers, not the adverse consequences discussed in education.\n* **B:** It often leads to broken families, not the prevention of single parenthood.\n\n📌 **Key Learning Note:**\nEducation is a fundamental right, and early marriage severely harms the academic and social development of a child."
+    },
+    {
+      "id": "q17",
+      "questionNumber": 17,
+      "questionText": "You attended a church service where the sermon was on the story of Paul and Silas in jail. From the sermon, what is the main lesson you learnt as a Christian?",
+      "options": [
+        {
+          "text": "To cast out evil spirits from people.",
+          "isCorrect": false
+        },
+        {
+          "text": "To speak the truth at all times.",
+          "isCorrect": false
+        },
+        {
+          "text": "To endure suffering for the sake of Christ.",
+          "isCorrect": true
+        },
+        {
+          "text": "To cooperate with others in serving God.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\nThe main lesson from Paul and Silas singing hymns while chained in a Philippian jail is to **endure suffering for the sake of Christ**. They chose to praise God rather than despair in their persecution.\n\n**Why Other Options Are Incorrect:**\n* **A, B, D:** While Paul did cast out a spirit earlier in the story, the primary lesson of their reaction in the jail cell itself is endurance and praising God in adversity.\n\n📌 **Key Learning Note:**\nChristians should remain joyful and faithful to God even when facing severe hardships or persecution."
+    },
+    {
+      "id": "q18",
+      "questionNumber": 18,
+      "questionText": "You conducted a library search on healthy family relationships. Which of the following is the best practice to observe to maintain a healthy Christian family?",
+      "options": [
+        {
+          "text": "Solving conflicts peacefully.",
+          "isCorrect": true
+        },
+        {
+          "text": "Family members working to get wealth.",
+          "isCorrect": false
+        },
+        {
+          "text": "Taking children to school.",
+          "isCorrect": false
+        },
+        {
+          "text": "Buying food for the family.",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **A**.\n\n**Analysis of the Correct Answer:**\nA healthy relationship relies on emotional and spiritual well-being. **Solving conflicts peacefully** fosters love, understanding, and unity, which are the foundations of a Christian family.\n\n**Why Other Options Are Incorrect:**\n* **B, C, D:** Providing food, education, and earning money are important parental duties for physical provision, but peaceful conflict resolution is what specifically maintains relational health.\n\n📌 **Key Learning Note:**\nLove, forgiveness, and peaceful communication are essential for a strong, healthy Christian family."
+    },
+    {
+      "id": "q19",
+      "questionNumber": 19,
+      "questionText": "There are many leisure activities that individuals engage in today. Which of the following leisure activities is common in both the Christian and secular world?",
+      "options": [
+        {
+          "text": "Gambling",
+          "isCorrect": false
+        },
+        {
+          "text": "Prayer retreats",
+          "isCorrect": false
+        },
+        {
+          "text": "Sports",
+          "isCorrect": true
+        },
+        {
+          "text": "Attending discos",
+          "isCorrect": false
+        }
+      ],
+      "explanation": "The correct answer is **C**.\n\n**Analysis of the Correct Answer:**\n**Sports** is a universally positive, healthy leisure activity that promotes physical fitness and teamwork, making it common and acceptable in both the Christian and secular world.\n\n**Why Other Options Are Incorrect:**\n* **A, D:** Gambling and attending discos are generally considered secular activities that are discouraged in Christian teachings.\n* **B:** Prayer retreats are almost exclusively a Christian/religious activity.\n\n📌 **Key Learning Note:**\nChristians should engage in constructive leisure activities that promote physical and mental well-being without compromising their moral values."
+    },
+    {
+      "id": "q20",
+      "questionNumber": 20,
+      "questionText": "Your class brainstormed on the electronic gadgets that are found both at home and in school. From the gadgets they mentioned, select one that is most suitable for learning CRE at home.",
+      "options": [
+        {
+          "text": "Microphone.",
+          "isCorrect": false
+        },
+        {
+          "text": "Projector.",
+          "isCorrect": false
+        },
+        {
+          "text": "Amplifier.",
+          "isCorrect": false
+        },
+        {
+          "text": "Mobile phone.",
+          "isCorrect": true
+        }
+      ],
+      "explanation": "The correct answer is **D**.\n\n**Analysis of the Correct Answer:**\nA **mobile phone** (smartphone) is highly suitable for learning CRE at home because a learner can use it to access digital Bibles, research religious topics on the internet, and use educational apps.\n\n**Why Other Options Are Incorrect:**\n* **A, B, C:** Microphones, projectors, and amplifiers are presentation and public address tools, usually used in schools or churches, not for individual home study.\n\n📌 **Key Learning Note:**\nModern technology, when used responsibly, can be a powerful tool for personal education and spiritual growth at home."
+    }
+  ],
+  "sectionB": [],
+  "sharedContexts": {}
+}

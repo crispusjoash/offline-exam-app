@@ -391,8 +391,8 @@ export const SectionAReview = () => {
         })}
         </div>
 
-        {/* ── Close Review Button ── */}
-        <div style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'center' }}>
+        {/* ── Action Buttons ── */}
+        <div style={{ marginTop: '2.5rem', display: 'flex', justifyContent: 'center', gap: '1rem', flexWrap: 'wrap' }}>
           <button
             onClick={() => navigate(`/exam/${portal}/${paperId}/results`)}
             style={{
@@ -415,6 +415,32 @@ export const SectionAReview = () => {
           >
             Close Review
           </button>
+          
+          {paperId.includes('sectiona') && (
+            <button
+              onClick={() => navigate(`/exam/${portal}/${paperId.replace('sectiona', 'sectionb')}`)}
+              style={{
+                padding: '1rem 2rem',
+                background: accentColor,
+                border: 'none',
+                borderRadius: '1rem',
+                color: 'white',
+                fontWeight: '700',
+                fontSize: '1rem',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '0.6rem',
+                boxShadow: 'var(--shadow-md)',
+                transition: 'all 0.2s',
+              }}
+              onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-2px)'}
+              onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}
+            >
+              Proceed to Section B
+              <ArrowRight size={20} />
+            </button>
+          )}
         </div>
       </div>
     </div>

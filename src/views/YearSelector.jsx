@@ -1,4 +1,4 @@
-﻿import React, { useState } from 'react';
+import React, { useState } from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import { Calendar, ChevronRight, BookOpen, Layers, CheckCircle2 } from 'lucide-react';
 import { PAST_PAPERS } from '../data/pastPapers';
@@ -72,7 +72,7 @@ export const YearSelector = () => {
         ) : (
           <div style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fill, minmax(260px, 1fr))', gap: '1.25rem' }}>
             {availableYears.map((year) => {
-              const paperCount = papers.filter(p => p.year === year).length;
+              const paperCount = papers.filter(p => p.year === year && !p.isSubPaper).length;
               const isHov = hoveredId === year;
 
               return (

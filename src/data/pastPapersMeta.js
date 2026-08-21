@@ -580,6 +580,75 @@ export const PAST_PAPERS_META = {
       "exportName": "kjseaSstSectionB2025",
       "fileName": "kjsea-sst-sectionb-2025.js"
     }
+,
+    {
+      "id": "kjsea-cre-sectiona-2025",
+      "title": "KJSEA 2025 Christian Religious Education (Section A)",
+      "subject": "Christian Religious Education (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaCreSectionA2025",
+      "fileName": "kjsea-cre-sectiona-2025.json"
+    },
+    {
+      "id": "kjsea-cre-sectionb-2025",
+      "title": "KJSEA 2025 Christian Religious Education (Section B)",
+      "subject": "Christian Religious Education (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaCreSectionB2025",
+      "fileName": "kjsea-cre-sectionb-2025.json"
+    },
+    {
+      "id": "kjsea-cre-2025",
+      "title": "KJSEA 2025 Christian Religious Education",
+      "subject": "Christian Religious Education",
+      "year": "2025",
+      "isSubPaper": false,
+      "isParentPaper": true,
+      "durationMinutes": 60,
+      "timeAllowed": 60
+    },
+    {
+      "id": "kjsea-science-sectiona-2025",
+      "title": "KJSEA 2025 Integrated Science (Section A)",
+      "subject": "Integrated Science (Section A)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaScienceSectionA2025",
+      "fileName": "kjsea-science-sectiona-2025.json"
+    },
+    {
+      "id": "kjsea-science-sectionb-2025",
+      "title": "KJSEA 2025 Integrated Science (Section B)",
+      "subject": "Integrated Science (Section B)",
+      "year": "2025",
+      "isSubPaper": true,
+      "isParentPaper": false,
+      "durationMinutes": 60,
+      "timeAllowed": 60,
+      "exportName": "kjseaScienceSectionB2025",
+      "fileName": "kjsea-science-sectionb-2025.json"
+    },
+    {
+      "id": "kjsea-science-2025",
+      "title": "KJSEA 2025 Integrated Science",
+      "subject": "Integrated Science",
+      "year": "2025",
+      "isSubPaper": false,
+      "isParentPaper": true,
+      "durationMinutes": 60,
+      "timeAllowed": 60
+    }
   ]
 };
 
@@ -784,5 +853,22 @@ export const PAPER_FILE_MAP = {
   "kjsea-sst-sectionb-2025": {
     "fileName": "kjsea-sst-sectionb-2025.js",
     "exportName": "kjseaSstSectionB2025"
+  }
+,
+  "kjsea-cre-sectiona-2025": {
+    "fileName": "kjsea-cre-sectiona-2025.json",
+    "exportName": "kjseaCreSectionA2025"
+  },
+  "kjsea-cre-sectionb-2025": {
+    "fileName": "kjsea-cre-sectionb-2025.json",
+    "exportName": "kjseaCreSectionB2025"
+  },
+  "kjsea-science-sectiona-2025": {
+    "fileName": "kjsea-science-sectiona-2025.json",
+    "exportName": "kjseaScienceSectionA2025"
+  },
+  "kjsea-science-sectionb-2025": {
+    "fileName": "kjsea-science-sectionb-2025.json",
+    "exportName": "kjseaScienceSectionB2025"
   }
 };
