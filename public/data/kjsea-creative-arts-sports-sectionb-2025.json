@@ -1,0 +1,336 @@
+{
+  "id": "kjsea-creative-arts-sports-sectionb-2025",
+  "title": "KJSEA 2025 Creative Arts & Sports (Section B)",
+  "portal": "KJSEA",
+  "subject": "Creative Arts and Sports",
+  "year": 2025,
+  "timeAllowed": 60,
+  "sectionA": [],
+  "sectionB": [
+    {
+      "id": "q41",
+      "questionNumber": 41,
+      "parentQuestionText": "PART I: PERFORMING ARTS\n\nAnswer all questions in this part in the spaces provided.\n\nUsing semi-breves, write the ascending scale of F major without key signature on treble staff.",
+      "subQuestions": [
+        {
+          "id": "q41a",
+          "questionText": "Using semi-breves, write the ascending scale of F major without key signature on treble staff.",
+          "questionType": "drawing",
+          "maxScore": 4,
+          "modelAnswer": "/assets/kjsea_cas_2025_q41_model.svg",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 4 marks for completely correct scale. Deduct marks for missing B flat, incorrect note positions, or wrong note types."
+        }
+      ]
+    },
+    {
+      "id": "q42",
+      "questionNumber": 42,
+      "subQuestions": [
+        {
+          "id": "q42a",
+          "questionText": "Complete the following melody by adding an answering phrase to make a four-bar melody.",
+          "questionType": "drawing",
+          "maxScore": 4,
+          "modelAnswer": "/assets/kjsea_cas_2025_q42_model.svg",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award up to 4 marks for a musically logical answering phrase that fits the time signature and resolves correctly.",
+          "subNumber": "(a)"
+        }
+      ],
+      "imagePath": "/assets/kjsea_cas_2025_q42.png"
+    },
+    {
+      "id": "q43",
+      "questionNumber": 43,
+      "subQuestions": [
+        {
+          "id": "q43ai",
+          "questionText": "What is the meaning of the following sign as used in the music?\n$\\boldsymbol{mf}$",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable meanings for $\\boldsymbol{mf}$:\n\n1. Mezzo-forte\n2. Moderately loud\n3. Medium loud\n4. Half loud\n5. Fairly loud",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correct definition (Max 1 mark).",
+          "subNumber": "(a)(i)"
+        },
+        {
+          "id": "q43aii",
+          "questionText": "What is the meaning of the following sign as used in the music?\n$\\boldsymbol{p}$",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable meanings for $\\boldsymbol{p}$:\n\n1. Piano\n2. Soft\n3. Quiet\n4. Softly\n5. Gently",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correct definition (Max 1 mark).",
+          "subNumber": "(a)(ii)"
+        },
+        {
+          "id": "q43aiii",
+          "questionText": "What is the meaning of the following sign as used in the music?\n$\\boldsymbol{||: \\quad :||}$",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable meanings for $\\boldsymbol{||: \\quad :||}$:\n\n1. Repeat marks\n2. Repeat the music enclosed within the signs\n3. Go back and play the section again\n4. Repeat section\n5. Play twice",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correct definition (Max 1 mark).",
+          "subNumber": "(a)(iii)"
+        },
+        {
+          "id": "q43a_ii",
+          "questionText": "Identify two bars with exact repetition.",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable answers for bars with exact repetition:\n\n1. Bars 1 and 2\n2. Bars 5 and 6\n3. Bars 9 and 10 (depending on the arrangement)\n*(Accept any two bars that are visually and musically identical in the provided score)*",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly identifying two bars with exact repetition (Max 1 mark).",
+          "subNumber": "(a)(ii)"
+        },
+        {
+          "id": "q43a_iii",
+          "questionText": "What is the lowest pitch in the music?",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable answers for the lowest pitch:\n\n1. Middle C\n2. C4\n3. Doh (if in key of C major)\n4. C natural",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly identifying the lowest pitch (Max 1 mark).",
+          "subNumber": "(a)(iii)"
+        },
+        {
+          "id": "q43b_i",
+          "questionText": "Outline three roles of music during a football match.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable roles of music during a football match:\n\n1. **Motivation:** To encourage and boost the morale of the players on the field.\n2. **Entertainment:** To entertain the spectators before the match, during halftime, or after the match.\n3. **Intimidation:** Loud chants and songs used to intimidate or psych out the opposing team.\n4. **Unity/Identity:** Singing club anthems or national anthems fosters a sense of belonging and solidarity among fans.\n5. **Celebration:** To celebrate goals, victories, or lifting a trophy.\n6. **Atmosphere:** To create a lively, vibrant, and festive stadium atmosphere.\n7. **Communication:** Fans use specific chants to communicate with the referee (expressing dissatisfaction) or players.\n8. **Cultural Expression:** To display the cultural heritage of the home team or country.\n9. **Pacing:** Drum beats help coordinate the rhythmic clapping or dancing of the fans.\n10. **Commercial:** Playing sponsor jingles or walk-out music to build anticipation.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid role outlined (Max 3 marks).",
+          "subNumber": "(b)(i)"
+        },
+        {
+          "id": "q43b_ii",
+          "questionText": "A soloist enjoys freedom in a performance of a traditional dance. Identify two ways in which they exercise this freedom.",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable ways a soloist exercises freedom in a traditional dance:\n\n1. **Improvisation of Lyrics:** Making up words spontaneously to praise an individual or fit the occasion.\n2. **Melodic Variation:** Changing the tune, pitch, or adding vocal ornaments (ululations) freely.\n3. **Movement/Dancing:** Moving freely around the stage, dancing differently from the rest of the choir.\n4. **Tempo Control:** Dictating how fast or slow the song goes, prompting the instrumentalists to follow.\n5. **Call and Response:** Deciding when to cue the choir (response) and how long their solo section lasts.\n6. **Audience Interaction:** Stepping out to interact, sing to, or dance with specific audience members.\n7. **Costume and Props:** Sometimes wearing a distinct costume or carrying a special prop (like a fly whisk or spear) that they use freely.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid way identified (Max 2 marks).",
+          "subNumber": "(b)(ii)"
+        }
+      ],
+      "parentQuestionText": "Study the music below and answer the questions that follow.\n*Bobby Shaftoe*",
+      "imagePath": "/assets/kjsea_cas_2025_q43.png"
+    },
+    {
+      "id": "q44",
+      "questionNumber": 44,
+      "subQuestions": [
+        {
+          "id": "q44a",
+          "questionText": "State three aspects that need to be brought out at the beginning of the plot in a story.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable aspects that need to be brought out at the beginning (exposition) of a story's plot:\n\n1. **Setting (Time):** When the story takes place (e.g., \"A long time ago\", specific year).\n2. **Setting (Place):** Where the story is located (e.g., a village, a forest, a city).\n3. **Characters:** Introduction of the main characters (protagonist) and their basic traits.\n4. **Mood/Atmosphere:** Establishing the emotional tone of the story (e.g., spooky, cheerful, tense).\n5. **The Inciting Incident:** The initial problem or conflict that sets the story in motion.\n6. **Background Information:** Context about the society, rules, or situation the characters live in.\n7. **Point of View:** Establishing who is telling the story (first person, third person).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid aspect stated (Max 3 marks).",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q44b",
+          "questionText": "Outline three reasons why it is important to engage in vocal and physical warm up activities before performing a play.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable reasons for engaging in vocal and physical warm-ups before a play:\n\n1. **Prevent Physical Injury:** Loosens up muscles and joints, preventing strains or sprains during active scenes.\n2. **Prevent Vocal Cord Strain:** Warms up the vocal cords to prevent hoarseness, damage, or losing one's voice.\n3. **Improve Vocal Projection:** Helps actors breathe deeply and project their voices to reach the back of the audience.\n4. **Enhance Articulation:** Exercises the lips, jaw, and tongue for clear, understandable diction.\n5. **Reduce Stage Fright:** Calms the nerves, releases adrenaline, and relaxes the actor.\n6. **Build Mental Focus:** Helps actors concentrate, get into character, and leave outside distractions behind.\n7. **Increase Flexibility/Agility:** Prepares the body for quick, expressive, or exaggerated theatrical movements.\n8. **Ensemble Building:** Group warm-ups build teamwork, trust, and synchronicity among the cast.\n9. **Clear the Throat:** Helps clear mucus and ensures smooth vocal delivery.\n10. **Breath Control:** Engages the diaphragm for sustained speaking without running out of breath.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid reason outlined (Max 3 marks).",
+          "subNumber": "(b)"
+        }
+      ]
+    },
+    {
+      "id": "q45",
+      "questionNumber": 45,
+      "parentQuestionText": "PART II: SPORTS\nAnswer questions 45, 46, 47 and either question 48 or 49 in the spaces provided.\n\nGrade 7 learners discussed strength component of physical fitness. Identify four activities that can help to develop strength that they may have discussed.",
+      "subQuestions": [
+        {
+          "id": "q45",
+          "questionText": "",
+          "questionType": "structured",
+          "maxScore": 4,
+          "modelAnswer": "Here is a list of acceptable activities to develop strength:\n\n1. **Push-ups:** To develop upper body and arm strength.\n2. **Squats:** To build leg and lower body strength.\n3. **Weightlifting:** Lifting dumbbells, barbells, or locally improvised heavy objects.\n4. **Pull-ups / Chin-ups:** For back, shoulder, and arm strength.\n5. **Planks:** To build core abdominal and back strength.\n6. **Sit-ups / Crunches:** For abdominal muscle strength.\n7. **Lunges:** To strengthen the quadriceps and glutes.\n8. **Resistance band exercises:** Using elastic bands for muscle resistance.\n9. **Tug-of-war:** A fun sport activity that builds full-body pulling strength.\n10. **Climbing:** Rope climbing or hill climbing.\n11. **Carrying heavy loads:** Such as medicine balls or sandbags.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid activity identified (Max 4 marks)."
+        }
+      ],
+      "modelAnswer": "Here is a list of acceptable activities to develop strength:\n\n1. **Push-ups:** To develop upper body and arm strength.\n2. **Squats:** To build leg and lower body strength.\n3. **Weightlifting:** Lifting dumbbells, barbells, or locally improvised heavy objects.\n4. **Pull-ups / Chin-ups:** For back, shoulder, and arm strength.\n5. **Planks:** To build core abdominal and back strength.\n6. **Sit-ups / Crunches:** For abdominal muscle strength.\n7. **Lunges:** To strengthen the quadriceps and glutes.\n8. **Resistance band exercises:** Using elastic bands for muscle resistance.\n9. **Tug-of-war:** A fun sport activity that builds full-body pulling strength.\n10. **Climbing:** Rope climbing or hill climbing.\n11. **Carrying heavy loads:** Such as medicine balls or sandbags."
+    },
+    {
+      "id": "q46",
+      "questionNumber": 46,
+      "parentQuestionText": "Grade 7 learners were practising performance in triple jump. Describe how they performed the following phases.",
+      "subQuestions": [
+        {
+          "id": "q46a",
+          "questionText": "Approach",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable descriptions for the Approach phase in triple jump:\n\n1. Running along the runway to build maximum controllable speed before reaching the take-off board.\n2. Taking long, powerful, and rhythmic strides towards the board.\n3. Initially leaning slightly forward to accelerate, then transitioning to a tall, upright running posture just before the board.\n4. Focusing the eyes forward (not looking down at the feet) to maintain balance and speed into the jump.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a correct description.",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q46b",
+          "questionText": "Take off",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable descriptions for the Take-off phase in triple jump:\n\n1. Planting the take-off foot firmly on the board without stepping over the foul line (plasticine indicator).\n2. Driving the body forward and upward to initiate the 'hop' phase (the first of the three jumps).\n3. Swinging the free leg forward and upward powerfully to generate lift and momentum.\n4. Using a vigorous double-arm swing forward and upward to assist the upward drive off the board.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a correct description.",
+          "subNumber": "(b)"
+        }
+      ]
+    },
+    {
+      "id": "q47",
+      "questionNumber": 47,
+      "parentQuestionText": "During an inter-grade netball competition, Grade 8 learners were seen marking their opponents to prevent them from receiving the ball.",
+      "subQuestions": [
+        {
+          "id": "q47a",
+          "questionText": "Describe marking as used in netball.",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable descriptions for Marking in netball:\n\n1. A defensive technique where a player stays close to an opponent to prevent them from receiving a pass.\n2. A strategy to prevent the opponent with the ball from making a pass or shooting.\n3. Defending a player by standing in front of them with arms raised to block the ball's path, while strictly maintaining the required distance (usually 3 feet or 0.9 meters).\n4. Shadowing the opponent's movements around the court to deny them free space to operate.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a correct description.",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q47b",
+          "questionText": "Outline three strategies they applied for successful marking.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable strategies for successful marking in netball:\n\n1. **Positioning:** Staying on the toes and keeping the body between the opponent and the ball.\n2. **Anticipation / Reading the game:** Watching the passer's eyes or body language to intercept the ball before it reaches the opponent.\n3. **Arm positioning:** Raising arms to block the vision of the passer or the path of the ball (while maintaining the 3ft distance).\n4. **Communication:** Talking with teammates to switch marking assignments or call out screens/picks.\n5. **Maintaining the 3ft distance:** Being careful not to step too close, which would result in an obstruction penalty.\n6. **Quick reaction time and balance:** Being ready to change direction quickly as the opponent dodges or fakes.\n7. **Peripheral vision:** Tracking both the ball in the air and the specific opponent being marked.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid strategy outlined (Max 3 marks).",
+          "subNumber": "(b)"
+        }
+      ]
+    },
+    {
+      "id": "q48",
+      "questionNumber": 48,
+      "parentQuestionText": "During a swimming gala, Grade 8 learners were asked to perform the butterfly stroke.",
+      "subQuestions": [
+        {
+          "id": "q48a",
+          "questionText": "Describe the butterfly stroke performed by the learners.",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable descriptions of the butterfly stroke:\n\n1. A swimming stroke where the swimmer lies on their breast and moves both arms simultaneously over the water in a forward circular motion (recovery).\n2. It is accompanied by a continuous dolphin kick, where both legs are kept together and move up and down simultaneously like a mermaid/dolphin tail.\n3. The body undergoes a continuous, undulating, wave-like movement driven by the core and chest pressing down into the water.\n4. Breathing is done by lifting the head forward or to the side just as the arms finish their pull phase.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning simultaneous arm movement and 1 mark for mentioning the dolphin kick (Max 2 marks).",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q48b",
+          "questionText": "Outline three challenges the learners may have experienced when performing the butterfly style of swimming.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable challenges learners might experience with the butterfly stroke:\n\n1. **Fatigue / Exhaustion:** It is the most physically demanding stroke and requires immense upper body strength and cardiovascular stamina.\n2. **Coordination:** Struggling to synchronize the simultaneous arm pulls with the continuous dolphin kick.\n3. **Breathing timing:** Finding it difficult to lift the head to breathe at the correct moment without sinking the hips or breaking the stroke rhythm.\n4. **Water resistance / Drag:** Failing to maintain a streamlined body position, causing the body to plow through the water rather than glide.\n5. **Lack of upper body strength:** Unable to lift both arms out of the water simultaneously during the recovery phase.\n6. **Muscle cramps:** Intense, simultaneous leg movements can easily cause calf or foot cramps.\n7. **Swallowing water:** Due to improper breathing timing or not clearing the water surface completely.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid challenge outlined (Max 3 marks).",
+          "subNumber": "(b)"
+        }
+      ]
+    },
+    {
+      "id": "q49",
+      "questionNumber": 49,
+      "parentQuestionText": "Grade 9 learners were introduced to indigenous board games during a sports lesson.",
+      "subQuestions": [
+        {
+          "id": "q49a",
+          "questionText": "Identify one indigenous board game played in Kenya.",
+          "questionType": "structured",
+          "maxScore": 1,
+          "modelAnswer": "Here is a list of acceptable indigenous board games played in Kenya:\n\n1. Ajua (also known as Bao or Mancala)\n2. Shisima\n3. Giuthi\n4. Enkeshui\n5. Coro\n6. Morabaraba\n*(Accept any culturally accurate traditional Kenyan board/alignment game)*",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for a correct game (Max 1 mark).",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q49b",
+          "questionText": "Describe how the game identified in 49(a) is played.",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable descriptions depending on the game identified in (a):\n\n**For Ajua / Mancala / Bao:**\n1. Players \"sow\" seeds (or stones/marbles) into pits or holes carved into a wooden board.\n2. The game involves scooping seeds from one pit and dropping them sequentially one by one into subsequent pits.\n3. The goal is to capture more seeds than the opponent by ending a turn in a specific manner (e.g., dropping the last seed into an occupied hole to \"eat\" the opponent's seeds), following turn-based rules.\n\n**For Shisima:**\n1. It is an alignment game played on an octagonal board with a center point (the 'shisima' or water source).\n2. Players take turns sliding their pieces along the lines towards the center or around the edges.\n3. The objective is to be the first to align three pieces in a straight row passing through the center.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a logical and correct description.",
+          "subNumber": "(b)"
+        },
+        {
+          "id": "q49c",
+          "questionText": "Highlight two benefits of playing indigenous board game.",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable benefits of playing indigenous board games:\n\n1. **Cognitive skills:** Improves critical thinking, counting, mental arithmetic, and strategic planning.\n2. **Socialization:** Promotes social interaction, bonding, turn-taking, and communication among peers.\n3. **Cultural preservation:** Helps pass down traditions, cultural heritage, and folklore to younger generations.\n4. **Entertainment:** Provides fun, recreation, and healthy use of leisure time.\n5. **Moral values:** Promotes sportsmanship, fair play, honesty, and learning how to win or lose gracefully.\n6. **Focus:** Improves concentration, patience, and attention span.\n7. **Resourcefulness:** Encourages the use of locally available materials (stones, seeds, carved wood) to create play items.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid benefit (Max 2 marks).",
+          "subNumber": "(c)"
+        }
+      ]
+    },
+    {
+      "id": "q50",
+      "questionNumber": 50,
+      "parentQuestionText": "PART III: VISUAL ARTS\nAnswer all questions in this part in the spaces provided.\n\nViron reused old fabric to create a mat using coil technique. Outline the four steps he followed in making the mat.",
+      "subQuestions": [
+        {
+          "id": "q50a",
+          "questionText": "",
+          "questionType": "structured",
+          "maxScore": 4,
+          "modelAnswer": "Here is a list of acceptable steps for making a mat using the coil technique:\n\n1. **Step 1 (Preparation):** Collect, wash, and cut the old fabric into long, even strips.\n2. **Step 2 (Twisting/Braiding):** Twist, plait, or braid the fabric strips together to form a continuous thick rope or cord.\n3. **Step 3 (Coiling):** Start coiling the fabric rope tightly from the center point, gradually spiraling outward on a flat surface to form the base.\n4. **Step 4 (Stitching):** Stitch, sew, or bind the adjacent coils together firmly using a strong needle and thread to secure the mat's shape as you coil.\n5. **Step 5 (Finishing):** Tuck in the final end of the fabric rope and securely stitch the edge to prevent unraveling.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each correctly sequenced step (Max 4 marks)."
+        }
+      ]
+    },
+    {
+      "id": "q51",
+      "questionNumber": 51,
+      "parentQuestionText": "A learner intends to print a fabric in one colour using a paper stencil. Describe four major steps they will follow when preparing the paper stencil for the task.",
+      "subQuestions": [
+        {
+          "id": "q51a",
+          "questionText": "",
+          "questionType": "structured",
+          "maxScore": 4,
+          "modelAnswer": "Here is a list of acceptable steps for preparing a paper stencil for fabric printing:\n\n1. **Step 1 (Design):** Sketch or draw the desired motif/design on a piece of thick paper, manila, or cardboard.\n2. **Step 2 (Planning):** Mark out the positive and negative spaces, ensuring that \"ties\" or \"bridges\" are left in the design to hold the inner parts of the stencil together.\n3. **Step 3 (Setup):** Place the paper flat on a protective cutting mat or wooden board.\n4. **Step 4 (Cutting):** Use a sharp craft knife, scalpel, or cutter to carefully cut out and remove the positive spaces (the areas where ink should pass through onto the fabric).\n5. **Step 5 (Testing):** Test the stencil on a scrap piece of paper to ensure the \"ties\" hold and the design prints correctly.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each logical and sequential step in preparing the stencil (Max 4 marks)."
+        }
+      ]
+    },
+    {
+      "id": "q52",
+      "questionNumber": 52,
+      "parentQuestionText": "The following reproduction of a painting was displayed for a critique session at the end of a painting activity.\n\nAnalyse the painting fully and include points about:",
+      "imagePath": "/assets/kjsea_cas_2025_q52.png",
+      "subQuestions": [
+        {
+          "id": "q52a",
+          "questionText": "a possible title for the artwork;",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable titles for the artwork:\n\n1. \"Sunset Swing\"\n2. \"Evening Play\"\n3. \"Silhouette at Dusk\"\n4. \"The Joy of Swinging\"\n5. \"Golden Hour Play\"\n6. \"Childhood Memories\"\n7. \"Swinging into the Sunset\"\n8. \"Nature and Play\"\n*(Accept any creative and relevant title that captures the essence of a child swinging during a sunset/sunrise)*",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a relevant and creative title.",
+          "subNumber": "(a)"
+        },
+        {
+          "id": "q52b",
+          "questionText": "forms present in the painting;",
+          "questionType": "structured",
+          "maxScore": 2,
+          "modelAnswer": "Here is a list of acceptable forms present in the painting:\n\n1. A tree / large tree branch / foliage.\n2. A swing with ropes or chains.\n3. A human figure / a child / a girl sitting on the swing.\n4. The ground / hill profile in the foreground.\n5. The sun / sunset in the background sky.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each relevant form identified (Max 2 marks).",
+          "subNumber": "(b)"
+        },
+        {
+          "id": "q52c",
+          "questionText": "use of colour;",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable points on the use of colour:\n\n1. **Warm Colours:** Prominent use of warm colors (orange, yellow, red) to depict the sunset/sunrise and evoke a warm, nostalgic mood.\n2. **Cool Colours:** A band of dark violet/blue at the top to represent the darkening evening sky.\n3. **Silhouette / Contrast:** Solid black is used for the foreground forms (tree, swing, child, ground) to create a striking silhouette and extreme contrast against the bright sky.\n4. **Gradation / Wash:** Smooth blending (gradation) of colors in the background from dark blue down to bright yellow to simulate a natural sky gradient.\n5. **Monochromatic foreground:** The foreground uses entirely black to focus the viewer's attention on the shapes and outlines rather than interior details.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid point on color usage (Max 3 marks).",
+          "subNumber": "(c)"
+        },
+        {
+          "id": "q52d",
+          "questionText": "use of space in the painting.",
+          "questionType": "structured",
+          "maxScore": 3,
+          "modelAnswer": "Here is a list of acceptable points on the use of space:\n\n1. **Negative Space:** The vast, colorful sky forms the negative space, giving a sense of openness, freedom, and tranquility.\n2. **Positive Space:** The black silhouette of the tree, swing, and child occupies the positive space on the left and bottom.\n3. **Asymmetrical Balance:** The artwork uses asymmetrical balance; the heavy visual weight of the tree and swing on the left is balanced by the expansive, bright negative space on the right.\n4. **Depth / Overlapping:** The solid black foreground overlapping the gradient background creates a shallow but effective sense of depth, typical of silhouette art.\n5. **Rule of Thirds:** The main subject (the child on the swing) is placed slightly off-center, following compositional rules for a more dynamic and engaging layout.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid point on the use of space (Max 3 marks).",
+          "subNumber": "(d)"
+        }
+      ]
+    }
+  ]
+}

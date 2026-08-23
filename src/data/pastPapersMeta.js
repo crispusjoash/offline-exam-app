@@ -412,6 +412,40 @@ export const PAST_PAPERS_META = {
     }
   ],
   "KJSEA": [
+      {
+        "id": "kjsea-creative-arts-sports-2025",
+        "title": "KJSEA 2025 Creative Arts & Sports",
+        "subject": "Creative Arts and Sports",
+        "year": "2025",
+        "isSubPaper": false,
+        "isParentPaper": true,
+        "durationMinutes": 120,
+        "timeAllowed": 120
+      },
+      {
+        "id": "kjsea-creative-arts-sports-sectiona-2025",
+        "title": "KJSEA 2025 Creative Arts & Sports (Section A)",
+        "subject": "Creative Arts & Sports (Section A)",
+        "year": "2025",
+        "isSubPaper": true,
+        "isParentPaper": false,
+        "durationMinutes": 60,
+        "timeAllowed": 60,
+        "exportName": "kjseaCreativeArtsSportsSectionA2025",
+        "fileName": "kjsea-creative-arts-sports-sectiona-2025.json"
+      },
+      {
+        "id": "kjsea-creative-arts-sports-sectionb-2025",
+        "title": "KJSEA 2025 Creative Arts & Sports (Section B)",
+        "subject": "Creative Arts & Sports (Section B)",
+        "year": "2025",
+        "isSubPaper": true,
+        "isParentPaper": false,
+        "durationMinutes": 60,
+        "timeAllowed": 60,
+        "exportName": "kjseaCreativeArtsSportsSectionB2025",
+        "fileName": "kjsea-creative-arts-sports-sectionb-2025.json"
+      },
     {
       "id": "kjsea-agric-nutrition-2025",
       "title": "KJSEA 2025 Agriculture & Nutrition",
@@ -870,5 +904,15 @@ export const PAPER_FILE_MAP = {
   "kjsea-science-sectionb-2025": {
     "fileName": "kjsea-science-sectionb-2025.json",
     "exportName": "kjseaScienceSectionB2025"
+  }
+
+,
+  "kjsea-creative-arts-sports-sectiona-2025": {
+    "fileName": "kjsea-creative-arts-sports-sectiona-2025.json",
+    "exportName": "kjseaCreativeArtsSportsSectionA2025"
+  },
+  "kjsea-creative-arts-sports-sectionb-2025": {
+    "fileName": "kjsea-creative-arts-sports-sectionb-2025.json",
+    "exportName": "kjseaCreativeArtsSportsSectionB2025"
   }
 };

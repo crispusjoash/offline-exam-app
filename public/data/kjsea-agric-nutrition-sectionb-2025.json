@@ -16,7 +16,7 @@
           "questionText": "Apart from dumping plastic waste, give one other farming practice that can cause soil pollution.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable farming practices that cause soil pollution:\n\n1. **Excessive or Improper Use of Agrochemicals:** Over-application of chemical fertilizers, synthetic pesticides, herbicides, and fungicides which introduce toxic chemicals into the soil.\n2. **Poor Disposal of Empty Agrochemical Containers:** Throwing away used pesticide bottles or fertilizer bags directly on the farm without proper disposal.\n3. **Over-application of Raw Manure:** Dumping excessive amounts of untreated animal waste, which can introduce heavy metals or pathogens into the soil.\n4. **Irrigation with Polluted Water:** Using contaminated river water or industrial effluent to irrigate crops, introducing toxins into the soil.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct farming practice stated (Max 1 mark).\n* **Flexibility:** Accept any valid practice that introduces pollutants to the soil.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct farming practice stated (Max 1 mark).\n* **Flexibility:** Accept any valid practice that introduces pollutants to the soil.",
           "questionType": "structured"
         },
         {
@@ -25,7 +25,7 @@
           "questionText": "Give one organic gardening practice the learners can use to prevent soil pollution.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable organic gardening practices to prevent soil pollution:\n\n1. **Using Organic Manures:** Applying compost manure, farmyard manure, or green manure instead of synthetic chemical fertilizers.\n2. **Practicing Crop Rotation:** Alternating different types of crops on the same piece of land to naturally break pest and disease cycles, reducing the need for chemical pesticides.\n3. **Biological Pest Control:** Using natural predators (like ladybirds) or organic plant extracts (like neem or pyrethrum) to control pests instead of chemical sprays.\n4. **Mulching:** Covering the soil surface with dry grass or plant residues to conserve moisture and naturally suppress weeds, reducing the need for chemical herbicides.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct organic gardening practice given (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct organic gardening practice given (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -34,7 +34,7 @@
           "questionText": "Name one water retention structure that learners can construct in the school to harvest surface water runoffs.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable water retention structures for harvesting surface runoff:\n\n1. **Water Retention Ditches:** Trenches dug along the contour to trap and hold runoff water.\n2. **Shallow Water Pans:** Small excavated depressions in the ground designed to collect and store surface runoff.\n3. **Earth Dams:** A barrier constructed across a natural drainage path using compacted soil to hold back runoff.\n4. **Zai Pits / Micro-catchments:** Small planting pits that capture and retain localized surface runoff around crops.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct water retention structure named (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct water retention structure named (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -43,7 +43,7 @@
           "questionText": "Describe how the learners can construct the water retention structure named in (c)(i).",
           "maxScore": 2,
           "modelAnswer": "Here is an exhaustive description of how to construct a water retention ditch:\n\n1. **Site Selection and Marking:** Identify the slope and clearly mark out the contour lines where the ditch will be dug.\n2. **Digging the Trench:** Excavate a trench along the marked contour, ensuring it is wide and deep enough to capture the expected volume of runoff.\n3. **Forming the Embankment:** Throw the excavated topsoil to the lower side of the trench to form a raised ridge or embankment (bund).\n4. **Compacting and Planting:** Firmly compact the embankment and optionally plant cover crops or grass on it to stabilize the soil and prevent it from being washed back into the ditch.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a clear, logical step-by-step description of the construction process (1 mark for digging/excavating, 1 mark for throwing soil to the lower side to form an embankment) (Max 2 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for a clear, logical step-by-step description of the construction process (1 mark for digging/excavating, 1 mark for throwing soil to the lower side to form an embankment) (Max 2 marks).",
           "questionType": "structured"
         }
       ],
@@ -62,7 +62,7 @@
           "questionText": "What is the appropriate soil tilth for planting the tree seeds?",
           "maxScore": 1,
           "modelAnswer": "**Fine Tilth:** The soil should be broken down into very small, fine particles without large clods.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating 'Fine tilth' or describing soil with very fine particles (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating 'Fine tilth' or describing soil with very fine particles (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -71,7 +71,7 @@
           "questionText": "What should the learners consider when deciding on the correct soil tilth?",
           "maxScore": 1,
           "modelAnswer": "Here is a list of factors learners should consider when deciding on soil tilth:\n\n1. **The Size of the Seeds:** Small seeds (like most tree seeds or vegetables) require a fine tilth to ensure good seed-to-soil contact, while larger seeds can establish in a medium or coarse tilth.\n2. **The Type of Crop/Plant:** Different crops have different root systems and germination requirements.\n3. **The Moisture Content of the Soil:** Dry soils may pulverize too much, while wet soils may form hard clods.\n4. **The Implement Used:** The type of tool or machinery available determines how fine the soil can be worked.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct factor considered, mainly focusing on 'size of the seeds' (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct factor considered, mainly focusing on 'size of the seeds' (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -80,7 +80,7 @@
           "questionText": "Explain one way in which trees conserve soil.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable explanations on how trees conserve soil:\n\n1. **Roots Binding Soil Particles:** The extensive root systems of trees firmly hold soil particles together, preventing them from being easily washed away by running water or blown by wind.\n2. **Canopy Intercepting Raindrops:** The leaves and branches of the tree canopy break the force of falling raindrops, reducing their impact on the ground and preventing splash erosion.\n3. **Leaf Fall Providing Mulch:** Shed leaves cover the ground surface, reducing the speed of surface runoff and preventing soil erosion.\n4. **Windbreak Effect:** Rows of trees act as windbreaks, significantly reducing the speed and erosive power of strong winds on the soil surface.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any clearly explained way trees conserve soil (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any clearly explained way trees conserve soil (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -89,7 +89,7 @@
           "questionText": "A teacher used the following picture to illustrate grafting of fruit tree seedling.\n\n(i) Identify the part labelled A.\n(ii) Explain how the part labelled B is handled during grafting to ensure successful union.",
           "maxScore": 3,
           "modelAnswer": "**(i) Identification of Part A:**\n* **Scion:** The selected shoot/twig with buds from a desired tree variety that will form the upper foliage and bear fruit.\n\n**(ii) Handling of Part B (The Graft Union / Grafting Tape):**\nPart B is the graft union where the scion is joined onto the rootstock. To ensure a successful union, it is handled in the following ways:\n\n1. **Tight and Firm Wrapping/Binding:**\n   * The grafting tape (or polythene strip) must be wrapped **tightly and firmly** around the graft union.\n   * This holds the scion and rootstock securely together to ensure intimate contact and alignment of their **vascular tissues (cambium layers)** so they can grow, fuse, and unite.\n\n2. **Sealing and Moisture/Infection Protection:**\n   * The union is sealed tightly with grafting tape or covered with **grafting wax** (or a suitable sealant).\n   * This prevents moisture loss and drying out, keeping the cut surfaces hydrated until tissues fuse.\n   * It also creates a protective barrier that excludes rain, air, and disease-causing organisms/fungi that could cause the union to rot or fail.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:**\n  * **(i)** Award 1 mark for correctly identifying Part A as the **Scion** (1 mark).\n  * **(ii)** Award 2 marks for a well-explained procedure on handling Part B (Max 2 marks):\n    * **1 mark** for stating it is wrapped/bound tightly and firmly with grafting tape/polythene to hold parts securely and align cambium/vascular tissues.\n    * **1 mark** for explaining the protective sealing: applying grafting wax, preventing drying out/moisture loss, or excluding water, air, and rot-causing pathogens.\n* **Total Max Score:** 3 marks.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:**\n  * **(i)** Award 1 mark for correctly identifying Part A as the **Scion** (1 mark).\n  * **(ii)** Award 2 marks for a well-explained procedure on handling Part B (Max 2 marks):\n    * **1 mark** for stating it is wrapped/bound tightly and firmly with grafting tape/polythene to hold parts securely and align cambium/vascular tissues.\n    * **1 mark** for explaining the protective sealing: applying grafting wax, preventing drying out/moisture loss, or excluding water, air, and rot-causing pathogens.\n* **Total Max Score:** 3 marks.",
           "questionType": "structured",
           "imagePath": "/assets/kjsea_agric_2025_q32d.png",
           "cssFilter": "none"
@@ -110,7 +110,7 @@
           "questionText": "Give two caring practices carried out on the crop established from the planting materials.",
           "maxScore": 2,
           "modelAnswer": "Here is a list of acceptable caring practices for an established maize crop:\n\n1. **Weeding:** Regularly removing unwanted plants that compete with the maize for nutrients, light, and water.\n2. **Top-dressing:** Applying nitrogen-rich chemical fertilizers (like CAN) during the growing stage to boost vegetative growth.\n3. **Pest Control:** Applying pesticides or using natural methods to manage pests like the maize stalk borer or fall armyworm.\n4. **Disease Control:** Spraying fungicides or uprooting infected plants to prevent the spread of crop diseases.\n5. **Thinning:** Removing excess seedlings to maintain the recommended plant population and spacing.\n6. **Gapping:** Replanting seeds in spaces where the initial seeds failed to germinate.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid caring practice given (Max 2 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid caring practice given (Max 2 marks).",
           "questionType": "structured"
         },
         {
@@ -119,7 +119,7 @@
           "questionText": "Give two advantages of using a homemade sun drier to dry vegetables.",
           "maxScore": 2,
           "modelAnswer": "Here is a list of acceptable advantages of using a homemade sun drier to dry vegetables:\n\n1. **Cheap and Affordable:** It can be constructed using locally available, low-cost, or recycled materials (like timber, polythene sheets, and mesh).\n2. **Uses Free Renewable Energy:** It relies completely on free solar energy from the sun, requiring no electricity or fuel.\n3. **Improves Hygiene and Cleanliness:** It protects the drying vegetables from dust, insects, and animal contamination compared to open sun drying.\n4. **Faster Drying Rate:** It concentrates heat and improves air circulation, leading to a faster drying process than direct open drying.\n5. **Preserves Nutritional Value:** It provides controlled indirect heating, which helps retain the color and vitamins in the vegetables.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage given (Max 2 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage given (Max 2 marks).",
           "questionType": "structured"
         }
       ],
@@ -138,7 +138,7 @@
           "questionText": "What did the learners write for simsim crop produce?",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable value addition techniques for simsim:\n\n1. **Roasting:** Heating the seeds to enhance their flavor and aroma before consumption.\n2. **Oil Extraction:** Pressing the simsim seeds to extract highly nutritious cooking and cosmetic oil.\n3. **Grinding / Milling:** Crushing the seeds into a fine paste (such as tahini) used in various culinary dishes.\n4. **Packaging and Branding:** Cleaning, sorting, and packing the seeds in attractive, labeled containers for better marketability.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct value addition technique for simsim stated (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any correct value addition technique for simsim stated (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -147,7 +147,7 @@
           "questionText": "Name one caring practice carried out on potatoes but not common in coriander (dhania).",
           "maxScore": 1,
           "modelAnswer": "**Earthing Up:** The process of heaping soil around the base of the plant.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly naming 'Earthing up' (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly naming 'Earthing up' (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -156,7 +156,7 @@
           "questionText": "Give a reason why the caring practice described in (b) is important.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable reasons why earthing up is important for potatoes:\n\n1. **Promotes Tuber Expansion:** It provides loose, aerated soil which gives the developing potato tubers more room to grow and expand.\n2. **Prevents Greening of Tubers:** It covers the growing tubers with soil, preventing direct exposure to sunlight which causes them to turn green and produce toxic solanine.\n3. **Improves Drainage:** It creates ridges that prevent waterlogging around the root zone, which could cause the tubers to rot.\n4. **Provides Support:** It anchors the plant firmly in the ground, preventing the potato stems from falling over (lodging).",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining the importance of earthing up (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining the importance of earthing up (Max 1 mark).",
           "questionType": "structured"
         }
       ]
@@ -172,8 +172,8 @@
           "subNumber": "(a)",
           "questionText": "Identify the method of forage conservation.",
           "maxScore": 1,
-          "modelAnswer": "Here is a list of acceptable identifications for the forage conservation method:\n\n1. **Hay Making / Baled Forage / Hay Baling:** Dehydrating and compressing cured forage grass or legumes into compact rectangular or round bales for dry livestock feed storage.\n2. **Baled Hay:** Preserving forage by sun-curing to a safe moisture level (below 15–20%) and compressing it into bales.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly stating 'Hay making', 'Hay', or 'Baled forage' (Max 1 mark).",
+          "modelAnswer": "Here is a list of acceptable identifications for the forage conservation method:\n\n1. **Hay Making / Baled Forage / Hay Baling:** Dehydrating and compressing cured forage grass or legumes into compact rectangular or round bales for dry livestock feed storage.\n2. **Baled Hay:** Preserving forage by sun-curing to a safe moisture level (below 15\u201320%) and compressing it into bales.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly stating 'Hay making', 'Hay', or 'Baled forage' (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -182,7 +182,7 @@
           "questionText": "What is the best stage of harvesting the forage?",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable descriptions for the best harvesting stage of forage:\n\n1. **Early Blooming Stage / Heading Stage (50% flowering):** When forage grasses or legumes begin to flower, balancing maximum nutrient content (high crude protein) with optimal dry matter yield and low crude fiber.\n2. **Just Before Full Flowering / Bloom:** When the forage is highly digestible, palatable, and tender before lignification (hardening of stems) occurs.\n3. **Vegetative / Boot Stage (Pre-flowering):** When leaf-to-stem ratio and vitamin/protein concentrations are at their peak.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning 'Early blooming stage', 'Just before flowering', 'Heading stage', or '50% bloom' (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning 'Early blooming stage', 'Just before flowering', 'Heading stage', or '50% bloom' (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -191,7 +191,7 @@
           "questionText": "During a field day, an agricultural extension officer advised farmers to practise integrated farming. Give a reason for the advice.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable reasons for practicing integrated farming:\n\n1. **Nutrient Cycling and Resource Optimization:** Waste products from one enterprise serve as valuable inputs for another (e.g., livestock manure enriches crop soil, while crop residues and fodder feed the farm animals).\n2. **Diversification of Income Streams:** Providing multiple sources of revenue throughout the year, reducing financial vulnerability if one enterprise experiences market price drops or disease outbreaks.\n3. **Reduction of Production Costs:** Minimizing expenditure on commercial synthetic fertilizers and commercial animal feeds by recycling on-farm by-products.\n4. **Maximizing Land Productivity:** Ensuring intensive and complementary use of limited land area through synergistic crop, livestock, and agroforestry enterprises.\n5. **Environmental Sustainability and Soil Health:** Promoting natural soil fertility renewal, organic matter buildup, and biological pest balance, reducing environmental degradation.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining resource recycling, risk reduction, cost efficiency, or sustainable land productivity (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid reason explaining resource recycling, risk reduction, cost efficiency, or sustainable land productivity (Max 1 mark).",
           "questionType": "structured"
         }
       ],
@@ -210,7 +210,7 @@
           "questionText": "Give one way of preparing the structure before storing new maize produce.",
           "maxScore": 1,
           "modelAnswer": "Here is a list of acceptable ways to prepare the granary/store before storing new produce:\n\n1. **Thorough Cleaning and Sweeping:** Sweeping out all remnants of old grains, cob debris, dust, and spiderwebs to eliminate hidden insect pests and molds.\n2. **Repairing Structural Defects:** Mending broken timber slats, thatch/iron roofing, wire mesh, or wall cracks to prevent rainwater leakage and pest entry.\n3. **Dusting or Spraying with Approved Pesticides:** Applying recommended grain storage insecticide dusts or ashes to eliminate residual weevils and grain borers.\n4. **Sun Drying and Aerating the Store:** Opening the structure to allow fresh air and sunlight to dry out any dampness before loading fresh crop harvest.\n5. **Clearing Vegetation Around the Granary:** Trimming tall grass and bushes within a 3-meter perimeter to deny climbing paths to rodents and crawling insects.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid preparation practice (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for any valid preparation practice (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -219,7 +219,7 @@
           "questionText": "What is the function of the part labelled F (rat guards on stilts)?",
           "maxScore": 1,
           "modelAnswer": "Here is an exhaustive explanation of the function of rat guards (Part F):\n\n1. **Preventing Rodent Entry:** Creating a physical barrier/deflector (metal cone or collar) that stops rats, mice, and other climbing vermin from climbing up the wooden stilts/posts into the store.\n2. **Protecting Stored Grains from Damage and Contamination:** Preventing rodents from feeding on stored maize and contaminating grains with droppings, urine, and pathogens.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating preventing rats/rodents from climbing into the store (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for stating preventing rats/rodents from climbing into the store (Max 1 mark).",
           "questionType": "structured"
         },
         {
@@ -228,7 +228,7 @@
           "questionText": "Why is the part labelled E made of wire mesh?",
           "maxScore": 1,
           "modelAnswer": "Here is an exhaustive explanation for using wire mesh (Part E):\n\n1. **Promoting Free Air Circulation (Ventilation):** Allowing continuous airflow through the stored cobs/grains to lower moisture content and prevent mold, rotting, and overheating.\n2. **Preventing Pest and Bird Access:** Keeping out birds, bats, and larger pests while maintaining optimal ventilation.\n3. **Allowing Light Penetration:** Discouraging light-sensitive insects and providing natural visibility inside the structure.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning ventilation/air circulation or preventing pests while allowing air flow (Max 1 mark).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for mentioning ventilation/air circulation or preventing pests while allowing air flow (Max 1 mark).",
           "questionType": "structured"
         }
       ],
@@ -247,7 +247,7 @@
           "questionText": "Explain two factors he should consider when preparing lunch for the family.",
           "maxScore": 4,
           "modelAnswer": "Here is a list of acceptable factors to consider when preparing lunch for the family:\n\n1. **Nutritional Requirements and Balanced Diet:** Ensuring the meal contains all essential food nutrients (carbohydrates, proteins, vitamins, minerals, water, and dietary fiber) in the right proportions for healthy growth.\n2. **Family Size and Portion Quantities:** Estimating the exact number of family members to cook adequate quantities, preventing food shortages or unnecessary food wastage.\n3. **Special Dietary Needs / Health Conditions:** Accounting for individual family members who may have allergies, diabetes, hypertension, intolerances (e.g., lactose or gluten), or illnesses.\n4. **Age and Physical Activity Levels:** Providing energy-dense meals for active growing children and teenagers while offering easily digestible, nutrient-rich meals for elderly members or toddlers.\n5. **Availability of Ingredients and Seasonality:** Selecting fresh food items that are readily available in the pantry, garden, or local market to save costs and ensure freshness.\n6. **Available Cooking Equipment, Fuel, and Time:** Choosing cooking methods that align with the type of fuel (gas, charcoal, firewood), utensils, and preparation time available.\n7. **Family Preferences and Cultural/Religious Rules:** Respecting dietary taboos, religious eating guidelines (e.g., halal, vegetarian), and personal taste preferences.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained factor (1 mark for identifying the factor + 1 mark for clear explanation of why it is considered) (Max 4 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained factor (1 mark for identifying the factor + 1 mark for clear explanation of why it is considered) (Max 4 marks).",
           "questionType": "structured"
         },
         {
@@ -256,7 +256,7 @@
           "questionText": "Outline two reasons why he should sieve the flour for making pancakes for breakfast.",
           "maxScore": 2,
           "modelAnswer": "Here is a list of acceptable reasons for sieving flour when making pancakes:\n\n1. **Aerating the Flour (Incorporating Air):** Introducing air into the flour particles to make the pancake batter light, fluffy, and soft after cooking.\n2. **Removing Foreign Particles and Impurities:** Trapping weevils, husks, dirt, or packaging lint in the sieve mesh, ensuring hygienic food preparation.\n3. **Breaking Up Lumps:** Dispersing compact clumps of flour so the dry ingredients blend smoothly and evenly with wet ingredients without forming batter lumps.\n4. **Ensuring Even Mixing:** Facilitating uniform distribution of baking powder, spices, salt, or sugar throughout the flour mixture.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid reason outlined (Max 2 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid reason outlined (Max 2 marks).",
           "questionType": "structured"
         },
         {
@@ -264,8 +264,8 @@
           "subNumber": "(c)",
           "questionText": "State two points Asiko should bear in mind when storing food that remains after lunch.",
           "maxScore": 2,
-          "modelAnswer": "Here is a list of acceptable guidelines for storing leftover lunch food:\n\n1. **Cooling Before Refrigeration:** Allowing hot food to cool down to room temperature before placing it in the refrigerator to avoid raising the fridge temperature and causing condensation.\n2. **Using Clean, Covered / Airtight Containers:** Storing food in clean plastic, glass, or stainless steel containers with tight lids to prevent microbial contamination, insect access, and flavor absorption.\n3. **Refrigerating / Storing in a Cool, Dry, Well-Ventilated Place:** Keeping perishable leftovers below 4°C in a refrigerator or in a clean, ventilated food cupboard/larder to retard bacterial growth.\n4. **Labeling and Dating:** Marking storage containers with the date to ensure older food is consumed first within safe time limits (First-In, First-Out).\n5. **Separating Raw and Cooked Foods:** Storing cooked leftovers away from raw meats to prevent cross-contamination.\n6. **Portioning for Safe Reheating:** Storing food in manageable portions so that it is reheated thoroughly only once before consumption.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid point stated (Max 2 marks).",
+          "modelAnswer": "Here is a list of acceptable guidelines for storing leftover lunch food:\n\n1. **Cooling Before Refrigeration:** Allowing hot food to cool down to room temperature before placing it in the refrigerator to avoid raising the fridge temperature and causing condensation.\n2. **Using Clean, Covered / Airtight Containers:** Storing food in clean plastic, glass, or stainless steel containers with tight lids to prevent microbial contamination, insect access, and flavor absorption.\n3. **Refrigerating / Storing in a Cool, Dry, Well-Ventilated Place:** Keeping perishable leftovers below 4\u00b0C in a refrigerator or in a clean, ventilated food cupboard/larder to retard bacterial growth.\n4. **Labeling and Dating:** Marking storage containers with the date to ensure older food is consumed first within safe time limits (First-In, First-Out).\n5. **Separating Raw and Cooked Foods:** Storing cooked leftovers away from raw meats to prevent cross-contamination.\n6. **Portioning for Safe Reheating:** Storing food in manageable portions so that it is reheated thoroughly only once before consumption.",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid point stated (Max 2 marks).",
           "questionType": "structured"
         },
         {
@@ -274,7 +274,7 @@
           "questionText": "Explain two reasons why it is important for him to empty the kitchen dustbin when cleaning the kitchen.",
           "maxScore": 4,
           "modelAnswer": "Here is a list of acceptable reasons for emptying the kitchen dustbin:\n\n1. **Preventing Foul Odours and Maintaining Freshness:** Decaying organic food scraps decompose rapidly at room temperature, releasing unpleasant smells that make the kitchen uncomfortable and unhygienic.\n2. **Deterring Pests and Disease Vectors:** Unemptied garbage attracts houseflies, cockroaches, ants, and rodents, which breed rapidly and contaminate food surfaces with pathogens.\n3. **Preventing Bacterial Proliferation and Cross-Contamination:** Stagnant moist waste becomes a breeding ground for harmful bacteria (such as Salmonella and E. coli), increasing the risk of foodborne illnesses.\n4. **Maintaining Cleanliness and Kitchen Aesthetics:** An overflowing bin spills trash onto the floor, making kitchen sanitation difficult and creating an unappealing, hazardous cooking environment.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained reason (1 mark for identifying the issue + 1 mark for explaining the sanitary/health consequence) (Max 4 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 2 marks for each well-explained reason (1 mark for identifying the issue + 1 mark for explaining the sanitary/health consequence) (Max 4 marks).",
           "questionType": "structured"
         }
       ]
@@ -291,7 +291,7 @@
           "questionText": "Outline four points they could have included in the presentation.",
           "maxScore": 4,
           "modelAnswer": "Here is a list of acceptable advantages of knitted articles for babies' clothes:\n\n1. **Excellent Elasticity and Stretchability:** Knitted fabrics stretch easily to accommodate baby movements and rapid growth, making dressing and undressing gentle and effortless.\n2. **Superior Warmth and Thermal Insulation:** The interlocking loops of knitted fabric trap pockets of air, providing excellent insulation to keep infants warm and protected from drafts.\n3. **Softness and Non-Irritating Texture:** Knitted garments are soft, pliable, and comfortable against delicate and sensitive infant skin without causing friction or chafing.\n4. **High Breathability and Absorbency:** Knitted structures allow air circulation while absorbing sweat and moisture, keeping the baby dry and comfortable.\n5. **Wrinkle Resistance and Low Maintenance:** Knitted articles do not crease easily, eliminating the need for frequent ironing.\n6. **Lightweight Comfort:** They provide significant warmth without being excessively heavy or restrictive for small babies.\n7. **Ease of Laundering:** Most modern baby knitwear made from acrylic, soft cotton, or machine-washable wool is easy to wash and dries reasonably quickly.",
-          "rubric": "📌 **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage outlined (Max 4 marks).",
+          "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each valid advantage outlined (Max 4 marks).",
           "questionType": "structured"
         }
       ]

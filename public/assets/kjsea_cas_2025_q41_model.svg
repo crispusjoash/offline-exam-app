@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 200" width="100%" height="100%">
+  <!-- White background for visibility -->
+  <rect width="100%" height="100%" fill="white" />
+  <style>
+    .staff { stroke: black; stroke-width: 1.5; }
+    .note { fill: transparent; stroke: black; stroke-width: 2.5; }
+    .accidental { font-family: serif; font-size: 32px; font-weight: bold; }
+    .clef { font-family: serif; font-size: 80px; }
+  </style>
+  
+  <!-- Staff lines (5 lines, spaced 12px apart) -->
+  <g transform="translate(50, 70)">
+    <line x1="0" y1="0" x2="500" y2="0" class="staff"/>
+    <line x1="0" y1="12" x2="500" y2="12" class="staff"/>
+    <line x1="0" y1="24" x2="500" y2="24" class="staff"/>
+    <line x1="0" y1="36" x2="500" y2="36" class="staff"/>
+    <line x1="0" y1="48" x2="500" y2="48" class="staff"/>
+    
+    <!-- Treble Clef -->
+    <text x="10" y="48" class="clef" fill="black">&#119070;</text>
+
+    <!-- Notes (Semibreves / Whole notes) 
+         F4 (bottom space) = y=42
+         G4 (2nd line up) = y=36
+         A4 (2nd space up) = y=30
+         Bb4 (3rd line up) = y=24
+         C5 (3rd space up) = y=18
+         D5 (4th line up) = y=12
+         E5 (4th space up) = y=6
+         F5 (top line) = y=0
+    -->
+    <ellipse cx="100" cy="42" rx="7" ry="5" class="note" transform="rotate(-15 100 42)"/>
+    <ellipse cx="150" cy="36" rx="7" ry="5" class="note" transform="rotate(-15 150 36)"/>
+    <ellipse cx="200" cy="30" rx="7" ry="5" class="note" transform="rotate(-15 200 30)"/>
+    
+    <!-- Flat sign for Bb -->
+    <text x="235" y="32" class="accidental" fill="black">&#9837;</text>
+    <ellipse cx="260" cy="24" rx="7" ry="5" class="note" transform="rotate(-15 260 24)"/>
+    
+    <ellipse cx="310" cy="18" rx="7" ry="5" class="note" transform="rotate(-15 310 18)"/>
+    <ellipse cx="360" cy="12" rx="7" ry="5" class="note" transform="rotate(-15 360 12)"/>
+    <ellipse cx="410" cy="6" rx="7" ry="5" class="note" transform="rotate(-15 410 6)"/>
+    <ellipse cx="460" cy="0" rx="7" ry="5" class="note" transform="rotate(-15 460 0)"/>
+  </g>
+</svg>

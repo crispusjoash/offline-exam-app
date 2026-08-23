@@ -34,8 +34,12 @@ export const SectionBRunner = () => {
         setPaper(p);
         const savedSession = await loadSession('sectionb_sessions', paperId);
         if (savedSession && (Object.keys(savedSession.savedAnswers || {}).length > 0 || savedSession.savedIndex > 0 || Object.keys(savedSession.savedGrades || {}).length > 0)) {
-          setPendingSession(savedSession);
-          setShowResumePrompt(true);
+          if (savedSession.savedIndex !== undefined && savedSession.savedIndex >= (p.sectionB?.length || 0) - 1) {
+            // User finished the paper previously, don't prompt to resume
+          } else {
+            setPendingSession(savedSession);
+            setShowResumePrompt(true);
+          }
         }
         setLoading(false);
       })
@@ -262,12 +266,21 @@ export const SectionBRunner = () => {
         <div className="exam-fluid-container">
 
           {/* Parent Question Context (if exists) */}
-          {(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) && (
+          {(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText) || q.imagePath) && (
              <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1.5rem', boxShadow: 'var(--shadow-sm)' }}>
                <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>
                <p style={{ fontSize: '1.05rem', fontWeight: '600', lineHeight: 1.8, color: 'var(--text)' }}>
                  <MathRenderer text={q.parentQuestionText || q.questionText} />
                </p>
+                {q.questionList && q.questionList.length > 0 && (
+                  <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                    {q.questionList.map((li, i) => (
+                      <p key={i} style={{ fontSize: '1.05rem', fontWeight: '500', lineHeight: 1.6, color: 'var(--text)' }}>
+                        <MathRenderer text={li} />
+                      </p>
+                    ))}
+                  </div>
+                )}
                {q.imagePath && (
                  <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
                    <ZoomableImage src={q.imagePath} alt={`Question ${q.questionNumber} context`} baseMaxHeight="25vh" customFilter={q.cssFilter} />
@@ -278,7 +291,7 @@ export const SectionBRunner = () => {
 
           {/* Items (Sub-questions or the main question itself) */}
           {items.map((item, idx) => {
-            const isSub = !!item.subNumber;
+            const isSub = !!(item.subNumber || item.label);
             const qType = item.questionType || 'structured'; // default to structured if missing
             const maxScore = item.maxScore || 2;
             const gradesArray = Array.from({ length: maxScore + 1 }, (_, i) => i);
@@ -287,16 +300,25 @@ export const SectionBRunner = () => {
               <div key={item.id} style={{ marginBottom: '2.5rem' }}>
                 
                 {/* Question Text */}
-                {(!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) || isSub) && (
+                {(!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText) || q.imagePath) || isSub) && (
                   <div style={{ background: 'var(--bg-card)', border: '1px solid var(--border)', borderRadius: '1.25rem', padding: '1.5rem', marginBottom: '1rem', boxShadow: 'var(--shadow-sm)' }}>
-                    {!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText)) && <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>}
+                    {!(q.parentQuestionText || (q.subQuestions && q.subQuestions.length > 0 && q.questionText) || q.imagePath) && <p style={{ fontSize: '0.68rem', fontWeight: '800', color: accentColor, marginBottom: '0.6rem', textTransform: 'uppercase', letterSpacing: '0.1em' }}>Question {q.questionNumber}</p>}
                     <p style={{ fontSize: '1.05rem', fontWeight: '600', lineHeight: 1.8, color: 'var(--text)' }}>
-                      {isSub && <span style={{fontWeight: '800', marginRight: '0.5rem', color: accentColor}}>{item.subNumber}</span>}
+                      {isSub && <span style={{fontWeight: '800', marginRight: '0.5rem', color: accentColor}}>{item.subNumber || item.label}</span>}
                       <MathRenderer text={item.questionText} />
                       <span style={{ fontSize: '0.85rem', fontWeight: '700', color: 'var(--text-muted)', marginLeft: '0.5rem', whiteSpace: 'nowrap' }}>
                         ({maxScore} mark{maxScore !== 1 ? 's' : ''})
                       </span>
                     </p>
+                    {item.questionList && item.questionList.length > 0 && (
+                      <div style={{ marginTop: '0.75rem', display: 'flex', flexDirection: 'column', gap: '0.4rem' }}>
+                        {item.questionList.map((li, i) => (
+                          <p key={i} style={{ fontSize: '1.05rem', fontWeight: '500', lineHeight: 1.6, color: 'var(--text)' }}>
+                            <MathRenderer text={li} />
+                          </p>
+                        ))}
+                      </div>
+                    )}
                     {item.imagePath && (
                       <div style={{ marginTop: '1rem', display: 'flex', justifyContent: 'center' }}>
                         <ZoomableImage src={item.imagePath} alt={`Sub-question image`} baseMaxHeight="22vh" customFilter={item.cssFilter} />

@@ -1,0 +1,903 @@
+{
+  "id": "kjsea-creative-arts-sports-sectiona-2025",
+  "title": "KJSEA 2025 Creative Arts & Sports (Section A)",
+  "portal": "KJSEA",
+  "subject": "Creative Arts and Sports",
+  "year": 2025,
+  "timeAllowed": 60,
+  "sectionA": [
+    {
+      "id": "q1",
+      "questionNumber": 1,
+      "questionText": "In music, what is the effect of a dot placed after a note? It extends the",
+      "options": [
+        {
+          "text": "pitch of the note by half"
+        },
+        {
+          "text": "size of the note by half"
+        },
+        {
+          "text": "duration of the note by half"
+        },
+        {
+          "text": "volume of the note by half."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **duration of the note by half**.\n**Analysis of the Correct Answer:**\nIn music notation, a dot placed immediately after a note increases its rhythmic value (duration) by exactly half of its original value. For example, a dotted minim lasts for 3 beats (2 beats for the minim + 1 beat for the dot).\n**Why Other Options Are Incorrect:**\n* **pitch of the note by half:** Pitch is altered by accidentals (sharps and flats), not by rhythmic dots.\n* **size of the note by half:** The visual size of the note head does not change.\n* **volume of the note by half:** Volume is indicated by dynamic markings (like *f* or *p*), not rhythmic dots.\n\ud83d\udccc **Key Learning Note:**\nRhythmic dots affect the *duration* of notes, while accidentals affect the *pitch*.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q2",
+      "questionNumber": 2,
+      "questionText": "Study the following diagram of a keyboard and answer the question that follow.\n\nIdentify the keys marked X, Y and Z.",
+      "imagePath": "/assets/kjsea_cas_2025_q2.png",
+      "options": [
+        {
+          "text": "D, F# and Ab"
+        },
+        {
+          "text": "D, G# and A#"
+        },
+        {
+          "text": "G, B# and Db"
+        },
+        {
+          "text": "G, Cb and C#"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **D, F# and Ab**.\n**Analysis of the Correct Answer:**\nOn a piano keyboard, the white key between the pair of two black keys (C# and D#) is D (marked X). The first black key in the group of three black keys is F# (marked Y). The middle black key in the group of three is G#, which is enharmonically equivalent to Ab (marked Z).\n**Why Other Options Are Incorrect:**\n* **D, G# and A#:** Y is F#, not G#. Z is Ab/G#, not A#.\n* **G, B# and Db:** X is D, not G. There is no B# black key.\n* **G, Cb and C#:** These notes do not match the positions indicated on the keyboard diagram.\n\ud83d\udccc **Key Learning Note:**\nFamiliarize yourself with the repeating pattern of two and three black keys on a piano keyboard to quickly identify any note.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q3",
+      "questionNumber": 3,
+      "questionText": "Which of the following is an economic role of Creative Arts?",
+      "options": [
+        {
+          "text": "Creates diversity."
+        },
+        {
+          "text": "Creates employment."
+        },
+        {
+          "text": "Promotes citizenship."
+        },
+        {
+          "text": "Promotes unity."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Creates employment**.\n**Analysis of the Correct Answer:**\nThe Creative Arts industry offers numerous career opportunities such as musicians, actors, directors, producers, sound engineers, and visual artists. By providing people with jobs and a source of income, it plays a direct economic role in society.\n**Why Other Options Are Incorrect:**\n* **Creates diversity:** This is a social and cultural role, not primarily economic.\n* **Promotes citizenship:** This is a civic or social role.\n* **Promotes unity:** This is a social role that brings people together, but doesn't directly relate to monetary or economic factors.\n\ud83d\udccc **Key Learning Note:**\nWhile the arts heavily influence culture and society, their ability to generate income and jobs represents their main *economic* contribution.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q4",
+      "questionNumber": 4,
+      "questionText": "The following rhythm is written in musical note symbols.\n\nSelect the option that represents this rhythm in French rhythm names.",
+      "imagePath": "/assets/kjsea_cas_2025_q4.png",
+      "options": [
+        {
+          "text": "taa taa ta-te ta-te taa taa ta-te ta-te taa taa-aa"
+        },
+        {
+          "text": "taa taa taa ta-te ta-te ta-te taa ta-te taa taa-aa"
+        },
+        {
+          "text": "taa taa taa-aa ta-te ta-te ta-te ta-te taa taa taa-aa"
+        },
+        {
+          "text": "taa taa taa-aa ta-te taa ta-te ta-te ta-te taa taa-aa"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **taa taa taa-aa ta-te ta-te ta-te ta-te taa taa taa-aa**.\n**Analysis of the Correct Answer:**\nThe rhythm shown consists of three distinct sections: first, two crotchets (*taa taa*) followed by a minim (*taa-aa*); next, four pairs of quavers (*ta-te ta-te ta-te ta-te*); and finally, two crotchets (*taa taa*) followed by another minim (*taa-aa*).\n**Why Other Options Are Incorrect:**\n* **taa taa ta-te ta-te...:** This incorrectly identifies the third note as quavers instead of a minim.\n* **taa taa taa ta-te...:** This misses the minim (*taa-aa*) in the first section.\n* **taa taa taa-aa ta-te taa...:** This incorrectly mixes quavers and crotchets in the middle section.\n\ud83d\udccc **Key Learning Note:**\nIn French time names, a crotchet is *taa*, a minim is *taa-aa*, and a pair of quavers is *ta-te*.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q5",
+      "questionNumber": 5,
+      "questionText": "The following diagram shows the fingering of a note on a descant recorder.\n\nWhich note is represented by this fingering?",
+      "imagePath": "/assets/kjsea_cas_2025_q5.png",
+      "options": [
+        {
+          "text": "E"
+        },
+        {
+          "text": "E'"
+        },
+        {
+          "text": "F"
+        },
+        {
+          "text": "F'"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **E**.\n**Analysis of the Correct Answer:**\nOn a standard descant recorder, when the thumb hole (0) and the first five holes (1, 2, 3, 4, and 5) are completely covered, the resulting pitch is E. \n**Why Other Options Are Incorrect:**\n* **E':** High E (E') requires a different fingering, typically with the thumb hole partially pinched.\n* **F:** The note F requires a different fingering pattern (often leaving hole 5 open in Baroque fingering).\n* **F':** High F requires pinching the thumb hole and using a different combination of fingers.\n\ud83d\udccc **Key Learning Note:**\nFingering charts are essential for mastering the descant recorder. Covering the thumb and first five holes produces a low E.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q6",
+      "questionNumber": 6,
+      "questionText": "Learners at Harambee Junior School sang the following melody.\n\nWhich solfa names did they sing?",
+      "imagePath": "/assets/kjsea_cas_2025_q6.png",
+      "options": [
+        {
+          "text": "d r m f s"
+        },
+        {
+          "text": "d s f m r"
+        },
+        {
+          "text": "f d' t l s"
+        },
+        {
+          "text": "t f m r d"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **d s f m r**.\n**Analysis of the Correct Answer:**\nThe melody is written in the key of B flat Major, meaning the note B flat is the tonic (*doh*). The sequence of notes on the staff corresponds to B flat (*doh*), F (*soh*), E flat (*fah*), D (*me*), and C (*ray*).\n**Why Other Options Are Incorrect:**\n* **d r m f s:** This would be an ascending scale pattern (e.g., Bb, C, D, Eb, F).\n* **f d' t l s:** This starts on *fah* (Eb), which doesn't match the first note on the staff.\n* **t f m r d:** This starts on *te* (A), which is incorrect.\n\ud83d\udccc **Key Learning Note:**\nAlways identify the key signature first to determine where *doh* is located on the staff.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q7",
+      "questionNumber": 7,
+      "questionText": "The following rhythm consists of notes and rests.\n\nWhat is the correct order of the note symbols represented by the rests?",
+      "imagePath": "/assets/kjsea_cas_2025_q7.png",
+      "options": [
+        {
+          "text": "A"
+        },
+        {
+          "text": "B"
+        },
+        {
+          "text": "C"
+        },
+        {
+          "text": "D"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **D**.\n**Analysis of the Correct Answer:**\nThe rests shown in the image are a crotchet rest (worth 1 beat), a minim rest (a small block sitting *on* the middle line, worth 2 beats), and a quaver rest (worth 1/2 beat). The corresponding notes are the crotchet, minim, and quaver notes.\n**Why Other Options Are Incorrect:**\n* **A, B, C:** These options show different note combinations (like semibreves or semiquavers) that do not correctly match the sequence of rests provided in the diagram.\n\ud83d\udccc **Key Learning Note:**\nA minim rest sits *on* the third line, while a semibreve rest hangs *below* the fourth line.",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q8",
+      "questionNumber": 8,
+      "questionText": "What do the following signs instruct a performer to do in music?",
+      "imagePath": "/assets/kjsea_cas_2025_q8.png",
+      "options": [
+        {
+          "text": "Gradually get faster ... gradually get slower"
+        },
+        {
+          "text": "Gradually get louder ... gradually get softer"
+        },
+        {
+          "text": "Gradually get slower ... gradually get faster"
+        },
+        {
+          "text": "Gradually get softer ... gradually get louder"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Gradually get louder ... gradually get softer**.\n**Analysis of the Correct Answer:**\nThe first sign is a *crescendo* (looks like `<`), which instructs the performer to gradually increase the volume. The second sign is a *decrescendo* or *diminuendo* (looks like `>`), which means to gradually decrease the volume.\n**Why Other Options Are Incorrect:**\n* **Gradually get faster / slower:** Speed changes are indicated by terms like *accelerando* and *ritardando*, not hairpins.\n* **Gradually get slower / faster:** Again, these refer to tempo, not dynamics.\n* **Gradually get softer / louder:** This reverses the meaning of the two signs.\n\ud83d\udccc **Key Learning Note:**\nHairpins in sheet music (`<` and `>`) are dynamic markings that control the volume (intensity) of the music.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q9",
+      "questionNumber": 9,
+      "questionText": "Which of the following statement best describes the technique of pinching on the descant recorder?",
+      "options": [
+        {
+          "text": "The full closing of the thumb hole to attain high pitches."
+        },
+        {
+          "text": "The full closing of the thumb hole to attain low pitches."
+        },
+        {
+          "text": "The half closing of the thumb hole to attain high pitches."
+        },
+        {
+          "text": "The half closing of the thumb hole to attain low pitches."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **The half closing of the thumb hole to attain high pitches.**\n**Analysis of the Correct Answer:**\n\"Pinching\" on a descant recorder involves rolling the thumb slightly to partially open (or \"half-hole\") the thumb hole at the back. This technique causes the air column to split, allowing the recorder to easily \"overblow\" and produce notes in the higher register.\n**Why Other Options Are Incorrect:**\n* **The full closing of the thumb hole to attain high pitches:** Fully closing the thumb hole usually produces notes in the lower/middle register.\n* **The full closing of the thumb hole to attain low pitches:** While this is true for low notes, it is not what the \"pinching\" technique refers to.\n* **The half closing of the thumb hole to attain low pitches:** Pinching is specifically used to jump up to higher pitches, not lower ones.\n\ud83d\udccc **Key Learning Note:**\nThe \"pinching\" technique is crucial for playing notes from high E and above on the descant recorder.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q10",
+      "questionNumber": 10,
+      "questionText": "During a folksong performance, the soloist kept taking breath after each and every word, thus interfering with the flow of the singing. Which technique of performance was the soloist supposed to work on?",
+      "options": [
+        {
+          "text": "Diction"
+        },
+        {
+          "text": "Expression"
+        },
+        {
+          "text": "Phrasing"
+        },
+        {
+          "text": "Projection"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Phrasing**.\n**Analysis of the Correct Answer:**\nPhrasing in singing refers to how a singer groups words and notes together into logical musical sentences. Breathing after every single word breaks these sentences, ruining the musical flow and meaning.\n**Why Other Options Are Incorrect:**\n* **Diction:** Diction is the clarity and pronunciation of words, not where breaths are taken.\n* **Expression:** Expression involves the emotional delivery of the song.\n* **Projection:** Projection is how well the voice carries and its volume.\n\ud83d\udccc **Key Learning Note:**\nGood phrasing ensures that breaths are taken at appropriate punctuation marks or musical rests, maintaining the natural flow of the melody and lyrics.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q11",
+      "questionNumber": 11,
+      "questionText": "Which of the following musical signs is correctly matched with its function?",
+      "options": [
+        {
+          "text": "flat sign ($\\flat$) - raises the pitch by a semitone"
+        },
+        {
+          "text": "sharp sign ($\\sharp$) - lowers the pitch by a semitone"
+        },
+        {
+          "text": "natural sign ($\\natural$) - restores the pitch by a semitone"
+        },
+        {
+          "text": "$\\textit{f}$ - reduces the pitch by a semitone"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **natural sign ($\\natural$) - restores the pitch by a semitone**.\n**Analysis of the Correct Answer:**\nA natural sign ($\\natural$) cancels previous accidentals (sharps or flats) applied to a note, restoring it to its original, natural pitch.\n**Why Other Options Are Incorrect:**\n* **flat sign ($\\flat$) - raises...:** A flat sign *lowers* the pitch by a semitone, it doesn't raise it.\n* **sharp sign ($\\sharp$) - lowers...:** A sharp sign *raises* the pitch by a semitone, it doesn't lower it.\n* **$\\textit{f}$ - reduces the pitch...:** The *f* stands for *forte* (loud), a dynamic marking indicating volume, not pitch.\n\ud83d\udccc **Key Learning Note:**\nAccidentals alter pitch: sharp ($\\sharp$) raises by a semitone, flat ($\\flat$) lowers by a semitone, and natural ($\\natural$) restores the original pitch.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q12",
+      "questionNumber": 12,
+      "questionText": "Which of the following is not an element of a play?",
+      "options": [
+        {
+          "text": "Language"
+        },
+        {
+          "text": "Ornaments"
+        },
+        {
+          "text": "Plot"
+        },
+        {
+          "text": "Theme"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Ornaments**.\n**Analysis of the Correct Answer:**\nThe foundational elements of drama (or a play) include Plot, Theme, Characters, Dialogue (Language), Music/Rhythm, and Spectacle (Visual elements). Ornaments are decorative accessories and do not form a core structural element of a play.\n**Why Other Options Are Incorrect:**\n* **Language:** This is a core element, dictating how characters speak (dialogue).\n* **Plot:** The sequence of events in a play, absolutely essential.\n* **Theme:** The central message or underlying idea of the play.\n\ud83d\udccc **Key Learning Note:**\nRemember Aristotle's six elements of drama: Plot, Character, Thought (Theme), Diction (Language), Music, and Spectacle.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q13",
+      "questionNumber": 13,
+      "questionText": "The following are elements of a story except",
+      "options": [
+        {
+          "text": "characters"
+        },
+        {
+          "text": "exposition"
+        },
+        {
+          "text": "plot"
+        },
+        {
+          "text": "setting."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **exposition**.\n**Analysis of the Correct Answer:**\nExposition is not a distinct \"element\" of a story, but rather a phase within the *plot structure* (which includes exposition, rising action, climax, falling action, and resolution).\n**Why Other Options Are Incorrect:**\n* **characters:** People, animals, or beings in the story; a core element.\n* **plot:** The sequence of events; a core element.\n* **setting:** The time and place where the story occurs; a core element.\n\ud83d\udccc **Key Learning Note:**\nThe five main elements of a story are Characters, Setting, Plot, Conflict, and Theme. Exposition is just the introductory part of the Plot.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q14",
+      "questionNumber": 14,
+      "questionText": "Which of the following best describes how to effectively use voice in a story-telling session?",
+      "options": [
+        {
+          "text": "Appropriate use of high tone and shouting for audibility."
+        },
+        {
+          "text": "Being very slow in narration and speaking on monotone."
+        },
+        {
+          "text": "Effectively running through the story as quickly as possible."
+        },
+        {
+          "text": "Using tonal variation, appropriate pace and good intonation."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **Using tonal variation, appropriate pace and good intonation**.\n**Analysis of the Correct Answer:**\nA good storyteller uses their voice as an instrument. Tonal variation (changing pitch to reflect emotion or different characters), pace (speeding up or slowing down for dramatic effect), and intonation keep the audience captivated and convey the mood effectively.\n**Why Other Options Are Incorrect:**\n* **Appropriate use of high tone and shouting:** Shouting constantly can irritate the audience and lose the story's nuance.\n* **Being very slow... and speaking on monotone:** Monotone delivery is boring and quickly puts the audience to sleep.\n* **Effectively running through the story as quickly as possible:** Rushing prevents the audience from absorbing the story or feeling the suspense.\n\ud83d\udccc **Key Learning Note:**\nVocal dynamics (tone, pace, and intonation) are the most powerful tools a storyteller has to build tension, emotion, and engagement.",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q15",
+      "questionNumber": 15,
+      "questionText": "Which of the following is a role of props in a verse performance? To enhance",
+      "options": [
+        {
+          "text": "expression and movement"
+        },
+        {
+          "text": "stage directions in the performance"
+        },
+        {
+          "text": "the characters in the performance"
+        },
+        {
+          "text": "the written scenes in the script."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **the characters in the performance**.\n**Analysis of the Correct Answer:**\nProps (properties) are objects used on stage by actors during a performance. They help define a character's identity, status, or actions, making the characterization more believable and enhancing the storytelling.\n**Why Other Options Are Incorrect:**\n* **expression and movement:** While props can be moved, their primary dramatic role is tied to character and action, not abstract \"movement.\"\n* **stage directions:** Stage directions are instructions in the script, not enhanced by props.\n* **the written scenes in the script:** Props bring the script to life visually, but their direct role is enhancing the live character and action.\n\ud83d\udccc **Key Learning Note:**\nCostumes and props are essential visual aids that instantly communicate information about a character to the audience.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q16",
+      "questionNumber": 16,
+      "questionText": "The kayamba is used in a folksong performance to",
+      "options": [
+        {
+          "text": "harmonize the song"
+        },
+        {
+          "text": "pitch the singing"
+        },
+        {
+          "text": "play the melody"
+        },
+        {
+          "text": "set the tempo."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **set the tempo**.\n**Analysis of the Correct Answer:**\nThe kayamba is a flat, tray-like percussion instrument shaken to produce a rhythmic \"chacha\" sound. In traditional folk ensembles, rhythmic percussion instruments are primarily responsible for keeping the steady beat and setting the tempo (speed) of the performance.\n**Why Other Options Are Incorrect:**\n* **harmonize the song:** Harmony requires pitched instruments or voices playing different notes simultaneously. The kayamba is unpitched.\n* **pitch the singing:** Pitching requires an instrument that produces a specific frequency (like a pitch pipe or keyboard).\n* **play the melody:** The kayamba cannot play melodies because it does not produce different musical notes.\n\ud83d\udccc **Key Learning Note:**\nPercussion instruments like drums, shakers, and the kayamba form the rhythmic foundation (tempo and beat) of a musical performance.",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q17",
+      "questionNumber": 17,
+      "questionText": "Grade 9 learners discussed different careers in sports. Which of the following is one of the sports careers?",
+      "options": [
+        {
+          "text": "Cheering and dancing during sports events."
+        },
+        {
+          "text": "Drawing and painting sports items."
+        },
+        {
+          "text": "Training athletes for competitions."
+        },
+        {
+          "text": "Writing songs about events."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Training athletes for competitions**.\n**Analysis of the Correct Answer:**\nTraining athletes, also known as coaching, is a well-established and highly professional career within the sports industry. Coaches are employed to develop the skills, fitness, and strategies of athletes.\n**Why Other Options Are Incorrect:**\n* **Cheering and dancing:** While cheerleading exists, general cheering as a spectator is not a career.\n* **Drawing and painting sports items:** This falls under fine arts or commercial art, not a direct sports career.\n* **Writing songs about events:** This is a career in music or songwriting, not sports.\n\ud83d\udccc **Key Learning Note:**\nSports careers include athletes, coaches, referees/umpires, sports journalists, sports medicine professionals, and sports managers.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q18",
+      "questionNumber": 18,
+      "questionText": "Grade 7 learners were taught how to throw up and catch two tennis balls alternately without dropping any. Which component of physical fitness was the teacher developing in the learners?",
+      "options": [
+        {
+          "text": "Agility"
+        },
+        {
+          "text": "Balance"
+        },
+        {
+          "text": "Coordination"
+        },
+        {
+          "text": "Strength"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Coordination**.\n**Analysis of the Correct Answer:**\nCoordination is the ability to use the senses (like sight) together with body parts during movement. Juggling or alternately throwing and catching two tennis balls requires precise hand-eye coordination.\n**Why Other Options Are Incorrect:**\n* **Agility:** The ability to change body position quickly and accurately.\n* **Balance:** The ability to maintain equilibrium while stationary or moving.\n* **Strength:** The amount of force a muscle can produce.\n\ud83d\udccc **Key Learning Note:**\nHand-eye coordination is a skill-related component of fitness essential for sports involving catching, hitting, or throwing objects.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q19",
+      "questionNumber": 19,
+      "questionText": "During a sports lesson, a teacher introduced the sequence of javelin throw. Which of the following presents the correct order of the throw?",
+      "options": [
+        {
+          "text": "Carriage, Recovery, Release, Grip"
+        },
+        {
+          "text": "Grip, Carriage, Release, Recovery"
+        },
+        {
+          "text": "Recovery, Carriage, Grip, Release"
+        },
+        {
+          "text": "Release, Grip, Recovery, Carriage"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Grip, Carriage, Release, Recovery**.\n**Analysis of the Correct Answer:**\nThe sequence in a javelin throw begins with holding the implement correctly (**Grip**), running with it while preparing to throw (**Carriage**), throwing the implement (**Release**), and finally stopping forward momentum to avoid stepping over the foul line (**Recovery**).\n**Why Other Options Are Incorrect:**\n* **Carriage, Recovery...:** You cannot recover before you release.\n* **Recovery, Carriage...:** Recovery is the final step, not the first.\n* **Release, Grip...:** You must grip the javelin before releasing it.\n\ud83d\udccc **Key Learning Note:**\nThe standard phases of throwing events in athletics typically follow: Grip, Stance/Run-up (Carriage), Delivery (Release), and Recovery.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q20",
+      "questionNumber": 20,
+      "questionText": "Junior School learners were practising a skill in handball, where the ball was held at waist level across the body with the back of the hand facing upward. The elbow was extended outwardly to release the ball towards the closest team mate running parallel to the thrower. Identify the skill that the learner demonstrated.",
+      "options": [
+        {
+          "text": "Across pass"
+        },
+        {
+          "text": "Chest pass"
+        },
+        {
+          "text": "Flick pass"
+        },
+        {
+          "text": "Side pass"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Flick pass**.\n**Analysis of the Correct Answer:**\nA flick pass in handball is executed across the body at waist level. The ball is held with the back of the hand facing up, and the elbow is extended outward to quickly \"flick\" or release the ball. It is highly effective for short, quick passes to a teammate running parallel.\n**Why Other Options Are Incorrect:**\n* **Across pass:** This is a generic term, not a specific technical handball skill.\n* **Chest pass:** A chest pass is thrown from the chest with two hands pushing outward.\n* **Side pass:** While it goes to the side, \"flick pass\" is the correct technical term for this specific one-handed mechanics.\n\ud83d\udccc **Key Learning Note:**\nThe flick pass relies on wrist snap and elbow extension, making it deceptive and fast over short distances.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q21",
+      "questionNumber": 21,
+      "questionText": "During a game of football, the striker kicked the ball aiming at a specific part of the goal away from the goalkeeper. Identify the most appropriate skill the striker used.",
+      "options": [
+        {
+          "text": "Place shot"
+        },
+        {
+          "text": "Low dribble"
+        },
+        {
+          "text": "Punt shot"
+        },
+        {
+          "text": "Foot trapping"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Place shot**.\n**Analysis of the Correct Answer:**\nA place shot in football (soccer) involves using the inside of the foot to place the ball accurately into a specific part of the goal, away from the goalkeeper's reach.\n**Why Other Options Are Incorrect:**\n* **Low dribble:** Dribbling is keeping control of the ball while moving, not shooting at the goal.\n* **Punt shot:** A punt is dropping the ball from the hands and kicking it before it hits the ground (usually done by the goalkeeper).\n* **Foot trapping:** Trapping is receiving and controlling a moving ball to stop it, not shooting.\n\ud83d\udccc **Key Learning Note:**\nAccuracy in shooting is achieved through a place shot, while power is usually achieved with an instep (laces) drive.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q22",
+      "questionNumber": 22,
+      "questionText": "During a sports lesson, Grade 8 learners were introduced to 800 metres race. Identify the rule that ensures that all the learners cover the same distance.",
+      "options": [
+        {
+          "text": "Each runner starts the race in a staggered position."
+        },
+        {
+          "text": "Each runner starts the race in their own lane."
+        },
+        {
+          "text": "Runners begin the race in a standing position."
+        },
+        {
+          "text": "Runner finish the race by passing over the finish line."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Each runner starts the race in a staggered position**.\n**Analysis of the Correct Answer:**\nIn track events like the 400m and 800m, athletes run on a curved track. The outer lanes have a larger circumference than the inner lanes. A staggered start compensates for this difference so that everyone runs the exact same distance to the finish line.\n**Why Other Options Are Incorrect:**\n* **Each runner starts the race in their own lane:** While true initially for the 800m, it's the *staggered position* that specifically accounts for the distance equalization.\n* **Runners begin the race in a standing position:** This is the starting posture, but it doesn't equalize distance.\n* **Runner finish the race by passing over the finish line:** This describes how the race ends, not distance equalization.\n\ud83d\udccc **Key Learning Note:**\nThe 800m race combines a staggered start with a \"break line\" where runners can cut into the inner lanes after the first curve.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q23",
+      "questionNumber": 23,
+      "questionText": "During a game of netball, a player committed a footwork mistake. The referee blew the whistle and gave the ball to the opponent. Identify the mistake that the player may have committed. The player",
+      "options": [
+        {
+          "text": "made more than one step while holding the ball"
+        },
+        {
+          "text": "received the ball when standing on both feet"
+        },
+        {
+          "text": "received the ball when standing on one foot"
+        },
+        {
+          "text": "was pivoting many times before passing the ball."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **made more than one step while holding the ball**.\n**Analysis of the Correct Answer:**\nIn netball, the strict footwork rule (\"stepping\") states that a player cannot take more than one and a half steps or re-ground their landing foot while holding the ball.\n**Why Other Options Are Incorrect:**\n* **received the ball when standing on both feet:** This is a perfectly legal way to receive the ball.\n* **received the ball when standing on one foot:** This is also a legal way to land and establish a pivot foot.\n* **was pivoting many times before passing the ball:** As long as the grounded pivot foot does not slide or lift and return to the ground, pivoting is legal.\n\ud83d\udccc **Key Learning Note:**\nNetball differs from basketball because you cannot dribble or run with the ball; footwork rules are strictly enforced.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q24",
+      "questionNumber": 24,
+      "questionText": "The following diagram shows a skill used in volleyball.\n\nIdentify the skill.",
+      "imagePath": "/assets/kjsea_cas_2025_q24.png",
+      "options": [
+        {
+          "text": "Digging"
+        },
+        {
+          "text": "Service"
+        },
+        {
+          "text": "Spiking"
+        },
+        {
+          "text": "Volleying"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Spiking**.\n**Analysis of the Correct Answer:**\nSpiking (or attacking) in volleyball is an offensive skill where a player jumps and forcefully hits the ball downwards over the net into the opponent's court.\n**Why Other Options Are Incorrect:**\n* **Digging:** A defensive skill used to receive a hard-driven spike, usually close to the floor.\n* **Service:** The act of putting the ball into play from behind the baseline to start a rally.\n* **Volleying:** Passing the ball cleanly using the fingertips above the head.\n\ud83d\udccc **Key Learning Note:**\nA successful spike requires good timing, a high vertical jump, and a powerful arm swing.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q25",
+      "questionNumber": 25,
+      "questionText": "During triple jump competition, a learner had a red flag lifted after a jump. What could have been a possible reason for the red flag being lifted? The learner",
+      "options": [
+        {
+          "text": "jumped over the take off board"
+        },
+        {
+          "text": "jumped very high in the air"
+        },
+        {
+          "text": "landed beyond the sand pit"
+        },
+        {
+          "text": "landed outside the side of the pit."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **jumped over the take off board**.\n**Analysis of the Correct Answer:**\nIn jumping events (long jump, triple jump), the athlete must take off before or exactly on the edge of the take-off board. If any part of the shoe crosses the foul line (plasticine indicator board), a red flag is raised to indicate a foul or \"no jump.\"\n**Why Other Options Are Incorrect:**\n* **jumped very high in the air:** Jumping high is part of the technique to gain distance, not a foul.\n* **landed beyond the sand pit:** While rare, a massive jump is not a foul unless the take-off was illegal.\n* **landed outside the side of the pit:** This would be a foul, but stepping over the take-off board is the most common reason for a red flag during the jump phase.\n\ud83d\udccc **Key Learning Note:**\nA white flag indicates a legal jump, while a red flag indicates a foul or invalid attempt.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q26",
+      "questionNumber": 26,
+      "questionText": "Mateka was asked by the teacher to perform a pass in rugby where he held the ball vertically at the lower part using both hands and threw it into the air towards the team-mate. Which of the following passes did Mateka perform?",
+      "options": [
+        {
+          "text": "Flick pass"
+        },
+        {
+          "text": "Frisk pass"
+        },
+        {
+          "text": "Pop pass"
+        },
+        {
+          "text": "Spin pass"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Pop pass**.\n**Analysis of the Correct Answer:**\nA pop pass is a short pass in rugby where the ball carrier holds the ball vertically in both hands and \"pops\" it gently upward in front of a supporting teammate running at pace.\n**Why Other Options Are Incorrect:**\n* **Flick pass:** Typically a quick, one-handed pass, more common in hockey or handball.\n* **Frisk pass:** This is not a standard rugby passing technique.\n* **Spin pass:** A longer, spiraling pass thrown horizontally across the body for distance and speed.\n\ud83d\udccc **Key Learning Note:**\nThe pop pass is very effective when the ball carrier is about to be tackled, allowing a trailing teammate to take the ball at full speed.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q27",
+      "questionNumber": 27,
+      "questionText": "A Grade 9 learner performed passing skills used in a game of basketball. Identify the skill that is used to pass the ball accurately, at high speed over short distance.",
+      "options": [
+        {
+          "text": "Chest pass"
+        },
+        {
+          "text": "Overhead pass"
+        },
+        {
+          "text": "Shoulder pass"
+        },
+        {
+          "text": "Side pass"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Chest pass**.\n**Analysis of the Correct Answer:**\nThe chest pass is the most fundamental and accurate pass in basketball for short distances. The ball is pushed rapidly forward from the chest with both hands, making it travel in a straight, fast line to the teammate.\n**Why Other Options Are Incorrect:**\n* **Overhead pass:** Used to pass over defenders, not typically the fastest for a direct, short distance.\n* **Shoulder pass:** A one-handed pass usually meant for covering longer distances (like a baseball pass).\n* **Side pass:** Used to get around a defender, but less direct and forceful than a standard chest pass.\n\ud83d\udccc **Key Learning Note:**\nA proper chest pass involves stepping into the throw and following through with the thumbs pointing down.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q28",
+      "questionNumber": 28,
+      "questionText": "Mambo performed well during the inter-grade football game competition. What is the best thing Mambo's parents should do to make him excel in the game?",
+      "options": [
+        {
+          "text": "Buy him a mountain bike."
+        },
+        {
+          "text": "Buy him a snacks to celebrate."
+        },
+        {
+          "text": "Enroll him in a sports academy."
+        },
+        {
+          "text": "Ask his teacher to encourage him to do better."
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Enroll him in a sports academy**.\n**Analysis of the Correct Answer:**\nTo excel and develop raw talent into professional skill, young athletes require structured, specialized training. A sports academy provides expert coaching, regular practice, and competitive exposure.\n**Why Other Options Are Incorrect:**\n* **Buy him a mountain bike:** While good for general fitness, it doesn't directly help him excel in football.\n* **Buy him snacks to celebrate:** This is a nice gesture but doesn't contribute to long-term athletic development.\n* **Ask his teacher to encourage him:** Encouragement is good, but formal training is required for high-level excellence.\n\ud83d\udccc **Key Learning Note:**\nNurturing sports talent involves a combination of moral support and access to professional training facilities (academies).",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q29",
+      "questionNumber": 29,
+      "questionText": "A Junior School hosted a successful art exhibition. Which of the following describes the role Creative Arts achieved through the exhibition?",
+      "options": [
+        {
+          "text": "Self-expression and personal fulfilment."
+        },
+        {
+          "text": "Economic empowerment through art sales."
+        },
+        {
+          "text": "Promoting social engagement Community service."
+        },
+        {
+          "text": "Raising awareness on environmental issues through art."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Economic empowerment through art sales**.\n**Analysis of the Correct Answer:**\nAn art exhibition allows artists to display their work to the public. If the exhibition is \"successful,\" it typically means pieces were appreciated and sold, which directly provides income and economic empowerment to the creators.\n**Why Other Options Are Incorrect:**\n* **Self-expression...:** This is a personal psychological benefit, not the broad role achieved by a public exhibition's success.\n* **Promoting social engagement...:** Exhibitions do bring people together, but sales are the direct tangible measure of economic success for artists.\n* **Raising awareness...:** Only true if the specific theme of the art was environmental, which isn't stated.\n\ud83d\udccc **Key Learning Note:**\nThe commercialization of art through galleries and exhibitions is a primary way visual artists sustain their livelihoods.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q30",
+      "questionNumber": 30,
+      "questionText": "During art lesson, learners applied a thin diluted layer of colour to cover the background in their landscape painting. Which painting technique did they use?",
+      "options": [
+        {
+          "text": "Wash technique"
+        },
+        {
+          "text": "Sponge technique"
+        },
+        {
+          "text": "Brush stroke technique"
+        },
+        {
+          "text": "Finger painting technique"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Wash technique**.\n**Analysis of the Correct Answer:**\nA \"wash\" is a visual arts technique resulting in a semi-transparent layer of color. It is created by diluting paint (like watercolors) with a large amount of solvent (water). It's commonly used to quickly lay down backgrounds, like skies or oceans.\n**Why Other Options Are Incorrect:**\n* **Sponge technique:** Involves dabbing a sponge in paint to create texture.\n* **Brush stroke technique:** Refers to the visible marks made by a brush loaded with thicker paint.\n* **Finger painting technique:** Applying paint directly with fingers, not typical for creating a smooth, diluted background.\n\ud83d\udccc **Key Learning Note:**\nWashes are fundamental in watercolor painting for building up luminous, transparent layers of background color.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q31",
+      "questionNumber": 31,
+      "questionText": "The following motif illustrates a type of balance.\n\nThe type of balance illustrated is",
+      "imagePath": "/assets/kjsea_cas_2025_q31.png",
+      "options": [
+        {
+          "text": "linear"
+        },
+        {
+          "text": "radial"
+        },
+        {
+          "text": "symmetrical"
+        },
+        {
+          "text": "asymmetrical."
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **radial**.\n**Analysis of the Correct Answer:**\nRadial balance is a form of symmetrical balance where elements of a design radiate outward from a central point, much like the spokes of a wheel or the petals of a daisy.\n**Why Other Options Are Incorrect:**\n* **linear:** Linear balance involves elements arranged along a straight line.\n* **symmetrical:** While radial balance is a type of symmetry, true symmetrical balance usually refers to a mirror image on either side of a central axis (bilateral symmetry).\n* **asymmetrical:** Asymmetrical balance means the two halves of a design are visually equal in weight but not identical in shape or arrangement.\n\ud83d\udccc **Key Learning Note:**\nRadial patterns are very common in nature (flowers, starfish) and in human designs like mandalas and ornaments.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q32",
+      "questionNumber": 32,
+      "questionText": "Which two stages of drawing are shown in the following illustration?",
+      "imagePath": "/assets/kjsea_cas_2025_q32.png",
+      "options": [
+        {
+          "text": "Sketching and shading"
+        },
+        {
+          "text": "Sketching and drawing"
+        },
+        {
+          "text": "Observation and shading"
+        },
+        {
+          "text": "Drawing and photography"
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Sketching and shading**.\n**Analysis of the Correct Answer:**\nThe first stage of creating a realistic drawing is typically \"sketching,\" where light, preliminary outlines are established. The second stage shown is \"shading\" (or rendering), where values (lights and darks) are added to give the two-dimensional sketch a three-dimensional form.\n**Why Other Options Are Incorrect:**\n* **Sketching and drawing:** Sketching is a form of drawing; these terms are too synonymous to describe the distinct stages shown.\n* **Observation and shading:** Observation is a mental process before and during drawing, not the physical stage depicted on paper.\n* **Drawing and photography:** Photography is a completely different medium.\n\ud83d\udccc **Key Learning Note:**\nShading relies on an understanding of the light source to correctly place highlights, midtones, and cast shadows.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q33",
+      "questionNumber": 33,
+      "questionText": "The following reproduction of a still life painting was displayed for an art critique session.\n\nWhich of the following suggestions can improve the painting without changing the colour scheme?",
+      "imagePath": "/assets/kjsea_cas_2025_q33.png",
+      "options": [
+        {
+          "text": "Using more water."
+        },
+        {
+          "text": "Adding bright colours."
+        },
+        {
+          "text": "Darkening the background."
+        },
+        {
+          "text": "Adding highlights with white."
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **Adding highlights with white**.\n**Analysis of the Correct Answer:**\nAdding white highlights increases the contrast and makes the forms look more three-dimensional and \"shiny\" without introducing any new hues that would alter the established color scheme.\n**Why Other Options Are Incorrect:**\n* **Using more water:** This would only dilute the paint, potentially ruining the painting or making it look washed out.\n* **Adding bright colours:** This would directly change the existing color scheme.\n* **Darkening the background:** While this adds contrast, adding white highlights is a more direct way to enhance the subjects of the still life itself.\n\ud83d\udccc **Key Learning Note:**\nIn painting, adding white is called creating a \"tint,\" while adding black is creating a \"shade.\"",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q34",
+      "questionNumber": 34,
+      "questionText": "Patterns are used to enhance the beauty of traditional ornaments. What type of pattern was used in the following ornament?",
+      "imagePath": "/assets/kjsea_cas_2025_q34.png",
+      "options": [
+        {
+          "text": "Full repeat"
+        },
+        {
+          "text": "Regular repeat"
+        },
+        {
+          "text": "Alternate repeat"
+        },
+        {
+          "text": "Random repeat"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Regular repeat**.\n**Analysis of the Correct Answer:**\nA regular repeat pattern occurs when a single motif (or a set of motifs) is repeated in a consistent, predictable, and evenly spaced grid or sequence across the design.\n**Why Other Options Are Incorrect:**\n* **Full repeat:** Not a standard specific classification in this context.\n* **Alternate repeat:** In an alternate (or alternating) repeat, the motif shifts position or alternates with a second motif, creating a checkerboard-like effect.\n* **Random repeat:** Motifs are scattered unpredictably without a strict grid or alignment.\n\ud83d\udccc **Key Learning Note:**\nPatterns create rhythm in art. A regular repeat creates a formal, calm, and highly structured rhythm.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q35",
+      "questionNumber": 35,
+      "questionText": "Zuka displayed a carving for sale but no buyer showed interest. What should Zuka do to make the carving more appealing?",
+      "options": [
+        {
+          "text": "Improve on the finishing."
+        },
+        {
+          "text": "Reduce the price to attract buyers."
+        },
+        {
+          "text": "Transfer the carving to another shop."
+        },
+        {
+          "text": "Change the labeling for better presentation."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Improve on the finishing**.\n**Analysis of the Correct Answer:**\nFinishing techniques in wood carving (such as fine sanding, oiling, varnishing, or staining) dramatically improve the aesthetic appeal, protect the wood, and highlight the natural grain, making the piece much more attractive to buyers.\n**Why Other Options Are Incorrect:**\n* **Reduce the price:** While this might sell the item, it doesn't make the carving itself \"more appealing\" visually.\n* **Transfer the carving...:** Changing location doesn't improve the artwork itself.\n* **Change the labeling...:** Presentation helps, but improving the physical quality of the art is the most direct way to increase its appeal.\n\ud83d\udccc **Key Learning Note:**\nThe \"finish\" is what gives a raw carved block of wood the look and feel of a completed, professional piece of art.",
+      "correctOptionIndex": 0
+    },
+    {
+      "id": "q36",
+      "questionNumber": 36,
+      "questionText": "To achieve strong contrast and create vibrant focal point an artist chooses to use complementary colours. Which of the following pairs of colours is considered complementary on the colour wheel?",
+      "options": [
+        {
+          "text": "Red and blue"
+        },
+        {
+          "text": "Red and green"
+        },
+        {
+          "text": "Blue and violet"
+        },
+        {
+          "text": "Yellow and orange"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Red and green**.\n**Analysis of the Correct Answer:**\nComplementary colors are pairs of colors that are directly opposite each other on the traditional color wheel. When placed next to each other, they create the strongest contrast. Red and green are a primary-secondary complementary pair.\n**Why Other Options Are Incorrect:**\n* **Red and blue:** These are both primary colors; they are not opposites.\n* **Blue and violet:** These are analogous colors (next to each other on the wheel).\n* **Yellow and orange:** These are also analogous colors.\n\ud83d\udccc **Key Learning Note:**\nThe three basic complementary pairs are: Red & Green, Blue & Orange, and Yellow & Violet.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q37",
+      "questionNumber": 37,
+      "questionText": "Analyse the following picture of a gourd and answer the question that follows.\n\nWhich two techniques were used to decorate the gourd?",
+      "imagePath": "/assets/kjsea_cas_2025_q37.png",
+      "options": [
+        {
+          "text": "Burning and pasting"
+        },
+        {
+          "text": "Casting and painting"
+        },
+        {
+          "text": "Engraving and painting"
+        },
+        {
+          "text": "Engraving and pasting"
+        }
+      ],
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Engraving and painting**.\n**Analysis of the Correct Answer:**\nDecorating a gourd traditionally often involves engraving (incising or carving shallow lines/patterns into the hard surface of the gourd) and then painting or dyeing those engraved areas or the surrounding spaces to make the patterns stand out.\n**Why Other Options Are Incorrect:**\n* **Burning and pasting:** Burning (pyrography) is a valid technique, but pasting implies gluing things on, which isn't the primary technique shown.\n* **Casting and painting:** Casting involves pouring liquid material into a mold, which is impossible for decorating a natural gourd.\n* **Engraving and pasting:** Again, pasting is not a standard primary gourd decoration technique shown here.\n\ud83d\udccc **Key Learning Note:**\nGourds are dried hard-shelled fruits. Engraving removes the smooth outer skin so dyes or paints can easily seep into the fibrous inner layer.",
+      "correctOptionIndex": 2
+    },
+    {
+      "id": "q38",
+      "questionNumber": 38,
+      "questionText": "Which of the following steps shows the correct order in the tie and dye fabric decoration process?",
+      "options": [
+        {
+          "text": "Tie the fabric \u2192 Dip in dye \u2192 Dampen the fabric \u2192 Untie the fabric"
+        },
+        {
+          "text": "Dampen the fabric \u2192 Tie the fabric \u2192 Dip in dye \u2192 Untie the fabric"
+        },
+        {
+          "text": "Dip in dye \u2192 Tie the fabric \u2192 Dampen the fabric \u2192 Untie the fabric"
+        },
+        {
+          "text": "Tie the fabric \u2192 Dampen the fabric \u2192 Untie the fabric \u2192 Dip in dye"
+        }
+      ],
+      "correctAnswer": "B",
+      "explanation": "The correct answer is **Dampen the fabric \u2192 Tie the fabric \u2192 Dip in dye \u2192 Untie the fabric**.\n**Analysis of the Correct Answer:**\nIn traditional tie and dye, the fabric is first washed and dampened (to help the dye penetrate evenly). Then it is folded and tied tightly with string or rubber bands to act as a \"resist.\" Next, it is dipped into the dye bath. Finally, after the dye has set, it is untied to reveal the pattern.\n**Why Other Options Are Incorrect:**\n* **Tie \u2192 Dip \u2192 Dampen:** Dampening after dyeing would just wash the wet dye away.\n* **Dip \u2192 Tie...:** If you dip the whole fabric first, the entire thing will be dyed one solid color, defeating the purpose of the \"tie\" resist.\n* **Tie \u2192 Dampen \u2192 Untie \u2192 Dip:** If you untie before dipping, you will just dye a wrinkled piece of cloth a solid color.\n\ud83d\udccc **Key Learning Note:**\nThe \"ties\" in tie and dye act as a \"resist,\" preventing the dye from reaching certain parts of the fabric.",
+      "correctOptionIndex": 1
+    },
+    {
+      "id": "q39",
+      "questionNumber": 39,
+      "questionText": "Grade 8 learners selected blocks of soft wood and carved an animal in four steps as follows:\n(i) defining the features\n(ii) drawing outlines\n(iii) cutting away\n(iv) finishing\n\nWhich of the following shows the correct order they followed?",
+      "options": [
+        {
+          "text": "(ii), (i), (iii), (iv)"
+        },
+        {
+          "text": "(iii), (i), (ii), (iv)"
+        },
+        {
+          "text": "(iii), (ii), (iv), (i)"
+        },
+        {
+          "text": "(ii), (iii), (i), (iv)"
+        }
+      ],
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **(ii), (iii), (i), (iv)**.\n**Analysis of the Correct Answer:**\nThe logical progression for block carving is: First, draw the outlines (ii) on the block as a guide. Second, cut away (iii) the large areas of excess waste wood. Third, define the detailed features (i) of the animal. Finally, finish (iv) the piece by sanding and polishing.\n**Why Other Options Are Incorrect:**\n* **(ii), (i)...:** You cannot define fine features before cutting away the bulk waste wood.\n* **(iii), (i)...:** You should not start cutting away without first drawing guide outlines.\n* **(iii), (ii)...:** Drawing outlines after cutting away the bulk is backward.\n\ud83d\udccc **Key Learning Note:**\nCarving is a subtractive process. You always start by removing the largest \"waste\" sections before focusing on the fine details.",
+      "correctOptionIndex": 3
+    },
+    {
+      "id": "q40",
+      "questionNumber": 40,
+      "questionText": "When choosing lettering for a logo design, several factors should be considered. Which of the following is least considered?",
+      "options": [
+        {
+          "text": "Size of the letters."
+        },
+        {
+          "text": "Shape of the letters."
+        },
+        {
+          "text": "Typeface selection."
+        },
+        {
+          "text": "Aesthetic appeal of the letters."
+        }
+      ],
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **Size of the letters**.\n**Analysis of the Correct Answer:**\nA fundamental rule of logo design is \"scalability.\" A logo must look good whether it's blown up on a giant billboard or shrunk down on a tiny business card. Therefore, the absolute physical \"size\" of the letters is the least important factor when *designing* the logo, as the size will constantly change in application.\n**Why Other Options Are Incorrect:**\n* **Shape of the letters:** The shape determines legibility and style.\n* **Typeface selection:** The typeface (font) conveys the brand's identity (e.g., serious, playful, modern).\n* **Aesthetic appeal:** The logo must be visually pleasing to attract customers.\n\ud83d\udccc **Key Learning Note:**\nA good logo is versatile. It must work in color, black and white, and at any scalable size.",
+      "correctOptionIndex": 0
+    }
+  ],
+  "sectionB": []
+}

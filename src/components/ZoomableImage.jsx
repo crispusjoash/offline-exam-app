@@ -4,7 +4,7 @@ import { useTheme } from '../App';
 
 const MAX_ZOOM = 8;
 
-export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = true, customFilter }) => {
+export const ZoomableImage = ({ src, alt, baseMaxHeight = '28vh', scanEffect = false, customFilter }) => {
   const [scale, setScale] = useState(1);
   const containerRef = useRef(null);
   const { dark } = useTheme();
