@@ -74,7 +74,7 @@
           "questionText": "Identify two bars with exact repetition.",
           "questionType": "structured",
           "maxScore": 1,
-          "modelAnswer": "Here is a list of acceptable answers for bars with exact repetition:\n\n1. Bars 1 and 2\n2. Bars 5 and 6\n3. Bars 9 and 10 (depending on the arrangement)\n*(Accept any two bars that are visually and musically identical in the provided score)*",
+          "modelAnswer": "Here is a list of acceptable answers for bars with exact repetition:\n\n1. Bars 1 and 3\n2. Bars 1 and 5\n3. Bars 2 and 6\n4. Bars 3 and 5\n*(Accept any two bars that are visually and musically identical in the provided score)*",
           "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly identifying two bars with exact repetition (Max 1 mark).",
           "subNumber": "(a)(ii)"
         },
@@ -83,7 +83,7 @@
           "questionText": "What is the lowest pitch in the music?",
           "questionType": "structured",
           "maxScore": 1,
-          "modelAnswer": "Here is a list of acceptable answers for the lowest pitch:\n\n1. Middle C\n2. C4\n3. Doh (if in key of C major)\n4. C natural",
+          "modelAnswer": "Here is a list of acceptable answers for the lowest pitch:\n\n1. F\n2. F natural\n3. F4\n4. Doh (if in key of F major)",
           "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for correctly identifying the lowest pitch (Max 1 mark).",
           "subNumber": "(a)(iii)"
         },
@@ -308,7 +308,7 @@
           "questionText": "forms present in the painting;",
           "questionType": "structured",
           "maxScore": 2,
-          "modelAnswer": "Here is a list of acceptable forms present in the painting:\n\n1. A tree / large tree branch / foliage.\n2. A swing with ropes or chains.\n3. A human figure / a child / a girl sitting on the swing.\n4. The ground / hill profile in the foreground.\n5. The sun / sunset in the background sky.",
+          "modelAnswer": "Here is a list of acceptable forms present in the painting:\n\n1. A tree / large tree branch / foliage.\n2. A swing with ropes or chains.\n3. A human figure / a child / a girl sitting on the swing.\n*(Accept any of the above visual forms. Note: The sun and ground profile are generally absent as forms in this specific silhouette gradient).* ",
           "rubric": "\ud83d\udccc **Marking Scheme Guide:**\n\n* **Awarding Marks:** Award 1 mark for each relevant form identified (Max 2 marks).",
           "subNumber": "(b)"
         },

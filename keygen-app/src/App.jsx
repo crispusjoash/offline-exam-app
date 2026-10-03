@@ -132,14 +132,14 @@ function App() {
 
             <div className="bg-gray-800 p-6 rounded-2xl border border-gray-700 shadow-xl">
               <h2 className="text-xl font-bold mb-4 flex items-center"><Clock className="mr-2 w-5 h-5 text-blue-400" /> Subscription Plan</h2>
-              <div className="grid grid-cols-3 gap-3">
-                {[4, 8, 12].map(m => (
+              <div className="grid grid-cols-2 gap-3">
+                {[4, 8, 12, 1200].map(m => (
                   <button 
                     key={m}
                     onClick={() => setDuration(m)}
                     className={`py-3 rounded-lg border font-bold transition-all ${duration === m ? 'bg-blue-600 border-blue-500 text-white' : 'bg-gray-900 border-gray-700 text-gray-400 hover:border-gray-500'}`}
                   >
-                    {m} Months
+                    {m === 1200 ? 'Lifetime' : `${m} Months`}
                   </button>
                 ))}
               </div>
@@ -189,7 +189,7 @@ function App() {
                     </div>
                     <div className="flex justify-between text-sm text-gray-400">
                       <span>HWID: {h.hwid}</span>
-                      <span>{h.months} Months</span>
+                      <span>{h.months === 1200 ? 'Lifetime' : `${h.months} Months`}</span>
                     </div>
                   </li>
                 ))}

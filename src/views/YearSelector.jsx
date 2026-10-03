@@ -64,7 +64,7 @@ export const YearSelector = () => {
 
         {/* ── Available Years Grid ── */}
         {availableYears.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
+          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed var(--border-bright)' }}>
             <Calendar size={44} style={{ color: 'var(--text-faint)', marginBottom: '0.75rem' }} />
             <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: 'var(--text)' }}>No papers available yet</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>Check back soon for updated {portal} exam papers.</p>
@@ -85,7 +85,7 @@ export const YearSelector = () => {
                     background: 'var(--bg-card)',
                     borderRadius: '1.15rem',
                     padding: '1.5rem',
-                    border: isHov ? `1.5px solid ${accentColor}` : '1.5px solid #e2e8f0',
+                    border: isHov ? `1.5px solid ${accentColor}` : '1.5px solid var(--border)',
                     boxShadow: isHov ? `0 12px 28px -5px ${accentColor}25` : '0 4px 16px -2px rgba(15, 23, 42, 0.05)',
                     transform: isHov ? 'translateY(-3px)' : 'translateY(0)',
                     cursor: 'pointer',

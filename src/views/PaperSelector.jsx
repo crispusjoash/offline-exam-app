@@ -104,7 +104,7 @@ export const PaperSelector = () => {
 
         {/* ── Subject Cards Grid ── */}
         {papers.length === 0 ? (
-          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed #cbd5e1' }}>
+          <div style={{ textAlign: 'center', padding: '4rem 1rem', background: 'var(--bg-card)', borderRadius: '1.25rem', border: '1px dashed var(--border-bright)' }}>
             <BookOpen size={44} style={{ color: 'var(--text-faint)', marginBottom: '0.75rem' }} />
             <h3 style={{ fontFamily: 'Outfit, sans-serif', fontWeight: '700', fontSize: '1.1rem', color: 'var(--text)' }}>No papers found</h3>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-muted)', marginTop: '0.25rem' }}>No past papers are listed for {portal} {year}.</p>
@@ -146,7 +146,7 @@ export const PaperSelector = () => {
             <div style={{
               padding: '1.25rem 1.5rem',
               background: 'var(--bg-muted)',
-              borderBottom: '1px solid #e2e8f0',
+              borderBottom: '1px solid var(--border)',
               display: 'flex', alignItems: 'center', justifyContent: 'space-between',
             }}>
               <div>
@@ -164,7 +164,7 @@ export const PaperSelector = () => {
               <button
                 onClick={() => setSelectedParent(null)}
                 style={{
-                  background: '#e2e8f0', border: 'none',
+                  background: 'var(--border)', border: 'none',
                   width: '32px', height: '32px', borderRadius: '50%',
                   display: 'flex', alignItems: 'center', justifyContent: 'center',
                   cursor: 'pointer', color: 'var(--text-secondary)',
@@ -293,7 +293,7 @@ const SelectorOption = ({ title, badgeText, badgeBg, badgeColor, description, du
       onMouseLeave={() => setHov(false)}
       onClick={onClick}
       style={{
-        border: `1.5px solid ${hov ? '#2563eb' : '#e2e8f0'}`,
+        border: `1.5px solid ${hov ? '#2563eb' : 'var(--border)'}`,
         background: hov ? '#eff6ff50' : 'var(--bg-card)',
         borderRadius: '1rem', padding: '1.15rem',
         cursor: 'pointer', transition: 'all 0.2s ease',
@@ -328,7 +328,7 @@ const SubSelectorOption = ({ title, subtitle, onClick }) => {
       onMouseLeave={() => setHov(false)}
       onClick={onClick}
       style={{
-        border: `1.5px solid ${hov ? '#2563eb' : '#e2e8f0'}`,
+        border: `1.5px solid ${hov ? '#2563eb' : 'var(--border)'}`,
         background: hov ? '#eff6ff50' : 'var(--bg-card)',
         borderRadius: '0.75rem', padding: '0.85rem 1.15rem',
         cursor: 'pointer', transition: 'all 0.2s ease',
@@ -382,7 +382,7 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
       onMouseLeave={() => setHov(false)}
       style={{
         background: 'var(--bg-card)',
-        border: `1.5px solid ${hov ? accentColor : '#e2e8f0'}`,
+        border: `1.5px solid ${hov ? accentColor : 'var(--border)'}`,
         borderRadius: '1.25rem',
         overflow: 'hidden',
         boxShadow: hov ? `0 12px 30px -4px ${accentColor}25` : '0 4px 16px -2px rgba(15, 23, 42, 0.05)',
@@ -430,10 +430,10 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
         </h3>
 
         <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap', marginBottom: '1.25rem', marginTop: 'auto' }}>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid var(--border)', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
             <Clock size={12} /> {paper.durationMinutes} min
           </span>
-          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid #e2e8f0', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
+          <span style={{ display: 'inline-flex', alignItems: 'center', gap: '0.3rem', background: 'var(--bg-muted)', border: '1px solid var(--border)', borderRadius: '0.5rem', padding: '0.25rem 0.6rem', fontSize: '0.74rem', color: 'var(--text-secondary)', fontWeight: '600' }}>
             <Hash size={12} /> {questionCount} {isKPSEA ? 'Questions' : 'MCQs'}
           </span>
         </div>
@@ -444,9 +444,9 @@ const PaperCard = ({ paper, portal, accentColor, gradient, onSelect }) => {
             width: '100%', 
             padding: '0.75rem',
             background: hov ? gradient : 'var(--bg-muted)',
-            border: `1.5px solid ${hov ? 'transparent' : '#cbd5e1'}`,
+            border: `1.5px solid ${hov ? 'transparent' : 'var(--border-bright)'}`,
             borderRadius: '0.75rem',
-            color: hov ? '#ffffff' : '#0f172a',
+            color: hov ? '#ffffff' : 'var(--text)',
             fontWeight: '700', 
             fontSize: '0.88rem', 
             cursor: 'pointer',

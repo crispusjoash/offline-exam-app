@@ -139,7 +139,7 @@
         }
       ],
       "correctAnswer": "B",
-      "explanation": "The correct answer is **d s f m r**.\n**Analysis of the Correct Answer:**\nThe melody is written in the key of B flat Major, meaning the note B flat is the tonic (*doh*). The sequence of notes on the staff corresponds to B flat (*doh*), F (*soh*), E flat (*fah*), D (*me*), and C (*ray*).\n**Why Other Options Are Incorrect:**\n* **d r m f s:** This would be an ascending scale pattern (e.g., Bb, C, D, Eb, F).\n* **f d' t l s:** This starts on *fah* (Eb), which doesn't match the first note on the staff.\n* **t f m r d:** This starts on *te* (A), which is incorrect.\n\ud83d\udccc **Key Learning Note:**\nAlways identify the key signature first to determine where *doh* is located on the staff.",
+      "explanation": "The correct answer is **d s f m r**.\n**Analysis of the Correct Answer:**\nThe melody is written in the key of F Major, meaning the note F is the tonic (*doh*). The sequence of notes on the staff corresponds to F (*doh*), C (*soh*), B flat (*fah*), A (*me*), and G (*ray*).\n**Why Other Options Are Incorrect:**\n* **d r m f s:** This would be an ascending scale pattern (e.g., Bb, C, D, Eb, F).\n* **f d' t l s:** This starts on *fah* (Eb), which doesn't match the first note on the staff.\n* **t f m r d:** This starts on *te* (A), which is incorrect.\n\ud83d\udccc **Key Learning Note:**\nAlways identify the key signature first to determine where *doh* is located on the staff.",
       "correctOptionIndex": 1
     },
     {
@@ -161,9 +161,9 @@
           "text": "D"
         }
       ],
-      "correctAnswer": "D",
-      "explanation": "The correct answer is **D**.\n**Analysis of the Correct Answer:**\nThe rests shown in the image are a crotchet rest (worth 1 beat), a minim rest (a small block sitting *on* the middle line, worth 2 beats), and a quaver rest (worth 1/2 beat). The corresponding notes are the crotchet, minim, and quaver notes.\n**Why Other Options Are Incorrect:**\n* **A, B, C:** These options show different note combinations (like semibreves or semiquavers) that do not correctly match the sequence of rests provided in the diagram.\n\ud83d\udccc **Key Learning Note:**\nA minim rest sits *on* the third line, while a semibreve rest hangs *below* the fourth line.",
-      "correctOptionIndex": 3
+      "correctAnswer": "A",
+      "explanation": "The correct answer is **A**.\n**Analysis of the Correct Answer:**\nThe rests shown in the image are a crotchet rest (worth 1 beat), a minim rest (sitting on the third line, worth 2 beats), a quaver rest (worth 1/2 beat), and a semibreve rest (hanging below the fourth line, worth 4 beats). The corresponding notes are the crotchet, minim, quaver, and semibreve notes. Option A correctly represents this sequence.\n**Why Other Options Are Incorrect:**\n* **B, C, D:** These options mismatch the order or identify the rests incorrectly (e.g., confusing a semibreve for a minim).\n\ud83d\udccc **Key Learning Note:**\nA minim rest sits *on* the third line, while a semibreve rest hangs *below* the fourth line.",
+      "correctOptionIndex": 0
     },
     {
       "id": "q8",
@@ -537,9 +537,9 @@
           "text": "Volleying"
         }
       ],
-      "correctAnswer": "C",
-      "explanation": "The correct answer is **Spiking**.\n**Analysis of the Correct Answer:**\nSpiking (or attacking) in volleyball is an offensive skill where a player jumps and forcefully hits the ball downwards over the net into the opponent's court.\n**Why Other Options Are Incorrect:**\n* **Digging:** A defensive skill used to receive a hard-driven spike, usually close to the floor.\n* **Service:** The act of putting the ball into play from behind the baseline to start a rally.\n* **Volleying:** Passing the ball cleanly using the fingertips above the head.\n\ud83d\udccc **Key Learning Note:**\nA successful spike requires good timing, a high vertical jump, and a powerful arm swing.",
-      "correctOptionIndex": 2
+      "correctAnswer": "D",
+      "explanation": "The correct answer is **Volleying**.\n**Analysis of the Correct Answer:**\nVolleying in volleyball is passing the ball cleanly using the fingertips above the head. The image clearly shows a player with their hands raised, contacting the ball with their fingertips.\n**Why Other Options Are Incorrect:**\n* **Digging:** A defensive skill used to receive a hard-driven spike, usually close to the floor.\n* **Service:** The act of putting the ball into play from behind the baseline to start a rally.\n* **Spiking:** An offensive skill where a player jumps and forcefully hits the ball downwards over the net.\n\ud83d\udccc **Key Learning Note:**\nVolleying is primarily used for setting up the ball for an attacker.",
+      "correctOptionIndex": 3
     },
     {
       "id": "q25",
@@ -761,9 +761,9 @@
           "text": "Random repeat"
         }
       ],
-      "correctAnswer": "B",
-      "explanation": "The correct answer is **Regular repeat**.\n**Analysis of the Correct Answer:**\nA regular repeat pattern occurs when a single motif (or a set of motifs) is repeated in a consistent, predictable, and evenly spaced grid or sequence across the design.\n**Why Other Options Are Incorrect:**\n* **Full repeat:** Not a standard specific classification in this context.\n* **Alternate repeat:** In an alternate (or alternating) repeat, the motif shifts position or alternates with a second motif, creating a checkerboard-like effect.\n* **Random repeat:** Motifs are scattered unpredictably without a strict grid or alignment.\n\ud83d\udccc **Key Learning Note:**\nPatterns create rhythm in art. A regular repeat creates a formal, calm, and highly structured rhythm.",
-      "correctOptionIndex": 1
+      "correctAnswer": "C",
+      "explanation": "The correct answer is **Alternate repeat**.\n**Analysis of the Correct Answer:**\nAn alternate repeat pattern occurs when a motif shifts position or alternates in direction (such as the triangles pointing up and then down in the image), creating a dynamic, alternating sequence across the design.\n**Why Other Options Are Incorrect:**\n* **Regular repeat:** A single motif repeated in a strict, consistent grid without alternating position or direction.\n* **Random repeat:** Motifs are scattered unpredictably.\n\ud83d\udccc **Key Learning Note:**\nAlternate repeats create a more engaging rhythm than regular repeats by adding variety in positioning or orientation.",
+      "correctOptionIndex": 2
     },
     {
       "id": "q35",

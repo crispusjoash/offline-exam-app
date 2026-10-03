@@ -55,7 +55,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To identify the composite numbers, we must evaluate the factors of each number in the set.\n* A prime number is a number greater than 1 that has only two factors: 1 and itself.\n* In the given set (2, 4, 5, 9), **2** and **5** have only two factors, making them prime numbers.\n* However, **4** is divisible by 2, and **9** is divisible by 3, meaning they have more than two factors.\n* Therefore, the composite numbers are **4 and 9**."
+      "explanation": "To identify the prime numbers, we must evaluate the factors of each number in the set.\n* A prime number is a number greater than 1 that has only two factors: 1 and itself.\n* In the given set (2, 4, 5, 9), **2** and **5** have only two factors, making them prime numbers.\n* However, **4** is divisible by 2, and **9** is divisible by 3, meaning they have more than two factors.\n* Therefore, the prime numbers are **4 and 9**."
     },
     {
       "id": "q2",
@@ -85,27 +85,27 @@
     {
       "id": "q3",
       "questionNumber": 3,
-      "questionText": "The temperature of a deep freezer was −8°C. The deep freezer was adjusted and the temperature was increased by 15°C. What was the temperature of the deep freezer after it was adjusted?",
+      "questionText": "The temperature of a deep freezer was \u22128\u00b0C. The deep freezer was adjusted and the temperature was increased by 15\u00b0C. What was the temperature of the deep freezer after it was adjusted?",
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "−23°C",
+          "text": "\u221223\u00b0C",
           "isCorrect": false
         },
         {
-          "text": "−7°C",
+          "text": "\u22127\u00b0C",
           "isCorrect": false
         },
         {
-          "text": "7°C",
+          "text": "7\u00b0C",
           "isCorrect": true
         },
         {
-          "text": "23°C",
+          "text": "23\u00b0C",
           "isCorrect": false
         }
       ],
-      "explanation": "To determine the new temperature, we need to add the increase to the initial temperature.\n* The initial temperature in the freezer was **-8°C**.\n* A temperature increase means we are adding to the initial value.\n* We calculate: $-8 + 15 = 7$.\n* Therefore, the new temperature is **7°C**."
+      "explanation": "To determine the new temperature, we need to add the increase to the initial temperature.\n* The initial temperature in the freezer was **-8\u00b0C**.\n* A temperature increase means we are adding to the initial value.\n* We calculate: $-8 + 15 = 7$.\n* Therefore, the new temperature is **7\u00b0C**."
     },
     {
       "id": "q4",
@@ -164,15 +164,15 @@
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "26 − 3x",
+          "text": "26 \u2212 3x",
           "isCorrect": true
         },
         {
-          "text": "26 − 2x",
+          "text": "26 \u2212 2x",
           "isCorrect": false
         },
         {
-          "text": "26 − x",
+          "text": "26 \u2212 x",
           "isCorrect": false
         },
         {
@@ -193,15 +193,15 @@
           "isCorrect": false
         },
         {
-          "text": "30 < x ≤ 50",
+          "text": "30 < x \u2264 50",
           "isCorrect": false
         },
         {
-          "text": "30 ≤ x ≤ 50",
+          "text": "30 \u2264 x \u2264 50",
           "isCorrect": false
         },
         {
-          "text": "30 ≤ x < 50",
+          "text": "30 \u2264 x < 50",
           "isCorrect": true
         }
       ],
@@ -214,19 +214,19 @@
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "10 × 1",
+          "text": "10 \u00d7 1",
           "isCorrect": false
         },
         {
-          "text": "1 × 10",
+          "text": "1 \u00d7 10",
           "isCorrect": false
         },
         {
-          "text": "5 × 2",
+          "text": "5 \u00d7 2",
           "isCorrect": false
         },
         {
-          "text": "2 × 5",
+          "text": "2 \u00d7 5",
           "isCorrect": true
         }
       ],
@@ -235,7 +235,7 @@
     {
       "id": "q9",
       "questionNumber": 9,
-      "questionText": "The width of a door is 0.91 m. The door is opened through an angle of 72°. What is the length which the tip of the door sweeps through?",
+      "questionText": "The width of a door is 0.91 m. The door is opened through an angle of 72\u00b0. What is the length which the tip of the door sweeps through?",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -255,12 +255,12 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To find the length of the metal strip required for the top tip of the door, we calculate the arc length of the sector.\n* The radius ($r$) of the arc is the width of the door, which is **$0.91$ m**.\n* The angle ($\\theta$) subtended at the centre is **$72^{\\circ}$**.\n* The formula for the arc length is $\\frac{\\theta}{360} \\times 2\\pi r$.\n* Substituting the values (using $\\pi = \\frac{22}{7}$): $\\frac{72}{360} \\times 2 \\times \\frac{22}{7} \\times 0.91$.\n* This simplifies to $\\frac{1}{5} \\times 2 \\times 22 \\times 0.13 = 1.144$ m.\n* Therefore, the length required is closest to **1.14 m**."
+      "explanation": "To find the length which the tip of the door sweeps through, we calculate the arc length of the sector.\n* The radius ($r$) of the arc is the width of the door, which is **$0.91$ m**.\n* The angle ($\\theta$) subtended at the centre is **$72^{\\circ}$**.\n* The formula for the arc length is $\\frac{\\theta}{360} \\times 2\\pi r$.\n* Substituting the values (using $\\pi = \\frac{22}{7}$): $\\frac{72}{360} \\times 2 \\times \\frac{22}{7} \\times 0.91$.\n* This simplifies to $\\frac{1}{5} \\times 2 \\times 22 \\times 0.13 = 1.144$ m.\n* Therefore, the length required is closest to **1.14 m**."
     },
     {
       "id": "q10",
       "questionNumber": 10,
-      "questionText": "A water bucket is cylindrical in shape. The diameter of the bucket is 40 cm. The bucket is filled with water up to a height of 42 cm. What is the surface area of the bucket in contact with water?\n(Use calculator value for π)",
+      "questionText": "A water bucket is cylindrical in shape. The diameter of the bucket is 40 cm. The bucket is filled with water up to a height of 42 cm. What is the surface area of the bucket in contact with water?\n(Use calculator value for \u03c0)",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -280,7 +280,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To find the total surface area of the tank in contact with the water, we calculate the curved surface area and the base area.\n* The tank is half-full, so the water touches the circular base and the curved sides up to a height of **$42$ cm**.\n* The radius ($r$) is half of the diameter: $\\frac{40}{2} = 20$ cm.\n* Area of the circular base = $\\pi r^2 = \\pi \\times 20^2 = 400\\pi$.\n* Curved surface area touching water = $2\\pi rh = 2 \\times \\pi \\times 20 \\times 42 = 1680\\pi$.\n* Total area = $400\\pi + 1680\\pi = 2080\\pi$.\n* Using a calculator ($2080 \\times 3.14159...$), we get approximately **$6534.51$**."
+      "explanation": "To find the total surface area of the tank in contact with the water, we calculate the curved surface area and the base area.\n* The bucket is filled up to a height of **$42$ cm**, so the water touches the circular base and the curved sides.\n* The radius ($r$) is half of the diameter: $\\frac{40}{2} = 20$ cm.\n* Area of the circular base = $\\pi r^2 = \\pi \\times 20^2 = 400\\pi$.\n* Curved surface area touching water = $2\\pi rh = 2 \\times \\pi \\times 20 \\times 42 = 1680\\pi$.\n* Total area = $400\\pi + 1680\\pi = 2080\\pi$.\n* Using a calculator ($2080 \\times 3.14159...$), we get approximately **$6534.51$**."
     },
     {
       "id": "q11",
@@ -305,7 +305,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To calculate the capacity of the container in litres, we first find its volume in cubic centimetres.\n* The formula for the volume of a cuboid is **length $\\times$ width $\\times$ height**.\n* Substituting the measurements: $8.5 \\text{ cm} \\times 5 \\text{ cm} \\times 12 \\text{ cm} = 510 \\text{ cm}^3$.\n* Next, we convert cubic centimetres to litres using the conversion rate: **1000 cm³ = 1 litre**.\n* Dividing the volume by 1000 gives: $510 \\div 1000 = 0.51$.\n* Therefore, the capacity of the container is **0.51 litres**."
+      "explanation": "To calculate the capacity of the container in litres, we first find its volume in cubic centimetres.\n* The formula for the volume of a cuboid is **length $\\times$ width $\\times$ height**.\n* Substituting the measurements: $8.5 \\text{ cm} \\times 5 \\text{ cm} \\times 12 \\text{ cm} = 510 \\text{ cm}^3$.\n* Next, we convert cubic centimetres to litres using the conversion rate: **1000 cm\u00b3 = 1 litre**.\n* Dividing the volume by 1000 gives: $510 \\div 1000 = 0.51$.\n* Therefore, the capacity of the container is **0.51 litres**."
     },
     {
       "id": "q12",
@@ -314,11 +314,11 @@
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "215 × 273",
+          "text": "215 \u00d7 273",
           "isCorrect": false
         },
         {
-          "text": "215 ÷ 273",
+          "text": "215 \u00f7 273",
           "isCorrect": false
         },
         {
@@ -326,11 +326,11 @@
           "isCorrect": false
         },
         {
-          "text": "215 − 273",
+          "text": "215 \u2212 273",
           "isCorrect": true
         }
       ],
-      "explanation": "To convert the temperature from Kelvin to degrees Celsius, we use the standard conversion formula.\n* The formula to convert Kelvin to Celsius is: **°C = K - 273**.\n* The given temperature is **215 Kelvin**.\n* Substituting this into the formula gives the calculation: **$215 - 273$**.\n* Therefore, the correct calculation to use is **$215 - 273$**."
+      "explanation": "To convert the temperature from Kelvin to degrees Celsius, we use the standard conversion formula.\n* The formula to convert Kelvin to Celsius is: **\u00b0C = K - 273**.\n* The given temperature is **215 Kelvin**.\n* Substituting this into the formula gives the calculation: **$215 - 273$**.\n* Therefore, the correct calculation to use is **$215 - 273$**."
     },
     {
       "id": "q13",
@@ -381,12 +381,12 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To determine the percentage error of the measurement, we use the percentage error formula.\n* The formula is **(Absolute Error / Actual Value) $\\times$ 100%**.\n* The absolute error is the difference between the recorded value and the actual value: $|1.5 - 1.2| = 0.3$ m.\n* The actual value of the pipe is **$1.2$ m**.\n* Substituting these values into the formula gives **$(\\frac{0.3}{1.2}) \\times 100\\%$**.\n* Therefore, the correct calculation for the percentage error is **$(\\frac{0.3}{1.2}) \\times 100\\%$**."
+      "explanation": "To determine the percentage error of the measurement, we use the percentage error formula.\n* The formula is **(Absolute Error / Actual Value) $\\times$ 100%**.\n* The absolute error is the difference between the recorded value and the actual value: $|1.5 - 1.2| = 0.3$ m.\n* The actual height of the window is **$1.2$ m**.\n* Substituting these values into the formula gives **$(\\frac{0.3}{1.2}) \\times 100\\%$**.\n* Therefore, the correct calculation for the percentage error is **$(\\frac{0.3}{1.2}) \\times 100\\%$**."
     },
     {
       "id": "q15",
       "questionNumber": 15,
-      "questionText": "The following are properties of a quadrilateral.\n(i) Opposite sides are equal and parallel\n(ii) Diagonal bisect at 90°\n(iii) Opposite angles are equal\n\nWhat is the name of the quadrilateral?",
+      "questionText": "The following are properties of a quadrilateral.\n(i) Opposite sides are equal and parallel\n(ii) Diagonal bisect at 90\u00b0\n(iii) Opposite angles are equal\n\nWhat is the name of the quadrilateral?",
       "questionType": "multiple-choice",
       "options": [
         {
@@ -406,7 +406,7 @@
           "isCorrect": true
         }
       ],
-      "explanation": "To identify the quadrilateral, we must analyze the given properties.\n* Property (i) states that opposite sides are equal and parallel, which applies to parallelograms, rectangles, squares, and rhombuses.\n* Property (ii) states that the diagonals bisect at **90°**. This specifically narrows it down to a square or a rhombus.\n* Property (iii) states that opposite angles are equal, which confirms it is a **Rhombus**.\n* Based on these specific defining properties, the shape is a **Rhombus**."
+      "explanation": "To identify the quadrilateral, we must analyze the given properties.\n* Property (i) states that opposite sides are equal and parallel, which applies to parallelograms, rectangles, squares, and rhombuses.\n* Property (ii) states that the diagonals bisect at **90\u00b0**. This specifically narrows it down to a square or a rhombus.\n* Property (iii) states that opposite angles are equal, which confirms it is a **Rhombus**.\n* Based on these specific defining properties, the shape is a **Rhombus**."
     },
     {
       "id": "q16",
@@ -448,7 +448,7 @@
           "isCorrect": false
         },
         {
-          "text": "−2",
+          "text": "\u22122",
           "isCorrect": true
         },
         {
@@ -456,7 +456,7 @@
           "isCorrect": false
         }
       ],
-      "explanation": "To find the gradient of line L₂, we must first determine the gradient of line L₁.\n* Line L₁ is given by $2y = x + 3$. Rewriting this in the form $y = mx + c$, we divide by 2 to get $y = \\frac{1}{2}x + \\frac{3}{2}$.\n* The gradient of L₁ ($m_1$) is **$\\frac{1}{2}$**.\n* For two perpendicular lines, the product of their gradients is always -1 ($m_1 \\times m_2 = -1$).\n* To find $m_2$, we calculate the negative reciprocal of $\\frac{1}{2}$, which is $-\\frac{1}{\\frac{1}{2}} = -2$.\n* Therefore, the gradient of line L₂ is **-2**."
+      "explanation": "To find the gradient of line L\u2082, we must first determine the gradient of line L\u2081.\n* Line L\u2081 is given by $2y = x + 3$. Rewriting this in the form $y = mx + c$, we divide by 2 to get $y = \\frac{1}{2}x + \\frac{3}{2}$.\n* The gradient of L\u2081 ($m_1$) is **$\\frac{1}{2}$**.\n* For two perpendicular lines, the product of their gradients is always -1 ($m_1 \\times m_2 = -1$).\n* To find $m_2$, we calculate the negative reciprocal of $\\frac{1}{2}$, which is $-\\frac{1}{\\frac{1}{2}} = -2$.\n* Therefore, the gradient of line L\u2082 is **-2**."
     },
     {
       "id": "q18",
@@ -490,23 +490,23 @@
       "questionType": "multiple-choice",
       "options": [
         {
-          "text": "60°",
+          "text": "60\u00b0",
           "isCorrect": false
         },
         {
-          "text": "85°",
+          "text": "85\u00b0",
           "isCorrect": false
         },
         {
-          "text": "95°",
+          "text": "95\u00b0",
           "isCorrect": true
         },
         {
-          "text": "105°",
+          "text": "105\u00b0",
           "isCorrect": false
         }
       ],
-      "explanation": "To determine the size of angle ABC, one would typically use a protractor to measure the physical printed paper.\n* By placing the center of the protractor on vertex B and aligning the baseline with line segment AB.\n* Reading the scale where line segment BC crosses the protractor reveals the angle.\n* The angle is slightly obtuse, extending just past a right angle.\n* Therefore, the correct measurement for angle ABC is **95°**.",
+      "explanation": "To determine the size of angle ABC, one would typically use a protractor to measure the physical printed paper.\n* By placing the center of the protractor on vertex B and aligning the baseline with line segment AB.\n* Reading the scale where line segment BC crosses the protractor reveals the angle.\n* The angle is slightly obtuse, extending just past a right angle.\n* Therefore, the correct measurement for angle ABC is **95\u00b0**.",
       "contextRef": "kjsea_math_2025_q19"
     },
     {
@@ -551,7 +551,7 @@
       "questionText": "A metallic container is in the shape of a cube. The length of the container is 2.4 m.\n\n(a) Determine the volume of the container.\n\n(b) Smaller cubes of side 50 cm were packed in the container. Determine the number of smaller cubes that were packed.",
       "maxScore": 4,
       "modelAnswer": "**Part (a): Volume of the Large Cube**\n* The formula for the volume of a cube is: $\\text{length} \\times \\text{length} \\times \\text{length}$.\n* The side length of the large cube is 2.4 m.\n* Volume = $2.4 \\text{ m} \\times 2.4 \\text{ m} \\times 2.4 \\text{ m} = 13.824 \\text{ m}^3$.\n* Therefore, the volume of the large cube is **$13.824 \\text{ m}^3$**.\n\n**Part (b): Number of Small Cubes**\n* First, ensure both measurements are in the same units. The small cube's side is 50 cm, which is **0.5 m**.\n* Determine how many small cubes fit along one edge of the large cube by dividing: $2.4 \\text{ m} \\div 0.5 \\text{ m} = 4.8$.\n* Since we can only pack whole cubes, **4 cubes** will fit along each edge.\n* Total number of small cubes = $4 \\times 4 \\times 4 = 64$.\n* Therefore, **64 whole cubes** can be packed into the larger cube.",
-      "rubric": "Award marks as follows:\n\n(a) 13.824 m³ (2 marks - 1 for method, 1 for correct answer).\n\n(b) 64 cubes (2 marks - 1 for dividing side lengths, 1 for final number). Accept 110 cubes if solved using volume division.",
+      "rubric": "Award marks as follows:\n\n(a) 13.824 m\u00b3 (2 marks - 1 for method, 1 for correct answer).\n\n(b) 64 cubes (2 marks - 1 for dividing side lengths, 1 for final number). Accept 110 cubes if solved using volume division.",
       "questionType": "structured"
     },
     {
@@ -569,7 +569,7 @@
       "questionText": "A factory employed 5 men working 6 hours per day to pack flour in packets. The men worked for 12 days. Determine how many more days 3 men working for 8 hours per day will take to pack the same amount of flour.",
       "maxScore": 4,
       "modelAnswer": "**Calculating Total Man-Hours**\n* The original team had 5 men working for 6 hours a day over 12 days.\n* Total man-hours required = $5 \\text{ men} \\times 6 \\text{ hours/day} \\times 12 \\text{ days} = 360 \\text{ man-hours}$.\n\n**Finding the New Duration**\n* The new team has 3 men working for 8 hours a day. Let the number of days be $D$.\n* They must complete the same 360 man-hours: $3 \\text{ men} \\times 8 \\text{ hours/day} \\times D = 360$.\n* $24 \\times D = 360$.\n* $D = 360 \\div 24 = 15$ days.\n* The new team will take 15 days to complete the work.\n\n**Finding the Difference in Days**\n* The original team took 12 days, and the new team takes 15 days.\n* Difference = $15 - 12 = 3$ days.\n* Therefore, it will take the new team **3 more days**.",
-      "rubric": "Award 4 marks in total:\n- 1 mark for total man-hours (360) or setting up the inverse proportion.\n- 1 mark for setting up the equation for the new group (24 × D = 360).\n- 1 mark for finding the total days for the new group (15 days).\n- 1 mark for finding the difference (3 days).",
+      "rubric": "Award 4 marks in total:\n- 1 mark for total man-hours (360) or setting up the inverse proportion.\n- 1 mark for setting up the equation for the new group (24 \u00d7 D = 360).\n- 1 mark for finding the total days for the new group (15 days).\n- 1 mark for finding the difference (3 days).",
       "questionType": "structured"
     },
     {
@@ -614,8 +614,8 @@
       "questionNumber": 29,
       "questionText": "A Grade 8 learner moulded a solid in the shape of a cone. The slant height of the cone was 20 cm. The base radius of the cone was 4.2 cm. Calculate the total surface area of the solid, correct to 2 decimal places.",
       "maxScore": 5,
-      "modelAnswer": "**Calculating Total Surface Area (TSA)**\n* The formula for the TSA of a solid cone is: $\\text{Area of base} + \\text{Curved surface area}$.\n* Mathematically: $\\text{TSA} = \\pi r^2 + \\pi rl = \\pi r(r + l)$.\n* Given the radius $r = 4.2 \\text{ cm}$ and slant height $l = 20 \\text{ cm}$.\n\n**Applying the Formula**\n* Using $\\pi = \\frac{22}{7}$, substitute the values into the formula:\n* $\\text{TSA} = \\frac{22}{7} \\times 4.2 \\times (4.2 + 20)$\n* $\\text{TSA} = \\frac{22}{7} \\times 4.2 \\times 24.2$\n* Since $4.2 \\div 7 = 0.6$:\n* $\\text{TSA} = 22 \\times 0.6 \\times 24.2$\n* $\\text{TSA} = 13.2 \\times 24.2 = 319.44$\n* Therefore, the total surface area is **319.44 cm²**.",
-      "rubric": "Award 5 marks:\n- 1 mark for the correct formula (πr² + πrl).\n- 1 mark for correct substitution of values.\n- 2 marks for correct calculation steps.\n- 1 mark for final answer correct to 2 decimal places (319.44).",
+      "modelAnswer": "**Calculating Total Surface Area (TSA)**\n* The formula for the TSA of a solid cone is: $\\text{Area of base} + \\text{Curved surface area}$.\n* Mathematically: $\\text{TSA} = \\pi r^2 + \\pi rl = \\pi r(r + l)$.\n* Given the radius $r = 4.2 \\text{ cm}$ and slant height $l = 20 \\text{ cm}$.\n\n**Applying the Formula**\n* Using $\\pi = \\frac{22}{7}$, substitute the values into the formula:\n* $\\text{TSA} = \\frac{22}{7} \\times 4.2 \\times (4.2 + 20)$\n* $\\text{TSA} = \\frac{22}{7} \\times 4.2 \\times 24.2$\n* Since $4.2 \\div 7 = 0.6$:\n* $\\text{TSA} = 22 \\times 0.6 \\times 24.2$\n* $\\text{TSA} = 13.2 \\times 24.2 = 319.44$\n* Therefore, the total surface area is **319.44 cm\u00b2**.",
+      "rubric": "Award 5 marks:\n- 1 mark for the correct formula (\u03c0r\u00b2 + \u03c0rl).\n- 1 mark for correct substitution of values.\n- 2 marks for correct calculation steps.\n- 1 mark for final answer correct to 2 decimal places (319.44).",
       "questionType": "structured"
     },
     {
@@ -624,25 +624,25 @@
       "questionText": "A cylindrical tin of radius 1.8 cm contains some water. A spherical ball bearing of radius 1.5 cm is immersed in water in the tin. Determine the rise in the water level in the tin, correct to one decimal place.",
       "maxScore": 4,
       "modelAnswer": "**Finding the Volume of the Ball**\n* When the spherical ball is completely immersed, the volume of water displaced is equal to the volume of the ball.\n* The volume of a sphere is $\\frac{4}{3}\\pi r^3$. The radius is 1.5 cm.\n* Volume of ball = $\\frac{4}{3} \\times \\pi \\times (1.5)^3 = 4.5\\pi \\text{ cm}^3$.\n\n**Equating to the Displaced Water**\n* The displaced water takes the shape of a cylinder with the same radius as the tin (1.8 cm) and a height $h$ (which is the rise in water level).\n* Volume of displaced water = $\\pi r^2h = \\pi \\times (1.8)^2 \\times h = 3.24\\pi \\times h$.\n* Equating the two volumes: $3.24\\pi \\times h = 4.5\\pi$.\n\n**Solving for Height (h)**\n* Divide both sides by $\\pi$: $3.24h = 4.5$.\n* $h = \\frac{4.5}{3.24} \\approx 1.3888... \\text{ cm}$.\n* Correct to one decimal place, the rise is **1.4 cm**.",
-      "rubric": "Award 4 marks:\n- 1 mark for finding the volume of the sphere in terms of π ($4.5\\pi$).\n- 1 mark for formulating the volume of the displaced water cylinder ($3.24\\pi h$).\n- 1 mark for equating the volumes.\n- 1 mark for the correct final answer rounded to 1 decimal place (1.4 cm).",
+      "rubric": "Award 4 marks:\n- 1 mark for finding the volume of the sphere in terms of \u03c0 ($4.5\\pi$).\n- 1 mark for formulating the volume of the displaced water cylinder ($3.24\\pi h$).\n- 1 mark for equating the volumes.\n- 1 mark for the correct final answer rounded to 1 decimal place (1.4 cm).",
       "questionType": "structured"
     },
     {
       "id": "q31",
       "questionNumber": 31,
-      "questionText": "Juma placed a metal rod against a wall. The foot of the rod was 3.6 m away from the wall. The top of the rod was 4.8 m above the ground.\n\n(a) Calculate the length of the rod.\n\n(b) If the rod has a volume of 600 cm³ and a mass of 2.4 kg, calculate the density of the rod.",
+      "questionText": "Juma placed a metal rod against a wall. The foot of the rod was 3.6 m away from the wall. The top of the rod was 4.8 m above the ground.\n\n(a) Calculate the length of the rod.\n\n(b) If the rod has a volume of 600 cm\u00b3 and a mass of 2.4 kg, calculate the density of the rod.",
       "maxScore": 4,
-      "modelAnswer": "**Part (a): Finding the Length of the Rod**\n* The rod, wall, and ground form a right-angled triangle. By Pythagoras' theorem: $\\text{Length}^2 = \\text{Base}^2 + \\text{Height}^2$.\n* $\\text{Length}^2 = 3.6^2 + 4.8^2$.\n* $\\text{Length}^2 = 12.96 + 23.04 = 36.00$.\n* Length = $\\sqrt{36} = 6.0$.\n* Therefore, the length of the metal rod is **6.0 m**.\n\n**Part (b): Finding the Density**\n* The formula for density is: $\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$.\n* The mass is given as 2.4 kg, which is **2400 g**.\n* The volume is **600 cm³**.\n* Density = $\\frac{2400}{600} = 4$.\n* Therefore, the density of the rod is **4 g/cm³**.",
-      "rubric": "Award 4 marks:\n\n(a) 1 mark for Pythagoras equation, 1 mark for correct length (6.0 m).\n\n(b) 1 mark for conversion and formula, 1 mark for correct density (4 g/cm³ or 4000 kg/m³).",
+      "modelAnswer": "**Part (a): Finding the Length of the Rod**\n* The rod, wall, and ground form a right-angled triangle. By Pythagoras' theorem: $\\text{Length}^2 = \\text{Base}^2 + \\text{Height}^2$.\n* $\\text{Length}^2 = 3.6^2 + 4.8^2$.\n* $\\text{Length}^2 = 12.96 + 23.04 = 36.00$.\n* Length = $\\sqrt{36} = 6.0$.\n* Therefore, the length of the metal rod is **6.0 m**.\n\n**Part (b): Finding the Density**\n* The formula for density is: $\\text{Density} = \\frac{\\text{Mass}}{\\text{Volume}}$.\n* The mass is given as 2.4 kg, which is **2400 g**.\n* The volume is **600 cm\u00b3**.\n* Density = $\\frac{2400}{600} = 4$.\n* Therefore, the density of the rod is **4 g/cm\u00b3**.",
+      "rubric": "Award 4 marks:\n\n(a) 1 mark for Pythagoras equation, 1 mark for correct length (6.0 m).\n\n(b) 1 mark for conversion and formula, 1 mark for correct density (4 g/cm\u00b3 or 4000 kg/m\u00b3).",
       "questionType": "structured"
     },
     {
       "id": "q32",
       "questionNumber": 32,
-      "questionText": "A town P lies on the longitude 50°W. A town Q lies on the longitude 40°E. The local time at town Q is 4.00 p.m. Determine the local time at town P.",
+      "questionText": "A town P lies on the longitude 50\u00b0W. A town Q lies on the longitude 40\u00b0E. The local time at town Q is 4.00 p.m. Determine the local time at town P.",
       "maxScore": 4,
-      "modelAnswer": "**Calculating Longitude Difference**\n* Town P is at 50°W and Town Q is at 40°E. Since they are on opposite sides of the Prime Meridian, we add their longitudes.\n* Longitude difference = $50^{\\circ} + 40^{\\circ} = 90^{\\circ}$.\n\n**Calculating Time Difference**\n* The Earth rotates 1 degree every 4 minutes.\n* Time difference = $90^{\\circ} \\times 4 \\text{ minutes} = 360 \\text{ minutes}$.\n* Convert to hours: $360 \\div 60 = 6 \\text{ hours}$.\n\n**Finding the Local Time at P**\n* Town P is to the West of Town Q, which means it is behind in time.\n* We subtract 6 hours from the time at Q (4:00 p.m.).\n* 4:00 p.m. - 6 hours = **10:00 a.m.**\n* Therefore, the local time at P is **10:00 a.m.**",
-      "rubric": "Award 4 marks:\n- 1 mark for finding longitude difference (90°).\n- 1 mark for converting to time difference (360 mins or 6 hrs).\n- 1 mark for recognizing P is behind Q (subtracting time).\n- 1 mark for correct local time at P (10:00 a.m.).",
+      "modelAnswer": "**Calculating Longitude Difference**\n* Town P is at 50\u00b0W and Town Q is at 40\u00b0E. Since they are on opposite sides of the Prime Meridian, we add their longitudes.\n* Longitude difference = $50^{\\circ} + 40^{\\circ} = 90^{\\circ}$.\n\n**Calculating Time Difference**\n* The Earth rotates 1 degree every 4 minutes.\n* Time difference = $90^{\\circ} \\times 4 \\text{ minutes} = 360 \\text{ minutes}$.\n* Convert to hours: $360 \\div 60 = 6 \\text{ hours}$.\n\n**Finding the Local Time at P**\n* Town P is to the West of Town Q, which means it is behind in time.\n* We subtract 6 hours from the time at Q (4:00 p.m.).\n* 4:00 p.m. - 6 hours = **10:00 a.m.**\n* Therefore, the local time at P is **10:00 a.m.**",
+      "rubric": "Award 4 marks:\n- 1 mark for finding longitude difference (90\u00b0).\n- 1 mark for converting to time difference (360 mins or 6 hrs).\n- 1 mark for recognizing P is behind Q (subtracting time).\n- 1 mark for correct local time at P (10:00 a.m.).",
       "questionType": "structured"
     },
     {
@@ -657,10 +657,10 @@
     {
       "id": "q34",
       "questionNumber": 34,
-      "questionText": "A table top is in the shape of a parallelogram. The table top is represented by a drawing ABCD such that AB = 6 cm, AD = 4 cm and angle DAB = 45°. Using a ruler and a pair of compasses only, construct:\n\n(a) parallelogram ABCD;\n\n(b) perpendicular line from D to meet AB at E. Measure DE.",
+      "questionText": "A table top is in the shape of a parallelogram. The table top is represented by a drawing ABCD such that AB = 6 cm, AD = 4 cm and angle DAB = 45\u00b0. Using a ruler and a pair of compasses only, construct:\n\n(a) parallelogram ABCD;\n\n(b) perpendicular line from D to meet AB at E. Measure DE.",
       "maxScore": 5,
-      "modelAnswer": "**Part (a): Construction Steps for the Parallelogram**\n* 1. Draw a horizontal line segment AB = 6 cm using a ruler.\n* 2. At point A, construct an angle of 45° (e.g. by constructing a 90° angle and bisecting it).\n* 3. Along the 45° line, mark point D such that AD = 4 cm.\n* 4. With D as the centre and a radius of 6 cm, draw an arc.\n* 5. With B as the centre and a radius of 4 cm, draw another arc to intersect the first arc at point C.\n* 6. Join CD and BC to complete the parallelogram.\n\n**Part (b): Constructing the Perpendicular**\n* 1. Place the compass point at D and draw an arc that intersects line segment AB at two points.\n* 2. From these two intersection points, draw two intersecting arcs below line AB.\n* 3. Draw a straight line from D through the lower intersection to meet line AB at point E.\n* Measure DE with a ruler. Using trigonometry to verify: $\\text{DE} = 4 \\times \\sin(45^{\\circ}) \\approx 2.8 \\text{ cm}$.\n* Therefore, the measurement should be approximately **2.8 cm**.",
-      "rubric": "Award 5 marks:\n\n(a) 1 mark for line AB, 1 mark for 45° angle construction, 1 mark for completing the parallelogram.\n\n(b) 1 mark for constructing the perpendicular line, 1 mark for accurate measurement of DE (≈ 2.8 cm ± 0.1 cm).",
+      "modelAnswer": "**Part (a): Construction Steps for the Parallelogram**\n* 1. Draw a horizontal line segment AB = 6 cm using a ruler.\n* 2. At point A, construct an angle of 45\u00b0 (e.g. by constructing a 90\u00b0 angle and bisecting it).\n* 3. Along the 45\u00b0 line, mark point D such that AD = 4 cm.\n* 4. With D as the centre and a radius of 6 cm, draw an arc.\n* 5. With B as the centre and a radius of 4 cm, draw another arc to intersect the first arc at point C.\n* 6. Join CD and BC to complete the parallelogram.\n\n**Part (b): Constructing the Perpendicular**\n* 1. Place the compass point at D and draw an arc that intersects line segment AB at two points.\n* 2. From these two intersection points, draw two intersecting arcs below line AB.\n* 3. Draw a straight line from D through the lower intersection to meet line AB at point E.\n* Measure DE with a ruler. Using trigonometry to verify: $\\text{DE} = 4 \\times \\sin(45^{\\circ}) \\approx 2.8 \\text{ cm}$.\n* Therefore, the measurement should be approximately **2.8 cm**.",
+      "rubric": "Award 5 marks:\n\n(a) 1 mark for line AB, 1 mark for 45\u00b0 angle construction, 1 mark for completing the parallelogram.\n\n(b) 1 mark for constructing the perpendicular line, 1 mark for accurate measurement of DE (\u2248 2.8 cm \u00b1 0.1 cm).",
       "questionType": "structured",
       "modelImage": "/assets/kjsea_math_2025_q34_answer.svg"
     },
@@ -678,20 +678,20 @@
     {
       "id": "q36",
       "questionNumber": 36,
-      "questionText": "Daudi was standing on a balcony. He observed a ball on the ground, 47 m from the foot of the building. The angle of depression of the ball from Daudi's position was 35°. Calculate the height from the ground to where Daudi was.",
+      "questionText": "Daudi was standing on a balcony. He observed a ball on the ground, 47 m from the foot of the building. The angle of depression of the ball from Daudi's position was 35\u00b0. Calculate the height from the ground to where Daudi was.",
       "maxScore": 2,
-      "modelAnswer": "**Understanding the Angles**\n* Let the height of Daudi from the ground be $h$.\n* The angle of depression from Daudi to the ball is 35°.\n* Due to alternate interior angles, the angle of elevation from the ball to the balcony is also **35°**.\n\n**Using Trigonometry**\n* The scenario forms a right-angled triangle where the adjacent side is 47 m, the opposite side is $h$, and the angle is 35°.\n* Using the tangent ratio (SOH CAH **TOA**): $\\tan(35^{\\circ}) = \\frac{\\text{Opposite}}{\\text{Adjacent}}$.\n* $\\tan(35^{\\circ}) = \\frac{h}{47}$.\n* $h = 47 \\times \\tan(35^{\\circ})$.\n* $h = 47 \\times 0.7002 \\approx 32.91$.\n* Therefore, the height is approximately **32.91 m**.",
-      "rubric": "Award 2 marks:\n- 1 mark for setting up the correct trigonometric equation (h = 47 × tan 35°).\n- 1 mark for the correct answer (≈ 32.91 m).",
+      "modelAnswer": "**Understanding the Angles**\n* Let the height of Daudi from the ground be $h$.\n* The angle of depression from Daudi to the ball is 35\u00b0.\n* Due to alternate interior angles, the angle of elevation from the ball to the balcony is also **35\u00b0**.\n\n**Using Trigonometry**\n* The scenario forms a right-angled triangle where the adjacent side is 47 m, the opposite side is $h$, and the angle is 35\u00b0.\n* Using the tangent ratio (SOH CAH **TOA**): $\\tan(35^{\\circ}) = \\frac{\\text{Opposite}}{\\text{Adjacent}}$.\n* $\\tan(35^{\\circ}) = \\frac{h}{47}$.\n* $h = 47 \\times \\tan(35^{\\circ})$.\n* $h = 47 \\times 0.7002 \\approx 32.91$.\n* Therefore, the height is approximately **32.91 m**.",
+      "rubric": "Award 2 marks:\n- 1 mark for setting up the correct trigonometric equation (h = 47 \u00d7 tan 35\u00b0).\n- 1 mark for the correct answer (\u2248 32.91 m).",
       "questionType": "structured",
       "modelImage": "/assets/kjsea_math_2025_q36_answer.svg"
     },
     {
       "id": "q37",
       "questionNumber": 37,
-      "questionText": "A learner marked three points A, B and C on a playing field. From point A she walked 50 m on a bearing of 120° to reach point B. From point B she walked 70 m on a bearing of 210° to reach point C.\n\n(a) Using a scale of 1 cm to represent 10 m, show the relative positions of points A, B and C.\n\n(b) Use the diagram to determine:\n\n(i) the distance from A to C;\n\n(ii) the bearing of C from A.",
+      "questionText": "A learner marked three points A, B and C on a playing field. From point A she walked 50 m on a bearing of 120\u00b0 to reach point B. From point B she walked 70 m on a bearing of 210\u00b0 to reach point C.\n\n(a) Using a scale of 1 cm to represent 10 m, show the relative positions of points A, B and C.\n\n(b) Use the diagram to determine:\n\n(i) the distance from A to C;\n\n(ii) the bearing of C from A.",
       "maxScore": 5,
-      "modelAnswer": "**Part (a): Drawing the Scale Diagram**\n* The scale is 1 cm = 10 m.\n* **Length AB:** $50 \\text{ m} \\div 10 = 5 \\text{ cm}$. Bearing from North = 120°.\n* **Length BC:** $70 \\text{ m} \\div 10 = 7 \\text{ cm}$. Bearing from North = 210°.\n* To draw: Mark point A, draw a North line, measure 120° clockwise, and draw a 5 cm line to B. At point B, draw a North line, measure 210° clockwise, and draw a 7 cm line to point C.\n\n**Part (b)(i): Distance AC**\n* Measure the length of line segment AC on the scale diagram. It should be approximately 8.6 cm.\n* Actual distance = $8.6 \\text{ cm} \\times 10 = 86 \\text{ m}$.\n* (Verified by calculation: $AC = \\sqrt{50^2 + 70^2} \\approx 86$).\n* Therefore, the actual distance is approximately **86 m**.\n\n**Part (b)(ii): Bearing of C from A**\n* Measure the angle clockwise from the North line at A to the line AC using a protractor.\n* It should be approximately **174.5°**.",
-      "rubric": "Award 5 marks:\n\n(a) 3 marks: 1 for correct scale lines, 1 for angle at A, 1 for angle at B.\n(b)\n(i) 1 mark for correct distance (≈ 86 m ± 1 m).\n(b)\n(ii) 1 mark for correct bearing (≈ 174° - 175°).",
+      "modelAnswer": "**Part (a): Drawing the Scale Diagram**\n* The scale is 1 cm = 10 m.\n* **Length AB:** $50 \\text{ m} \\div 10 = 5 \\text{ cm}$. Bearing from North = 120\u00b0.\n* **Length BC:** $70 \\text{ m} \\div 10 = 7 \\text{ cm}$. Bearing from North = 210\u00b0.\n* To draw: Mark point A, draw a North line, measure 120\u00b0 clockwise, and draw a 5 cm line to B. At point B, draw a North line, measure 210\u00b0 clockwise, and draw a 7 cm line to point C.\n\n**Part (b)(i): Distance AC**\n* Measure the length of line segment AC on the scale diagram. It should be approximately 8.6 cm.\n* Actual distance = $8.6 \\text{ cm} \\times 10 = 86 \\text{ m}$.\n* (Verified by calculation: $AC = \\sqrt{50^2 + 70^2} \\approx 86$).\n* Therefore, the actual distance is approximately **86 m**.\n\n**Part (b)(ii): Bearing of C from A**\n* Measure the angle clockwise from the North line at A to the line AC using a protractor.\n* It should be approximately **174.5\u00b0**.",
+      "rubric": "Award 5 marks:\n\n(a) 3 marks: 1 for correct scale lines, 1 for angle at A, 1 for angle at B.\n(b)\n(i) 1 mark for correct distance (\u2248 86 m \u00b1 1 m).\n(b)\n(ii) 1 mark for correct bearing (\u2248 174\u00b0 - 175\u00b0).",
       "questionType": "structured",
       "modelImage": "/assets/kjsea_math_2025_q37_answer.svg"
     },
@@ -700,8 +700,8 @@
       "questionNumber": 38,
       "questionText": "Karen modelled a cuboid of dimensions 3 cm by 5 cm by 2 cm as shown.\n\n(a) Draw the net of the cuboid.\n\n(b) Calculate the total surface area of the cuboid from the net.",
       "maxScore": 5,
-      "modelAnswer": "**Part (a): Sketching the Net**\n* The net of the cuboid consists of 6 connected rectangles.\n* A central rectangle of **5 cm × 3 cm** (the base).\n* Attached to its 5 cm sides are two **5 cm × 2 cm** rectangles (front and back faces).\n* Attached to its 3 cm sides are two **3 cm × 2 cm** rectangles (side faces).\n* Attached to one of the 5 cm × 2 cm faces is another **5 cm × 3 cm** rectangle (the top face).\n\n**Part (b): Total Surface Area**\n* The total surface area is the sum of the areas of the 6 rectangles.\n* $\\text{Area} = 2(lw) + 2(lh) + 2(wh)$.\n* $\\text{Area} = 2(5 \\times 3) + 2(5 \\times 2) + 2(3 \\times 2)$.\n* $\\text{Area} = 2(15) + 2(10) + 2(6)$.\n* $\\text{Area} = 30 + 20 + 12 = 62$.\n* Therefore, the total surface area is **62 cm²**.",
-      "rubric": "Award 5 marks:\n\n(a) 2 marks for a correctly drawn net with 6 appropriate rectangles.\n\n(b) 3 marks: 1 for correct formula/method, 1 for substitution, 1 for final correct answer (62 cm²).",
+      "modelAnswer": "**Part (a): Sketching the Net**\n* The net of the cuboid consists of 6 connected rectangles.\n* A central rectangle of **5 cm \u00d7 3 cm** (the base).\n* Attached to its 5 cm sides are two **5 cm \u00d7 2 cm** rectangles (front and back faces).\n* Attached to its 3 cm sides are two **3 cm \u00d7 2 cm** rectangles (side faces).\n* Attached to one of the 5 cm \u00d7 2 cm faces is another **5 cm \u00d7 3 cm** rectangle (the top face).\n\n**Part (b): Total Surface Area**\n* The total surface area is the sum of the areas of the 6 rectangles.\n* $\\text{Area} = 2(lw) + 2(lh) + 2(wh)$.\n* $\\text{Area} = 2(5 \\times 3) + 2(5 \\times 2) + 2(3 \\times 2)$.\n* $\\text{Area} = 2(15) + 2(10) + 2(6)$.\n* $\\text{Area} = 30 + 20 + 12 = 62$.\n* Therefore, the total surface area is **62 cm\u00b2**.",
+      "rubric": "Award 5 marks:\n\n(a) 2 marks for a correctly drawn net with 6 appropriate rectangles.\n\n(b) 3 marks: 1 for correct formula/method, 1 for substitution, 1 for final correct answer (62 cm\u00b2).",
       "questionType": "structured",
       "contextRef": "kjsea_math_2025_q38",
       "modelImage": "/assets/kjsea_math_2025_q38_answer.svg"
@@ -712,7 +712,7 @@
       "questionText": "The marks scored by 20 learners in a test were recorded as 19, 17, 19, 15, 17, 19, 22, 17, 17, 19, 18, 33, 17, 29, 18, 15, 19, 18, 22, and 19.\n\n(a) Prepare a frequency distribution table for the data.\n\n(b) Determine the:\n\n(i) mean mark;\n\n(ii) median mark.",
       "maxScore": 5,
       "modelAnswer": "**Part (a): Frequency Distribution Table**\n* 15 appears 2 times.\n* 17 appears 5 times.\n* 18 appears 3 times.\n* 19 appears 6 times.\n* 22 appears 2 times.\n* 29 appears 1 time.\n* 33 appears 1 time.\n* The total frequency ($\\Sigma f$) is **20**.\n\n**Part (b)(i): Mean Mark**\n* The mean is the total sum of all marks divided by the number of learners.\n* $\\Sigma fx = (15\\times 2) + (17\\times 5) + (18\\times 3) + (19\\times 6) + (22\\times 2) + (29\\times 1) + (33\\times 1)$.\n* $\\Sigma fx = 30 + 85 + 54 + 114 + 44 + 29 + 33 = 389$.\n* Mean = $\\frac{389}{20} = 19.45$.\n* Therefore, the mean mark is **19.45**.\n\n**Part (b)(ii): Median Mark**\n* There are 20 data points (an even number), so the median is the average of the 10th and 11th values when arranged in order.\n* Using cumulative frequencies: The 10th value falls in the group for 18, and the 11th value falls in the group for 19.\n* Median = $\\frac{18 + 19}{2} = 18.5$.\n* Therefore, the median mark is **18.5**.",
-      "rubric": "Award 5 marks:\n\n(a) 2 marks for a completely correct frequency distribution table (1 mark if there are minor tally/frequency errors).\n(b)\n(i) 1 mark for sum (Σfx = 389) or method, 1 mark for correct mean (19.45).\n(b)\n(ii) 1 mark for correct median (18.5).",
+      "rubric": "Award 5 marks:\n\n(a) 2 marks for a completely correct frequency distribution table (1 mark if there are minor tally/frequency errors).\n(b)\n(i) 1 mark for sum (\u03a3fx = 389) or method, 1 mark for correct mean (19.45).\n(b)\n(ii) 1 mark for correct median (18.5).",
       "questionType": "structured",
       "modelImage": "/assets/kjsea_math_2025_q39_answer.svg"
     },

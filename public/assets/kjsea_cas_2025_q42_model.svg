@@ -9,6 +9,7 @@
     .text { font-family: sans-serif; font-size: 14px; fill: #475569; font-style: italic; }
     .clef { font-family: serif; font-size: 80px; }
     .time { font-family: serif; font-size: 24px; font-weight: bold; }
+    .sharp { font-family: serif; font-size: 32px; font-weight: bold; }
   </style>
   
   <g transform="translate(40, 80)">
@@ -20,53 +21,76 @@
     <line x1="0" y1="48" x2="620" y2="48" class="staff"/>
     
     <text x="5" y="48" class="clef" fill="black">&#119070;</text>
-    <text x="55" y="22" class="time" fill="black">4</text>
-    <text x="55" y="44" class="time" fill="black">4</text>
+    <text x="35" y="16" class="sharp" fill="black">&#9839;</text>
+    <text x="55" y="22" class="time" fill="black">C</text>
 
-    <!-- Bar 1: C4 D4 E4 F4 -->
-    <circle cx="100" cy="54" r="5" class="note"/>
-    <line x1="104" y1="54" x2="104" y2="24" class="stem"/>
-    <line x1="94" y1="54" x2="106" y2="54" class="staff"/> <!-- ledger line for C4 -->
+    <!-- Bar 1: G4(crotchet) A4(quaver) B4(quaver) C5(crotchet) D5(crotchet) -->
+    <circle cx="100" cy="36" r="5" class="note"/>
+    <line x1="104" y1="36" x2="104" y2="6" class="stem"/>
 
-    <circle cx="140" cy="48" r="5" class="note"/>
-    <line x1="144" y1="48" x2="144" y2="18" class="stem"/>
+    <circle cx="130" cy="30" r="5" class="note"/>
+    <line x1="134" y1="30" x2="134" y2="0" class="stem"/>
+    <circle cx="150" cy="24" r="5" class="note"/>
+    <line x1="154" y1="24" x2="154" y2="-6" class="stem"/>
+    <!-- Beam -->
+    <line x1="134" y1="0" x2="154" y2="-6" stroke="black" stroke-width="3"/>
 
-    <circle cx="180" cy="42" r="5" class="note"/>
-    <line x1="184" y1="42" x2="184" y2="12" class="stem"/>
+    <circle cx="180" cy="18" r="5" class="note"/>
+    <line x1="176" y1="18" x2="176" y2="48" class="stem"/>
 
-    <circle cx="220" cy="36" r="5" class="note"/>
-    <line x1="224" y1="36" x2="224" y2="6" class="stem"/>
+    <circle cx="210" cy="12" r="5" class="note"/>
+    <line x1="206" y1="12" x2="206" y2="42" class="stem"/>
 
-    <line x1="250" y1="0" x2="250" y2="48" class="barline"/>
+    <line x1="240" y1="0" x2="240" y2="48" class="barline"/>
     
-    <!-- Bar 2: G4 (Minim) + rest -->
-    <ellipse cx="280" cy="30" rx="6" ry="4" fill="transparent" stroke="black" stroke-width="2" transform="rotate(-15 280 30)"/>
-    <line x1="285" y1="30" x2="285" y2="0" class="stem"/>
-    <!-- Half rest on 3rd line -->
-    <rect x="320" y="20" width="12" height="4" fill="black" />
+    <!-- Bar 2: E5,D5(quavers) C5,B4(quavers) A4(minim) -->
+    <circle cx="260" cy="6" r="5" class="note"/>
+    <line x1="256" y1="6" x2="256" y2="36" class="stem"/>
+    <circle cx="280" cy="12" r="5" class="note"/>
+    <line x1="276" y1="12" x2="276" y2="42" class="stem"/>
+    <!-- Beam -->
+    <line x1="256" y1="36" x2="276" y2="42" stroke="black" stroke-width="3"/>
 
-    <line x1="360" y1="0" x2="360" y2="48" class="barline"/>
+    <circle cx="310" cy="18" r="5" class="note"/>
+    <line x1="306" y1="18" x2="306" y2="48" class="stem"/>
+    <circle cx="330" cy="24" r="5" class="note"/>
+    <line x1="326" y1="24" x2="326" y2="54" class="stem"/>
+    <!-- Beam -->
+    <line x1="306" y1="48" x2="326" y2="54" stroke="black" stroke-width="3"/>
+
+    <!-- Minim A4 -->
+    <ellipse cx="370" cy="30" rx="6" ry="4" fill="transparent" stroke="black" stroke-width="2" transform="rotate(-15 370 30)"/>
+    <line x1="375" y1="30" x2="375" y2="0" class="stem"/>
+
+    <line x1="400" y1="0" x2="400" y2="48" class="barline"/>
     <text x="120" y="-20" class="text">Antecedent Phrase</text>
 
-    <!-- Bar 3: A4 G4 F4 E4 -->
-    <circle cx="390" cy="24" r="5" class="note"/>
-    <line x1="394" y1="24" x2="394" y2="-6" class="stem"/>
-    <circle cx="430" cy="30" r="5" class="note"/>
-    <line x1="434" y1="30" x2="434" y2="0" class="stem"/>
-    <circle cx="470" cy="36" r="5" class="note"/>
-    <line x1="474" y1="36" x2="474" y2="6" class="stem"/>
-    <circle cx="510" cy="42" r="5" class="note"/>
-    <line x1="514" y1="42" x2="514" y2="12" class="stem"/>
+    <!-- Bar 3: B4 C5,D5 E5 D5 -->
+    <circle cx="420" cy="24" r="5" class="note"/>
+    <line x1="416" y1="24" x2="416" y2="54" class="stem"/>
 
-    <line x1="540" y1="0" x2="540" y2="48" class="barline"/>
+    <circle cx="450" cy="18" r="5" class="note"/>
+    <line x1="446" y1="18" x2="446" y2="48" class="stem"/>
+    <circle cx="470" cy="12" r="5" class="note"/>
+    <line x1="466" y1="12" x2="466" y2="42" class="stem"/>
+    <!-- Beam -->
+    <line x1="446" y1="48" x2="466" y2="42" stroke="black" stroke-width="3"/>
 
-    <!-- Bar 4: C4 (Semibreve) -->
-    <ellipse cx="580" cy="54" rx="7" ry="5" fill="transparent" stroke="black" stroke-width="2" transform="rotate(-15 580 54)"/>
-    <line x1="570" y1="54" x2="590" y2="54" class="staff"/> <!-- ledger line for C4 -->
+    <circle cx="500" cy="6" r="5" class="note"/>
+    <line x1="496" y1="6" x2="496" y2="36" class="stem"/>
+    <circle cx="530" cy="12" r="5" class="note"/>
+    <line x1="526" y1="12" x2="526" y2="42" class="stem"/>
+
+    <line x1="560" y1="0" x2="560" y2="48" class="barline"/>
+
+    <!-- Bar 4: Minim G4 + Half Rest -->
+    <ellipse cx="580" cy="36" rx="6" ry="4" fill="transparent" stroke="black" stroke-width="2" transform="rotate(-15 580 36)"/>
+    <line x1="585" y1="36" x2="585" y2="6" class="stem"/>
+    <rect x="600" y="20" width="12" height="4" fill="black" />
     
     <line x1="615" y1="0" x2="615" y2="48" class="barline"/>
     <line x1="620" y1="0" x2="620" y2="48" class="barline" style="stroke-width: 4;" />
     
-    <text x="430" y="-20" class="text" fill="#059669">Answering Phrase (Resolves to Tonic)</text>
+    <text x="430" y="-20" class="text" fill="#059669">Answering Phrase</text>
   </g>
 </svg>

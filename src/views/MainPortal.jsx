@@ -155,7 +155,7 @@ export const MainPortal = () => {
         ].map((feat, idx) => (
           <div key={idx} style={{
             background: 'var(--bg-card)',
-            border: '1px solid #e2e8f0',
+            border: '1px solid var(--border)',
             borderRadius: '0.9rem',
             padding: '1rem',
             display: 'flex',
@@ -199,7 +199,7 @@ const PortalCard = ({ onClick, accentColor, gradient, shadowColor, hoverBorder, 
         background: 'var(--bg-card)',
         borderRadius: '1.15rem',
         padding: '1.35rem',
-        border: `1.5px solid ${hov ? hoverBorder : '#e2e8f0'}`,
+        border: `1.5px solid ${hov ? hoverBorder : 'var(--border)'}`,
         boxShadow: hov ? `0 12px 28px -4px ${shadowColor}` : '0 2px 8px rgba(15,23,42,0.05)',
         cursor: 'pointer',
         position: 'relative',
@@ -244,7 +244,7 @@ const PortalCard = ({ onClick, accentColor, gradient, shadowColor, hoverBorder, 
 
       <div style={{ display: 'flex', gap: '0.6rem', flexWrap: 'wrap', marginBottom: '1rem' }}>
         {stats.map((s, i) => (
-          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.74rem', color: 'var(--text-secondary)', background: 'var(--bg-muted)', padding: '0.22rem 0.55rem', borderRadius: '0.45rem', border: '1px solid #e2e8f0' }}>
+          <div key={i} style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', fontSize: '0.74rem', color: 'var(--text-secondary)', background: 'var(--bg-muted)', padding: '0.22rem 0.55rem', borderRadius: '0.45rem', border: '1px solid var(--border)' }}>
             {s.icon} {s.label}
           </div>
         ))}
